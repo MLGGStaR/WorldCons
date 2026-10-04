@@ -1,0 +1,2774 @@
+{
+  "id": "new-york-comic-con",
+  "name": "New York Comic Con",
+  "short": "NYCC",
+  "url": "https://www.newyorkcomiccon.com/",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "anime",
+    "games"
+  ],
+  "blurb": "New York's flagship pop-culture convention at the Javits Center, with comics, film and TV guests, anime voice actors and an artist alley.",
+  "cover": {
+    "file": "pipeline/cache/extract/new-york-comic-con.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Jacob K. Javits Convention Center",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "tickets": "https://www.newyorkcomiccon.com/en-us/buy/tickets.html",
+      "guestsPage": "https://www.newyorkcomiccon.com/en-us/guests/all-guests.html",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/new-york-comic-con.guests.json",
+          "picks": [
+            [
+              2,
+              "Hayden Christensen",
+              "Star Wars",
+              "actor"
+            ],
+            [
+              3,
+              "Idina Menzel",
+              "Wicked, Frozen, RENT, Enchanted",
+              "actor"
+            ],
+            [
+              4,
+              "Nicolas Cage",
+              "Spider-Noir, National Treasure, Ghost Rider",
+              "actor"
+            ],
+            [
+              5,
+              "Rosario Dawson",
+              "Ahsoka, Daredevil, Clerks III",
+              "actor"
+            ],
+            [
+              6,
+              "Sebastian Stan",
+              "Thunderbolts*, Avengers: Infinity War & Endgame",
+              "actor"
+            ],
+            [
+              7,
+              "Adam McArthur",
+              "Demon Slayer, My Hero Academia",
+              "voice"
+            ],
+            [
+              8,
+              "Adi Granov",
+              "Marvel cover artist",
+              "comics"
+            ],
+            [
+              9,
+              "Adriana Mather",
+              "Alchemy of Souls",
+              "author"
+            ],
+            [
+              10,
+              "Adrianne Palicki",
+              "Agents of S.H.I.E.L.D., Friday Night Lights",
+              "actor"
+            ],
+            [
+              11,
+              "Agnes Garbowska",
+              "My Little Pony, DC Super Hero Girls",
+              "comics"
+            ],
+            [
+              12,
+              "Ahmed Best",
+              "Star Wars: Jar Jar Binks",
+              "actor"
+            ],
+            [
+              13,
+              "Al Ewing",
+              "All-New Venom, Immortal Hulk",
+              "comics"
+            ],
+            [
+              14,
+              "Al Milgrom",
+              "Spectacular Spider-Man, Amazing Spider-Man",
+              "comics"
+            ],
+            [
+              15,
+              "Alex Segura",
+              "Star Wars, Alter Ego",
+              "author"
+            ],
+            [
+              16,
+              "Alex Sinclair",
+              "Batman: Hush colorist",
+              "comics"
+            ],
+            [
+              17,
+              "Alex Singer",
+              "Angel: Country",
+              "comics"
+            ],
+            [
+              18,
+              "Alexandria Bellefleur",
+              "Damned If I Do",
+              "author"
+            ],
+            [
+              19,
+              "Alfredo Cardona",
+              "ThunderCats",
+              "comics"
+            ],
+            [
+              20,
+              "Alice Cooper",
+              "Rock and Roll Hall of Fame inductee",
+              "music"
+            ],
+            [
+              21,
+              "Allison King",
+              "The Last Airbender, Phoenix Pencil Company",
+              "author"
+            ],
+            [
+              22,
+              "Ally North",
+              "Bloom Town: Genesis",
+              "comics"
+            ],
+            [
+              23,
+              "Alyson Leigh Rosenfeld",
+              "Pokemon XY, Winx Club, Yu-Gi-Oh!",
+              "voice"
+            ],
+            [
+              24,
+              "Alyssa Wong",
+              "Star Wars: Doctor Aphra, Psylocke",
+              "comics"
+            ],
+            [
+              25,
+              "Amanda Conner",
+              "Harley Quinn, Power Girl",
+              "comics"
+            ],
+            [
+              26,
+              "Amy Chu",
+              "Emma Frost: White Queen",
+              "comics"
+            ],
+            [
+              27,
+              "Andre Santana",
+              "The Secret Dinner, Red City",
+              "comics"
+            ],
+            [
+              28,
+              "Anika Fajardo",
+              "A Twisted Tale: Waiting on a Miracle",
+              "author"
+            ],
+            [
+              29,
+              "Anna Bright",
+              "Wings of Reverie",
+              "author"
+            ],
+            [
+              30,
+              "Annabelle Oh",
+              "",
+              "other"
+            ],
+            [
+              31,
+              "Annalee Newitz",
+              "A Wall is Also a Road",
+              "author"
+            ],
+            [
+              32,
+              "Aparna Verma",
+              "The Phoenix King",
+              "author"
+            ],
+            [
+              33,
+              "Ariana Richards",
+              "Jurassic Park",
+              "actor"
+            ],
+            [
+              34,
+              "Ariel Diaz",
+              "Absolute Batman, Spider-Man art",
+              "comics"
+            ],
+            [
+              35,
+              "Autumn K. England",
+              "Field Guide for the Formerly Villainous",
+              "author"
+            ],
+            [
+              36,
+              "B. K. Borison",
+              "Grim Tidings",
+              "author"
+            ],
+            [
+              37,
+              "Babs Tarr",
+              "Batgirl of Burnside",
+              "comics"
+            ],
+            [
+              38,
+              "Balam",
+              "Hawkeye",
+              "comics"
+            ],
+            [
+              39,
+              "Barbara Perez Marquez",
+              "The Cardboard Kingdom",
+              "author"
+            ],
+            [
+              40,
+              "BD Wong",
+              "Jurassic Park, Mulan, Mr. Robot",
+              "actor"
+            ],
+            [
+              41,
+              "Becky Chambers",
+              "The Long Way to a Small Angry Planet",
+              "author"
+            ],
+            [
+              42,
+              "Becky Cloonan",
+              "Wonder Woman, Killjoys",
+              "comics"
+            ],
+            [
+              43,
+              "Becky Spratford",
+              "Reader's Advisory Guide to Horror",
+              "author"
+            ],
+            [
+              44,
+              "Bel Banta",
+              "The Court of Venus",
+              "author"
+            ],
+            [
+              45,
+              "Belen Ortega",
+              "Trinity, Batman: Urban Legends",
+              "comics"
+            ],
+            [
+              46,
+              "Ben Passmore",
+              "Black Arms to Hold You Up",
+              "comics"
+            ],
+            [
+              47,
+              "Ben Percy",
+              "Wolverine, Ghost Rider",
+              "comics"
+            ],
+            [
+              48,
+              "Ben Starr",
+              "Clair Obscur: Expedition 33, Final Fantasy XVI",
+              "voice"
+            ],
+            [
+              49,
+              "Ben Wilgus",
+              "Avatar Legends encyclopedia",
+              "author"
+            ],
+            [
+              50,
+              "Beth Revis",
+              "Witch and Hunter",
+              "author"
+            ],
+            [
+              51,
+              "Bill Barretta",
+              "The Muppets, Sesame Street",
+              "voice"
+            ],
+            [
+              52,
+              "Bill Sienkiewicz",
+              "Elektra: Assassin",
+              "comics"
+            ],
+            [
+              53,
+              "Billy Gunn",
+              "AEW, WWE",
+              "sports"
+            ],
+            [
+              54,
+              "Bilquis Evely",
+              "Supergirl, Wonder Woman",
+              "comics"
+            ],
+            [
+              55,
+              "Bitsie Tulloch",
+              "Superman & Lois, Grimm",
+              "actor"
+            ],
+            [
+              56,
+              "Bonnie Erickson",
+              "Muppets designer",
+              "other"
+            ],
+            [
+              57,
+              "Bree Mina",
+              "Wrecked, Revived",
+              "author"
+            ],
+            [
+              58,
+              "Brent Reidy",
+              "NYPL Director of Research Libraries",
+              "other"
+            ],
+            [
+              59,
+              "Brett Bean",
+              "Zoo Patrol Squad, Rocket and Groot",
+              "comics"
+            ],
+            [
+              60,
+              "Brian Azzarello",
+              "Batman: Damned, Suicide Squad",
+              "comics"
+            ],
+            [
+              61,
+              "Brian Mariotti",
+              "CEO Thrilljoy, former Funko CEO",
+              "other"
+            ],
+            [
+              62,
+              "C. Davitt Bell",
+              "Slipping, Little Blog on the Prairie",
+              "author"
+            ],
+            [
+              63,
+              "Cal Dodd",
+              "Wolverine in X-Men: The Animated Series",
+              "voice"
+            ],
+            [
+              64,
+              "Cara McGee",
+              "Black Canary: Ignite",
+              "comics"
+            ],
+            [
+              65,
+              "Carla Cohen",
+              "DC, Zenescope cover artist",
+              "comics"
+            ],
+            [
+              66,
+              "Carlos Valdes",
+              "The Flash, Hadestown",
+              "actor"
+            ],
+            [
+              67,
+              "Carrie-Anne Moss",
+              "The Matrix, Jessica Jones",
+              "actor"
+            ],
+            [
+              68,
+              "Casey McQuiston",
+              "Red, White & Royal Blue",
+              "author"
+            ],
+            [
+              69,
+              "Charisma Carpenter",
+              "Buffy the Vampire Slayer, Angel",
+              "actor"
+            ],
+            [
+              70,
+              "Charles Soule",
+              "Star Wars, 8 Billion Genies",
+              "comics"
+            ],
+            [
+              71,
+              "Charlie Cox",
+              "Daredevil: Born Again",
+              "actor"
+            ],
+            [
+              72,
+              "Che Grayson",
+              "Absolute Catwoman",
+              "comics"
+            ],
+            [
+              73,
+              "Chelsea Abdullah",
+              "The Sandsea Trilogy",
+              "author"
+            ],
+            [
+              74,
+              "Chip Kidd",
+              "Batman: Death by Design",
+              "author"
+            ],
+            [
+              75,
+              "Chloe Brailsford",
+              "Catwoman, Sabrina the Teenage Witch",
+              "comics"
+            ],
+            [
+              76,
+              "Chloe Williams",
+              "",
+              "other"
+            ],
+            [
+              77,
+              "Chris Claremont",
+              "Wolverine, X-Men, New Mutants",
+              "comics"
+            ],
+            [
+              78,
+              "Chris Potter",
+              "Gambit in X-Men: The Animated Series",
+              "voice"
+            ],
+            [
+              79,
+              "Christian Slater",
+              "Mr. Robot, True Romance",
+              "actor"
+            ],
+            [
+              80,
+              "Christina Henry",
+              "Good Girls Don't Die, Near the Bone",
+              "author"
+            ],
+            [
+              81,
+              "Christopher Rice",
+              "Interview with the Vampire",
+              "author"
+            ],
+            [
+              82,
+              "Chuck Klosterman",
+              "The Nineties",
+              "author"
+            ],
+            [
+              83,
+              "Cindy Pham",
+              "The Secret World of Briar Rose",
+              "author"
+            ],
+            [
+              84,
+              "CJ Pawlikowski",
+              "Cookie Run Kingdom: Shadow Milk Cookie",
+              "voice"
+            ],
+            [
+              85,
+              "Clay Mann",
+              "Batman and Catwoman",
+              "comics"
+            ],
+            [
+              86,
+              "Cliff Chiang",
+              "Paper Girls, Wonder Woman",
+              "comics"
+            ],
+            [
+              87,
+              "Clemence Michallon",
+              "Our Last Resort",
+              "author"
+            ],
+            [
+              88,
+              "Cody Ziglar",
+              "Spider-Punk, Futurama",
+              "comics"
+            ],
+            [
+              89,
+              "Collin Kelly",
+              "Giant-Sized X-Men",
+              "comics"
+            ],
+            [
+              90,
+              "Creees Lee",
+              "Tiger Division",
+              "comics"
+            ],
+            [
+              91,
+              "Dan Mora",
+              "Batman/Deadpool, Absolute Batman",
+              "comics"
+            ],
+            [
+              92,
+              "Dan Panosian",
+              "Conan, Canary",
+              "comics"
+            ],
+            [
+              93,
+              "Dana Walrath",
+              "The Book of Genocides",
+              "author"
+            ],
+            [
+              94,
+              "Daniel Henriques",
+              "The Curse of Sherlee Johnson",
+              "author"
+            ],
+            [
+              95,
+              "Daniel Warren Johnson",
+              "Do a Powerbomb, Murder Falcon",
+              "comics"
+            ],
+            [
+              96,
+              "Danielle Panabaker",
+              "The Flash, Sky High",
+              "actor"
+            ],
+            [
+              97,
+              "Danny Haas",
+              "Star Wars",
+              "other"
+            ],
+            [
+              98,
+              "Danny Pudi",
+              "Community, Mythic Quest",
+              "actor"
+            ],
+            [
+              99,
+              "Dave Goelz",
+              "The Muppets, Fraggle Rock",
+              "voice"
+            ],
+            [
+              100,
+              "Dave Roman",
+              "Astronaut Academy, Unicorn Boy",
+              "comics"
+            ],
+            [
+              101,
+              "David Kaye",
+              "Inuyasha, Transformers",
+              "voice"
+            ],
+            [
+              102,
+              "David Matranga",
+              "My Hero Academia, Attack on Titan",
+              "voice"
+            ],
+            [
+              103,
+              "David Nakayama",
+              "Marvel/DC/Image cover artist",
+              "comics"
+            ],
+            [
+              104,
+              "David Pepose",
+              "Fantastic Four, Moon Knight",
+              "comics"
+            ],
+            [
+              105,
+              "Declan Shalvey",
+              "ThunderCats, Terminator",
+              "comics"
+            ],
+            [
+              106,
+              "Deena Helm",
+              "Our Cut of Salt",
+              "author"
+            ],
+            [
+              107,
+              "Delilah S. Dawson",
+              "Malevolent Souls",
+              "author"
+            ],
+            [
+              108,
+              "Deniz Camp",
+              "The 20th Century Man",
+              "comics"
+            ],
+            [
+              109,
+              "Derek Hunter",
+              "Adventure Time, The Walking Dead",
+              "comics"
+            ],
+            [
+              110,
+              "Don Aguillo",
+              "King Spawn, Aquaman",
+              "comics"
+            ],
+            [
+              111,
+              "Doug Mahnke",
+              "Batman, Green Lantern",
+              "comics"
+            ],
+            [
+              112,
+              "Dr. Chris Kempshall",
+              "Star Wars history books",
+              "author"
+            ],
+            [
+              113,
+              "Dr. Katherine Cartwright",
+              "",
+              "other"
+            ],
+            [
+              114,
+              "Dustin Nguyen",
+              "Batman, Descender",
+              "comics"
+            ],
+            [
+              115,
+              "Ed Brisson",
+              "Old Man Logan, Predator",
+              "comics"
+            ],
+            [
+              116,
+              "Edgar Salazar",
+              "Wolverine, Civil War Unmasked",
+              "comics"
+            ],
+            [
+              117,
+              "Elizabeth Agyemang",
+              "A Beginner's Guide to Leveling Up",
+              "author"
+            ],
+            [
+              118,
+              "Ellery",
+              "Vampirella",
+              "comics"
+            ],
+            [
+              119,
+              "Emery Robin",
+              "The Stars Undying",
+              "author"
+            ],
+            [
+              120,
+              "Emil Ferris",
+              "My Favorite Thing is Monsters",
+              "comics"
+            ],
+            [
+              121,
+              "Emily Rose",
+              "Uncharted",
+              "voice"
+            ],
+            [
+              122,
+              "Emma Brodie",
+              "Into the Blue",
+              "author"
+            ],
+            [
+              123,
+              "Emma C. Wells",
+              "This Girl's a Killer",
+              "author"
+            ],
+            [
+              124,
+              "Emma Kubert",
+              "Inkblot, Radiant Pink",
+              "comics"
+            ],
+            [
+              125,
+              "Eoin Colfer",
+              "Artemis Fowl",
+              "author"
+            ],
+            [
+              126,
+              "Eric Jacobson",
+              "The Muppets, Sesame Street",
+              "voice"
+            ],
+            [
+              127,
+              "Eric LaRocca",
+              "Wretch",
+              "author"
+            ],
+            [
+              128,
+              "Eric Palicki",
+              "Marvel, Mad Cave comics",
+              "comics"
+            ],
+            [
+              129,
+              "Eric Shaw Quinn",
+              "Say Uncle",
+              "author"
+            ],
+            [
+              130,
+              "Erica Durance",
+              "Smallville",
+              "actor"
+            ],
+            [
+              131,
+              "Erica Henderson",
+              "Unbeatable Squirrel Girl, Jughead",
+              "comics"
+            ],
+            [
+              132,
+              "Erik Larsen",
+              "Savage Dragon, Amazing Spider-Man",
+              "comics"
+            ],
+            [
+              133,
+              "Ethan Sacks",
+              "Star Wars, Midnight Suns",
+              "comics"
+            ],
+            [
+              134,
+              "Famke Janssen",
+              "X-Men, GoldenEye, Taken",
+              "actor"
+            ],
+            [
+              135,
+              "Fancy Feast",
+              "Naked: On Sex, Work, and Other Burlesques",
+              "author"
+            ],
+            [
+              136,
+              "Fiona Davis",
+              "The Stolen Queen",
+              "author"
+            ],
+            [
+              137,
+              "Fran Delgado",
+              "TMNT, Gatchaman",
+              "comics"
+            ],
+            [
+              138,
+              "Francesco Tomaselli",
+              "Absolute Batman",
+              "comics"
+            ],
+            [
+              139,
+              "Frank Cho",
+              "Harley Quinn, Liberty Meadows",
+              "comics"
+            ],
+            [
+              140,
+              "Frank Martin",
+              "Absolute Batman, Daredevil colorist",
+              "comics"
+            ],
+            [
+              141,
+              "Frank Miller",
+              "Sin City, Daredevil",
+              "comics"
+            ],
+            [
+              142,
+              "Frank Tieri",
+              "Old Lady Harley, Red Sonja",
+              "comics"
+            ],
+            [
+              143,
+              "Gabriel Picolo",
+              "Teen Titans",
+              "comics"
+            ],
+            [
+              144,
+              "Gale Galligan",
+              "Baby-sitters Club",
+              "comics"
+            ],
+            [
+              145,
+              "Gareth Hinds",
+              "The Odyssey graphic novel",
+              "comics"
+            ],
+            [
+              146,
+              "Geof Darrow",
+              "Shaolin Cowboy, Hard Boiled",
+              "comics"
+            ],
+            [
+              147,
+              "Godtail",
+              "Marvel Rivals Ignite",
+              "comics"
+            ],
+            [
+              148,
+              "Grady Hendrix",
+              "How to Sell a Haunted House",
+              "author"
+            ],
+            [
+              149,
+              "Grant Gustin",
+              "The Flash, Arrow",
+              "actor"
+            ],
+            [
+              150,
+              "Greg Capullo",
+              "Batman, Spawn",
+              "comics"
+            ],
+            [
+              151,
+              "Greg Pak",
+              "ThunderCats, Planet of the Apes",
+              "comics"
+            ],
+            [
+              152,
+              "H. M. Wolfe",
+              "Daggermouth",
+              "author"
+            ],
+            [
+              153,
+              "Hanna Harp",
+              "Haunting the Hunter",
+              "author"
+            ],
+            [
+              154,
+              "Haven Burton Paschall",
+              "Pokemon",
+              "voice"
+            ],
+            [
+              155,
+              "Hayden Sherman",
+              "Absolute Wonder Woman",
+              "comics"
+            ],
+            [
+              156,
+              "Helen Laser",
+              "The Wedding People",
+              "author"
+            ],
+            [
+              157,
+              "Humberto Ramos",
+              "Amazing Spider-Man, Fantastic Four",
+              "comics"
+            ],
+            [
+              158,
+              "Ian Bertram",
+              "Little Bird, Precious Metal",
+              "comics"
+            ],
+            [
+              159,
+              "Ian McDiarmid",
+              "Star Wars",
+              "actor"
+            ],
+            [
+              160,
+              "Ian Sinclair",
+              "One Piece, Dragon Ball Super",
+              "voice"
+            ],
+            [
+              161,
+              "Insha Fitzpatrick",
+              "Devilfish Bay",
+              "author"
+            ],
+            [
+              162,
+              "Isaac Goodhart",
+              "Under the Moon, Wonder Woman",
+              "comics"
+            ],
+            [
+              163,
+              "Isabel Kim",
+              "Sublimation",
+              "author"
+            ],
+            [
+              164,
+              "I.V. Ophelia",
+              "The Poisoner, Arachnid",
+              "author"
+            ],
+            [
+              165,
+              "Ivelisse Housman",
+              "Til Quest Do Us Part",
+              "author"
+            ],
+            [
+              166,
+              "Jackson Lanzing",
+              "Giant-Sized X-Men, Star Trek",
+              "comics"
+            ],
+            [
+              167,
+              "Jacob Phillips",
+              "Everything Dead & Dying",
+              "comics"
+            ],
+            [
+              168,
+              "Jacoby Salcedo",
+              "This Land Is Our Land",
+              "comics"
+            ],
+            [
+              169,
+              "Jade Adia",
+              "Camp Half-Blood series",
+              "author"
+            ],
+            [
+              170,
+              "Jae Lee",
+              "Batman/Superman, Dark Tower",
+              "comics"
+            ],
+            [
+              171,
+              "Jamal Igle",
+              "Supergirl, The Wrong Earth",
+              "comics"
+            ],
+            [
+              172,
+              "James Mendez Hodes",
+              "Avatar Legends RPG designer",
+              "gaming"
+            ],
+            [
+              173,
+              "James Tynion IV",
+              "Something is Killing the Children",
+              "comics"
+            ],
+            [
+              174,
+              "Jamie Campbell Bower",
+              "Stranger Things, Twilight",
+              "actor"
+            ],
+            [
+              175,
+              "Jamie Kennedy",
+              "Scream",
+              "actor"
+            ],
+            [
+              176,
+              "Janelle Asselin",
+              "",
+              "other"
+            ],
+            [
+              177,
+              "Jarrett Melendez",
+              "Chef's Kiss",
+              "author"
+            ],
+            [
+              178,
+              "Jason Aaron",
+              "Absolute Superman, Thor",
+              "comics"
+            ],
+            [
+              179,
+              "Jason Howard",
+              "Transformers, Astounding Wolf-Man",
+              "comics"
+            ],
+            [
+              180,
+              "Jason Rekulak",
+              "Hidden Pictures",
+              "author"
+            ],
+            [
+              181,
+              "Javi Fernandez",
+              "Absolute Batman",
+              "comics"
+            ],
+            [
+              182,
+              "Javier Rodriguez",
+              "Martian Manhunter, Defenders",
+              "comics"
+            ],
+            [
+              183,
+              "Jay Goede",
+              "Pokemon: Mewtwo/Dr. Fuji",
+              "voice"
+            ],
+            [
+              184,
+              "Jean Kwok",
+              "Girl in Translation",
+              "author"
+            ],
+            [
+              185,
+              "Jeff Hays",
+              "Dungeon Crawler Carl narrator",
+              "voice"
+            ],
+            [
+              186,
+              "Jelena Djurdjevic",
+              "Spider-Man, Spider-Girl covers",
+              "comics"
+            ],
+            [
+              187,
+              "Jen Calonita",
+              "Secrets of My Hollywood Life",
+              "author"
+            ],
+            [
+              188,
+              "Jen Taylor",
+              "Halo, RWBY",
+              "voice"
+            ],
+            [
+              189,
+              "Jen Xu",
+              "Haven and the Fallen Giants",
+              "comics"
+            ],
+            [
+              190,
+              "Jeneva Rose",
+              "The Perfect Marriage",
+              "author"
+            ],
+            [
+              191,
+              "Jenna Cha",
+              "The Sickness, Black Stars Above",
+              "comics"
+            ],
+            [
+              192,
+              "Jennifer English",
+              "Baldur's Gate 3",
+              "voice"
+            ],
+            [
+              193,
+              "Jerome Opena",
+              "Avengers, Justice League",
+              "comics"
+            ],
+            [
+              194,
+              "Jill Harris",
+              "Black Clover, Frieren",
+              "voice"
+            ],
+            [
+              195,
+              "Jim Cummings",
+              "Winnie the Pooh, Darkwing Duck",
+              "voice"
+            ],
+            [
+              196,
+              "Jim Lee",
+              "Batman: Hush",
+              "comics"
+            ],
+            [
+              197,
+              "Jim Rash",
+              "Community, Harley Quinn",
+              "actor"
+            ],
+            [
+              198,
+              "Jim Starlin",
+              "Thanos, Infinity Gauntlet",
+              "comics"
+            ],
+            [
+              199,
+              "Jim Zub",
+              "Conan, Rick and Morty",
+              "comics"
+            ],
+            [
+              200,
+              "Jimmy Palmiotti",
+              "Punisher, Daredevil",
+              "comics"
+            ],
+            [
+              201,
+              "Jive Poetic",
+              "Brooklyn Poetry Slam host",
+              "other"
+            ],
+            [
+              202,
+              "Jock",
+              "Batman, Wytches",
+              "comics"
+            ],
+            [
+              203,
+              "Jody Houser",
+              "Critical Role: Vox Machina",
+              "comics"
+            ],
+            [
+              204,
+              "Joe Lo Truglio",
+              "Brooklyn 99, Superbad",
+              "actor"
+            ],
+            [
+              205,
+              "Joe Quesada",
+              "Daredevil, Black Panther",
+              "comics"
+            ],
+            [
+              206,
+              "Joe Rohde",
+              "Walt Disney Imagineering",
+              "other"
+            ],
+            [
+              207,
+              "Joe Sutphin",
+              "Winnie-the-Pooh graphic novel",
+              "comics"
+            ],
+            [
+              208,
+              "Joel McHale",
+              "Community, The Soup",
+              "actor"
+            ],
+            [
+              209,
+              "John Cusack",
+              "Say Anything, Grosse Pointe Blank",
+              "actor"
+            ],
+            [
+              210,
+              "John J. Pearson",
+              "The Patron, The Infernals",
+              "author"
+            ],
+            [
+              211,
+              "John Scalzi",
+              "Starter Villain, Old Man's War",
+              "author"
+            ],
+            [
+              212,
+              "John Tyler Christopher",
+              "Amazing Spider-Man, Star Wars",
+              "comics"
+            ],
+            [
+              213,
+              "John Wesley Shipp",
+              "The Flash, Dawson's Creek",
+              "actor"
+            ],
+            [
+              214,
+              "Jon Hamm",
+              "",
+              "actor"
+            ],
+            [
+              215,
+              "Jonathan Glapion",
+              "King Spawn",
+              "comics"
+            ],
+            [
+              216,
+              "Jonell Joshua",
+              "How Do I Draw These Memories?",
+              "comics"
+            ],
+            [
+              217,
+              "Jordan Hembrough",
+              "Our Star Wars Stories",
+              "other"
+            ],
+            [
+              218,
+              "Jorge Aguirre",
+              "Monster Locker",
+              "comics"
+            ],
+            [
+              219,
+              "Jorge Fornes",
+              "Rorschach, Justice League",
+              "comics"
+            ],
+            [
+              220,
+              "Joseph Mazzello",
+              "Jurassic Park",
+              "actor"
+            ],
+            [
+              221,
+              "Joshua Williamson",
+              "Batman, The Flash",
+              "comics"
+            ],
+            [
+              222,
+              "J.R. Ward",
+              "Black Dagger Brotherhood",
+              "author"
+            ],
+            [
+              223,
+              "Juan Samu",
+              "Harley Quinn x Elvira",
+              "comics"
+            ],
+            [
+              224,
+              "Jules Mamone",
+              "Geiger, Absolute Batman covers",
+              "comics"
+            ],
+            [
+              225,
+              "Julia Edelstein",
+              "New York Magazine editor",
+              "other"
+            ],
+            [
+              226,
+              "Julia Riew",
+              "Dive musical, YA fantasy novel",
+              "author"
+            ],
+            [
+              227,
+              "Julie Strauss-Gabel",
+              "",
+              "other"
+            ],
+            [
+              228,
+              "Julio Anta",
+              "Fronterra, Blue Beetle",
+              "comics"
+            ],
+            [
+              229,
+              "Junko Takeuchi",
+              "Voice of Naruto Uzumaki",
+              "voice"
+            ],
+            [
+              230,
+              "Justin Colon",
+              "Vampurr",
+              "comics"
+            ],
+            [
+              231,
+              "Kaare Andrews",
+              "Spider-Man and Wolverine",
+              "comics"
+            ],
+            [
+              232,
+              "Kami Garcia",
+              "Teen Titans, Beautiful Creatures",
+              "author"
+            ],
+            [
+              233,
+              "Kane",
+              "WWE Hall of Famer",
+              "sports"
+            ],
+            [
+              234,
+              "Kane Hodder",
+              "Friday the 13th, Hatchet",
+              "actor"
+            ],
+            [
+              235,
+              "Kate Rhodes",
+              "Haven and the Fallen Giants",
+              "comics"
+            ],
+            [
+              236,
+              "Katherine Arden",
+              "Winternight Trilogy",
+              "author"
+            ],
+            [
+              237,
+              "Katie Cook",
+              "Star Wars, My Little Pony",
+              "comics"
+            ],
+            [
+              238,
+              "Kayla Miller",
+              "Click",
+              "comics"
+            ],
+            [
+              239,
+              "Keith Silverstein",
+              "Hunter x Hunter, Overwatch",
+              "voice"
+            ],
+            [
+              240,
+              "Ken Jeong",
+              "Community, The Hangover",
+              "actor"
+            ],
+            [
+              241,
+              "Kenny Porter",
+              "Superboy, The Flash",
+              "comics"
+            ],
+            [
+              242,
+              "Kent Williams",
+              "One Piece, Fullmetal Alchemist",
+              "voice"
+            ],
+            [
+              243,
+              "Kevan Chandler",
+              "Winnie-the-Pooh graphic novel",
+              "other"
+            ],
+            [
+              244,
+              "Keven Mallqui",
+              "Transformers, Dungeon Crawler Carl covers",
+              "comics"
+            ],
+            [
+              245,
+              "Kevin J. Anderson",
+              "Dune Messiah graphic novel",
+              "author"
+            ],
+            [
+              246,
+              "Kiersten White",
+              "Hope is a Knife",
+              "author"
+            ],
+            [
+              247,
+              "Kim-Joy",
+              "Great British Bake Off",
+              "other"
+            ],
+            [
+              248,
+              "Kirsty Rider",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              249,
+              "Konosuke Takeshita",
+              "AEW, NJPW",
+              "sports"
+            ],
+            [
+              250,
+              "Kristen Kreuk",
+              "Smallville",
+              "actor"
+            ],
+            [
+              251,
+              "Kristin Baver",
+              "Star Wars art books",
+              "author"
+            ],
+            [
+              252,
+              "Kristopher Triana",
+              "Gone to See the River Man",
+              "author"
+            ],
+            [
+              253,
+              "Kristy Boyce",
+              "Gaming and Romance series",
+              "author"
+            ],
+            [
+              254,
+              "Krystal Lang",
+              "Moderator",
+              "other"
+            ],
+            [
+              255,
+              "Krysten Ritter",
+              "Jessica Jones, Breaking Bad",
+              "actor"
+            ],
+            [
+              256,
+              "Kwanza Osajyefo",
+              "Black, America's Sweetheart",
+              "comics"
+            ],
+            [
+              257,
+              "Kyle Higgins",
+              "Radiant Black, Power Rangers",
+              "comics"
+            ],
+            [
+              258,
+              "Kyle Lukoff",
+              "Camp Half-Blood series",
+              "author"
+            ],
+            [
+              259,
+              "Kyle MacLachlan",
+              "Twin Peaks, Dune",
+              "actor"
+            ],
+            [
+              260,
+              "L. K. Stevens",
+              "The Silvercloak Saga",
+              "author"
+            ],
+            [
+              261,
+              "Leandro Fernandez",
+              "Batman: Gotham by Gaslight",
+              "comics"
+            ],
+            [
+              262,
+              "Lee Bermejo",
+              "Batman: Damned",
+              "comics"
+            ],
+            [
+              263,
+              "Lee Garbett",
+              "Daredevil, Batman",
+              "comics"
+            ],
+            [
+              264,
+              "Lee Waddell",
+              "Scream, X-Men: First Class",
+              "actor"
+            ],
+            [
+              265,
+              "Leirix",
+              "Sorcerer Supreme",
+              "comics"
+            ],
+            [
+              266,
+              "Lena Headey",
+              "Game of Thrones, 300",
+              "actor"
+            ],
+            [
+              267,
+              "Leopoldo Gout",
+              "Pinata, Genius trilogy",
+              "author"
+            ],
+            [
+              268,
+              "Lexie Axelson",
+              "The Cabin in the Storm",
+              "author"
+            ],
+            [
+              269,
+              "Lictoria",
+              "Antidote Odyssey",
+              "comics"
+            ],
+            [
+              270,
+              "Lily Kim Qian",
+              "Until We Meet Again",
+              "author"
+            ],
+            [
+              271,
+              "Liz Braswell",
+              "Twisted Tales",
+              "author"
+            ],
+            [
+              272,
+              "Luana Vecchio",
+              "Lovesick, Doll Parts",
+              "comics"
+            ],
+            [
+              273,
+              "Lucio Parrillo",
+              "Marvel/DC/Vampirella cover artist",
+              "comics"
+            ],
+            [
+              274,
+              "M. K. Perker",
+              "Super Science, Weekly World News",
+              "comics"
+            ],
+            [
+              275,
+              "Maddie Martinez",
+              "The Maiden and Her Monster",
+              "author"
+            ],
+            [
+              276,
+              "Madison Tyler Nelson",
+              "Portrait of a Haunting",
+              "author"
+            ],
+            [
+              277,
+              "Maggie Lovitt",
+              "Deputy News Editor at Collider",
+              "other"
+            ],
+            [
+              278,
+              "Marc Guggenheim",
+              "X-Men, Arrow, Star Wars",
+              "comics"
+            ],
+            [
+              279,
+              "Marc Silvestri",
+              "Witchblade, The Darkness",
+              "comics"
+            ],
+            [
+              280,
+              "Margeaux Pepoy",
+              "The Simpsons, Fables",
+              "comics"
+            ],
+            [
+              281,
+              "Maria Wolf",
+              "Women of Marvel, Ghost Rider",
+              "comics"
+            ],
+            [
+              282,
+              "Mariya Ise",
+              "Hunter x Hunter, Chainsaw Man",
+              "voice"
+            ],
+            [
+              283,
+              "Mark Bagley",
+              "Amazing Spider-Man, Batman",
+              "comics"
+            ],
+            [
+              284,
+              "Mark Brooks",
+              "Absolute Batman, X-Men",
+              "comics"
+            ],
+            [
+              285,
+              "Marker Snyder",
+              "First Kiss with Fangs",
+              "author"
+            ],
+            [
+              286,
+              "Marko Djurdjevic",
+              "Ultimate Fallout #4 cover",
+              "comics"
+            ],
+            [
+              287,
+              "Marshall J. Moore",
+              "The Henchperson's Guide to Unionizing",
+              "author"
+            ],
+            [
+              288,
+              "Marshawn Lynch",
+              "Seahawks RB, Euphoria, Bottoms",
+              "sports"
+            ],
+            [
+              289,
+              "Martin Simmonds",
+              "Department of Truth, Dracula",
+              "comics"
+            ],
+            [
+              290,
+              "Marty Grabstein",
+              "Courage the Cowardly Dog",
+              "voice"
+            ],
+            [
+              291,
+              "Matheus Lopes",
+              "Supergirl, Helen of Wyndhorn",
+              "comics"
+            ],
+            [
+              292,
+              "Matt Dinniman",
+              "Dungeon Crawler Carl",
+              "author"
+            ],
+            [
+              293,
+              "Matt Gaudio",
+              "Avengers, John Wick art",
+              "comics"
+            ],
+            [
+              294,
+              "Matt Hawkins",
+              "Aphrodite IX, Postal",
+              "comics"
+            ],
+            [
+              295,
+              "Matt Smith",
+              "Doctor Who, House of the Dragon",
+              "actor"
+            ],
+            [
+              296,
+              "Matt Vogel",
+              "The Muppets, Sesame Street",
+              "voice"
+            ],
+            [
+              297,
+              "Matteo Scalera",
+              "Black Science, Batman",
+              "comics"
+            ],
+            [
+              298,
+              "Matthew David Rudd",
+              "One Piece, JoJo's Bizarre Adventure",
+              "voice"
+            ],
+            [
+              299,
+              "Matthew Lillard",
+              "Scream, Scooby-Doo",
+              "actor"
+            ],
+            [
+              300,
+              "Matthew Reinhart",
+              "Harry Potter pop-up books",
+              "author"
+            ],
+            [
+              301,
+              "Max Fiumara",
+              "Lucifer, Hellboy",
+              "comics"
+            ],
+            [
+              302,
+              "Maxi Dall'O",
+              "Lost Fantasy, Mad Dog Morgan",
+              "comics"
+            ],
+            [
+              303,
+              "Meg Cabot",
+              "The Princess Diaries",
+              "author"
+            ],
+            [
+              304,
+              "Megan Bayne",
+              "AEW",
+              "sports"
+            ],
+            [
+              305,
+              "Megan Huang",
+              "Harley Quinn, Star Wars",
+              "comics"
+            ],
+            [
+              306,
+              "Megan Shepherd",
+              "Pumpkin Queen series",
+              "author"
+            ],
+            [
+              307,
+              "Meghan Fitzmartin",
+              "Robin, Tim Drake",
+              "comics"
+            ],
+            [
+              308,
+              "Melissa Benoist",
+              "Supergirl, Glee",
+              "actor"
+            ],
+            [
+              309,
+              "Melissa Flores",
+              "Power Rangers, Dead Lucky",
+              "comics"
+            ],
+            [
+              310,
+              "Melissa Fumero",
+              "Brooklyn 99, Velma",
+              "actor"
+            ],
+            [
+              311,
+              "Michael Cudlitz",
+              "Superman & Lois, The Walking Dead",
+              "actor"
+            ],
+            [
+              312,
+              "Michael Dialynas",
+              "Wynd, TMNT",
+              "comics"
+            ],
+            [
+              313,
+              "Michael Rosenbaum",
+              "Smallville, Justice League Unlimited",
+              "actor"
+            ],
+            [
+              314,
+              "Michael Siglain",
+              "Star Wars: The Mandalorian and Grogu",
+              "author"
+            ],
+            [
+              315,
+              "Michael W. Conrad",
+              "Magic: The Gathering, Wonder Woman",
+              "comics"
+            ],
+            [
+              316,
+              "Mick Foley",
+              "WWE, AEW, TNA",
+              "sports"
+            ],
+            [
+              317,
+              "Mico Suayan",
+              "Crow, Absolute Batman #25 cover",
+              "comics"
+            ],
+            [
+              318,
+              "Mike Cavallaro",
+              "Eowulf: Of Monsters & Middle School",
+              "comics"
+            ],
+            [
+              319,
+              "Mike Hawthorne",
+              "Batman, Deadpool",
+              "comics"
+            ],
+            [
+              320,
+              "Mike Liscio",
+              "Pokemon XYZ, Yu-Gi-Oh!",
+              "voice"
+            ],
+            [
+              321,
+              "Mike Maihack",
+              "The Moonlit Spiral",
+              "comics"
+            ],
+            [
+              322,
+              "Mike McCready",
+              "Pearl Jam guitarist",
+              "music"
+            ],
+            [
+              323,
+              "Mina Shirakawa",
+              "AEW, Stardom",
+              "sports"
+            ],
+            [
+              324,
+              "Mirka Andolfo",
+              "Sweet Paprika, Harley Quinn",
+              "comics"
+            ],
+            [
+              325,
+              "Mitch Gerads",
+              "Mister Miracle, Peacemaker",
+              "comics"
+            ],
+            [
+              326,
+              "Monica Rial",
+              "Dragon Ball Super, My Hero Academia",
+              "voice"
+            ],
+            [
+              327,
+              "Morgan Elizabeth",
+              "Tis the Season for Revenge",
+              "author"
+            ],
+            [
+              328,
+              "Morgan Hampton",
+              "Green Lantern Corps",
+              "comics"
+            ],
+            [
+              329,
+              "MrBallen",
+              "Where Nightmares Live podcast",
+              "creator"
+            ],
+            [
+              330,
+              "Nancy Allen",
+              "RoboCop, Carrie",
+              "actor"
+            ],
+            [
+              331,
+              "Natali Sanders",
+              "DC/Marvel cover artist",
+              "comics"
+            ],
+            [
+              332,
+              "Nathan W Pyle",
+              "Strange Planet",
+              "comics"
+            ],
+            [
+              333,
+              "Neal Stephenson",
+              "Seveneves, Termination Shock",
+              "author"
+            ],
+            [
+              334,
+              "Neil Newbon",
+              "Baldur's Gate 3, Resident Evil Village",
+              "voice"
+            ],
+            [
+              335,
+              "Netho Diaz",
+              "X-Men, GI Joe",
+              "comics"
+            ],
+            [
+              336,
+              "Nick Bruel",
+              "Bad Kitty Gets a Job",
+              "author"
+            ],
+            [
+              337,
+              "Nick Dragotta",
+              "Absolute Batman, East of West",
+              "comics"
+            ],
+            [
+              338,
+              "Nick Martell",
+              "The Kingdom of Liars",
+              "author"
+            ],
+            [
+              339,
+              "Nicole Holleman",
+              "Fantasy Fangirls podcast",
+              "creator"
+            ],
+            [
+              340,
+              "Nihilo Art",
+              "Spawn, King Spawn cover art",
+              "comics"
+            ],
+            [
+              341,
+              "Nilo Tabrizy",
+              "For the Sun After Long Nights",
+              "author"
+            ],
+            [
+              342,
+              "Nolan North",
+              "Uncharted, Assassin's Creed",
+              "voice"
+            ],
+            [
+              343,
+              "Noriaki Sugiyama",
+              "Voice of Sasuke Uchiha",
+              "voice"
+            ],
+            [
+              344,
+              "Orange Cassidy",
+              "AEW",
+              "sports"
+            ],
+            [
+              345,
+              "Oriana Leckert",
+              "",
+              "other"
+            ],
+            [
+              346,
+              "Pablo Cartaya",
+              "",
+              "author"
+            ],
+            [
+              347,
+              "Page Powars",
+              "And They Were Roommates",
+              "author"
+            ],
+            [
+              348,
+              "Pasquale Ferrara",
+              "Transformers, Batman cover art",
+              "comics"
+            ],
+            [
+              349,
+              "Pat Shand",
+              "Space Between Entertainment writer",
+              "comics"
+            ],
+            [
+              350,
+              "Paul Bettany",
+              "WandaVision, Avengers: Infinity War",
+              "actor"
+            ],
+            [
+              351,
+              "Paul Levitz",
+              "Legion of Super-Heroes",
+              "comics"
+            ],
+            [
+              352,
+              "Peach Momoko",
+              "Ultimate X-Men",
+              "comics"
+            ],
+            [
+              353,
+              "Pepe Larraz",
+              "Amazing Spider-Man, House of X",
+              "comics"
+            ],
+            [
+              354,
+              "Pete Capella",
+              "Sonic the Hedgehog, Yu-Gi-Oh!",
+              "voice"
+            ],
+            [
+              355,
+              "Peter V. Brett",
+              "The Demon Cycle",
+              "author"
+            ],
+            [
+              356,
+              "Peter Weller",
+              "RoboCop, Star Trek Into Darkness",
+              "actor"
+            ],
+            [
+              357,
+              "Phillip Kennedy Johnson",
+              "Midnight Spider-Man, Batman & Robin",
+              "comics"
+            ],
+            [
+              358,
+              "Pornsak Pichetshote",
+              "The Good Asian, Infidel",
+              "comics"
+            ],
+            [
+              359,
+              "Punko",
+              "Stagtown",
+              "comics"
+            ],
+            [
+              360,
+              "Rachel Griffin",
+              "The Sun and the Starmaker",
+              "author"
+            ],
+            [
+              361,
+              "Rachta Lin",
+              "Absolute Batman, Overwatch",
+              "comics"
+            ],
+            [
+              362,
+              "Rafael Grampa",
+              "Batman",
+              "comics"
+            ],
+            [
+              363,
+              "Raina Telgemeier",
+              "Smile, The Baby-Sitters Club",
+              "comics"
+            ],
+            [
+              364,
+              "Ralph Tedesco",
+              "Zenescope co-founder",
+              "comics"
+            ],
+            [
+              365,
+              "Randy Ribay",
+              "The Reckoning of Roku",
+              "author"
+            ],
+            [
+              366,
+              "Raul Allen",
+              "Doctor Strange: Endless Nightmare",
+              "comics"
+            ],
+            [
+              367,
+              "Riccardo Federici",
+              "The Last God",
+              "comics"
+            ],
+            [
+              368,
+              "Rich Keeble",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              369,
+              "Richard Case",
+              "Doom Patrol, Sandman",
+              "comics"
+            ],
+            [
+              370,
+              "Richard McGonagle",
+              "Uncharted, Avatar: The Last Airbender",
+              "voice"
+            ],
+            [
+              371,
+              "Richard Ortiz",
+              "Lady Death, DC KO",
+              "comics"
+            ],
+            [
+              372,
+              "Richard Pini",
+              "ElfQuest",
+              "comics"
+            ],
+            [
+              373,
+              "Rick Riordan",
+              "Percy Jackson",
+              "author"
+            ],
+            [
+              374,
+              "RJ Valldeperas",
+              "",
+              "other"
+            ],
+            [
+              375,
+              "R.L. Stine",
+              "Goosebumps",
+              "author"
+            ],
+            [
+              376,
+              "Road Dogg",
+              "WWE",
+              "sports"
+            ],
+            [
+              377,
+              "Rob Sheffield",
+              "Love Is a Mix Tape",
+              "author"
+            ],
+            [
+              378,
+              "Rock N Roll Express",
+              "NWA, TNA",
+              "sports"
+            ],
+            [
+              379,
+              "Rod Reis",
+              "New Mutants, Supergirl",
+              "comics"
+            ],
+            [
+              380,
+              "Ronnie Vazquez",
+              "American History, the Latin Remix",
+              "comics"
+            ],
+            [
+              381,
+              "Rose Besch",
+              "X-Men, Invincible",
+              "comics"
+            ],
+            [
+              382,
+              "Ryan Browne",
+              "8 Billion Genies",
+              "comics"
+            ],
+            [
+              383,
+              "Ryan Dunlavey",
+              "Action Philosophers",
+              "comics"
+            ],
+            [
+              384,
+              "Ryan Ottley",
+              "Invincible, Amazing Spider-Man",
+              "comics"
+            ],
+            [
+              385,
+              "Ryan Stegman",
+              "X-Men, Venom",
+              "comics"
+            ],
+            [
+              386,
+              "Samanthadoodles",
+              "Marvel's Voices: Pride",
+              "comics"
+            ],
+            [
+              387,
+              "Sanford Greene",
+              "Bitter Root",
+              "comics"
+            ],
+            [
+              388,
+              "Sarah Beth Durst",
+              "The Spellshop Series",
+              "author"
+            ],
+            [
+              389,
+              "Sarah Natochenny",
+              "Pokemon, Yu-Gi-Oh! Arc-V",
+              "voice"
+            ],
+            [
+              390,
+              "Saskia Maarleveld",
+              "",
+              "voice"
+            ],
+            [
+              391,
+              "Satoshi Shiki",
+              "Attack on Titan: Before the Fall",
+              "comics"
+            ],
+            [
+              392,
+              "Scott Snyder",
+              "Batman, We Have Demons",
+              "comics"
+            ],
+            [
+              393,
+              "Scott Williams",
+              "X-Men, Batman: Hush inker",
+              "comics"
+            ],
+            [
+              394,
+              "Sean Gordon Murphy",
+              "Batman: White Knight",
+              "comics"
+            ],
+            [
+              395,
+              "Sean Phillips",
+              "Criminal, Kill or Be Killed",
+              "comics"
+            ],
+            [
+              396,
+              "Shaquille O'Neal",
+              "Vengeance Unchained: The Legend of Black Caesar",
+              "sports"
+            ],
+            [
+              397,
+              "Shirlene Obuobi",
+              "Between Friends & Lovers",
+              "author"
+            ],
+            [
+              398,
+              "Simon Bisley",
+              "Lobo, Slaine",
+              "comics"
+            ],
+            [
+              399,
+              "Skeet Ulrich",
+              "Scream, Riverdale",
+              "actor"
+            ],
+            [
+              400,
+              "Sofia Warren",
+              "The New Yorker cartoons",
+              "comics"
+            ],
+            [
+              401,
+              "Spencer Ackerman",
+              "Reign of Terror",
+              "author"
+            ],
+            [
+              402,
+              "Stacy King",
+              "Dungeons & Dragons Crochet",
+              "author"
+            ],
+            [
+              403,
+              "Stan Sakai",
+              "Usagi Yojimbo",
+              "comics"
+            ],
+            [
+              404,
+              "Stephanie Beatriz",
+              "Brooklyn 99, Encanto",
+              "actor"
+            ],
+            [
+              405,
+              "Stephanie Carr",
+              "LiteraryHype",
+              "creator"
+            ],
+            [
+              406,
+              "Stephanie Phillips",
+              "Harley Quinn, Batman",
+              "comics"
+            ],
+            [
+              407,
+              "Stephanie Williams",
+              "Vixen, Nubia & the Amazons",
+              "comics"
+            ],
+            [
+              408,
+              "Stephen Graham Jones",
+              "The Buffalo Hunter Hunter",
+              "author"
+            ],
+            [
+              409,
+              "Steranko",
+              "Captain America & Nick Fury: S.H.I.E.L.D.",
+              "comics"
+            ],
+            [
+              410,
+              "Steve Downes",
+              "Halo",
+              "voice"
+            ],
+            [
+              411,
+              "Steve Orlando",
+              "Marauders, Martian Manhunter",
+              "comics"
+            ],
+            [
+              412,
+              "Stevie Van Zandt",
+              "E Street Band, The Sopranos",
+              "music"
+            ],
+            [
+              413,
+              "Stuart Moore",
+              "The Zodiac Legacy",
+              "author"
+            ],
+            [
+              414,
+              "Susana Polo",
+              "Year of the Ring",
+              "author"
+            ],
+            [
+              415,
+              "Sway",
+              "X-Men, Ms. Marvel",
+              "comics"
+            ],
+            [
+              416,
+              "Sweeney Boo",
+              "Captain Marvel",
+              "comics"
+            ],
+            [
+              417,
+              "T. Kingfisher",
+              "Nettle & Bone",
+              "author"
+            ],
+            [
+              418,
+              "Tara Platt",
+              "Pokemon, Naruto",
+              "voice"
+            ],
+            [
+              419,
+              "Taylor Grothe",
+              "Lethal Kiss",
+              "author"
+            ],
+            [
+              420,
+              "Taylor Rotunda (Bo Dallas)",
+              "WWE",
+              "sports"
+            ],
+            [
+              421,
+              "Team Bestie (Trish & Lita)",
+              "WWE Hall of Famers",
+              "sports"
+            ],
+            [
+              422,
+              "Terry Brooks",
+              "Shannara Series",
+              "author"
+            ],
+            [
+              423,
+              "Tessa Bailey",
+              "It Happened One Summer",
+              "author"
+            ],
+            [
+              424,
+              "Timothy Zahn",
+              "Star Wars",
+              "author"
+            ],
+            [
+              425,
+              "TJ Klune",
+              "The House in the Cerulean Sea",
+              "author"
+            ],
+            [
+              426,
+              "Todd Beats",
+              "",
+              "other"
+            ],
+            [
+              427,
+              "Todd McFarlane",
+              "Spawn",
+              "comics"
+            ],
+            [
+              428,
+              "Tom King",
+              "Mister Miracle, Helen of Wyndhorn",
+              "comics"
+            ],
+            [
+              429,
+              "Tom Mason",
+              "Malibu Comics co-founder",
+              "comics"
+            ],
+            [
+              430,
+              "Tom Welling",
+              "Smallville, Lucifer",
+              "actor"
+            ],
+            [
+              431,
+              "Tommy Dreamer",
+              "WWE, ECW, TNA",
+              "sports"
+            ],
+            [
+              432,
+              "Tony Daniel",
+              "Batman, Deathstroke",
+              "comics"
+            ],
+            [
+              433,
+              "Tony Fleecs",
+              "Stray Dogs, Feral",
+              "comics"
+            ],
+            [
+              434,
+              "Tony Trophy",
+              "Image, IDW cover artist",
+              "comics"
+            ],
+            [
+              435,
+              "Travis Baldree",
+              "Legends & Lattes",
+              "author"
+            ],
+            [
+              436,
+              "Travis Mercer",
+              "Batman/Superman, Absolute Power",
+              "comics"
+            ],
+            [
+              437,
+              "Tula Lotay",
+              "Somna: A Bedtime Story",
+              "comics"
+            ],
+            [
+              438,
+              "Tyler Hoechlin",
+              "Superman & Lois, Teen Wolf",
+              "actor"
+            ],
+            [
+              439,
+              "V.E. Schwab",
+              "Shades of Magic, Addie LaRue",
+              "author"
+            ],
+            [
+              440,
+              "Veronica Roth",
+              "Divergent",
+              "author"
+            ],
+            [
+              441,
+              "Victoria Setian",
+              "Mortal Kombat X, Just Cause 4",
+              "author"
+            ],
+            [
+              442,
+              "Wardlow",
+              "AEW",
+              "sports"
+            ],
+            [
+              443,
+              "Wayne Knight",
+              "Jurassic Park, Seinfeld",
+              "actor"
+            ],
+            [
+              444,
+              "Wendy Pini",
+              "ElfQuest",
+              "comics"
+            ],
+            [
+              445,
+              "Werther Dell'Edera",
+              "Something is Killing the Children",
+              "comics"
+            ],
+            [
+              446,
+              "Whilce Portacio",
+              "Uncanny X-Men, Wetworks",
+              "comics"
+            ],
+            [
+              447,
+              "Will Jack",
+              "DC/Dynamite cover artist",
+              "comics"
+            ],
+            [
+              448,
+              "Will Sliney",
+              "Spider-Man 2099, Star Wars",
+              "comics"
+            ],
+            [
+              449,
+              "William Harms",
+              "White Sky",
+              "comics"
+            ],
+            [
+              450,
+              "Wilson Bethel",
+              "Daredevil: Born Again",
+              "actor"
+            ],
+            [
+              451,
+              "X-Pac",
+              "WWE",
+              "sports"
+            ],
+            [
+              452,
+              "Yael Rizowy",
+              "Sunny Side Up",
+              "author"
+            ],
+            [
+              453,
+              "Yoshi Yoshitani",
+              "Dungeon Crawler Carl cover art",
+              "comics"
+            ],
+            [
+              454,
+              "Ytasha L. Womack",
+              "Afrofuturism",
+              "author"
+            ],
+            [
+              455,
+              "Yuri Lowenthal",
+              "Spider-Man, Naruto, Ben 10",
+              "voice"
+            ],
+            [
+              456,
+              "Zack Kaplan",
+              "Kill All Immortals",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/JSON-LD: \"NYCC Returns October 08 - 11, 2026\" at Javits Center"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "All Guests page (464 image candidates) covers Guests of Honor + Featured Guests in one page; 4 guests in a 'Canceled' section (Chuck Wendig, John Leguizamo, Nikolaj Coster-Waldau, Tomi Adeyemi) were excluded per the rules. A handful of cards (Annabelle Oh, Chloe Williams, Dr. Katherine Cartwright, Janelle Asselin, Julie Strauss-Gabel, Oriana Leckert, RJ Valldeperas, Todd Beats, Danny Haas, Saskia Maarleveld) list only a room/day with no bio text, so cat is a best-effort guess ('other' where unclear)."
+}

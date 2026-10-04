@@ -1,0 +1,6 @@
+node_modules/
+pipeline/cache/
+pipeline/.tmp/
+.impeccable/review/
+*.log
+.DS_Store
