@@ -1,0 +1,15 @@
+{
+  "id": "horrorcon-la",
+  "name": "HorrorCon Los Angeles",
+  "short": "",
+  "url": "https://horrorconla.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Horror-entertainment and celebrity convention at the Los Angeles Convention Center, with horror-film actors and themed stage shows.",
+  "cover": { "file": "pipeline/cache/extract/horrorcon-la.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-06-13", "end": "2026-06-14", "city": "Los Angeles", "region": "CA", "country": "US", "venue": "Los Angeles Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The 5th-anniversary edition ran June 13-14, 2026 (per the batch seed note), which already ended before the 2026-10-05 research window. The homepage (rendered 2026-10-05) still only shows that June 13-14, 2026 show (countdown timer expired at 00:00:00:00) with a promo offering 'Free Scream Ticket for 2027 if Your Birthday is on June 13 or 14 in 2026', but no actual 2027 dates anywhere. A WebSearch found no confirmed 2027 date either (past editions have landed in both June and September in different years, so the pattern isn't fixed); the LA Convention Center's own event-detail page for this show is stale (still shows 'October 1 - 2, 2022'), so it wasn't usable. Left editions empty until a next date is announced."
+}

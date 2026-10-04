@@ -1,0 +1,15 @@
+{
+  "id": "blizzcon",
+  "name": "BlizzCon",
+  "short": "",
+  "url": "https://blizzcon.com/",
+  "organizer": "Blizzard Entertainment",
+  "status": "active",
+  "types": ["games", "pop"],
+  "blurb": "Blizzard Entertainment's own fan convention in Anaheim, celebrating its game franchises with panels, esports and a show floor.",
+  "cover": { "file": "pipeline/cache/extract/blizzcon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-12", "end": "2026-09-13", "city": "Anaheim", "region": "CA", "country": "US", "venue": "Anaheim Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "BlizzCon 2026 ran Sept 12-13, 2026 at the Anaheim Convention Center (per the batch seed note), which already ended before the 2026-10-05 research window. The current homepage (rendered 2026-10-05) is now a post-event thank-you page ('THANKS FOR BEING PART OF BLIZZCON 2026' / 'THE ROAD HOME BEGINS') with no date, venue or announcement for a next edition anywhere in its text, nav links or JSON-LD. BlizzCon was skipped entirely in 2025, so its cadence is no longer annual/predictable; left as status active (Blizzard has not said it is ending BlizzCon) with editions left empty until a next date is announced."
+}

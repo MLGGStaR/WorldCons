@@ -1,0 +1,30 @@
+{
+  "id": "days-of-the-dead-atlanta",
+  "name": "Days of the Dead Atlanta",
+  "short": "",
+  "url": "https://daysofthedead.com/atlanta/",
+  "organizer": "POSE",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Atlanta stop of the multi-city Days of the Dead horror-celebrity convention, with autographs, photo ops and vendors at the Marriott Marquis.",
+  "cover": { "file": "pipeline/cache/extract/days-of-the-dead-atlanta.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "dates": "confirmed",
+      "venue": "Marriott Marquis",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://daysofthedead.com/atlanta/tickets",
+      "guestsPage": "https://daysofthedead.com/atlanta/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "The official ticketing partner page (captureticketing.com/events/226, linked from this page) is titled 'Days Of The Dead Atlanta 2027' and gives the dates January 22-24, 2027 at the Marriott Marquis, 265 Peachtree Center Ave NE, Atlanta."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "daysofthedead.com/atlanta posts a 27-image guest gallery (images/guests/2027/atl-1.png ... atl-27.png) for the 2027 edition, but every image lacks alt text or a caption in the page DOM (names exist only inside the picture graphics), so individual guests could not be identified from the rendered page; guests is recorded as 'unavailable' rather than guessed. The captureticketing event page mentions a 'John Waters V.I.P.' ticket tier, suggesting John Waters is one of the announced guests, but this was not independently confirmed on an official guest list, so he was not added as a pick."
+}

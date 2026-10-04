@@ -1,0 +1,12 @@
+1. id=fancy-frontier | Fancy Frontier | http://www.f-2.com.tw | Taipei, TW | types: comics, anime | note: Comiket-style doujin event since 2002; two editions a year (Feb & Aug) at Taipei Expo Park
+2. id=comic-world-taiwan | Comic World Taiwan | https://www.facebook.com/CWTaiwan | Taipei, TW | types: comics | note: Doujinshi convention also held in Kaohsiung & Taichung; primary official presence is via Facebook
+3. id=arctic-comic-con | Arctic Comic Con | https://www.arcticcomiccon.com/ | Anchorage, AK, US | types: comics, pop, cosplay | note: Alaska's largest comic and pop-culture convention; 2027 edition April 24-25 at the Dena'ina Civic and Convention Center
+4. id=alaska-comicon | Alaska ComiCon | https://www.alaskacomicon.com/ | Fairbanks, AK, US | types: comics, pop | note: 2027 edition Feb 20-21 at the Carlson Center; guests have included authors Timothy Zahn and Matt Dinniman
+5. id=iron-city-comic-con | Iron City Comic Con | https://www.ironcitycomiccon.com | Birmingham, AL, US | types: comics | organizer: VXV Events | note: Confirmed May 30-31, 2026 edition
+6. id=kami-con | Kami-Con | http://www.kamicon.net | Birmingham, AL, US | types: anime
+7. id=south-alabama-comic-con | South Alabama Comic Con | https://www.southalabamacomiccon.com | Mobile, AL, US | types: comics | organizer: VXV Events | note: Confirmed Oct 3-4, 2026 edition; effectively replaces the long-defunct MOBICON
+8. id=arkansas-anime-festival | Arkansas Anime Festival | http://arkansasanimefestival.com | Springdale, AR, US | types: anime | note: Largest anime convention in Arkansas
+9. id=arkansas-comic-con | Arkansas Comic Con | https://www.arkansascomiccon.com | Little Rock, AR, US | types: comics | organizer: VXV Events | note: Confirmed Sep 18-20, 2026 edition
+10. id=little-rock-anime-fest | Little Rock Anime Fest | https://www.littlerockanimefest.com | Little Rock, AR, US | types: anime | organizer: VXV Events | note: Confirmed Feb 6-7, 2027 edition
+11. id=nwa-comic-con | NWA Comic Con | https://www.nwacomiccon.com | Rogers, AR, US | types: comics | organizer: VXV Events | note: Formerly "Northwest Arkansas Comic Con"; confirmed Mar 20-21, 2027 edition
+12. id=phoenix-fan-fusion | Phoenix Fan Fusion | https://www.phoenixfanfusion.com | Phoenix, AZ, US | types: comics, pop, games | organizer: Square Egg Entertainment | note: Formerly Phoenix Comicon/Phoenix Comic Fest; Arizona's biggest pop-culture event, 130,000+ attendees in 2025

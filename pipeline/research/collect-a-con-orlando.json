@@ -1,0 +1,15 @@
+{
+  "id": "collect-a-con-orlando",
+  "name": "Collect-A-Con Orlando",
+  "short": "",
+  "url": "https://collectaconusa.com/orlando/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Orlando stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings at the Orange County Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-orlando.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-05-23", "end": "2026-05-24", "city": "Orlando", "region": "FL", "country": "US", "venue": "Orange County Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The evergreen /orlando/ URL currently redirects to 'Orlando 2026 Recap' ('Thank you for attending! See you next year.'), confirming that show already completed; no next Orlando date is shown. Checked the site's XML sitemap for any schedule/tour page or 2027-dated URL across the whole domain and found none, so no Orlando edition is announced yet. Exact last-edition dates (May 23-24, 2026) are not restated on the official recap page itself (title only) but are corroborated by several independent event-listing sites (thecardshopfinder.com, cardshowdex.com, rostercon.com). The recap page's own og image and hero carousel are a generic crowd photo and a cross-promo for the next tour stop (Dallas), not Orlando-specific, so the cover instead uses the branded 'CITIES BRANDING ORLANDO' key art from the most recent dated Orlando page (/orlando-2024/), which is still linked from the site and is the best official art representing this stop."
+}

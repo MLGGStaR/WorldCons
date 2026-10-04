@@ -1,0 +1,30 @@
+{
+  "id": "japan-weekend-madrid",
+  "name": "Japan Weekend Madrid",
+  "short": "",
+  "url": "https://www.japanweekend.com/madrid/",
+  "organizer": "Jointo Entertainment",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "Spain's biggest Japanese pop-culture event, with anime voice actors, manga artists, musicians, VTubers and a major cosplay competition.",
+  "cover": { "file": "pipeline/cache/extract/japan-weekend-madrid.home.json", "key": "logo:2" },
+  "editions": [
+    {
+      "start": "2027-02-01",
+      "end": "2027-02-28",
+      "dates": "month",
+      "venue": "",
+      "city": "Madrid",
+      "region": "",
+      "country": "ES",
+      "tickets": "",
+      "guestsPage": "https://www.japanweekend.com/madrid/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Main site (japanweekend.com) events list: 'JAPAN WEEKEND 2027 MADRID - febrero'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated Madrid page itself has not been updated yet for 2027: it still shows its just-concluded 26-27 September 2026 edition (countdown at zero), including that edition's own guest list (Katsuyuki Konishi, May'n, Yoshitoshi ABe, etc.) and poster art, which is not reused here since it belongs to a different, past edition. Only the main site names a 2027 Madrid date, and only as a month ('febrero'), with no venue, tickets or guests yet, so those are left blank/none-yet rather than guessed."
+}

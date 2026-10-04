@@ -1,0 +1,15 @@
+{
+  "id": "lyon-bd-festival",
+  "name": "Lyon BD Festival",
+  "short": "",
+  "url": "https://www.lyonbd.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Lyon's international comics festival: free author signings, exhibitions and talks each June, now in its third decade.",
+  "cover": { "file": "pipeline/cache/extract/lyon-bd-festival.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-06-12", "end": "2026-06-14", "city": "Lyon", "region": "", "country": "FR", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "Most recent (21st) edition ran 12-14 June 2026, marking the festival's 20th anniversary; already past as of 2026-10-05. No 22nd-edition date has been announced yet on the official site, so editions is empty. Cover uses the 2026 poster ('affiche'), illustrated by Zeina Abirached."
+}

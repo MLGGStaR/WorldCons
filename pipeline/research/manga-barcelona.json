@@ -1,0 +1,60 @@
+{
+  "id": "manga-barcelona",
+  "name": "Manga Barcelona",
+  "short": "",
+  "url": "https://www.manga-barcelona.com",
+  "organizer": "FICOMIC",
+  "status": "active",
+  "types": [
+    "anime",
+    "pop"
+  ],
+  "blurb": "Spain's largest anime and manga convention, run by FICOMIC at Fira Barcelona, with manga, anime, music and cosplay guests and a huge exhibition floor.",
+  "cover": {
+    "file": "pipeline/cache/extract/manga-barcelona.home.json",
+    "key": "hero:1"
+  },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-08",
+      "dates": "confirmed",
+      "venue": "Fira Barcelona – Gran Via",
+      "city": "Barcelona",
+      "region": "",
+      "country": "ES",
+      "tickets": "",
+      "guestsPage": "https://www.manga-barcelona.com/ca/convidats.cfm",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/manga-barcelona.guests.json",
+          "picks": [
+            [1, "Reol", "", "music"],
+            [2, "Junji Ito", "", "animation"],
+            [3, "Lotus Juice", "", "music"],
+            [4, "Ali", "", "music"],
+            [5, "Nightmare", "", "music"],
+            [6, "Oswaldo Kato", "", "other"],
+            [7, "Konata", "", "animation"],
+            [8, "Nao Iwamoto", "", "animation"],
+            [9, "Sakaomi Yuzaki", "", "animation"],
+            [10, "Risa Ebata", "", "animation"],
+            [11, "Shoji Kawamori", "", "animation"],
+            [12, "Yudetamago", "", "animation"],
+            [13, "Yaya Han", "", "cosplay"],
+            [14, "Keiichiro Saito", "", "animation"],
+            [15, "Yuichiro Fukushi", "", "animation"],
+            [16, "Taizan 5", "", "animation"],
+            [17, "Paulina Palacios", "", "animation"],
+            [18, "Kenny Ruiz", "", "animation"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '32 MANGA BARCELONA 5 - 8 DESEMBRE 2026 FIRA BARCELONA GRAN VIA'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "'32' is the edition number (32nd Manga Barcelona), not a year. Guest cards on the CONVIDATS page show only a name and a one-word category badge (MANGA/ANIME/MÚSICA/Cosplay/Arte) with no further bio text, so 'Known for' is left blank for all 18; mangaka and anime-industry guests (MANGA/ANIME badges) are filed under cat 'animation' per the field rules, Yaya Han under 'cosplay', and Oswaldo Kato (badge 'Arte') under 'other' since his specific craft wasn't stated on the card. Two all-caps stage names on the card ('ALI', 'NIGHTMARE') were written in normal capitalisation per the naming rule."
+}

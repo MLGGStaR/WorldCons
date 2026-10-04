@@ -1,0 +1,14 @@
+{
+  "id": "animecon-london",
+  "name": "AnimeCon London",
+  "short": "",
+  "url": "https://animeconlondon.com/",
+  "organizer": "Oakham Group",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "London leg of the multi-city AnimeCon UK series, held at Olympia London.",
+  "cover": { "file": "pipeline/cache/extract/animecon-london.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The site's homepage still advertises the 3-4 Oct 2026 edition as current, but today is 2026-10-05 (one day after that show ended), so it falls outside the research window and is left out. No 2027 date is announced anywhere on the site (homepage text, date snippets and page source all checked for a next-year mention) — nothing found — so editions is empty rather than guessed. Cover uses the official dated 'AnimeCon UK — 3-4 October, Olympia, London' wordmark logo (logo:0), which also confirms the venue (Olympia, London); the only other large images were an 18+ after-party ad (used as og:image) and Instagram crowd photos, so the logo was used instead."
+}

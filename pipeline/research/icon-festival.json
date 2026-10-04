@@ -1,0 +1,15 @@
+{
+  "id": "icon-festival",
+  "name": "ICon Festival",
+  "short": "",
+  "url": "https://iconfestival.org.il/",
+  "organizer": "Israeli Society for Science Fiction & Fantasy",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "Israel's national annual science fiction, fantasy and tabletop RPG festival in Tel Aviv, held over Sukkot since 1998.",
+  "cover": { "file": "pipeline/cache/extract/icon-festival.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-09-29", "end": "2026-10-01", "city": "Tel Aviv", "region": "", "country": "IL", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "Homepage text: 'אייקון 2026: פלאות יתקיים בחול המועד סוכות, בתאריכים 29 בספטמבר - 1 באוקטובר' (ICon 2026: Wonders, held during Sukkot, 29 Sept - 1 Oct) and 'מתקיים במרכז תל אביב' (held in central Tel Aviv, no specific venue named, so venue is left blank). That edition already ended before this research window opens (2026-10-05) -- the site's own countdown reads zero and its latest update says early-bird sales have closed -- so it is recorded as 'last' rather than guessed forward. Sukkot falls on a different Gregorian date each year on the Hebrew calendar and no 2027 date is announced yet, ticketed via the organizer's own domain (tickets.sf-f.org.il), confirming the Israeli Society for Science Fiction & Fantasy as organizer."
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nc-comicon",
+  "name": "NC Comicon",
+  "short": "",
+  "url": "https://nccomicon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A locally owned, creator-focused comics and pop-culture convention at the Durham Convention Center in the Triangle.",
+  "cover": { "file": "pipeline/cache/extract/nc-comicon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Durham Convention Center",
+      "city": "Durham",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://nccomicon.com/tickets/",
+      "guestsPage": "https://nccomicon.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/nc-comicon.guests.json",
+          "picks": [
+            [2, "Laura Allred", "Comic book colorist", "comics"],
+            [3, "Mike Allred", "Madman creator", "comics"],
+            [4, "Ben Bishop", "", "comics"],
+            [5, "Bernard Chang", "DC Comics artist", "comics"],
+            [6, "Tommy Lee Edwards", "Comic & film concept artist", "comics"],
+            [7, "George Hage", "", "comics"],
+            [8, "Timmy Heague", "", "comics"],
+            [9, "Kyle Higgins", "Nightwing, Power Rangers writer", "comics"],
+            [10, "Patrick Horvath", "", "comics"],
+            [11, "Frederick L. Jones", "", "comics"],
+            [12, "Kelly McMahon", "", "comics"],
+            [13, "Jordan Morris", "", "comics"],
+            [14, "Beetle Moses", "", "comics"],
+            [15, "Micah Myers", "", "comics"],
+            [16, "Ryan Oakley", "", "comics"],
+            [17, "Bryan Lee O'Malley", "Scott Pilgrim creator", "comics"],
+            [18, "Curt Pires", "", "comics"],
+            [19, "Ben Saunders", "", "comics"],
+            [20, "Marlin Shoop", "", "comics"],
+            [21, "Jake Smith", "", "comics"],
+            [22, "Zoe Thorogood", "Eisner Award-winning cartoonist", "comics"],
+            [23, "Uzuri", "", "comics"],
+            [24, "J. L. Westover", "", "comics"],
+            [25, "Joe Whiteford", "", "comics"],
+            [26, "Stephanie Williams", "Comic book writer", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'North Carolina Comicon | Bull City November 14th & 15th, 2026' and 'We'll see you Nov 14th & 15th at the Durham Convention Center!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer legal name not found (site only says 'Locally owned and operated'); left blank. The guests page is a single undifferentiated '2026 Guests' grid with name-only cards (no bio/role text per card), so 'Known for' is left blank except where independently well documented; all were defaulted to cat 'comics' since the page gives no sub-category labels and this is an exclusively comics-focused con — 'Uzuri' in particular could not be confirmed as a specific role (possibly cosplay) and is categorized comics by the same default. Excluded 'Oni Press' and 'Saturday AM' from the guest grid as they are publishers/companies, not people."
+}

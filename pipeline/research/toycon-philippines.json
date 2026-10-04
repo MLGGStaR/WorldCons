@@ -1,0 +1,30 @@
+{
+  "id": "toycon-philippines",
+  "name": "TOYCON Philippines",
+  "short": "TOYCON",
+  "url": "https://www.toyconph.com/",
+  "organizer": "TOYCON Philippines",
+  "status": "active",
+  "types": ["toys", "pop", "cosplay"],
+  "blurb": "TOYCON Philippines' annual Christmas Toys and Collectibles Fair, a toy, collectibles and cosplay holiday market at SM Megamall.",
+  "cover": { "file": "pipeline/cache/extract/toycon-philippines.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "Megatrade Halls 1-3, SM Megamall",
+      "city": "Mandaluyong",
+      "region": "",
+      "country": "PH",
+      "tickets": "https://www.toyconph.com/tickets-toycon-philippines/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '19TH CHRISTMAS TOYS AND COLLECTIBLES FAIR 2026 ... this December 11-13 2026 in MegaTrade Halls of SM Megamall' and '2026 CHRISTMAS TOYS AND COLLECTIBLES FAIR Unwrap the JOY December 11-13, 2026 Megatrade Halls 1-3, SM Megamall'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "TOYCON Philippines runs several branded events a year (TOYCON Summer Prelude, TOYCON Nexus + PopLife Festival in June at SMX Manila, a North Hobby Expo in Baguio); this file covers the flagship '19th Christmas Toys and Collectibles Fair' in December, matching the batch note. No dedicated guest/lineup page was found for this December edition (program page only lists past event recaps); it reads primarily as a toy/collectibles exhibitor fair rather than a guest-panel convention, so guests is 'none-yet' rather than assuming none will appear. Cover uses the 'toyfair-2026-pubmat' publicity poster found on the homepage, which is this edition's own promo art."
+}

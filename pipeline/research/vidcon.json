@@ -1,0 +1,15 @@
+{
+  "id": "vidcon",
+  "name": "VidCon",
+  "short": "",
+  "url": "https://www.vidcon.com/",
+  "organizer": "Informa Connect",
+  "status": "inactive",
+  "types": ["pop"],
+  "blurb": "Online-video and creator-economy convention long held in Anaheim; the brand is merging into a new Nashville event with no further edition announced.",
+  "cover": null,
+  "editions": [],
+  "last": { "start": "2026-06-25", "end": "2026-06-27", "city": "Anaheim", "region": "CA", "country": "US", "venue": "Anaheim Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Homepage (rendered 2026-10-04) carries no Anaheim dates at all; it announces that 'VidCon and LIONS are joining forces, launching VidCon x LIONS Creators', debuting as part of a new event called 'Insight to Impact' in Nashville 'in the fall of 2027' with no specific dates given yet. The last confirmed Anaheim edition ran June 25-27, 2026 (per the batch seed note), which ended before the 2026-10-05 research window, so no upcoming VidCon edition can be listed. Marked inactive because VidCon's own site treats this as the brand ending its current Anaheim/fan-convention format in favor of the new industry event; worth revisiting as a new entry if VidCon x LIONS Creators / Insight to Impact announces concrete Nashville dates."
+}

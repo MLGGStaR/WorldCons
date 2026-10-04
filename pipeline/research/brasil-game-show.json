@@ -1,0 +1,604 @@
+{
+  "id": "brasil-game-show",
+  "name": "Brasil Game Show",
+  "short": "BGS",
+  "url": "https://www.brasilgameshow.com.br/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "games"
+  ],
+  "blurb": "The biggest video-game trade and fan expo in the Americas, held at Distrito Anhembi in Sao Paulo with publisher booths, esports and a huge influencer program.",
+  "cover": {
+    "file": "pipeline/cache/extract/brasil-game-show.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-12",
+      "dates": "confirmed",
+      "venue": "Distrito Anhembi",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "BR",
+      "tickets": "https://www.brasilgameshow.com.br/ingressos/",
+      "guestsPage": "https://www.brasilgameshow.com.br/influenciadores-e-convidados/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/brasil-game-show.guests.json",
+          "picks": [
+            [
+              1,
+              "Al Hope",
+              "Creative Director, Alien: Isolation 2 (SEGA)",
+              "gaming"
+            ],
+            [
+              2,
+              "Archie Whitehead",
+              "Lead environment artist, Alien: Isolation 2 (SEGA)",
+              "gaming"
+            ],
+            [
+              3,
+              "Kenji Kanno",
+              "Producer, Crazy Taxi: World Tour; creator of Crazy Taxi",
+              "gaming"
+            ],
+            [
+              4,
+              "Shota Nakama",
+              "Creator of the Video Game Orchestra",
+              "music"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/brasil-game-show-2.guests.json",
+          "picks": [
+            [
+              1,
+              "Fluxo_Wallace",
+              "KR3W",
+              "creator"
+            ],
+            [
+              2,
+              "Amanda Lampert",
+              "Professional voice actress (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              3,
+              "Amanda Abreu",
+              "Gaming/esports personality (\"AMD\"), Lotus Hub",
+              "gaming"
+            ],
+            [
+              4,
+              "Ana Diebs",
+              "Voice actress; creator of indie games",
+              "voice"
+            ],
+            [
+              5,
+              "Angelica Santos",
+              "Professional voice actress (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              6,
+              "AntLari",
+              "Streamer and Rainbow Six Siege caster for Ubisoft Brazil",
+              "gaming"
+            ],
+            [
+              7,
+              "Just a React",
+              "Reaction-content YouTube channel",
+              "creator"
+            ],
+            [
+              8,
+              "Babi",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              9,
+              "Babi Micheletto",
+              "Sports commentator, ESPN",
+              "sports"
+            ],
+            [
+              10,
+              "Beatriste",
+              "Caster and esports analyst, FPS games",
+              "gaming"
+            ],
+            [
+              11,
+              "Beatriz Meinberg",
+              "Professional voice actress (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              12,
+              "Belle",
+              "Game narrator (Rainbow Six, Valorant)",
+              "voice"
+            ],
+            [
+              13,
+              "Bia Tsuuki",
+              "Streamer and gaming content creator, KR3W",
+              "creator"
+            ],
+            [
+              14,
+              "Brn",
+              "Streamer/content creator, Monster Energy",
+              "creator"
+            ],
+            [
+              15,
+              "Bstrdd",
+              "Professional VALORANT player, MIBR",
+              "gaming"
+            ],
+            [
+              16,
+              "Capponi.lo",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              17,
+              "Carlos Daniel",
+              "Creator of the Voice Makers channel",
+              "creator"
+            ],
+            [
+              18,
+              "Cosmic Postman",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              19,
+              "Mushroom",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              20,
+              "Conir",
+              "Professional VALORANT player, MIBR",
+              "gaming"
+            ],
+            [
+              21,
+              "Daiki",
+              "Pro player/IGL, Team Liquid VISA Game Changers Valorant",
+              "gaming"
+            ],
+            [
+              22,
+              "Delegate",
+              "Streamer, KR3W",
+              "creator"
+            ],
+            [
+              23,
+              "Denise Sperandelli",
+              "Voice actress",
+              "voice"
+            ],
+            [
+              24,
+              "Doug",
+              "Professional voice actor (\"DubDoug\")",
+              "voice"
+            ],
+            [
+              25,
+              "Felipersa",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              26,
+              "Feniquinha",
+              "Commercial Head, MIBR & LOS; professor, ESPM",
+              "other"
+            ],
+            [
+              27,
+              "Flora Paulita",
+              "Professional voice actress (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              28,
+              "Fred Mascarenhas",
+              "Voice actor, dubbing director, streamer, comedian",
+              "voice"
+            ],
+            [
+              29,
+              "Frttt",
+              "Former pro CS player, now Team Liquid streamer",
+              "gaming"
+            ],
+            [
+              30,
+              "Fabio Azevedo",
+              "Professional voice actor (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              31,
+              "GaBi",
+              "Professional Counter-Strike player, MIBR",
+              "gaming"
+            ],
+            [
+              32,
+              "Gabsshin",
+              "Cosplayer known as the real-life Nagatoro",
+              "cosplay"
+            ],
+            [
+              33,
+              "Gabzuski",
+              "Game streamer, KR3W",
+              "creator"
+            ],
+            [
+              34,
+              "Goddess",
+              "Performance Manager at MIBR",
+              "gaming"
+            ],
+            [
+              35,
+              "Gordox",
+              "League of Legends 1v1 exhibition player",
+              "gaming"
+            ],
+            [
+              36,
+              "Hayashi",
+              "Content creator, Call of Duty (Monster Energy)",
+              "creator"
+            ],
+            [
+              37,
+              "Henrique Mendonça",
+              "Content creator, Maximus Agencies",
+              "creator"
+            ],
+            [
+              38,
+              "Iron Master",
+              "Geek music YouTube channel",
+              "music"
+            ],
+            [
+              39,
+              "Joeveno",
+              "Content creator (\"the little airplane\")",
+              "creator"
+            ],
+            [
+              40,
+              "Kami",
+              "League of Legends 1v1 exhibition player",
+              "gaming"
+            ],
+            [
+              41,
+              "Kamikaze",
+              "Streamer/creator, Rainbow Six, Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              42,
+              "Kira Luize",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              43,
+              "Lana Sykes",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              44,
+              "LevelUp007",
+              "Streamer, two-time Free Fire world champion",
+              "gaming"
+            ],
+            [
+              45,
+              "Lgcn",
+              "Streamer, content creator, web/TV/radio host",
+              "creator"
+            ],
+            [
+              46,
+              "Louie Desu",
+              "Content creator, Maximus Agencies",
+              "creator"
+            ],
+            [
+              47,
+              "Manu Oliveira",
+              "Lawyer and CEO of MOA (creators/pro players agency)",
+              "other"
+            ],
+            [
+              48,
+              "Marie Freire",
+              "President, Rio de Janeiro State Electronic Sports Federation",
+              "gaming"
+            ],
+            [
+              49,
+              "May",
+              "Community Manager, Stem Girls; software engineer",
+              "other"
+            ],
+            [
+              50,
+              "Honey",
+              "Professional VALORANT player, MIBR",
+              "gaming"
+            ],
+            [
+              51,
+              "Migs",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              52,
+              "Milkurtz",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              53,
+              "Minato TV",
+              "Free Fire content creator and streamer",
+              "creator"
+            ],
+            [
+              54,
+              "Miw",
+              "Valorant streamer and creator, Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              55,
+              "Mizzy",
+              "Professional VALORANT player, MIBR",
+              "gaming"
+            ],
+            [
+              56,
+              "Moracci",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              57,
+              "Myn",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              58,
+              "Nanda Lorenzine",
+              "Content creator, Maximus Agencies",
+              "creator"
+            ],
+            [
+              59,
+              "Nanis",
+              "Content creator, Maximus Agencies",
+              "creator"
+            ],
+            [
+              60,
+              "Baby",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              61,
+              "Neskwga",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              62,
+              "Niel_Max",
+              "Adaptive esports player/streamer, PCD Cup",
+              "gaming"
+            ],
+            [
+              63,
+              "OL6A",
+              "Professional Counter-Strike 2 player, MIBR",
+              "gaming"
+            ],
+            [
+              64,
+              "Olkabone",
+              "Streamer and digital content creator, KR3W",
+              "creator"
+            ],
+            [
+              65,
+              "Pedro Alcântara",
+              "Professional voice actor (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              66,
+              "Pineciokaiki",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              67,
+              "Poppins",
+              "Professional Counter-Strike player, MIBR",
+              "gaming"
+            ],
+            [
+              68,
+              "RaiXT",
+              "Esports caster/presenter, streamer, Imperial Esportes",
+              "gaming"
+            ],
+            [
+              69,
+              "Raphyx",
+              "Brazilian geek-music singer, 30M+ streams",
+              "music"
+            ],
+            [
+              70,
+              "Rayana El Bainy",
+              "Streamer and professional Call of Duty player",
+              "gaming"
+            ],
+            [
+              71,
+              "RazaH",
+              "Streamer/creator, Rainbow Six, Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              72,
+              "Renatows",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              73,
+              "RetroPie",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              74,
+              "Revolt",
+              "Former pro League of Legends player, now streamer",
+              "gaming"
+            ],
+            [
+              75,
+              "Rudy Landucci",
+              "Comedian and football influencer; Kings League Brazil champion",
+              "creator"
+            ],
+            [
+              76,
+              "RyanRed",
+              "YouTuber/content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              77,
+              "Sem1",
+              "Streamer and creator for Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              78,
+              "Sofia Bedeschi",
+              "Journalist; founder, Women in e-Sports",
+              "gaming"
+            ],
+            [
+              79,
+              "Stolen",
+              "Pro player, commentator and presenter, esports (Monster Energy)",
+              "gaming"
+            ],
+            [
+              80,
+              "Surfistão S7",
+              "Influencer, \"legend of server S7\"",
+              "creator"
+            ],
+            [
+              81,
+              "Taco",
+              "Pro Counter-Strike player, two-time CS:GO world champion",
+              "gaming"
+            ],
+            [
+              82,
+              "Thiago Zambrano",
+              "Voice actor and dubbing director (Giik Entertainment)",
+              "voice"
+            ],
+            [
+              83,
+              "Tris_Mara",
+              "Influencer, Lotus Hub",
+              "creator"
+            ],
+            [
+              84,
+              "Vitor Fraga",
+              "Content creator, Maestri Consulting",
+              "creator"
+            ],
+            [
+              85,
+              "Waved",
+              "Professional VALORANT player, MIBR",
+              "gaming"
+            ],
+            [
+              86,
+              "WeLoveJee",
+              "Streamer and digital marketing specialist",
+              "creator"
+            ],
+            [
+              87,
+              "Zigueira",
+              "Former pro player, streamer/creator, Team Liquid Brazil",
+              "creator"
+            ],
+            [
+              88,
+              "Zipiih",
+              "Content creator, founder of Parada Gamer",
+              "creator"
+            ],
+            [
+              89,
+              "Angela Couto",
+              "Professional voice actress (Giik Entertainment)",
+              "voice"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage schedule text: 'BGS Conference - October 9th: 11:30 AM to 1:00 PM; October 9th: 1:00 PM to 9:00 PM; October 10th: 12:00 PM to 9:00 PM; October 11th: 12:00 PM to 9:00 PM; October 12th: 12:00 PM to 9:00 PM'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Primarily a publisher/exhibitor trade and consumer gaming expo (PlayStation, Sega, Nintendo, Square Enix, etc. have show-floor presences) rather than a classic autograph con, but it runs a large, officially paged 'International Guests' and 'Influencers and Guests' program (93 people total between the two pages) with individual photos, so the full roster is captured. Many are Brazilian esports-org rosters (MIBR, Team Liquid Brazil) and talent-agency streamers/dubbing actors (Giik Entertainment, Maestri Consulting, Maximus Agencies) whose cards give only an agency name and a one-line role, so 'Known for' is kept to that line; stage names are used as given (real names substituted where the card states one, e.g. Amanda 'AMD' Abreu, Marie Freire, Niel_Max/Daniel). Venue confirmed as Distrito Anhembi via the site's own /local-e-como-chegar/ page."
+}

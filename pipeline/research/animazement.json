@@ -1,0 +1,30 @@
+{
+  "id": "animazement",
+  "name": "Animazement",
+  "short": "AZ",
+  "url": "https://www.animazement.com/",
+  "organizer": "Educational Growth Across Oceans (EGAO)",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Raleigh's premier Japanese animation and culture convention, an all-volunteer, fan-run event with concerts, panels and cosplay events.",
+  "cover": { "file": "pipeline/cache/extract/animazement.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://animazement2027.eventbrite.com/",
+      "guestsPage": "https://www.animazement.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MAY 28 - 30, 2027' and 'LOCATION Raleigh Convention Center 500 S Salisbury St. Raleigh, NC 27601 DATES May 28 – 30, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given URL (animazement.org) redirects to animazement.com, the live official site; used the .com URL. The Guests page lists category headers (Voice Acting, Music, Cultural, Industry Guests) but no names or photos are populated under any of them yet, so guests are not-yet-announced for the 2027 show."
+}

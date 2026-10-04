@@ -1,0 +1,22 @@
+{
+  "id": "chicago-alternative-comics-expo",
+  "name": "Chicago Alternative Comics Expo",
+  "short": "CAKE",
+  "url": "https://www.cakechicago.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Chicago's weekend-long festival for independent and alternative comics, with small-press exhibitors, panels, an art auction and the Cupcake Award.",
+  "cover": { "file": "pipeline/cache/extract/chicago-alternative-comics-expo.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-02",
+    "end": "2026-05-03",
+    "venue": "Irish American Heritage Center",
+    "city": "Chicago",
+    "region": "IL",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "CAKE 2026 ran May 2-3, 2026 at the Irish American Heritage Center (per the site's own 'Featured 2026 Cupcake Award Winners' and other May/April 2026 news posts) - before this research window starts (2026-10-05). The official site has not posted 2027 dates yet; a web search only turned up an unconfirmed third-party guess of 'likely May 2027'. No guests field is set since there is no edition in the window to attach it to; CAKE does list 'Special Guests' each year on a per-edition page (e.g. /special26) when dates are announced."
+}

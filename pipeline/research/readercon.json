@@ -1,0 +1,33 @@
+{
+  "id": "readercon",
+  "name": "Readercon",
+  "short": "",
+  "url": "https://readercon.org",
+  "organizer": "Readercon Science Fiction Conference, Inc.",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A literary speculative-fiction conference near Boston with a near-total focus on the written word; hosts the Shirley Jackson Awards.",
+  "cover": { "file": "pipeline/cache/extract/readercon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-07-08",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Boston Marriott Burlington",
+      "city": "Burlington",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://readercon.org/registration",
+      "guestsPage": "https://readercon.org/guests",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Neil Clarke", "Editor, Clarkesworld Magazine", "other"],
+        ["Fonda Lee", "Author, Green Bone Saga", "author"]
+      ],
+      "evidence": "Homepage text: \"Readercon 36 July 8 – 11, 2027 Boston Marriott Burlington in Burlington, MA\" and \"Guests of Honor: Neil Clarke and Fonda Lee\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Memorial Guest of Honor not yet named (\"To be announced\" on site), so excluded. The guests page is Cloudflare-protected (needed --channel msedge to render) and shows no guest photos, only the site logo, so the two confirmed Guests of Honor are recorded as textOnlyGuests. The homepage's only image is a small transparent logo, used as the cover."
+}

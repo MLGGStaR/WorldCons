@@ -1,0 +1,41 @@
+{
+  "id": "radcon",
+  "name": "RadCon",
+  "short": "",
+  "url": "https://www.radcon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "cosplay", "games"],
+  "blurb": "Tri-Cities science fiction and fantasy convention held every Presidents' Day weekend in Pasco, Washington, with panels, gaming, art and a masquerade.",
+  "cover": { "file": "pipeline/cache/extract/radcon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "Red Lion Hotel and Convention Center",
+      "city": "Pasco",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/radcon-9c/badgetypes",
+      "guestsPage": "https://www.radcon.org/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/radcon-home.guests.json",
+          "picks": [
+            [3, "Corey Frazier", "Science Guest of Honor", "other"],
+            [4, "Brittany Otto", "Artist Guest of Honor", "other"],
+            [5, "Steven K. Smith", "Cosplay & SFX Guest of Honor", "cosplay"],
+            [6, "Alexander James Adams", "Music Special Guest", "music"],
+            [7, "Rob Carlos", "Artist Special Guest", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'RadCon 9C: Realms & Relics February 12-14, 2027 Red Lion Hotel and Convention Center · Pasco, Washington'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Next edition is RadCon 9C: Realms & Relics (the dedicated /guests-of-honor/ nav page renders guest bios via JS tabs our renderer could not expand, so the 5-guest lineup with photos was captured from the homepage's 'Meet Our Guests of Honor' / 'Special Guests' sections instead, saved as radcon-home.guests.json). 'Dr.' honorific dropped from Corey Frazier's name per normal-capitalisation convention. Organizer entity beyond the volunteer-run 'RadCon' name not found on the site."
+}

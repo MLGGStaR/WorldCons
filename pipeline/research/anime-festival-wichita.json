@@ -1,0 +1,22 @@
+{
+  "id": "anime-festival-wichita",
+  "name": "Anime Festival Wichita",
+  "short": "AFW",
+  "url": "https://afwcon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "A three-day anime convention in Wichita, Kansas with voice actors, cosplay contests, karaoke and gaming.",
+  "cover": { "file": "pipeline/cache/extract/anime-festival-wichita.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-06-19",
+    "end": "2026-06-21",
+    "venue": "Hyatt Regency Wichita",
+    "city": "Wichita",
+    "region": "KS",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The homepage still reads 'Anime Festival Wichita Will Return JUNE 19, 20 & 21 2026' and its guest list is still labeled 'Our 2025 Guests' - that 2026 edition (June 19-21, 2026) already ran before this window starts (2026-10-05) and the site has not been updated with 2027 dates yet. A web search likewise found no confirmed 2027 dates, so editions is left empty."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "octocon",
+  "name": "Octocon",
+  "short": "",
+  "url": "https://octocon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "horror", "comics", "tabletop"],
+  "blurb": "Ireland's national science fiction convention, a weekend of books, comics, film, games and fandom held in person and online.",
+  "cover": { "file": "pipeline/cache/extract/octocon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-10-02",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "Tower Hotel, Waterford",
+      "city": "Waterford",
+      "region": "",
+      "country": "IE",
+      "tickets": "https://registration.octocon.com/",
+      "guestsPage": "https://octocon.com/2026/10/announcing-octocon-2027/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/octocon-2027.guests.json",
+          "picks": [
+            [2, "Emily Tesh", "Some Desperate Glory, Hugo winner", "author"],
+            [3, "Alan Nolan", "Author, illustrator and comic creator", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Blog post 'Announcing - Octocon 2027' (published 4 October 2026): 'Octocon will return on the weekend of 2nd and 3rd of October 2027 ... Our 2027 Venue is the Tower Hotel, Waterford!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Octocon 2026 (3-4 Oct 2026, Clayton Hotel Cork City, per the assignment brief) is confirmed by the homepage but ended the day before this research window opens (2026-10-05), so it is excluded. The 2027 edition -- a new city, Waterford, not last year's Cork -- was announced in a blog post published 4 Oct 2026, one day before this check, naming 2 Guests of Honour (Emily Tesh, Alan Nolan) with photos; the main /octocon-guests/ roster page still shows the 2026 lineup and has not been updated for 2027 yet, so the lineup above was picked from the announcement post itself rather than that page. Registration for 2027 opens in November per the same post. Organizer left blank: Octocon is a volunteer-run convention and no separate organizing company name appears on the site."
+}

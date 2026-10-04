@@ -1,0 +1,15 @@
+{
+  "id": "animatsuri",
+  "name": "Animatsuri",
+  "short": "",
+  "url": "https://www.animatsuri.org.il/",
+  "organizer": "AMAI (Association for Manga and Anime in Israel)",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "Israel's largest anime and manga convention, a one-day summer event in Jerusalem covering anime, manga, gaming and Japanese pop culture.",
+  "cover": { "file": "pipeline/cache/extract/animatsuri.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-27", "end": "2026-08-27", "city": "Jerusalem", "region": "", "country": "IL", "venue": "Binyanei HaUma" },
+  "checked": "2026-10-05",
+  "notes": "The only date on the site is the 2026 edition, a single day (Thursday 27.08.2026, 09:00-21:00) at Binyanei HaUma, Jerusalem -- already over before this research window opens (2026-10-05), and recorded as 'last' rather than guessed forward. No 2027 date is announced yet; AMAI runs this as its summer event (sister to Harucon in spring), so it is likely to resurface around next summer."
+}

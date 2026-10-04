@@ -1,0 +1,30 @@
+{
+  "id": "megacon",
+  "name": "MEGACON Orlando",
+  "short": "MegaCon",
+  "url": "https://fanexpohq.com/megaconorlando/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "FAN EXPO HQ's Orlando show at the Orange County Convention Center, with celebrity, anime, gaming and comic-creator guests.",
+  "cover": { "file": "pipeline/cache/extract/megacon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-05-20",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Orange County Convention Center",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://fanexpohq.com/megaconorlando/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/megaconorlando/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event \"MEGACON Orlando\" 2027-05-20 -> 2027-05-23 @ Orange County Convention Center; same text on page: 'MAY 20 - 23, 2027 ORANGE COUNTY CONVENTION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "MEGACON is FAN EXPO HQ's Orlando show (same corporate network/template as the other FAN EXPO cities). Both the celebrities and comic-creators guest pages show only a 'PAST FAN FAVE GUESTS INCLUDED' section (John Cena, Diego Luna, Frank Miller, Jim Lee, etc.) with 'sign up for updates' copy, not a 2027 lineup, so guests is 'none-yet'. Cover uses the distinct red/gold 'MEGACON' wordmark logo (the only MegaCon-specific branded asset found; carousel/hero images are generic stock photos)."
+}

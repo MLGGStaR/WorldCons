@@ -1,0 +1,12 @@
+1. id=bewhiskered | Bewhiskered | https://bewhiskeredcon.org | Durham, NC, US | types: furry
+2. id=big-charlotte-anime | Big Charlotte Anime | https://www.bigcharlotteanime.com | Charlotte, NC, US | types: anime | note: Jan 2026 edition was cancelled; summer edition still active
+3. id=carolina-furfare | Carolina Furfare | https://www.carolinafurfare.org | Hickory, NC, US | types: furry | note: Family-friendly western-NC furry convention
+4. id=coastal-comic-con | Coastal Comic Con | https://www.coastalcomiccon.com | Wilmington, NC, US | types: comics | organizer: Soda City Comic Con, LLC | note: Confirmed Mar 2027 edition; same organizer as Soda City Comic Con (SC)
+5. id=congregate | ConGregate | https://con-gregate.com | Greensboro, NC, US | types: scifi, cosplay | note: All-volunteer Triad-region SF con; 12th edition 2026
+6. id=furry-takeover | Furry Takeover | https://www.furrytakeover.com | Fontana Dam, NC, US | types: furry | note: Held at Fontana Village Resort & Marina
+7. id=ibashocon | Ibashocon | https://www.ibashocon.com | Raleigh, NC, US | types: anime | note: Confirmed 2027 edition
+8. id=ichibancon | Ichibancon | https://ichibancon.com | Concord, NC, US | types: anime
+9. id=lore-con | Lore Con | https://loreconvention.com | Durham, NC, US | types: comics
+10. id=tantrumcon | TantrumCon | https://www.tantrumcon.com | Charlotte, NC, US | types: tabletop
+11. id=triad-anime-con | Triad Anime Con | https://www.triadanimecon.com | Winston-Salem, NC, US | types: anime | note: Confirmed Mar 26-28, 2027 edition
+12. id=triangle-terror-con | Triangle Terror Con | https://triangleterrorcon.com | Durham, NC, US | types: horror

@@ -1,0 +1,62 @@
+{
+  "id": "hal-con",
+  "name": "Hal-Con",
+  "short": "",
+  "url": "https://hal-con.com/",
+  "organizer": "Hal-Con Sci-Fi Fantasy Association",
+  "status": "active",
+  "types": ["scifi", "horror", "anime", "tabletop"],
+  "blurb": "Atlantic Canada's largest fan convention, with film and TV actors, authors, comic creators and cosplay guests in Halifax.",
+  "cover": { "file": "pipeline/cache/extract/hal-con.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Halifax Convention Centre",
+      "city": "Halifax",
+      "region": "NS",
+      "country": "CA",
+      "tickets": "https://hal-con.com/tickets",
+      "guestsPage": "https://hal-con.com/guest-list",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/hal-con.guests.json",
+          "picks": [
+            [1, "Chad Michael Murray", "One Tree Hill", "actor"],
+            [2, "Peter Facinelli", "Twilight Saga", "actor"],
+            [3, "Emily Swallow", "The Mandalorian", "actor"],
+            [4, "Ethan Suplee", "My Name Is Earl", "actor"],
+            [5, "Jackson Rathbone", "Twilight Saga", "actor"],
+            [6, "Jonathan Frakes", "Star Trek: The Next Generation", "actor"],
+            [7, "Kellan Lutz", "Twilight Saga", "actor"],
+            [8, "Jason Lee", "My Name Is Earl", "actor"],
+            [9, "Paul Tremblay", "Horror novelist", "author"],
+            [10, "Natalie Zina Walschots", "Hench author", "author"],
+            [11, "Elayna R. Gallea", "", "author"],
+            [12, "P. Djèlí Clark", "A Master of Djinn author", "author"],
+            [13, "Fonda Lee", "Green Bone Saga author", "author"],
+            [14, "T Kingfisher/Ursula Vernon", "Hugo-winning fantasy author", "author"],
+            [15, "Liana Kangas", "", "comics"],
+            [16, "Keezy Young", "Taproot graphic novel", "comics"],
+            [17, "Alex Moore", "", "comics"],
+            [18, "Eric Olcsvary", "", "comics"],
+            [19, "Erica Schultz", "Marvel Comics writer", "comics"],
+            [20, "Dino Caruso", "", "comics"],
+            [21, "Anthony Ruttgaizer", "", "comics"],
+            [22, "Chanse McCrary", "", "other"],
+            [23, "Alex Rochon", "", "other"],
+            [24, "Clint McElroy", "The Adventure Zone podcast", "creator"],
+            [25, "Doll Damage Cosplay", "", "cosplay"],
+            [26, "GoBeyond Cosplay", "", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'November 6th – 8th, 2026 Halifax Convention Centre, Halifax, NS'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "2026 edition reportedly sold out in advance (per discovery note); still an active, running convention. Guest cards on the site show only 'Read Bio' with no visible credit text; 'known for' is left blank for guests we could not confidently identify from general knowledge, rather than guessed."
+}

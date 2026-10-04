@@ -1,0 +1,86 @@
+{
+  "id": "heroes-world",
+  "name": "Heroes World",
+  "short": "",
+  "url": "https://www.heroes-world.be/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "Belgium's merged autumn mega-con — Heroes Comic Con, GameForce and Made in Asia combined — with comics, film/TV, anime and gaming guests at Brussels Expo.",
+  "cover": { "file": "pipeline/cache/extract/heroes-world.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Brussels Expo",
+      "city": "Brussels",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.heroes-world.be/tickets/",
+      "guestsPage": "https://www.heroes-world.be/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/heroes-world.guests.json",
+          "picks": [
+            [13, "Garth Ennis", "The Boys, Preacher writer", "comics"],
+            [14, "Danny Khazem", "Marvel editor (Spider-Man)", "comics"],
+            [15, "Jim Cheung", "Infinity, Young Avengers artist", "comics"],
+            [16, "Torunn Gronbekk", "Catwoman, Venom writer", "comics"],
+            [17, "Brittany Holzherr", "DC senior editor", "comics"],
+            [18, "Phil Noto", "Star Wars, Black Widow artist", "comics"],
+            [19, "Ron Marz", "Green Lantern writer", "comics"],
+            [20, "Michael Lark", "Lazarus, Daredevil artist", "comics"],
+            [21, "Dav", "Mickey & Le Roi des Pirates", "comics"],
+            [22, "Jeroen De Coninck", "The Smurfs artist", "comics"],
+            [23, "Laurent Cagniat", "The Smurfs artist", "comics"],
+            [24, "Steven Dupré", "De Pilaren van de Aarde artist", "comics"],
+            [25, "Wim Swerts", "Samson & Gert artist", "comics"],
+            [26, "ZeMiaL", "Shonen Avengers artist", "comics"],
+            [43, "Odoriko", "J-pop/K-pop dance group", "music"],
+            [52, "Gastronogeek", "Geek-culture cookbook author", "author"],
+            [65, "Ralph Fiennes", "Voldemort in Harry Potter", "actor"],
+            [66, "Michael Weatherly", "NCIS (Tony DiNozzo)", "actor"],
+            [67, "James Lafferty", "", "actor"],
+            [68, "Cote de Pablo", "NCIS (Ziva David)", "actor"],
+            [69, "Jennifer Svedberg-Yen", "Lead writer, Clair Obscur: Expedition 33", "gaming"],
+            [70, "Kirsty Rider", "Lune in Clair Obscur: Expedition 33", "voice"],
+            [71, "Rich Keeble", "Monoco in Clair Obscur: Expedition 33", "voice"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/heroes-world-2.guests.json",
+          "picks": [
+            [3, "Io Sakisaka", "Shojo mangaka, Guest of Honour", "animation"],
+            [4, "Hiromi Fujiwara", "Kimono culture demonstrator", "other"],
+            [6, "Mydresscode", "", "cosplay"],
+            [7, "Univer23", "", "cosplay"],
+            [8, "Eiren Nishikawa", "", "other"],
+            [9, "Donald Reignoux", "", "other"],
+            [10, "Bastien Bourlé", "", "other"],
+            [11, "Jean-Pierre Michael", "", "other"],
+            [19, "Louis-san", "", "cosplay"],
+            [20, "Niti Blake", "", "other"],
+            [21, "Sonya Lwu", "", "other"],
+            [22, "Kirapika", "", "cosplay"],
+            [23, "Jacob", "", "other"],
+            [24, "Conjureuse", "", "cosplay"],
+            [25, "Tero", "", "cosplay"],
+            [26, "Kyoshi et Elodie", "", "cosplay"],
+            [27, "7 Deadly Cheeses", "", "cosplay"],
+            [28, "Obscuria", "", "cosplay"],
+            [29, "Vercin", "", "cosplay"],
+            [30, "Orochi Jidai", "", "cosplay"],
+            [31, "Otoon", "", "cosplay"],
+            [32, "Hokaie", "", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '17-18 OCTOBER AT BRUSSELS EXPO'; 'For the Autumn editions, Made in Asia, Heroes Comic Con and GameForce have merged into one geeky festival ... Heroes World.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "New-for-2026 merged brand (Easyfairs combined Heroes Comic Con, GameForce and Made in Asia's autumn show into one event called Heroes World); see this batch's separate 'made-in-asia' file for that brand's now-independent Spring edition, not duplicated here. Several guest cards on the actor/Game-Island row (James Lafferty) carry pricing text only and no bio, so known-for is left blank per the name-only-card rule. Ralph Fiennes' card is also bio-less; his known-for ('Voldemort in Harry Potter') instead comes from this site's own homepage image file name (Ralph-Fiennes-Voldemort.png), not from the guest card text. A second combined guest-list page (madeinasia.be) repeats the actor/comics names with no bios but adds ~22 Made-in-Asia-zone names (mangaka, a dance troupe, likely French-dub voice actors and cosplayers) with no bio text and, mostly, no clear role signal — cat is a best-effort guess from the handle style (cosplay-style handles vs. plain real names → 'other') per the never-guess-known-for/do-your-best-on-cat rule; known-for left blank for all of them. One ~38-card 'ALL GUESTS' photo grid on heroes-world.be/guests/ rendered with no name or alt text at all for all but 2 photos (Odoriko, Gastronogeek, both picked) — the rest could not be identified and were left out rather than guessed."
+}

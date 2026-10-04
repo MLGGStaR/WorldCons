@@ -1,0 +1,15 @@
+{
+  "id": "china-international-cartoon-and-animation-festival",
+  "name": "China International Cartoon and Animation Festival",
+  "short": "CICAF",
+  "url": "https://cicaf.hzxcw.gov.cn/",
+  "organizer": "National Radio and Television Administration / Zhejiang Provincial Government",
+  "status": "active",
+  "types": ["anime", "comics"],
+  "blurb": "China's state-backed animation festival in Hangzhou, combining industry exhibitions, the Golden Monkey King Awards and a business conference.",
+  "cover": { "file": "pipeline/cache/extract/cicaf-alt2.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-05-29", "end": "2026-06-02", "city": "Hangzhou", "region": "", "country": "CN", "venue": "Hangzhou Baima Lake International Convention and Exhibition Centre" },
+  "checked": "2026-10-05",
+  "notes": "The official domain (cicaf.hzxcw.gov.cn) would not load — page.goto timed out with both default Chromium and --channel msedge, and a WebFetch attempt returned no content either. The alternate root www.cicaf.com also timed out the same way. Two of its own sub-sites did load (comic.cicaf.com, iabc.cicaf.com), confirming the festival is live: the 22nd CICAF ran 2026-05-29 to 2026-06-02 at the Hangzhou Baima Lake International Convention and Exhibition Centre, with its companion iABC2026 business conference 2026-06-16 to 2026-06-17 (per WebSearch of Chinese coverage, since the dates could not be read from the site itself) — both already concluded before this window, and no 23rd-edition (2027) date was found anywhere. Cover uses the festival's own logo pulled from the live comic.cicaf.com sub-site (its children's-contest arm), which carries the same '中国国际动漫节'/CICAF copyright footer, since neither main domain could be rendered for a banner image. This is a government-run industry/awards festival (Golden Monkey King Awards) rather than a guest-appearance convention, and with no edition in the window there is nothing to attach a guest field to."
+}

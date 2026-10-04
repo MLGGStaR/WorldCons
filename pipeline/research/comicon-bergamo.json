@@ -1,0 +1,30 @@
+{
+  "id": "comicon-bergamo",
+  "name": "Comicon Bergamo",
+  "short": "",
+  "url": "https://bergamo.comicon.it/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "Italian pop-culture festival in Bergamo, the sister event of Napoli Comicon, with comics and games guests, exhibitions and a cosplay competition.",
+  "cover": { "file": "pipeline/cache/extract/comicon-bergamo.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Fiera di Bergamo",
+      "city": "Bergamo",
+      "region": "",
+      "country": "IT",
+      "tickets": "https://ticket.comicon.it/",
+      "guestsPage": "https://bergamo.comicon.it/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage news item: 'L'appuntamento e fissato per la quinta edizione di COMICON Bergamo, in programma dal 25 al 27 giugno 2027' (news/905, published after the 2026 edition closed); footer text on the same site gives the venue as 'Fiera di Bergamo'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed URL www.comicon.it is the Napoli edition's domain; Bergamo's own site is bergamo.comicon.it. The homepage still displays the concluded June 26-28, 2026 edition and its guest lineup (2027 guests are not yet posted), so guests is 'none-yet' for the 2027 edition even though the 2026 lineup is visible on the page. Organizer legal name not confirmed from an official source, left blank. Cover hero:0 is the main rotating banner image; other hero images are a store banner (SVG), cosplay-challenge registration banners and shop photos, so were skipped."
+}

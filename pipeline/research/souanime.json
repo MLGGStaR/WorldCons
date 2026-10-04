@@ -1,0 +1,21 @@
+{
+  "id": "souanime",
+  "name": "SoUAnime",
+  "short": "",
+  "url": "https://www.souanime.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Southern Utah's anime convention in St. George, with cosplay, panels, gaming and art.",
+  "cover": { "file": "pipeline/cache/extract/souanime.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-02",
+    "end": "2026-10-03",
+    "city": "St. George",
+    "region": "UT",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition (Oct 2-3, 2026) just concluded -- the homepage itself now reads 'Thanks for coming to SoUAnime 2026! See you next year.' -- and ends before this window starts (2026-10-05), so it is correctly left out. No 2027 date has been announced yet anywhere on the site (no mention of 2027 in the homepage text, JSON-LD, or date snippets), so editions is empty rather than guessed."
+}

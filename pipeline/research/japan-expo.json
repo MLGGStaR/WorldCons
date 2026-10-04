@@ -1,0 +1,32 @@
+{
+  "id": "japan-expo",
+  "name": "Japan Expo",
+  "short": "",
+  "url": "https://www.japan-expo-paris.com",
+  "organizer": "SEFA Event",
+  "status": "active",
+  "types": ["anime", "pop", "games", "cosplay"],
+  "blurb": "Europe's largest Japanese pop-culture convention, held at Paris-Nord Villepinte with anime, manga, music, gaming and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/japan-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-08",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Parc des Expositions de Paris-Nord Villepinte",
+      "city": "Paris",
+      "region": "",
+      "country": "FR",
+      "tickets": "https://ticket.japan-expo.com/",
+      "guestsPage": "https://paris.japan-expo.com/fr/editions/jep27/invites",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Yoichi Takahashi", "Captain Tsubasa creator, Japan Expo 2027 guest of honor", "animation"]
+      ],
+      "evidence": "Homepage countdown: 'Japan Expo 2027 commence dans... 276 JOURS' with 'Quand... Du 8 au 11 Juillet 2027' and 'L'invité d'honneur n'est autre que Yôichi Takahashi.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage mixes a recap of the just-finished 2026 edition ('Revivez l'édition 2026', guest cards for Keisuke Itagaki, YOSHIKI, Kazuya Kamenashi, Junya Enoki, Shigenori Soejima, Kazuhisa Wada — all excluded here as past) with the countdown/announcement for the next edition, 8-11 July 2027. The jep27 guests sub-page (/fr/editions/jep27/invites) only shows day-filter tabs and a stale 'old edition' banner with zero guest cards yet, so the sole confirmed 2027 guest so far is the guest of honor named on the homepage, recorded as text-only (no photo found)."
+}

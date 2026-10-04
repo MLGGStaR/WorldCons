@@ -1,0 +1,15 @@
+{
+  "id": "warpcon",
+  "name": "Warpcon",
+  "short": "",
+  "url": "https://www.warpcon.ie",
+  "organizer": "UCC Boardgames & Role-Playing Society",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A student-run tabletop gaming convention at University College Cork, with RPGs, card games, LARP, wargaming and board games.",
+  "cover": { "file": "pipeline/cache/extract/warpcon.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-01-30", "end": "2026-02-01", "city": "Cork", "region": "", "country": "IE", "venue": "UCC Campus" },
+  "checked": "2026-10-05",
+  "notes": "The site still shows 'Warpcon 36', 2026-01-30 to 2026-02-01 at UCC, which already ended before this research window opens (2026-10-05). No Warpcon 37 date is announced on the site yet, and a web search for one turned up nothing beyond 'likely January 2027' speculation, so editions is left empty rather than guessed. This matches the pattern of past editions (XXIX, XXXI, 36...) being confirmed only close to the January date, so it is worth re-checking nearer December 2026."
+}

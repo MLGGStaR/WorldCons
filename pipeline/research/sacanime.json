@@ -1,0 +1,85 @@
+{
+  "id": "sacanime",
+  "name": "SacAnime",
+  "short": "",
+  "url": "https://sacanime.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Sacramento anime convention held three times a year, with voice-actor guests of honor, cosplay, artist alley and gaming.",
+  "cover": { "file": "pipeline/cache/extract/sacanime.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-01-08",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "SAFE Credit Union Convention Center",
+      "city": "Sacramento",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://sacanime.ticketspice.com/sacanime-winter-2027",
+      "guestsPage": "https://sacanime.com/guest_list/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/sacanime.guests.json",
+          "picks": [
+            [1, "Cristina Vee", "Sailor Mars (Sailor Moon)", "voice"],
+            [2, "Ali Hillis", "", "voice"],
+            [3, "DC Douglas", "", "voice"],
+            [4, "Brandon Keener", "Garrus Vakarian (Mass Effect)", "voice"],
+            [5, "Mark Meer", "", "voice"],
+            [6, "John DiMaggio", "", "voice"],
+            [7, "Chrissie Zullo", "", "comics"],
+            [8, "Christopher Uminga", "", "comics"],
+            [9, "Monica Rial", "", "voice"],
+            [10, "Brandon McInnis", "", "voice"],
+            [11, "J. Michael Tatum", "", "voice"],
+            [12, "Justin Briner", "", "voice"],
+            [13, "Olivia Olson", "", "voice"],
+            [14, "David Errigo Jr.", "", "voice"],
+            [15, "Vincent Martella", "", "voice"],
+            [16, "Alyson Stoner", "", "actor"],
+            [17, "Christine Marie Cabanos", "", "voice"],
+            [18, "Debi Derryberry", "", "voice"],
+            [19, "Courtney Lin", "", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/text: 'January 8th – 10th, 2027 – SAFE Credit Union Convention Center 1401 K. Street Sacramento, CA 95814'; ticket link path 'sacanime-winter-2027'; confirmed again on the official Future Shows page."
+    },
+    {
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Cal Expo",
+      "city": "Sacramento",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://sacanime.com/attendee_registration/",
+      "guestsPage": "https://sacanime.com/guest_list/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official Future Shows page (sacanime.com/future-shows/): 'Spring 2027 – Friday, Saturday, and Sunday April 23rd – 25th, 2027 Cal Expo'."
+    },
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-05",
+      "dates": "confirmed",
+      "venue": "SAFE Credit Union Convention Center",
+      "city": "Sacramento",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://sacanime.com/attendee_registration/",
+      "guestsPage": "https://sacanime.com/guest_list/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official Future Shows page (sacanime.com/future-shows/): 'Summer 2027 – Friday, Saturday, and Sunday September 3rd – 5th, 2027 Sacramento (SAFE Credit Union) Convention Center'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "SacAnime runs 3 shows a year (one file, one edition per show per the multi-show special case); Spring 2027 moves to Cal Expo while Winter and Summer use the SAFE Credit Union Convention Center, both in Sacramento. Only Winter 2027 has guests announced; its guest_list grid (19 photos) only captions each person as 'SacAnime Winter 2027 Welcomes <Name>' with no credit text, so Known for is blank for most. A WebFetch of the con's own Guests of Honor announcement posts (sacanime.com/category/guests-of-honor/) surfaced clean, specific credits for only 2 of the 19 (Cristina Vee / Sailor Mars, Brandon Keener / Garrus Vakarian) that matched well enough to use; the other posts either weren't returned by that fetch or gave vague/unclear specifics (e.g. Ali Hillis, DC Douglas, Mark Meer), so those are left blank rather than guessed. No organizer name appears anywhere on the site (copyright line is blank: 'Copyright © 2026 . All rights reserved.'), so organizer is left blank. A separate, differently-branded 'Sac-Con/Sac Comic-Con' show (April 10-11, 2027, same venue) is also listed on the Future Shows page but is a different event from SacAnime and out of scope for this id."
+}

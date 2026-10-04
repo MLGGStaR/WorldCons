@@ -1,0 +1,30 @@
+{
+  "id": "fanimecon",
+  "name": "FanimeCon",
+  "short": "",
+  "url": "https://www.fanime.com/",
+  "organizer": "Fanime, Inc.",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Bay Area anime convention in downtown San Jose with guest autograph sessions, cosplay gatherings, Artist Alley and a Dealer's Hall.",
+  "cover": { "file": "pipeline/cache/extract/fanimecon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-31",
+      "dates": "confirmed",
+      "venue": "San Jose McEnery Convention Center",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.fanime.com/registration/",
+      "guestsPage": "https://www.fanime.com/guests-autographs/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official apps.fanime.com/2027 staff-listings page header: 'FanimeCon | May 28-31, 2027 | San Jose, CA'. Venue per the convention's official Marriott event listing: 'San Jose McEnery Convention Center in San Jose, California' (the venue FanimeCon's recent editions have used; fanime.com itself does not yet name a 2027 venue)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "fanime.com's own homepage and guests-autographs page (both rendered 2026-10-05) still advertise the May 22-25, 2026 edition that already ended before the research window and list only that edition's autograph schedule (Emi Lo, ALI, Ai Nonaka, Yuriko Yamaguchi, Hiroshi Nagahama, Khoi Dao, ...) with zero guest photo candidates on the page (it's a text schedule, not a gallery) -- so per the 'page still showing last year's lineup' rule, guests is 'none-yet' rather than carrying those names forward. The 2027-05-28/31 dates come from fanime.com's own 2027 staff-applications subdomain (apps.fanime.com/2027), not from WebSearch guessing; the main fanime.com site returned 403 to direct fetches (it only renders via headless Chromium through extract.mjs) and had no 2027 date text in its extract.mjs snapshot. No og/twitter image exists on the homepage, so the cover falls back to the wide 'website-bg2026.png' site background (hero:0), the best available banner-style art; it is generic con branding, not a guest photo from the past edition."
+}

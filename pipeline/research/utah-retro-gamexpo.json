@@ -1,0 +1,30 @@
+{
+  "id": "utah-retro-gamexpo",
+  "name": "Utah Retro GameXpo",
+  "short": "",
+  "url": "https://utahretrogamexpo.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "toys"],
+  "blurb": "A retro video game, toy and collectibles convention in Layton, Utah, with industry-veteran guest panels.",
+  "cover": { "file": "pipeline/cache/extract/utah-retro-gamexpo.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-08-13",
+      "end": "2027-08-14",
+      "dates": "confirmed",
+      "venue": "Davis Conference Center",
+      "city": "Layton",
+      "region": "UT",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://utahretrogamexpo.com/special-guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title and nav banner (shown 3 times): 'Utah Retro GameXpo - Aug 13-14 2027 - Davis Conference Center - Layton, UT'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage's 'Complete Event Hours' line still says 'Friday August 7th... Saturday August 8th' with no year -- a leftover from the prior (2026) edition that was never updated after the date banner was changed to Aug 13-14 2027 (Aug 13 2027 is in fact a Friday, so only the day-of-month looks stale, not the Fri/Sat pattern). The /special-guests page is headed 'Utah Retro GameXpo 2026 Special Guests' and still shows last year's lineup (Mike Pollock, Steve Jackson-era wrestlers, Resident Evil/GTA IV voice cast, etc.), so per the rules that is a stale page, not this edition's guests -- recorded as 'none-yet'."
+}

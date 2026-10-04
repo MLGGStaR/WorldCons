@@ -1,0 +1,55 @@
+{
+  "id": "yama-con",
+  "name": "Yama-Con",
+  "short": "",
+  "url": "https://yamacon.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An anime convention at the LeConte Center in Pigeon Forge, TN, with cosplay contests, idol fest, concerts and tabletop and digital gaming.",
+  "cover": { "file": "pipeline/cache/extract/yama-con.home.json", "key": "hero:6" },
+  "editions": [
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "LeConte Center at Pigeon Forge",
+      "city": "Pigeon Forge",
+      "region": "TN",
+      "country": "US",
+      "tickets": "https://yamacon.org/registration/",
+      "guestsPage": "https://yamacon.org/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/yama-con.guests.json",
+          "picks": [
+            [1, "Amber", "", "cosplay"],
+            [3, "Bryson Baugus", "", "voice"],
+            [4, "Callicake Cosplay", "", "cosplay"],
+            [5, "Clifford Chapin", "", "voice"],
+            [6, "Jason Douglas", "", "voice"],
+            [7, "Jessie James Grelle", "", "voice"],
+            [8, "Johnny Yong Bosch", "", "voice"],
+            [9, "Kaggy", "", "other"],
+            [11, "Kristen McGuire", "", "voice"],
+            [12, "Kumi Alderman", "", "other"],
+            [13, "Maddy Kate Cosplay", "", "cosplay"],
+            [14, "MayDay Fireball", "", "music"],
+            [16, "Naoko Podhorszki", "", "other"],
+            [17, "Ninj3ff3c7", "", "other"],
+            [18, "Paul St. Peter", "", "voice"],
+            [19, "Porkcutlett", "", "cosplay"],
+            [20, "Ryan Bartley", "", "voice"],
+            [21, "Trina Nishimura", "", "voice"],
+            [0, "Always Love Lorn", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'December 4th - 6th 2026'; venue page: 'Leconte Center at Pigeon Forge ... making it the ideal home for Yama-Con!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on /guests/ carry only a name under each photo, no credits, so 'Known for' is left blank for all. #2 Bryce Papenbrook's own photo (filename 'Bryce-cancellation.png') is stamped CANCELLED across his face, so he was skipped per the cancelled-guest rule. #10 'Knox Pop Con' is a partner convention's logo (filename literally 'Knox-Pop-Con-logo...') and #15 'Moonlight Maid Cafe' is a themed cafe attraction/vendor, not an individual guest -- both skipped. Several names (Always Love Lorn, Kaggy, Kumi Alderman, Naoko Podhorszki, Ninj3ff3c7) have no discoverable credits beyond the handle itself, so cat is left as 'other' rather than guessed (the badge itself displays the last one in full caps, 'NINJ3FF3C7', normalised here per naming convention); 'Amber' and 'Porkcutlett' share the same square-photo batch/pattern as two explicitly-labelled cosplay guests (Callicake Cosplay, Maddy Kate Cosplay) so were categorised 'cosplay'. 'Maydayfireball' is spaced/capitalised as 'MayDay Fireball' per the homepage's own text ('brought to You by MayDay Fireball')."
+}

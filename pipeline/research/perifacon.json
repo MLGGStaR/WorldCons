@@ -1,0 +1,14 @@
+{
+  "id": "perifacon",
+  "name": "PerifaCon",
+  "short": "",
+  "url": "https://perifacon.com.br/",
+  "organizer": "PerifaCon Comunicacao e Producao Cultural",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Brazil's first 'favela comic con', a free nerd and geek culture convention in Sao Paulo built by and for the periphery, with cosplay, comics, games and music.",
+  "cover": { "file": "pipeline/cache/extract/perifacon.home.json", "key": "logo:2" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The 5th edition ran Oct 25-26, 2025 at Fabrica de Cultura Jardim Sao Luis, Sao Paulo -- already finished well before today (2026-10-05) -- and neither the official site (still headlined 'PERIFACON 2025 ... 25 E 26 DE OUTUBRO') nor press coverage (Alternativa Nerd, GuetoGeek, Terra) mention a 6th edition or any date past 2025. The Instagram account (@perifacon) is still active with posts as recent as Sept 28, 2026, so the organization is ongoing, but post captions are not readable without a login and none of the visible image alt-text names a new edition date, so no upcoming edition is recorded. Cover uses the site's own logo (an og:image sponsor-logo strip and a crowd/stock-style hero image were both avoided per the cover rules)."
+}

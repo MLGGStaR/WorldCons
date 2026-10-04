@@ -1,0 +1,30 @@
+{
+  "id": "comic-con-wales",
+  "name": "Comic Con Wales",
+  "short": "",
+  "url": "https://www.comicconventionwales.co.uk",
+  "organizer": "Monopoly Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Monopoly Events' Welsh pop culture convention at ICC Wales in Newport, with film, TV and gaming guests.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-wales.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-07",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "ICC Wales",
+      "city": "Newport",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://www.comicconventionwales.co.uk/tickets",
+      "guestsPage": "https://www.comicconventionwales.co.uk/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '7-8th August, 2027 ICC Wales, Newport'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The page's meta description calls these 'biannual shows' but the visible body copy says 'every year' / 'attracting over ten thousand fans annually', and only one 2027 date is published anywhere on the site, so a single annual edition was recorded rather than guessing a second 2026/2027 date. The guests page shows only a single 'TBC' placeholder tile with no names - guests is 'none-yet'. 'In previous years' text namedrops John Cena, Martin Kove, Michael Rooker, Ian Somerhalder and Ioan Gruffudd, but that is marketing copy about past shows, not a confirmed 2027 lineup. Organizer Monopoly Events confirmed by the shared Wix template/footer and the seed note."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "japan-expo-thailand",
+  "name": "Japan Expo Thailand",
+  "short": "JETH",
+  "url": "https://www.japanexpothailand.com",
+  "organizer": "G-Yu Creative",
+  "status": "active",
+  "types": ["pop", "anime"],
+  "blurb": "Thailand's biggest all-Japan culture expo in Bangkok, covering anime, food, travel, fashion and business; 2027 marks 140 years of Thai-Japanese relations.",
+  "cover": { "file": "pipeline/cache/extract/japan-expo-thailand.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-02-26",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "CentralWorld",
+      "city": "Bangkok",
+      "region": "",
+      "country": "TH",
+      "tickets": "",
+      "guestsPage": "https://www.japanexpothailand.com/artist/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official 'How to Exhibit' page: 'JAPAN EXPO THAILAND 2027 ... Friday 26 – Sunday 28 February 2027 / 2027年2月26日(金)〜2月28日(日) centralwOrld, Bangkok'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage title/meta are stale ('Japan Expo Thailand 2026', 11th year) but the visible homepage copy and the How to Exhibit page both describe the upcoming 12th edition, JAPAN EXPO THAILAND 2027 (26-28 Feb 2027, centralwOrld Bangkok), celebrating the 140th anniversary of Thai-Japanese diplomatic relations, matching the given note. The Artists page's year list only goes up to 2026 and /artist/2027/ 404s, so 2027 guests are not announced yet. Cover uses hero:2, a 2026-09 upload explicitly named 'KV_JETH27_FINALLL' (2027 key visual), over the stale 2026 og/announcement banner."
+}

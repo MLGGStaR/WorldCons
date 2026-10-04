@@ -1,0 +1,22 @@
+{
+  "id": "starbase-indy",
+  "name": "Starbase Indy",
+  "short": "SBI",
+  "url": "https://www.starbaseindy.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Star Trek-themed nonprofit promoting STEM and humanitarianism in the Indianapolis area, known for its free Pan Galactic Fan Festival and podcast.",
+  "cover": { "file": "pipeline/cache/extract/starbase-indy.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-20",
+    "end": "2026-09-20",
+    "venue": "Federal Hill Commons (Pan Galactic Fan Festival)",
+    "city": "Noblesville",
+    "region": "IN",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The free one-day 'Pan Galactic Fan Festival' ran September 20, 2026 at Federal Hill Commons, Noblesville - before this window starts (2026-10-05). The organization's larger multi-day Thanksgiving-weekend 'Starbase Indy' convention does not appear to have run in 2025 or 2026: the homepage's own text says 'You don't have to wait until Thanksgiving to see your Starbase Indy community this year' and its 'message from Starbase Indy Command' is stale copy still talking about planning a '2025 convention experience', with the footer simply reading 'Starbase Indy 2025 | NOV 28-30' (the 2025 dates, not a new announcement). Third-party event listings (not the official site) guess Nov 27-29, 2026 for a Thanksgiving-weekend show, but this is not confirmed anywhere on starbaseindy.org, so it is omitted per the no-guessing rule. editions is left empty; this looks like an org that has downsized to smaller single-day community events rather than a defunct one, so status is kept 'active'."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "darknesscon-boise",
+  "name": "DarknessCon Boise",
+  "short": "",
+  "url": "https://darknesscon.com/boise",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "cosplay"],
+  "blurb": "Boise-area stop of the touring DarknessCon horror convention, with celebrity and author guests, vendors, cosplay and a late-night Zombie Prom-style party.",
+  "cover": { "file": "pipeline/cache/extract/darknesscon-boise.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-18",
+      "end": "2027-06-19",
+      "dates": "confirmed",
+      "venue": "Canyon County Fairgrounds",
+      "city": "Caldwell",
+      "region": "ID",
+      "country": "US",
+      "tickets": "https://darknesscon.com/get-tickets?show=boise-2027",
+      "guestsPage": "https://darknesscon.com/boise",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/darknesscon-boise.guests.json",
+          "picks": [
+            [6, "Doug Owen", "Author", "author"],
+            [7, "Mythica Blessyng", "Special effects artist, Skin Wars", "other"],
+            [8, "Noel Wing", "Author", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Dedicated event page (darknesscon.com/boise): 'JUNE 18 & 19, 2027 BOISE CANYON COUNTY FAIRGROUNDS' with a live countdown (257 days from the 2026-10-05 check date, consistent with June 2027); page title 'DarknessCon Boise — June 18 & 19, 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Canyon County Fairgrounds is in Caldwell, ID (confirmed by web search), not Boise proper, matching the seed note that this is a Boise-area edition. The site's own JSON-LD metadata is stale and disagrees with the live page (it says July 9-10, 2027 at 'Expo Idaho'); per the research procedure, the visible page text and countdown timer were trusted instead, since they agree with each other and the JSON-LD does not match the page's own displayed date. A 4th guest card ('To Be Announced / COMING SOON') is a placeholder and was skipped. Multi-city brand (DarknessCon also runs Snake River/Pocatello, Denver, Reno, Salt Lake City and soon Albuquerque/Portland/etc.); this file covers only the Boise edition using its own dedicated page for dates, guests and cover art. Organizer company name not found on the site, left blank."
+}

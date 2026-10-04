@@ -1,0 +1,12 @@
+1. id=midsummer-scream | Midsummer Scream | https://www.midsummerscream.net/ | Long Beach, CA, US | types: horror, pop | note: Halloween and horror fan convention at the Long Beach Convention Center
+2. id=silicon-valley-fandomcon | Silicon Valley FandomCon | https://fandomcon.com/silicon-valley | San Jose, CA, US | types: pop, anime, comics | organizer: FandomCon | note: 2026 edition April 10-12 at San Jose Convention Center South Hall
+3. id=wasteland-weekend | Wasteland Weekend | https://www.wastelandweekend.com/ | North Edwards, CA, US | types: cosplay, scifi | note: Post-apocalyptic/Mad Max-themed costuming festival in the Mojave Desert; 2026 edition Sept 30-Oct 4
+4. id=anime-pasadena | Anime Pasadena | https://www.animepasadena.com/ | Pasadena, CA, US | types: anime | note: 2026 edition Nov 6-8
+5. id=bak-anime | Bak-Anime | https://www.bak-anime.com/ | Bakersfield, CA, US | types: anime
+6. id=baycon | BayCon | https://baycon.org/ | Santa Clara, CA, US | types: scifi, anime, games | note: SF Bay Area SF/fantasy convention since 1982; 2026 (Westercon 78) and 2027 (Westercon 79) editions combined with the rotating Westercon at the Santa Clara Marriott
+7. id=calcomiccon | CalComicCon | https://www.calcomiccon.com/ | Orange, CA, US | types: comics | organizer: Terry O'Neill / Old School Comics | note: 18th year in 2026; 2027 edition Feb 6-7 at Hotel Fera Anaheim; also known as California Comic Convention
+8. id=clockwork-alchemy | Clockwork Alchemy | https://www.clockworkalchemy.com/ | Redwood City, CA, US | types: cosplay, scifi | note: Steampunk convention; 2026 edition Oct 16-18 at the Grand Bay Hotel SF
+9. id=dundracon | DunDraCon | https://www.dundracon.com/ | San Ramon, CA, US | types: tabletop, games | note: Presidents' Day weekend; self-described 'West Coast's Premier Game Convention'; 2027 edition (DunDraCon 50) Feb 11-16
+10. id=east-bay-comic-con | East Bay Comic Con | https://eastbaycomiccon.com/ | Concord, CA, US | types: comics | note: 2026 edition Feb 15 at the Concord Plaza Inn
+11. id=gallifrey-one | Gallifrey One | https://www.gallifreyone.com/ | Los Angeles, CA, US | types: scifi, pop | note: Doctor Who fan convention near LAX; 2027 edition Feb 5-7
+12. id=gameacon | GameAcon | https://www.gameacon.com/ | Palm Desert, CA, US | types: games, pop | note: 'Global Gaming & Pop Culture Convention' in the Coachella Valley; 2026 edition Oct 17-18

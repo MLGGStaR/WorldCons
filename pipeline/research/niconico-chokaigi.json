@@ -1,0 +1,30 @@
+{
+  "id": "niconico-chokaigi",
+  "name": "Niconico Chokaigi",
+  "short": "",
+  "url": "https://chokaigi.jp/",
+  "organizer": "Dwango",
+  "status": "active",
+  "types": ["pop", "games"],
+  "blurb": "Dwango's massive internet-culture festival at Makuhari Messe, blending livestreamers, VTubers, vocaloid music and otaku fan culture.",
+  "cover": { "file": "pipeline/cache/extract/niconico-chokaigi.home.json", "key": "logo:3" },
+  "editions": [
+    {
+      "start": "2027-04-01",
+      "end": "2027-04-30",
+      "dates": "month",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Kadokawa Group press release: 'また、2027年4月には「ニコニコ超会議2027」を開催することをお知らせします。' (Niconico Chokaigi 2027 will be held in April 2027)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only the month has been officially confirmed so far. Some entertainment-news sites (e.g. PASH! Plus) report specific dates of April 24-25, 2027, but I could not verify an exact day range directly from an official source within budget, so it is recorded at month granularity instead. Venue is given as Makuhari Messe by long-standing pattern (every edition has been held there), but the 2027 venue was not explicitly restated in the official announcement text I could access."
+}

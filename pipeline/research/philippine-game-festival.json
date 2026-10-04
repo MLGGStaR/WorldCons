@@ -1,0 +1,14 @@
+{
+  "id": "philippine-game-festival",
+  "name": "Philippine Game Festival",
+  "short": "PGF",
+  "url": "https://gdap.org.ph/",
+  "organizer": "Game Developers Association of the Philippines (GDAP)",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "A defunct annual video-game convention run by GDAP since 2009, including the Game On Challenge student competition; last held in 2015.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Defunct. The seed URL (gamefestival.ph) no longer belongs to the event — the domain now redirects to an unrelated ad/malware-style redirect page ('WebShield Pro... Initializing System Check'), so it is not used as url here. Per Wikipedia and corroborating search results, the last Philippine Game Festival ran October 2015 at the Alpha Tents, Makati; Wikipedia's infobox still says 'Active' but lists no edition after 2015. GDAP, the same organizer, now runs a differently-branded event instead: the Philippine GameDev Expo (PGDX), e.g. PGDX 2026 on July 24-26, 2026 at SMX Convention Center Manila (official site pgdx.ph, run jointly with CBZN Perspective) — that is a separate convention from this one and not covered by this file. url is set to GDAP's own site (gdap.org.ph) since no live Philippine Game Festival site exists."
+}

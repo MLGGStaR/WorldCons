@@ -1,0 +1,12 @@
+1. id=dragonmeet | Dragonmeet | https://www.dragonmeet.co.uk | London, GB | types: tabletop | note: One-day tabletop gaming convention; confirmed 28 Nov 2026
+2. id=for-the-love-of-sci-fi | For The Love Of Sci-Fi | http://www.fortheloveofsci-fi.com | Manchester, GB | types: scifi, pop | note: 2026 dates listed as 'TBC' at time of research; held at BEC Arena Manchester with celebrity guest line-up
+3. id=horrorcon-uk | HorrorCon UK | https://horrorconuk.com | Rotherham, GB | types: horror | note: Confirmed 6-7 June 2026 at Magna Science Adventure Centre
+4. id=thought-bubble | Thought Bubble | https://www.thoughtbubblefestival.com | Harrogate, GB | types: comics | note: UK's largest dedicated comics convention; moved from Leeds to Harrogate in 2019
+5. id=abertoir | Abertoir | http://www.abertoir.co.uk | Aberystwyth, GB | types: horror | note: Wales International Horror Film Festival; guest filmmakers attend
+6. id=confuzzled | ConFuzzled | https://confuzzled.org.uk | Birmingham, GB | types: furry, cosplay | note: UK's largest furry convention; Hilton Birmingham Metropole
+7. id=eastercon | Eastercon | https://www.eastercon.org | Birmingham, GB | types: scifi | note: UK National SF convention; rotates city yearly via bid committee; 2026 edition 'Iridescence' is in Birmingham
+8. id=fantasycon | FantasyCon | https://www.britishfantasysociety.org | GB | types: scifi, horror | organizer: British Fantasy Society | note: Location rotates annually; British Fantasy Awards presented here; exact 2026 city not confirmed this session
+9. id=horrorfied | Horrorfied | https://horrorfied.co.uk | Crawley, GB | types: horror | note: Confirmed 28-29 March 2026 at K2 Crawley
+10. id=lakes-international-comic-art-festival | Lakes International Comic Art Festival | https://licaf.co.uk | Kendal, GB | types: comics | note: Boutique arts-focused comics festival across multiple Kendal venues; guest creators incl. Bill Sienkiewicz
+11. id=novacon | Novacon | https://novacon.org.uk | Birmingham, GB | types: scifi | organizer: Birmingham SF Group | note: Long-running general British SF convention; exact city/venue varies by year
+12. id=scotland-loves-animation | Scotland Loves Animation | http://www.lovesanimation.com | Edinburgh, GB | types: anime, pop | note: Touring animation festival with editions in Edinburgh, Glasgow and London; formerly 'Scotland Loves Anime'

@@ -1,0 +1,30 @@
+{
+  "id": "uk-games-expo",
+  "name": "UK Games Expo",
+  "short": "UKGE",
+  "url": "https://www.ukgamesexpo.co.uk",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The UK's largest hobby games convention, filling several halls of the NEC Birmingham with tabletop gaming, publishers, tournaments and open play.",
+  "cover": { "file": "pipeline/cache/extract/uk-games-expo.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-04",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "National Exhibition Centre (NEC)",
+      "city": "Birmingham",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://www.ukgamesexpo.co.uk/shop/tickets/",
+      "guestsPage": "https://www.ukgamesexpo.co.uk/whats-on/show/special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Friday 4 - Sunday 6 Jun 2027'; Special Guests page: 'UKGE 2027 will see the event return to 5 halls of the NEC and the Hilton Hotel' and 'NEC Birmingham ... Fri 4 - Sun 6 Jun 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Venue confirmed via the site's own Venue page: 'held at The National Exhibition Centre (NEC): North Avenue, Marston Green, Birmingham B40 1NT', plus the adjoining NEC Hilton Metropole. Special Guests page explicitly states 'Special guests for UK Games Expo 2027 will be confirmed in the new year' and only lists past guests ('familiar faces ... over the years') with no 2027-specific names, so guests is 'none-yet' rather than carrying those over. No og/twitter meta image was present on the homepage; cover uses the largest unlabelled homepage banner (hero:0) rather than a candid event photo. Short 'UKGE' is the convention's own constant self-reference across its site."
+}

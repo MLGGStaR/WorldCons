@@ -1,0 +1,12 @@
+1. id=nicon | Nicon | https://niconvention.info/ | Hannover, DE | types: pop
+2. id=polaris | Polaris | https://polaris-con.de/en/ | Hamburg, DE | types: pop, scifi
+3. id=weekend-of-hell | Weekend of Hell | https://weekend-of-hell.com/en/home-2/ | Neuss, DE | types: horror, pop | note: Billed as Europe's biggest horror-themed celebrity convention
+4. id=weekend-of-horrors | Weekend of Horrors | https://weekendofhorrors.net/ | Cologne, DE | types: horror, pop
+5. id=heroes-comic-con-denmark | Heroes Comic Con Denmark | https://www.comiccondenmark.com/ | Copenhagen, DK | types: comics, pop | organizer: Heroes International / Easyfairs
+6. id=j-popcon | J-Popcon | https://j-popcon.dk/ | Copenhagen, DK | types: anime, cosplay
+7. id=commit-con | CommIT Con | https://commitcon.dk/ | Copenhagen, DK | types: games, pop | note: Free entry
+8. id=copenhagen-comics | Copenhagen Comics | https://copenhagencomics.dk/en/ | Copenhagen, DK | types: comics | note: Free indie/art comics festival
+9. id=fantasticon | Fantasticon | https://fantasticon.dk/ | Copenhagen, DK | types: scifi, horror | note: Fan-run Danish SFF and horror convention
+10. id=fastaval | Fastaval | https://fastaval.dk/ | Hobro, DK | types: tabletop | note: Denmark's largest roleplaying/board-game congress, held over Easter
+11. id=cairocomix | CairoComix | https://www.facebook.com/CairoComix/ | Cairo, EG | types: comics | organizer: Twins Cartoon (Mohamed & Haitham El-Sheikh) | note: Egypt's biggest indie-comics festival (since 2015) at the Mahmoud Mokhtar Museum, Zamalek, with juried awards and international guests; exact 2026 dates unconfirmed; no independent website found beyond Facebook.
+12. id=egycon | EgyCon | https://egycon.events/ | Cairo, EG | types: anime, scifi, comics, cosplay | note: Egypt's main speculative-fiction/anime fan convention since 2013 (started anime-only, now multigenre); EGYCON 13 set for April 10 2026.

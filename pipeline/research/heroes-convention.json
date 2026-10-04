@@ -1,0 +1,30 @@
+{
+  "id": "heroes-convention",
+  "name": "Heroes Convention",
+  "short": "HeroesCon",
+  "url": "https://www.heroesonline.com/heroescon/",
+  "organizer": "Heroes Aren't Hard to Find",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A creator-focused, comics-first convention in Charlotte founded in 1982, known for an artist-driven guest list and a family-friendly atmosphere.",
+  "cover": { "file": "pipeline/cache/extract/heroes-convention.home.json", "key": "hero:6" },
+  "editions": [
+    {
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Charlotte Convention Center",
+      "city": "Charlotte",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://www.heroesonline.com/heroescon/tickets",
+      "guestsPage": "https://www.heroesonline.com/heroescon/featured-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'HEROES CONVENTION JUNE 11-13, 2027 Charlotte Convention Center 501 S. College St. Charlotte, NC 28202'; 'Who will we bring in for our 45th Anniversary Show?! WHO KNOWS?! STAY TUNED!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Featured Guest List page is still titled '2026 FEATURED GUEST LIST' with a 2026 header image, and the homepage itself says the 45th-anniversary (2027) guest list is not yet known ('WHO KNOWS?! STAY TUNED!'), so 2027 guests are treated as not-yet-announced rather than reusing the 2026 names."
+}

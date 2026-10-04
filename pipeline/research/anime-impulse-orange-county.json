@@ -1,0 +1,30 @@
+{
+  "id": "anime-impulse-orange-county",
+  "name": "Anime Impulse Orange County",
+  "short": "",
+  "url": "https://animeimpulse.com/",
+  "organizer": "Impulse Universe",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Orange County stop of the touring Anime Impulse convention, held at the Anaheim Convention Center with a vendor hall, artist alley and special guests.",
+  "cover": { "file": "pipeline/cache/extract/anime-impulse-hub.home.json", "key": "hero:5" },
+  "editions": [
+    {
+      "start": "2027-09-04",
+      "end": "2027-09-05",
+      "dates": "confirmed",
+      "venue": "Anaheim Convention Center",
+      "city": "Anaheim",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://animeimpulse.com/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official poster (hero:5) and homepage text: 'ANIME IMPULSE ORANGE COUNTY 2027 SEPTEMBER 4-5, 2027 ANAHEIM CONVENTION CENTER 800 W. KATELLA AVE. ANAHEIM, CA 92802'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Dates/venue come from the shared animeimpulse.com homepage, which lists all three 2027 tour stops directly. A dedicated '/orange-county' event page is not live yet (confirmed 404), so url points to the shared homepage and guestsPage is left blank. Past-year guest announcements lived at dated blog posts; no 2027-dated equivalents exist yet. Treated as 'none-yet' by the same evidence as the Los Angeles stop (the soonest of the three 2027 shows), whose own, live guest section was confirmed empty. Organizer is 'Impulse Universe, Inc.' per the site footer."
+}

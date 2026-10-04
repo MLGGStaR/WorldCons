@@ -1,0 +1,30 @@
+{
+  "id": "concarolinas",
+  "name": "ConCarolinas",
+  "short": "",
+  "url": "https://concarolinas.org/",
+  "organizer": "ConCarolinas Inc",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "The Carolinas' longest-running science fiction and fantasy convention, with author, artist and media guests of honor in Charlotte.",
+  "cover": { "file": "pipeline/cache/extract/concarolinas.home.json", "key": "hero:7" },
+  "editions": [
+    {
+      "start": "2027-06-04",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "Hilton Charlotte University Place",
+      "city": "Charlotte",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://concarolinas.org/?page_id=2520",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Eventeny listing: 'Jun 04, 2027 3:00 PM - Jun 06, 2027 5:00 PM', venue '8629 J M Keynes Dr., Charlotte, North Carolina 28262' (the Hilton Charlotte University Place)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official homepage is still titled/dated for the prior edition ('ConCarolinas 2026 ... May 29 – May 31, 2026', with named Guests of Honor for that show); that edition is before the research window, so its guest names were not carried over. Eventeny confirms the next edition is June 4-6, 2027 and that only a general 'Guest Application 2027' (panelist tracks, deadline Nov 28, 2026) is open — no named guests of honor yet. Could not find a working current guests page on the official site: the nav has no Guests link and /at-the-con/guests/ 301-redirects to a stale 2018 blog post, so guestsPage is left blank."
+}

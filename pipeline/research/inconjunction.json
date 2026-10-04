@@ -1,0 +1,22 @@
+{
+  "id": "inconjunction",
+  "name": "InConJunction",
+  "short": "InCon",
+  "url": "https://inconjunction.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Indiana's oldest volunteer-run science fiction and fantasy convention, with Artist, Author, Media, Music and Trivia Guests of Honor.",
+  "cover": { "file": "pipeline/cache/extract/inconjunction.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-10",
+    "end": "2026-07-12",
+    "venue": "Wyndham Indianapolis Airport",
+    "city": "Indianapolis",
+    "region": "IN",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "InConJunction XLV (the 45th, 'Celebrating 45 Years') ran July 10-12, 2026 at the Wyndham Indianapolis Airport - before this window starts (2026-10-05). The official site still shows only the XLV program with no save-the-date for a 46th edition; a web search found only an unconfirmed third-party guess of 'mid-July 2027'. editions is left empty per the no-guessing rule."
+}

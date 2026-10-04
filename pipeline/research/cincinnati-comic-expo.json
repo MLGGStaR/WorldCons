@@ -1,0 +1,38 @@
+{
+  "id": "cincinnati-comic-expo",
+  "name": "Cincinnati Comic Expo",
+  "short": "CCE",
+  "url": "https://www.cincyexpos.com/",
+  "organizer": "Cincy Expos",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Cincinnati's comic and pop-culture convention, with celebrity guests and comic creators at the First Financial Center.",
+  "cover": { "file": "pipeline/cache/extract/cincinnati-comic-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "First Financial Center",
+      "city": "Cincinnati",
+      "region": "OH",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/186",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'CINCINNATI COMIC EXPO October 1–3, 2027 First Financial Center'"
+    }
+  ],
+  "last": {
+    "start": "2026-09-25",
+    "end": "2026-09-27",
+    "venue": "First Financial Center",
+    "city": "Cincinnati",
+    "region": "OH",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The site's own CCE-prefixed subsection (its dedicated Home, Media Guests, Comic Creators and Location pages) all 404 right now, apparently mid-migration — the root homepage's hero banner still shows a live 'CONFIRMED - SCOTT SNYDER IS HERE TODAY' day-of-show message tied to the just-finished September 25-27, 2026 edition. That past edition's guest roster, found only via stray homepage links (not a working guest page), was Hayden Christensen, Vicki Lawrence, Priscilla Presley, Mindy Cohn, Chris Bachalo, Ernie Hudson, Mark Spears and Scott Snyder; recorded under 'last' rather than as 2027 guests. The confirmed upcoming edition is October 1-3, 2027 at the same venue (shown in its own card next to Anime Ohio's July 2027 dates, confirmed by WebSearch independently of the stale banner), but no reachable guest list exists for it yet, so guests is 'none-yet'. Venue city/state (Cincinnati, OH) confirmed via WebSearch since the site's own Location page 404s."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "miscon",
+  "name": "MisCon",
+  "short": "",
+  "url": "https://www.miscon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "Missoula's multigenre science fiction, fantasy and gaming convention, held each June at the Missoula Fairgrounds.",
+  "cover": { "file": "pipeline/cache/extract/miscon.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-06-24",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Missoula Fairgrounds",
+      "city": "Missoula",
+      "region": "MT",
+      "country": "US",
+      "tickets": "https://www.miscon.org/registration/",
+      "guestsPage": "https://www.miscon.org/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/miscon.guests.json",
+          "picks": [
+            [1, "Matt Dinniman", "Dungeon Crawler Carl series", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/guests page: 'MisCon 41: Into the Dungeon June 24 - 27, 2027 Missoula, Montana'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer/club name could not be confirmed from the site or a web search; left blank rather than guessed. Only one Guest of Honor (Matt Dinniman) is announced so far for MisCon 41; the nav labels this 'Guests of Honor/Featured Professionals' so more names may be added later, but nothing else was listed as of 2026-10-05."
+}

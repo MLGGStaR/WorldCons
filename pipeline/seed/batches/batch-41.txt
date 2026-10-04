@@ -1,0 +1,12 @@
+1. id=readercon | Readercon | https://readercon.org | Burlington, MA, US | types: scifi | note: literary speculative-fiction focus; hosts the Shirley Jackson Awards
+2. id=katsucon | Katsucon | https://www.katsucon.org | National Harbor, MD, US | types: anime | organizer: Katsucon Entertainment, Inc. | note: held over Presidents Day weekend at the Gaylord National
+3. id=magfest | MAGFest | https://www.magfest.org | National Harbor, MD, US | types: games | organizer: MAGFest, Inc. | note: music-and-gaming festival
+4. id=baltimore-comic-con | Baltimore Comic-Con | https://www.baltimorecomiccon.com | Baltimore, MD, US | types: comics
+5. id=balticon | Balticon | https://www.balticon.org | Baltimore, MD, US | types: scifi | organizer: Baltimore Science Fiction Society | note: held annually since 1966
+6. id=capclave | Capclave | https://www.capclave.org | Rockville, MD, US | types: scifi | organizer: Washington Science Fiction Association | note: DC-area literary scifi con; successor to Disclave
+7. id=farpoint-convention | Farpoint Convention | https://www.farpointcon.com | Hunt Valley, MD, US | types: scifi, pop | organizer: Farpoint Foundation
+8. id=small-press-expo | Small Press Expo | https://www.smallpressexpo.com | North Bethesda, MD, US | types: comics | note: indie/small-press focus; hosts the Ignatz Awards
+9. id=portconmaine | PortConMaine | https://portconmaine.com | Portland, ME, US | types: anime, games | note: moved to Holiday Inn Portland-By-The-Bay for 2026 after years in South Portland; grew from 250 attendees (2002) to ~4,000 (2026)
+10. id=youmacon | Youmacon | https://youmacon.com/ | Detroit, MI, US | types: anime, cosplay | note: Michigan's largest anime convention
+11. id=grand-rapids-comic-con | Grand Rapids Comic Con | https://www.grcomiccon.com/ | Grand Rapids, MI, US | types: comics, pop
+12. id=jafax | JAFAX | https://www.jafax.org/ | Grand Rapids, MI, US | types: anime | note: West Michigan's longest-running anime convention

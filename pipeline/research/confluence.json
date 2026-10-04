@@ -1,0 +1,15 @@
+{
+  "id": "confluence",
+  "name": "Confluence",
+  "short": "",
+  "url": "https://confluence-sff.org/",
+  "organizer": "Parsec Inc.",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "The longest-running science-fiction, fantasy and horror conference in southwestern Pennsylvania, run by nonprofit Parsec Inc., with writing workshops, music and an art show.",
+  "cover": { "file": "pipeline/cache/extract/confluence-reg.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-24", "end": "2026-07-26", "city": "Pittsburgh", "region": "PA", "country": "US" },
+  "checked": "2026-10-05",
+  "notes": "Confluence is active and still running annually in person (not the batch note's 2020 'C'monfluence' virtual hiatus, which has ended) -- its most recent edition ran July 24-26, 2026 ('We hope to see you at Confluence on July 24-26, 2026!' on the registration page; 'Post Confluence JULY 27, 2026: Another Confluence has come and gone' on the homepage), just before our window starts; its hotel page points to a Sheraton near Pittsburgh (zip 15108, Coraopolis/airport area). The Registration page says explicitly 'Once we have a hotel contract, we'll open pre-registration' and only commits to an early-bird price ($55) 'through December 31, 2026' -- no venue contract and no 2027 dates have been announced yet, so editions is left empty rather than guessing a date from the usual July pattern."
+}

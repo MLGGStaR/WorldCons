@@ -1,0 +1,30 @@
+{
+  "id": "comic-city-osaka",
+  "name": "Comic City (Osaka)",
+  "short": "",
+  "url": "https://www.akaboo.jp",
+  "organizer": "Akaboo Communications",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Osaka/Kansai edition of the Comic City doujinshi (fan comic) market network; its flagship all-genre market runs each January at Intex Osaka.",
+  "cover": { "file": "pipeline/cache/extract/comic-city-tokyo.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-01-10",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "Intex Osaka",
+      "city": "Osaka",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Akaboo (organizer) homepage schedule list: '01月10日（大阪）SUPER COMIC CITY 関西 2027' (Jan 10, 2027). Venue Intex Osaka confirmed by the organizer's own X/Twitter post for the immediately preceding edition: '2026年１月１１日（日）インテックス大阪 ＳＵＰＥＲ ＣＯＭＩＣ ＣＩＴＹ 関西31 ... インテックス大阪・12,000sp募集'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Unlike Tokyo and Fukuoka, Osaka has no plain-numbered 'Comic City Osaka' series; Akaboo instead runs several same-organizer, differently-themed Osaka markets on the same homepage calendar (SUPER COMIC CITY 関西, HARU COMIC CITY 大阪, GOOD COMIC CITY, OSAKA FES, こみっく★トレジャー/Comic Treasure, FLOWER MOON FES, SWEET HALLOWEEN FES). This file tracks SUPER COMIC CITY 関西 — the direct Kansai counterpart of Tokyo's flagship SUPER COMIC CITY and the closest match to 'Comic City (Osaka)' — as the one edition; the other Osaka-brand events are not filed separately. The Jan 2027 instalment's own sequence number (the Jan 2026 one was '関西31', so this would likely be '関西32') was not given in the homepage text, so it is left out rather than guessed. A doujin-circle table-sales market, not a guest-driven convention — no celebrity guest program, so guests is 'none'. Cover reuses the shared akaboo.jp homepage extract saved under comic-city-tokyo (same organizer portal, same dynamically-themed 'COMIC CITY' wordmark logo at logo:0); no Osaka-specific key art was found."
+}

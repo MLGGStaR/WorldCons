@@ -1,0 +1,12 @@
+1. id=duke-city-retro-con | Duke City Retro Con | https://www.dukecityretrocon.com | Albuquerque, NM, US | types: pop, toys | note: Retro TV/film/pop-culture convention
+2. id=new-mexico-comic-expo | New Mexico Comic Expo | https://www.comicexponm.com | Albuquerque, NM, US | types: comics, pop
+3. id=lvl-up-expo | LVL UP Expo | https://www.lvlupexpo.com | Las Vegas, NV, US | types: games, pop | note: Reported 150,000+ attendees in 2026
+4. id=amazing-las-vegas-comic-con | Amazing Las Vegas Comic Con | https://www.amazingcomiccon.com | Las Vegas, NV, US | types: comics, pop, anime | organizer: Amazing Comic Conventions | note: Longest-running full-scale comic/pop event in Las Vegas
+5. id=biggest-little-fur-con | Biggest Little Fur Con | https://goblfc.org | Reno, NV, US | types: furry
+6. id=sin-city-anime | Sin City Anime | https://www.sincityanime.com | Las Vegas, NV, US | types: anime | note: 21,000 sq ft of exhibitor space at the Orleans
+7. id=animeverse-fest-reno | AnimeVerse Fest Reno | https://www.animeversefest.com | Reno, NV, US | types: anime
+8. id=las-vegas-fur-con | Las Vegas Fur Con | https://lasvegasfurcon.org | Las Vegas, NV, US | types: furry
+9. id=snafu-con | SNAFU Con | https://www.snafucon.com | Reno, NV, US | types: anime | note: Reno/Sparks-area anime convention
+10. id=anime-nyc | Anime NYC | https://www.animenyc.com | New York, NY, US | types: anime | organizer: LeftField Media | note: moved from November to August starting in 2024
+11. id=big-apple-comic-con | Big Apple Comic Con | https://www.bigapplecc.com | New York, NY, US | types: comics, pop, toys | note: NYC's original comic con (running since 1996); also holds a December edition
+12. id=flame-con | Flame Con | https://www.flamecon.org | New York, NY, US | types: comics, pop | organizer: Geeks OUT | note: largest LGBTQ+ comic convention in the world

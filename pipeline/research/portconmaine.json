@@ -1,0 +1,30 @@
+{
+  "id": "portconmaine",
+  "name": "PortConMaine",
+  "short": "PCM",
+  "url": "https://portconmaine.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Maine's geek-culture convention in Portland with anime, gaming, cosplay contests and a vendor/artist hall; grown from 250 attendees in 2002 to about 4,000 today.",
+  "cover": { "file": "pipeline/cache/extract/portconmaine.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-24",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Holiday Inn By the Bay",
+      "city": "Portland",
+      "region": "ME",
+      "country": "US",
+      "tickets": "http://portconmaine.com/site/index.php/registration/",
+      "guestsPage": "https://portconmaine.com/site/index.php/programming/guest-listing/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown + text: \"Countdown to PortConMaine 2027 ... June 24th, 2027 PortConMaine Opening Day!\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site's countdown only confirms the June 24, 2027 opening day; the June 27 end date is inferred from the con's usual four-day Thu-Sun run (corroborated by web search). The Guest Listing page renders no guest cards yet, only boilerplate intro text, so 2027 guests are not yet announced."
+}

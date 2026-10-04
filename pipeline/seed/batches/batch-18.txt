@@ -1,0 +1,12 @@
+1. id=gamicon | Gamicon | https://gamicon.org/ | Coralville, IA, US | types: tabletop | note: Eastern Iowa gaming convention (Gamicon Krypton), 35+ years running
+2. id=halloweenapalooza | Halloweenapalooza | https://www.halloweenapalooza.com/ | Ottumwa, IA, US | types: horror | note: Horror-film festival with zombie walk, costume contest and horror-celebrity guests; billed as Iowa's only horror festival (~750 attendees)
+3. id=icon | ICON | https://www.iowa-icon.com/ | Coralville, IA, US | types: scifi | note: Iowa City-region SF convention, since 1975
+4. id=qc-anime-zing | QC Anime-zing! | http://www.qcanimezing.com/ | Davenport, IA, US | types: anime | note: Quad Cities region convention; recent venue in Rock Island, IL
+5. id=gem-state-comic-con | Gem State Comic Con | https://www.gemstatecomiccon.com | Boise, ID, US | types: comics, pop | organizer: Colossus Girl Entertainment | note: Idaho's largest pop-culture event
+6. id=c2e2 | C2E2 | https://www.c2e2.com/ | Chicago, IL, US | types: comics, pop, anime | organizer: ReedPop
+7. id=anime-central | Anime Central | https://www.acen.org/ | Rosemont, IL, US | types: anime, cosplay | note: Largest anime convention in the Midwest; 36,000+ attendees
+8. id=anime-midwest | Anime Midwest | https://animemidwest.com/ | Rosemont, IL, US | types: anime | organizer: AnimeCon.org
+9. id=midwest-furfest | Midwest FurFest | https://www.furfest.org/ | Rosemont, IL, US | types: furry | note: One of the largest furry conventions in the world; 17,000+ attendees
+10. id=archon | Archon | http://www.archonstl.org/ | Collinsville, IL, US | types: scifi | note: Serves the St. Louis, MO metro area
+11. id=chicago-toy-and-game-fair | Chicago Toy & Game Fair | https://chitag.com/ | Rosemont, IL, US | types: toys, games | note: Consumer toy/game fair, part of 'POP Week'
+12. id=flashback-weekend | Flashback Weekend | https://flashbackweekend.com/ | Rosemont, IL, US | types: horror | note: Horror-film convention

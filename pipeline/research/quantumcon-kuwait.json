@@ -1,0 +1,30 @@
+{
+  "id": "quantumcon-kuwait",
+  "name": "QuantumCon Kuwait",
+  "short": "",
+  "url": "https://quantumconkwt.co/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "games", "comics", "cosplay"],
+  "blurb": "The Middle East's biggest pop-culture convention at the Kuwait International Fairgrounds, mixing celebrity guest panels, cosplay, esports and VR activities.",
+  "cover": { "file": "pipeline/cache/extract/quantumcon-kuwait.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "dates": "confirmed",
+      "venue": "Kuwait International Fairgrounds (Hall 5)",
+      "city": "Kuwait City",
+      "region": "",
+      "country": "KW",
+      "tickets": "https://dealer.e.net.kw/eTicketReservation/QuantumConNew/TicketSelectionNewEn.aspx",
+      "guestsPage": "https://quantumconkwt.co/speakers/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official ticketing partner page (dealer.e.net.kw), linked from the site's own 'Grab Ticket' button: main exhibition ticket sale dated '5 - 6 - 7 November 2026' at 'Kuwait International Fairgrounds, Hall 5'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The quantumconkwt.co marketing site itself is stale and still shows last year's run everywhere ('27-28-29 Nov'25' in the hero banner and site footer, on every page including /speakers/), and a convention-tracker site (rostercon.com) separately lists Oct 22-24, 2026 for this event. Neither matches the live official ticket-seller page, which is the only source showing an active, forward-dated sale ('5-6-7 November 2026') and is linked directly from the official site, so it is treated as authoritative and the other two dates are not used. Because the whole front-end (including the /speakers/ celebrity roster of 18 names: Ed Westwick, The Big Show, Mateusz Lenart, Hiroaki Hirata, Gabriel Luna, Isaac Hempstead, Kristian Nairn, Rasha Rizk, Steven John Ward, Seth Gillam, Yoshimasa Hosoya, Alex Anderson, Carolina Ravassa, Tushio Furukawa, Akira Yamaoka, Tom Glynn-Carney, David Angelo Roman, Patricia Summersett) is tied to that same stale Nov'25 banner, this is read as last year's lineup rather than a confirmed 2026 one, so guests is none-yet. No organizer/legal-entity name could be confirmed on the site (no footer copyright or About-page entity was found within budget), so organizer is left blank rather than guessed."
+}

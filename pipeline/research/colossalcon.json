@@ -1,0 +1,38 @@
+{
+  "id": "colossalcon",
+  "name": "Colossalcon Prime",
+  "short": "",
+  "url": "https://colossalconprime.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Colossalcon's flagship event, a multi-day anime and cosplay convention at the Kalahari Resort in Sandusky, Ohio.",
+  "cover": { "file": "pipeline/cache/extract/colossalcon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-06-02",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "Kalahari Resorts & Conventions",
+      "city": "Sandusky",
+      "region": "OH",
+      "country": "US",
+      "tickets": "https://www.tickettailor.com/events/colossalcon/1788603",
+      "guestsPage": "https://colossalconprime.com/all-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/colossalcon.guests.json",
+          "picks": [
+            [0, "Dan Green", "Voice of Yugi Muto, Yu-Gi-Oh!", "voice"],
+            [1, "Eric Stuart", "Voice of Brock and James in Pokémon", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/news text: 'June 2nd - 6th, 2027' and 'Admission for Colossalcon Prime 2027 Now Available! September 29th, 2026'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the flagship/original event, now branded 'Colossalcon Prime' on its own site (colossalconprime.com) to distinguish it from the sibling Texas/East/North/Virginia editions listed on the colossalcon.com portal — used colossalconprime.com as the official url. The All Guests page also shows a 'Guests Coming Soon' promo graphic, so more names are expected; only Dan Green and Eric Stuart are confirmed as of 2026-10-05."
+}

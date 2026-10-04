@@ -1,0 +1,15 @@
+{
+  "id": "ecbacc",
+  "name": "East Coast Black Age of Comics Convention",
+  "short": "ECBACC",
+  "url": "https://www.ecbacc.com",
+  "organizer": "ECBACC, Inc.",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A one-day convention celebrating Black creators in comics, animation and sci-fi in Philadelphia, home of the Glyph Comics Awards.",
+  "cover": { "file": "pipeline/cache/extract/ecbacc.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2026-05-16", "end": "2026-05-16", "city": "Philadelphia", "region": "PA", "country": "US", "venue": "Temple University Student Faculty Center" },
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition already ran on 2026-05-16 at Temple University's Student Faculty Center, Philadelphia (site's own Schedule page: 'East Coast Black Age of Comics Convention 2026 at Temple University ... 3340 North Broad Street, Philadelphia, PA 19140, 5/16/2026 3:00 PM'; confirmed by its Eventbrite listing JSON-LD: 2026-05-16T11:00-04:00 to 2026-05-16T19:00-04:00), which is before today (2026-10-05), so it falls outside the tracking window. The companion virtual 'Glyph Comics Awards Presentation and Kick-Off' (2026-05-09) has also passed. No 2027 date is announced yet on the Schedule page (only these two 2026 records listed), so editions is empty. The site had a 'Confirmed Guests' page listing 18 guests, but it is for the already-passed May 2026 edition and thus outside the window, so no lineup was recorded for it. Homepage is hosted on a Microsoft Power Apps portal (ecbacc2025.powerappsportals.com); used the batch-given www.ecbacc.com as the canonical url since it redirects there."
+}

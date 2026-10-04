@@ -1,0 +1,30 @@
+{
+  "id": "anime-impulse-los-angeles",
+  "name": "Anime Impulse Los Angeles",
+  "short": "",
+  "url": "https://animeimpulse.com/los-angeles",
+  "organizer": "Impulse Universe",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Southern California stop of the touring Anime Impulse convention, held at the Fairplex in Pomona with a vendor hall, artist alley and special guests.",
+  "cover": { "file": "pipeline/cache/extract/anime-impulse-hub.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-01-16",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Fairplex",
+      "city": "Pomona",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://animeimpulse.com/tickets",
+      "guestsPage": "https://animeimpulse.com/los-angeles#guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official poster (hero:3) and homepage/event-page text: 'ANIME IMPULSE LOS ANGELES 2027 JANUARY 16-17, 2027 FAIRPLEX 2118 N WHITE AVE. POMONA, CA 91768' and 'Jan 16-17, 2027 10AM - 7PM'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The LA event page (/los-angeles) is live and confirms Fairplex, Jan 16-17 2027. Its '#guests' section currently renders only a Google-Maps venue widget and generic promo blocks (no guest photo cards), and the main page separately shows a literal 'COMING SOON' graphic where guests will go; no dated 2027 guest subpage exists yet (past years used e.g. '/los-angeles-guests-2024', '/los-angeles-guests-2023'), so guests is 'none-yet'. Organizer is 'Impulse Universe, Inc.' per the site footer (also runs K-Play! Fest, Sneaker Expo and Collectors Expo)."
+}

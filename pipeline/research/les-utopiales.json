@@ -1,0 +1,30 @@
+{
+  "id": "les-utopiales",
+  "name": "Les Utopiales",
+  "short": "",
+  "url": "https://www.utopiales.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "comics", "games"],
+  "blurb": "Nantes' multidisciplinary science-fiction festival spanning literature, cinema, comics, science talks and games.",
+  "cover": { "file": "pipeline/cache/extract/les-utopiales-3.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-29",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Cité des Congrès",
+      "city": "Nantes",
+      "region": "",
+      "country": "FR",
+      "tickets": "https://www.utopiales.org/en/tickets/",
+      "guestsPage": "https://www.utopiales.org/guest/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'From October 29 to November 1, 2026, Les Utopiales, International Science Fiction Festival'; programme grid confirms the same Thu-Sun span (plus a Wed 28 Oct preview event)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests could not be reliably captured: the site's full guest list at /guest/ is one undated, alphabetical archive spanning the festival's entire 20+ year history (~2,500 people per the festival's own count, 21 pages), with no edition/year filter found within the research budget. A few photos in it are explicitly credited '...Utopiales 2026' (e.g. Isabelle Bary), confirming this year's guests are mixed in, but isolating a clean 2026-only subset wasn't possible this session, so guests is 'unavailable' rather than guessed from the mixed archive or from unverified WebSearch name snippets. The 2026 key-art cover (illustration by Léa Murawiec) was found on the programme sub-page, not the homepage, whose own og/twitter images are a generic cropped banner."
+}

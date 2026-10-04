@@ -1,0 +1,30 @@
+{
+  "id": "akicon",
+  "name": "Akicon",
+  "short": "",
+  "url": "https://akicon.cz/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A fan-run anime convention at Prague's KC Zahrada, built around artist alley and cosplay competitions rather than flown-in celebrity guests.",
+  "cover": { "file": "pipeline/cache/extract/akicon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "KC Zahrada",
+      "city": "Prague",
+      "region": "",
+      "country": "CZ",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Akicon 2026 23. - 25. října, Praha, KC Zahrada'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This year's theme is sports anime ('Akicon na téma sportovních anime'). The site's full nav (Artist Alley, competitions — AJ-DO-RU, cosplay, CosPlyš — regular programming blocks, cosplay prints, AMV hell, flea market) has no guests/hosté section across the 15+ past editions it lists (2006-2025), and a direct /hoste URL just redirects to the homepage, so guests is 'none' rather than 'none-yet'."
+}

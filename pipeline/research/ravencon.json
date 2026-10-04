@@ -1,0 +1,30 @@
+{
+  "id": "ravencon",
+  "name": "RavenCon",
+  "short": "",
+  "url": "https://www.ravencon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "horror", "pop"],
+  "blurb": "A fan-run science fiction, fantasy and horror convention near Richmond, Virginia, first held in 2006.",
+  "cover": { "file": "pipeline/cache/extract/ravencon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-10-22",
+      "end": "2027-10-24",
+      "dates": "confirmed",
+      "venue": "The Virginia Crossings Hotel by Hilton",
+      "city": "Glen Allen",
+      "region": "VA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.ravencon.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title and header, confirmed independently by Google's own index of the same page: 'RavenCon 20: October 22-24, 2027', at The Virginia Crossings Hotel by Hilton in Glen Allen, VA"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's own body copy is inconsistent: alongside the clear 'RavenCon 20: October 22-24, 2027' title/header, older-looking text elsewhere on the same homepage still says 'RavenCon 2026 will be held at The Virginia Crossings Hotel...' and thanks sponsors for 'RavenCon 2026' -- leftover copy from the prior edition that was not fully updated. Went with the title/header date since it is the most prominent, specific statement and matches what Google's crawl of the live site shows. The Program Participants (guests) page currently shows only sponsor logos and no individual guest photos, so guests is 'none-yet'."
+}

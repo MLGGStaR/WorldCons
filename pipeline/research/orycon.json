@@ -1,0 +1,14 @@
+{
+  "id": "orycon",
+  "name": "OryCon",
+  "short": "",
+  "url": "https://orycon.org/",
+  "organizer": "Oregon Science Fiction Conventions, Inc.",
+  "status": "inactive",
+  "types": ["scifi", "games"],
+  "blurb": "Portland's long-running general science-fiction convention; its organizer OSFCI ended the event after OryCon 45 in October 2025.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "orycon.org is unreachable (net::ERR_CONNECTION_TIMED_OUT via Chromium, ECONNREFUSED via WebFetch), retried once with --channel msedge with the same result, so no homepage/JSON-LD could be rendered. A web search and the OryCon Wikipedia page confirm why: organizer Oregon Science Fiction Conventions, Inc. (OSFCI) voted to end its support of the convention, with OryCon 45 (Oct 17-19, 2025, DoubleTree by Hilton Portland - Lloyd Center) as the final OSFCI-run edition; the con had already gone on pandemic hiatus in 2020-2022 (a free virtual 'Or-E-Con 2' substituted in 2022). No OryCon 46 or any 2026/2027 edition has been announced, so status is inactive with editions left empty rather than guessed."
+}

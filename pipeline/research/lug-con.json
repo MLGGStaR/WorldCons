@@ -1,0 +1,15 @@
+{
+  "id": "lug-con",
+  "name": "LUG Con",
+  "short": "",
+  "url": "https://www.lugcon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Atlanta's tabletop gaming convention at the Gas South Convention Center, with board games, RPGs, miniatures and TCGs.",
+  "cover": { "file": "pipeline/cache/extract/lug-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-10-01", "end": "2026-10-04", "city": "Duluth", "region": "GA", "country": "US", "venue": "Gas South Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "LUG Con 2026 ran October 1-4, 2026 (homepage: 'Are you ready for LUG Con Oct 1-4 2026? Located at the Gas South Convention Center 6400 Sugarloaf Pkwy, Duluth, GA 30097'), which ended the day before today (2026-10-05), so it falls outside the research window and is recorded under 'last' instead of 'editions' per RESEARCH.md. No 2027 dates are announced anywhere on the site (which is still entirely about the just-finished 2026 show, its vendor lineup and a Collector's Cavern swap meet) and a web search turned up nothing beyond aggregator pages repeating the 2026 dates, so editions is left empty rather than guessed. No organizer company name was stated on the site (a 'ConHorde' logo appears in a partner/sponsor row but nothing on-page identifies it as the organizer), so left blank. Guests were not researched since there is no upcoming edition to attach them to."
+}

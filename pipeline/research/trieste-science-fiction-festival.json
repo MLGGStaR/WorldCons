@@ -1,0 +1,30 @@
+{
+  "id": "trieste-science-fiction-festival",
+  "name": "Trieste Science+Fiction Festival",
+  "short": "",
+  "url": "https://www.sciencefictionfestival.org/",
+  "organizer": "La Cappella Underground",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Italy's leading genre-film festival, screening international science-fiction and fantasy cinema in Trieste each autumn.",
+  "cover": { "file": "pipeline/cache/extract/trieste-science-fiction-festival.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "dates": "month",
+      "venue": "Politeama Rossetti / Teatro Miela",
+      "city": "Trieste",
+      "region": "",
+      "country": "IT",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official homepage confirms an active 2026 edition is underway (poster-reveal news, open call for entries), but its rendered pages did not show the exact day range to our tooling. Press coverage places the 26th edition in early November 2026 but differs by a day between sources (some say Nov 2-7, others Nov 3-8), so only the month is recorded here rather than guessing the exact days."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Primarily a film festival (competitions, retrospectives, Q&As) rather than a comic-con-style guest program; no dedicated 'guests' roster page was found on the official site (nav is News/Accrediti/Archivio/Press/Mymovies ONE/Contatti), so guests is recorded as not-yet-announced."
+}

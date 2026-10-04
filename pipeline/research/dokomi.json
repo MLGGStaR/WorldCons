@@ -1,0 +1,30 @@
+{
+  "id": "dokomi",
+  "name": "DoKomi",
+  "short": "",
+  "url": "https://www.dokomi.de/en/",
+  "organizer": "AkibaDreams GmbH",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Germany's largest anime, manga and Japanese-culture expo in Düsseldorf, with an Artist Alley, cosplay, music acts and voice-actor guests.",
+  "cover": { "file": "pipeline/cache/extract/dokomi.home.json", "key": "twitter" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Messe Düsseldorf",
+      "city": "Düsseldorf",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.dokomi.de/en/tickets",
+      "guestsPage": "https://www.dokomi.de/en/guests/all",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown banner: 'Next 9 - 11.7.2027'; confirmed via /en/event/when-and-where: '09.-11. July 2027' at Messe Düsseldorf, Stockumer Kirchstrasse 61, 40474 Duesseldorf."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Next confirmed edition is 9-11 July 2027. The site's /en/guests/all page (linked from the homepage 'Guests' teaser) is still headed 'Guests 2026' internally and lists last edition's roster (ALI, nano, STEREO DIVE FOUNDATION, ZERA, AiM, Sakura Kurihara and ~30 more music/DJ/mangaka/voice-actor guests plus 'Badbrix' and 'Bartosz Sztybor' tagged 'Industry'); since this is not yet the 2027 lineup, guests is recorded as none-yet per the research rules rather than picking that roster."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "olamot-convention",
+  "name": "Olamot Convention",
+  "short": "",
+  "url": "https://www.olamot-con.org.il/",
+  "organizer": "Israeli Society for Science Fiction & Fantasy",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "Israel's other national science fiction and fantasy convention, held over Passover in Tel Aviv with panels, workshops, cosplay and a vendor fair.",
+  "cover": { "file": "pipeline/cache/extract/olamot-convention.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-04-05", "end": "2026-04-06", "city": "Tel Aviv", "region": "", "country": "IL", "venue": "Dizengoff Center" },
+  "checked": "2026-10-05",
+  "notes": "Homepage text: 'הכנס מתקיים בתאריכים 6-5 באפריל 2026, ימים ראשון ושני, חול המועד פסח' (held 5-6 April 2026, Sun-Mon, during Passover). That 2026 edition ran in a reduced hybrid format 'due to the situation' (לאור המצב) -- mostly online content halls plus a scaled-down in-person program at Dizengoff Center, Tel Aviv -- rather than the usual full convention; recorded as 'last' with that venue since it already ended well before this research window opens (2026-10-05) and no 2027 date is announced. The footer's trademark notice lists ICon, Olamot, Dorot, Meorot, Haya Yihye and the Gefen Award together as marks of 'the Association', and tickets are sold on the same tickets.sf-f.org.il domain ICon Festival uses, confirming both are run by the Israeli Society for Science Fiction & Fantasy."
+}

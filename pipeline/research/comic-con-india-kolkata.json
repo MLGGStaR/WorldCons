@@ -1,0 +1,21 @@
+{
+  "id": "comic-con-india-kolkata",
+  "name": "Comic Con India (Kolkata)",
+  "short": "KCC",
+  "url": "https://www.comicconindia.com",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Kolkata leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics-industry and pop-culture guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No live 2026-27 event page on comicconindia.com as of this check; only an old cosplay sub-page for Kolkata is listed in the sitemap. Unverified third-party listings put the most recent Kolkata edition around Apr 11-12, 2026, which is before this check date in any case. No confirmed next edition in the 2026-10-05 to 2027-12-31 window was found."
+}

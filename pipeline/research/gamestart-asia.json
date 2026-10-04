@@ -1,0 +1,22 @@
+{
+  "id": "gamestart-asia",
+  "name": "GameStart Asia",
+  "short": "",
+  "url": "https://www.gamestart.asia",
+  "organizer": "Eliphant",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "Singapore's consumer gaming and esports convention at Suntec, which ran through 2019 before handing over to gamescom asia.",
+  "cover": null,
+  "editions": [],
+  "last": {
+    "start": "2019-10-12",
+    "end": "2019-10-13",
+    "city": "Singapore",
+    "region": "",
+    "country": "SG",
+    "venue": "Suntec Singapore Convention & Exhibition Centre"
+  },
+  "checked": "2026-10-05",
+  "notes": "Official site (gamestart.asia) returns HTTP 503 'Site Currently Unavailable'. News coverage (AsiaOne, 'GameStart Asia hits Suntec Convention Centre this October for its final outing') confirms founder Elicia Lee ended the event after its Oct 12-13, 2019 edition, handing the gaming-convention slot in Singapore to gamescom asia's first Asian edition in 2020. No edition has run since under the GameStart Asia name, so this is inactive/defunct. Cover left null: site unreachable and no other official image source found within budget."
+}

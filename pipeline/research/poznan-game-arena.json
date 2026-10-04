@@ -1,0 +1,30 @@
+{
+  "id": "poznan-game-arena",
+  "name": "Poznań Game Arena",
+  "short": "PGA",
+  "url": "https://gamearena.pl/en/",
+  "organizer": "Grupa MTP (Poznań International Fair)",
+  "status": "active",
+  "types": ["games", "cosplay"],
+  "blurb": "The largest computer, console and multimedia entertainment fair in Central and Eastern Europe, with esports, a cosplay show and creator meet-and-greets.",
+  "cover": { "file": "pipeline/cache/extract/poznan-game-arena.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Poznań International Fair (MTP)",
+      "city": "Poznań",
+      "region": "",
+      "country": "PL",
+      "tickets": "https://gamearena.pl/en/for-visitors/tickets/ticket-prices/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page title: 'Poznań Game Arena 2026 | 23-25th October 2026'; news text: 'the 20th anniversary edition of Poznań Game Arena is coming! From October 23-25, 2026, the MTP Poznań Expo will transform into the gaming capital of Europe'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "2026 is PGA's 20th-anniversary edition. The site and a WebSearch both describe YouTubers/streamers/esports talent and a cosplay show as regular draws, but no individually named 2026 guest was found on the homepage or news listing, and WebSearch turned up only generic marketing copy (no names) — recorded as 'none-yet' rather than guessing names. Venue is the MTP (Międzynarodowe Targi Poznańskie / Poznań International Fair) exhibition grounds, confirmed via the site's own news text and partner links to mtp.pl."
+}

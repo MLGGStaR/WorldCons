@@ -1,0 +1,42 @@
+{
+  "id": "animecon-dublin",
+  "name": "AnimeCon Dublin",
+  "short": "",
+  "url": "https://animedublin.com",
+  "organizer": "Oakham Group",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Ireland's anime convention at RDS Dublin, with voice-actor guests, an artist alley, cosplay, karaoke and anime panels.",
+  "cover": { "file": "pipeline/cache/extract/animecon-dublin.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "RDS Dublin",
+      "city": "Dublin",
+      "region": "",
+      "country": "IE",
+      "tickets": "https://animedublin.com/tickets/",
+      "guestsPage": "https://animedublin.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/animecon-dublin.guests.json",
+          "picks": [
+            [1, "Sandy Fox", "", "voice"],
+            [2, "Lex Lang", "", "voice"],
+            [3, "Christopher Wehkamp", "", "voice"],
+            [4, "Emily Neves", "", "voice"],
+            [5, "Mallorie Rodak", "", "voice"],
+            [6, "David Matranga", "", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Get Ready Dublin! 17-18 October ... RDS Dublin' and 'Dates & Times 17th Oct 10:00am-6:00pm 18th Oct 10:00am-5:00pm'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Each guest card on /guests/ gives only a name and the role label 'Voice Actor', no specific show credit, so Known for is blank for all 6. The site also links to 'Creator Panels' and 'Creator Passes', but those are panel/vendor-table pages for artists buying a table, not additional guest bios, so they were not scraped as guests."
+}

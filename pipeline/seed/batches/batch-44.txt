@@ -1,0 +1,12 @@
+1. id=anirevo-anime-revolution | Anirevo (Anime Revolution) | https://vancouver.animerevolution.ca/ | Vancouver, BC, CA | types: anime | organizer: Anime Revolution | note: Vancouver's largest and fastest-growing anime convention.
+2. id=vancoufur | VancouFur | https://vancoufur.org/ | Vancouver, BC, CA | types: furry | note: Running since 2012.
+3. id=vcon | VCON | https://vcon.ca/ | Burnaby, BC, CA | types: scifi, tabletop | organizer: West Coast Science Fiction Association | note: Vancouver's oldest SF convention; rebuilding as a one-day event after a hiatus.
+4. id=ai-kon | Ai-Kon | https://www.ai-kon.org/ | Winnipeg, MB, CA | types: anime
+5. id=winnipeg-comiccon | Winnipeg Comiccon | https://winnipegcomiccon.com/ | Winnipeg, MB, CA | types: comics, pop, horror | organizer: Capeflow Productions Inc. | note: 6th edition in 2026, held on Halloween weekend.
+6. id=keycon | Keycon | https://keycon.org/ | Winnipeg, MB, CA | types: scifi, tabletop | organizer: Winnipeg Science Fiction Association | note: Manitoba's longest-running SF/fantasy convention.
+7. id=hal-con | Hal-Con | https://www.hal-con.com/ | Halifax, NS, CA | types: scifi, horror, anime, tabletop | organizer: Hal-Con Sci-Fi Fantasy Association | note: Atlantic Canada's largest fan convention; 2026 edition sold out in advance.
+8. id=anime-north | Anime North | https://www.animenorth.com/ | Toronto, ON, CA | types: anime | note: Canada's largest anime convention; volunteer-run non-profit.
+9. id=furnal-equinox | Furnal Equinox | https://furnalequinox.com/ | Toronto, ON, CA | types: furry | note: Canada's largest furry convention; moving venues to the Sheraton Centre starting 2027.
+10. id=canfurence | CanFURence | https://canfurence.ca/ | Ottawa, ON, CA | types: furry | note: Spiritual successor to Ottawa's earlier C-ACE furry con (2007); first held late 2016.
+11. id=cangames | CanGames | https://www.cangames.ca/ | Ottawa, ON, CA | types: tabletop | note: Tabletop/RPG convention running since 1977, one of Canada's oldest.
+12. id=forest-city-comicon | Forest City Comicon | https://forestcitycomicon.com/ | London, ON, CA | types: comics, pop, tabletop | note: London, Ontario's original pop-culture convention; running 11+ years.

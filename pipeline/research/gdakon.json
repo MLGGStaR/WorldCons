@@ -1,0 +1,30 @@
+{
+  "id": "gdakon",
+  "name": "Gdakon",
+  "short": "",
+  "url": "https://gdakon.pl/",
+  "organizer": "Fundacja Cogitavi",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Poland's furry convention, held each spring at a hotel in the Gdańsk/Sopot area with its own badge and fursuit community.",
+  "cover": { "file": "pipeline/cache/extract/gdakon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-17",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Radisson Blu Hotel",
+      "city": "Sopot",
+      "region": "",
+      "country": "PL",
+      "tickets": "https://gdakon.pl/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage footer: 'Gdakon • 17-21.03.2027 • Radisson Blu Hotel, Sopot'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Registration for the 2027 edition does not open until 2026-11-01, and the site's nav (participant zone, badges, hotel, important dates) has no guest-of-honor page or any guest photos — only partner-convention banner ads (Eurofurence, EAST, Awoostria, Stowarzyszenie OwO). A targeted search turned up no announced guest of honor either, so guests is 'none-yet' rather than assuming this type of con has none at all."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "comic-world-taiwan",
+  "name": "Comic World Taiwan",
+  "short": "CWT",
+  "url": "https://www.comicworld.com.tw/",
+  "organizer": "C.W.T. 台灣同人誌販售會",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Taiwan's long-running doujinshi circle-sales convention, held several times a year in Taipei, with a separate numbered Kaohsiung series by the same organizer.",
+  "cover": { "file": "pipeline/cache/extract/comic-world-taiwan.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "National Taiwan University Gymnasium",
+      "city": "Taipei",
+      "region": "",
+      "country": "TW",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and /Acts/tw text: '【CWT-74】(台北場) 活動日期2026年12月12 / 13日 活動地點國立台灣大學綜合體育館1F&3F&4F 地址台北市大安區羅斯福路四段1號'"
+    },
+    {
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "National Taiwan University Gymnasium",
+      "city": "Taipei",
+      "region": "",
+      "country": "TW",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "/Acts/tw text: '【CWT-75】(台北場) 活動日期2027年2月13 / 14日 活動地點國立台灣大學綜合體育館1F&3F&4F'"
+    },
+    {
+      "start": "2027-08-14",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "National Taiwan University Gymnasium",
+      "city": "Taipei",
+      "region": "",
+      "country": "TW",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "/Acts/tw text: '【CWT-76】(台北場) 活動日期2027年8月14 / 15日 活動地點國立台灣大學綜合體育館1F&3F&4F'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Found a real official site (comicworld.com.tw) replacing the Facebook URL given in the seed; it lists all editions directly (no JSON-LD). This file covers only the Taipei-city 'CWT' numbered series per RESEARCH.md's multi-city-brand rule: CWT-74 (2026-12-12/13), CWT-75 (2027-02-13/14) and CWT-76 (2027-08-14/15), all at the NTU gymnasium. A separate same-organizer Kaohsiung series ('CWT-K', next is CWT-K52, 2027-02-20/21 at Kaohsiung Exhibition Center North Hall) and a Taichung series (mentioned in the seed note, not shown on the current /Acts/tw schedule) are different cities of the same brand and are left out of this file. No guest program exists (circle/doujinshi sales only, no 'guests' nav item), so guests is 'none' for every edition. No ticket or per-event detail URLs could be confirmed (the site's event links are JS-routed and did not resolve to plain hrefs), so tickets/guestsPage are left blank rather than guessed. Cover uses the CWT-74 event logo (site has no og:image); the two large ADPics banners on the homepage are third-party ads, not CWT key art, so were not used."
+}

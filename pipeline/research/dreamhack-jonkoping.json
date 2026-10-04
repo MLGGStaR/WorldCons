@@ -1,0 +1,14 @@
+{
+  "id": "dreamhack-jonkoping",
+  "name": "DreamHack Jönköping",
+  "short": "",
+  "url": "https://dreamhack.com/",
+  "organizer": "DreamHack AB",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "The original DreamHack LAN party and gaming festival held in Jönköping, Sweden, discontinued after its last edition in 2024.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "dreamhack.com's own 'UPCOMING FESTIVALS' list now names only Stockholm (Nov 2026) and Birmingham (Apr 2027); Jönköping is absent. Per a dust2.us report quoting event manager Caroline Törnblad, DreamHack confirmed after the 2024 Jönköping edition (won by Complexity in CS2) that no DreamHack would be organized in Jönköping 'or anywhere else in the world' the following summer, and no return to Jönköping has been announced since — treated as discontinued/inactive. A low-quality trade-fair aggregator (cantonfair.net) claims a '2026-11-27' Jönköping date, but that is exactly DreamHack Stockholm 2026's date and is almost certainly a mislabeled scrape of the Stockholm page, not a real Jönköping event, so it was disregarded."
+}

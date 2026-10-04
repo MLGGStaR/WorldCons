@@ -1,0 +1,30 @@
+{
+  "id": "eufuria",
+  "name": "Eufuria",
+  "short": "",
+  "url": "https://eufuria.org",
+  "organizer": "Society for Capital Region Events and Entertainment, Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "An 18+ furry convention in New York's Capital Region, currently the only furry convention in the state.",
+  "cover": { "file": "pipeline/cache/extract/eufuria.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-22",
+      "end": "2027-07-24",
+      "dates": "confirmed",
+      "venue": "Albany Capital Center",
+      "city": "Albany",
+      "region": "NY",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown text: 'July 22-24 2027 Albany Capital Center Albany, New York'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No nav link, page or past-years mention of a Guest of Honor / celebrity guest program anywhere on the site (checked the 2023-2026 Past Years page too) — Eufuria appears to run as a fursuit/community-led con without a booked-guest program, so guests is set to 'none' rather than 'none-yet'."
+}

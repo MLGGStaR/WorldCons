@@ -1,0 +1,14 @@
+{
+  "id": "alamo-city-comic-con",
+  "name": "Alamo City Comic Con",
+  "short": "ACCC",
+  "url": "https://www.aogeventsxpo.com/blank-7/accc",
+  "organizer": "AOG Events Xpo",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A San Antonio comics, gaming, anime, collectibles and cosplay convention, now run under the AOG Events Xpo umbrella.",
+  "cover": { "file": "pipeline/cache/extract/alamo-city-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "AOG Events Xpo is one company/site (aogeventsxpo.com) running several branded shows (Alamo City Comic Con, Pokeverse Expo, and others) -- used ACCC's own page (/blank-7/accc), not the shared homepage, for its info. That page reads only 'DETAILS COMING SOON ON NEXT ACCC', with no dates, venue or guests, so editions is left empty. No ACCC-specific key art is live on the site yet either (its /guests, /cosplay links are unbuilt Wix placeholder pages, 'blank'/'blank-1'); cover uses the site's AOG Events Xpo wordmark, the only branded image present, consistent with the 'logo is fine when it's all there is' rule."
+}

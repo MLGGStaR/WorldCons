@@ -1,0 +1,12 @@
+1. id=fanx | FanX | https://www.fanxsaltlake.com | Salt Lake City, UT, US | types: comics, pop, games | organizer: Dan Farr Productions | note: Formerly Salt Lake Comic Con; peak attendance of ~127,000, Utah's most-attended convention (recent editions likely smaller)
+2. id=saltcon | SaltCON | https://www.saltcon.com | Layton, UT, US | types: tabletop | note: Utah's largest tabletop/RPG convention; also runs smaller Bryce Canyon and summer/fall editions
+3. id=souanime | SoUAnime | https://www.souanime.com | St. George, UT, US | types: anime, cosplay | note: Southern Utah's anime convention
+4. id=spooktacufur | Spooktacufur | https://spooktacufur.com | Salt Lake City, UT, US | types: furry | note: One-day Halloween-themed furry meet
+5. id=utah-retro-gamexpo | Utah Retro GameXpo | https://www.utahretrogamexpo.com | Layton, UT, US | types: games, toys | note: Retro video games, toys and collectibles
+6. id=anime-usa | Anime USA | https://www.animeusa.org | Chantilly, VA, US | types: anime | organizer: Northern Virginia Anime Association | note: moved to Westfields Marriott Washington Dulles starting 2026
+7. id=nekocon-hampton | Nekocon | https://www.nekocon.com | Hampton, VA, US | types: anime | note: Virginia's oldest anime convention
+8. id=marscon-virginia-beach | MarsCon | https://www.marscon.net | Virginia Beach, VA, US | types: scifi | note: largest scifi/fantasy convention in the Tidewater area
+9. id=mysticon | MystiCon | https://www.mysticonva.com | Roanoke, VA, US | types: scifi, horror | organizer: MystiCon LLC | note: returned Jan 2026 after a hiatus from 2021-2025
+10. id=ravencon | RavenCon | https://www.ravencon.com | Glen Allen, VA, US | types: scifi, horror, pop
+11. id=scares-that-care-weekend | Scares That Care Weekend | https://scaresthatcare.org | Williamsburg, VA, US | types: horror | note: charity horror convention; exact 2026/2027 dates not yet confirmed on site
+12. id=carnage | Carnage | https://carnagecon.com | Killington, VT, US | types: tabletop, games | note: also called CarnageCon/Carnage Gaming Convention; serves the Vermont/New Hampshire Upper Valley region

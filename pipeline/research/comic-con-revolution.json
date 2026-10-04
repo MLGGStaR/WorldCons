@@ -1,0 +1,45 @@
+{
+  "id": "comic-con-revolution",
+  "name": "Comic Con Revolution",
+  "short": "CCR",
+  "url": "https://www.comicconrevolution.com/ontario/",
+  "organizer": "Atomic Crush Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "SoCal comic and pop-culture convention in Ontario, California, with comic-book creators, artists, and film and TV guests.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-revolution.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Ontario Convention Center",
+      "city": "Ontario",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://events.leapevents.com/tickets/ccr2027?txid=179115612781013",
+      "guestsPage": "https://www.comicconrevolution.com/ontario/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-revolution.guests.json",
+          "picks": [
+            [3, "Cam Clarke", "Teenage Mutant Ninja Turtles, Metal Gear, He-Man", "voice"],
+            [4, "Townsend Coleman", "Teenage Mutant Ninja Turtles, The Tick", "voice"],
+            [5, "Scott Hanna", "Inker: Amazing Spider-Man, Batman, X-Men", "comics"],
+            [6, "Renae Jacobs", "Teenage Mutant Ninja Turtles, Moon Dreamers", "voice"],
+            [7, "Rob Paulsen", "Animaniacs, TMNT, Pinky and the Brain", "voice"],
+            [8, "Whilce Portacio", "Uncanny X-Men, co-creator of Wetworks", "comics"],
+            [9, "John Romita Jr.", "Amazing Spider-Man, Daredevil, Kick-Ass artist", "comics"],
+            [10, "Sting", "WWE Hall of Famer, pro wrestler", "sports"],
+            [11, "Alan Tudyk", "Firefly, Rogue One, Resident Alien", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page text: 'CCR TICKETS ON SALE NOW! • MAY 22 & 23 2027 • The Ontario Convention Center | 2000 E Convention Center Way, Ontario, CA 91764' and 'CCR turns 10. SoCal's fan favorite comic & pop culture experience returns for its huge 10th Anniversary!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "extract.mjs's guests-page render only exposed one guest caption (Cam Clarke, candidate #12, a hover/active-slide box); the other 8 guest photos (candidates #3-11) carried no on-page text in that snapshot because their caption boxes are off until that slide is active. Confirmed all 9 names and their full credit text directly from the page via WebFetch (which reads the underlying HTML regardless of carousel state); names also match the Last_First.jpg filename pattern seen on each photo (e.g. Clarke_Cam.jpg = Cam Clarke, confirmed against the one caption extract.mjs did capture). Long on-card credit lists were trimmed to short known-for phrases per the schema; full original text is quoted in this research note for Cam Clarke and Sting via the evidence/notes above and can be re-pulled from the live guests page if needed."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "international-comics-festival-salon-stripa",
+  "name": "International Comics Festival \"Salon stripa\"",
+  "short": "",
+  "url": "https://www.salonstripaskc.rs/en/",
+  "organizer": "Student Cultural Center (SKC)",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Serbia's biggest comics event, held each autumn at Belgrade's Student Cultural Center with international comic artists.",
+  "cover": { "file": "pipeline/cache/extract/international-comics-festival-salon-stripa.home.json", "key": "hero:1" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Official site's newest content is still the 'comics-festival-2024' section (guests link points there) and carries no announced 2026 or 2027 dates; JSON-LD and date snippets are empty. Site text says the festival runs 'during the last week of September (from Thursday to Sunday)' most years, so a 2027 edition is likely around late Sept 2027, but nothing is confirmed yet. WebSearch (Serbian-language press: danas.rs, stripblog.in.rs) only surfaced coverage of the 19th/20th editions (2022-2023), nothing for 2025, 2026 or 2027, so left editions empty rather than guess."
+}

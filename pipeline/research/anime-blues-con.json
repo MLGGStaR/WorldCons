@@ -1,0 +1,30 @@
+{
+  "id": "anime-blues-con",
+  "name": "Anime Blues Con",
+  "short": "ABC",
+  "url": "https://animeblues.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "A 3-day anime convention at the Renasant Convention Center in downtown Memphis, Tennessee, now in its 14th+ year.",
+  "cover": { "file": "pipeline/cache/extract/anime-blues-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Renasant Convention Center",
+      "city": "Memphis",
+      "region": "TN",
+      "country": "US",
+      "tickets": "https://www.eventeny.com/events/anime-blues-con-2027-31303/",
+      "guestsPage": "https://animeblues.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "The seed's animebluescon.com domain is dead (redirects to an unrelated 'searchhounds.com' ad page), so the con's real site animeblues.com was used instead; it still shows last edition's dates ('July 10th – 12th, 2026'). The con's own registration listing on Eventeny (hosted by 'VXV Events LLC', matching the organizer) carries JSON-LD SocialEvent data for the next edition: 'Anime Blues Con 2027' 2027-07-09T10:00 to 2027-07-11T11:00 at Renasant Convention Center, Memphis, confirmed again in its visible text 'Starts on Friday, July 9th, 2027' / 'Jul 09, 2027 · 10:00 AM - Jul 11, 2027 · 11:00 AM'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed URL (animebluescon.com) is expired/parked and now redirects to an unrelated ad page ('searchhounds.com' how-to-watch-anime guide) -- replaced with the con's real official domain, animeblues.com, found via search and confirmed by its own GUESTS/REGISTRATION pages and matching VXV Events organizer. animeblues.com itself has not yet been updated past the July 2026 edition (homepage and the /guests/ page both still show 'July 10th – 12th, 2026' and the full 2026 lineup), so the 2027 lineup is 'none-yet'; the 2027 dates and venue instead come from the con's own listing on Eventeny (their registration/ticketing platform, hosted under the VXV Events LLC account). Re-check animeblues.com/guests/ closer to July 2027 for the next lineup."
+}

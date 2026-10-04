@@ -1,0 +1,30 @@
+{
+  "id": "comic-con-brussels",
+  "name": "Comic Con Brussels",
+  "short": "CCB",
+  "url": "https://comicconbrussels.com/en/homepage-en/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["comics", "pop", "scifi"],
+  "blurb": "Brussels' pop-culture convention at Tour & Taxis, bringing film and TV stars together with comics, manga and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-brussels.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Tour & Taxis",
+      "city": "Brussels",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://comicconbrussels.com/en/tickets/",
+      "guestsPage": "https://comicconbrussels.com/en/guests/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Site footer text (rendered via /en/): 'TOUR & TAXIS - BRUSSELS Saturday 24th of October 2026 10:00-19:00h Sunday 25th of October 2026 10:00-17:00h'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site redirects almost every URL (home, homepage-en, guests) to itself with a client-side '?privacy=updated' reload that races the page-render tool's scroll/expand step and throws 'Cannot read properties of null (reading scrollHeight)' every time (tried default Chromium and --channel msedge, fresh and cached, on comicconbrussels.com/, /en/, /en/homepage-en/ and /en/guests/) — so no guest photo candidates or a clean homepage render could be captured; cover instead uses a transparent logo from a partially-rendered /en/ pass that did survive long enough to expose og/logo images and the dates footer. Per WebFetch (text-only, no images), the 2026 guests page lists 12 photo guests — David Harbour, Matt Smith, Miranda Otto, Bam Margera, Rory McCann, David Wenham, Anna Popplewell, Steven John Ward, Jenna Coleman, Mitchell Hope, Brenna D'Amico, Jedidiah Goodacre — plus 4 more slots marked TBA; recorded here as guests:\"unavailable\" since none of that could be confirmed through an actual image candidate as the picking process requires."
+}

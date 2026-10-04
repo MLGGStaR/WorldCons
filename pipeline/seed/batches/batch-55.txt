@@ -1,0 +1,12 @@
+1. id=wilkes-comic-con | Wilkes Comic Con | https://www.wilkescomiccon.com | North Wilkesboro, NC, US | types: comics, cosplay | note: Confirmed Feb 2027 edition
+2. id=granite-state-comicon | Granite State Comicon | https://granitecon.com | Manchester, NH, US | types: comics, pop | note: also known as Granitecon; uses SNHU Arena as a secondary venue
+3. id=castle-point-anime-convention | Castle Point Anime Convention | https://www.castlepointanime.com | Secaucus, NJ, US | types: anime | organizer: Anime Critics United | note: originated at Stevens Institute of Technology, Hoboken
+4. id=east-coast-comicon | East Coast Comicon | https://eastcoastcomicon.com | Secaucus, NJ, US | types: comics | organizer: Crucial Entertainment | note: formerly Asbury Park Comicon
+5. id=monster-mania-con | Monster-Mania Con | https://www.monstermania.net | Cherry Hill, NJ, US | types: horror, toys | note: semi-annual; also held in Oaks, PA and Baltimore, MD
+6. id=dreamation | Dreamation | https://www.dexposure.com | Morristown, NJ, US | types: tabletop | organizer: Double Exposure, Inc. | note: successor to the long-running DexCon; shifted to late May in 2026 only due to the World Cup
+7. id=garden-state-comic-fest | Garden State Comic Fest | https://www.gardenstatecomicfest.com | West Orange, NJ, US | types: comics, pop | note: runs sister shows elsewhere in NJ (Vineland, Augusta)
+8. id=new-jersey-horror-con-and-film-festival | New Jersey Horror Con and Film Festival | https://www.newjerseyhorrorcon.com | Atlantic City, NJ, US | types: horror | note: semi-annual; also held in Edison, NJ
+9. id=philcon | Philcon | https://philcon.org | Cherry Hill, NJ, US | types: scifi | organizer: Philadelphia Science Fiction Society | note: claims descent from the world's first scifi convention (1936)
+10. id=princecon | PrinceCon | https://www.princecon.org | Princeton, NJ, US | types: tabletop | organizer: Simulation Games Union | note: tabletop RPG marathon convention, annual since 1976; exact month varies
+11. id=albuquerque-comic-con | Albuquerque Comic Con | https://www.albuquerquecomiccon.com | Albuquerque, NM, US | types: comics, pop
+12. id=bubonicon | Bubonicon | https://www.bubonicon.com | Albuquerque, NM, US | types: scifi | organizer: Albuquerque Science Fiction Society | note: Literary SF con; roughly 700-1,000 attendees in recent years

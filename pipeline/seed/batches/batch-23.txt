@@ -1,0 +1,12 @@
+1. id=colorado-cosmic-con | Colorado Cosmic Con | https://www.coloradocosmiccon.com | Colorado Springs, CO, US | types: toys, horror, pop | note: Fall-themed mini-con with cards, comics and toys
+2. id=denfur | DenFur | https://denfur.org | Denver, CO, US | types: furry | note: Site blocked automated verification; confirm URL before publishing
+3. id=genghiscon | GenghisCon | https://genghiscon.org | Denver, CO, US | types: tabletop, games | note: Long-running Denver tabletop/RPG con; site blocked automated verification, confirm before publishing
+4. id=milehicon | MileHiCon | https://www.milehicon.org | Denver, CO, US | types: scifi | organizer: MileHiCon, Inc. | note: Literary SF con, roughly 1,000 attendees
+5. id=tacticon | TactiCon | https://www.tacticon.org | Westminster, CO, US | types: tabletop, games | note: Site had an expired SSL certificate at verification time; confirm before publishing
+6. id=connecticon | ConnectiCon | https://connecticon.org | Hartford, CT, US | types: games, anime, comics | note: Connecticut's longest-running pop-culture convention
+7. id=terrificon | TerrifiCon | https://terrificon.com | Uncasville, CT, US | types: comics, pop | organizer: Big Fedora Marketing | note: held at Mohegan Sun
+8. id=awesome-con | Awesome Con | https://www.awesome-con.com | Washington, DC, US | types: comics, pop | organizer: LeftField Media
+9. id=otakon | Otakon | https://www.otakon.com | Washington, DC, US | types: anime | organizer: Otakorp, Inc. | note: moved from Baltimore, MD to DC in 2017
+10. id=florida-supercon | Florida Supercon | https://www.floridasupercon.com | Miami Beach, FL, US | types: comics, pop, anime, games | organizer: ReedPop | note: Confirmed Jul 9-11, 2027 edition; original Supercon trademark now owned by ReedPop
+11. id=anime-festival-orlando | Anime Festival Orlando | http://www.animefestivalorlando.com | Orlando, FL, US | types: anime | note: Confirmed Jun 19-21, 2026 edition
+12. id=metrocon | Metrocon | http://www.metroconventions.com | Tampa, FL, US | types: anime | organizer: Team Dynamite Productions | note: Florida's largest anime convention

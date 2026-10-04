@@ -1,0 +1,30 @@
+{
+  "id": "romics",
+  "name": "Romics",
+  "short": "",
+  "url": "https://www.romics.it/",
+  "organizer": "Fiera Roma",
+  "status": "active",
+  "types": ["comics", "anime", "cosplay", "games"],
+  "blurb": "Rome's twice-yearly international festival of comics, animation, cosplay, cinema and games at Fiera Roma.",
+  "cover": { "file": "pipeline/cache/extract/romics.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-09-30",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "Fiera Roma",
+      "city": "Rome",
+      "region": "",
+      "country": "IT",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "AEFI (Associazione Esposizioni e Fiere Italiane) official Italian trade-fair calendar lists Romics 2027 at Fiera Roma, 30 September - 3 October 2027."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Romics runs two editions a year (spring + autumn). The 37th edition just ran Oct 1-4, 2026 (confirmed via press: 'dal 1 al 4 ottobre'), which already ended right before the research window, so it is excluded. Only the autumn 2027 (39th) edition has dates I could verify from an authoritative source (AEFI). A spring 2027 (38th) edition is expected around April per the twice-yearly pattern, but I could not confirm specific dates for it from an official source within budget, so it is left out rather than guessed."
+}

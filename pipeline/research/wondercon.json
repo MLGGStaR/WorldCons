@@ -1,0 +1,30 @@
+{
+  "id": "wondercon",
+  "name": "WonderCon",
+  "short": "",
+  "url": "https://www.comic-con.org/wc/",
+  "organizer": "San Diego Comic Convention (Comic-Con International)",
+  "status": "active",
+  "types": ["comics", "pop", "scifi"],
+  "blurb": "Comic-Con International's spring convention at the Anaheim Convention Center, with 900+ exhibitors, panels, artists' alley and autograph signings.",
+  "cover": { "file": "pipeline/cache/extract/wondercon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Anaheim Convention Center",
+      "city": "Anaheim",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.comic-con.org/wc/badges/",
+      "guestsPage": "https://www.comic-con.org/wc/things-to-do/special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'WONDERCON 2027: MARCH 26-28 ANAHEIM CONVENTION CENTER' and 'We look forward to seeing you next year on March 26-28, 2027!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Sister event to San Diego Comic-Con, run by the same organization (filed separately as san-diego-comic-con.json). The official Special Guests page (/wc/things-to-do/special-guests/) was rendered with --mode guests and shows no real guest candidates yet, only nav/logo imagery, so guests is 'none-yet' for the 2027 edition."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "kami-con",
+  "name": "Kami-Con",
+  "short": "KC",
+  "url": "https://www.kamicon.net/",
+  "organizer": "World Conquest, Inc.",
+  "status": "active",
+  "types": ["anime", "games", "pop"],
+  "blurb": "A three-day Japanese-culture convention at the BJCC in Birmingham with anime, manga, gaming, cosplay and an interactive ongoing story.",
+  "cover": { "file": "pipeline/cache/extract/kami-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "Birmingham-Jefferson Convention Complex (BJCC), East Exhibit Halls",
+      "city": "Birmingham",
+      "region": "AL",
+      "country": "US",
+      "tickets": "https://www.kamicon.net/",
+      "guestsPage": "https://www.kamicon.net/special-guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/kami-con.guests.json",
+          "picks": [
+            [1, "Lauren Faust", "My Little Pony: Friendship is Magic, Powerpuff Girls", "animation"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Kami-Con takes place February 12-14, 2027!' and 'Kami-Con is held annually at the BJCC in Birmingham, Alabama. We are located in the East Exhibit Halls.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the 18th Kami-Con (filenames prefixed 'KC18'). Guests page lists only one confirmed guest so far, Lauren Faust, directly under a 'SPECIAL GUESTS' heading followed by a 'MORE COMING SOON' placeholder tile (skipped per the TBA rule); guests is still 'announced' since one real guest is already picked. Cover uses the page's own full-width 'KC18-KeyArt-Full-Web4.jpg' hero image, named as key art for this edition."
+}

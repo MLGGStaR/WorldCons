@@ -1,0 +1,38 @@
+{
+  "id": "swancon",
+  "name": "Swancon",
+  "short": "",
+  "url": "https://swancon51.sf.org.au/",
+  "organizer": "Western Australian Science Fiction Foundation (WASFF)",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "Australia's longest-running science-fiction convention, run by the Western Australian Science Fiction Foundation each year in Perth.",
+  "cover": { "file": "pipeline/cache/extract/swancon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-04",
+      "end": "2027-06-07",
+      "dates": "confirmed",
+      "venue": "The Pagoda Resort & Spa",
+      "city": "South Perth",
+      "region": "WA",
+      "country": "AU",
+      "tickets": "https://swancon51.sf.org.au/memberships/",
+      "guestsPage": "https://swancon51.sf.org.au/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/swancon.guests.json",
+          "picks": [
+            [1, "T.R. Napper", "Author, 36 Streets (Aurealis winner)", "author"],
+            [3, "Bec Handcock", "Fan Guest of Honour, data scientist", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "swancon51.sf.org.au homepage: '(4th) 5th & 6th (7th) june 2027 the pagoda south perth — join us in perth, western australia, on the 5th and 6th of june for our conference, plus optional social activities on the 4th and 7th'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given URL swancon.com.au renders a completely empty page in Chromium, WebFetch and msedge alike (title only, 'Swancon51 (2027)'); the real, content-ID is a year-numbered WordPress subdomain. Swancon rolls to a new site each year: swancon50.sf.org.au (Natcon 2026, held 29 May–1 June 2026, already over as of this 2026-10-05 check) says 'our con is now over ... visit swancon51.sf.org.au to see what's happening in 2027', so this file's url/id point at swancon51.sf.org.au for the upcoming edition. Edition dates cover the full advertised span (4th–7th June); the core two-day conference is the 5th–6th, with the 4th and 7th as optional social add-on days. Guest photo candidate #2 on the guests page is a book-cover graphic, not a guest portrait, so it was not picked."
+}

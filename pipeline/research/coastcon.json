@@ -1,0 +1,30 @@
+{
+  "id": "coastcon",
+  "name": "CoastCon",
+  "short": "",
+  "url": "https://www.coastcon.org/",
+  "organizer": "CoastCon, Inc.",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "Mississippi's longest-running science fiction, fantasy and gaming convention on the Gulf Coast in Biloxi.",
+  "cover": { "file": "pipeline/cache/extract/coastcon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Mississippi Coast Coliseum & Convention Center",
+      "city": "Biloxi",
+      "region": "MS",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/coastcon-49-registration-1987135623141?aff=oddtdtcreator",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'COASTCON 49 MARCH 5-7, 2027 ... Mississippi Coast Coliseum & Convention Center 2350 Beach Blvd, Biloxi, MS 39531'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is CoastCon 49 (the batch note said '48th edition 2026', but the official site and Eventbrite confirm CoastCon 48 ran March 6-8, 2025 and the next edition is CoastCon 49, March 5-7, 2027 — there is no 2026 edition). No guest list found on the homepage or via search as of 2026-10-05; no dedicated guests page exists on the site yet."
+}

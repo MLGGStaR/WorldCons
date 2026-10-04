@@ -1,0 +1,14 @@
+{
+  "id": "texas-frightmare-weekend",
+  "name": "Texas Frightmare Weekend",
+  "short": "TFW",
+  "url": "https://texasfrightmareweekend.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "The Southwest's premier horror convention in the Dallas-Fort Worth area, hosting genre icons annually since 2006.",
+  "cover": { "file": "pipeline/cache/extract/texas-frightmare-weekend.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The 20th-anniversary (2026) edition has already run. The homepage's only forward-looking text is '2027 Event Launch First guests, tickets and hotel reservations open October 19th! www.tfw.rip Coming soon...' -- no 2027 dates, venue or guests have actually been announced yet (launch is still pending as of today, 2026-10-05), so editions is left empty. Re-check after the stated October 19, 2026 launch."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "comic-con-india-delhi",
+  "name": "Comic Con India (Delhi)",
+  "short": "DCC",
+  "url": "https://www.comicconindia.com/all-cities-pages-2026/delhi-comic-con",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Delhi leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics-industry guests, cosplay and an artist program.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "NSIC Exhibition Grounds",
+      "city": "Delhi",
+      "region": "",
+      "country": "IN",
+      "tickets": "",
+      "guestsPage": "https://www.comicconindia.com/all-cities-pages-2026/delhi-comic-con#guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-india-delhi.guests.json",
+          "picks": [
+            [
+              5,
+              "Ant Williams",
+              "Spider-Man, X-Men, Batman artist",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page text: '5th - 6th Dec 2026 NSIC Exhibition Grounds, Delhi'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Single-page site (comicconindia.com/all-cities-pages-2026/delhi-comic-con); guests and dates are on the same page, not a separate guest URL. Only one guest (Ant Williams) is revealed so far; the page itself says 'More Updates Coming Soon' for the rest of the lineup. No edition-specific key art is published yet (no og/twitter image, no banner), so the cover uses the Comic Con India logo from the main homepage (pipeline/cache/extract/comic-con-india-hub.home.json), shared across all Comic Con India city files in this batch. No distinct ticket URL could be captured (the BOOK PASSES button is JS-driven, not a plain link)."
+}

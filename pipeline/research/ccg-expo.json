@@ -1,0 +1,15 @@
+{
+  "id": "ccg-expo",
+  "name": "CCG EXPO",
+  "short": "",
+  "url": "https://www.ccgexpo.cn",
+  "organizer": "Shanghai Xuandonghui Exhibition Culture Communication Co. / Toonmax Media",
+  "status": "active",
+  "types": ["comics", "anime", "games"],
+  "blurb": "Shanghai's long-running animation and gaming expo, known locally as Shanghai Comic Con, with exhibitor booths, esports and cosplay competitions.",
+  "cover": { "file": "pipeline/cache/extract/ccg-expo.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-07-04", "end": "2026-07-06", "city": "Shanghai", "region": "", "country": "CN", "venue": "Shanghai International Expo Centre for Cross-Border E-Commerce" },
+  "checked": "2026-10-05",
+  "notes": "The official homepage itself shows no explicit upcoming date (no JSON-LD, no date text; the scripted news list only surfaces old 2023/2025 headlines). WebSearch confirms the 2026 edition ran 2026-07-04 to 2026-07-06 at the Shanghai International Expo Centre for Cross-Border E-Commerce (~53,000 sqm, ~48,000 visitors, ~500 exhibitors — matching this con's seed note), already concluded before this window. The same search explicitly states the next edition's date is 'not yet announced' (下届时间更新中), so 2027 is left out rather than guessed. No dedicated individual-guest page was found in the site nav (首页/新闻中心/关于我们/参展指南/观展指南/展会活动) — this reads as an exhibitor/booth trade expo, so guests would likely be 'none' once a qualifying edition exists. Organizer is the operating company named in the page's own footer (上海炫动汇展文化传播有限公司 / Toonmax Expo Co., Ltd.), which is more specific than the seed's government-attribution note."
+}

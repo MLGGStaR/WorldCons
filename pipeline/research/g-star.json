@@ -1,0 +1,30 @@
+{
+  "id": "g-star",
+  "name": "G-STAR",
+  "short": "",
+  "url": "https://www.gstar.or.kr/",
+  "organizer": "Korea Game Industry Association (K-GAMES)",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "South Korea's largest video game exhibition at BEXCO in Busan, with PC, mobile, console and VR exhibitors from dozens of countries.",
+  "cover": { "file": "pipeline/cache/extract/g-star.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-18",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "BEXCO",
+      "city": "Busan",
+      "region": "",
+      "country": "KR",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official English overview page (gstar.or.kr/eng/gstar/gstar_info.do): 'Nov.18(Wed) ~ Nov.22(Sun), 2026', venue '[Offline] Bexco, Busan, Korea'. Homepage countdown also matched (45 days from 2026-10-05 extraction = 2026-11-19, the public-day start within that run)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "B2B/trade exhibition, not a guest-program convention — no celebrity/panelist guest list exists on the site (nav is EXHIBITOR/VISITOR/CONFERENCE/PASS/NEWS, no guest page), so guests is 'none'. Homepage og:image (images/logo.png) 404s, so the cover uses the real site logo (logo:0, main_logo.png) instead; no wide key-art banner is published — the hero banners found are a notice popup and crowd/venue photos, which the picking rules say to avoid."
+}

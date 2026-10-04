@@ -1,0 +1,15 @@
+{
+  "id": "paris-manga-and-sci-fi-show",
+  "name": "Paris Manga & Sci-Fi Show",
+  "short": "",
+  "url": "https://www.parismanga.fr",
+  "organizer": "TGS Événements",
+  "status": "active",
+  "types": ["anime", "pop", "scifi"],
+  "blurb": "Twice-yearly Paris pop-culture convention covering manga, sci-fi, cosplay and comics, now held at Paris-Nord Villepinte.",
+  "cover": { "file": "pipeline/cache/extract/paris-manga-and-sci-fi-show.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-10-03", "end": "2026-10-04", "city": "Paris", "region": "", "country": "FR", "venue": "Parc des Expositions de Paris-Nord Villepinte" },
+  "checked": "2026-10-05",
+  "notes": "The brand relocated from Porte de Versailles to Paris-Nord Villepinte in December 2022, so the seed venue is stale. Its most recent edition ran 3-4 October 2026 (homepage still flagged it 'ÉVÉNEMENT EN COURS' at research time), which is already over as of the 2026-10-05 window. The homepage's 'NOS EVENTS' tiles (28-29 Nov, 13-14 Jun, 11-12 Apr, 31 Oct-1 Nov) are cross-promotion for sibling TGS-group shows in other cities — one of them, 28-29 Nov 2026, is confirmed to be Toulouse Game Show, not a second Paris Manga date — and a targeted search found no next Paris Manga & Sci-Fi Show date announced yet, so editions is empty. The 53 guests seen on /invites (Christopher Lloyd, Ed Westwick, Tyler Hoechlin, Hélène Rollès, etc.) belong to the just-finished October 2026 edition and are not carried over."
+}

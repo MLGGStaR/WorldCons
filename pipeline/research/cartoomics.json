@@ -1,0 +1,35 @@
+{
+  "id": "cartoomics",
+  "name": "Milan Games Week & Cartoomics",
+  "short": "",
+  "url": "https://www.milangamesweek.it/",
+  "organizer": "Fiera Milano",
+  "status": "active",
+  "types": ["comics", "anime", "games"],
+  "blurb": "Italy's comics, manga, cosplay and video-game fair, now run jointly with Milan Games Week at Fiera Milano.",
+  "cover": { "file": "pipeline/cache/extract/cartoomics-news.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Fiera Milano",
+      "city": "Milan",
+      "region": "",
+      "country": "IT",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Emily Rudd", "Nami in Netflix's One Piece", "actor"],
+        ["Taz Skylar", "Sanji in Netflix's One Piece", "actor"],
+        ["Steven Ogg", "GTA V, The Walking Dead", "actor"],
+        ["Christopher Judge", "Stargate SG-1, God of War", "actor"]
+      ],
+      "evidence": "Affaritaliani (14 Sep 2026): 'Dal 27 al 29 novembre Fiera Milano ospiterà tra gli altri Emily Rudd, Taz Skylar, Steven Ogg e Christopher Judge.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site (milangamesweek.it; cartoomics.it redirects there too) renders a completely blank page to headless Chromium even with the msedge channel and extra wait time, so dates/guests/cover had to come from press coverage instead of the site itself. Only 4 international screen guests are confirmed via that article (framed as the most-anticipated among a larger lineup, which also includes comics creators not named in that piece); the official guest page almost certainly lists more names once it can be read, so this list should be treated as partial."
+}

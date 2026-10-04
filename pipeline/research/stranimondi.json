@@ -1,0 +1,42 @@
+{
+  "id": "stranimondi",
+  "name": "Stranimondi",
+  "short": "",
+  "url": "https://stranimondi.it/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A Milan book festival for fantasy and science-fiction literature, pairing international authors with a market of genre publishers.",
+  "cover": { "file": "pipeline/cache/extract/stranimondi.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "via privata Gadames 57",
+      "city": "Milan",
+      "region": "",
+      "country": "IT",
+      "tickets": "",
+      "guestsPage": "https://stranimondi.it/ospiti",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/stranimondi.guests.json",
+          "picks": [
+            [1, "Jo Walton", "Among Others, Tooth and Claw", "author"],
+            [2, "RJ Barker", "The Bone Ships trilogy", "author"],
+            [3, "Jonáš Zbořil", "Czech writer, poet and journalist", "author"],
+            [4, "Ada Palmer", "Terra Ignota series", "author"],
+            [5, "Mauro Repetto", "Co-founder of band 883", "music"],
+            [6, "Anna Smith Spark", "Empires of Dust series", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner: 'Scoprite la nuova sede di Stranimondi a Milano il 17 e 18 ottobre 2026 - Italcon 52'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Co-located with Italcon 52 (the Italian national SF convention) this year. The venue moved to a new site (via privata Gadames 57, Milano) per the homepage banner."
+}

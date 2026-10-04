@@ -1,0 +1,14 @@
+{
+  "id": "electronic-game-show",
+  "name": "Electronic Game Show",
+  "short": "EGS",
+  "url": "https://electronicgameshow.com/",
+  "organizer": "Gaming Partners",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "Mexico's pioneering video game convention (2002-2024), merged into Gaming Fest in 2024 and no longer runs under its own name.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Defunct as a standalone brand. Both URLs associated with it are dead: electronicgameshow.com (the seed URL) now serves an unrelated expired-domain spam/blog ('The Psychology of Video Games', crypto-gambling posts, last dated 2023), and egsmexico.com is parked for sale ('intercepted by 301Domains'). A June 2024 Milenio article quotes Jorge Lizárraga, CEO of Gaming Partners (the company that built EGS), announcing the merger directly: 'nos fusionamos EGS dentro de Gaming Fest para crear el evento de videojuegos más grande de este país' (we are merging EGS into Gaming Fest to create the country's biggest video game event); that piece covered Gaming Fest 2024 (16-18 August, Centro Citibanamex) as EGS's successor event. Other sources (gamerstyle.com.mx) separately describe a prior 2022 rebrand to 'Entertainment Gaming Show', and beahero.gg mentions a later 'Gaming Week' from the same creator — EGS's post-2022 history is a string of renames/mergers rather than a single clean succession, so no successor name is asserted definitively beyond the organizer's own 'merged into Gaming Fest' statement. 'Gaming Fest' is a distinct brand that was not in this research batch and may be worth its own entry in a future pass."
+}

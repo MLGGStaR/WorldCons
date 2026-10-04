@@ -1,0 +1,45 @@
+{
+  "id": "fanx",
+  "name": "FanX",
+  "short": "",
+  "url": "https://www.fanxsaltlake.com",
+  "organizer": "Dan Farr Productions",
+  "status": "active",
+  "types": ["comics", "pop", "games"],
+  "blurb": "Salt Lake City's comic and pop culture convention at the Salt Palace, formerly Salt Lake Comic Con.",
+  "cover": { "file": "pipeline/cache/extract/fanx.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-03-11",
+      "end": "2027-03-13",
+      "dates": "confirmed",
+      "venue": "Salt Palace Convention Center",
+      "city": "Salt Lake City",
+      "region": "UT",
+      "country": "US",
+      "tickets": "https://checkout.conventions.leapevent.tech/eh/FanX_Salt_Lake_Comic_Convention_2027/?cc=tckts",
+      "guestsPage": "https://www.fanxsaltlake.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wayback Machine snapshot of the homepage, 2026-10-04 (the live site returns HTTP 403 to automated tools): 'FanX Salt Lake Comic & Pop Culture Convention March 11-13, 2027 Salt Palace Convention Center'"
+    },
+    {
+      "start": "2027-09-01",
+      "end": "2027-09-30",
+      "dates": "month",
+      "venue": "Salt Palace Convention Center",
+      "city": "Salt Lake City",
+      "region": "UT",
+      "country": "US",
+      "tickets": "https://www.fanxsaltlake.com/ticket-info/",
+      "guestsPage": "https://www.fanxsaltlake.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Salt Lake Tribune, 2026-06-04 ('Utah's FanX will move because Salt Palace is slated to be closed for 3 years'): FanX runs two 2027 conventions at the Salt Palace, in March and September, with the September show being 'the last one held at the Salt Palace for a few years' per founder Dan Farr; exact September days are not public yet."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "fanxsaltlake.com returned HTTP 403 on every attempt (default Chromium, --channel msedge, --fresh with an 8s wait, and WebFetch) -- a Cloudflare bot wall blocking the whole domain, not a content problem. Dates/venue/cover for the March edition come from a Wayback Machine snapshot of the real homepage instead; the cover key resolves to that snapshot's archive.org-proxied logo image since a direct fanxsaltlake.com asset URL could not be verified reachable from here. The archived page itself says 'The Event & Panel Programming Schedule is not live yet', so guests are 'none-yet' on both editions. Two editions in one city under one brand because the Salt Palace's multi-year renovation forced FanX to split its usual single show into separate March and September 2027 events; FanX moves to Sandy, UT starting 2028 per the same article."
+}

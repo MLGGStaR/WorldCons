@@ -1,0 +1,30 @@
+{
+  "id": "midsummer-scream",
+  "name": "Midsummer Scream",
+  "short": "MSS",
+  "url": "https://midsummerscream.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A Halloween and horror fan convention with genre actors, directors and artists; moves from Long Beach to the Anaheim Convention Center for 2027.",
+  "cover": { "file": "pipeline/cache/extract/midsummer-scream.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Anaheim Convention Center",
+      "city": "Anaheim",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://midsummerscream.org/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Midsummer Scream, August 6-8, 2027 (Anaheim Convention Center)'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed URL midsummerscream.net is an expired/parked GoDaddy domain; the real official site is midsummerscream.org. The con is moving from the Long Beach Convention Center (its home since founding) to the Anaheim Convention Center for 2027, per the site's own banner text; corroborated by press coverage (KTLA, Haunted Attraction Network, edhat) of the move after a record 2026 attendance. The 2027 guest lineup is not yet announced — the homepage only shows a 'Previous Guests' showcase of past-year talent (Cassandra Peterson/Elvira, John Carpenter, Keith David, Greg Nicotero, etc.), so guests=none-yet and no picks were made from those cards. No og/twitter image is set; the only event-identifying image found is the small halftone logo (hero images are all individual guest headshots from past years, not current key art), so cover uses logo:0. The same organization also runs a related but separately branded December event, 'Season's Screamings', revived for Dec 4-5, 2027 at the Long Beach Convention Center — different name and different city, so it is not folded into this file as a second edition (not the 'one brand, one city, two shows' case) and is not in this batch's work list. Organizer/producer name could not be confirmed from the site or Wikipedia (left blank rather than guessed)."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "eurofurence",
+  "name": "Eurofurence",
+  "short": "EF",
+  "url": "https://www.eurofurence.org/",
+  "organizer": "Eurofurence e.V.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Europe's largest and longest-running furry convention, taking over a Hamburg congress center for fursuiting, art and community programming.",
+  "cover": { "file": "pipeline/cache/extract/eurofurence.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-18",
+      "end": "2027-08-22",
+      "dates": "confirmed",
+      "venue": "CCH Hamburg",
+      "city": "Hamburg",
+      "region": "",
+      "country": "DE",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD Event: 'Eurofurence 31' 2027-08-18 -> 2027-08-22 @ CCH Hamburg; meta description: 'Eurofurence 31 will take place from August 18th to August 22nd, 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Community-run furry convention; its full site navigation (Program, Fursuiting, Fursuit Lounge, Photography, Participate, Accessibility Services...) has no guest-of-honor section or guest list, so guests is 'none' rather than an unannounced roster."
+}

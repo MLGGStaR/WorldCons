@@ -1,0 +1,30 @@
+{
+  "id": "otafest",
+  "name": "Otafest",
+  "short": "",
+  "url": "https://otafest.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Calgary's volunteer-run, non-profit anime and pop-culture festival, with screenings, cosplay contests, concerts, a maid and butler cafe and voice-actor guests.",
+  "cover": { "file": "pipeline/cache/extract/otafest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-21",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Calgary Telus Convention Centre & Marriott Downtown Hotel",
+      "city": "Calgary",
+      "region": "AB",
+      "country": "CA",
+      "tickets": "https://otafest.eventbrite.ca/",
+      "guestsPage": "https://otafest.com/#guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Otafest's own X/Twitter account display name reads 'Otafest - May 2027!!!!', and a web search summary confirms 'Otafest 2027 is scheduled for May 21-23, 2027 at the Calgary Telus Convention Centre & Marriott Hotel'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live homepage still headlines the just-finished edition ('Otafest May 15-17, 2026') and its full Special Guests list (Yama No Oto, Yosoca, Joshua Waters, Miura Ayme & Miko, Alejandro Saab, Mayonazy, AdvanceRatio, The 404s, Tiffany Gordon Cosplay, FroggyLoch, Papamutt, PorcelainMaid, Bryson Baugus, Lia, Eboni La'Belle, Van Goth, Howard Wang, Kyle McCarley, Kira Buckland), with the page itself noting 'We add more guests throughout the year (particularly in Jan-May)' -- i.e. this is the 2026 cycle's roster, not yet reset for the confirmed May 2027 edition, so guests=none-yet here. The 2027 dates come from the con's own X account name and corroborating coverage rather than the still-2026 homepage/JSON-LD."
+}

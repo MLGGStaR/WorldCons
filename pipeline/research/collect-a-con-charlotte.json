@@ -1,0 +1,15 @@
+{
+  "id": "collect-a-con-charlotte",
+  "name": "Collect-A-Con Charlotte",
+  "short": "",
+  "url": "https://collectaconusa.com/charlotte/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Charlotte stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings at the Charlotte Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-charlotte.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-22", "end": "2026-08-23", "city": "Charlotte", "region": "NC", "country": "US", "venue": "Charlotte Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The live city page (/charlotte/) shows the most recent show, Aug 22-23, 2026 at the Charlotte Convention Center Hall BC, which ended before this research window opens (2026-10-05); its countdown has expired and no next date is shown. Checked the site's XML sitemap for any schedule/tour page or 2027-dated URL across the whole domain and found none, so no Charlotte edition is announced yet for 2027. Cover uses this page's own branded key art (og image)."
+}

@@ -1,0 +1,12 @@
+1. id=china-international-cartoon-and-animation-festival | China International Cartoon and Animation Festival | https://cicaf.hzxcw.gov.cn/ | Hangzhou, CN | types: anime, comics | organizer: National Radio and Television Administration / Zhejiang Provincial Government | note: China's first and largest national-level international animation festival since 2005 (CICAF); Golden Monkey King Awards; participants from 80+ countries
+2. id=chinajoy | ChinaJoy | https://en.chinajoy.net/#/englishPage/englishHome | Shanghai, CN | types: games, pop | organizer: IDG / CPCC | note: China's largest digital entertainment expo; ~900 exhibitors from 39 countries in 2026
+3. id=cicf-agf-guangzhou-anime-and-game-festival | CICF×AGF Guangzhou Anime & Game Festival | http://www.cicfcn.com/index_en | Guangzhou, CN | types: comics, anime, games | organizer: China Animation & Comic Association (CICF) | note: Core event of the China International Comics Festival; ~301,000 visitors in 2026; distinct from Hangzhou's CICAF
+4. id=ccg-expo | CCG EXPO | https://www.ccgexpo.cn | Shanghai, CN | types: comics, anime, games | organizer: Ministry of Culture and Tourism / Shanghai Municipal Government / SMG | note: Shanghai's animation & game expo since 2005, aka Shanghai Comic Con; ~48,000 visitors
+5. id=comic-con-costa-rica | Comic Con Costa Rica | https://comicconcostarica.com/ | San José, CR | types: comics, games, cosplay, pop | organizer: Comic Con Costa Rica / XGS / Pumpkin Palooza | note: 2026 edition themed 'NEON'; held at the Costa Rica Convention Center.
+6. id=cyprus-comic-con | Cyprus Comic Con | https://cypruscomiccon.org/ | Nicosia, CY | types: comics, pop, cosplay
+7. id=animefest | Animefest | https://www.animefest.cz/ | Brno, CZ | types: anime, cosplay | note: Oldest and largest Asian-culture convention in Czechia
+8. id=comic-con-prague | Comic-Con Prague | https://www.comiccon.cz/?lang=en | Prague, CZ | types: comics, pop
+9. id=festival-fantazie | Festival fantazie | https://www.festivalfantazie.cz/ | Chotěboř, CZ | types: scifi, tabletop, cosplay
+10. id=akicon | Akicon | https://akicon.cz/ | Prague, CZ | types: anime
+11. id=comic-con-brno-and-junior | Comic-Con Brno & Junior | https://junior.comiccon.cz/?lang=en | Brno, CZ | types: comics, pop
+12. id=for-the-love-of-fantasy | For the Love of Fantasy | https://www.facebook.com/profile.php?id=61578997719945 | Prague, CZ | types: pop, scifi | organizer: Monopoly Events | note: New celebrity-guest convention; only a Facebook page found, no standalone site yet

@@ -1,0 +1,12 @@
+1. id=wonderfest | Wonderfest | https://www.wonderfest.com | Louisville, KY, US | types: horror, toys, scifi | note: Scale-model/hobby convention; hosts the Rondo Hatton Classic Horror Awards; annual since 1992
+2. id=evillecon | EvilleCon | http://www.evillecon.com | Owensboro, KY, US | types: anime | note: Relocated from Evansville, IN to Owensboro, KY in 2026
+3. id=lexicon-gaming-convention | Lexicon Gaming Convention | http://lexicongaming.com | Lexington, KY, US | types: tabletop
+4. id=omgcon | OMGcon | http://www.omgcon.com | Owensboro, KY, US | types: anime | organizer: Tri-State Anime Promotional Society
+5. id=pax-east | PAX East | https://east.paxsite.com | Boston, MA, US | types: games | organizer: ReedPop
+6. id=anime-boston | Anime Boston | https://www.animeboston.com | Boston, MA, US | types: anime | organizer: New England Anime Society
+7. id=fan-expo-boston | Fan Expo Boston | https://www.fanexpoboston.com | Boston, MA, US | types: comics, pop, scifi | organizer: Fan Expo HQ | note: formerly Boston Comic Con; rebranded after 2017 Informa acquisition
+8. id=anthro-new-england | Anthro New England | https://anthronewengland.com | Boston, MA, US | types: furry | note: record 7,284 attendees in 2026; adding a second hotel for 2027
+9. id=arisia | Arisia | https://www.arisia.org | Boston, MA, US | types: scifi | organizer: Arisia Corporation
+10. id=boskone | Boskone | https://nesfa.org/boskone | Boston, MA, US | types: scifi | organizer: New England Science Fiction Association (NESFA)
+11. id=intercon | Intercon | https://www.interconlarp.org | Chelmsford, MA, US | types: tabletop | note: live-action role-play (LARP) focused convention
+12. id=massachusetts-independent-comics-expo | Massachusetts Independent Comics Expo | https://micexpo.org | Brookline, MA, US | types: comics | organizer: Boston Comic Arts Foundation | note: aka MICE; alternative/indie comics focus

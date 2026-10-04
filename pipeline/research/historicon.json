@@ -1,0 +1,30 @@
+{
+  "id": "historicon",
+  "name": "Historicon",
+  "short": "",
+  "url": "https://historicon.org",
+  "organizer": "Historical Miniatures Gaming Society, Inc. (HMGS)",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "HMGS's flagship historical-miniatures wargaming convention, moving to the Lancaster County Convention Center in 2027, with hundreds of participation games and hobby classes.",
+  "cover": { "file": "pipeline/cache/extract/historicon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-07-21",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "Lancaster County Convention Center",
+      "city": "Lancaster",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/historicon-2027/badgetypes",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Dedicated /historicon-2027 page text: 'Historicon 2027 will be at the Lancaster County Convention Center on July 21-25, 2027.' Homepage confirms: 'Future Historicons 2027 - July 21-25 - small battles with BIG IMPACTS!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The last two editions (2024-2025) were held in Fredericksburg, VA ('our second year in Fredericksburg' per the homepage's 2025 recap), so the batch's Lancaster/PA placement looked suspect at first, but the official /historicon-2027 page explicitly states the 2027 edition returns to the Lancaster County Convention Center -- the given place was correct for this specific edition. This is a historical-miniatures wargaming convention (participation games, tournaments, hobby classes, War College lectures) with no celebrity-guest program of the comic-con kind, so guests is 'none' rather than 'none-yet'. 2028 (July 19-23) and 2029 (July 18-22) are also already announced on the homepage but both start after the 2027-12-31 window cutoff, so they were left out per the rules."
+}

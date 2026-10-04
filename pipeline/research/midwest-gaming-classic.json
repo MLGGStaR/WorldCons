@@ -1,0 +1,30 @@
+{
+  "id": "midwest-gaming-classic",
+  "name": "Midwest Gaming Classic",
+  "short": "MGC",
+  "url": "https://www.midwestgamingclassic.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "tabletop"],
+  "blurb": "A 350,000+ sq ft Milwaukee gaming trade show with free-play arcade, pinball and console games, plus tabletop, RPGs and industry guests.",
+  "cover": { "file": "pipeline/cache/extract/midwest-gaming-classic.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Baird Center",
+      "city": "Milwaukee",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://www.midwestgamingclassic.com/attend/",
+      "guestsPage": "https://www.midwestgamingclassic.com/meet/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage (read via a Wayback Machine snapshot; see notes): 'Thank you for joining us at the 2026 Midwest Gaming Classic! SAVE THE DATE! APRIL 23-25, 2027! Baird Center 400 W. Wisconsin Avenue Milwaukee, WI 53203'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live site returns a Cloudflare 'Just a moment...' bot-check (HTTP 403) to extract.mjs (including --channel msedge --fresh) and to WebFetch, so it was read via a Wayback Machine snapshot captured 2026-05-08 instead (saved as midwest-gaming-classic.home.json) - WebSearch independently confirmed the same Apr 23-25, 2027 / Baird Center dates from the site's own page title and a local-news tweet. The /meet/ guests page's nearest Wayback snapshot (2026-03-26) was itself a Cloudflare challenge page with no content, so no 2027 guest lineup could be read; marked 'none-yet' since the show is ~6 months out and no announcement was found elsewhere. Short name 'MGC' taken from the site's own asset naming (mgc-logo-vector.svg, mgc-order.php). Cover uses the site's vector logo (no genuine wide key-art banner was found; the homepage's other images are small square nav-card thumbnails). Organizer entity not found."
+}

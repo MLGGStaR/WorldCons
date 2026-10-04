@@ -1,0 +1,36 @@
+{
+  "id": "pax-unplugged",
+  "name": "PAX Unplugged",
+  "short": "",
+  "url": "https://unplugged.paxsite.com/philly/en-us.html",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "An annual tabletop-gaming convention at the Pennsylvania Convention Center in Philadelphia, with panels, an expo hall and tournaments.",
+  "cover": { "file": "pipeline/cache/extract/pax-unplugged.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Pennsylvania Convention Center",
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://unplugged.paxsite.com/philly/en-us/registration/buy-badges.html",
+      "guestsPage": "https://unplugged.paxsite.com/philly/en-us/features/special-guests.html",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Elizabeth Hargrave", "Wingspan board game designer", "gaming"],
+        ["Jerry Holkins", "Penny Arcade co-creator, PAX co-founder", "comics"],
+        ["Kris Straub", "Starslip, Broodhollow webcomics", "comics"],
+        ["Laura Stringer", "Board games, Penny Arcade", "gaming"],
+        ["Lynnvander Studios", "Board game design studio", "gaming"]
+      ],
+      "evidence": "Philly subpage JSON-LD Event 'PAX Unplugged Philly' 2026-12-04 10:00 -> 2026-12-06 17:00 @ Pennsylvania Convention Center; page text: 'Show Location Pennsylvania Convention Center 1101 Arch Street Philadelphia, PA 19107 ... Friday, December 4 ... Sunday, December 6'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Brand now runs two shows: Philadelphia (this file, Dec 4-6 2026) and a new Houston edition (June 25-27 2027, 'more details coming soon') -- per the multi-city rule the Houston show is left for its own file, not included here. The special-guests page's 5 current guests (Elizabeth Hargrave, Jerry Holkins, Kris Straub, Laura Stringer, Lynnvander Studios) were found as gtID guest-profile links in the page's link list, but the page renders guest photos in a way extract.mjs's image/background-image scan could not capture (tried twice, once with a 4s extra wait) -- no usable image candidate exists for any of them, so all 5 are recorded in textOnlyGuests rather than guessed picks. Laura Stringer and Lynnvander Studios were confirmed via one web search each (Laura Stringer: Penny Arcade-affiliated, board-game topics; Lynnvander Studios: a board-game design studio with a recurring PAX presence); the other three are well-known figures (Wingspan's designer; Penny Arcade's two co-creators)."
+}

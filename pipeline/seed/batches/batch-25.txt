@@ -1,0 +1,12 @@
+1. id=emerald-city-comic-con | Emerald City Comic Con | https://www.emeraldcitycomiccon.com/ | Seattle, WA, US | types: comics, pop, anime | organizer: ReedPop | note: 2027 edition March 4-7 at the Seattle Convention Center
+2. id=pax-west | PAX West | https://west.paxsite.com/ | Seattle, WA, US | types: games | organizer: ReedPop / RX Global | note: 2027 edition Sept 3-6
+3. id=sakura-con | Sakura-Con | https://sakuracon.org/ | Seattle, WA, US | types: anime | note: Oldest and largest Pacific NW anime con; dates have shifted between March and April (2026 was April 3-5, 2027 moves to March 26-28)
+4. id=anime-washington | Anime Washington | https://www.animewashington.com/ | Puyallup, WA, US | types: anime, games | note: Combined with the Washington State Gaming Expo at the Washington State Fair Events Center; 2027 edition Feb 19-21
+5. id=crypticon-seattle | Crypticon Seattle | https://crypticonseattle.com/ | Seattle, WA, US | types: horror, pop | note: Billed as the largest gathering of horror fans in the Pacific NW; held in spring ('Halloween in May')
+6. id=geekgirlcon | GeekGirlCon | https://geekgirlcon.com/ | Seattle, WA, US | types: pop, comics, games | note: 2026 edition Oct 24-25 at the Seattle Convention Center
+7. id=washington-state-summer-con | Washington State Summer Con | https://www.wasummercon.com/ | Puyallup, WA, US | types: anime, games | note: Held at the Washington State Fair Events Center; 2026 edition June 19-21
+8. id=anime-wonder-washington | Anime Wonder Washington | https://animewonderfest.com/ | Ridgefield, WA, US | types: anime, cosplay | note: Held at the Clark County Event Center; 2026 edition Oct 17-18
+9. id=anthro-northwest | Anthro Northwest | https://www.anthronw.com/ | SeaTac, WA, US | types: furry | note: 2027 edition (Anthro NW 9) Jan 7-10
+10. id=ashika-con | Ashika-Con | https://www.ashikacon.com/ | Vancouver, WA, US | types: anime | note: Held at Clark College
+11. id=chibi-chibi-con | Chibi Chibi Con | https://chibichibiconvention.com/ | Olympia, WA, US | types: anime | note: One-day event at The Evergreen State College; 2026 edition May 16
+12. id=norwescon | Norwescon | https://norwescon.org/ | SeaTac, WA, US | types: scifi, anime, games | organizer: Northwest Science Fiction Society | note: Pacific Northwest's premier literary SF/fantasy convention; 2027 edition (Norwescon 49) March 25-28

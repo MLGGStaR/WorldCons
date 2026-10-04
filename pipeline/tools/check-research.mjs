@@ -5,7 +5,7 @@
 // Prints OK or a list of problems per file; exits 1 when any file has errors.
 
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
-import { join, dirname, basename } from 'node:path';
+import { join, dirname, basename, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { COUNTRIES, REGIONS } from '../../js/geo.js';
 
@@ -60,8 +60,9 @@ export function checkFile(path) {
   if (typeof d.blurb !== 'string' || !d.blurb.trim()) errors.push('blurb is required');
   else if (d.blurb.length > 220) errors.push(`blurb is ${d.blurb.length} chars (max 200)`);
   if (d.checked && !isDate(d.checked)) errors.push('checked must be YYYY-MM-DD');
-  if (d.status === 'active') {
-    if (!d.cover) errors.push('cover {file, key} is required');
+  const socialOnly = /facebook\.com|instagram\.com|fb\.me/i.test(d.url || '');
+  if (d.status === 'active' && !(socialOnly && d.cover === null)) {
+    if (!d.cover) errors.push('cover {file, key} is required (null is allowed only for cons whose url is a social page)');
     else if (!loadExtract(d.cover.file)) errors.push(`cover.file not found: ${d.cover.file}`);
     else if (!resolveCover(d.cover)) errors.push(`cover.key "${d.cover.key}" does not resolve to an image in ${d.cover.file}`);
   }
@@ -125,10 +126,21 @@ export function checkFile(path) {
   if (d.status === 'active' && (!d.editions || !d.editions.length) && !d.notes) {
     errors.push('no editions listed: explain in notes what is known about the next date');
   }
+  if (d.last) {
+    const l = d.last;
+    if (!isDate(l.start) || !isDate(l.end) || l.start > l.end) errors.push('last: start/end must be YYYY-MM-DD with start <= end');
+    else if (l.end >= WINDOW_START) errors.push('last: must be an edition that already ended (upcoming ones go in editions)');
+    if (!l.city) errors.push('last: city is required');
+    if (!COUNTRIES[l.country]) errors.push(`last: country "${l.country}" is not an ISO 3166-1 alpha-2 code`);
+    const regions = REGIONS[l.country];
+    if (regions && l.region && !regions[l.region]) errors.push(`last: region "${l.region}" is not a valid ${l.country} code`);
+  } else if (d.status === 'active' && (!d.editions || !d.editions.length)) {
+    warn.push('no upcoming edition and no "last" edition recorded');
+  }
   return { errors, warn };
 }
 
-const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+const isMain = process.argv[1] && fileURLToPath(import.meta.url).toLowerCase() === resolve(process.argv[1]).toLowerCase();
 if (isMain) {
   let files = process.argv.slice(2);
   if (files.includes('--all')) {

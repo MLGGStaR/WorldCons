@@ -1,0 +1,15 @@
+{
+  "id": "collect-a-con-fort-lauderdale",
+  "name": "Collect-A-Con Fort Lauderdale",
+  "short": "",
+  "url": "https://collectaconusa.com/miami-2026-recap/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Miami-Fort Lauderdale stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings at the Broward County Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-root.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-02-21", "end": "2026-02-22", "city": "Fort Lauderdale", "region": "FL", "country": "US", "venue": "Broward County Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Organizer's own name for this stop is 'Miami-Fort Lauderdale' (Broward County Convention Center, Fort Lauderdale). The evergreen /miami/ URL currently redirects to the homepage with nothing city-specific scheduled; the dated page 'Miami 2026 Recap' ('Thank you for attending! See you next year.') confirms that edition already completed. Checked the site's XML sitemap for any schedule/tour page or 2027-dated URL across the whole domain and found none, so no next date is announced. Exact last-edition dates (Feb 21-22, 2026) are not restated on the official recap page itself (title only) but are corroborated by several independent event-listing sites (animecons.com, fancons.com, rostercon.com). No Fort-Lauderdale-specific key art exists on the site: the recap template's own og image and hero carousel are a generic crowd photo and a cross-promo for the next tour stop (Dallas), so the cover falls back to the national tour logo used on the main collectaconusa.com homepage."
+}

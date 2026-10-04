@@ -1,0 +1,38 @@
+{
+  "id": "arctic-comic-con",
+  "name": "Arctic Comic Con",
+  "short": "",
+  "url": "https://arcticcomiccon.com/",
+  "organizer": "Erickson Unlimited",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Alaska's largest comic book and pop-culture convention, held each spring at the Dena'ina Center in Anchorage.",
+  "cover": { "file": "pipeline/cache/extract/arctic-comic-con.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-04-24",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Dena'ina Civic and Convention Center",
+      "city": "Anchorage",
+      "region": "AK",
+      "country": "US",
+      "tickets": "https://www.universe.com/events/arctic-comic-con-2027-tickets-3GZBQR",
+      "guestsPage": "https://arcticcomiccon.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/arctic-comic-con.guests.json",
+          "picks": [
+            [1, "Lou Diamond Phillips", "La Bamba, Stand and Deliver", "actor"],
+            [2, "Tara Sands", "Voice of Bulbasaur and others in Pokemon", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown text: 'APRIL 24 & APRIL 25, 2027 DENA'INA CENTER - ANCHORAGE, ALASKA'; guests page banner: 'TARA SANDS Lends us her voice at ARCTIC COMIC CON 2027!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page shows Lou Diamond Phillips and Tara Sands above the fold as newly announced (image uploads dated Sept/Oct 2026, and Tara Sands' own card says 'at ARCTIC COMIC CON 2027'); only these 2 belong to the 2027-04-24 edition. The rest of the page is an explicit year-tabbed archive ('2026', '2025', '2024', 'Some of our previous special guests') of past-show lineups (e.g. Ron Perlman, Billy West, Laz Alonso under the '2026' tab are last year's already-past April 2026 show, confirmed by their image upload dates of Nov 2025-Mar 2026) and are correctly excluded. Cover uses the current ACCA logo (og image is an older 2022 logo version); no distinct key-art banner for the 2027 show was found yet."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "magiccon",
+  "name": "MagicCon",
+  "short": "",
+  "url": "https://www.magiccon.de/en/",
+  "organizer": "Space Contact Verlags- und Veranstaltungs-GmbH",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "A celebrity-guest convention for fantasy and mystery fans, with stars from shows like Outlander and The Lord of the Rings, at the Maritim Hotel Bonn.",
+  "cover": { "file": "pipeline/cache/extract/magiccon.home.json", "key": "logo:4" },
+  "editions": [
+    {
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Maritim Hotel Bonn",
+      "city": "Bonn",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.magiccon.de/en/ticket-shop/",
+      "guestsPage": "https://www.magiccon.de/en/highlights/starguests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'We are already looking forward to welcoming you to MagicCon 9 from May 14 – May 16, 2027 at the Maritim Hotel Bonn.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Run by the same company as FedCon (same Bonn hotel, same contact details). The homepage's guest grid ('The guests 2026': Sarah McLeod, Bruce Hopkins, Kristin Bauer, Giles Matthey, Benjamin Walker, Mark Ferguson, Sylvester McCoy, David Wenham, John Bell, Graham McTavish, Duncan Lacroix, Richard Rankin) and its stale meta description both belong to the edition that already ran 2-4 October 2026 (also confusingly labelled 'MagicCon 9', the same number the site now reuses for the May 2027 edition it is thanking/promoting around), so that roster is not this edition's and guests is recorded as none-yet."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scarab",
+  "name": "SCARAB",
+  "short": "",
+  "url": "https://scarabcon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "South Carolina's annual board game convention at the SC State Museum in Columbia: open gaming, RPGs, TCGs and a board game library.",
+  "cover": { "file": "pipeline/cache/extract/scarab.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "South Carolina State Museum",
+      "city": "Columbia",
+      "region": "SC",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/scarab-2027/badgetypes",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Key art and page text (via scarabcon.com, which redirects to its registration page on tabletop.events): 'SCARAB CON ... January 15-17 Columbia, SC South Carolina Museum'; 'Dates Fri, Jan 15 2027 ... Sun, Jan 17 2027'; venue 'The SC State Museum, 301 Gervais St, Columbia, SC 29201, USA'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "scarabcon.com is the con's own domain (named in its own key art, 'www.scarabcon.com') but 302-redirects to its tabletop.events listing, which is where SCARAB actually runs registration, schedule and venue info; used as url since it's the promoted official domain. tabletop.events hosts a year-stamped page per edition (scarab-2026 already ran Jan 2026, before today; scarab-2027 is the upcoming edition, Jan 15-17 2027). No 'Guests' nav item or guest-of-honor page on either year's site (nav is just Home/Attend/Exhibit-Sponsor/News) -- this is an open-gaming/library-focused tabletop con with no celebrity guest program, so guests is 'none'. No organizer entity is named anywhere on the site (only the venue, SC State Museum, and the Tabletop.Events/BoardGameGeek platform footer), so organizer is left blank rather than guessed."
+}

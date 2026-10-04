@@ -1,0 +1,37 @@
+{
+  "id": "nwa-comic-con",
+  "name": "NWA Comic Con",
+  "short": "",
+  "url": "https://www.nwacomiccon.com/",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Formerly Northwest Arkansas Comic Con: a comics and pop-culture convention at the Rogers Convention Center with celebrity guests and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/nwa-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-20",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Rogers Convention Center",
+      "city": "Rogers",
+      "region": "AR",
+      "country": "US",
+      "tickets": "https://www.nwacomiccon.com/tickets",
+      "guestsPage": "https://www.nwacomiccon.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/nwa-comic-con.guests.json",
+          "picks": [
+            [0, "Dee Bradley Baker", "Clone Troopers in Star Wars, Perry the Platypus", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page title: 'NWA Comic Con | March 20 & 21, 2027 | Rogers Convention Center'; guest card itself reads 'MARCH 20-21, 2027 ROGERS, ARKANSAS ROGERS CONVENTION CENTER'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page candidates #1-4 (unlabeled 9f8c67_-prefixed images) are byte-identical to the generic 'Photo Ops Example' stock images reused on sibling VXV sites (confirmed by matching image hash against Iron City Comic Con's own guests page), not real guests, so excluded; candidate #5 ('Jeff Hardy', filename MOCC42.jpg, links only to /tickets) is the same shared template image already identified as decorative on other VXV sites, also excluded. Only candidate #0 is this show's own art (2f131c_-prefixed, i.e. this site's own media library); it has no alt text but the card itself names 'Dee Bradley Baker' with the show name/date printed on it, confirmed by viewing the image. This is the same NWA Comic Con cross-promoted by name on the other VXV sibling sites' homepage carousels (Iron City, South Alabama, Arkansas Comic Con, Little Rock Anime Fest all show an 'NWA Comic Con' ad tile linking here)."
+}

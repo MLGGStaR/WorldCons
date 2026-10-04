@@ -1,0 +1,39 @@
+{
+  "id": "darknesscon-salt-lake-city",
+  "name": "DarknessCon: Salt Lake City",
+  "short": "",
+  "url": "https://darknesscon.com/salt-lake-city",
+  "organizer": "DarknessCon",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Farmington-area stop of the touring DarknessCon horror convention, with celebrity guests, cosplay and the CarnEVIL and Neon Nightmares late-night events.",
+  "cover": { "file": "pipeline/cache/extract/darknesscon-salt-lake-city.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-04",
+      "dates": "confirmed",
+      "venue": "Western Sports Park",
+      "city": "Farmington",
+      "region": "UT",
+      "country": "US",
+      "tickets": "https://darknesscon.com/get-tickets?show=salt-lake-city",
+      "guestsPage": "https://darknesscon.com/salt-lake-city",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/darknesscon-salt-lake-city.guests.json",
+          "picks": [
+            [5, "Brad Loree", "Stuntman; Michael Myers in Halloween: Resurrection", "actor"],
+            [6, "Naomi Grossman", "Guest of honor, actor", "actor"],
+            [7, "Mythica Blessyng", "Special effects artist, Skin Wars", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Salt Lake City page text/title: 'DarknessCon Salt Lake City — September 3 & 4, 2027' / 'SEPTEMBER 3 & 4, 2027 SALT LAKE CITY WESTERN SPORTS PARK'; also confirmed by JSON-LD Event 2027-09-03 -> 2027-09-04 @ Western Sports Park."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Part of the touring DarknessCon brand (shared darknesscon.com site, one page per city). The on-page guest card for Naomi Grossman only labels her 'ACTOR' with no specific project named, so known-for was left generic rather than sourced from outside the card. The og image is a generic Unsplash stock photo, so the cover uses the branded 'Neon Nightmares' key art (hero:0) instead. A 'To Be Announced' placeholder guest tile was skipped."
+}

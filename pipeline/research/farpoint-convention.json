@@ -1,0 +1,39 @@
+{
+  "id": "farpoint-convention",
+  "name": "Farpoint Convention",
+  "short": "",
+  "url": "https://farpointcon.com",
+  "organizer": "Farpoint Foundation",
+  "status": "active",
+  "types": ["scifi", "comics", "horror", "anime"],
+  "blurb": "A fan-run weekend of science fiction, comics, anime, fantasy and horror programming near Baltimore, with headline media guests and a masquerade.",
+  "cover": { "file": "pipeline/cache/extract/farpoint-convention.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-05",
+      "end": "2027-02-07",
+      "dates": "confirmed",
+      "venue": "Sheraton Baltimore North Hotel",
+      "city": "Towson",
+      "region": "MD",
+      "country": "US",
+      "tickets": "https://farpointcon.com/register/",
+      "guestsPage": "https://farpointcon.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/farpoint-convention.guests.json",
+          "picks": [
+            [2, "Todd Stashwick", "Star Trek: Picard, 12 Monkeys", "actor"],
+            [4, "Vivien Lyra Blair", "Star Wars: Obi-Wan Kenobi", "actor"],
+            [6, "Refashioned Hippie", "Social media content creator", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"Farpoint Convention ... February 5-7, 2027 Sheraton Baltimore North Hotel, Towson, MD\"; \"Our 2027 Headline Guests ... Todd Stashwick ... Vivien Lyra Blair ... Refashioned Hippie\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Venue/city updated from the seed's \"Hunt Valley\" to \"Towson, MD\" per the official 2027 homepage. Literary/author guest program page (departments/programming/author-guests/) shows 4 \"Guest TBA\" placeholders, not yet announced. A recent news post teases a possible author guest (\"Meet Mary Fan!\", Oct 1 2026) but doesn't clearly confirm her as a booked 2027 guest, so she was left out."
+}

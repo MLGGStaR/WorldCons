@@ -1,0 +1,30 @@
+{
+  "id": "anime-matsuri",
+  "name": "Anime Matsuri",
+  "short": "",
+  "url": "https://www.animematsuri.com",
+  "organizer": "Anime Matsuri Convention",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "An anime, Japanese culture and arts convention at the George R. Brown Convention Center in Houston, marking its 20th anniversary in 2026.",
+  "cover": { "file": "pipeline/cache/extract/anime-matsuri.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-22",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "George R. Brown Convention Center",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/anime-matsuri-2027-tickets-1989176380100",
+      "guestsPage": "https://animematsuri.com/all-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official site (animematsuri.com) still shows the past edition ('JULY 23-26, 2026', already over as of today). The con's own Eventbrite listing ('TOP ORGANIZER by Anime Matsuri Convention', matching the organizer; the official site links its 2026 badges to this same Eventbrite account) carries JSON-LD for 'Anime Matsuri 2027': 2027-07-22T11:00 to 2027-07-25T16:00 at George R. Brown Convention Center, matching its visible text 'Thursday, July 22-Sunday, July 25, 2027'. The listing itself notes '*Dates might change'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition (Jul 23-26) already ran; animematsuri.com/all-guests/ still shows that lineup (footer reads 'ANIME MATSURI JULY 23-26, 2026'), so guests for the 2027 edition is 'none-yet'. 2027 dates come from the organizer's own Eventbrite listing rather than the main site (which has not been updated past the 2026 edition yet) and carry an explicit 'Dates might change' caveat from Eventbrite itself -- re-check animematsuri.com closer to the date."
+}

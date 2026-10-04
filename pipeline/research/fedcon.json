@@ -1,0 +1,45 @@
+{
+  "id": "fedcon",
+  "name": "FedCon",
+  "short": "",
+  "url": "https://www.fedcon.de/",
+  "organizer": "Space Contact Verlags- und Veranstaltungs-GmbH",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "Europe's largest Star Trek and science-fiction convention, three days of star guests, autographs and a cosplay catwalk at the Maritim Hotel Bonn.",
+  "cover": { "file": "pipeline/cache/extract/fedcon.home.json", "key": "logo:4" },
+  "editions": [
+    {
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Maritim Hotel Bonn",
+      "city": "Bonn",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.fedcon.de/de/ticket-shop/",
+      "guestsPage": "https://www.fedcon.de/de/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fedcon.guests.json",
+          "picks": [
+            [6, "Robert Picardo", "", "actor"],
+            [7, "Brent Spiner", "", "actor"],
+            [8, "Terry Farrell", "", "actor"],
+            [9, "Callum Keith Rennie", "", "actor"],
+            [10, "Kate Mulgrew", "", "actor"],
+            [11, "Jonathan Frakes", "", "actor"],
+            [12, "Marina Sirtis", "", "actor"],
+            [13, "Gates McFadden", "", "actor"],
+            [14, "Nicole de Boer", "", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'FedCon 35 – triff vom 14.05. - 16.05.2027 im Maritim Hotel Bonn deine Lieblingsstars...' and 'Die Gaststars 2027: Robert Picardo, Brent Spiner, Terry Farrell, Callum Keith Rennie, Kate Mulgrew, Jonathan Frakes, Marina Sirtis, Gates McFadden, Nicole de Boer'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on the homepage carry only each actor's name with no credit text rendered on the card itself, so known-for is left blank per the rules rather than filled from outside knowledge; cat is 'actor' for all nine since each is a known live-action film/TV performer (all are Star Trek alumni except Callum Keith Rennie, best known for Battlestar Galactica)."
+}

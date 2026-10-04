@@ -1,0 +1,12 @@
+1. id=mid-valley-comic-art-expo | Mid Valley Comic Art Expo | https://mvcae.com/ | Salem, OR, US | types: comics, pop | note: Held at the Oregon State Fairgrounds' Jackman-Long Building; 2027 edition April 17-18
+2. id=northwest-comiccon | Northwest ComicCon | https://northwestcomiccon.com/ | Portland, OR, US | types: comics | note: Vintage/Golden-Silver Age comics and original-art dealer show at the DoubleTree Portland; 2026 edition Oct 17
+3. id=orycon | OryCon | https://orycon.org/ | Portland, OR, US | types: scifi, games | organizer: Oregon Science Fiction Conventions, Inc.
+4. id=rogue-comic-con | Rogue Comic Con | https://roguecomiccon.com/ | Medford, OR, US | types: comics, pop | organizer: Southern Oregon Comic Con group | note: Free community event at Pear Blossom Park; successor to Medford Comic Con; 2027 edition May 22-23
+5. id=anthrocon | Anthrocon | https://www.anthrocon.org | Pittsburgh, PA, US | types: furry | organizer: Anthrocon, Inc. | note: second-largest furry convention in the world; 20,618 attendees in 2026
+6. id=pax-unplugged | PAX Unplugged | https://unplugged.paxsite.com | Philadelphia, PA, US | types: tabletop | organizer: ReedPop
+7. id=steel-city-con | Steel City Con | https://www.steelcitycon.com | Monroeville, PA, US | types: comics, pop, toys | note: runs 3x/year; successor to Pittsburgh Comicon/Wizard World Pittsburgh
+8. id=historicon | Historicon | https://www.historicon.org | Lancaster, PA, US | types: tabletop | organizer: Historical Miniatures Gaming Society (HMGS) | note: historical miniature wargaming focus
+9. id=thy-geekdom-con | Thy Geekdom Con | https://www.thygeekdomcon.com | Oaks, PA, US | types: games, anime, pop | organizer: Sparrowpeak LLC | note: formerly based in Wilmington, DE (2015-2017)
+10. id=toomanygames | TooManyGames | https://www.toomanygames.net | Oaks, PA, US | types: games
+11. id=zenkaikon | Zenkaikon | https://www.zenkaikon.com | Lancaster, PA, US | types: anime, scifi, pop | organizer: Zenkaikon Entertainment
+12. id=confluence | Confluence | http://www.confluence-sff.org | Pittsburgh, PA, US | types: scifi, horror | organizer: PARSEC | note: went virtual as "C'monfluence" in 2020; an event was confirmed as recently as July 2026

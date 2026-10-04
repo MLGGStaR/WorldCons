@@ -1,0 +1,12 @@
+1. id=ecbacc | ECBACC | https://www.ecbacc.com | Philadelphia, PA, US | types: comics | note: East Coast Black Age of Comics Convention; hosts the Glyph Comics Awards
+2. id=furrydelphia | Furrydelphia | https://furrydelphia.org | Philadelphia, PA, US | types: furry
+3. id=sci-fi-valley-con | Sci-Fi Valley Con | https://scifivalleycon.com | Altoona, PA, US | types: scifi, tabletop | organizer: Assett Conventions | note: biannual; second edition in Oct/Nov
+4. id=setsucon | Setsucon | https://www.setsucon.com | Altoona, PA, US | types: anime | organizer: Penn State Anime Organization
+5. id=shore-leave | Shore Leave | https://www.shore-leave.com | Lancaster, PA, US | types: scifi, pop | note: long-running Star Trek-focused fan convention, historically based in the Baltimore, MD area; now at Lancaster, PA per its current official site
+6. id=world-boardgaming-championships | World Boardgaming Championships | https://www.boardgamers.org/#wbc | Seven Springs, PA, US | types: tabletop | organizer: Boardgame Players Association | note: replaced Avaloncon in 1999
+7. id=necronomicon-providence | NecronomiCon Providence | https://necronomicon-providence.com | Providence, RI, US | types: horror, scifi | organizer: Lovecraft Arts & Sciences Council | note: biennial Lovecraft/weird-fiction event; next edition Aug 2026
+8. id=sc-comicon | SC Comicon | https://sccomicon.com | Greenville, SC, US | types: comics, toys | note: State's largest comic/pop-culture con; also runs a one-day fall edition in October
+9. id=sc-horror-con-con-of-the-dead | SC Horror Con (Con of the Dead) | https://schorror.ticketsauce.com | Columbia, SC, US | types: horror, toys, cosplay | note: At Columbia Metropolitan Convention Center; no independent domain found
+10. id=soda-city-comic-convention | Soda City Comic Convention | https://www.sodacitycomiccon.com | Columbia, SC, US | types: comics | note: Premier comic event in the SC Midlands
+11. id=megamoosecon | MegaMooseCon | https://www.megamoosecon.com | Richburg, SC, US | types: tabletop
+12. id=palmetto-anthro-weekend | Palmetto Anthro Weekend | https://www.palmettoanthroweekend.com | Greenville, SC, US | types: furry | note: South Carolina's first dedicated furry convention; debuts Feb 4-8, 2027; site was still "under construction" when checked

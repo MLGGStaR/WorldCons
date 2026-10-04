@@ -1,0 +1,15 @@
+{
+  "id": "forest-city-comicon",
+  "name": "Forest City Comicon",
+  "short": "F3C",
+  "url": "https://forestcitycomicon.com/",
+  "organizer": "Forest City Comicon Inc.",
+  "status": "active",
+  "types": ["comics", "pop", "tabletop"],
+  "blurb": "London, Ontario's original pop-culture convention, running for over a decade with comics, cosplay and tabletop gaming.",
+  "cover": { "file": "pipeline/cache/extract/forest-city-comicon.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": { "start": "2025-11-02", "end": "2025-11-02", "city": "London", "region": "ON", "country": "CA" },
+  "checked": "2026-10-05",
+  "notes": "The official site (both .com and .ca, same Wix build) still shows the Nov 2, 2025 edition as the latest news, with no 2026/2027 dates. London Tourism's own listing for the con explicitly says '2026 date and location: To be announced' (checked via WebFetch on 2026-10-05), so no upcoming edition is recorded."
+}

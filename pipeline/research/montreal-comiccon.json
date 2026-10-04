@@ -1,0 +1,45 @@
+{
+  "id": "montreal-comiccon",
+  "name": "Montreal Comiccon",
+  "short": "",
+  "url": "https://www.montrealcomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "scifi", "cosplay"],
+  "blurb": "Quebec's major pop-culture convention in Montreal, with film, TV, anime and comics guests, artist alley, and the Cosplay-Eh! Canadian Cosplay Championship finale.",
+  "cover": { "file": "pipeline/cache/extract/montreal-comiccon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Palais des congrès de Montréal",
+      "city": "Montreal",
+      "region": "QC",
+      "country": "CA",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage hero text: '5 ET 6 DÉC. – ÉDITION DES FÊTES'; mtl.org's listing confirms 'December 5 and 6, 2026' at 'Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle'."
+    },
+    {
+      "start": "2027-07-02",
+      "end": "2027-07-04",
+      "dates": "confirmed",
+      "venue": "Palais des congrès de Montréal",
+      "city": "Montreal",
+      "region": "QC",
+      "country": "CA",
+      "tickets": "",
+      "guestsPage": "https://www.montrealcomiccon.com/artistes/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage hero text: 'LE COMICCON SERA DE RETOUR DU 2 AU 4 JUILLET 2027 PALAIS DES CONGRÈS', with hero image alt 'BILLETS EN VENTE SOUS PEU' (tickets not yet on sale)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This brand runs two shows a year in Montreal under one site: a small December 'Édition des Fêtes' (holiday market with 225+ exhibitors, concerts, comedy and a masquerade, per mtl.org — no celebrity guests mentioned anywhere, so guests='none') and the main summer con, confirmed back for July 2-4 2027. The site's news feed (Christopher Lloyd, Tom Welling, Naruto/Spider-Man/Avatar voice actors, WWE wrestlers, Peacemaker/Friday the 13th cast, dated May-June 2026) was that past summer edition's lineup; the live 'Tous les invités' guest page (artistes/) now renders with zero guest cards ahead of the 2027 show, so that edition is guests='none-yet'. Organizer company name not confirmed from the rendered page (not pursued further to stay in budget); top nav also links sister Comiccon shows in Quebec City, Ottawa, Winnipeg and Laval plus a 'Festival Hobby', each its own convention/file. Used the most recent hero banner (mcc26_heros_web.png) as cover; the og:image is a stale 2018 share image."
+}

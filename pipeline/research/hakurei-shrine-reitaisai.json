@@ -1,0 +1,15 @@
+{
+  "id": "hakurei-shrine-reitaisai",
+  "name": "Hakurei Shrine Reitaisai",
+  "short": "",
+  "url": "https://reitaisai.com/",
+  "organizer": "Hakurei Shrine Administrative Office",
+  "status": "active",
+  "types": ["comics", "games"],
+  "blurb": "Japan's largest Touhou Project doujinshi market, where fan circles sell self-published comics, music and games; held at Tokyo Big Sight each spring and autumn.",
+  "cover": { "file": "pipeline/cache/extract/hakurei-shrine-reitaisai.home.json", "key": "hero:6" },
+  "editions": [],
+  "last": { "start": "2026-10-04", "end": "2026-10-04", "city": "Tokyo", "region": "", "country": "JP" },
+  "checked": "2026-10-05",
+  "notes": "Corrected url: the given www.reitaisai.com redirects to reitaisai.com. This id covers the Touhou Project doujinshi market itself (the 'Reitaisai'), held at Tokyo Big Sight each spring (around Golden Week) and autumn. The 13th Autumn Reitaisai was held 2026-10-04, one day before this research window opens, so it is not listed, and no spring 2027 Reitaisai date is announced yet on the official site as of 2026-10-05, so editions is empty. The site's 'upcoming events' list also shows 'Hakurei Shrine Uta Matsuri 2026' (Nov 23, 2026, CLUB CITTA' Kawasaki) by the same organizer, but that is a separate concert-format event, not a doujinshi-market edition, so it is not included here. Corrected types from the given 'games, anime' to 'comics, games': the fair's content is doujinshi (comics) and fan games built on the Touhou game franchise; it has no anime-screening component. This is a circle sales event with no celebrity/voice-actor guest program, so no guests field applies while editions is empty. Cover uses the only official key-art image found (no og/twitter image on this page); logos were not detected either."
+}

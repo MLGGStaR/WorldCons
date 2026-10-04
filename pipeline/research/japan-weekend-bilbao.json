@@ -1,0 +1,14 @@
+{
+  "id": "japan-weekend-bilbao",
+  "name": "Japan Weekend Bilbao",
+  "short": "",
+  "url": "https://www.japanweekend.com/bilbao/",
+  "organizer": "Jointo Entertainment",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "The Basque leg of Spain's biggest Japanese pop-culture event, with voice actors, illustrators, musicians and a cosplay contest.",
+  "cover": { "file": "pipeline/cache/extract/japan-weekend-bilbao.home.json", "key": "logo:2" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Bilbao's own page still shows its just-concluded 3 October 2026 edition (countdown at zero) and that edition's guest list, which does not carry over here. The main site's 2027 lineup list names Bilbao as a returning host for 'JAPAN WEEKEND 2027' but gives it no month or date at all (unlike Madrid, which at least got 'febrero'), so nothing qualifies as an announced date yet and editions is left empty rather than guessed."
+}

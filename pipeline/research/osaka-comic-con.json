@@ -1,0 +1,14 @@
+{
+  "id": "osaka-comic-con",
+  "name": "Osaka Comic Con",
+  "short": "",
+  "url": "https://osakacomiccon.jp",
+  "organizer": "VIZ Media / Tokyo Comic Con",
+  "status": "inactive",
+  "types": ["pop", "comics", "cosplay"],
+  "blurb": "The Kansai sister event to Tokyo Comic Con at INTEX Osaka, with Hollywood and Japanese celebrity guests, artist alley and cosplay; on hiatus since 2025.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No Osaka Comic Con was held in 2026: Japanese entertainment press confirmed 'Osaka Comic Con 2026' did not take place (theriver.jp's Tokyo Comic Con 2026 announcement explicitly states '「大阪コミコン2026」開催なし' - 'no Osaka Comic Con 2026'). The official site (osakacomiccon.jp), re-checked fresh on 2026-10-05, still shows May 2025 (Osaka Comic Con 2025, Hollywood guests including Nicolas Cage, Bill Skarsgård, Christina Ricci, Mads Mikkelsen) as its latest news, with no 2027 announcement. Third-party event aggregators speculate an early-May-2027 return, but that is not an official confirmation, so this entry is filed 'inactive' (on hiatus) rather than guessing a date; last confirmed edition: May 2-4, 2025 at INTEX Osaka. Cover/editions are left empty per the inactive-status rule; the live 'come celebrity' (来日セレブ) guest page at osakacomiccon.jp/celebrities was not extracted since it only reflects that same past 2025 edition."
+}

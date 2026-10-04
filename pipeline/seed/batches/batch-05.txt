@@ -1,0 +1,12 @@
+1. id=barcelona-games-world | Barcelona Games World | https://www.barcelonagamesworld.com | Barcelona, ES | types: games | note: Major consumer video game expo at Fira de Barcelona; URL not independently re-fetched this session (connection blocked), based on confirmed prior knowledge
+2. id=comic-barcelona | Comic Barcelona | https://www.ficomic.com | Barcelona, ES | types: comics | organizer: FICOMIC | note: Spain's oldest and largest comic fair, running since 1981
+3. id=madrid-games-week | Madrid Games Week | https://www.madridgamesweek.com | Madrid, ES | types: games | note: Major consumer video game expo; URL not independently re-fetched this session (DNS blocked), based on confirmed prior knowledge
+4. id=manga-barcelona | Manga Barcelona | https://www.manga-barcelona.com | Barcelona, ES | types: anime, pop | organizer: FICOMIC | note: Largest anime convention in Spain, 2nd largest in Europe; 163k+ visitors; moved to December in recent years
+5. id=gamepolis | Gamepolis | https://www.gamepolis.net | Málaga, ES | types: games | note: URL not independently re-fetched this session, based on prior knowledge
+6. id=celsius232 | Celsius232 | https://www.celsius232.com | Avilés, ES | types: scifi, horror | note: Genre fiction & film festival in Asturias; URL not independently re-fetched this session
+7. id=assembly | Assembly | https://www.assembly.org/ | Helsinki, FI | types: games | note: Demoscene/esports/LAN festival; also a smaller winter edition
+8. id=ropecon | Ropecon | https://ropecon.fi/en/ | Helsinki, FI | types: tabletop, cosplay, games | note: Finland's largest convention
+9. id=arctic-lights-comic-con | Arctic Lights Comic Con | https://arcticlightscomiccon.messukeskus.com/en/ | Helsinki, FI | types: comics, pop
+10. id=desucon | Desucon | https://desucon.fi/ | Lahti, FI | types: anime | note: Exact 2026 month unconfirmed
+11. id=finncon | Finncon | http://www.finncon.org/ | Helsinki, FI | types: scifi, anime | note: Free admission; rotates between Finnish cities (Helsinki, Turku, Jyväskylä, Tampere) each year
+12. id=matsucon | Matsucon | https://matsucon.fi/ | Oulu, FI | types: anime

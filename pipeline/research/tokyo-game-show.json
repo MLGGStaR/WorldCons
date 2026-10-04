@@ -1,0 +1,30 @@
+{
+  "id": "tokyo-game-show",
+  "name": "Tokyo Game Show",
+  "short": "TGS",
+  "url": "https://tgs.cesa.or.jp",
+  "organizer": "Computer Entertainment Supplier's Association (CESA)",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "Japan's major video game trade show at Makuhari Messe, with publisher booths, stage programs, an indie zone and dedicated business and public days.",
+  "cover": { "file": "pipeline/cache/extract/tokyo-game-show.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-16",
+      "end": "2027-09-20",
+      "dates": "confirmed",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'TOKYO GAME SHOW 2026 has concluded... TOKYO GAME SHOW 2027 is scheduled to be held from September 16th (Thu) to 20th (Mon/Holiday), 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "TOKYO GAME SHOW 2026 (Sept 17-21, 2026, its 30th-anniversary 5-day run) had already concluded one day before this research window opens, so only the announced 2027 edition is listed. No 2027 key art is published yet, so the cover falls back to the 2026 OGP banner (same CESA/TGS branding). TGS is a B2B/public trade show built around exhibitor booths and stage programs rather than a booked celebrity-guest roster, so guests is 'none'; no dedicated all-guests page exists."
+}

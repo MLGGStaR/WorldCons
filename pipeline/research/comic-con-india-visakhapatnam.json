@@ -1,0 +1,145 @@
+{
+  "id": "comic-con-india-visakhapatnam",
+  "name": "Comic Con India (Visakhapatnam)",
+  "short": "Vizag",
+  "url": "https://www.comicconindia.com/all-cities-pages-2026/vizag-city-comic-con",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Visakhapatnam leg of Comic Con India's national tour, run with ReedPop, with comedy, music and Indian indie-comics guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Kalam Convention Centre, AMTZ campus",
+      "city": "Visakhapatnam",
+      "region": "",
+      "country": "IN",
+      "tickets": "",
+      "guestsPage": "https://www.comicconindia.com/all-cities-pages-2026/vizag-city-comic-con#guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-india-visakhapatnam.guests.json",
+          "picks": [
+            [
+              1,
+              "C-Shor",
+              "Vizag hip-hop artist and rapper",
+              "music"
+            ],
+            [
+              2,
+              "Fluteboxers",
+              "Flute and beatbox duo",
+              "music"
+            ],
+            [
+              3,
+              "Kumar Varun",
+              "Stand-up comedian",
+              "other"
+            ],
+            [
+              4,
+              "Vivek Muralidharan",
+              "Hyderabad stand-up comedian",
+              "other"
+            ],
+            [
+              5,
+              "Gokul Kumar",
+              "Bangalore stand-up comedian",
+              "other"
+            ],
+            [
+              6,
+              "Roll Rida",
+              "Telugu hip-hop artist",
+              "music"
+            ],
+            [
+              7,
+              "9teen",
+              "Indie pop trio",
+              "music"
+            ],
+            [
+              8,
+              "Urban Tales",
+              "City-story comic artist collective",
+              "comics"
+            ],
+            [
+              9,
+              "Bullseye Press",
+              "Indian bilingual comic publisher",
+              "comics"
+            ],
+            [
+              10,
+              "Holy Cow Entertainment",
+              "Comic publisher: Ravanayan, The Aghori",
+              "comics"
+            ],
+            [
+              11,
+              "Lilorosh",
+              "Artist duo making tools for artists",
+              "other"
+            ],
+            [
+              12,
+              "Studio Kapi",
+              "Manga-style graphic novel studio",
+              "comics"
+            ],
+            [
+              13,
+              "Yali Dream Creations",
+              "Indian graphic novel publisher",
+              "comics"
+            ],
+            [
+              14,
+              "Dizon Draws",
+              "Manga/manhwa-influenced digital artist",
+              "comics"
+            ],
+            [
+              15,
+              "Comix Canal",
+              "Independent comics and graphic novels platform",
+              "comics"
+            ],
+            [
+              16,
+              "Salt & Sambar",
+              "Vizag Diaries comic artist",
+              "comics"
+            ],
+            [
+              17,
+              "Rage Sage",
+              "Indian manga universe series",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page text: '10th - 11th october Kalam Convention Centre, AMTZ campus, Vizag'; schedule text 'DAY 1 | SATURDAY, 10 OCT' / 'DAY 2 | SUNDAY, 11 OCT' confirms 2026 (10 Oct 2026 is a Saturday)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "id kept as 'visakhapatnam' (the formal city name given in the work list) though the con brands this stop 'Vizag Comic Con'; short is set to 'Vizag' to match. Could not confirm the second 'Dec 6-8' edition mentioned in the work-list note: the official site (and its sitemap) has only this one Visakhapatnam page/date for the 2026 season, and no second page or announcement was found, so only the Oct 10-11 edition is recorded."
+}

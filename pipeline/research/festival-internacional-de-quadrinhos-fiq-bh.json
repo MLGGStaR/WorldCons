@@ -1,0 +1,30 @@
+{
+  "id": "festival-internacional-de-quadrinhos-fiq-bh",
+  "name": "Festival Internacional de Quadrinhos",
+  "short": "FIQ BH",
+  "url": "https://portalbelohorizonte.com.br/fiq",
+  "organizer": "Fundacao Municipal de Cultura de Belo Horizonte (Prefeitura de Belo Horizonte), with Instituto Periferico",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Free five-day municipal comics festival in Belo Horizonte, with panels, workshops, exhibitions, a comics fair and film screenings; biennial, now in its 13th edition.",
+  "cover": { "file": "pipeline/cache/extract/fiq-bh-fb.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2026-11-04",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Minascentro",
+      "city": "Belo Horizonte",
+      "region": "MG",
+      "country": "BR",
+      "tickets": "",
+      "guestsPage": "https://www.facebook.com/FIQBH/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Press coverage (Fora do Plastico, 'FIQ 2026 tem data confirmada; festival acontece de 4 a 8 de novembro'; O Tempo, 'FIQ BH 2026 ... 4 a 8 de novembro'; Nanquim, '13º FIQBH 2026 ... Minascentro') all citing Nov 4-8, 2026 at Minascentro, Av. Augusto de Lima 785, Centro; official Facebook page (facebook.com/FIQBH, 'Pagina oficial do Festival') confirms the 13th edition and shows a '#ParaTodoMundoVer' promo card for it."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official domain (portalbelohorizonte.com.br/fiq) and the city's own pbh.gov.br news pages both return a 403 'Verificacao de seguranca'/'Acesso Bloqueado' bot-wall to automated rendering (retried once with --channel msedge, still blocked), so dates, venue and the cover image come from the festival's own Facebook page (facebook.com/FIQBH, explicitly labelled the official page) and from independent press coverage instead; url is still set to the real official site for readers. As of checking, no individual guest list has been published: press coverage (Fora do Plastico, Aug 2026) says only that roughly 40 guests are planned (>=20 national, >=2 international) and that 'new information including theme, honorees and the first guests' will be announced on social media; an Aug 15 Facebook post names curators Mariana Viana and Regis Luiz for this edition, but curators are organisers rather than con guests so are not listed as guests here. Tickets field left blank: entry is free, no ticketing link applies."
+}

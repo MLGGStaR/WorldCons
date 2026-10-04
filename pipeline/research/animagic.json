@@ -1,0 +1,30 @@
+{
+  "id": "animagic",
+  "name": "AnimagiC",
+  "short": "",
+  "url": "https://animagic.de/",
+  "organizer": "Animagine GmbH",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A long-running anime, manga and Japan convention in Mannheim with Japanese and German guests of honor, music acts and an anime film festival.",
+  "cover": { "file": "pipeline/cache/extract/animagic.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-30",
+      "end": "2027-08-01",
+      "dates": "confirmed",
+      "venue": "Rosengarten",
+      "city": "Mannheim",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://animagic.tickettoaster.de/home",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '30. Juli – 1. August 2027 · Rosengarten · Mannheim' and 'Auch bei der 27. Convention-Ausgabe erwartet euch...'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This will be the 27th edition. Guest-of-honor navigation only lists past years (2017-2026) and the site states 'Erste Ankündigungen für 2027 folgen demnächst' (first 2027 announcements coming soon), confirmed by direct page fetch, so guests is none-yet. Cover image file is named 'AnimagiC_2026_Hintergrund.jpg' but is the current live homepage background (no 2027-labelled wide image exists yet); the only 2027-branded images are a set of five narrow (1068x110) section banners, too thin to use as a cover."
+}

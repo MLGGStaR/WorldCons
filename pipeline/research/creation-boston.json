@@ -1,0 +1,52 @@
+{
+  "id": "creation-boston",
+  "name": "Creation Boston",
+  "short": "",
+  "url": "https://creationent.com/events/ce-boston27/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Boston stop of Creation's touring Supernatural reunion weekend, with cast autographs, photo ops, panels and a concert.",
+  "cover": { "file": "pipeline/cache/extract/creation-boston.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Hilton Boston Park Plaza Hotel",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://creationent.com/events/ce-boston27/tickets/",
+      "guestsPage": "https://creationent.com/events/ce-boston27/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/creation-boston.guests.json",
+          "picks": [
+            [3, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
+            [4, "Misha Collins", "Castiel, Supernatural", "actor"],
+            [6, "Mark Sheppard", "Crowley, Supernatural", "actor"],
+            [8, "Ruth Connell", "Rowena, Supernatural", "actor"],
+            [10, "Richard Speight Jr.", "Gabriel/Trickster, Supernatural", "actor"],
+            [12, "Rob Benedict", "Chuck/God, Supernatural", "actor"],
+            [14, "Alexander Calvert", "Jack, Supernatural", "actor"],
+            [16, "Briana Buckmaster", "Donna Hanscum, Supernatural", "actor"],
+            [18, "Kim Rhodes", "Sheriff Jody Mills, Supernatural", "actor"],
+            [20, "Matt Cohen", "Young John Winchester, Supernatural", "actor"],
+            [22, "DJ Qualls", "Garth Fitzgerald IV, Supernatural", "actor"],
+            [24, "Timothy Omundson", "Cain, Supernatural", "actor"],
+            [26, "David Haydn-Jones", "Arthur Ketch, Supernatural", "actor"],
+            [28, "Osric Chau", "Kevin Tran, Supernatural", "actor"],
+            [30, "Jason Manns", "Singer-songwriter on the Supernatural tour", "music"],
+            [32, "Louden Swain", "House band on the Supernatural tour", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page: 'Boston, MA Jul. 9-11, 2027 - Creation Boston'; event page: 'BOSTON • JULY 9-11, 2027' and 'VENUE ... Creation Tour '27 in Boston will take place at the Hilton Park Plaza Ho[tel]...'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Same touring Supernatural-cast brand as Pittsburgh/DC/Austin/Salt Lake City; Jared Padalecki is not on this stop's confirmed list (only Ackles and Collins have headliner slots on the Boston page). Guest photos are duplicated at two sizes; picks cite the larger image of each pair, confirmed by filename (e.g. #32 is loudenSwain.jpg). No separate Boston-specific banner besides a shared stock image, so the cover uses the city-labelled 'ce27-supernatural-tour-2027-boston' banner."
+}

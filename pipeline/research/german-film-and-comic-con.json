@@ -1,0 +1,72 @@
+{
+  "id": "german-film-and-comic-con",
+  "name": "German Film & Comic Con – Dortmund",
+  "short": "GFCC",
+  "url": "https://germanfilmcomiccon.com/en/",
+  "organizer": "WE LOVE CONVENTIONS GmbH",
+  "status": "active",
+  "types": ["pop", "comics"],
+  "blurb": "A Hollywood and TV star meet-and-greet weekend in Dortmund with autographs, photo ops, German voice actors and wrestling legends.",
+  "cover": { "file": "pipeline/cache/extract/german-film-and-comic-con.home.json", "key": "hero:6" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Messe Dortmund",
+      "city": "Dortmund",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.eventbrite.com/cc/german-film-comic-con-winter-2893899/",
+      "guestsPage": "https://germanfilmcomiccon.com/en/#guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/german-film-and-comic-con.guests.json",
+          "picks": [
+            [2, "Dolph Lundgren", "MOTU, Rocky IV, The Punisher", "actor"],
+            [3, "Antonio Cipriano", "Off Campus, PLL: Original Sin", "actor"],
+            [4, "Robert Englund", "A Nightmare on Elm Street", "actor"],
+            [5, "Taz Skylar", "One Piece", "actor"],
+            [6, "Anthony Daniels", "Star Wars Saga", "actor"],
+            [7, "Matt Cornett", "Every Year After, HSMTMTS", "actor"],
+            [8, "Devon Sawa", "Final Destination, Casper", "actor"],
+            [9, "Samantha Smith", "Supernatural", "actor"],
+            [10, "Brian Austin Green", "Beverly Hills, 90210", "actor"],
+            [11, "Tori Spelling", "Beverly Hills, 90210", "actor"],
+            [12, "Khobe Clarke", "Off Campus", "actor"],
+            [13, "Michael Bradway", "Every Year After", "actor"],
+            [14, "Kim Coates", "Sons of Anarchy", "actor"],
+            [15, "Tia Carrere", "Relic Hunter, Wayne's World", "actor"],
+            [16, "Anthony De Longis", "Masters of the Universe", "actor"],
+            [17, "James Wilkinson", "Masters of the Universe (2026)", "actor"],
+            [18, "Hung Dante Dong", "Masters of the Universe (2026)", "actor"],
+            [19, "James Apps", "Masters of the Universe", "actor"],
+            [20, "Jim Duggan", "WWE wrestler \"Hacksaw\"", "sports"],
+            [21, "Merced Solis", "WWE wrestler \"Tito Santana\"", "sports"],
+            [22, "Jake Roberts", "WWE wrestler \"Jake The Snake\"", "sports"],
+            [23, "Sal Borgese", "Zwei Asse trumpfen auf", "actor"],
+            [24, "Ottaviano Dell'Acqua", "Sie nannten ihn Mücke", "actor"],
+            [25, "Giovanni Vettorazzo", "Sie nannten ihn Mücke", "actor"],
+            [26, "Enzo Santaniello", "Sie nannten ihn Mücke", "actor"],
+            [28, "Hubertus von Lerchenfeld", "Voice of Sanji, One Piece", "voice"],
+            [29, "Amadeus Strobl", "Voice of Garrett Graham, Off Campus", "voice"],
+            [30, "Pascal Breuer", "Voice of Portgas D. Ace, One Piece", "voice"],
+            [31, "Patricia Strasburger", "Voice of Allie Hayes, Off Campus", "voice"],
+            [32, "Stefan Fredrich", "Voice of the Grinch", "voice"],
+            [33, "Benjamin Völz", "Voice of John Wick", "voice"],
+            [34, "Ian Somerhalder", "The Vampire Diaries (Damon Salvatore)", "actor"],
+            [35, "Paul Wesley", "The Vampire Diaries (Stefan Salvatore)", "actor"],
+            [36, "Steven R. McQueen", "The Vampire Diaries (Jeremy Gilbert)", "actor"],
+            [37, "Danielle Rose Russell", "Legacies (Hope Mikaelson)", "actor"],
+            [38, "Danielle Campbell", "The Originals (Davina Claire)", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Saturday, 5 December 2026, 10:00 am–6:00 pm Sunday, 6 December 2026, 10:00 am–5:00 pm' at 'Messe Dortmund Rheinlanddamm 200 44139 Dortmund'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Single long homepage with anchor sections (#guests, #voice-actors, #salvatore); the 'Salvatore Con' section is a Vampire Diaries-franchise guest line-up marketed as part of this same Dortmund weekend, so its guests are included here rather than as a separate convention. Three wrestling guests (Jim Duggan, Merced Solis, Jake Roberts) are cards pairing a legal name with a ring name; 'known for' records both. Two more guest tiles ('Coming soon') were skipped per the rules. Known-for text for the Italian-film guests (Sal Borgese, Ottaviano Dell'Acqua, Giovanni Vettorazzo, Enzo Santaniello) is the German film title shown on their own cards, left untranslated."
+}

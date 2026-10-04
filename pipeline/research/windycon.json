@@ -1,0 +1,49 @@
+{
+  "id": "windycon",
+  "name": "Windycon",
+  "short": "",
+  "url": "https://windycon.org/",
+  "organizer": "Illinois Science Fiction in Chicago (ISFiC)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Chicagoland's longest-running science fiction convention, run by ISFiC with author, gaming and fan guests of honor at the Hyatt Regency O'Hare.",
+  "cover": { "file": "pipeline/cache/extract/windycon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency O'Hare",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://windycon.org/",
+      "guestsPage": "https://windycon.org/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/windycon.guests.json",
+          "picks": [
+            [2, "Andrew E.C. Gaska", "Aliens: The Roleplaying Game (Free League)", "gaming"],
+            [3, "Tristian \"TrisRex\" Johnson", "", "other"],
+            [4, "Jason Spisak", "Voice actor (Metal Gear Solid, RWBY)", "voice"],
+            [5, "Mary Crowell", "", "other"],
+            [6, "Tom Bacon", "", "other"],
+            [7, "Professor Diva", "", "other"],
+            [8, "Rick Heinz", "Fantasy author, Victoris series", "author"],
+            [9, "Bill Higgins", "Space historian & longtime SF fan", "other"],
+            [10, "Megen Leigh", "", "other"],
+            [11, "Andrew Looney", "Fluxx creator, Looney Labs co-founder", "gaming"],
+            [12, "Kristin Looney", "Looney Labs co-founder", "gaming"],
+            [13, "Tom Smith", "Filk musician (Grammy-nominated)", "music"],
+            [14, "Spinneret", "", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/footer: \"Windycon 52 | Sanctuary Among the Stars | October 9 - 11, 2026 | Hyatt Regency O'Hare Chicago\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "windycon.org has no standalone guest-list page (/guests 404s); the full roster with avatar photos is embedded on the homepage itself under 'Guests of Honor' and 'Special Guests', each guest linking out to their own bio subpage (not fetched in this pass). Several Special Guests (Tristian 'TrisRex' Johnson, Mary Crowell, Tom Bacon, Professor Diva, Megen Leigh, Spinneret) could not be confidently identified/verified beyond their name and photo in the time budget, so 'known for' is left blank and cat is a best-effort 'other'/'music' per the rules rather than guessed specifics."
+}

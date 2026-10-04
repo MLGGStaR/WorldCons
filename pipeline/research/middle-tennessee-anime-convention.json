@@ -1,0 +1,30 @@
+{
+  "id": "middle-tennessee-anime-convention",
+  "name": "Middle Tennessee Anime Convention",
+  "short": "MTAC",
+  "url": "https://mtac.net",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Tennessee's largest fan-run convention: three days of anime, manga, cosplay and pop-arts programming in Nashville.",
+  "cover": { "file": "pipeline/cache/extract/middle-tennessee-anime-convention.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Sheraton Music City & Embassy Suites Nashville",
+      "city": "Nashville",
+      "region": "TN",
+      "country": "US",
+      "tickets": "https://mtac.net/register/",
+      "guestsPage": "https://mtac.net/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage headline: 'MTAC GETS COOKIN' | MARCH 26-28, 2027 | NASHVILLE, TN' and page title 'MTAC Gets Cookin' | March 26-28, 2027 | Nashville, TN'; venue page: 'We're excited to hold MTAC at the fan-favorite Sheraton Music City & Embassy Suites Nashville!' with address '777 McGavock Pike, Nashville, TN 37214'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed note's 'Confirmed Apr 3-5, 2026 edition' was that edition, already over as of today; the site has since moved on to the 2027 edition (Mar 26-28, 2027), used here. /guests/ currently renders with no guest cards at all (only the nav logo), so guests is 'none-yet' for 2027. No organizer entity is named on the site (it reads as fan-run, with no company/LLC credited), so organizer is left blank."
+}

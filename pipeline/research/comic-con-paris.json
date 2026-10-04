@@ -1,0 +1,15 @@
+{
+  "id": "comic-con-paris",
+  "name": "Comic Con France",
+  "short": "",
+  "url": "https://comiccon.fr",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics"],
+  "blurb": "France's Comic Con, held at Paris-Nord Villepinte with celebrity guests, cosplay and a geek market.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-paris.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-04-18", "end": "2026-04-19", "city": "Paris", "region": "", "country": "FR", "venue": "Parc des Expositions de Paris-Nord Villepinte" },
+  "checked": "2026-10-05",
+  "notes": "The seed URL (comic-con-paris.com) now redirects to an unrelated RX France trade-show hub; the real official site is comiccon.fr, branded 'Comic Con France'. That site still displays its last confirmed edition — 18-19 April 2026 at Paris-Nord Villepinte — with an active-looking 'TICKETS NOW!' countdown, but that date is already in the past (stale page, not updated since). No 2027 dates were found on the site or via search as of 2026-10-05, so editions is empty. Guests shown for the passed April 2026 edition (Elijah Wood, Aaron Paul, Jared Padalecki, Lana Parrilla) belong to that edition and are not carried over. Kept the given id since it still identifies 'the Paris-held Comic Con' correctly even though the brand's own name is now 'Comic Con France'."
+}

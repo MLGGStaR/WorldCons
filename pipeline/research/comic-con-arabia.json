@@ -1,0 +1,14 @@
+{
+  "id": "comic-con-arabia",
+  "name": "Comic Con Arabia",
+  "short": "",
+  "url": "https://www.comicconarabia.com/",
+  "organizer": "THE1 (formerly Panache)",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "Saudi Arabia's largest pop-culture event, alternating between Jeddah and Riyadh with cosplay, esports and Hollywood guests.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-arabia.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Official homepage carries no date announcement for a 2026 edition — it is a bare gallery/landing page showing only past Jeddah 2022/2023 and a Riyadh gallery, no JSON-LD event and no visible date text. WebSearch results about a 'November' Comic Con Arabia Jeddah date turned out, on WebFetch of the source articles, to describe the past Nov 30-Dec 2 2023 and Nov 28-29 2024 editions, not 2026; a trip.com listing shows the most recent edition was Dec 1 2025 in Jeddah, before this window starts. Batch note says the 5th (2026) edition, expected around November, alternating to Riyadh, has no confirmed dates yet — left editions empty rather than guess. Cover uses the brand logo (logo:0) since the site has no key-art banner and its hero images are crowd/gallery photos of past editions, which RESEARCH.md says to avoid."
+}

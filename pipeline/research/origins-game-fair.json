@@ -1,0 +1,30 @@
+{
+  "id": "origins-game-fair",
+  "name": "Origins Game Fair",
+  "short": "",
+  "url": "https://www.originsgamefair.com/",
+  "organizer": "GAMA (Game Manufacturers Association)",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "One of North America's largest tabletop-gaming conventions, run by GAMA at the Greater Columbus Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/origins-game-fair.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-06-09",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Greater Columbus Convention Center",
+      "city": "Columbus",
+      "region": "OH",
+      "country": "US",
+      "tickets": "https://www.originsgamefair.com/origins-2027-registration",
+      "guestsPage": "https://www.originsgamefair.com/special-guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'join us next year. Mark your calendar now! June 9-13, 2027 Greater Columbus Convention Center Columbus, Ohio'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Guests & Celebrity Appearances page's gallery is still headed '2026 SPECIAL GUESTS' (last year's roster) with further 'WORKSHOPS & MINIATURES', 'ARTIST ALLEY', 'AUTHORS' and 'COSPLAY' sections that are mostly unnamed/numbered placeholder images from 2026 too — no 2027 guest list has been posted yet, so guests is 'none-yet' rather than extracting stale or unidentifiable names."
+}

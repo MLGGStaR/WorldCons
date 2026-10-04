@@ -1,0 +1,30 @@
+{
+  "id": "hikari-festival",
+  "name": "Hikari Festival",
+  "short": "",
+  "url": "https://hikari.pl",
+  "organizer": "Klub Fantastyki Druga Era",
+  "status": "active",
+  "types": ["anime", "cosplay", "pop"],
+  "blurb": "An Asian-culture festival in Poznań over the last weekend of summer, with anime, cosplay contests, idol concerts and workshops.",
+  "cover": { "file": "pipeline/cache/extract/hikari-festival.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-27",
+      "end": "2027-08-29",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Poznań",
+      "region": "",
+      "country": "PL",
+      "tickets": "https://hikari.pl",
+      "guestsPage": "https://hikari.pl",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Festival 'Hikari Festiwal Kultury Azjatyckiej' 2027-08-27 -> 2027-08-29 @ Poznań; homepage banner text 'Hikari 27-29 sierpnia 2027, Poznań'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage's guest slider is explicitly headed 'Gwiazdy Hikari 2026' (True/Miho Karasawa, Machico, R!N/Gemie, Kisu, Misa, Sabaku, Helper, Lon Cosplay) and a news post reads 'Koniec edycji 2026 przyszedł szybciej, niż byśmy chcieli' (the 2026 edition's end came too fast) — that lineup is last year's, so per the brief this is guests: none-yet for the announced 2027-08-27..29 edition rather than carrying those names forward. No venue named yet beyond the city."
+}

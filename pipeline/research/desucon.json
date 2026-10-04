@@ -1,0 +1,57 @@
+{
+  "id": "desucon",
+  "name": "Desucon",
+  "short": "",
+  "url": "https://desucon.fi/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "anime"
+  ],
+  "blurb": "A Finnish anime convention in Lahti held twice a year: the main Desucon in June and the winter spin-off Desucon Frostbite in January.",
+  "cover": {
+    "file": "pipeline/cache/extract/desucon.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "dates": "confirmed",
+      "venue": "Sibeliustalo",
+      "city": "Lahti",
+      "region": "",
+      "country": "FI",
+      "tickets": "",
+      "guestsPage": "https://desucon.fi/frostbite2027/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/desucon.guests.json",
+          "picks": [
+            [0, "Yūki Hayashi", "Anime composer", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Desucon Frostbite 2027 Sibeliustalo, Lahti • 22.–24.1.2027'"
+    },
+    {
+      "start": "2027-06-18",
+      "end": "2027-06-20",
+      "dates": "confirmed",
+      "venue": "Sibeliustalo",
+      "city": "Lahti",
+      "region": "",
+      "country": "FI",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official news post (desucon.fi/uutiset/2026/06/2027-tarkeat-paivamaarat/, 14.6.2026): 'Desucon 18. - 20.6.2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "desucon.fi's shared page template crashed the extract tool (an SVG <a> element made 'a.href' a non-string); fixed in pipeline/tools/extract.mjs (coerce to a plain string / .baseVal before using it) so both this and other agents' renders of similar pages stop failing. Desucon runs two editions a year under one brand in one city (Lahti): both upcoming ones are listed. Frostbite 2027's sole announced Guest of Honor (Yūki Hayashi) came from its own announcement post (.../frostbite2027/uutiset/2026/09/kunniavieraaksi-Yuki-Hayashi/), the only guest-facing page found; cat/known-for are inferred from that post's own wording ('säveltäjä' = composer). The June 2027 edition's venue (Sibeliustalo) is inferred from Frostbite's confirmed venue plus independent confirmation that past June Desucon editions used Sibeliustalo too; not independently re-confirmed for 2027 specifically. No guests announced yet for June 2027."
+}

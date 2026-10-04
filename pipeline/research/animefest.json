@@ -1,0 +1,30 @@
+{
+  "id": "animefest",
+  "name": "Animefest",
+  "short": "",
+  "url": "https://www.animefest.cz/",
+  "organizer": "Brněnští otaku",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "The oldest and largest anime and manga convention in Czechia, held at the Brno Exhibition Centre.",
+  "cover": { "file": "pipeline/cache/extract/animefest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-21",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Výstaviště Brno",
+      "city": "Brno",
+      "region": "",
+      "country": "CZ",
+      "tickets": "https://www.smsticket.cz/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Animefest 2027 21. - 23. 5. 2027 VÝSTAVIŠTĚ BRNO' with a live countdown timer; meta description: '- 21 - 23. 5. 2027 Výstaviště Brno'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer 'Brněnští otaku' (Brno Otaku) per the homepage footer trademark line. No top-level guests page exists yet for 2027: /hoste and /cs/Hoste/Index both 404. The only working guest-page URL pattern found (/cs/Hoste/Detail/<id>/<slug>, reached via a WebSearch hit for guest 'Ironmouse') resolves to the 2026 edition and is itself flagged by the site as 'Starý ročník, informace mohou být neaktuální' (old edition, information may be outdated). With the event still about 7 months out, guests is 'none-yet' rather than carried over from that stale 2026 page."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cicf-agf-guangzhou-anime-and-game-festival",
+  "name": "CICF×AGF Guangzhou Anime & Game Festival",
+  "short": "CICF×AGF",
+  "url": "http://www.cicfcn.com/index_en",
+  "organizer": "China Animation & Comic Association (CICF) / AGF",
+  "status": "active",
+  "types": ["comics", "anime", "games"],
+  "blurb": "The 19th China International Comics Festival, merging the CICF comics show with the AGF games expo at Guangzhou's Poly World Trade Expo Centre.",
+  "cover": { "file": "pipeline/cache/extract/cicf-agf-guangzhou-anime-and-game-festival.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-02",
+      "end": "2026-10-05",
+      "dates": "confirmed",
+      "venue": "Poly World Trade Expo Centre",
+      "city": "Guangzhou",
+      "region": "",
+      "country": "CN",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "WebSearch of Chinese trade coverage (21jingji.com, jufair.com, bilibili): '举办时间：2026年10月2日-10月5日...举办地点：广州保利世贸博览馆' (19th CICF, combining the CICF comics show and the AGF games expo)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site (cicfcn.com) renders only an old, apparently unmaintained homepage (hero images dated 2019, no JSON-LD, no date text, and no links beyond a Comic Artists Conference page), so this edition's dates, venue and attendance (~301,000 visitors, 310 exhibitors, 65,000 sqm, matching the seed note) come from WebSearch of Chinese trade/news coverage rather than the site itself. One source's video title cites '23位嘉宾' (23 guests), so a guest programme does exist, but no guest list could be found on cicfcn.com within budget, so guests is 'unavailable' rather than a guessed list. This edition runs 2026-10-02 to 2026-10-05 — ending on the window's own start date (today) — so it is the current/most recent edition, not a future one. A separate satellite event mentioned alongside it, the Baiyun International Anime & Game Carnival (2026-10-05/06 at a different venue, Baiyun International Convention Centre), reads as a distinct event rather than this festival's own second site, so it is not folded in here. Cover falls back to a hero image from the stale 2019-era homepage render since no current key art could be loaded; og/twitter meta images and logos were both empty on this page."
+}

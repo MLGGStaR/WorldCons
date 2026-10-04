@@ -1,0 +1,30 @@
+{
+  "id": "mad-monster-party-carolina",
+  "name": "Mad Monster Party Carolina",
+  "short": "",
+  "url": "https://madmonster.com/carolina-2027/",
+  "organizer": "Mad Monster",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "A horror, sci-fi and fantasy convention in Concord with celebrity guests, autographs, elaborate movie-scene photo ops and tattoo artists.",
+  "cover": { "file": "pipeline/cache/extract/mad-monster-party-carolina.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-02-26",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Embassy Suites by Hilton",
+      "city": "Concord",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://events.leapevents.com/tickets/MMP2027February",
+      "guestsPage": "https://madmonster.com/carolina-2027/#guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Dedicated page (madmonster.com/carolina-2027/): 'Feb. 26-28, 2027 Embassy Suites by Hilton Concord, NC'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Feb 2027 Carolina page is live with its own ticket and hotel links but has no guest cards yet (its #guests section currently renders only FAQ/photo-op imagery, no celebrity cards), so guests is 'none-yet'. The brand also ran an earlier 'Mad Monster Expo' edition at this same venue in Aug 2026, already concluded, so it is left out of this file's editions per the research window."
+}

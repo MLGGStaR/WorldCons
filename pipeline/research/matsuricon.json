@@ -1,0 +1,22 @@
+{
+  "id": "matsuricon",
+  "name": "Matsuricon",
+  "short": "",
+  "url": "https://www.matsuricon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Ohio's largest non-profit anime convention: a three-day celebration of anime, gaming, cosplay and Japanese pop culture in Columbus.",
+  "cover": { "file": "pipeline/cache/extract/matsuricon.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-04",
+    "end": "2026-09-06",
+    "venue": "Greater Columbus Convention Center",
+    "city": "Columbus",
+    "region": "OH",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The site still shows Matsuricon 2026 (September 4-6, 2026, Greater Columbus Convention Center), which already ended before the research window, and explicitly flags itself as not yet updated: 'Some info still wears last year's mask—new updates are blooming soon.' No dates, venue or guests have been announced for the next edition as of 2026-10-05, so editions is empty."
+}

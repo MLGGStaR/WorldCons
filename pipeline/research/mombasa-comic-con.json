@@ -1,0 +1,14 @@
+{
+  "id": "mombasa-comic-con",
+  "name": "Mombasa Comic Con",
+  "short": "MobCon",
+  "url": "https://www.facebook.com/Naiccon/",
+  "organizer": "NAICCON",
+  "status": "active",
+  "types": ["comics", "cosplay", "pop"],
+  "blurb": "The smaller coastal sister event to Nairobi Comic Con, run by the same NAICCON organizer in Mombasa since 2024.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No dedicated Mombasa Comic Con ('MobCon') website was found; it shares NAICCON's Facebook page with Nairobi Comic Con, used here as url per the social-only fallback rule (naiccon.co.ke is unrelated/squatted — see nairobi-comic-con notes). MobCon's first edition launched in 2024, per okayafrica.com ('the Mombasa Comic Convention (MobCon), launched earlier this year in Kenya's second-largest city'). Facebook and Instagram require a login to read posts, and NAICCON's Linktree and press coverage found in this research turned up no confirmed date for a 2025, 2026 or 2027 MobCon edition, matching the batch note that no 2026 date was found. Filed 'active' (the organizer is still running events, e.g. a Kids Con confirmed for 2026-08-29) rather than 'inactive', since nothing indicates the sister event itself was discontinued — only that its next date isn't confirmed yet."
+}

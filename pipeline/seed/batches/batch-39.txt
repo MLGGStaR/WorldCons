@@ -1,0 +1,12 @@
+1. id=darknesscon-denver | DarknessCon: Denver | https://www.darknesscon.com | Northglenn, CO, US | types: horror | note: Horror/alt-culture touring brand; Denver-area edition
+2. id=darknesscon-salt-lake-city | DarknessCon: Salt Lake City | https://www.darknesscon.com | Farmington, UT, US | types: horror | note: Horror/alt-culture touring brand; Salt Lake City-area edition
+3. id=darknesscon-snake-river | DarknessCon: Snake River | https://www.darknesscon.com | Pocatello, ID, US | types: horror | note: Horror/alt-culture touring brand; Pocatello-area edition
+4. id=days-of-the-dead-atlanta | Days of the Dead Atlanta | https://daysofthedead.com | Atlanta, GA, US | types: horror | organizer: Days of the Dead | note: Multi-city horror-celebrity brand; Atlanta date only
+5. id=days-of-the-dead-chicago | Days of the Dead Chicago | https://www.daysofthedead.com/chicago1 | Chicago, IL, US | types: horror | note: Runs two editions a year in the Chicago area
+6. id=days-of-the-dead-indianapolis | Days of the Dead Indianapolis | https://www.daysofthedead.com/indianapolis | Indianapolis, IN, US | types: horror | note: Horror-celebrity autograph/photo-op convention; exact month varies by year
+7. id=days-of-the-dead-las-vegas | Days of the Dead Las Vegas | https://www.daysofthedead.com | Las Vegas, NV, US | types: horror | note: Exact 2026 date not confirmed; part of a multi-city horror convention brand
+8. id=dreamhack-jonkoping | DreamHack Jönköping | https://dreamhack.com/ | Jönköping, SE | types: games | organizer: DreamHack AB | note: World-famous LAN party/esports festival (Summer edition)
+9. id=dreamhack-stockholm | DreamHack Stockholm | https://dreamhack.com/stockholm/ | Stockholm, SE | types: games | organizer: DreamHack AB | note: Winter edition
+10. id=elfia-haarzuilens | Elfia Haarzuilens | http://www.elfia.com | Haarzuilens, NL | types: scifi, cosplay | note: Fantasy costume festival at Castle de Haar; ~27,000 visitors; formerly 'Elf Fantasy Fair'
+11. id=elfia-arcen | Elfia Arcen | http://www.elfia.com | Arcen, NL | types: scifi, cosplay | note: Sister edition of Elfia Haarzuilens, held at Castle Arcen
+12. id=epic-con-moscow | Epic Con Moscow | https://www.epiccon.ru/ | Moscow, RU | types: cosplay, games, scifi

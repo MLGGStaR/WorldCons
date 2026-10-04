@@ -1,0 +1,15 @@
+{
+  "id": "seattle-black-nerd-festival",
+  "name": "Seattle Black Nerd Festival",
+  "short": "",
+  "url": "https://www.langstonseattle.org/seattle-black-nerd-festival/",
+  "organizer": "LANGSTON Seattle",
+  "status": "active",
+  "types": ["pop", "cosplay", "games"],
+  "blurb": "A festival celebrating Black fandom and creativity across anime, gaming, cosplay, film and art, hosted by the LANGSTON arts nonprofit in Seattle's Central District.",
+  "cover": { "file": "pipeline/cache/extract/seattle-black-nerd-festival.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-08-28", "end": "2026-08-30", "city": "Seattle", "region": "WA", "country": "US", "venue": "Langston Hughes Performing Arts Institute" },
+  "checked": "2026-10-05",
+  "notes": "The event page now reads 'THAT'S A WRAP - THANK YOU: The second annual Seattle Black Nerd Festival was a three-day gathering...' with only a mailing-list signup for future updates; no 3rd-annual date has been announced yet. Org site is langstonseattle.org (LANGSTON Seattle, formerly Langston Hughes African American Film Festival/LHPAI); the given langstonseattle.org homepage URL redirected research to the festival's own page at /seattle-black-nerd-festival/, used as url instead. Guests not researched since no upcoming edition is announced."
+}

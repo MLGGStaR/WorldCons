@@ -1,0 +1,14 @@
+{
+  "id": "panama-comic-con",
+  "name": "Comic Con Panamá",
+  "short": "",
+  "url": "https://comiccon.com.pa/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Panama's annual pop-culture convention at the Panama Convention Center, with Artist Alley, a cosplay contest and a collectibles zone.",
+  "cover": { "file": "pipeline/cache/extract/panama-comic-con-pa.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The seed URL (comicconpanama.com) is dead — the host account is suspended ('Account Suspended' / cgi-sys/suspendedpage.cgi). The real official site is comiccon.com.pa; url corrected to that. The 2026 edition (7th year) already ran Sept 4-6, 2026 at the Panama Convention Center; the homepage now just says 'GRACIAS PANAMÁ, NOS VEMOS EN 2027' (thanks Panama, see you in 2027) with no month or specific dates yet, so no edition is recorded. Guests not checked since no page for a future edition exists yet; a guest page would need re-checking once 2027 is announced."
+}

@@ -15,7 +15,12 @@
     <meta name="apple-mobile-web-app-title" content="WorldCons" />
     <meta property="og:title" content="WorldCons" />
     <meta property="og:description" content="Every fan convention worldwide, sorted by date, with every guest's photo." />
-    <meta property="og:image" content="icons/og.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mlggstar.github.io/WorldCons/" />
+    <meta property="og:image" content="https://mlggstar.github.io/WorldCons/icons/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/app.css" />
     <script>
@@ -65,11 +70,17 @@
         <button class="clear" type="button" aria-label="Clear search" hidden><svg class="icon" aria-hidden="true"><use href="#i-x" /></svg></button>
         <div class="suggest" id="suggest" role="listbox" aria-label="Suggestions" hidden></div>
       </div>
+      <nav class="nav" aria-label="Sections">
+      <a class="lanyard-link nav-guests" href="#/guests">
+        <svg class="icon" aria-hidden="true"><use href="#i-users" /></svg>
+        <span class="label">Guests</span>
+      </a>
       <a class="lanyard-link" href="#/lanyard" aria-label="Your lanyard">
         <svg class="icon" aria-hidden="true"><use href="#i-lanyard" /></svg>
         <span class="label">Lanyard</span>
         <span class="count" data-n="0">0</span>
       </a>
+      </nav>
     </header>
 
     <main id="main" tabindex="-1">

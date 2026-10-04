@@ -1,0 +1,12 @@
+1. id=dokomi | DoKomi | https://www.dokomi.de/en/ | Düsseldorf, DE | types: anime, cosplay | note: Germany's biggest anime/manga/Japan expo
+2. id=gamescom | Gamescom | https://www.gamescom.global/ | Cologne, DE | types: games, cosplay | organizer: Koelnmesse | note: World's largest video game trade and consumer event; has a large public/fan days component
+3. id=spiel-essen | SPIEL Essen | https://www.spiel-essen.de/en/ | Essen, DE | types: tabletop | organizer: Merz Verlag | note: World's largest public board-game fair
+4. id=connichi | Connichi | https://www.connichi.de/ | Wiesbaden, DE | types: anime, cosplay | organizer: Animexx e.V. | note: Largest fully volunteer-run anime convention in German-speaking countries; moved from Kassel to Wiesbaden in 2023
+5. id=german-film-and-comic-con | German Film & Comic Con | https://germanfilmcomiccon.com/en/ | Dortmund, DE | types: comics, pop | note: Historically also runs Berlin and Frankfurt editions in some years
+6. id=animagic | AnimagiC | https://animagic.de/ | Mannheim, DE | types: anime, cosplay | note: Next confirmed edition is Jul 30-Aug 1 2027; may not have run in 2026
+7. id=eurofurence | Eurofurence | https://www.eurofurence.org/ | Hamburg, DE | types: furry | organizer: Eurofurence e.V. | note: Europe's largest and longest-running furry convention
+8. id=fedcon | FedCon | https://www.fedcon.de/ | Bonn, DE | types: scifi, pop | organizer: FedCon GmbH | note: Largest Star Trek/sci-fi convention in Europe
+9. id=bircon-berlin | BIRCON Berlin | https://bircon.berlin/ | Berlin, DE | types: pop
+10. id=hirocon | HiroCon | https://www.hirocon.de/ | Saarbrücken, DE | types: pop, anime
+11. id=magiccon | MagicCon | https://www.magiccon.de/en/ | Bonn, DE | types: pop | note: Celebrity-guest convention brand with multiple numbered editions per year in different German cities
+12. id=mex-berlin | MEX-Berlin | https://mex-berlin.de/ | Berlin, DE | types: pop, comics

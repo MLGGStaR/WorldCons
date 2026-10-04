@@ -1,0 +1,15 @@
+{
+  "id": "made-in-asia",
+  "name": "Made in Asia",
+  "short": "MIA",
+  "url": "https://www.madeinasia.be/en/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["anime", "pop", "cosplay"],
+  "blurb": "Belgian festival for manga, anime, Asian pop culture, YouTubers and cosplay, run by Easyfairs in Brussels.",
+  "cover": { "file": "pipeline/cache/extract/made-in-asia.home.json", "key": "logo:4" },
+  "editions": [],
+  "last": { "start": "2026-02-27", "end": "2026-03-01", "city": "Brussels", "region": "", "country": "BE", "venue": "Brussels Expo" },
+  "checked": "2026-10-05",
+  "notes": "The given place (Mons, BE / Lotto Mons Expo) is wrong: Made in Asia runs at Brussels Expo, not Mons — no mention of Mons appears anywhere on the live site. Made in Asia is a twice-a-year Easyfairs brand, but the two editions are no longer alike: (1) Made in Asia Spring ran independently Feb 27–Mar 1, 2026 at Brussels Expo — already over as of this 2026-10-05 check, and the site's own /en/edition/made-in-asia-spring-2027/ link currently just redirects to the homepage, so no Spring 2027 dates are announced yet; (2) Made in Asia Fall is no longer an independent event — Easyfairs merged it with Heroes Comic Con and GameForce into one combined show, 'Heroes World', for Oct 17–18, 2026 at Brussels Expo (one ticket, shared site); that merged edition and its guests are recorded under this batch's separate 'heroes-world' entry instead of here, to avoid duplicating the same edition under two ids. Leaving editions empty here rather than duplicating Heroes World's dates/guests under the Made in Asia brand too."
+}

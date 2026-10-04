@@ -1,0 +1,27 @@
+{
+  "id": "matsucon",
+  "name": "Matsucon",
+  "short": "",
+  "url": "https://matsucon.fi/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "anime"
+  ],
+  "blurb": "An anime and manga convention in Oulu, Finland, with cosplay, music and art guest-of-honour programming, run by a volunteer organizing committee.",
+  "cover": {
+    "file": "pipeline/cache/extract/matsucon.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "last": {
+    "start": "2026-08-08",
+    "end": "2026-08-09",
+    "city": "Oulu",
+    "region": "",
+    "country": "FI",
+    "venue": "Pohjankartanon koulu"
+  },
+  "checked": "2026-10-05",
+  "notes": "The most recent confirmed dates found were for the edition that has already happened (8.-9.8.2026, Pohjankartanon koulu, Oulu, per matsucon.fi/tapahtuma/). The homepage (checked 2026-10-05) says the committee thanks everyone for that event and is now recruiting the 2027 organizing committee ('Uuden conitean haku on nyt alkanut! ... MATSUCONIN CONITEAHAKU 2027'); no 2027 dates have been announced yet, so editions is empty."
+}

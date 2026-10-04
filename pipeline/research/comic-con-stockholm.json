@@ -1,0 +1,75 @@
+{
+  "id": "comic-con-stockholm",
+  "name": "Comic Con Stockholm",
+  "short": "",
+  "url": "https://www.comicconstockholm.se/en/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "Sweden's largest pop-culture meeting place, held in Stockholm as separate Winter and Summer editions each year.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-stockholm.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Stockholmsmässan",
+      "city": "Stockholm",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://www.comicconstockholm.se/en/tickets/",
+      "guestsPage": "https://www.comicconstockholm.se/en/winter/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-stockholm.guests.json",
+          "picks": [
+            [2, "Chace Crawford", "", "actor"],
+            [3, "Ben Barnes", "", "actor"],
+            [4, "Troy Baker", "", "voice"],
+            [5, "Cristina Vee", "", "voice"],
+            [6, "Michael Kovach", "", "voice"],
+            [7, "Alex Rochon", "", "voice"],
+            [8, "Martin Coccolo", "", "comics"],
+            [9, "Lucas Werneck", "", "comics"],
+            [10, "Jan Bazaldua", "", "comics"],
+            [11, "Federico Vicentini", "", "comics"],
+            [12, "Elena Casagrande", "", "comics"],
+            [13, "Chris Allen", "", "comics"],
+            [14, "C. F. Villa", "", "comics"],
+            [15, "Kevin J. Anderson", "", "author"],
+            [16, "Annalise Bissa", "Editor", "comics"],
+            [17, "p4perback", "", "creator"],
+            [18, "Sabi Mango", "", "creator"],
+            [19, "Linzor", "", "creator"],
+            [20, "Perik", "YouTuber", "creator"],
+            [21, "whataboutandy", "", "creator"],
+            [22, "taylorxhx", "", "creator"],
+            [23, "Desca_Gaming", "", "creator"],
+            [24, "anaelic", "Cosplay guest", "cosplay"],
+            [25, "toxiekat", "Cosplay guest", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'STOCKHOLMSMÄSSAN 30 OCT - 1 NOV 2026 WINTER EDITION'; address block: 'Stockholmsmässan Mässvägen 1, 125 80 Älvsjö' (Älvsjö is part of Stockholm)."
+    },
+    {
+      "start": "2027-05-08",
+      "end": "2027-05-09",
+      "dates": "confirmed",
+      "venue": "Kistamässan",
+      "city": "Stockholm",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://www.comicconstockholm.se/en/tickets/",
+      "guestsPage": "https://www.comicconstockholm.se/en/summer/line-up/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'KISTAMÄSSAN 8-9 MAY 2027 SUMMER EDITION'; address block: 'Kistamässan Arne Beurlings Torg 5, 164 40 Kista' (Kista is part of Stockholm)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Treated as one brand with two Stockholm-area shows per year (Winter at Stockholmsmässan/Älvsjö, Summer at Kistamässan/Kista), per RESEARCH.md's two-shows-a-year rule. Winter guest cards give only a role label ('Actor', 'Voice Actor', 'comic artist', 'creator', etc.) with no specific show/credit, so Known for is left blank except where the card named a specific role beyond the category (Annalise Bissa 'editor', Perik 'Youtuber', the two cosplay guests). Skipped a 'Coming soon' placeholder tile in the Cosplay Guests section. The Summer line-up page shows only a 'more info soon' (alt text: mer info snart) placeholder image, no names yet, so that edition's guests is none-yet."
+}

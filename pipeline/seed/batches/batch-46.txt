@@ -1,0 +1,12 @@
+1. id=nickel-city-con | Nickel City Con | https://www.nickelcitycon.com | Buffalo, NY, US | types: comics, pop | note: Western New York's largest comic/pop-culture show
+2. id=albacon | Albacon | https://albacon.org | Clifton Park, NY, US | types: scifi | organizer: LASTSFA | note: serves the Albany Capital District; largest con in upstate NY
+3. id=eufuria | Eufuria | https://eufuria.org | Albany, NY, US | types: furry | note: 18+ only; currently the only furry convention in New York State
+4. id=i-con | I-CON | https://www.iconsf.org | Brentwood, NY, US | types: scifi, games | note: shifted from one large annual flagship event to several smaller events across Long Island since 2023
+5. id=mid-hudson-comic-con | Mid-Hudson Comic Con | https://mhcomiccon.com | Poughkeepsie, NY, US | types: comics, pop | note: formerly Hudson Valley Comic Con
+6. id=mocca-festival | MoCCA Festival | https://www.moccafest.org | New York, NY, US | types: comics | organizer: Society of Illustrators | note: independent/small-press comics focus
+7. id=tora-con | Tora-Con | https://www.toracon.org | Rochester, NY, US | types: anime | organizer: RIT Anime Club | note: held at Rochester Institute of Technology
+8. id=colossalcon | Colossalcon | https://www.colossalcon.com/ | Sandusky, OH, US | types: anime, cosplay | note: Flagship/original event (Kalahari Resort); brand has since expanded with separate East/North/Texas/Virginia editions in other states
+9. id=matsuricon | Matsuricon | https://www.matsuricon.org/ | Columbus, OH, US | types: anime | note: Billed as Ohio's largest non-profit convention; 17,000+ attendees
+10. id=ohayocon | Ohayocon | https://ohayocon.online/ | Columbus, OH, US | types: anime | note: Domain moved from ohayocon.org to ohayocon.online
+11. id=origins-game-fair | Origins Game Fair | https://www.originsgamefair.com/ | Columbus, OH, US | types: tabletop | organizer: GAMA (Game Manufacturers Association) | note: One of North America's largest tabletop-gaming conventions
+12. id=cincinnati-comic-expo | Cincinnati Comic Expo | http://www.cincyexpos.com/ | Cincinnati, OH, US | types: comics, pop | note: Runs sibling Anime Ohio event; features celebrity and comic-creator guests

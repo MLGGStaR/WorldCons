@@ -1,0 +1,30 @@
+{
+  "id": "anime-north",
+  "name": "Anime North",
+  "short": "AN",
+  "url": "https://www.animenorth.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Canada's largest anime convention, a volunteer-run non-profit gathering in Toronto for anime, manga and Japanese pop culture.",
+  "cover": { "file": "pipeline/cache/extract/anime-north-wiki.home.json", "key": "hero:5" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Toronto Congress Centre / Delta Hotels Toronto Airport & Conference Centre",
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA",
+      "tickets": "https://www.animenorth.com/",
+      "guestsPage": "https://www.animenorth.com/event/index.php/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wikipedia infobox: 'Next event May 28, 2027'; corroborated by web search: 'Anime North 2027 takes place from May 28-30, 2027 at the Toronto Congress Centre and The Delta Toronto Airport Hotel.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "animenorth.com returns a Cloudflare bot-check (HTTP 403) on every fetch method tried (headless Chromium, Edge channel, and WebFetch), so dates/venue come from Wikipedia's infobox plus a web search instead of the con's own pages. A second search turned up no 2027 guest announcements (only the already-past May 2026 lineup), so guests is 'none-yet'. Organizer name not confirmed from any reachable source."
+}

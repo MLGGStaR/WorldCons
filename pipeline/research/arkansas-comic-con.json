@@ -1,0 +1,14 @@
+{
+  "id": "arkansas-comic-con",
+  "name": "Arkansas Comic Con",
+  "short": "",
+  "url": "https://www.arkansascomiccon.com/",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "A comics and pop-culture convention at the Statehouse Convention Center in Little Rock, with celebrity guests and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/arkansas-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Confirms the seed's 'Sep 18-20, 2026' (page title 'Arkansas Comic Con | September 18-20, 2026 | Statehouse Convention Center'; FAQ text 'Arkansas Comic Con will take place September 18th - 20th 2026'), but that show ended 2026-09-20, before this 2026-10-05 check window. No later date is posted anywhere on the site yet (no '2027' placeholder the way sibling VXV site Iron City Comic Con has), so editions is left empty. Same VXV/Wix template as Iron City and South Alabama Comic Con: the 'NWA Comic Con' carousel slide and 'Photo Ops Example.png' are shared cross-site stock assets, not this con's own art."
+}

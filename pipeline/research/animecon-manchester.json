@@ -1,0 +1,37 @@
+{
+  "id": "animecon-manchester",
+  "name": "AnimeCon Manchester",
+  "short": "",
+  "url": "https://animeconmanchester.com/",
+  "organizer": "Oakham Group",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Manchester leg of the multi-city AnimeCon UK series, held at Manchester Central.",
+  "cover": { "file": "pipeline/cache/extract/animecon-manchester.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-27",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Manchester Central",
+      "city": "Manchester",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://animeconmanchester.com/tickets/",
+      "guestsPage": "https://animeconmanchester.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/animecon-manchester.guests.json",
+          "picks": [
+            [1, "Emi Lo", "", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'animecon is coming to manchester !! 27-28 February 2027 Manchester Central' and 'Dates & Times 27th Feb 10:00am – 6:00pm 28th Feb 10:00am – 5:00pm'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given note's dates (28 Feb-1 Mar 2026) were for the previous edition, which already concluded before the 2026-10-05 research window; the site now confirms the next edition as 27-28 Feb 2027 at Manchester Central. Only one guest is announced so far, Emi Lo (voice actor); her card gives only the role label 'Voice Actor' with no specific show credit, so Known for is left blank, matching how the same ambiguous card text was handled for her at other AnimeCon UK shows."
+}

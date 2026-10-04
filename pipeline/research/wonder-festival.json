@@ -1,0 +1,30 @@
+{
+  "id": "wonder-festival",
+  "name": "Wonder Festival",
+  "short": "WF",
+  "url": "https://wonfes.jp/",
+  "organizer": "Kaiyodo",
+  "status": "active",
+  "types": ["toys"],
+  "blurb": "Japan's largest garage-kit and figure event, where sculptors and manufacturers exhibit and sell resin kits at Makuhari Messe each winter and summer.",
+  "cover": { "file": "pipeline/cache/extract/wonder-festival.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official announcement (wonfes.jp/specialsite/news/news-20377/, via hobby.dengeki.com): 'ワンダーフェスティバル2027[冒]は2日間開催！2027年2月13日（土）。14日（日）に幕張メッセで開催決定' (WF2027[Winter] confirmed for Feb 13-14, 2027 at Makuhari Messe, a two-day format for the first time in 36 years)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "WF runs winter (Feb) and summer (Jul) editions; the summer 2026 edition already concluded before this research window. WF2027[Winter] is exceptionally a two-day show (first time in 36 years) per the official announcement. This is a garage-kit/figure sculpting and sales event (circles and manufacturers show and sell kits) rather than a guest-booking convention, so guests is 'none'. Cover uses the current wide promotional banner on the homepage (no edition-specific key art found yet)."
+}

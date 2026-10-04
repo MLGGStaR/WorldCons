@@ -1,0 +1,39 @@
+{
+  "id": "vcon",
+  "name": "VCON",
+  "short": "",
+  "url": "https://vcon.ca/",
+  "organizer": "West Coast Science Fiction Association",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "Canada's oldest fan-run speculative-fiction convention, rebuilt as a one-day event in Burnaby after a hiatus.",
+  "cover": { "file": "pipeline/cache/extract/vcon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "dates": "confirmed",
+      "venue": "BCIT Burnaby Campus (buildings SE02 & SE06)",
+      "city": "Burnaby",
+      "region": "BC",
+      "country": "CA",
+      "tickets": "https://www.zeffy.com/ticketing/online-shop-of-the-west-coast-science-fiction-association",
+      "guestsPage": "https://vcon.ca/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/vcon.guests.json",
+          "picks": [
+            [1, "Holly Schofield", "Science fiction author", "author"],
+            [2, "Eric Chu", "Battlestar Galactica concept artist", "other"],
+            [3, "William Gibson", "Neuromancer, father of cyberspace", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'VCON 44 November 14, 2026, 10:00 am to 7:30 pm Burnaby BCIT Campus, buildings SE02 & SE06'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "VCON is rebuilding as a one-day convention after a hiatus (WCSFA-run, est. 1971); VCON 44 is confirmed as a single-day event, 10:00am-7:30pm."
+}

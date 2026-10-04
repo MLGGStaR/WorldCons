@@ -1,0 +1,15 @@
+{
+  "id": "hirocon",
+  "name": "HiroCon",
+  "short": "",
+  "url": "https://www.hirocon.de/",
+  "organizer": "Next Heroes Events",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A regional anime and cosplay convention in Saarbrücken with a cosplay contest, gaming, trading-card play and an artist area.",
+  "cover": { "file": "pipeline/cache/extract/hirocon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-10-03", "end": "2026-10-04", "venue": "E-Werk Saarbrücken", "city": "Saarbrücken", "region": "", "country": "DE" },
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition ran 3-4 October 2026, ending the day before this check (2026-10-05), and the site's own countdown/JSON-LD still target those just-passed dates with no 2027 date announced yet (confirmed by direct page fetch), so no edition is listed. Seed types said 'pop' but the site is explicitly an anime/cosplay/gaming convention ('Anime-Convention und Cosplay-Convention im Saarland... Cosplay-Contest, Gaming, TCG, Artists'), corrected to anime/cosplay/games. No guest-of-honor page was found in the site navigation, so guests is 'none'."
+}

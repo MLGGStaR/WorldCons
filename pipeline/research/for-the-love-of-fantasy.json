@@ -1,0 +1,15 @@
+{
+  "id": "for-the-love-of-fantasy",
+  "name": "For the Love of Fantasy – Prague",
+  "short": "",
+  "url": "https://www.ftlofantasy.cz/",
+  "organizer": "Monopoly Events",
+  "status": "active",
+  "types": ["pop", "scifi"],
+  "blurb": "A Prague fantasy/sci-fi autograph convention from UK promoter Monopoly Events, built around actor panels, photo ops and signings.",
+  "cover": { "file": "pipeline/cache/extract/for-the-love-of-fantasy.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-05-23", "end": "2026-05-24", "city": "Prague", "region": "", "country": "CZ", "venue": "PVA EXPO Praha Letňany" },
+  "checked": "2026-10-05",
+  "notes": "The Facebook page given in the seed (facebook.com/profile.php?id=61578997719945) is not actually this event's page — WebFetch of it returns an unrelated 'Comic Con Czech Republic' title — so it was replaced with the real official site, found via WebSearch: ftlofantasy.cz (the Czech-specific site; the wider Monopoly Events brand also runs fortheloveoffantasy.com for its UK/London shows). The only edition on record is the first one, 2026-05-23 to 2026-05-24 at PVA EXPO Praha Letnňany (guests included John Cleese, Sean Astin, James Marsters, Jack Gleeson, Harry Shum Jr., Matthew Daddario, Paul Anderson and Zach Galligan, per the official site and Prague Reporter coverage), which already concluded before this window. No second Prague date is announced yet on ftlofantasy.cz, so editions is left empty rather than guessed; the Monopoly Events family's next confirmed UK show (a separate convention, not this one) is London, 2026-08-22 to 2026-08-23."
+}

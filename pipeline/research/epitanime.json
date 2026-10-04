@@ -1,0 +1,15 @@
+{
+  "id": "epitanime",
+  "name": "Epitanime",
+  "short": "",
+  "url": "https://www.epitanime.com",
+  "organizer": "EPITA student association",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Student-run anime convention (the Matsuri) hosted by EPITA/Epitech students near Paris.",
+  "cover": { "file": "pipeline/cache/extract/epitanime.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-06-13", "end": "2026-06-13", "city": "Le Kremlin-Bicêtre", "region": "", "country": "FR", "venue": "Campus Epita/Epitech" },
+  "checked": "2026-10-05",
+  "notes": "The most recent Matsuri ran 13 June 2026 at Campus Epita/Epitech, Le Kremlin-Bicêtre; already past as of 2026-10-05. The site's news feed only has recap posts dated through 20 June 2026 with no mention of a 2027 date yet, so editions is empty."
+}

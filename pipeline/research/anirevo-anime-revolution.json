@@ -1,0 +1,15 @@
+{
+  "id": "anirevo-anime-revolution",
+  "name": "Anirevo",
+  "short": "",
+  "url": "https://vancouver.animerevolution.ca/",
+  "organizer": "Anime Revolution",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Vancouver's largest and fastest-growing anime convention, with cosplay contests, concerts and Japanese voice-actor guests at the Vancouver Convention Centre.",
+  "cover": { "file": "pipeline/cache/extract/anirevo-anime-revolution.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-31", "end": "2026-08-02", "city": "Vancouver", "region": "BC", "country": "CA" },
+  "checked": "2026-10-05",
+  "notes": "Anirevo Vancouver 2026 ran July 31-Aug 2, 2026, already before the research window. No 2027 Vancouver dates are announced on the official homepage (confirmed via extract.mjs home pass and one web search on 2026-10-05); the site still shows the 2026 key art. A separate 'Anirevo Toronto' event has since launched (per a homepage banner) but is a different city/entry, not this file."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "aniventure-comic-con",
+  "name": "Aniventure Comic Con",
+  "short": "",
+  "url": "https://comiccon.bg/en/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "Bulgaria's major comic convention in Sofia, mixing film and TV guests with anime, manga, cosplay and gaming at the Inter Expo Center.",
+  "cover": { "file": "pipeline/cache/extract/aniventure-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-10",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Inter Expo Center",
+      "city": "Sofia",
+      "region": "",
+      "country": "BG",
+      "tickets": "https://comiccon.bg/en/tickets/",
+      "guestsPage": "https://comiccon.bg/en/special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official og:image on comiccon.bg (uploaded to the site's 2026/07 media folder, i.e. just after the 2026 show) reads '10-11 ЮЛИ 2027 INTER EXPO CENTER'; independent listings (cypruscomiccon.org, onhuddle.co, go-sofia.com) all cite 'Aniventure Comic Con 2027 ... 10-11 July 2027' at Inter Expo Center, Sofia."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live homepage body text, nav countdown and guests page (https://comiccon.bg/en/special-guests/) still describe the 2026-07-11/12 edition in detail (specific panel times, a wrestling show, guests Christopher Judge, John Rhys-Davies, Oona Chaplin, etc.) even though that edition has already happened before today (2026-10-05); that lineup belongs to the past show, not the next one, so it is not recorded here. Only the site's own dated og:image and third-party event listings confirm the next edition (2027-07-10/11); the guest/guests page has not been updated for it yet, hence guests=none-yet. A sibling domain aniventure.net mirrors the same (also-stale) 2026 content; comiccon.bg is used as the canonical url since it matches the given seed and carries the dated 2027 key art."
+}

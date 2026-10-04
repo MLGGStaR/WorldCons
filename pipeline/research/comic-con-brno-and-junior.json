@@ -1,0 +1,56 @@
+{
+  "id": "comic-con-brno-and-junior",
+  "name": "Comic-Con Brno & Junior",
+  "short": "CCBJ",
+  "url": "https://junior.comiccon.cz/?lang=en",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A Moravian sibling show to Comic-Con Prague at Brno's exhibition centre, pairing adult pop-culture programming with a dedicated kids'/family track.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-brno-and-junior.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Kongresový pavilon E, Výstaviště Brno",
+      "city": "Brno",
+      "region": "",
+      "country": "CZ",
+      "tickets": "https://www.ticketportal.cz/event/Comic-Con-Brno-Junior",
+      "guestsPage": "https://junior.comiccon.cz/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-brno-and-junior.guests.json",
+          "picks": [
+            [1, "Amanda Tapping", "Stargate SG-1, Stargate Atlantis", "actor"],
+            [2, "Brian Thompson", "The X-Files, Mortal Kombat Annihilation", "actor"],
+            [3, "Katie Stuart", "Stargate SG-1, X2: X-Men United", "actor"],
+            [4, "Miranda Otto", "The Lord of the Rings", "actor"],
+            [5, "John Morris", "Voice of Andy in Toy Story", "voice"],
+            [6, "John Cleese", "Monty Python, Harry Potter", "actor"],
+            [7, "Sean Kanan", "The Karate Kid Part III, Cobra Kai", "actor"],
+            [8, "Gates McFadden", "Star Trek: The Next Generation", "actor"],
+            [9, "Robert Picardo", "Star Trek: Voyager, Stargate Atlantis", "actor"],
+            [10, "David Wenham", "The Lord of the Rings, 300", "actor"],
+            [11, "Reiner Schöne", "Mortal Kombat: Annihilation, Babylon 5", "actor"],
+            [12, "Robert Emms", "Andor, Chernobyl", "actor"],
+            [13, "Anton Lesser", "Andor, Game of Thrones", "actor"],
+            [14, "Jack Wolfe", "Shadow and Bone, The Witcher", "actor"],
+            [15, "Kit Young", "Shadow and Bone, Alien: Earth", "actor"],
+            [16, "Freddy Carter", "Shadow and Bone, Five Nights at Freddy's 2", "actor"],
+            [17, "Filipe Andrade", "The Many Deaths of Laila Starr", "comics"],
+            [18, "Klára Smolíková", "Kurýr z planety Země", "comics"],
+            [19, "Martin Sugar", "Limbus, Argo", "comics"],
+            [20, "Dan Černý", "Kačeři Dana Černého", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 'Comic-Con Brno & Junior 2026' 2026-11-13T10:00:00+01:00 -> 2026-11-15T18:00:00+01:00 @ Kongresový pavilon E, Výstaviště Brno."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards rendered in Czech despite the ?lang=en parameter; names and credits were translated/condensed from the Czech card text (e.g. 'Lovci duchů' -> Ghostbusters, 'Hvězdná brána' -> Stargate). John Morris and Reiner Schöne are both labelled with a dabbing/voice credit ('dabér' / 'herec a dabér') on their cards; Morris is filed as 'voice' since Toy Story's Andy is his primary credit, while Schöne is filed as 'actor' since his listed credits (Mortal Kombat: Annihilation, Babylon 5) are on-screen roles."
+}

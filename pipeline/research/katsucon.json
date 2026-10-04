@@ -1,0 +1,30 @@
+{
+  "id": "katsucon",
+  "name": "Katsucon",
+  "short": "",
+  "url": "https://www.katsucon.org",
+  "organizer": "Katsucon Entertainment, Inc.",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A multicultural fan convention in the DC area focused on Japanese animation and pop culture, held over Presidents Day weekend at the Gaylord National.",
+  "cover": { "file": "pipeline/cache/extract/katsucon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "Gaylord National Hotel and Convention Center",
+      "city": "National Harbor",
+      "region": "MD",
+      "country": "US",
+      "tickets": "https://www.katsucon.org/",
+      "guestsPage": "https://www.katsucon.org/guests-page/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"KATSUCON 2027 February 12th – 14th, 2027\" at \"Gaylord National Hotel and Convention Center, 201 Waterfront Street, National Harbor, MD 20745\"; \"Guests 2027 guests are TBA.\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": ""
+}

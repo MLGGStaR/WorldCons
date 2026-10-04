@@ -1,0 +1,20 @@
+{
+  "id": "baltimore-comic-con",
+  "name": "Baltimore Comic-Con",
+  "short": "BCC",
+  "url": "https://baltimorecomiccon.com/",
+  "organizer": "Cards, Comics & Collectibles",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop"
+  ],
+  "blurb": "America's Greatest Comic Book Convention: comic creators, artists and media guests in artist-alley-first weekend in Baltimore.",
+  "cover": {
+    "file": "pipeline/cache/extract/baltimore-comic-con.home.json",
+    "key": "og"
+  },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition (Sept 25-27, 2026, Baltimore Convention Center) concluded before today (2026-10-05), so it falls outside the tracking window; checked the official homepage and it names no 2027 dates yet. No editions to list until 2027 dates are announced."
+}

@@ -1,0 +1,12 @@
+1. id=joefest | JoeFest | https://www.joefestusa.com | Augusta, GA, US | types: toys, comics
+2. id=jordancon | JordanCon | https://www.jordancon.org | Atlanta, GA, US | types: scifi, tabletop | note: Robert Jordan / Wheel of Time-themed literary SF con, est. 2009
+3. id=lug-con | LUG Con | https://www.lugcon.com | Duluth, GA, US | types: tabletop | note: Atlanta's premier tabletop gaming convention
+4. id=monsterama-con | Monsterama Con | https://monsteramacon.com | Atlanta, GA, US | types: horror, scifi, toys | note: Atlanta's retro horror/sci-fi convention
+5. id=kawaii-kon | Kawaii Kon | https://www.kawaiikon.com/ | Honolulu, HI, US | types: anime, pop | organizer: Dyad LLC | note: First anime convention held in Hawaii (2005); roughly 20,000 attendees in recent years
+6. id=comic-con-honolulu | Comic Con Honolulu | https://comicconhnl.com/ | Honolulu, HI, US | types: comics, pop | note: Status uncertain: site states it is 'postponed to 2026, dates TBA' as of October 2026, at the Hawaii Convention Center
+7. id=hawaii-pop-con | Hawaii Pop Con | https://hawaiipopcon.com/ | Honolulu, HI, US | types: comics, toys, cosplay | note: Comics, trading cards, cosplay and celebrity-guest convention; 2027 edition planned, exact dates not yet posted
+8. id=kauai-comic-con | Kauai Comic Con | https://www.kauaicomicconvention.com/ | Lihue, HI, US | types: comics, cosplay, pop | note: 2026 edition July 18 at the Kaua'i War Memorial Convention Hall
+9. id=anime-nebraskon | Anime NebrasKon | https://animenebraskon.com/ | Council Bluffs, IA, US | types: anime | organizer: Nebraska Japanese Animation Society | note: Physically located in Iowa; serves the Omaha, NE metro area
+10. id=animeiowa | AnimeIowa | https://www.animeiowa.com/ | Des Moines, IA, US | types: anime | note: Iowa's first anime convention, est. 1997
+11. id=capital-city-gaming-con | Capital City Gaming Con | https://www.capitalcitygamingcon.com/ | Des Moines, IA, US | types: tabletop
+12. id=demicon | DemiCon | https://www.demicon.org/ | Des Moines, IA, US | types: scifi, tabletop | note: Fan-run SF/fantasy/gaming convention

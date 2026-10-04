@@ -1,0 +1,37 @@
+{
+  "id": "comic-con-india-jalandhar",
+  "name": "Comic Con India (Jalandhar)",
+  "short": "",
+  "url": "https://www.comicconindia.com/all-cities-pages-2026/jalandhar-comic-con-2026",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Jalandhar leg of Comic Con India's national tour, run with ReedPop, held at Lovely Professional University.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Lovely Professional University",
+      "city": "Jalandhar",
+      "region": "",
+      "country": "IN",
+      "tickets": "",
+      "guestsPage": "https://www.comicconindia.com/all-cities-pages-2026/jalandhar-comic-con-2026#guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page title 'Jalandhar Comic Con 2026' and text: '21st - 22nd November Lovely Professional University, Jalandhar'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "New tier-2 stop on the 2026 tour; the page only shows the date card and a 'More Updates Coming Soon' footer, no guests announced yet."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pensacola-comic-convention",
+  "name": "Pensacola Para Con",
+  "short": "",
+  "url": "https://www.pensacolaparacon.com/",
+  "organizer": "Ericka Boussarhane",
+  "status": "inactive",
+  "types": ["scifi", "horror", "anime", "cosplay"],
+  "blurb": "A Pensacola convention for sci-fi, anime, horror and paranormal fans, founded in 2010 as the first female African-American-owned comic con in the US.",
+  "cover": { "file": "pipeline/cache/extract/pensacola-comic-convention.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Also known as 'Pensacola Comic Convention' (the id and name Wikipedia uses) — founded Fall 2010 by psychic medium Ericka Boussarhane, billed as the first female African-American-owned comic convention in the US. The given URL (pensacolacomiccon.com) redirects to the convention's current site, now branded 'Pensacola Para Con' (Sci-Fi, Anime, Paranormal, Horror, Metaphysical and Pop Culture). The homepage's newest content is still the September 23-24, 2023 edition (guests were paranormal-TV ghost hunters Chris Smith and Mike Goncalves of 'Ghost Asylum'/'Haunted Towns'); no 2024, 2025 or 2026 edition is announced anywhere on the site, and a WebSearch for recent Para Con dates returned only results for the unrelated, much larger Pensacon. Marked inactive/on hiatus since the last known 2023 run; no editions listed since nothing has been announced since."
+}

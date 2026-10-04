@@ -1,0 +1,30 @@
+{
+  "id": "anthrocon",
+  "name": "Anthrocon",
+  "short": "",
+  "url": "https://www.anthrocon.org",
+  "organizer": "Anthrocon, Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "One of the world's largest furry conventions, held every summer at the David L. Lawrence Convention Center in Pittsburgh.",
+  "cover": { "file": "pipeline/cache/extract/anthrocon.home.json", "key": "logo:2" },
+  "editions": [
+    {
+      "start": "2027-07-01",
+      "end": "2027-07-04",
+      "dates": "confirmed",
+      "venue": "David L. Lawrence Convention Center",
+      "city": "Pittsburgh",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://www.anthrocon.org/registration/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title and text: 'Anthrocon 2027 - LEVEL 30: BEGIN July 1-4, 2027. We're excited to have you join for our 30th edition of Anthrocon, with details coming Fall 2026!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage explicitly says full 2027 details (which would include any Guest of Honor program) are 'coming Fall 2026'; the site's only guest-of-honor news posts in its sitemap ('introducing-our-first-guest-of-honor', '...ursula-vernon') sit among 2017-2018 news items, so they are an old year's announcements, not 2027's -- guests is 'none-yet'. Venue confirmed via the hotel page's own text ('a few blocks from the David L. Lawrence Convention Center'); no venue name appears on the homepage itself. Batch note's '20,618 attendees in 2026 / second-largest furry convention' figure was not independently re-confirmed on the official site this pass (its attendance-graph page is JS-rendered and wasn't fetched), so that specific number is left out of the blurb per the no-unverified-attendance-numbers rule."
+}

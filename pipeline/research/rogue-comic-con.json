@@ -1,0 +1,30 @@
+{
+  "id": "rogue-comic-con",
+  "name": "Rogue Comic Con",
+  "short": "",
+  "url": "https://roguecomiccon.com/",
+  "organizer": "Southern Oregon Comic Con",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "A free, family-friendly community comic con at Pear Blossom Park in Medford, Oregon, successor to Medford Comic Con, with vendors, cosplay and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/rogue-comic-con-main.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Pear Blossom Park",
+      "city": "Medford",
+      "region": "OR",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://roguecomiccon.com/2026-featured-guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'we will be hosting the fourth annual Rogue Comic Con on May 22nd & 23rd, 2027'; the dedicated event page's JSON-LD Event confirms 'Rogue Comic Con 2027' starting 2027-05-22T10:00-07:00, titled 'Rogue Comic Con - May 22 & 23, 2027 - Free Admission - Pear Blossom Park Medford' site-wide."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Free admission, no tickets link. The only guest-roster page found (from the sitemap; the nav-menu URL with a trailing hyphen 404s) is titled '2026 Featured Guests' and bios reference past events (e.g. Janeshia Adams-Ginyard's bio talks about 2018/2021 film work, no 2027 framing) -- this is last year's lineup, not yet replaced for 2027, so guests is 'none-yet' per the rules rather than picking stale names. The site also runs a same-organizer but differently-named satellite event, 'Rogue Valley Comic Book Expo', Aug 8 2026 at Phoenix Plaza Civic Center (a different city/venue) -- left out of this file as a distinct event, not an edition of Rogue Comic Con itself. The site's events-calendar page mixes dated entries from 2025, 2026 and 2027 inconsistently (recurring-event artifacts), so it was not used as a source of truth for either dates or guests."
+}

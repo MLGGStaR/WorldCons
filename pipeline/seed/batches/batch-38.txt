@@ -1,0 +1,12 @@
+1. id=comicon-bergamo | Comicon Bergamo | https://www.comicon.it | Bergamo, IT | types: comics, pop, games | note: Second edition of the Comicon brand, launched 2023
+2. id=comic-world-seoul | Comic World (Seoul) | http://comicw.co.kr | Seoul, KR | types: comics | organizer: S.E.Techno | note: Korea's longest-running doujinshi event (since 1999), held roughly monthly at KINTEX
+3. id=comic-world-busan | Comic World (Busan) | http://comicw.co.kr | Busan, KR | types: comics | organizer: S.E.Techno | note: Busan edition of Comic World, held roughly every two months
+4. id=star-trek-las-vegas | Star Trek Las Vegas | https://www.creationent.com | Las Vegas, NV, US | types: scifi, pop | organizer: Creation Entertainment | note: No 2026 edition found; next edition announced for August 2027 at the Rio
+5. id=creation-boston | Creation Boston | https://www.creationent.com | Boston, MA, US | types: pop, scifi | organizer: Creation Entertainment | note: Star Trek-focused celebrity convention; next edition July 2027
+6. id=creation-entertainment-salt-lake-city | Creation Entertainment Salt Lake City | https://www.creationent.com | Salt Lake City, UT, US | types: pop, scifi | organizer: Creation Entertainment | note: Touring multi-genre celebrity-autograph convention; exact theme/name varies by year
+7. id=creation-washington-dc-area | Creation Washington DC Area | https://www.creationent.com | Arlington, VA, US | types: pop, scifi | organizer: Creation Entertainment | note: despite the name, held in Arlington, VA; 2027 date
+8. id=st-phl-trek-to-philadelphia | ST-PHL: Trek to Philadelphia | https://www.creationent.com | Philadelphia, PA, US | types: pop, scifi | organizer: Creation Entertainment | note: Star Trek 60th-anniversary celebration, Nov 2026
+9. id=creation-entertainment-austin | Creation Entertainment Austin | https://www.creationent.com | Austin, TX, US | types: pop, scifi | organizer: Creation Entertainment | note: Touring multi-genre celebrity-autograph convention; exact theme/name varies by year
+10. id=creation-pittsburgh | Creation Pittsburgh | https://www.creationent.com | Pittsburgh, PA, US | types: pop, scifi | organizer: Creation Entertainment | note: 2027 date
+11. id=vampire-fan-weekend-convention | Vampire Fan Weekend Convention | https://www.creationent.com | Whippany, NJ, US | types: pop | organizer: Creation Entertainment | note: 2027 date
+12. id=darknesscon-boise | DarknessCon: Boise | https://www.darknesscon.com | Boise, ID, US | types: horror | note: Horror/alt-culture touring brand; Boise-area (Garden City) edition

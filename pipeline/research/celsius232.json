@@ -1,0 +1,36 @@
+{
+  "id": "celsius232",
+  "name": "Celsius 232",
+  "short": "",
+  "url": "https://celsius232.es/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "scifi",
+    "horror"
+  ],
+  "blurb": "A horror, fantasy and science-fiction literary festival in Avilés, Spain, with author talks and signings and the Kelvin genre-fiction awards.",
+  "cover": {
+    "file": "pipeline/cache/extract/celsius232.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-07-13",
+      "end": "2027-07-17",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Avilés",
+      "region": "",
+      "country": "ES",
+      "tickets": "",
+      "guestsPage": "https://celsius232.es/autores-celsius/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Del 13 al 17 de Julio de 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The real domain is celsius232.es (the .com guess did not resolve). The Autores (guests) page explicitly reads '¡Autores 2027! Próximamente' ('2027 authors, coming soon'), so 2027 guests are not yet announced. The homepage does show several named authors (Chuck Palahniuk, Ryan Cahill, T. Kingfisher, Nadia Bulkin) but only as promo images for a monthly 'breakfast with...' interview series spread across 2025-2026, not a dated festival lineup, so they were not picked as guests. Venue within Avilés and the organizer entity were not confirmed from an official page this session and are left blank."
+}

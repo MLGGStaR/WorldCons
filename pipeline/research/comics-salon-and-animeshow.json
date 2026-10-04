@@ -1,0 +1,22 @@
+{
+  "id": "comics-salon-and-animeshow",
+  "name": "Comics Salón & AnimeSHOW",
+  "short": "",
+  "url": "https://www.comics-salon.sk/",
+  "organizer": "OZ AnimeCrew plus",
+  "status": "active",
+  "types": ["comics", "anime", "scifi", "cosplay"],
+  "blurb": "Slovakia's largest pop-culture festival in Bratislava: the Comics Salón comic con each September and the AnimeSHOW anime con each March, both at DK Ružinov.",
+  "cover": { "file": "pipeline/cache/extract/comics-salon-and-animeshow.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-18",
+    "end": "2026-09-20",
+    "city": "Bratislava",
+    "region": "",
+    "country": "SK",
+    "venue": "DK Ružinov"
+  },
+  "checked": "2026-10-05",
+  "notes": "One brand, two shows a year at the same venue (DK Ružinov, Bratislava): AnimeSHOW each spring (most recent: 27-29 Mar 2026, per the aftermovie caption) and Comics Salón each September (most recent/39th edition: 18-20 Sep 2026, per the ticket section '18.–20. septembra 2026 DK Ružinov'). Both of those already ended before the research window (must end on/after 2026-10-05), and the homepage announces no 2027 dates yet for either show (it still shows a 'Plagát ročníka 2026' / 2026 poster placeholder as 'TO BE PROVIDED'), so editions is empty; 'last' uses the more recent of the two shows, Comics Salón 2026. Organizer confirmed via web search: OZ AnimeCrew plus (a Slovak civic association, Bratislava) runs the festival. No guests pulled since no in-window edition exists."
+}

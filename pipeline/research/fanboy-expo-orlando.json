@@ -1,0 +1,41 @@
+{
+  "id": "fanboy-expo-orlando",
+  "name": "Fanboy Expo Orlando",
+  "short": "",
+  "url": "https://fanboyexpo.com/orlando/",
+  "organizer": "Fanboy Expo",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Fanboy Expo's Florida show at the Hilton Orlando, with celebrity guests, comic creators, cosplay and artist signings.",
+  "cover": { "file": "pipeline/cache/extract/fanboy-expo-orlando.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-09-24",
+      "end": "2027-09-26",
+      "dates": "confirmed",
+      "venue": "Hilton Orlando",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/279",
+      "guestsPage": "https://fanboyexpo.com/orlando/comic-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fanboy-expo-orlando-2.guests.json",
+          "picks": [
+            [1, "Arthur Suydam", "Marvel Zombies, Deadpool, Moon Knight, Black Panther", "comics"],
+            [2, "Fred C Stresing", "Rick and Morty", "animation"],
+            [3, "Daniel Scott", "Pop-culture art made from candy wrappers", "other"],
+            [4, "Meg Casey", "Rick and Morty, Steven Universe, Adventure Time", "animation"],
+            [5, "Noah Sult", "TMNT, The Last Ronin, Bloodshot", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "fanboyexpo.com/orlando page text: 'SEPT. 24-26, 2027 Hilton Orlando' and 'WELCOME TO FANBOY EXPO ORLANDO FRIDAY, Sept. 24, 2027... Hilton Orlando'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Sister show to fanboy-expo-knoxville, same organizer (Media Investments Global, LLC / Fanboy Expo), separate city and venue. /orlando/celebrity-guests/ currently shows no named guests (sponsors only); the announced lineup so far is entirely on /orlando/comic-guests/. No dedicated 2027 key-art banner was found on this page (only the small 'FANBOY EXPO ORLANDO CONVENTION' wordmark logo and a tiny site icon), so the cover falls back to that logo per the 'logo is fine when it is all there is' rule."
+}

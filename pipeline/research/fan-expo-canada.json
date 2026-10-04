@@ -1,0 +1,30 @@
+{
+  "id": "fan-expo-canada",
+  "name": "FAN EXPO Canada",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexpocanada/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "FAN EXPO HQ's flagship Canadian show at the Metro Toronto Convention Centre, with celebrity, anime, gaming and comic-creator guests.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-canada.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-08-26",
+      "end": "2027-08-29",
+      "dates": "confirmed",
+      "venue": "Metro Toronto Convention Centre",
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA",
+      "tickets": "https://fanexpohq.com/fanexpocanada/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexpocanada/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event \"FAN EXPO Canada\" 2027-08-26 -> 2027-08-29 @ Metro Toronto Convention Centre; same text on page: 'AUGUST 26 - 29, 2027 METRO TORONTO CONVENTION CENTRE'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-city FAN EXPO HQ (Informa) brand; this file covers Toronto only. All five guest category pages (celebrities, animation-voices, anime-guests, comic-creators, cosplayers) show a 'PAST FAN FAVE GUESTS INCLUDED' section of prior years' guests (Mark Hamill, John Cena, Elijah Wood, etc.) plus 'Sign up to the e-newsletter for ... updates' copy -- no names are tagged to the 2027 show yet, so guests is 'none-yet' per the rule for a page still showing last year's lineup. The gaming-guests link (/gamers/) currently 404s back to the homepage. Cover falls back to the plain 'FAN EXPO' wordmark logo since every carousel/hero image is a generic stock photo (crowds, past-guest photo ops) or a 'CELEBRATING FANDOM' text-pattern graphic, not edition-specific key art."
+}

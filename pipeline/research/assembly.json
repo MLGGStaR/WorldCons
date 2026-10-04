@@ -1,0 +1,50 @@
+{
+  "id": "assembly",
+  "name": "Assembly",
+  "short": "",
+  "url": "https://assembly.org/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "games"
+  ],
+  "blurb": "Finland's largest gaming festival: a LAN party, esports and demoscene event held each autumn at PowerPark and each winter in Helsinki.",
+  "cover": {
+    "file": "pipeline/cache/extract/assembly.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "PowerPark",
+      "city": "Härmä",
+      "region": "",
+      "country": "FI",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Assembly PowerPark 2026 16. — 18.10.2026 PowerPark, Härmä'"
+    },
+    {
+      "start": "2027-02-25",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Messukeskus",
+      "city": "Helsinki",
+      "region": "",
+      "country": "FI",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Assembly Winter 2027 25. — 28.02.2027 Messukeskus, Helsinki'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Assembly runs multiple branded events a year under one name; both editions announced within the window (PowerPark 2026 and Winter 2027) are listed. It is a LAN-party/esports/demoscene festival with a 'CREATORS' section, but that page is an ethics/conduct guideline for streamers, not a public guest lineup with photos, so guests is 'none' for both editions (no guest program)."
+}

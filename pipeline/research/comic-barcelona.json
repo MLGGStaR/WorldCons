@@ -1,0 +1,35 @@
+{
+  "id": "comic-barcelona",
+  "name": "Comic Barcelona",
+  "short": "",
+  "url": "https://www.comic-barcelona.com",
+  "organizer": "FICOMIC",
+  "status": "active",
+  "types": [
+    "comics"
+  ],
+  "blurb": "Spain's oldest comic convention, run by FICOMIC at Fira de Barcelona, with exhibitors, artist signings, awards and an international guest programme.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-barcelona.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2027-05-07",
+      "end": "2027-05-09",
+      "dates": "confirmed",
+      "venue": "Fira de Barcelona – Montjuïc",
+      "city": "Barcelona",
+      "region": "",
+      "country": "ES",
+      "tickets": "https://www.comic-barcelona.com/es/tickets.cfm",
+      "guestsPage": "https://www.comic-barcelona.com/es/invitados-partners.cfm",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '7-8-9 MAYO 2027'; venue confirmed via web search (Fira de Barcelona – Montjuïc, 45th edition)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the 45th edition (May 2027); the homepage nav still reads 'INVITADOS 2026' and shows recap stats for the 44th (2026) edition ('Algunos datos del 44 Comic Barcelona'), so 2027 guests are not yet posted (guests: none-yet). The only guest-related link captured by the extractor was 'Partners Guests' -> invitados-partners.cfm, used as guestsPage; it may be a partners/guests hybrid page rather than the eventual full roster page. Cover uses the generic '44CB' logo mark (og image, edition-number branding); no edition-specific key art for the 45th show was published yet this session."
+}

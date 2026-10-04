@@ -1,0 +1,30 @@
+{
+  "id": "nordicfuzzcon",
+  "name": "NordicFuzzCon",
+  "short": "NFC",
+  "url": "https://nordicfuzzcon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "One of Europe's largest furry conventions, run entirely by volunteers in Malmö, Sweden, with a yearly fundraiser for animal charities.",
+  "cover": { "file": "pipeline/cache/extract/nordicfuzzcon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-24",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Malmö",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://registration.nordicfuzzcon.org/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'NordicFuzzCon 2027 Crime Noir Malmö, Sweden · 24–28 February' and meta description 'NordicFuzzCon 2027 - Crime Noir will be in Malmö, Sweden from the 24th to 28th February 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No specific venue name is given on the homepage (past editions have used Malmö Live / Slagthuset; not confirmed for 2027 within budget, left blank). WebSearch confirms no Guest of Honor has been announced yet for the 2027 'Crime Noir' edition (WannaBeast was GoH for 2025 and 2026), so guests is none-yet. The long handle list in the homepage text ('Nicked Chris Zane Qetesh Alias Trax Bluey ...') is the volunteer 'STEW' (staff and crew) credits, not convention guests, so none of those names were picked."
+}

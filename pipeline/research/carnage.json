@@ -1,0 +1,45 @@
+{
+  "id": "carnage",
+  "name": "Carnage",
+  "short": "",
+  "url": "https://carnagecon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "Northern New England's tabletop gaming retreat in Killington, Vermont, with RPGs, board games, miniatures and LARPs.",
+  "cover": { "file": "pipeline/cache/extract/carnage.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Killington Grand Resort",
+      "city": "Killington",
+      "region": "VT",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Carnage, Vermont's Tabletop Gaming Retreat, is pleased to be planning Carnage 29 for October 16-18, 2026... Killington Grand Resort'"
+    },
+    {
+      "start": "2027-10-22",
+      "end": "2027-10-24",
+      "dates": "confirmed",
+      "venue": "Killington Grand Resort",
+      "city": "Killington",
+      "region": "VT",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Future Carnages - mark your calendars! Carnage 30 - October 22-24, 2027 - Killington, VT'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Grassroots tabletop/RPG/LARP convention run by GMs and vendors, not a guest-of-honor event; no mention of 'guest' anywhere on the site, so guests is 'none' for both editions. Two editions (Carnage 29 and the already-announced Carnage 30) both fall inside the window."
+}

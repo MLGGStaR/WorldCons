@@ -1,0 +1,15 @@
+{
+  "id": "fantasy-expo",
+  "name": "Fantasy Expo",
+  "short": "",
+  "url": "https://fantasyexpo.hu/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "cosplay", "anime", "comics"],
+  "blurb": "A Hungarian fan convention in Budapest for fantasy, sci-fi, anime, manga and comics fans, built around its cosplay competition and artist alley.",
+  "cover": { "file": "pipeline/cache/extract/fantasy-expo.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-29", "end": "2026-08-29", "city": "Budapest", "region": "", "country": "HU", "venue": "ELTE Gömb Aula" },
+  "checked": "2026-10-05",
+  "notes": "The site's only dated edition was 'Nyári Fantasy Expo' (Summer Fantasy Expo), held 2026-08-29 at ELTE Gömb Aula, Budapest — already over before the 2026-10-05 research window starts. News coverage (port.hu, playdome.hu) refers to past 'Nyári' (summer) and 'Téli' (winter) editions, suggesting this may run more than once a year, but neither the English nor Hungarian homepage names a next date as of 2026-10-05, so editions is left empty rather than guessed. Organizer left blank: the ticket contact address (info@supernovaevents.hu) and a 'Supernova' logo appear on the page, but neither page states who legally organizes the event."
+}

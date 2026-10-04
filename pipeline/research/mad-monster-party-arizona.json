@@ -1,0 +1,30 @@
+{
+  "id": "mad-monster-party-arizona",
+  "name": "Mad Monster Party Arizona",
+  "short": "",
+  "url": "https://madmonster.com/mad-monster-party-arizona-2027/",
+  "organizer": "Mad Monster",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "A horror, sci-fi and fantasy convention in Glendale with celebrity guests, autographs, elaborate movie-scene photo ops and tattoo artists.",
+  "cover": { "file": "pipeline/cache/extract/mad-monster-party-arizona.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Renaissance Phoenix Glendale Hotel",
+      "city": "Glendale",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://madmonster.com/mad-monster-party-arizona-2027/#guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Madmonster.com's own global events menu lists 'July 9–11, 2027' as the Arizona show's next date. The dedicated Arizona page itself (same URL) has not been refreshed for that edition yet — it still shows the prior, already-concluded edition's own date ('July 10-12, 2026, RENAISSANCE PHOENIX GLENDALE HOTEL') and that edition's guest list (Tom Atkins, Warwick Davis, Linnea Quigley, etc.), so no guests or ticket link could be confirmed for the 2027 edition specifically."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Mad Monster's site is inconsistent between pages: the homepage nav announces the next Arizona date as July 9-11, 2027, but the Arizona landing page content (guests, exact venue wording) is still the leftover page for the July 10-12, 2026 edition, which has already concluded. Venue/city/region are carried over from that most recent edition since no venue change has been announced; tickets is left blank because the only ticket link found (showclix 'mmpaz26') is explicitly for the 2026 show, not 2027. Guests is 'none-yet' because the only guest list visible belongs to the concluded 2026 edition, not the upcoming one."
+}

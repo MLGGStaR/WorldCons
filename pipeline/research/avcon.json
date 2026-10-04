@@ -1,0 +1,15 @@
+{
+  "id": "avcon",
+  "name": "AVCon",
+  "short": "",
+  "url": "https://www.avcon.org.au/",
+  "organizer": "Team AVCon Inc.",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "Adelaide's volunteer-run anime, gaming and pop-culture festival at the Adelaide Showground, running since 2002.",
+  "cover": { "file": "pipeline/cache/extract/avcon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-04", "end": "2026-07-05", "city": "Adelaide", "region": "SA", "country": "AU", "venue": "Adelaide Showground" },
+  "checked": "2026-10-05",
+  "notes": "AVCon 2026 (Rhythm ☆ Revolution) ran July 4–5, 2026 at the Adelaide Showground — already over as of the 2026-10-05 checked date, so it falls outside the research window. No 2027 dates are announced yet: the homepage and /avcon-2026/guests/ page still show only the July 2026 event, schedule and guest lineup (confirmed guests for that past edition: Snuffy, Allegra Clark, SungWon Cho, ZalariaCos — not recorded here since that edition is outside the window). Will need re-checking once AVCon 2027 dates are announced."
+}

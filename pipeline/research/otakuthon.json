@@ -1,0 +1,30 @@
+{
+  "id": "otakuthon",
+  "name": "Otakuthon",
+  "short": "",
+  "url": "https://www.otakuthon.com/",
+  "organizer": "Otakuthon Cultural Society",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Montreal's largest anime convention: a bilingual English/French celebration of anime, manga, games and Japanese culture at the Palais des congrès.",
+  "cover": { "file": "pipeline/cache/extract/otakuthon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-13",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "Palais des congrès de Montréal",
+      "city": "Montreal",
+      "region": "QC",
+      "country": "CA",
+      "tickets": "https://registration.otakuthon.com/",
+      "guestsPage": "https://www.otakuthon.com/2026/en/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "otakuthon.com itself still shows the 2026 edition (JSON-LD: 'Otakuthon 2026' 2026-08-07 to 2026-08-09 at Palais des congrès de Montréal) with no 2027 page yet. Wikipedia's Otakuthon article infobox 'Next event' field reads 'August 13-15 announced at the closing ceremony' immediately after the 2026 edition row (Aug 7-9, 2026), i.e. August 13-15, 2027; corroborated by web search summaries of the same closing-ceremony announcement."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live site (otakuthon.com) redirects to a /2026/ edition microsite that already ran Aug 7-9, 2026 (confirmed via its own JSON-LD) and has not been rebuilt for 2027 yet, so its full 'View All Guests' lineup (~50+ names: Konomi Suzuki, Ray Chase, Faye Mata, Lucien Dodge, Ironmouse, Kaoru Wada, Nozomu Sasaki, Kenta Miyake, many VTubers/streamers, etc.) belongs to that already-finished edition and was not picked here. Next edition's exact 2027 dates come from Wikipedia's infobox reporting the con's own closing-ceremony announcement rather than from otakuthon.com directly, since the site hasn't posted them yet; guests is 'none-yet' because the guest page still only shows the 2026 lineup. Organizer 'Otakuthon Cultural Society' and venue (Palais des congrès de Montréal) are corroborated by both the live JSON-LD and outside sources."
+}

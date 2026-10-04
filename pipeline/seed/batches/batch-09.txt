@@ -1,0 +1,12 @@
+1. id=pensacon | Pensacon | https://www.pensacon.com | Pensacola, FL, US | types: pop, comics, scifi | note: Confirmed Feb 19-21, 2027 edition
+2. id=spooky-empire | Spooky Empire | http://spookyempire.com | Orlando, FL, US | types: horror | note: Confirmed Oct 30-Nov 1, 2026 at Hyatt Regency Orlando
+3. id=tampa-bay-comic-con | Tampa Bay Comic Con | https://tampabaycomicconvention.com | Tampa, FL, US | types: comics | note: Could not confirm exact 2026 month from official site
+4. id=pensacola-comic-convention | Pensacola Comic Convention | http://www.pensacolacomiccon.com | Pensacola, FL, US | types: comics, cosplay | note: Distinct from Pensacon; billed as first female African-American-owned comic con in the US
+5. id=tampa-toy-con | Tampa Toy Con | https://www.eventeny.com/events/tampa-toy-con-2026-29697/ | Tampa, FL, US | types: toys | note: No dedicated domain found; linking event listing page
+6. id=dragon-con | Dragon Con | https://www.dragoncon.org | Atlanta, GA, US | types: scifi, comics, cosplay, anime | note: 40th anniversary in 2026; ~75,000+ attendees over Labor Day weekend
+7. id=anime-weekend-atlanta | Anime Weekend Atlanta | https://www.awa-con.com | Atlanta, GA, US | types: anime | note: Largest anime con in the Southeast; only regional con with Japanese seiyuu guests; confirmed Nov 19-22, 2026
+8. id=furry-weekend-atlanta | Furry Weekend Atlanta | https://furryweekend.com | Atlanta, GA, US | types: furry | note: 17,000+ attendees in 2026, among the largest furry cons in the world
+9. id=momocon | MomoCon | https://www.momocon.com | Atlanta, GA, US | types: anime, games, comics | note: Confirmed May 27-30, 2027 edition
+10. id=multiverse | Multiverse | https://www.multiversecon.org | Peachtree City, GA, US | types: scifi, horror, tabletop | note: All-ages "geek culture" convention
+11. id=southern-fried-gaming-expo | Southern-Fried Gaming Expo | https://gameatl.com | Atlanta, GA, US | types: tabletop, games | note: 13th annual edition 2027; 1,400+ board-game free-play library
+12. id=toylanta | Toylanta | https://www.toylanta.net | Duluth, GA, US | types: toys | note: One of the biggest toy shows in the Southeast; confirmed Apr 16-18, 2027 edition

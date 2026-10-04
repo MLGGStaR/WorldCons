@@ -1,0 +1,30 @@
+{
+  "id": "jump-festa",
+  "name": "Jump Festa",
+  "short": "JF",
+  "url": "https://www.jumpfesta.com/",
+  "organizer": "Shueisha",
+  "status": "active",
+  "types": ["comics", "anime", "games", "toys"],
+  "blurb": "Shueisha's annual Shonen Jump franchise event at Makuhari Messe, with stage shows, exhibits and merchandise for its manga and anime titles.",
+  "cover": { "file": "pipeline/cache/extract/jump-festa.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "dates": "confirmed",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '開催日時 2026年12月19日(土)・12月20日(日)' (event date/time: Dec 19 Sat / Dec 20 Sun, 2026) at 幕張メッセ (Makuhari Messe)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Free admission, pre-application/invitation-only via the 'Jump NAVI' app ticket. The 2027 site just opened (Sept 28, 2026) and stage/cast lineup is not posted yet."
+}

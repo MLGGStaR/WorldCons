@@ -1,0 +1,30 @@
+{
+  "id": "bircon-berlin",
+  "name": "BIRCON Berlin",
+  "short": "BIRCON",
+  "url": "https://bircon.berlin/",
+  "organizer": "BIRCON UG (haftungsbeschränkt)",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A two-day pen-and-paper tabletop roleplaying convention in Berlin with games, vendors, panels and an afterparty at the Vollgutlager.",
+  "cover": { "file": "pipeline/cache/extract/bircon-berlin.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Vollgutlager",
+      "city": "Berlin",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://bircon.berlin/tickets",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'BIRCON 2026 ... October 10th–11th, Vollgutlager' and 'When Saturday, 10th October and Sunday, 11th October, 2026 ... Where Vollgutlager, Neukölln, Berlin'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed types said 'pop' but the whole site is a pen-and-paper RPG event (systems list: Daggerheart, Call of Cthulhu, Shadowdark, D&D, Pathfinder, etc.), corrected to 'tabletop'. No individual guest program; the only named outside party is Gold Sponsor Chaosium (a publisher, not a person), so guests is 'none'."
+}

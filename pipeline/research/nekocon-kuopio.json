@@ -1,0 +1,15 @@
+{
+  "id": "nekocon-kuopio",
+  "name": "Nekocon",
+  "short": "",
+  "url": "https://nekocon.fi/",
+  "organizer": "Nekocon ry",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Finland's Japanese pop-culture convention in Kuopio, bringing together anime, manga, cosplay and gaming fans.",
+  "cover": { "file": "pipeline/cache/extract/nekocon-kuopio.home.json", "key": "hero:2" },
+  "editions": [],
+  "last": { "start": "2026-07-18", "end": "2026-07-19", "city": "Kuopio", "region": "", "country": "FI", "venue": "Kuopio Musiikkikeskus" },
+  "checked": "2026-10-05",
+  "notes": "Most recent edition (Nekocon's 20th anniversary) ran 18-19 July 2026 at Kuopio Musiikkikeskus / taidelukio Lumit; that date is already past. The homepage has no mention of a 2027 date yet as of 2026-10-05, so editions is empty. Cover uses the 2026 key art since no 2027 art exists; organizer is 'Nekocon ry' per the site's own 'NEKOCON RY' nav label."
+}

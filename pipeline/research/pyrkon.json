@@ -1,0 +1,39 @@
+{
+  "id": "pyrkon",
+  "name": "Pyrkon",
+  "short": "",
+  "url": "https://pyrkon.pl/en/",
+  "organizer": "Klub Fantastyki \"Druga Era\"",
+  "status": "active",
+  "types": ["scifi", "comics", "games", "cosplay"],
+  "blurb": "One of Europe's largest multigenre fantasy conventions, held in Poznań with comics, RPG, board-game, cosplay and literature programming.",
+  "cover": { "file": "pipeline/cache/extract/pyrkon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-06-18",
+      "end": "2027-06-20",
+      "dates": "confirmed",
+      "venue": "Międzynarodowe Targi Poznańskie (Poznań International Fair)",
+      "city": "Poznań",
+      "region": "",
+      "country": "PL",
+      "tickets": "https://pyrkon.pl/en/kup-bilet/",
+      "guestsPage": "https://pyrkon.pl/en/pyrkon-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/pyrkon-2.guests.json",
+          "picks": [
+            [2, "Graham McTavish", "Outlander, The Hobbit, House of the Dragon", "actor"],
+            [3, "Grady Hendrix", "Horrorstör, How to Sell a Haunted House", "author"],
+            [5, "Laïs", "Folk band known for \"'t Smidje\"", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Header banner: 'FESTIWAL FANTASTYKI 18.06.2027 POZNAŃ'; the homepage's 'Add to your calendar' link encodes dates=20270618T1200/20270620T1800, location='Międzynarodowe Targi Poznańskie, Poznań'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Pyrkon 2026 (June 19-21, 2026) just concluded; a news post dated 21 June 2026 ('Something ends, something begins! Meet the first guests of Pyrkon 2027') announces the first wave of 2027 guests: actor/narrator Graham McTavish, horror author Grady Hendrix, and folk band Laïs — the article says 'first three (well, technically 7) names', likely counting band members separately; Laïs is filed as one guest per the 'groups/bands are one guest' rule. The dedicated /en/pyrkon-guests/ hub page itself only renders nav icons (no guest grid in static HTML), so the lineup picks are taken from the announcement article's own guest cards instead. Only 3 guests are confirmed so far for this edition; more will likely be added before June 2027."
+}

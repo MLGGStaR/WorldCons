@@ -1,0 +1,15 @@
+{
+  "id": "indonesia-comic-con",
+  "name": "Indonesia Comic Con",
+  "short": "ICC",
+  "url": "https://www.indonesiacomiccon.com",
+  "organizer": "PT Ekspresi Generasi Kreatif",
+  "status": "active",
+  "types": ["pop", "comics", "toys", "games"],
+  "blurb": "Indonesia's largest pop-culture event in Jakarta, covering comics, toys, movies and games with celebrity guests, cosplayers and comic artists.",
+  "cover": { "file": "pipeline/cache/extract/indonesia-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-10-03", "end": "2026-10-04", "city": "Jakarta", "region": "", "country": "ID", "venue": "JIEXPO Kemayoran" },
+  "checked": "2026-10-05",
+  "notes": "The only announced edition is the 10th ICC, confirmed by both the homepage text ('10th edition 3-4 OCTOBER 2026 JIEXPO Kemayoran') and JSON-LD (2026-10-03 to 2026-10-04 at JIEXPO Kemayoran), with a full guest lineup already live (Mackenyu plus international cosplayers, a singer and about 25 comic artists). That edition ended 2026-10-04, one day before this research window opens (2026-10-05), so per the brief's 'only list upcoming editions' rule it is excluded rather than listed as upcoming. No 11th-edition date has been announced on the site yet as of 2026-10-05, so editions is empty for now; this is worth re-checking soon since ICC typically announces close to its own date. Organizer name is carried over from the assignment brief (PT Ekspresi Generasi Kreatif); the homepage text sample is dominated by the long guest list and gets cut off before any footer/legal-entity line, so this was not independently re-confirmed on site within budget."
+}

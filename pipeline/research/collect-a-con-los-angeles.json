@@ -1,0 +1,30 @@
+{
+  "id": "collect-a-con-los-angeles",
+  "name": "Collect-A-Con Los Angeles",
+  "short": "",
+  "url": "https://collectaconusa.com/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Los Angeles stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-root.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "dates": "confirmed",
+      "venue": "Los Angeles Convention Center",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.universe.com/events/collect-a-con-los-angeles-2-ca-tickets-9NVCZT",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "collectaconusa.com homepage tour carousel, image alt/filename 'Los Angeles 2 2026' / 'SHOW27-DEC-19-20-2026_LOS-ANGELES-2.png', linking to a Universe.com ticket page titled 'Collect-A-Con (Los Angeles 2, CA)'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No dedicated collectaconusa.com page exists yet for this date (not in the site's sitemap; the homepage ticket link goes straight to Universe.com), so the Dec 19-20, 2026 date comes only from the homepage carousel. Venue (Los Angeles Convention Center) is corroborated by the venue's own events listing and by ticket/aggregator pages (laconventioncenter.com, rostercon.com, thecardshopfinder.com), not by collectaconusa.com directly. No guest page exists yet either, hence 'none-yet'."
+}

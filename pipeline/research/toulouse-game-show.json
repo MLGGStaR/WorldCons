@@ -1,0 +1,48 @@
+{
+  "id": "toulouse-game-show",
+  "name": "Toulouse Game Show",
+  "short": "TGS",
+  "url": "https://tgs-toulouse.fr",
+  "organizer": "TGS Événements",
+  "status": "active",
+  "types": ["games", "pop"],
+  "blurb": "Toulouse's pop-culture and gaming expo at MEETT, covering video games, manga, comics and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/toulouse-game-show.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "MEETT",
+      "city": "Toulouse",
+      "region": "",
+      "country": "FR",
+      "tickets": "",
+      "guestsPage": "https://tgs-toulouse.fr/invites",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/toulouse-game-show.guests.json",
+          "picks": [
+            [1, "Monsieur Pof", "", "creator"],
+            [2, "Anouck Hautbois", "", "actor"],
+            [3, "Aurélien Ringelheim", "", "actor"],
+            [4, "Frédéric Bouraly", "", "actor"],
+            [5, "Bob Lennon", "", "creator"],
+            [6, "Maeva Méline", "", "actor"],
+            [7, "Reaver", "", "cosplay"],
+            [8, "May Co", "", "cosplay"],
+            [9, "Jacques Chambon", "", "actor"],
+            [10, "Sylvain Caruso", "", "actor"],
+            [11, "Hélène Rollès", "", "actor"],
+            [12, "James and Oliver Phelps", "", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown: '28 & 29 NOVEMBRE 2026 ... 54 JOURS' and 'LE SALON DE LA POP CULTURE 19ÈME ÉDITION'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed URL toulousegameshow.com does not resolve; the real official site is tgs-toulouse.fr (run by the same TGS Événements group as Paris Manga). Guest cards only label each person's role (Vidéaste/Comédien/Cosplay/Acteur) with no further credit text, so Known for is left blank for all; 'Comédien' guests are recorded as 'actor' for lack of a more specific card detail."
+}

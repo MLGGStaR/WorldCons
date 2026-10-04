@@ -1,0 +1,22 @@
+{
+  "id": "g-fest",
+  "name": "G-Fest",
+  "short": "",
+  "url": "https://www.g-festcon.com/",
+  "organizer": "Daikaiju Enterprises Ltd.",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "The world's largest kaiju convention, celebrating Godzilla and giant movie monsters, run by Daikaiju Enterprises at the Hyatt Regency O'Hare.",
+  "cover": { "file": "pipeline/cache/extract/g-fest.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-10",
+    "end": "2026-07-12",
+    "venue": "Hyatt Regency O'Hare",
+    "city": "Rosemont",
+    "region": "IL",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The seed URL g-fan.com is the G-FAN magazine/publisher homepage, not the convention's own site; the actual official convention site is g-festcon.com (g-fan.com's own news post for the 2026 show says 'Go to the dedicated G-FESTcon.com website'), so url was corrected here. G-FEST 2026 ran July 10-12, 2026 at the Hyatt Regency O'Hare, Rosemont, IL - before this window starts (2026-10-05). g-festcon.com is a JS-heavy Wix site that did not surface any 2027 date text on the homepage as of this check, and no 2027 announcement was found elsewhere, so editions is empty."
+}

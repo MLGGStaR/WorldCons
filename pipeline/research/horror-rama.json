@@ -1,0 +1,15 @@
+{
+  "id": "horror-rama",
+  "name": "Horror-Rama",
+  "short": "",
+  "url": "https://horrorrama.ca/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Toronto's only all-horror convention: a one-day market and convention with celebrity guests, vendors, screenings, Q&As and panels, now presented as TorontoSploitation.",
+  "cover": { "file": "pipeline/cache/extract/horror-rama.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-05-23", "end": "2026-05-23", "city": "Toronto", "region": "ON", "country": "CA", "venue": "918 Bathurst Street" },
+  "checked": "2026-10-05",
+  "notes": "Horror-Rama now runs its yearly con under the name 'TorontoSploitation' at the 918 Bathurst Street venue; the brand/site still goes by Horror-Rama (nav: Home / About Torontosploitation / Tickets / Horror-Rama History / Contact). The most recent confirmed edition's own page (horrorrama.ca/torontosploitation) states '918 BATHURST STREET - MAY 23, 2026 - TORONTO', but that date has already passed as of this check (2026-10-05) and no 2027 date is announced anywhere on the site or in press coverage (BlogTO, Toronto Goth Events, Suspect Video) yet, so editions is empty. That past edition did have a 'Celebrity Guests' section (e.g. Danielle Ouimet, star of 'Daughters of Darkness', was named in body text) but its guest-card images carry no alt text or captions the extractor can read, and it is outside the research window regardless, so no lineup was recorded. No dedicated key-art image exists; used the TorontoSploitation wordmark logo as cover."
+}

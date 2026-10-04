@@ -1,0 +1,45 @@
+{
+  "id": "comic-city-fukuoka",
+  "name": "Comic City (Fukuoka)",
+  "short": "",
+  "url": "https://www.akaboo.jp",
+  "organizer": "Akaboo Communications",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Kyushu edition of the Comic City doujinshi (fan comic) market network, held roughly twice a year at Marine Messe Fukuoka.",
+  "cover": { "file": "pipeline/cache/extract/comic-city-tokyo.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-28",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Marine Messe Fukuoka",
+      "city": "Fukuoka",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Akaboo (organizer) homepage schedule list: '02月28日（福岡）COMIC CITY 福岡 65' (Feb 28, 2027). Venue confirmed for the immediately preceding edition by i-fukuoka.jp: 'COMIC CITY 福岡63｜2026年2月23日開催・マリンメッセ福岡で同人誌即売会', and by the organizer's own X/Twitter venue-guide posts naming Marine Messe Fukuoka for recent editions."
+    },
+    {
+      "start": "2027-06-20",
+      "end": "2027-06-20",
+      "dates": "confirmed",
+      "venue": "Marine Messe Fukuoka",
+      "city": "Fukuoka",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Akaboo (organizer) homepage schedule list: '06月20日（福岡）COMIC CITY 福岡 66' (Jun 20, 2027), same numbered series and venue pattern as edition 65 above."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the plain numbered 'COMIC CITY 福岡' series (63, 64, 65, 66…), Akaboo's regular Kyushu doujinshi market; the Jun 2026 instalment (COMIC CITY 福岡 64) already fell before the 2026-10-05 research window and is left out. A doujin-circle table-sales market, not a guest-driven convention — no celebrity guest program, so guests is 'none'. Cover reuses the shared akaboo.jp homepage extract saved under comic-city-tokyo (same organizer portal, same dynamically-themed 'COMIC CITY' wordmark logo at logo:0); no Fukuoka-specific key art was found."
+}

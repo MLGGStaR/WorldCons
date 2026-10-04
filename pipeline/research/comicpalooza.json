@@ -1,0 +1,30 @@
+{
+  "id": "comicpalooza",
+  "name": "Comicpalooza",
+  "short": "CP",
+  "url": "https://www.comicpalooza.com",
+  "organizer": "Startling Events, LLC",
+  "status": "active",
+  "types": ["comics", "pop", "games"],
+  "blurb": "Texas' largest pop-culture festival at the George R. Brown Convention Center in Houston: celebrity panels, cosplay, anime, comics and gaming.",
+  "cover": { "file": "pipeline/cache/extract/comicpalooza.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "George R. Brown Convention Center",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://www.comicpalooza.com/",
+      "guestsPage": "https://www.comicpalooza.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage key-art banner (hero:0, filename 'CP2027-Date-Header...'): 'HOUSTON | MAY 28-30, 2027 GEORGE R. BROWN CONVENTION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's only guests page is an archival 'Past Guest Highlights' page (/guests/past-guests/) listing hundreds of guests by year from 2014 through the last completed edition (2026) -- it is not a 2027 lineup, so guests is 'none-yet' for the upcoming May 2027 edition and no names were picked from that archive. Organizer kept as given in the seed (Startling Events, LLC); not independently confirmed on-site within budget (no footer/copyright credit line was found in the rendered homepage text)."
+}

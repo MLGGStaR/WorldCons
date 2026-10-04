@@ -14,9 +14,11 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFi
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { execFile } from 'node:child_process';
 import sharp from 'sharp';
 import { checkFile, resolveCover } from './tools/check-research.mjs';
 import { COUNTRIES } from '../js/geo.js';
+import { slug, mergeTypos } from './lib/guests.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const RESEARCH = join(ROOT, 'pipeline', 'research');
@@ -45,17 +47,6 @@ for (const d of [OUT_DATA, OUT_CON, OUT_GUEST, OUT_GUEST_S, OUT_FLAGS, IMG_CACHE
 
 // ---- helpers ------------------------------------------------------------------------------
 
-export function slug(s) {
-  return String(s || '')
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/&/g, ' and ')
-    .replace(/['’.]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 80);
-}
 
 const sha1 = (s) => createHash('sha1').update(s).digest('hex').slice(0, 16);
 const extractCache = new Map();
@@ -80,38 +71,74 @@ async function pool(items, n, fn) {
   return out;
 }
 
-// Download with an on-disk cache keyed by URL. Returns a Buffer or null.
+// At most a few requests at a time per host, so con sites don't start refusing us.
+const hostSlots = new Map();
+async function withHost(url, fn) {
+  const host = new URL(url).hostname;
+  if (!hostSlots.has(host)) hostSlots.set(host, { busy: 0, queue: [] });
+  const h = hostSlots.get(host);
+  if (h.busy >= 3) await new Promise((r) => h.queue.push(r));
+  h.busy++;
+  try {
+    return await fn();
+  } finally {
+    h.busy--;
+    const next = h.queue.shift();
+    if (next) next();
+  }
+}
+
+async function fetchNode(url, referer) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 25000);
+  try {
+    const res = await fetch(url, {
+      headers: { 'user-agent': UA, accept: 'image/avif,image/webp,image/*,*/*;q=0.8', ...(referer ? { referer } : {}) },
+      redirect: 'follow',
+      signal: ctrl.signal,
+    });
+    if (!res.ok) return { status: res.status };
+    return { status: res.status, buf: Buffer.from(await res.arrayBuffer()) };
+  } catch {
+    return { status: 0 };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Some sites refuse Node's TLS fingerprint but serve curl (shipped with Windows) fine.
+function fetchCurl(url, referer) {
+  return new Promise((resolve) => {
+    const args = ['-sL', '--max-time', '30', '-A', UA, '-H', 'Accept: image/avif,image/webp,image/*,*/*;q=0.8', ...(referer ? ['-e', referer] : []), '-w', '%{http_code}', '-o', '-', url];
+    execFile('curl', args, { encoding: 'buffer', maxBuffer: 64 * 1024 * 1024 }, (err, stdout) => {
+      if (err || !stdout || stdout.length < 3) return resolve({ status: 0 });
+      const status = Number(stdout.subarray(stdout.length - 3).toString());
+      resolve(status >= 200 && status < 300 ? { status, buf: stdout.subarray(0, stdout.length - 3) } : { status });
+    });
+  });
+}
+
+// Download with an on-disk cache keyed by URL. Returns a Buffer or null. Failures are not
+// cached, so the next build tries again.
 async function download(url, referer) {
   if (!url || !/^https?:/.test(url)) return null;
   const file = join(IMG_CACHE, sha1(url));
   if (!REFETCH && existsSync(file)) {
     const buf = readFileSync(file);
-    return buf.length ? buf : null;
+    if (buf.length) return buf;
   }
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), 25000);
-      const res = await fetch(url, {
-        headers: { 'user-agent': UA, accept: 'image/avif,image/webp,image/*,*/*;q=0.8', ...(referer ? { referer } : {}) },
-        redirect: 'follow',
-        signal: ctrl.signal,
-      });
-      clearTimeout(timer);
-      if (!res.ok) {
-        if (res.status === 404 || res.status === 410) break;
-        continue;
+  return withHost(url, async () => {
+    for (const get of [fetchNode, fetchCurl, fetchCurl]) {
+      const r = await get(url, referer);
+      if (r.status === 404 || r.status === 410) return null;
+      if (r.buf && r.buf.length >= 200) {
+        writeFileSync(file, r.buf);
+        return r.buf;
       }
-      const buf = Buffer.from(await res.arrayBuffer());
-      if (buf.length < 200) break;
-      writeFileSync(file, buf);
-      return buf;
-    } catch {
-      /* retry once */
+      await new Promise((res) => setTimeout(res, 800));
     }
-  }
-  writeFileSync(file, Buffer.alloc(0)); // remember the failure (rerun with --refetch)
-  return null;
+    return null;
+  });
 }
 
 const hex = ({ r, g, b }) => '#' + [r, g, b].map((v) => Math.round(v).toString(16).padStart(2, '0')).join('');
@@ -257,9 +284,39 @@ async function main() {
   const guests = new Map(); // id -> { names: Map, cats: Map, knowns: Map, photos: [{url, w, h, referer, con}] }
   const sources = { cons: {}, guests: {} };
   const ids = new Set();
+  // Cons with no announced upcoming edition: listed as "dates not announced yet".
+  const tba = [];
+  const seedFile = join(ROOT, 'pipeline', 'seed', 'series.json');
+  const seed = new Map(existsSync(seedFile) ? JSON.parse(readFileSync(seedFile, 'utf8')).map((s) => [s.id, s]) : []);
 
   for (const r of research) {
     if (r.status !== 'active') continue;
+    if (!(r.editions || []).length) {
+      const place = r.last || seed.get(r.id);
+      if (!place || !place.city || !COUNTRIES[String(place.country || '').toUpperCase()]) continue;
+      tba.push({
+        id: r.id,
+        series: r.id,
+        name: r.name,
+        short: r.short || '',
+        organizer: r.organizer || '',
+        tba: true,
+        last: r.last ? { start: r.last.start, end: r.last.end } : null,
+        venue: (r.last && r.last.venue) || '',
+        city: place.city,
+        region: place.region || '',
+        country: String(place.country).toUpperCase(),
+        types: r.types,
+        url: r.url,
+        blurb: r.blurb,
+        checked: r.checked || TODAY,
+        gs: 'none-yet',
+        g: [],
+        _cover: r.cover,
+        _coverKey: r.cover && r.cover.key,
+      });
+      continue;
+    }
     for (const e of r.editions || []) {
       let id = `${r.id}-${e.start.slice(0, 4)}`;
       if (ids.has(id)) id = `${r.id}-${e.start.slice(0, 7)}`;
@@ -343,24 +400,40 @@ async function main() {
   if (!NO_IMAGES) {
     // Con art: one image per series, reused by every edition.
     const bySeries = new Map();
-    for (const c of cons) if (!bySeries.has(c.series)) bySeries.set(c.series, c);
+    for (const c of [...cons, ...tba]) if (!bySeries.has(c.series)) bySeries.set(c.series, c);
     let artOk = 0;
     await pool([...bySeries.values()], 8, async (c) => {
-      const url = resolveCover(c._cover);
-      const x = c._cover && loadExtract(c._cover.file);
-      const out = join(OUT_CON, `${c.series}.webp`);
-      const buf = await download(url, x ? x.finalUrl : c.url);
-      if (!buf) return;
-      try {
-        const info = await processConArt(buf, out, /^logo:/.test(c._coverKey || ''));
-        for (const e of cons.filter((k) => k.series === c.series)) {
-          Object.assign(e, { img: `img/c/${c.series}.webp`, imgW: info.w, imgH: info.h, tint: info.tint, fit: info.fit });
-        }
-        sources.cons[c.series] = url;
-        artOk++;
-      } catch (err) {
-        problems.push(`art ${c.series}: ${err.message}`);
+      // The researcher's pick first, then the homepage's other images, so a dead or
+      // undecodable cover never leaves the badge without art.
+      const homeFile = (c._cover && c._cover.file) || `pipeline/cache/extract/${c.series}.home.json`;
+      const x = loadExtract(homeFile);
+      const tries = [];
+      const add = (url, logo) => url && !tries.some((t) => t.url === url) && tries.push({ url, logo });
+      add(resolveCover(c._cover), /^logo:/.test(c._coverKey || ''));
+      if (x) {
+        add(x.ogImage, false);
+        add(x.twitterImage, false);
+        for (const h of x.heroImages || []) if (h.w >= 300 && h.h >= 150) add(h.img, false);
+        for (const l of x.logos || []) add(l.img, true);
       }
+      const out = join(OUT_CON, `${c.series}.webp`);
+      let lastErr = 'no image';
+      for (const t of tries.slice(0, 6)) {
+        const buf = await download(t.url, x ? x.finalUrl : c.url);
+        if (!buf) continue;
+        try {
+          const info = await processConArt(buf, out, t.logo);
+          for (const e of [...cons, ...tba].filter((k) => k.series === c.series)) {
+            Object.assign(e, { img: `img/c/${c.series}.webp`, imgW: info.w, imgH: info.h, tint: info.tint, fit: info.fit });
+          }
+          sources.cons[c.series] = t.url;
+          artOk++;
+          return;
+        } catch (err) {
+          lastErr = err.message;
+        }
+      }
+      if (tries.length) problems.push(`art ${c.series}: ${lastErr}`);
     });
     console.log(`con art: ${artOk}/${bySeries.size}`);
 
@@ -402,88 +475,49 @@ async function main() {
     });
     console.log(`guest photos: ${fromCon} from con pages, ${fromWiki} from Wikipedia, ${none} without a photo (of ${entries.length})`);
   } else {
-    // Keep whatever images already exist on disk.
-    for (const c of cons) if (existsSync(join(OUT_CON, `${c.series}.webp`))) c.img = `img/c/${c.series}.webp`;
+    // Keep whatever images already exist on disk, with the sizes and fit the last full
+    // build measured for them.
+    const prev = existsSync(join(OUT_DATA, 'cons.json')) ? JSON.parse(readFileSync(join(OUT_DATA, 'cons.json'), 'utf8')) : { cons: [], guests: {} };
+    const prevArt = new Map(prev.cons.filter((c) => c.img).map((c) => [c.series, c]));
+    for (const t of prev.tba || []) if (t.img) prevArt.set(t.series, t);
+    for (const c of [...cons, ...tba]) {
+      const p = prevArt.get(c.series);
+      if (p && existsSync(join(OUT_CON, `${c.series}.webp`))) Object.assign(c, { img: p.img, imgW: p.imgW, imgH: p.imgH, tint: p.tint, fit: p.fit });
+    }
     for (const gid of Object.keys(guestOut)) {
       if (existsSync(join(OUT_GUEST, `${gid}.webp`))) Object.assign(guestOut[gid], { p: `img/g/${gid}.webp`, s: `img/g/s/${gid}.webp` });
+      if (prev.guests[gid] && prev.guests[gid].w) guestOut[gid].w = prev.guests[gid].w;
     }
   }
 
   // Flags for every country in the data.
-  for (const cc of new Set(cons.map((c) => c.country))) {
+  for (const cc of new Set([...cons, ...tba].map((c) => c.country))) {
     const src = join(FLAG_SRC, `${cc.toLowerCase()}.svg`);
     if (existsSync(src)) copyFileSync(src, join(OUT_FLAGS, `${cc.toLowerCase()}.svg`));
     if (!COUNTRIES[cc]) problems.push(`unknown country ${cc}`);
   }
 
   // Remove images no record points at any more.
-  const keepCon = new Set(cons.map((c) => `${c.series}.webp`));
+  const keepCon = new Set([...cons, ...tba].map((c) => `${c.series}.webp`));
   for (const f of readdirSync(OUT_CON)) if (!keepCon.has(f)) rmSync(join(OUT_CON, f));
   const keepGuest = new Set(Object.keys(guestOut).map((g) => `${g}.webp`));
   for (const f of readdirSync(OUT_GUEST)) if (f.endsWith('.webp') && !keepGuest.has(f)) rmSync(join(OUT_GUEST, f));
   for (const f of readdirSync(OUT_GUEST_S)) if (!keepGuest.has(f)) rmSync(join(OUT_GUEST_S, f));
 
-  for (const c of cons) {
+  for (const c of [...cons, ...tba]) {
     delete c._cover;
     delete c._coverKey;
   }
+  tba.sort((a, b) => a.name.localeCompare(b.name));
   cons.sort((a, b) => (a.start < b.start ? -1 : a.start > b.start ? 1 : a.name.localeCompare(b.name)));
   const generated = research.reduce((d, r) => (r.checked && r.checked > d ? r.checked : d), '') || TODAY;
-  writeFileSync(join(OUT_DATA, 'cons.json'), JSON.stringify({ generated, cons, guests: guestOut }));
+  writeFileSync(join(OUT_DATA, 'cons.json'), JSON.stringify({ generated, cons, tba, guests: guestOut }));
   writeFileSync(join(OUT_DATA, 'sources.json'), JSON.stringify(sources, null, 1));
 
   const withGuests = cons.filter((c) => c.g.length).length;
-  console.log(`cons: ${cons.length} editions from ${research.length} research files (${withGuests} with guests), guests: ${Object.keys(guestOut).length}`);
+  console.log(`cons: ${cons.length} editions from ${research.length} research files (${withGuests} with guests), ${tba.length} waiting on dates, guests: ${Object.keys(guestOut).length}`);
   if (merged.length) console.log(`merged near-duplicate guests:\n  ${merged.join('\n  ')}`);
   if (problems.length) console.log(`problems (${problems.length}):\n  ${problems.join('\n  ')}`);
-}
-
-function editDistance(a, b) {
-  if (Math.abs(a.length - b.length) > 1) return 2;
-  const dp = Array.from({ length: a.length + 1 }, (_, i) => [i]);
-  for (let j = 1; j <= b.length; j++) dp[0][j] = j;
-  for (let i = 1; i <= a.length; i++)
-    for (let j = 1; j <= b.length; j++)
-      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-  return dp[a.length][b.length];
-}
-
-function mergeTypos(guests, cons) {
-  const log = [];
-  const ids = [...guests.keys()].filter((id) => id.length >= 10).sort();
-  const count = (id) => [...guests.get(id).names.values()].reduce((a, b) => a + b, 0);
-  const catOf = (id) => [...guests.get(id).cats.entries()].sort((a, b) => b[1] - a[1])[0][0];
-  const byLen = new Map();
-  for (const id of ids) {
-    const k = id.length;
-    for (const l of [k - 1, k, k + 1]) for (const other of byLen.get(l) || []) {
-      if (!guests.has(other) || !guests.has(id) || other === id) continue;
-      // Same first letter of each word and the same category guard against real namesakes.
-      if (other.split('-').map((w) => w[0]).join('') !== id.split('-').map((w) => w[0]).join('')) continue;
-      if (catOf(other) !== catOf(id)) continue;
-      if (editDistance(other, id) !== 1) continue;
-      const [keep, drop] = count(other) >= count(id) ? [other, id] : [id, other];
-      const a = guests.get(keep);
-      const b = guests.get(drop);
-      for (const [k, v] of b.names) a.names.set(k, (a.names.get(k) || 0) + v);
-      for (const [k, v] of b.cats) a.cats.set(k, (a.cats.get(k) || 0) + v);
-      for (const [k, v] of b.knowns) a.knowns.set(k, (a.knowns.get(k) || 0) + v);
-      a.photos.push(...b.photos);
-      guests.delete(drop);
-      for (const c of cons) {
-        if (!c.g.includes(drop)) continue;
-        c.g = c.g.includes(keep) ? c.g.filter((x) => x !== drop) : c.g.map((x) => (x === drop ? keep : x));
-        if (c._known[drop]) {
-          c._known[keep] = c._known[keep] || c._known[drop];
-          delete c._known[drop];
-        }
-      }
-      log.push(`${drop} -> ${keep}`);
-    }
-    if (!byLen.has(id.length)) byLen.set(id.length, []);
-    byLen.get(id.length).push(id);
-  }
-  return log;
 }
 
 main().catch((e) => {

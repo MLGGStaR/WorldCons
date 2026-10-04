@@ -16,11 +16,38 @@ node pipeline/tools/extract.mjs <url> --mode guests --save <id>-2    # a second 
 node pipeline/tools/check-research.mjs pipeline/research/<id>.json   # validate the file you wrote
 ```
 
-`extract.mjs` renders the page in Chromium (JavaScript, lazy images and "load more"
-buttons included) and prints a compact summary. It saves the full result to
+`extract.mjs` renders the page in Chromium (JavaScript, lazy images, "load more" buttons
+in most languages, and numbered or "next" pagination: a `PAGINATION walked N pages`
+line tells you it merged several pages) and prints a compact summary.
+
+**Never let a guest list get cut off.** Shell output is truncated after about 30,000
+characters, and big lineups are longer than that. For guests mode always redirect to a
+file and read all of it with the Read tool (use offset/limit for long files):
+`node pipeline/tools/extract.mjs <url> --mode guests --save <id> > pipeline/.tmp/<id>-guests.txt`
+Never pipe it through `head`. When an `alt` is missing from a candidate line, the name
+is simply the start of its `text` (the printer drops alt text that repeats the card). It saves the full result to
 `pipeline/cache/extract/<id>.<mode>.json`; you cite that file and the `#numbers` it printed.
+Most homepages were rendered in advance, so the first home call usually answers
+instantly from that cache (same URL, under a day old); add `--fresh` to force a new render.
 If a page shows a bot wall or comes back empty, retry once with `--channel msedge`.
 WebSearch and WebFetch are fine for finding the official site, dates and the guest page.
+
+Budget: about 10 tool calls per convention. Do not rabbit-hole; when something cannot
+be confirmed, record what you know, explain in `notes`, and move on. WebSearch is shared
+by every research agent in this run, so use at most 2 searches per convention; prefer
+the con's own site (rendered with extract.mjs) and WebFetch.
+
+Special cases:
+- **Two shows a year** under one brand in one city (MCM London May + October, Comiket
+  summer + winter): one file, one edition per show.
+- **No website, only Facebook/Instagram:** search once for a real site. If there is none,
+  use the social page as `url`; dates still need an official announcement you actually
+  saw (quote it in `evidence`); skip guests and the cover (`"cover": null` is allowed
+  only in this case, and only when no image is reachable).
+- **Multi-city brands** (FAN EXPO, GalaxyCon, Supanova, Oz Comic-Con, Comic Con India,
+  Creation, Days of the Dead …): each file is one city. Use that city's own page for
+  dates, guests and cover, never another city's.
+- **Trade-only or invite-only** events are `"status": "inactive"` with the reason.
 
 ## Steps for each convention
 
@@ -34,7 +61,10 @@ WebSearch and WebFetch are fine for finding the official site, dates and the gue
    before 2027-12-31 and whose dates the con has announced. That is usually the next
    edition, sometimes the one after it too. If the con only names a month ("June 2027"),
    use `"dates": "month"` with the first and last day of that month. If nothing is
-   announced for the window, write the file with `"editions": []` and explain in `notes`.
+   announced for the window, write the file with `"editions": []`, explain in `notes`,
+   and add the most recent edition you can confirm as a top-level
+   `"last": {"start": "2026-07-31", "end": "2026-08-02", "city": "Vancouver", "region": "BC", "country": "CA", "venue": "Vancouver Convention Centre"}`
+   (venue may be ""). The site lists these cons as "dates not announced yet".
    If the con is defunct, cancelled or on hiatus, set `"status": "inactive"` with the
    reason and the last year it ran.
 4. **Guests** (only for editions whose guests are announced): find the page that lists
@@ -51,6 +81,11 @@ WebSearch and WebFetch are fine for finding the official site, dates and the gue
      authors), `cosplay`, `creator` (YouTubers, streamers, influencers, podcasters),
      `gaming` (game developers, esports), `music`, `sports` (wrestlers, athletes),
      `other`.
+   - Use these `cat` definitions even when the con labels someone differently (a voice
+     actor the site files under "Gaming" is `voice`). Careful: guest `cat` says
+     `gaming`, but the con-level `types` list says `games`.
+   - Cards that carry only a name: pick everyone anyway, use `cat` from what you know
+     for sure or `other`, leave known-for "", and say so in notes. Never guess.
    - Skip logos, sponsors, ads, banners, venue photos, exhibitors, artist-alley tables,
      vendors, panels and "TBA"/"more coming soon" tiles. Skip guests marked cancelled.
    - A guest who appears in two sections is picked once.
@@ -59,9 +94,12 @@ WebSearch and WebFetch are fine for finding the official site, dates and the gue
    - Only the current edition's guests. A page still showing last year's lineup is
      `"guests": "none-yet"`.
 5. **Cover image:** from the homepage summary pick the key that best represents the
-   event (`og`, `twitter`, `hero:N` or `logo:N`). Prefer official key art or a branded
-   banner; avoid photos of crowds with unrelated text and avoid generic stock. If the
-   only option is a logo, pick the logo.
+   event (`og`, `twitter`, `hero:N` or `logo:N`). Best: official key art or a branded
+   banner for this edition (file names with keyart, key-art, banner, header, hero,
+   slider, poster; wide, 900px+). `og` is usually right. A logo is fine when it is all
+   there is (the build trims logos and shows them on their own colour). Avoid photos of
+   crowds or venues, sponsor banners, ticket graphics, generic stock, and images for a
+   different city's edition of a multi-city brand.
 6. **Write** `pipeline/research/<id>.json`, then run `check-research.mjs` on it and fix
    every error it reports before moving on.
 

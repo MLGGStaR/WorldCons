@@ -1,0 +1,15 @@
+{
+  "id": "comic-con-colombia-bogota",
+  "name": "Comic Con Colombia (Bogotá)",
+  "short": "",
+  "url": "https://comicconcolombia.com/",
+  "organizer": "Planet Comics / Corferias",
+  "status": "active",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "Colombia's largest pop-culture convention, held at Corferias in Bogotá with comics, anime, cosplay, gaming and film/TV guests; a sister edition runs in Medellín each November.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-colombia-bogota.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-06-26", "end": "2026-06-29", "city": "Bogotá", "region": "", "country": "CO", "venue": "Corferias" },
+  "checked": "2026-10-05",
+  "notes": "comicconcolombia.com itself could not be reached all session: every attempt (default Chromium, --channel msedge, a fresh --fresh render, the www. subdomain, and a direct WebFetch) failed with a TCP connection reset, and a bare curl only succeeded once out of five tries, so the domain is simply unreliable from here right now rather than down for everyone. Dates for the last edition (June 26-29, 2026, Corferias) come from Corferias' own news post announcing its Phase 2 ticket sales (used here for the cover image too) and are corroborated independently by eventseye.com, 10times.com, elespectador.com and visitbogota.co. No 2027 date has actually been announced: eventseye.com explicitly lists the next edition as 'June 2027 (?)' with a question mark (its own placeholder guess, not a confirmed date), so editions is left empty rather than repeating that guess. Sister edition Comic Con Colombia (Medellín), same organizer/brand, is filed separately as comic-con-colombia-medellin.json."
+}

@@ -1,0 +1,12 @@
+1. id=quai-des-bulles | Quai des Bulles | https://www.quaidesbulles.com | Saint-Malo, FR | types: comics | note: Comics festival in Brittany
+2. id=generations-star-wars-et-science-fiction | Générations Star Wars et Science Fiction | https://genstarwars.fr | Cusset, FR | types: scifi, pop | note: Confirmed 2-3 May 2026; features actors from the Star Wars saga
+3. id=letrange-festival | L'Étrange Festival | https://www.etrangefestival.com | Paris, FR | types: horror, scifi | note: Fantastic/horror genre film festival; confirmed 1-12 Sept 2026
+4. id=hyper-japan | Hyper Japan | https://hyperjapan.co.uk | London, GB | types: pop, anime | note: Runs twice yearly (summer Festival + winter Christmas Market); ~80k attendees
+5. id=uk-games-expo | UK Games Expo | https://www.ukgamesexpo.co.uk | Birmingham, GB | types: tabletop | note: Largest hobby games convention in the UK; ~88k visits in 2026, 3rd largest tabletop event globally
+6. id=comic-con-liverpool | Comic Con Liverpool | https://www.comicconventionliverpool.co.uk | Liverpool, GB | types: comics, pop | organizer: Monopoly Events | note: Runs twice yearly (spring and autumn editions)
+7. id=comic-con-northern-ireland | Comic Con Northern Ireland | https://www.comicconnorthernireland.co.uk | Lisburn, GB | types: comics, pop | organizer: Monopoly Events | note: Held at Eikon Exhibition Centre near Belfast
+8. id=comic-con-scotland | Comic Con Scotland | https://www.comicconventionscotland.co.uk | Edinburgh, GB | types: comics, pop | organizer: Monopoly Events | note: Held at the Royal Highland Centre, Ingliston
+9. id=comic-con-wales | Comic Con Wales | https://www.comicconventionwales.co.uk | Newport, GB | types: comics, pop | organizer: Monopoly Events | note: Held at ICC Wales
+10. id=insomnia-gaming-festival | Insomnia Gaming Festival | https://www.insomniagamingfestival.com | Stafford, GB | types: games | note: 2026 edition (planned for Staffordshire County Showground) was cancelled due to industry sponsorship pressures; ran successfully in 2025 at NEC Birmingham with 40,000+ visitors; future uncertain
+11. id=london-film-and-comic-con | London Film and Comic Con | https://www.londonfilmandcomiccon.com | London, GB | types: pop, comics | note: Celebrity autograph/photo-op convention at Olympia London
+12. id=comic-con-manchester | Comic Con Manchester | https://www.comicconventionmanchester.co.uk | Manchester, GB | types: comics, pop | note: Separate from MCM Comic Con; over 10,000 attendees annually

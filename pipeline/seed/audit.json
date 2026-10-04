@@ -1,0 +1,92 @@
+[
+ {
+  "id": "alaska-comicon",
+  "items": [
+   {
+    "id": "alaska-comicon",
+    "file": "pipeline/cache/extract/alaska-comicon-exh.guests.json",
+    "url": "https://www.alaskacomicon.com/2027-exhibitors/",
+    "picks": 6,
+    "candidates": 94,
+    "reasons": [
+     "6 picks vs 93 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "arctic-comic-con",
+  "items": [
+   {
+    "id": "arctic-comic-con",
+    "file": "pipeline/cache/extract/arctic-comic-con.guests.json",
+    "url": "https://arcticcomiccon.com/guests/",
+    "picks": 2,
+    "candidates": 75,
+    "reasons": [
+     "2 picks vs 70 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "comic-con-russia",
+  "items": [
+   {
+    "id": "comic-con-russia",
+    "file": "pipeline/cache/extract/comic-con-russia.guests.json",
+    "url": "https://comiccon.ru/",
+    "picks": 4,
+    "candidates": 30,
+    "reasons": [
+     "4 picks vs 21 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dreamhack-stockholm",
+  "items": [
+   {
+    "id": "dreamhack-stockholm",
+    "file": "pipeline/cache/extract/dreamhack-stockholm.guests.json",
+    "url": "https://dreamhack.com/stockholm/",
+    "picks": 2,
+    "candidates": 33,
+    "reasons": [
+     "2 picks vs 28 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "german-film-and-comic-con",
+  "items": [
+   {
+    "id": "german-film-and-comic-con",
+    "file": "pipeline/cache/extract/german-film-and-comic-con.guests.json",
+    "url": "https://germanfilmcomiccon.com/en/",
+    "picks": 36,
+    "candidates": 88,
+    "reasons": [
+     "36 picks vs 78 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "la-comic-con",
+  "items": [
+   {
+    "id": "la-comic-con",
+    "file": "pipeline/cache/extract/la-comic-con-2.guests.json",
+    "url": "https://www.comicconla.com/artists-and-creators",
+    "picks": 39,
+    "candidates": 152,
+    "reasons": [
+     "39 picks vs 151 person-sized images"
+    ]
+   }
+  ]
+ }
+]

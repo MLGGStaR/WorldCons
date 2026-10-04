@@ -1,0 +1,22 @@
+{
+  "id": "deepcon",
+  "name": "Deepcon",
+  "short": "",
+  "url": "https://www.deepcon.it/",
+  "organizer": "Deep Space One",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "A long-running Italian science-fiction, fantasy and horror convention held at the Ambasciatori Place Hotel in Fiuggi.",
+  "cover": { "file": "pipeline/cache/extract/deepcon.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-07",
+    "end": "2026-05-10",
+    "venue": "Ambasciatori Place Hotel",
+    "city": "Fiuggi",
+    "region": "",
+    "country": "IT"
+  },
+  "checked": "2026-10-05",
+  "notes": "Deepcon 26 ran May 7-10, 2026 at the Ambasciatori Place Hotel, Fiuggi (confirmed via fantasymagazine.it / ds1.it press coverage: 'Deepcon 26 in programma dal 7 al 10 maggio'); that edition already ended well before the research window. Deepcon 27 (2027) dates have not been announced on the official site as of this check, so no edition is listed."
+}

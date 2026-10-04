@@ -1,0 +1,39 @@
+{
+  "id": "swecon",
+  "name": "Swecon",
+  "short": "",
+  "url": "https://fantastika2026.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Sweden's national science-fiction convention, rotating host city each year; the 2026 edition is 'Fantastika', held near Stockholm.",
+  "cover": { "file": "pipeline/cache/extract/swecon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Dieselverkstaden",
+      "city": "Stockholm",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://fantastika2026.com/",
+      "guestsPage": "https://fantastika2026.com/hedersgaster-4/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/swecon.guests.json",
+          "picks": [
+            [1, "Maura McHugh", "Sci-fi, horror & dark fantasy author", "author"],
+            [2, "Anna Gustafsson Chen", "Translator of Chinese fiction", "author"],
+            [3, "Gareth L. Powell", "British science fiction author", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/text: 'FANTASTIKA 2026 SF CONVENTION IN STOCKHOLM – OCTOBER 23 – 25, 2026' and 'Fantastika 2026 är en sf-kongress som kommer att äga rum i Dieselverkstaden i Sickla nära Stockholms centrum, 23-25 oktober 2026.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Batch URL (fandom.se/swecon) is the general, long-stale Swecon info page (still describes 'Fantastika 2020'); replaced with this year's actual convention site, fantastika2026.com, which is reused/relabeled year to year by the Stockholm-area SF club that is hosting in 2026 (per its own text, this venue has hosted the con in 2013/2016/2018/2021/2022/2024 too). The site's own nav link labelled 'Hedersgäster' (Guests of Honour) resolves to a stale 2021 page at /hedersgaster/; the current 2026 guest page is at /hedersgaster-4/ (found via WebFetch of the live nav), which lists Maura McHugh, Anna Gustafsson Chen and Gareth L. Powell with photos and bios — all three picked. Swecon rotates to a different host city each year by member vote (typically decided at the current year's convention), so no 2027 location/site is announced yet; only the 2026 edition is listed."
+}

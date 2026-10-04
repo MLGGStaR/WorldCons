@@ -1,0 +1,30 @@
+{
+  "id": "na-meji-nevidnega",
+  "name": "Na meji nevidnega",
+  "short": "NMN",
+  "url": "https://nmn.si/",
+  "organizer": "KUD Šmaug",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "A Ljubljana convention for fantasy and science-fiction fans, with cosplay competitions, guests and programming across five halls.",
+  "cover": { "file": "pipeline/cache/extract/na-meji-nevidnega.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-05-29",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Ljubljana",
+      "region": "",
+      "country": "SI",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner: 'NMN 2027 · 29. & 30. MAJ · PRODAJA VSTOPNIC SE ZAČNE JANUARJA 2027' (NMN 2027, May 29 & 30, ticket sales start January 2027)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Corrected types from the given 'comics, scifi': the homepage describes it as a 'KONVENCIJA LJUBITELJEV FANTAZIJE IN ZNANSTVENE FANTASTIKE' (fantasy & sci-fi convention) with a dedicated Cosplay nav tab, cosplay competition and cosplay-guests pages, but no comics content found; used scifi+cosplay instead. The most recent completed edition (23-24 May 2026, Gospodarsko razstavišče/Ljubljana Exhibition and Convention Centre) already ended before the research window, so it is not listed; the next announced edition is 2027-05-29/30 but the site gives no venue for it yet (last year's venue not assumed) and ticket sales only start Jan 2027, so guests are not yet announced — the cosplay-gosti page still lists guests with no year marker, most likely tied to the passed May 2026 edition, so it was not used as a 2027 source. Organizer confirmed from footer: 'ORGANIZATOR DOGODKA KUD Šmaug'. Cover: no key art/banner image found (hero photos are crowd/booth photos of past editions), so the small square logo was used instead."
+}

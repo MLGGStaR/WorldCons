@@ -1,0 +1,54 @@
+{
+  "id": "marscon-virginia-beach",
+  "name": "MarsCon",
+  "short": "",
+  "url": "https://www.marscon.net/wp/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "pop", "tabletop"],
+  "blurb": "The largest sci-fi/fantasy convention in Virginia's Tidewater area, with author, gaming, music and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/marscon-virginia-beach.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Holiday Inn Virginia Beach-Norfolk",
+      "city": "Virginia Beach",
+      "region": "VA",
+      "country": "US",
+      "tickets": "https://marscon.regfox.com/marscon-virginia-2027",
+      "guestsPage": "https://www.marscon.net/wp/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/marscon-virginia-beach.guests.json",
+          "picks": [
+            [0, "Robert J. Sawyer", "Hugo/Nebula-winning SF novelist", "author"],
+            [1, "Steve Jackson", "Creator of Munchkin (Steve Jackson Games)", "gaming"],
+            [2, "Jake Pauwels", "Host of Roll for Sandwich", "creator"],
+            [3, "Mikey Mason", "Stand-up comedian", "music"],
+            [4, "Taviar Dominique", "Multidisciplinary musician, poet, artist", "music"],
+            [5, "HipHopMcDougal", "", "music"],
+            [6, "Katsumi Cosplay", "", "cosplay"],
+            [7, "Dr. Charles Liu", "Science guest", "other"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/marscon-virginia-beach-2.guests.json",
+          "picks": [
+            [0, "Carolyn Clink", "Science fiction poet", "author"],
+            [1, "Keith R.A. DeCandido", "Author of 60+ novels", "author"],
+            [2, "Terry Hooker", "Author and editor", "author"],
+            [3, "Pamela Kinney", "", "author"],
+            [4, "Gray Rinehart", "", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MarsCon 2027... Meet the MarsCon 2027 Guests of Honor'; hotel booking link's $99/night MarsCon group-code rate 'valid through 1/9/2027' (consistent with a mid-January con, not the unconfirmed February reading of an earlier hotel-widget check)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage/guest pages never state the convention's own days in plain text (only the hotel rate deadline and address); dates were confirmed via web search of secondary convention-listing sites plus the Jan 9, 2027 rate-deadline cross-check. Two guest pages exist for 2027 ('guests' = Guests of Honor + Featured Guests, '2027-other-guests' = additional author guests); both are cited as separate lineup entries. Skipped one duplicate image of Gray Rinehart on the second guest page (same person picked once)."
+}

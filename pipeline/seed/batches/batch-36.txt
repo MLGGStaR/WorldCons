@@ -1,0 +1,12 @@
+1. id=retro-horror-con | Retro-Horror Con | https://retro-horrorcon.com | Greenville, SC, US | types: horror, toys | organizer: Toy Federation
+2. id=scarab | SCARAB | https://tabletop.events/conventions/scarab-2026 | Columbia, SC, US | types: tabletop | note: At the SC State Museum; no independent domain found
+3. id=anime-blues-con | Anime Blues Con | https://www.animebluescon.com | Memphis, TN, US | types: anime | organizer: VXV Events | note: Listed for Jul 10-12 on organizer's 2026 schedule
+4. id=blues-city-comic-con | Blues City Comic Con | https://www.bluescitycomiccon.com | Memphis, TN, US | types: comics | organizer: VXV Events | note: Confirmed Mar 28-29, 2026 edition; fills the gap left by the defunct Memphis Comic and Fantasy Convention
+5. id=middle-tennessee-anime-convention | Middle Tennessee Anime Convention | http://www.mtac.net | Nashville, TN, US | types: anime | note: Confirmed Apr 3-5, 2026 edition
+6. id=yama-con | Yama-Con | http://www.yamacon.org | Pigeon Forge, TN, US | types: anime | note: Confirmed Dec 4-6, 2026 edition
+7. id=a-kon | A-Kon | https://www.a-kon.com | Irving, TX, US | types: anime, games | organizer: A-Kon LLC | note: One of the oldest running anime conventions in the US (since 1990); ~34,700 attendees in 2018
+8. id=anime-matsuri | Anime Matsuri | https://www.animematsuri.com | Houston, TX, US | types: anime, pop | organizer: Anime Matsuri Convention | note: 20th edition in 2026
+9. id=comicpalooza | Comicpalooza | https://www.comicpalooza.com | Houston, TX, US | types: comics, pop, games | organizer: Startling Events, LLC | note: Peaked at roughly 50,000 attendees in 2018; one of Houston's largest annual events
+10. id=san-japan | San Japan | https://www.san-japan.org | San Antonio, TX, US | types: anime | organizer: San Japan, LLC | note: Labor Day weekend; ~37,800 attendees reported for 2026
+11. id=texas-frightmare-weekend | Texas Frightmare Weekend | https://texasfrightmareweekend.com | Irving, TX, US | types: horror | note: 20th anniversary in 2026; the Southwest's premier horror convention
+12. id=alamo-city-comic-con | Alamo City Comic Con | https://www.aogeventsxpo.com | San Antonio, TX, US | types: comics, pop | organizer: AOG Events Xpo | note: Now operated under the AOG Events Xpo umbrella site

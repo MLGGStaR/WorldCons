@@ -1,0 +1,39 @@
+{
+  "id": "comic-con-baltics",
+  "name": "Comic Con Baltics",
+  "short": "CCB",
+  "url": "https://ccbaltics.com/",
+  "organizer": "Renginio genas, MB",
+  "status": "active",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "The Baltic region's largest pop-culture festival at LITEXPO in Vilnius, with Hollywood and gaming guests, cosplay, K-pop dance and gaming tournaments.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-baltics.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-05",
+      "dates": "confirmed",
+      "venue": "LITEXPO",
+      "city": "Vilnius",
+      "region": "",
+      "country": "LT",
+      "tickets": "https://ccbaltics.com/tickets/",
+      "guestsPage": "https://ccbaltics.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-baltics.guests.json",
+          "picks": [
+            [2, "Doug Cockle", "The Witcher, Baldur's Gate 3", "voice"],
+            [3, "Finn Jones", "Iron Fist, Game of Thrones", "actor"],
+            [4, "Jessica Henwick", "The Matrix Resurrections, Iron Fist", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "2027 key-art image (CCB27-Mascot.png) reads '27 ... 3-5 OF SEPTEMBER'; homepage/every page header shows '03/09/2027 Vilnius, LITEXPO' and a live countdown ('HEROES MEET IN 333 days' as of 2026-10-05, which lands on 2027-09-03). Confirmed independently on the venue's own listing (litexpo.lt/en/events/comic-con-baltics-2027): 'September 3-5 at ... LITEXPO in Vilnius.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition already ran May 22-24, 2026 (per on-site news posts), so it is before today's window and not listed; the next edition is 2027-09-03 to 2027-09-05. The site's dedicated 'Guests 2027' page (/guests/) currently lists 3 names under an 'Actors' section — Doug Cockle, Finn Jones, Jessica Henwick — each tagged '2027' on the homepage guest carousel, so these are picked; everything else on that carousel is tagged 2026/2025 (prior editions) and skipped. Organizer is the site's own registered entity from the footer ('Renginio genas, MB', company code 304662851, Vilnius)."
+}

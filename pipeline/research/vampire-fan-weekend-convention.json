@@ -1,0 +1,47 @@
+{
+  "id": "vampire-fan-weekend-convention",
+  "name": "Vampire Fan Weekend Convention",
+  "short": "VFW",
+  "url": "https://creationent.com/events/vfw-nj26/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["pop", "horror"],
+  "blurb": "Creation's touring Vampire Diaries/Originals reunion weekend, held this edition in Whippany, NJ, with cast autographs and photo ops.",
+  "cover": { "file": "pipeline/cache/extract/vampire-fan-weekend-convention.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Hanover Marriott Hotel",
+      "city": "Whippany",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://creationent.com/events/vfw-nj26/tickets/",
+      "guestsPage": "https://creationent.com/events/vfw-nj26/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/vampire-fan-weekend-convention.guests.json",
+          "picks": [
+            [1, "Ian Somerhalder", "Damon Salvatore, The Vampire Diaries", "actor"],
+            [2, "Paul Wesley", "Stefan Salvatore, The Vampire Diaries", "actor"],
+            [3, "Matthew Davis", "Alaric Saltzman, The Vampire Diaries", "actor"],
+            [4, "Kat Graham", "Bonnie Bennett, The Vampire Diaries", "actor"],
+            [5, "Daniel Gillies", "Elijah Mikaelson, The Originals", "actor"],
+            [6, "Michael Trevino", "Tyler Lockwood, The Vampire Diaries", "actor"],
+            [7, "Michael Malarkey", "Lorenzo \"Enzo\" St. John, The Vampire Diaries", "actor"],
+            [8, "Riley Voelkel", "Freya Mikaelson, The Originals", "actor"],
+            [9, "Lawrence Kao", "Van, The Originals", "actor"],
+            [10, "Chase Coleman", "Musical host", "music"],
+            [11, "Micah Joe Parker", "Adrian, The Vampire Diaries; event host", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page: 'Whippany, NJ Oct. 24-25, 2026 - Vampire Fan Weekend Convention'; event page: 'VAMPIRE FAN WEEKEND - NEW JERSEY 2026! October 24-25, 2026 • Hanover Marriott Hotel'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-city brand: Creation also runs Vampire Fan Weekend in Chicago ('tvd-chicago26') and Novi ('vfw-novi26'); this file covers only the Whippany, NJ edition, matching the seed note's location. Seed's '2027 date' guess was wrong — the confirmed, currently on-sale date is Oct 24-25, 2026, which still falls inside the research window. Candidates #12 (Alice Evans) and #13 (Ben Levin) are skipped: the page's own updates (Mar 16 and May 15, 2026) say both cancelled their appearances and are being refunded."
+}

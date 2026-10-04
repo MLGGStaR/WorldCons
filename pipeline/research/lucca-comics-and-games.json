@@ -1,0 +1,2474 @@
+{
+  "id": "lucca-comics-and-games",
+  "name": "Lucca Comics & Games",
+  "short": "LCG",
+  "url": "https://www.luccacomicsandgames.com/",
+  "organizer": "Lucca Crea S.r.l.",
+  "status": "active",
+  "types": [
+    "comics",
+    "games",
+    "tabletop",
+    "cosplay"
+  ],
+  "blurb": "Italy's largest pop-culture festival, filling the historic city of Lucca with comics, tabletop and video games, cosplay and fantasy art for its 60th/10th-anniversary 'Legacy' edition.",
+  "cover": {
+    "file": "pipeline/cache/extract/lucca-comics-and-games.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-10-28",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Historic center of Lucca (multiple venues)",
+      "city": "Lucca",
+      "region": "",
+      "country": "IT",
+      "tickets": "https://luccacomicsandgames.ticketone.it/",
+      "guestsPage": "https://lucca2026.luccacomicsandgames.com/it/ospiti",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/lucca-comics-and-games.guests.json",
+          "picks": [
+            [
+              0,
+              "Stephen Bliss",
+              "",
+              "other"
+            ],
+            [
+              1,
+              "Claudio Castellini",
+              "Marvel/DC comic artist",
+              "comics"
+            ],
+            [
+              2,
+              "Go Nagai",
+              "Devilman, Mazinger Z creator",
+              "animation"
+            ],
+            [
+              3,
+              "Gurihiru",
+              "Marvel/manga-style comic art duo",
+              "comics"
+            ],
+            [
+              4,
+              "Paru Itagaki",
+              "Beastars creator",
+              "animation"
+            ],
+            [
+              5,
+              "Hideki Kamiya",
+              "Bayonetta, Devil May Cry director",
+              "gaming"
+            ],
+            [
+              6,
+              "Yoko Kanno",
+              "Cowboy Bebop composer",
+              "music"
+            ],
+            [
+              7,
+              "Yoshinori Kitase",
+              "Final Fantasy producer",
+              "gaming"
+            ],
+            [
+              8,
+              "Joe Manganiello",
+              "True Blood, Magic Mike",
+              "actor"
+            ],
+            [
+              9,
+              "Chris Riddell",
+              "UK Children's Laureate, illustrator",
+              "author"
+            ],
+            [
+              10,
+              "Alberto Angela",
+              "",
+              "other"
+            ],
+            [
+              11,
+              "Daniel Dociu",
+              "",
+              "other"
+            ],
+            [
+              12,
+              "Rebecca Guay",
+              "Magic: The Gathering illustrator",
+              "comics"
+            ],
+            [
+              13,
+              "Jonathan Hickman",
+              "X-Men, Fantastic Four writer",
+              "comics"
+            ],
+            [
+              14,
+              "JH",
+              "",
+              "other"
+            ],
+            [
+              15,
+              "Kohinata Marco",
+              "",
+              "other"
+            ],
+            [
+              16,
+              "Scott M. Fischer",
+              "",
+              "other"
+            ],
+            [
+              17,
+              "Saka Mikami",
+              "",
+              "other"
+            ],
+            [
+              18,
+              "Frank Miller",
+              "Sin City, Daredevil",
+              "comics"
+            ],
+            [
+              19,
+              "Leo Ortolani",
+              "Rat-Man creator",
+              "comics"
+            ],
+            [
+              20,
+              "Tillie Walden",
+              "On a Sunbeam, Spinning",
+              "comics"
+            ],
+            [
+              21,
+              "Yuu Watase",
+              "Fushigi Yuugi mangaka",
+              "animation"
+            ],
+            [
+              22,
+              "Zerocalcare",
+              "Italian graphic novelist",
+              "comics"
+            ],
+            [
+              23,
+              "Pierre Alary",
+              "",
+              "other"
+            ],
+            [
+              24,
+              "Francesca Albanese",
+              "",
+              "other"
+            ],
+            [
+              25,
+              "Eliana Albertini",
+              "",
+              "other"
+            ],
+            [
+              26,
+              "Bianca Alessi",
+              "",
+              "other"
+            ],
+            [
+              27,
+              "Alterium",
+              "",
+              "other"
+            ],
+            [
+              28,
+              "Andrea Amadio",
+              "",
+              "other"
+            ],
+            [
+              29,
+              "Alessia Amati",
+              "",
+              "other"
+            ],
+            [
+              30,
+              "Valerio Amilcare \"Mangiasogni\"",
+              "",
+              "other"
+            ],
+            [
+              31,
+              "Andrea Angiolino",
+              "",
+              "other"
+            ],
+            [
+              32,
+              "ANIMEniacs Corp",
+              "",
+              "other"
+            ],
+            [
+              33,
+              "Fabio Antonelli",
+              "",
+              "other"
+            ],
+            [
+              34,
+              "Antonio Antonio Giardina",
+              "",
+              "other"
+            ],
+            [
+              35,
+              "Archivio di Ferro",
+              "",
+              "other"
+            ],
+            [
+              36,
+              "Rin Assi",
+              "",
+              "other"
+            ],
+            [
+              37,
+              "Assia Petricelli e Sergio Riccardi",
+              "",
+              "other"
+            ],
+            [
+              38,
+              "Riccardo Atzeni",
+              "",
+              "other"
+            ],
+            [
+              39,
+              "Davide Aurilia",
+              "",
+              "other"
+            ],
+            [
+              40,
+              "Paul Azaceta",
+              "Outcast, Daredevil artist",
+              "comics"
+            ],
+            [
+              41,
+              "Pierdomenico Baccalario",
+              "",
+              "other"
+            ],
+            [
+              42,
+              "Barbara Baraldi",
+              "",
+              "other"
+            ],
+            [
+              43,
+              "Barbascura X",
+              "",
+              "other"
+            ],
+            [
+              44,
+              "Paola Barbato",
+              "",
+              "other"
+            ],
+            [
+              45,
+              "Alessandro Barbero",
+              "",
+              "other"
+            ],
+            [
+              46,
+              "Paolo Barbieri",
+              "",
+              "other"
+            ],
+            [
+              47,
+              "Daniele Barbieri",
+              "",
+              "other"
+            ],
+            [
+              48,
+              "Carlo Bazan",
+              "",
+              "other"
+            ],
+            [
+              49,
+              "Michael Bendis",
+              "",
+              "other"
+            ],
+            [
+              50,
+              "Elisabetta Benetti",
+              "",
+              "other"
+            ],
+            [
+              51,
+              "Marcello Bertocchi",
+              "",
+              "other"
+            ],
+            [
+              52,
+              "Giacomo Bevilacqua",
+              "",
+              "other"
+            ],
+            [
+              53,
+              "Francesco Biagini",
+              "",
+              "other"
+            ],
+            [
+              54,
+              "Iris Biasio",
+              "",
+              "other"
+            ],
+            [
+              55,
+              "Marga Biazzi",
+              "",
+              "other"
+            ],
+            [
+              56,
+              "Beatrice \"Bibi\" Bassoli",
+              "",
+              "other"
+            ],
+            [
+              57,
+              "Luigi \"Bigio\" Cecchi",
+              "",
+              "other"
+            ],
+            [
+              58,
+              "David \"BIGO\" Bigotti",
+              "",
+              "other"
+            ],
+            [
+              59,
+              "Simona Binni",
+              "",
+              "other"
+            ],
+            [
+              60,
+              "Paolo Bisi",
+              "",
+              "other"
+            ],
+            [
+              61,
+              "Cleo Bissong",
+              "",
+              "other"
+            ],
+            [
+              62,
+              "Majid Bita",
+              "",
+              "other"
+            ],
+            [
+              63,
+              "Fernando Blanco",
+              "",
+              "other"
+            ],
+            [
+              64,
+              "Lelio Bonaccorso",
+              "",
+              "other"
+            ],
+            [
+              65,
+              "Claudia Bordin",
+              "",
+              "other"
+            ],
+            [
+              66,
+              "Giovanni Bosio",
+              "",
+              "other"
+            ],
+            [
+              67,
+              "Samantha \"Boum\" Leriche-Gionet",
+              "",
+              "other"
+            ],
+            [
+              68,
+              "Sudario Brando",
+              "",
+              "other"
+            ],
+            [
+              69,
+              "Filippo Braschi",
+              "",
+              "other"
+            ],
+            [
+              70,
+              "Aleksi Briclot",
+              "Magic: The Gathering illustrator",
+              "comics"
+            ],
+            [
+              71,
+              "Christopher Buehlman",
+              "Horror/fantasy novelist",
+              "author"
+            ],
+            [
+              72,
+              "Piero Bulzoni",
+              "",
+              "other"
+            ],
+            [
+              73,
+              "Matteo Bussola",
+              "",
+              "other"
+            ],
+            [
+              74,
+              "Cristina Calvagno",
+              "",
+              "other"
+            ],
+            [
+              75,
+              "Marco Calvi",
+              "",
+              "other"
+            ],
+            [
+              76,
+              "Camilla \"Camihawke\" Boniardi",
+              "",
+              "other"
+            ],
+            [
+              77,
+              "Deniz Camp",
+              "The Ultimates, Extremity",
+              "comics"
+            ],
+            [
+              78,
+              "Aaron Campbell",
+              "",
+              "other"
+            ],
+            [
+              79,
+              "Giuditta Campello",
+              "",
+              "other"
+            ],
+            [
+              80,
+              "Barbara Canepa",
+              "",
+              "other"
+            ],
+            [
+              81,
+              "Samuele Canestrari",
+              "",
+              "other"
+            ],
+            [
+              82,
+              "Marco Cannavò",
+              "",
+              "other"
+            ],
+            [
+              83,
+              "Alessandro Cappuccio",
+              "",
+              "other"
+            ],
+            [
+              84,
+              "Stefano Cardoselli",
+              "",
+              "other"
+            ],
+            [
+              85,
+              "Laura Carusino",
+              "",
+              "other"
+            ],
+            [
+              86,
+              "Casa Abis",
+              "",
+              "other"
+            ],
+            [
+              87,
+              "Licia Cascione",
+              "",
+              "other"
+            ],
+            [
+              88,
+              "Silvia Casini",
+              "",
+              "other"
+            ],
+            [
+              89,
+              "Stefano Casini",
+              "",
+              "other"
+            ],
+            [
+              90,
+              "Manlio Castagna",
+              "",
+              "other"
+            ],
+            [
+              91,
+              "Domenico Cava",
+              "",
+              "other"
+            ],
+            [
+              92,
+              "Alessio Cavatore",
+              "",
+              "other"
+            ],
+            [
+              93,
+              "Ivan Cavini",
+              "",
+              "other"
+            ],
+            [
+              94,
+              "Charles Cecil",
+              "Broken Sword creator",
+              "gaming"
+            ],
+            [
+              95,
+              "Daniele Cellini",
+              "",
+              "other"
+            ],
+            [
+              96,
+              "Katja Centomo",
+              "",
+              "other"
+            ],
+            [
+              97,
+              "Jolie Chan",
+              "",
+              "other"
+            ],
+            [
+              98,
+              "Marco Checchetto",
+              "Daredevil, Star Wars artist",
+              "comics"
+            ],
+            [
+              99,
+              "Cheong-gwa",
+              "",
+              "other"
+            ],
+            [
+              100,
+              "Ciruelo",
+              "Fantasy dragon illustrator",
+              "comics"
+            ],
+            [
+              101,
+              "Marco Civoli",
+              "",
+              "other"
+            ],
+            [
+              102,
+              "Ckibe",
+              "",
+              "other"
+            ],
+            [
+              103,
+              "Iban Coello",
+              "",
+              "other"
+            ],
+            [
+              104,
+              "Lodovica Comello",
+              "",
+              "other"
+            ],
+            [
+              105,
+              "Chris Condon",
+              "",
+              "other"
+            ],
+            [
+              106,
+              "Andrea Contato",
+              "",
+              "other"
+            ],
+            [
+              107,
+              "Alessia Coppola",
+              "",
+              "other"
+            ],
+            [
+              108,
+              "Silvia Corso",
+              "",
+              "other"
+            ],
+            [
+              109,
+              "Emma Cortesi",
+              "",
+              "other"
+            ],
+            [
+              110,
+              "Emilio Cozzi",
+              "",
+              "other"
+            ],
+            [
+              111,
+              "Daniel Cuello",
+              "",
+              "other"
+            ],
+            [
+              112,
+              "Francesco \"Cydonia\" Cilurzo",
+              "",
+              "other"
+            ],
+            [
+              113,
+              "Davide \"Dado\" Caporali",
+              "",
+              "other"
+            ],
+            [
+              114,
+              "Frank Daenen",
+              "",
+              "other"
+            ],
+            [
+              115,
+              "Alberto Dal Lago",
+              "",
+              "other"
+            ],
+            [
+              116,
+              "Elisabetta Dami",
+              "Geronimo Stilton creator",
+              "author"
+            ],
+            [
+              117,
+              "Alan D’Amico",
+              "",
+              "other"
+            ],
+            [
+              118,
+              "Simone D'Armini",
+              "",
+              "other"
+            ],
+            [
+              119,
+              "Chris Darril",
+              "",
+              "other"
+            ],
+            [
+              120,
+              "Davide \"Daw\" Berardi",
+              "",
+              "other"
+            ],
+            [
+              121,
+              "Leonardo De Andreis",
+              "",
+              "other"
+            ],
+            [
+              122,
+              "Claire Dee",
+              "",
+              "other"
+            ],
+            [
+              123,
+              "Jeff Dekal",
+              "",
+              "other"
+            ],
+            [
+              124,
+              "Sophie de La Villefromoit",
+              "",
+              "other"
+            ],
+            [
+              125,
+              "Alice Del Giudice",
+              "",
+              "other"
+            ],
+            [
+              126,
+              "Francesca Della Penna",
+              "",
+              "other"
+            ],
+            [
+              127,
+              "Werther Dell'Edera",
+              "Something is Killing the Children",
+              "comics"
+            ],
+            [
+              128,
+              "Lorenzo De Pretto",
+              "",
+              "other"
+            ],
+            [
+              129,
+              "Michele De Stefano",
+              "",
+              "other"
+            ],
+            [
+              130,
+              "Furio Detti",
+              "",
+              "other"
+            ],
+            [
+              131,
+              "Claudio Di Biagio",
+              "",
+              "other"
+            ],
+            [
+              132,
+              "Carmine Di Giandomenico",
+              "",
+              "other"
+            ],
+            [
+              133,
+              "Valentina Divitini",
+              "",
+              "other"
+            ],
+            [
+              134,
+              "Marko Djurdjevic",
+              "Marvel cover artist",
+              "comics"
+            ],
+            [
+              135,
+              "Maurizio \"Dr. Pira\" Piraccini",
+              "",
+              "other"
+            ],
+            [
+              136,
+              "Jesper Ejsing",
+              "Magic: The Gathering illustrator",
+              "comics"
+            ],
+            [
+              137,
+              "Elettra Storm",
+              "",
+              "other"
+            ],
+            [
+              138,
+              "Gisella \"Ella Swan\" Laterza",
+              "",
+              "other"
+            ],
+            [
+              139,
+              "Luca Enoch",
+              "Gea creator",
+              "comics"
+            ],
+            [
+              140,
+              "Eugenia Erba",
+              "",
+              "other"
+            ],
+            [
+              141,
+              "Silvia “Escilgioco” Fossati",
+              "",
+              "other"
+            ],
+            [
+              142,
+              "Frank Espinosa",
+              "Rocketo creator",
+              "comics"
+            ],
+            [
+              143,
+              "Cordelia Evora",
+              "",
+              "other"
+            ],
+            [
+              144,
+              "Noah Falstein",
+              "Veteran LucasArts game designer",
+              "gaming"
+            ],
+            [
+              145,
+              "Fulvio Fantino",
+              "",
+              "other"
+            ],
+            [
+              146,
+              "Francesco Farabi",
+              "",
+              "other"
+            ],
+            [
+              147,
+              "Cecilia Fasoli",
+              "",
+              "other"
+            ],
+            [
+              148,
+              "Raffaella Fenoglio",
+              "",
+              "other"
+            ],
+            [
+              149,
+              "Diego Fichera",
+              "",
+              "other"
+            ],
+            [
+              150,
+              "Luigi Filippelli",
+              "",
+              "other"
+            ],
+            [
+              151,
+              "Finley",
+              "",
+              "other"
+            ],
+            [
+              152,
+              "Ivan Fiorelli",
+              "",
+              "other"
+            ],
+            [
+              153,
+              "Francesca \"Fraffrog\" Presentini",
+              "",
+              "other"
+            ],
+            [
+              154,
+              "Bruno Frenda",
+              "",
+              "other"
+            ],
+            [
+              155,
+              "Iacopo Frigerio",
+              "",
+              "other"
+            ],
+            [
+              156,
+              "Pasquale Frisenda",
+              "",
+              "other"
+            ],
+            [
+              157,
+              "Simone Gabrielli",
+              "",
+              "other"
+            ],
+            [
+              158,
+              "Sabrina Gabrielli",
+              "",
+              "other"
+            ],
+            [
+              159,
+              "Eleonora Gaggero",
+              "",
+              "other"
+            ],
+            [
+              160,
+              "Marco Galli",
+              "",
+              "other"
+            ],
+            [
+              161,
+              "Livio Gambarini",
+              "",
+              "other"
+            ],
+            [
+              162,
+              "Alessandro “Ganassa” Mazzetti",
+              "",
+              "other"
+            ],
+            [
+              163,
+              "Alessia Gazzola",
+              "",
+              "other"
+            ],
+            [
+              164,
+              "David Genchi",
+              "",
+              "other"
+            ],
+            [
+              165,
+              "Ilenia Gennari",
+              "",
+              "other"
+            ],
+            [
+              166,
+              "Gens d’Ys",
+              "",
+              "other"
+            ],
+            [
+              167,
+              "Vittorio Giardino",
+              "Italian comics artist",
+              "comics"
+            ],
+            [
+              168,
+              "Gabriella Giliberti",
+              "",
+              "other"
+            ],
+            [
+              169,
+              "Chiara Giovannini",
+              "",
+              "other"
+            ],
+            [
+              170,
+              "Lorenzo Giusti",
+              "",
+              "other"
+            ],
+            [
+              171,
+              "Lucas Graciano",
+              "Fantasy illustrator",
+              "comics"
+            ],
+            [
+              172,
+              "Ilaria Gradassi",
+              "",
+              "other"
+            ],
+            [
+              173,
+              "Grailknights",
+              "",
+              "other"
+            ],
+            [
+              174,
+              "Marco Grandinetti",
+              "",
+              "other"
+            ],
+            [
+              175,
+              "Simone Alberto Grifone",
+              "",
+              "other"
+            ],
+            [
+              176,
+              "Carolina Grosa",
+              "",
+              "other"
+            ],
+            [
+              177,
+              "Daniele \"Gud\" Bonomo",
+              "",
+              "other"
+            ],
+            [
+              178,
+              "Simone Guida",
+              "",
+              "other"
+            ],
+            [
+              179,
+              "Francesco Gullo",
+              "",
+              "other"
+            ],
+            [
+              180,
+              "Haru",
+              "",
+              "other"
+            ],
+            [
+              181,
+              "I Cavalieri del Re",
+              "",
+              "other"
+            ],
+            [
+              182,
+              "Il Trono del Muori",
+              "",
+              "other"
+            ],
+            [
+              183,
+              "Virginia Imbimbo",
+              "",
+              "other"
+            ],
+            [
+              184,
+              "Agnese Innocente",
+              "",
+              "other"
+            ],
+            [
+              185,
+              "I Santi Bevitori",
+              "",
+              "other"
+            ],
+            [
+              186,
+              "Jimmy",
+              "",
+              "other"
+            ],
+            [
+              187,
+              "Phillip Kennedy Johnson",
+              "Action Comics, Alien",
+              "comics"
+            ],
+            [
+              188,
+              "Justine Jones",
+              "",
+              "other"
+            ],
+            [
+              189,
+              "Karmarket",
+              "",
+              "other"
+            ],
+            [
+              190,
+              "Kendal",
+              "",
+              "other"
+            ],
+            [
+              191,
+              "Jade Khoo",
+              "",
+              "other"
+            ],
+            [
+              192,
+              "Daniel Knauf",
+              "",
+              "other"
+            ],
+            [
+              193,
+              "Gina Nakhle Koller",
+              "",
+              "other"
+            ],
+            [
+              194,
+              "Karl Kopinski",
+              "Concept/fantasy illustrator",
+              "comics"
+            ],
+            [
+              195,
+              "Benjamin Lacombe",
+              "French illustrator",
+              "comics"
+            ],
+            [
+              196,
+              "Jordi Lafebre",
+              "European graphic novelist",
+              "comics"
+            ],
+            [
+              197,
+              "La Mente di Tetsuya",
+              "",
+              "other"
+            ],
+            [
+              198,
+              "Lang-Chi",
+              "",
+              "other"
+            ],
+            [
+              199,
+              "Andrea Laperni",
+              "",
+              "other"
+            ],
+            [
+              200,
+              "Simon Larocca",
+              "",
+              "other"
+            ],
+            [
+              201,
+              "Roberto Lauciello",
+              "",
+              "other"
+            ],
+            [
+              202,
+              "Simone Laudiero",
+              "",
+              "other"
+            ],
+            [
+              203,
+              "Arturo Lauria",
+              "",
+              "other"
+            ],
+            [
+              204,
+              "Alberto Lavoradori",
+              "",
+              "other"
+            ],
+            [
+              205,
+              "Luciano Leni",
+              "",
+              "other"
+            ],
+            [
+              206,
+              "Linda Lercari",
+              "",
+              "other"
+            ],
+            [
+              207,
+              "Martina Levato",
+              "",
+              "other"
+            ],
+            [
+              208,
+              "Liang Azha",
+              "",
+              "other"
+            ],
+            [
+              209,
+              "Li Haoling",
+              "",
+              "other"
+            ],
+            [
+              210,
+              "Li Lung-Chieh",
+              "",
+              "other"
+            ],
+            [
+              211,
+              "Living Park",
+              "",
+              "other"
+            ],
+            [
+              212,
+              "Hauke Loges",
+              "",
+              "other"
+            ],
+            [
+              213,
+              "Francesco \"Lo Manto\" Cecire",
+              "",
+              "other"
+            ],
+            [
+              214,
+              "Jesse Lonergan",
+              "",
+              "other"
+            ],
+            [
+              215,
+              "Mauro Longo",
+              "",
+              "other"
+            ],
+            [
+              216,
+              "Jessica \"Loputyn\" Cioffi",
+              "",
+              "other"
+            ],
+            [
+              217,
+              "Lorro",
+              "",
+              "other"
+            ],
+            [
+              218,
+              "Lorenzo \"LRNZ\" Ceccotti",
+              "Everyday Robots artist",
+              "comics"
+            ],
+            [
+              219,
+              "Lumira",
+              "",
+              "other"
+            ],
+            [
+              220,
+              "Piero Macola",
+              "",
+              "other"
+            ],
+            [
+              221,
+              "Edoardo Magro",
+              "",
+              "other"
+            ],
+            [
+              222,
+              "Maicol & Mirco",
+              "",
+              "other"
+            ],
+            [
+              223,
+              "Alex Maleev",
+              "Daredevil artist",
+              "comics"
+            ],
+            [
+              224,
+              "Daniele Manfredi",
+              "",
+              "other"
+            ],
+            [
+              225,
+              "Fiore Manni",
+              "",
+              "other"
+            ],
+            [
+              226,
+              "Stan Manoukian",
+              "",
+              "other"
+            ],
+            [
+              227,
+              "Matteo Mantoani",
+              "",
+              "other"
+            ],
+            [
+              228,
+              "M.A.O. - Manifesti Abbastanza Ostili",
+              "",
+              "other"
+            ],
+            [
+              229,
+              "Michele Marchitto",
+              "",
+              "other"
+            ],
+            [
+              230,
+              "Alessandro Marinone",
+              "",
+              "other"
+            ],
+            [
+              231,
+              "Giglia Marra",
+              "",
+              "other"
+            ],
+            [
+              232,
+              "Marco Marzocca",
+              "",
+              "other"
+            ],
+            [
+              233,
+              "Davide Masella",
+              "",
+              "other"
+            ],
+            [
+              234,
+              "Silvia Masini",
+              "",
+              "other"
+            ],
+            [
+              235,
+              "Corrado Mastantuono",
+              "Disney, Tex artist",
+              "comics"
+            ],
+            [
+              236,
+              "Kōichi Matsuda",
+              "",
+              "other"
+            ],
+            [
+              237,
+              "Markus \"Mawil\" Witzel",
+              "",
+              "other"
+            ],
+            [
+              238,
+              "Caterina Mazzei",
+              "",
+              "other"
+            ],
+            [
+              239,
+              "Frank D. Mazzoli",
+              "",
+              "other"
+            ],
+            [
+              240,
+              "Marco Mazzoni",
+              "",
+              "other"
+            ],
+            [
+              241,
+              "Sophia Mazzoni",
+              "",
+              "other"
+            ],
+            [
+              242,
+              "Ariel Medel",
+              "",
+              "other"
+            ],
+            [
+              243,
+              "Federico Mele",
+              "",
+              "other"
+            ],
+            [
+              244,
+              "Mel The Sketcher",
+              "",
+              "other"
+            ],
+            [
+              245,
+              "Lisa Merletti",
+              "",
+              "other"
+            ],
+            [
+              246,
+              "Ediberto Messina",
+              "",
+              "other"
+            ],
+            [
+              247,
+              "David Messina",
+              "Star Trek, Dawn of the Dead artist",
+              "comics"
+            ],
+            [
+              248,
+              "Peter Milligan",
+              "Hellblazer, Shade writer",
+              "comics"
+            ],
+            [
+              249,
+              "Hibiki Minagawa",
+              "",
+              "other"
+            ],
+            [
+              250,
+              "MinaLima",
+              "",
+              "other"
+            ],
+            [
+              251,
+              "Elena Mistrello",
+              "",
+              "other"
+            ],
+            [
+              252,
+              "Valeria Moccia",
+              "",
+              "other"
+            ],
+            [
+              253,
+              "Dario Moccia",
+              "",
+              "other"
+            ],
+            [
+              254,
+              "Mogiko",
+              "",
+              "other"
+            ],
+            [
+              255,
+              "Deena Mohamed",
+              "Shubeik Lubeik creator",
+              "comics"
+            ],
+            [
+              256,
+              "Elena Molini",
+              "",
+              "other"
+            ],
+            [
+              257,
+              "Peach Momoko",
+              "Marvel variant cover artist",
+              "comics"
+            ],
+            [
+              258,
+              "Michele Monteleone",
+              "",
+              "other"
+            ],
+            [
+              259,
+              "Moon",
+              "",
+              "other"
+            ],
+            [
+              260,
+              "Monte Michael Moore",
+              "",
+              "other"
+            ],
+            [
+              261,
+              "Stipan Morian",
+              "",
+              "other"
+            ],
+            [
+              262,
+              "Mario Moroni",
+              "",
+              "other"
+            ],
+            [
+              263,
+              "Giulio Mosca",
+              "",
+              "other"
+            ],
+            [
+              264,
+              "Daniele Movarelli",
+              "",
+              "other"
+            ],
+            [
+              265,
+              "Eleonora Musso",
+              "",
+              "other"
+            ],
+            [
+              266,
+              "Andrea Musso",
+              "",
+              "other"
+            ],
+            [
+              267,
+              "Fridolin Muuß",
+              "",
+              "other"
+            ],
+            [
+              268,
+              "Francesco Muzzopappa",
+              "",
+              "other"
+            ],
+            [
+              269,
+              "Marta Nael",
+              "",
+              "other"
+            ],
+            [
+              270,
+              "Martina Naldi",
+              "",
+              "other"
+            ],
+            [
+              271,
+              "Nalsco",
+              "",
+              "other"
+            ],
+            [
+              272,
+              "Lucia Nanni",
+              "",
+              "other"
+            ],
+            [
+              273,
+              "Mario Natangelo",
+              "",
+              "other"
+            ],
+            [
+              274,
+              "Stefano Nazzi",
+              "Indagini true-crime podcast",
+              "creator"
+            ],
+            [
+              275,
+              "Edoardo Needo",
+              "",
+              "other"
+            ],
+            [
+              276,
+              "Il Vecchio Nerd",
+              "",
+              "other"
+            ],
+            [
+              277,
+              "Stefano Nesi",
+              "",
+              "other"
+            ],
+            [
+              278,
+              "Daniele Nicastro",
+              "",
+              "other"
+            ],
+            [
+              279,
+              "Nicola \"Nick\" Bernardi",
+              "",
+              "other"
+            ],
+            [
+              280,
+              "NoDrip",
+              "",
+              "other"
+            ],
+            [
+              281,
+              "Francis Nordt",
+              "",
+              "other"
+            ],
+            [
+              282,
+              "Nownow",
+              "",
+              "other"
+            ],
+            [
+              283,
+              "Nyhur",
+              "",
+              "other"
+            ],
+            [
+              284,
+              "Bruno Olivieri",
+              "",
+              "other"
+            ],
+            [
+              285,
+              "Simone Ottuzzi",
+              "",
+              "other"
+            ],
+            [
+              286,
+              "Paco Roca",
+              "Wrinkles (Arrugas) creator",
+              "comics"
+            ],
+            [
+              287,
+              "Emiliano Pagani",
+              "",
+              "other"
+            ],
+            [
+              288,
+              "Ryan Pancoast",
+              "",
+              "other"
+            ],
+            [
+              289,
+              "Davide Paratore",
+              "",
+              "other"
+            ],
+            [
+              290,
+              "Paolo Parente",
+              "",
+              "other"
+            ],
+            [
+              291,
+              "Mariagiulia Pedrotti",
+              "",
+              "other"
+            ],
+            [
+              292,
+              "Michele Penco",
+              "",
+              "other"
+            ],
+            [
+              293,
+              "Pera Toons",
+              "",
+              "other"
+            ],
+            [
+              294,
+              "Sébastien Perez",
+              "",
+              "other"
+            ],
+            [
+              295,
+              "Francesca Perillo",
+              "",
+              "other"
+            ],
+            [
+              296,
+              "Christopher Perkins",
+              "Dungeons & Dragons designer",
+              "gaming"
+            ],
+            [
+              297,
+              "Lucio Perrimezzi",
+              "",
+              "other"
+            ],
+            [
+              298,
+              "Boban Pesov",
+              "",
+              "other"
+            ],
+            [
+              299,
+              "Rita Petruccioli",
+              "",
+              "other"
+            ],
+            [
+              300,
+              "Andrea Piccardo",
+              "",
+              "other"
+            ],
+            [
+              301,
+              "Sara Pichelli",
+              "Miles Morales co-creator",
+              "comics"
+            ],
+            [
+              302,
+              "Alessandro Pietramolla",
+              "",
+              "other"
+            ],
+            [
+              303,
+              "Frédéric Pillot",
+              "",
+              "other"
+            ],
+            [
+              304,
+              "Plastiboo",
+              "",
+              "other"
+            ],
+            [
+              305,
+              "Fabrizio “Pluc” Di Nicola",
+              "",
+              "other"
+            ],
+            [
+              306,
+              "Alessandro Polelli",
+              "",
+              "other"
+            ],
+            [
+              307,
+              "Martina Ponente",
+              "",
+              "other"
+            ],
+            [
+              308,
+              "Steve Prescott",
+              "",
+              "other"
+            ],
+            [
+              309,
+              "Federico Profaizer",
+              "",
+              "other"
+            ],
+            [
+              310,
+              "Patrick Prugne",
+              "",
+              "other"
+            ],
+            [
+              311,
+              "PunkTales",
+              "",
+              "other"
+            ],
+            [
+              312,
+              "Quasirosso",
+              "",
+              "other"
+            ],
+            [
+              313,
+              "Luca Raffaelli",
+              "",
+              "other"
+            ],
+            [
+              314,
+              "Luca Ralli",
+              "",
+              "other"
+            ],
+            [
+              315,
+              "Cecilia Randall",
+              "",
+              "other"
+            ],
+            [
+              316,
+              "Stepan Razorёnov",
+              "",
+              "other"
+            ],
+            [
+              317,
+              "Claudia Razzoli",
+              "",
+              "other"
+            ],
+            [
+              318,
+              "Roberto Recchioni",
+              "Dylan Dog writer",
+              "comics"
+            ],
+            [
+              319,
+              "Mauro Repetto",
+              "",
+              "other"
+            ],
+            [
+              320,
+              "Sylvain Repos",
+              "",
+              "other"
+            ],
+            [
+              321,
+              "Jude Reynard",
+              "",
+              "other"
+            ],
+            [
+              322,
+              "Elise Rezendes",
+              "",
+              "other"
+            ],
+            [
+              323,
+              "Lisa Riccardi",
+              "",
+              "other"
+            ],
+            [
+              324,
+              "Luca Ricci",
+              "",
+              "other"
+            ],
+            [
+              325,
+              "Massimiliano Richiero",
+              "",
+              "other"
+            ],
+            [
+              326,
+              "Giovanni Rigano",
+              "Artemis Fowl graphic novels",
+              "comics"
+            ],
+            [
+              327,
+              "Hazel Riley",
+              "",
+              "other"
+            ],
+            [
+              328,
+              "Giulio Rincione",
+              "",
+              "other"
+            ],
+            [
+              329,
+              "Alessandro Ripane",
+              "",
+              "other"
+            ],
+            [
+              330,
+              "Carlo Rispoli",
+              "",
+              "other"
+            ],
+            [
+              331,
+              "Eduardo Risso",
+              "100 Bullets artist",
+              "comics"
+            ],
+            [
+              332,
+              "Marco Rizzo",
+              "",
+              "other"
+            ],
+            [
+              333,
+              "Darick Robertson",
+              "The Boys, Transmetropolitan",
+              "comics"
+            ],
+            [
+              334,
+              "Rokia",
+              "",
+              "other"
+            ],
+            [
+              335,
+              "Carmelo Maria Romano",
+              "",
+              "other"
+            ],
+            [
+              336,
+              "Giulia Rosa",
+              "",
+              "other"
+            ],
+            [
+              337,
+              "Andrea Rossi",
+              "",
+              "other"
+            ],
+            [
+              338,
+              "RoundTwo",
+              "",
+              "other"
+            ],
+            [
+              339,
+              "Fabrizio Russo",
+              "",
+              "other"
+            ],
+            [
+              340,
+              "Umberto Sacchelli",
+              "",
+              "other"
+            ],
+            [
+              341,
+              "Nigel Sade",
+              "",
+              "other"
+            ],
+            [
+              342,
+              "Enrico Sadici",
+              "",
+              "other"
+            ],
+            [
+              343,
+              "Salgaja",
+              "",
+              "other"
+            ],
+            [
+              344,
+              "Beatrice Salvioni",
+              "",
+              "other"
+            ],
+            [
+              345,
+              "Maria Laura Sanapo",
+              "",
+              "other"
+            ],
+            [
+              346,
+              "Rafa Sandoval",
+              "The Flash, Justice League artist",
+              "comics"
+            ],
+            [
+              347,
+              "Chiara Cecilia Santamaria",
+              "",
+              "other"
+            ],
+            [
+              348,
+              "César Santivañez",
+              "",
+              "other"
+            ],
+            [
+              349,
+              "Marco Santucci",
+              "",
+              "other"
+            ],
+            [
+              350,
+              "Giusy Sardella",
+              "",
+              "other"
+            ],
+            [
+              351,
+              "Martina Sarritzu",
+              "",
+              "other"
+            ],
+            [
+              352,
+              "Samuel Sattin",
+              "",
+              "other"
+            ],
+            [
+              353,
+              "Davide Savelli",
+              "",
+              "other"
+            ],
+            [
+              354,
+              "Giuseppe Scapigliati",
+              "",
+              "other"
+            ],
+            [
+              355,
+              "Romina Scarpanti",
+              "",
+              "other"
+            ],
+            [
+              356,
+              "Olivier Schrauwen",
+              "Belgian graphic novelist",
+              "comics"
+            ],
+            [
+              357,
+              "Guglielmo Scilla",
+              "",
+              "other"
+            ],
+            [
+              358,
+              "Giorgia Sciotto",
+              "",
+              "other"
+            ],
+            [
+              359,
+              "Sara Maria Serafini",
+              "",
+              "other"
+            ],
+            [
+              360,
+              "Andrea Sestante",
+              "",
+              "other"
+            ],
+            [
+              361,
+              "Gregory \"Seth\" Gallant",
+              "",
+              "other"
+            ],
+            [
+              362,
+              "Chang Sheng",
+              "",
+              "other"
+            ],
+            [
+              363,
+              "Denà Shirakbari",
+              "",
+              "other"
+            ],
+            [
+              364,
+              "Martin Simmonds",
+              "Department of Truth artist",
+              "comics"
+            ],
+            [
+              365,
+              "Sio",
+              "",
+              "other"
+            ],
+            [
+              366,
+              "Donald Soffritti",
+              "",
+              "other"
+            ],
+            [
+              367,
+              "Rossana Soldano",
+              "",
+              "other"
+            ],
+            [
+              368,
+              "Kat Solomko",
+              "",
+              "other"
+            ],
+            [
+              369,
+              "Raffaele Sorrentino",
+              "",
+              "other"
+            ],
+            [
+              370,
+              "Dario Sostegni",
+              "",
+              "other"
+            ],
+            [
+              371,
+              "Samuel Spano",
+              "",
+              "other"
+            ],
+            [
+              372,
+              "Claudio Stassi",
+              "",
+              "other"
+            ],
+            [
+              373,
+              "Doc Strange19",
+              "",
+              "other"
+            ],
+            [
+              374,
+              "Strange House",
+              "",
+              "other"
+            ],
+            [
+              375,
+              "Antonio \"Sualzo\" Vincenti",
+              "",
+              "other"
+            ],
+            [
+              376,
+              "Minoru Sugiyama",
+              "",
+              "other"
+            ],
+            [
+              377,
+              "Sunset Radio",
+              "",
+              "other"
+            ],
+            [
+              378,
+              "Francesca Tamburini",
+              "",
+              "other"
+            ],
+            [
+              379,
+              "Emiliano Tanzillo",
+              "",
+              "other"
+            ],
+            [
+              380,
+              "Jordi Tarragona",
+              "",
+              "other"
+            ],
+            [
+              381,
+              "Davide Toccafondi",
+              "",
+              "other"
+            ],
+            [
+              382,
+              "Emanuele Tonini",
+              "",
+              "other"
+            ],
+            [
+              383,
+              "Tracy e Laura Hickman",
+              "Dragonlance co-creators",
+              "author"
+            ],
+            [
+              384,
+              "Licia Troisi",
+              "Italian fantasy novelist",
+              "author"
+            ],
+            [
+              385,
+              "Uncle bard & the dirty bastards",
+              "",
+              "other"
+            ],
+            [
+              386,
+              "Angel Unzueta",
+              "",
+              "other"
+            ],
+            [
+              387,
+              "Furuya Usamaru",
+              "Avant-garde mangaka",
+              "animation"
+            ],
+            [
+              388,
+              "Thierry Van Hasselt",
+              "",
+              "other"
+            ],
+            [
+              389,
+              "Silvia Vanni",
+              "",
+              "other"
+            ],
+            [
+              390,
+              "Tiffany Vecchietti",
+              "",
+              "other"
+            ],
+            [
+              391,
+              "Silvia Vecchini",
+              "",
+              "other"
+            ],
+            [
+              392,
+              "Massimiliano Veltri",
+              "",
+              "other"
+            ],
+            [
+              393,
+              "Luca Vergerio",
+              "",
+              "other"
+            ],
+            [
+              394,
+              "Lele Vianello",
+              "",
+              "other"
+            ],
+            [
+              395,
+              "Miguel Vila",
+              "",
+              "other"
+            ],
+            [
+              396,
+              "Jean Claudio Vinci",
+              "",
+              "other"
+            ],
+            [
+              397,
+              "Massimo Vitali",
+              "",
+              "other"
+            ],
+            [
+              398,
+              "Sandra von Borries",
+              "",
+              "other"
+            ],
+            [
+              399,
+              "Saori Wago",
+              "",
+              "other"
+            ],
+            [
+              400,
+              "Wendzy",
+              "",
+              "other"
+            ],
+            [
+              401,
+              "Federico Zampaglione",
+              "Tiromancino frontman",
+              "music"
+            ],
+            [
+              402,
+              "Stefano Zattera",
+              "",
+              "other"
+            ],
+            [
+              403,
+              "Danijel Zezelj",
+              "Dark Horse/Vertigo artist",
+              "comics"
+            ],
+            [
+              404,
+              "Alexis Ziritt",
+              "Space Riders artist",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official 2026 festival site title/description: \"Lucca Comics & Games 2026 | Legacy | 28 ott 1 nov 2026\" / \"Dal 28 ottobre al 1 novembre 2026 a Lucca\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "luccacomicsandgames.com is a year-round 'LC&G 365' hub, not the festival site; the actual 2026 event lives at lucca2026.luccacomicsandgames.com (linked from the hub as 'vai al sito ufficiale'). Its /it/ospiti guest index has 405 confirmed guests across a NUMBERED pager (1-40), not a 'load more' button or infinite scroll -- pipeline/tools/extract.mjs's expandAll() only ever advanced the first ~34 (through surname 'Amati') because it only recognizes English load-more button text AND, separately, has no logic for numbered pagination at all. Both the Italian-button gap and the numbered-pager gap are real, reproducible limits of the shipped tool; a one-off patched copy (clicking the lowest not-yet-visited page number each round) was used to retrieve the full 405-guest cache committed here. Every one of the 405 cards gives only a name, no bio/credit text and no visible category on the card itself; the site's own category chips (Comics/Games/Fantasy/Videogames/Junior/Cosplay/Music/Japan/Movie/Digital) are a client-side filter with no URL parameter, and scripted clicks on them were unreliable (worked once, returned zero guests on retry), so they could not be used to source real categories either. The Cosplay tab in particular seems to hold guests NOT present in the default 'Tutti' (all) view at all -- e.g. Taryn Cosplay, 16th Legio Italica, 501st Italica Garrison and Assassin's Creed Cosplay Italia were seen on that tab but never appeared across all 40 pages of 'Tutti', so this file's 405 picks likely under-count the cosplay guest contingent; their profile pages exist (lucca2026.luccacomicsandgames.com/it/ospiti/<slug>) but could not be captured with a matching photo via the tools used here. Given the complete absence of per-card bio text, cat is 'other' and known for is blank for every guest except ~40 international/Italian comics, fantasy-illustration, author, game and music figures confidently identifiable by name alone from general knowledge (e.g. Frank Miller, Sara Pichelli, Go Nagai, the Hickmans, Licia Troisi); the remaining ~365 are mostly Italian small-press/independent creators this research pass could not verify without guessing, per the 'never guess' rule."
+}

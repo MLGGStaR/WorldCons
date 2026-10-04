@@ -1,0 +1,15 @@
+{
+  "id": "connichi",
+  "name": "Connichi",
+  "short": "",
+  "url": "https://www.connichi.de/",
+  "organizer": "Animexx e.V.",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Germany's largest volunteer-run anime and manga convention, a fan-organised weekend of cosplay, concerts and Japanese culture in Wiesbaden.",
+  "cover": { "file": "pipeline/cache/extract/connichi.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-04", "end": "2026-09-06", "venue": "RheinMain CongressCenter", "city": "Wiesbaden", "region": "", "country": "DE" },
+  "checked": "2026-10-05",
+  "notes": "The most recent edition ran 4-6 September 2026, already over before this research window (starts 2026-10-05). As of this check, connichi.de itself (including its own 'Über die Connichi' opening-hours page) has not announced next year's dates; third-party aggregators (e.g. messen.de) list 3-5 September 2027 at the RheinMain CongressCenter (RMCC) Wiesbaden, but that is not yet confirmed on the organizer's own site, so no edition is listed."
+}

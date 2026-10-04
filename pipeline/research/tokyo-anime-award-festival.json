@@ -1,0 +1,15 @@
+{
+  "id": "tokyo-anime-award-festival",
+  "name": "Tokyo Anime Award Festival",
+  "short": "TAAF",
+  "url": "https://animefestival.jp/ja/",
+  "organizer": "TAAF Executive Committee / Association of Japanese Animations (AJA)",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An international animation festival in Tokyo with industry competitions, an Anime of the Year award and public screenings, held each March alongside AnimeJapan.",
+  "cover": { "file": "pipeline/cache/extract/tokyo-anime-award-festival.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-03-13", "end": "2026-03-16", "city": "Tokyo", "region": "", "country": "JP" },
+  "checked": "2026-10-05",
+  "notes": "Corrected url: the given taaf.jp is a legacy/stale shell of the festival's old site template with no current date info; the actively maintained official site is animefestival.jp (same template, current organizer/date data), used here instead. The outline page confirms TAAF2026 ran 2026-03-13 to 2026-03-16 in Ikebukuro, Tokyo — already concluded before this research window (2026-10-05) — and lists no TAAF2027 dates yet. A third-party travel site guesses 'mid-March 2027' but that is not an official announcement, so no edition is listed. TAAF is historically held in Nihonbashi and Ikebukuro, concurrent with AnimeJapan, per the batch note. It is a juried/industry-and-fan animation festival (award ceremonies, screenings, panels) rather than a guest-booking convention."
+}

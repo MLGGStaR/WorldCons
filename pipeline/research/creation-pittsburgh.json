@@ -1,0 +1,54 @@
+{
+  "id": "creation-pittsburgh",
+  "name": "Creation Pittsburgh",
+  "short": "",
+  "url": "https://creationent.com/events/ce-pittsburgh27/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Pittsburgh stop of Creation's touring Supernatural reunion weekend, with cast autographs, photo ops, panels and a concert.",
+  "cover": { "file": "pipeline/cache/extract/creation-pittsburgh.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton",
+      "city": "Pittsburgh",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://creationent.com/events/ce-pittsburgh27/tickets/",
+      "guestsPage": "https://creationent.com/events/ce-pittsburgh27/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/creation-pittsburgh.guests.json",
+          "picks": [
+            [4, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
+            [5, "Jared Padalecki", "Sam Winchester, Supernatural", "actor"],
+            [6, "Misha Collins", "Castiel, Supernatural", "actor"],
+            [8, "Mark Sheppard", "Crowley, Supernatural", "actor"],
+            [10, "Ruth Connell", "Rowena, Supernatural", "actor"],
+            [12, "Richard Speight Jr.", "Gabriel/Trickster, Supernatural", "actor"],
+            [14, "Rob Benedict", "Chuck/God, Supernatural", "actor"],
+            [16, "Alexander Calvert", "Jack, Supernatural", "actor"],
+            [18, "Kim Rhodes", "Sheriff Jody Mills, Supernatural", "actor"],
+            [20, "Briana Buckmaster", "Donna Hanscum, Supernatural", "actor"],
+            [22, "Matt Cohen", "Young John Winchester, Supernatural", "actor"],
+            [24, "DJ Qualls", "Garth Fitzgerald IV, Supernatural", "actor"],
+            [26, "Alaina Huffman", "Abaddon, Supernatural", "actor"],
+            [28, "Gil McKinney", "Henry Winchester, Supernatural", "actor"],
+            [30, "Sebastian Roché", "Balthazar, Supernatural", "actor"],
+            [32, "David Haydn-Jones", "Arthur Ketch, Supernatural", "actor"],
+            [34, "Jason Manns", "Singer-songwriter on the Supernatural tour", "music"],
+            [36, "Louden Swain", "House band on the Supernatural tour", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page (calendar.htm): 'Pittsburgh, PA Oct. 1-3, 2027 - Creation Pittsburgh'; event page: 'PITTSBURGH • OCTOBER 1-3, 2027' and 'VENUE ... Creation Tour '27 in Pittsburgh will take place at the DoubleTree by Hi[lton]...'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "'Creation <City>' is used for Creation Entertainment's generic touring brand (seed note: 'exact theme/name varies by year'), but this confirmed 2027 Pittsburgh date is entirely Supernatural-cast ('The Road So Far... The Road Ahead' tour), so types is set to horror/pop rather than scifi. Guest photos on this template are duplicated at two sizes (thumbnail + full); picks cite the larger (400x400) image of each pair, confirmed by matching filenames (e.g. candidate #8 and #36 are markSheppard.jpg and loudenSwain.jpg). Guest names/characters cross-checked against the live page text."
+}

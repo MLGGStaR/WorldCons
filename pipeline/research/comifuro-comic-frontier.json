@@ -1,0 +1,30 @@
+{
+  "id": "comifuro-comic-frontier",
+  "name": "Comifuro",
+  "short": "CF",
+  "url": "https://comifuro.net",
+  "organizer": "Comic Frontier committee",
+  "status": "active",
+  "types": ["comics", "anime", "cosplay"],
+  "blurb": "Indonesia's largest doujinshi market, where independent circles sell self-published comics, art and fan works at ICE BSD City twice a year.",
+  "cover": { "file": "pipeline/cache/extract/comifuro-comic-frontier.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "ICE BSD City",
+      "city": "South Tangerang",
+      "region": "",
+      "country": "ID",
+      "tickets": "https://comifuro.net",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official site (comifuro.net) shows a 'CF23 Ticket' nav link but renders no visible date text (it opens a JS-gated action rather than page text); independent event listings (ruangcosplay.com, otabase.net, kumparan.com) consistently give Comic Frontier 23 as 31 Oct - 1 Nov 2026 at ICE BSD, matching the con's usual Oct/Nov slot named in the research brief."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "comifuro.net itself never prints the CF23 date as page text (home, circle-registration and the catalog.comifuro.net subdomain all still show CF22 content; the 'CF23 Ticket' link target is '#'), so the 31 Oct-1 Nov 2026 dates above come from converging third-party event listings rather than the site's own visible text -- flagging that here since RESEARCH.md prefers the con's own site. Comifuro/Comic Frontier is a doujin circle market like Comiket, not a convention with a booked celebrity-guest program, so guests is 'none' rather than running a guest-page extract. No CF23 key art is published yet, so the cover is the most recent available homepage art, which is still branded for CF22 (webcf224.jpg); it should be swapped for real CF23 art once the site updates. This is a biannual brand (May and Oct/Nov); only the next show (CF23) has any reported date, so only one edition is listed."
+}

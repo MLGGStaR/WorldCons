@@ -1,0 +1,15 @@
+{
+  "id": "cangames",
+  "name": "CanGames",
+  "short": "",
+  "url": "https://cangames.ca/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "One of Canada's oldest tabletop gaming conventions, held every May long weekend in Ottawa since 1977.",
+  "cover": { "file": "pipeline/cache/extract/cangames.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2026-05-15", "end": "2026-05-17", "city": "Ottawa", "region": "ON", "country": "CA" },
+  "checked": "2026-10-05",
+  "notes": "CanGames 2026 (May 15-17, 2026) already concluded. The homepage says next year is the convention's 50th anniversary but gives no specific 2027 dates yet (confirmed via WebFetch of the homepage), so no upcoming edition is listed. Organizer/society name not stated on-site; the con describes itself as 'community-led'."
+}

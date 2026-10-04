@@ -1,0 +1,48 @@
+{
+  "id": "ai-kon",
+  "name": "Ai-Kon",
+  "short": "",
+  "url": "https://ai-kon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Manitoba's largest anime convention, with guests, cosplay, panels and a large vendor marketplace in Winnipeg.",
+  "cover": { "file": "pipeline/cache/extract/ai-kon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-16",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "RBC Convention Centre",
+      "city": "Winnipeg",
+      "region": "MB",
+      "country": "CA",
+      "tickets": "https://aikon.tix123.com/",
+      "guestsPage": "https://ai-kon.org/programming/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/ai-kon.guests.json",
+          "picks": [
+            [1, "Alejandro Saab", "Voice actor and content creator", "voice"],
+            [2, "The 404s", "Improv comedy troupe (geekprov)", "other"],
+            [3, "Hayden Daviau", "Voice actor, vtuber Sylla Aria", "voice"],
+            [4, "Blake Roman", "Angel Dust in Hazbin Hotel", "voice"],
+            [5, "Emi Lo", "Lucy in Cyberpunk: Edgerunners", "voice"],
+            [6, "Greg Ayres", "Anime voice actor, 25+ years", "voice"],
+            [7, "Erika Henningsen", "Charlie in Hazbin Hotel", "voice"],
+            [8, "Amir Talai", "Alastor in Hazbin Hotel", "voice"],
+            [9, "Kristen McGuire", "Voice actor, 400+ anime/game credits", "voice"],
+            [11, "Clifford Chapin", "Voice actor in animation and games", "voice"],
+            [12, "Rock M Sakura", "RuPaul's Drag Race Season 12", "other"],
+            [13, "Joshua Waters", "Voice actor, Pikmin super-fan", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage hero text: 'For the love of anime! July 16-18 2027 RBC Convention Centre Winnipeg, MB Canada'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Skipped candidate #10 'GHOST GiRL GOODS': confirmed via its guest page to be a Toronto clothing/vendor brand, not a person. The homepage headlines July 2027 dates and tickets while also linking an older 'Ai-Kon 2026 schedule'; the single Guests page has no year label, so it is treated as the 2027 lineup since 2027 is the only edition being promoted site-wide. Organizer name not confirmed on-site."
+}

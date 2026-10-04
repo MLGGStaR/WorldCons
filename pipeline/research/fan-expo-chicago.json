@@ -1,0 +1,30 @@
+{
+  "id": "fan-expo-chicago",
+  "name": "FAN EXPO Chicago",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexpochicago/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["pop", "comics", "horror"],
+  "blurb": "FAN EXPO HQ's Chicago-area show at the Donald E. Stephens Convention Center in Rosemont, with celebrity guests and comic creators.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-chicago.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-08-20",
+      "end": "2027-08-22",
+      "dates": "confirmed",
+      "venue": "Donald E. Stephens Convention Center",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://fanexpohq.com/fanexpochicago/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexpochicago/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event \"FAN EXPO Chicago\" 2027-08-20 -> 2027-08-22 @ Donald E. Stephens Convention Center; same text on page: 'AUGUST 20 - 22, 2027 DONALD E. STEPHENS CONVENTION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-city FAN EXPO HQ brand; this file covers the Rosemont/Chicago-area show only. Both the celebrities and comic-creators guest pages show only a 'PAST FAN FAVE GUESTS INCLUDED' section (Kurt Russell, Mel Gibson, Frank Miller, Scott Snyder, etc.) with 'sign up for updates' copy, not a 2027 lineup, so guests is 'none-yet'. Cover falls back to the 'FAN EXPO' wordmark logo (no edition-specific key art found; hero images are generic photo-op/autograph/category stock photos shared across the network)."
+}

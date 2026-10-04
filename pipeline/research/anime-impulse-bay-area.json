@@ -1,0 +1,30 @@
+{
+  "id": "anime-impulse-bay-area",
+  "name": "Anime Impulse Bay Area",
+  "short": "",
+  "url": "https://animeimpulse.com/",
+  "organizer": "Impulse Universe",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Northern California stop of the touring Anime Impulse convention, held at the Santa Clara Convention Center with a vendor hall, artist alley and special guests.",
+  "cover": { "file": "pipeline/cache/extract/anime-impulse-hub.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-07-17",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "Santa Clara Convention Center",
+      "city": "Santa Clara",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://animeimpulse.com/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official poster (hero:4) and homepage text: 'ANIME IMPULSE BAY AREA 2027 JULY 17-18, 2027 SANTA CLARA CONVENTION CENTER 5001 GREAT AMERICA PKWY. SANTA CLARA, CA 95054'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Dates/venue come from the shared animeimpulse.com homepage, which lists all three 2027 tour stops directly. A dedicated '/bay-area' event page is not live yet (confirmed 404, as is '/santa-clara'), so url points to the shared homepage and guestsPage is left blank. Past-year guest announcements lived at dated blog posts (e.g. 'aiba25-...' for 2025); no 2027-dated equivalents exist yet. Treated as 'none-yet' by the same evidence as the Los Angeles stop (the soonest of the three 2027 shows), whose own, live guest section was confirmed empty. Organizer is 'Impulse Universe, Inc.' per the site footer."
+}

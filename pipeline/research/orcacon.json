@@ -1,0 +1,15 @@
+{
+  "id": "orcacon",
+  "name": "OrcaCon",
+  "short": "",
+  "url": "https://www.orcacon.org/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["tabletop"],
+  "blurb": "Seattle-area tabletop gaming convention near Sea-Tac Airport with a CATAN National Championship Qualifier; paused for 2027, planning to return in 2028.",
+  "cover": { "file": "pipeline/cache/extract/orcacon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-01-09", "end": "2026-01-11", "city": "SeaTac", "region": "WA", "country": "US", "venue": "DoubleTree Sea-Tac" },
+  "checked": "2026-10-05",
+  "notes": "On hiatus: the site's dedicated update page (orcacon.org/orcacon-2027-show-update/) states the board decided to 'take a break from hosting OrcaCon in 2027' due to volunteer/board burnout and personal hardships, and plans to 'return in 2028' possibly at a new venue/dates. No organizing entity name beyond 'OrcaCon' (run by a volunteer board) was found. Last confirmed edition: Jan 9-11, 2026 at the DoubleTree Sea-Tac (per homepage text 'January 9th-11th, DoubleTree Sea-Tac, Washington State'); that edition's guest list (20 tabletop designers/streamers incl. Cody Pondsmith, Chris Pramas, Stefan Pokorny) was captured in pipeline/cache/extract/orcacon.guests.json but is not included here since it predates the research window."
+}

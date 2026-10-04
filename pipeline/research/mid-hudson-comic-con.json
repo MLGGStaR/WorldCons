@@ -1,0 +1,41 @@
+{
+  "id": "mid-hudson-comic-con",
+  "name": "Mid-Hudson Comic Con",
+  "short": "MHCC",
+  "url": "https://mhcomiccon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "The only pop-culture comic con in the Hudson Valley, held at the MJN Convention Center in Poughkeepsie, NY.",
+  "cover": { "file": "pipeline/cache/extract/mid-hudson-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-07",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "MJN Convention Center",
+      "city": "Poughkeepsie",
+      "region": "NY",
+      "country": "US",
+      "tickets": "https://mhcomiccon.com/tickets-1",
+      "guestsPage": "https://mhcomiccon.com/celebs-and-guest-artists",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/mid-hudson-comic-con.guests.json",
+          "picks": [
+            [0, "Carl Paolino", "TV producer, director, screenwriter", "other"],
+            [1, "Daniel Khanna", "Transformers brand illustrator", "comics"],
+            [2, "Kevin Kobasic", "Marvel and Valiant comics penciler", "comics"],
+            [3, "Denny Fincke", "Animator on Star Trek: Lower Decks", "animation"],
+            [4, "Jay Mooers", "Comic artist: Lady Death, Vampirella", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Tickets page text: 'the box office will also be open on the days of the show, Aug. 7-8, 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": ""
+}

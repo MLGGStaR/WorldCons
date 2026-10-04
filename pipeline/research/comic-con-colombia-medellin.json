@@ -1,0 +1,37 @@
+{
+  "id": "comic-con-colombia-medellin",
+  "name": "Comic Con Colombia (Medellín)",
+  "short": "",
+  "url": "https://comicconcolombia.com/",
+  "organizer": "Planet Comics / Plaza Mayor",
+  "status": "active",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "Medellín edition of Comic Con Colombia at Plaza Mayor, with comics, anime, cosplay, gaming and special guests; a sister edition runs in Bogotá each June.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-colombia-medellin-banner.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Plaza Mayor Medellín (Mezanine, Pabellón Amarillo, Terraza Exposiciones)",
+      "city": "Medellín",
+      "region": "",
+      "country": "CO",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-colombia-medellin.guests.json",
+          "picks": [
+            [37, "Hiroaki Hirata", "Voice of Sanji in One Piece", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Plaza Mayor Medellín's own event page (plazamayor.com.co/eventos/comic-con-2026): 'DATE 27 November 2026 - 29 November 2026' at 'Mezanine, Pabellón Amarillo, Terraza Exposiciones'; corroborated by JSON-LD structured data on toogeek.co: 'Comic Con Medellín 2026' 2026-11-27 -> 2026-11-29 @ Plaza Mayor Medellín."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "comicconcolombia.com itself could not be reached all session (every attempt - default Chromium, --channel msedge, a fresh render, the www. subdomain, and WebFetch - failed with a TCP connection reset), so dates/venue are sourced from the host venue's own official event page instead, cross-checked against independent trackers (10times.com, rostercon.com, medellinvibra.co, quepasahoy.com.co) who all agree. Only one guest has been announced so far (Japanese voice actor Hiroaki Hirata, seen with photo on toogeek.co's guest page for this edition); its own host page literally says 'Ver los 1' (see the 1 guest), so this is not an incomplete read, just an early lineup. Cover uses the event's own official logo image (alt text 'Comic Con Medellín 2026 — logo oficial') since no wider key-art banner could be found anywhere reachable; this is a third-party fan/retail site (toogeek.co, a Colombian geek merch store), used only because the organizer's own site was unreachable. Sister edition Comic Con Colombia (Bogotá), same organizer/brand, is filed separately as comic-con-colombia-bogota.json."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "joefest",
+  "name": "JoeFest",
+  "short": "",
+  "url": "https://www.joefestusa.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["toys", "comics"],
+  "blurb": "A toy and comic convention in Augusta, Georgia, with over 250 vendors, comic creators and pop-culture guests.",
+  "cover": { "file": "pipeline/cache/extract/joefest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Augusta Convention Center",
+      "city": "Augusta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://buytickets.at/augustatoyandcomicshowfeaturingjoefest/1914890",
+      "guestsPage": "https://www.joefestusa.com/guests-and-vendors",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner: 'JoeFest Toy and Comic Convention June 25-27, 2027 AUGUSTA, GEORGIA Augusta Marriott at the Convention Center' with address line 'AUGUSTA CONVENTION CENTER 901 REYNOLDS STREET AUGUSTA, GEORGIA 30901'; a WFXG news article and independenttoys.news both confirm June 25-27, 2027 at the Augusta Convention Center."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage still carries a lot of leftover copy about the prior June 26-28, 2026 edition (which has already happened), including a guest mention ('BRIAN WILK... welcome to 2026 Augusta Toy and Comic Convention') and a Talking Joe Podcast appearance, but the top banner and page title clearly point to the next edition, June 25-27, 2027, and the venue address matches the Augusta Convention Center confirmed by a WFXG article and independenttoys.news. The Guests and Vendors page (https://www.joefestusa.com/guests-and-vendors) currently shows no guest cards at all for 2027, so guests is 'none-yet'. No organizer company name was found on the site or in search results, so left blank rather than guessed."
+}

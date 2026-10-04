@@ -1,0 +1,49 @@
+{
+  "id": "imaginales",
+  "name": "Les Imaginales",
+  "short": "",
+  "url": "https://www.imaginales.fr",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "France's foremost fantasy & science-fiction literature festival, held each May in Épinal with author guests and literary prizes.",
+  "cover": { "file": "pipeline/cache/extract/imaginales.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-27",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Épinal",
+      "region": "",
+      "country": "FR",
+      "tickets": "",
+      "guestsPage": "https://www.imaginales.fr/invites/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/imaginales.guests.json",
+          "picks": [
+            [1, "Anne-Gaëlle Balpe", "", "author"],
+            [2, "Camille Brunel", "", "author"],
+            [3, "Maureen Desmailles", "", "author"],
+            [4, "Bleuenn Guillou", "", "author"],
+            [5, "Ielenna", "", "author"],
+            [6, "Lavinia Jullien", "", "author"],
+            [7, "Gaëtan B. Maran", "", "author"],
+            [8, "Jean-Luc Marcastel", "", "author"],
+            [9, "Martin Meyronne", "", "author"],
+            [10, "Nell Pfeiffer", "", "author"],
+            [11, "Florence Thinard", "", "author"],
+            [12, "Tosca Noury", "", "author"],
+            [13, "Chloé Vollmer-Lo", "", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Imaginales 26ème édition 27 - 30 Mai 2027 / Épinal'; the guests page auto-filters to '?saison=2027' and lists this set under 'Autrices, auteurs, scientifiques et universitaires francophones (Bulle du Livre)'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only one guest category (Bulle du Livre authors/scientists/academics) was populated on the 2027 guest page at research time; other past sections (Bulle du Jeu, illustrators, international guests) may add more names later since the festival is still 8 months out. The og cover image is still last year's (2025) poster since no 2027 key art has been published yet; cards gave no 'known for' text beyond the name, so Known for is left blank for all 13."
+}

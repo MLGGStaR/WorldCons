@@ -1,0 +1,54 @@
+{
+  "id": "ohayocon",
+  "name": "Ohayocon",
+  "short": "",
+  "url": "https://ohayocon.online/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "A winter anime convention in Columbus, Ohio, held at The Plaza Hotel at Capital Square.",
+  "cover": { "file": "pipeline/cache/extract/ohayocon.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-01-29",
+      "end": "2027-01-31",
+      "dates": "confirmed",
+      "venue": "The Plaza Hotel at Capital Square",
+      "city": "Columbus",
+      "region": "OH",
+      "country": "US",
+      "tickets": "https://www.tickettailor.com/events/ohayocon/2340905",
+      "guestsPage": "https://ohayocon.online/guest-list/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/ohayocon.guests.json",
+          "picks": [
+            [1, "Brittney Karbowski", "", "voice"],
+            [2, "Analesa Fisher", "", "voice"],
+            [3, "Tavisha Wolfgarth-Simons", "", "voice"],
+            [4, "Michael Sinterniklaas", "", "voice"],
+            [5, "Mela Lee", "", "voice"],
+            [6, "Knightmage", "", "cosplay"],
+            [7, "Valeria Rodriguez", "", "cosplay"],
+            [8, "Grey DeLisle", "", "voice"],
+            [9, "Greg Eagles", "", "voice"],
+            [10, "Melissa Fahn", "", "voice"],
+            [11, "Andi Serpenti", "", "cosplay"],
+            [12, "Dorothy Fahn", "", "cosplay"],
+            [13, "Tom Fahn", "", "voice"],
+            [14, "David Errigo Jr.", "", "voice"],
+            [15, "Emi Lo", "", "voice"],
+            [16, "Rob Mungle", "", "voice"],
+            [17, "Rikki Simons", "", "voice"],
+            [18, "Richard Horvitz", "", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Ohayocon 2027 at The Plaza Hotel at Capital Square in Columbus, Ohio, January 29–31, 2027!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Every guest card on the Guest List page says only 'Guest of Honor' or 'Cosplay Guest of Honor' with no specific credits, so Known for is left blank for all 18 rather than guessed; cat is 'cosplay' for the four explicitly labeled Cosplay Guest of Honor (Knightmage, Valeria Rodriguez, Andi Serpenti, Dorothy Fahn) and 'voice' for the rest, matching an anime con's usual Guest of Honor program."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "little-rock-anime-fest",
+  "name": "Little Rock Anime Fest",
+  "short": "LRAF",
+  "url": "https://www.littlerockanimefest.com/",
+  "organizer": "VXV Events, LLC",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "An anime and cosplay convention at the Statehouse Convention Center in Little Rock, with voice-actor guests and fan panels.",
+  "cover": { "file": "pipeline/cache/extract/little-rock-anime-fest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "dates": "confirmed",
+      "venue": "Statehouse Convention Center",
+      "city": "Little Rock",
+      "region": "AR",
+      "country": "US",
+      "tickets": "https://www.littlerockanimefest.com/tickets",
+      "guestsPage": "https://www.littlerockanimefest.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/little-rock-anime-fest.guests.json",
+          "picks": [
+            [0, "J Michael Tatum", "Black Butler, Attack on Titan", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page title: 'Little Rock Anime Fest | February 6th & 7th, 2027 | Statehouse Convention Center'; guest card image itself reads 'FEBRUARY 6-7, 2027 LITTLE ROCK, ARKANSAS STATEHOUSE CONVENTION CENTER'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page candidate #1 ('Jeff Hardy autograph', filename MOCC42.jpg) is the exact same shared stock image used in the FAQ illustration on sibling VXV site Iron City Comic Con, and links only to the generic /tickets page rather than a guest profile, so it is a template/demo photo, not a real confirmed guest of this show, and was excluded. Candidate #0's card has no alt text but reads 'J Michael Tatum' with the convention name/date printed directly on the graphic, confirmed by viewing the image; known-for is general knowledge (Black Butler/Sebastian Michaelis, Attack on Titan/Erwin Smith are both visible in the character montage on his own card). Organizer confirmed from footer: '© VXV Events, LLC 2025. All rights reserved.'"
+}

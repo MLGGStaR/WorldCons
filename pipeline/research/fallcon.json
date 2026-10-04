@@ -1,0 +1,14 @@
+{
+  "id": "fallcon",
+  "name": "FallCon",
+  "short": "",
+  "url": "https://www.fallcon.com/",
+  "organizer": "FallCon Gaming Society",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "An annual three-day board game and miniatures convention in Calgary, running since 1987, with hosted play, exhibitors, an auction and the Canadian Game Design Awards.",
+  "cover": { "file": "pipeline/cache/extract/fallcon.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "FallCon 39 ran Aug 21-23, 2026 (Telus Convention Centre) -- already finished before today (2026-10-05) -- and the site's own homepage says outright 'Thank you for an amazing FallCon 39. Stay tuned for FallCon 40 dates', i.e. the organizers have not announced the next edition yet; a web search likewise turned up no FallCon 40 date. The only dated JSON-LD on the page is for a separate, smaller 'FallCon FleaMarket' sub-event (2026-04-25, Sunalta Community Hall), also already past and not the three-day convention itself, so it is not used as the edition. Per the no-date-announced rule, editions is left empty."
+}

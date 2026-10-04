@@ -1,0 +1,15 @@
+{
+  "id": "motor-city-nightmares",
+  "name": "Motor City Nightmares",
+  "short": "MCN",
+  "url": "https://motorcitynightmares.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A Michigan horror convention that in 2026 became Camp Hollow Hills, an outdoor horror-camping weekend with celebrity guests, vendors and live music.",
+  "cover": { "file": "pipeline/cache/extract/motor-city-nightmares.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2026-09-04", "end": "2026-09-06", "city": "Brooklyn", "region": "MI", "country": "US", "venue": "The Groves of Michigan" },
+  "checked": "2026-10-05",
+  "notes": "The batch-given city (Belleville, MI) is stale: the current site only covers the 2026-09-04 to 2026-09-06 'Camp Hollow Hills' edition, an outdoor camping weekend at The Groves of Michigan campground, 13500 US Highway 12, Brooklyn, MI 49230 (confirmed via the ticket link to thegrovesofmichigan.com and a web search). That edition already ended before the research window (2026-10-05), and no 2027 date or venue has been announced on the site yet, so editions is empty and the Sept 2026 run is recorded as 'last'. Guests were not extracted since this edition falls outside the window."
+}

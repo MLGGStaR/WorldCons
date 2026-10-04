@@ -1,0 +1,12 @@
+1. id=the-gathering | The Gathering | https://www.tg.no/ | Hamar, NO | types: games | note: Norway's largest LAN party/demoscene festival, held over Easter since 1996
+2. id=magicon-norway | MagiCon Norway | https://www.magicon.no/ | Oslo, NO | types: pop, comics
+3. id=panama-comic-con | Panama Comic Con | https://comicconpanama.com/ | Panama City, PA | types: comics, pop | note: Official site had an expired SSL certificate at time of research; verify current status/dates before relying on this entry.
+4. id=cosplay-mania | Cosplay Mania | http://www.cosplaymania.com | Pasay, PH | types: cosplay, anime, pop | organizer: Cosplay.ph | note: ~40,000-50,000 attendees; held at SMX Convention Center Manila
+5. id=toycon-philippines | Toycon Philippines | https://toyconph.com | Mandaluyong, PH | types: toys, pop | organizer: Toycon Philippines | note: Billed as Southeast Asia's largest pop-culture/toy gathering; 19th edition Dec 2026 at SM Megamall
+6. id=komikon | Komikon | http://www.komikon.org | Quezon City, PH | types: comics | organizer: Artist's Den | note: First convention dedicated solely to Philippine comic-book fans, since 2005
+7. id=otaku-pop-fes | Otaku Pop Fes | https://otakupopfes.com | Parañaque, PH | types: anime, games, pop | organizer: CBZN Perspective / CyberE Inc. | note: Japanese pop-culture festival at Okada Manila
+8. id=philippine-game-festival | Philippine Game Festival | http://www.gamefestival.ph | Manila, PH | types: games | organizer: Game Developers Association of the Philippines | note: Annual video-game convention since 2009, includes the Game On Challenge student competition
+9. id=ozine-fest | Ozine Fest | https://www.facebook.com/OzineFest | Mandaluyong, PH | types: comics, anime | note: Independent comics/anime fan convention since 2005
+10. id=poznan-game-arena | Poznań Game Arena | https://gamearena.pl/en/ | Poznań, PL | types: games, cosplay | note: Largest computer/console/multimedia entertainment fair in Central and Eastern Europe
+11. id=pyrkon | Pyrkon | https://pyrkon.pl/en/ | Poznań, PL | types: scifi, comics, games, cosplay | organizer: Klub Fantastyki "Druga Era" | note: One of the largest multigenre fan conventions in Europe
+12. id=international-festival-of-comics-and-games | International Festival of Comics and Games | https://komiksfestiwal.com/en/ | Łódź, PL | types: comics, games | note: Largest comics event in Poland and Central/Eastern Europe

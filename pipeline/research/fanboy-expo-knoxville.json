@@ -1,0 +1,60 @@
+{
+  "id": "fanboy-expo-knoxville",
+  "name": "Fanboy Expo Knoxville",
+  "short": "",
+  "url": "https://fanboyexpo.com/knoxville/",
+  "organizer": "Fanboy Expo",
+  "status": "active",
+  "types": ["comics", "pop", "anime"],
+  "blurb": "Tennessee's largest pop-culture event at the Knoxville Convention Center, with celebrity guests, comic creators and cosplay, held twice a year.",
+  "cover": { "file": "pipeline/cache/extract/fanboy-expo-knoxville.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-12",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Knoxville Convention Center",
+      "city": "Knoxville",
+      "region": "TN",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/271",
+      "guestsPage": "https://fanboyexpo.com/anime/celebrity-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fanboy-expo-knoxville-march.guests.json",
+          "picks": [
+            [1, "Lydia Mackay", "One Piece, Fairy Tail, Black Clover, Fruits Basket", "voice"],
+            [2, "Trina Nishimura", "Mikasa Ackerman in Attack on Titan", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "fanboyexpo.com/anime page text: 'WELCOME TO FANBOY ANIME TOY GAMING KNOXVILLE... FRIDAY, MARCH 12, 2027... Knoxville Convention Center', countdown 'March 12-14, 2027 Knoxville Convention Center'. This is a spring sister show of the same Fanboy Expo organizer/venue, branded 'Fanboy Anime Toy Gaming Knoxville' on its own page (its 'MORE INFO!' button on the fanboyexpo.com homepage links to /anime, separate from /knoxville)."
+    },
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Knoxville Convention Center",
+      "city": "Knoxville",
+      "region": "TN",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/278",
+      "guestsPage": "https://fanboyexpo.com/knoxville/celebrity-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fanboy-expo-knoxville.guests.json",
+          "picks": [
+            [1, "Christopher Mintz-Plasse", "Superbad, Kick-Ass, How to Train Your Dragon", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "fanboyexpo.com/knoxville page text: 'JULY 9-11, 2027 Knoxville Convention Center' and 'WELCOME TO FANBOY EXPO KNOXVILLE FRIDAY, JULY 9, 2027... Knoxville Convention Center'; same dates shown on the fanboyexpo.com main-site countdown."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "fanboyexpo.com covers three shows from one organizer (Media Investments Global, LLC): the March Knoxville 'Anime Toy Gaming' show (/anime), the July Knoxville 'Fanboy Expo' show (/knoxville, this con's main brand) and Fanboy Expo Orlando (/orlando, filed separately as fanboy-expo-orlando). Per the batch note ('runs twice a year in Knoxville, spring & summer') both Knoxville dates are filed as two editions of this one convention. The lone candidate on the July /knoxville/celebrity-guests/ page is generic policy text ('All Celebrity Guests... will be appearing and signing autographs...'), not a bio, but its image filename is 'fanboy-layout-2027-Mintz-plasse-copy.jpg' and the image itself is the show's dated promo graphic naming 'CHRISTOPHER MINTZ-PLASSE, JULY 9-11, 2027, KNOXVILLE CONVENTION CENTER' (used as this file's cover too); a web search corroborates him as a confirmed Fanboy Expo Knoxville guest, so he is picked by name. /knoxville/comic-guests/ currently lists no guests (sponsor logos only). The cover (hero:0) is that same July/2027 promo banner, reading 'FANBOY EXPO 15TH ANNIVERSARY 2027'."
+}

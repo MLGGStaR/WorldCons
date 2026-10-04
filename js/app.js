@@ -86,6 +86,7 @@ function initials(name) {
 }
 
 function whenChip(c) {
+  if (c.tba) return `<span class="when-chip tba">Dates TBA</span>`;
   const ph = M.phase(c, S.today);
   const cls = ph === 'live' ? ' live' : ph === 'past' ? ' past' : '';
   return `<span class="when-chip${cls}">${esc(M.countdown(c, S.today))}</span>`;
@@ -135,7 +136,27 @@ function ribbonsHTML(c, asLinks = false) {
     .join('')}</div>`;
 }
 
+function lastHeld(c) {
+  return c.last ? `Last held ${M.formatRange(c.last.start, c.last.end)}` : 'Next dates to be announced';
+}
+
+function tbaBadgeHTML(c) {
+  return `<article class="badge is-tba" data-id="${esc(c.id)}">
+  <a class="badge-link" href="${conHref(c)}" aria-label="${esc(`${c.name}, dates not announced yet, ${placeText(c, true)}`)}"></a>
+  ${clipButton(c)}
+  ${artHTML(c)}
+  <div class="badge-body">
+    <h3 class="con-name">${esc(c.name)}</h3>
+    <p class="con-when"><span>Dates TBA</span><span class="days">${c.last ? 'Returning' : ''}</span></p>
+    <p class="con-where">${flagImg(c.country)}<span>${esc(placeText(c))}${c.venue ? ` · ${esc(c.venue)}` : ''}</span></p>
+    <div class="faces tba"><span class="slots"><i></i><i></i><i></i></span><span>${esc(lastHeld(c))}</span></div>
+  </div>
+  ${ribbonsHTML(c)}
+</article>`;
+}
+
 function badgeHTML(c) {
+  if (c.tba) return tbaBadgeHTML(c);
   const ph = M.phase(c, S.today);
   const days = M.dayCount(c);
   const range = M.formatRange(c.start, c.end, c.dp);
@@ -156,7 +177,15 @@ function badgeHTML(c) {
 function credHTML(id, opts = {}) {
   const g = S.guests[id] || { n: id, c: 'other' };
   const known = opts.known ?? g.k;
-  const others = (S.index.get(id) || []).filter((c) => c.id !== opts.exclude && M.phase(c, S.today) !== 'past');
+  const upcoming = (S.index.get(id) || []).filter((c) => M.phase(c, S.today) !== 'past');
+  // On a con page the line counts the guest's other cons; in the directory, all of them.
+  const more = opts.static
+    ? ''
+    : opts.exclude
+      ? upcoming.some((c) => c.id !== opts.exclude)
+        ? `+${plural(upcoming.filter((c) => c.id !== opts.exclude).length, 'more con')}`
+        : ''
+      : plural(upcoming.length, 'upcoming con');
   const tag = opts.static ? 'div' : 'a';
   const href = opts.static ? '' : ` href="${guestHref(id)}"`;
   const photo = g.p
@@ -168,7 +197,7 @@ function credHTML(id, opts = {}) {
   <span class="cred-band">${esc(M.CATS[g.c] || 'Guest')}</span>
   <${NameTag} class="cred-name">${esc(g.n)}</${NameTag}>
   ${known ? `<span class="cred-known">${esc(known)}</span>` : ''}
-  ${!opts.static && others.length ? `<span class="cred-more">+${plural(others.length, 'more con')}</span>` : ''}
+  ${more ? `<span class="cred-more">${more}</span>` : ''}
   ${opts.extra || ''}
 </${tag}>`;
 }
@@ -251,7 +280,7 @@ function renderRibbonRow(fx) {
         (t) =>
           `<button type="button" class="rtoggle r-${t.value}" data-k="type-${t.value}" data-type-toggle="${t.value}" aria-pressed="${set.has(t.value)}"${
             !t.n && !set.has(t.value) ? ' disabled' : ''
-          }><span class="swatch"></span>${esc(t.label)}<span class="n">${num(t.n)}</span></button>`,
+          } title="${esc(t.label)}"><span class="swatch"></span>${esc(SHORT_TYPE[t.value])}<span class="n">${num(t.n)}</span></button>`,
       )
       .join('');
   });
@@ -293,18 +322,27 @@ function renderResults(list) {
   const countries = new Set(list.map((c) => c.country));
   const desc = M.describeFilters(S.f);
   const what = S.f.when === 'upcoming' ? 'upcoming conventions' : 'conventions';
+  const tbaN = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f).length : 0;
+  const tbaPart = tbaN ? ` · <a href="#m-tba" data-jump="m-tba">${plural(tbaN, 'more con')} waiting on dates</a>` : '';
   $('#results').innerHTML = list.length
     ? `<strong>${num(list.length)} ${list.length === 1 ? what.replace(/s$/, '') : what}</strong>${desc ? `<span>${esc(desc)}</span>` : ''}<span>${plural(
         countries.size,
         'country',
         'countries',
-      )} · ${plural(guests.size, 'guest')} announced</span>`
-    : '';
+      )} · ${plural(guests.size, 'guest')} announced${tbaPart}</span>`
+    : tbaN
+      ? `<strong>No dated conventions match</strong><span>${plural(tbaN, 'con')} waiting on dates</span>`
+      : '';
 }
 
 function renderGroups(list) {
   const el = $('#groups');
   if (!list.length) {
+    const tbaOnly = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f) : [];
+    if (tbaOnly.length) {
+      el.innerHTML = tbaSection(tbaOnly);
+      return;
+    }
     el.innerHTML = `<div class="empty">${icon('search')}<h2>No conventions match</h2><p>Try a wider date range, another place, or fewer types.</p><button type="button" class="btn" data-k="reset" data-reset>Clear all filters</button></div>`;
     return;
   }
@@ -313,6 +351,7 @@ function renderGroups(list) {
     el.innerHTML = `<section class="month"><div class="month-head"><h2>${title}</h2></div><div class="grid">${list.map(badgeHTML).join('')}</div></section>`;
     return;
   }
+  const tba = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f) : [];
   el.innerHTML = M.groupByMonth(list)
     .map(
       (g) =>
@@ -321,7 +360,16 @@ function renderGroups(list) {
           'con',
         )}</span></div><div class="grid">${g.items.map(badgeHTML).join('')}</div></section>`,
     )
-    .join('');
+    .join('') + (tba.length ? tbaSection(tba) : '');
+}
+
+function tbaSection(tba) {
+  return `<section class="month" id="m-tba" aria-labelledby="mh-tba"><div class="month-head"><h2 id="mh-tba">Dates not announced yet</h2><span>${plural(
+    tba.length,
+    'con',
+  )}</span></div><p class="tba-note">These cons have run before and haven't announced their next dates. Clip one to your lanyard to keep an eye on it.</p><div class="grid">${tba
+    .map(badgeHTML)
+    .join('')}</div></section>`;
 }
 
 function renderList() {
@@ -398,7 +446,7 @@ function renderCon(id) {
     return;
   }
   S.wall = { cat: '', q: '' };
-  const days = M.dayCount(c);
+  const days = c.tba ? 0 : M.dayCount(c);
   const others = (S.series.get(c.series) || []).filter((x) => x.id !== c.id);
   const mapQ = encodeURIComponent([c.venue, c.city, regionName(c.country, c.region), countryName(c.country)].filter(Boolean).join(', '));
   const saved = S.saved.has(c.id);
@@ -413,8 +461,12 @@ function renderCon(id) {
           <h1>${esc(c.name)}</h1>
           ${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
           <div class="facts">
-            <div class="fact">${icon('calendar-days')}<div><b>${esc(M.formatLong(c.start, c.end, c.dp))}</b>${
-              c.dp === 'm' ? 'Exact dates not announced yet' : `${plural(days, 'day')} · ${esc(M.countdown(c, S.today))}`
+            <div class="fact">${icon('calendar-days')}<div>${
+              c.tba
+                ? `<b>Next dates not announced yet</b>${c.last ? `Last held ${esc(M.formatLong(c.last.start, c.last.end))}` : 'Check the official site for news'}`
+                : `<b>${esc(M.formatLong(c.start, c.end, c.dp))}</b>${
+                    c.dp === 'm' ? 'Exact dates not announced yet' : `${plural(days, 'day')} · ${esc(M.countdown(c, S.today))}`
+                  }`
             }</div></div>
             <div class="fact">${icon('map-pin')}<div>${c.venue ? `<b>${esc(c.venue)}</b>` : ''}${esc(placeText(c, true))} · <a href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">Map</a></div></div>
             ${(c.g || []).length ? `<div class="fact">${icon('users')}<div><b>${plural(c.g.length, 'guest')} announced</b><a href="#wall-title" data-jump="wall-title">See every guest</a></div></div>` : ''}
@@ -424,6 +476,7 @@ function renderCon(id) {
             <a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener">Official site${icon('arrow-up-right')}</a>
             ${c.tickets ? `<a class="btn ghost" href="${esc(c.tickets)}" target="_blank" rel="noopener">${icon('ticket')}Tickets</a>` : ''}
             <button type="button" class="btn ghost" data-clip="${esc(c.id)}" aria-pressed="${saved}">${icon('lanyard')}<span>${saved ? 'On your lanyard' : 'Clip to lanyard'}</span></button>
+            ${c.dp === 'd' ? `<button type="button" class="btn ghost" data-ics="${esc(c.id)}">${icon('calendar-days')}Add to calendar</button>` : ''}
             <button type="button" class="btn ghost" data-share="${esc(c.id)}">${icon('share-2')}Share</button>
           </div>
           <p class="checked">${checkedLine(c)}</p>
@@ -440,7 +493,7 @@ function renderCon(id) {
     </aside>
     <section class="wall-wrap" aria-labelledby="wall-title">${wallFrame(c)}</section>
   </div>`;
-  document.title = `${c.name} ${c.start.slice(0, 4)} · WorldCons`;
+  document.title = `${c.name}${c.tba ? '' : ` ${c.start.slice(0, 4)}`} · WorldCons`;
   renderWall(c);
 }
 
@@ -454,8 +507,9 @@ function checkedLine(c) {
 function wallFrame(c) {
   const ids = c.g || [];
   if (!ids.length) {
-    const msg =
-      c.gs === 'none'
+    const msg = c.tba
+      ? ['No lineup yet', 'Guests usually follow once the dates are out. Clip it to your lanyard to keep an eye on it.']
+      : c.gs === 'none'
         ? ['No guest lineup', 'This event doesn’t book celebrity or creator guests.']
         : c.gs === 'unavailable'
           ? ['Lineup on the official site', 'The guest list couldn’t be read automatically. It’s on the con’s own site.']
@@ -502,7 +556,8 @@ function renderWall(c) {
   }
   const cred = (id) => credHTML(id, { known: known[id], exclude: c.id });
   // Big lineups read better in sections; small ones keep the con's own order.
-  if (!S.wall.cat && cats.length > 1 && ids.length >= 16 && !q) {
+  const otherShare = (counts.get('other') || 0) / ids.length;
+  if (!S.wall.cat && cats.length > 1 && ids.length >= 16 && !q && otherShare < 0.4) {
     wall.innerHTML = cats
       .map((k) => {
         const inCat = shown.filter((id) => ((S.guests[id] || {}).c || 'other') === k);
@@ -547,11 +602,87 @@ function renderGuest(id) {
   document.title = `${g.n} · WorldCons`;
 }
 
+// ---- guest directory ----------------------------------------------------------------------------------
+
+const DIR_PAGE = 120;
+
+function directoryOrder() {
+  // Every guest on an upcoming lineup, most-booked first.
+  if (!S.dirOrder || S.dirOrderDay !== S.today) {
+    S.dirOrder = Object.keys(S.guests)
+      .map((id) => [id, (S.index.get(id) || []).filter((c) => M.phase(c, S.today) !== 'past').length])
+      .filter(([, n]) => n > 0)
+      .sort((a, b) => b[1] - a[1] || S.guests[a[0]].n.localeCompare(S.guests[b[0]].n));
+    S.dirOrderDay = S.today;
+  }
+  return S.dirOrder;
+}
+
+function renderDirectory(qs) {
+  const p = new URLSearchParams(qs || '');
+  const cat = CAT_ORDER.includes(p.get('cat')) ? p.get('cat') : '';
+  S.dir = { cat, q: (p.get('q') || '').slice(0, 60), shown: DIR_PAGE };
+  const total = directoryOrder().length;
+  $('#view-page').innerHTML = `<a class="back" href="${listHref()}">${icon('arrow-left')}All conventions</a>
+    <h1 class="page-title">Guests</h1>
+    <p class="page-sub">${plural(total, 'guest')} booked at upcoming conventions, most-booked first. Open anyone to see where to meet them.</p>
+    <div class="wall-head dir-head"><div class="cats" id="dir-cats" role="group" aria-label="Guest type"></div>
+      <div class="wall-search">${icon('search')}<input type="search" id="dir-q" placeholder="Find a guest" aria-label="Find a guest" autocomplete="off" value="${esc(S.dir.q)}"></div></div>
+    <div class="wall" id="dir-wall"></div>
+    <div class="more-wrap"><button type="button" class="btn ghost" id="dir-more" hidden></button></div>`;
+  document.title = 'Guests · WorldCons';
+  renderDirWall();
+}
+
+function dirMatches() {
+  const fq = M.fold(S.dir.q);
+  return directoryOrder().filter(([id]) => {
+    const g = S.guests[id];
+    return !fq || M.fold(`${g.n} ${g.k || ''}`).includes(fq);
+  });
+}
+
+function renderDirWall(append = false) {
+  const wall = $('#dir-wall');
+  if (!wall) return;
+  const byQuery = dirMatches();
+  const counts = new Map();
+  for (const [id] of byQuery) counts.set(S.guests[id].c, (counts.get(S.guests[id].c) || 0) + 1);
+  const list = S.dir.cat ? byQuery.filter(([id]) => S.guests[id].c === S.dir.cat) : byQuery;
+  if (!append) {
+    $('#dir-cats').innerHTML = [`<button type="button" data-dcat="" aria-pressed="${!S.dir.cat}">All<span>${num(byQuery.length)}</span></button>`]
+      .concat(
+        CAT_ORDER.filter((k) => counts.get(k)).map(
+          (k) => `<button type="button" data-dcat="${k}" aria-pressed="${S.dir.cat === k}">${CAT_PLURAL[k]}<span>${num(counts.get(k))}</span></button>`,
+        ),
+      )
+      .join('');
+    wall.innerHTML = list.length
+      ? list.slice(0, S.dir.shown).map(([id]) => credHTML(id)).join('')
+      : `<p class="wall-section">No guest matches “${esc(S.dir.q)}”.</p>`;
+  } else {
+    wall.insertAdjacentHTML('beforeend', list.slice(S.dir.shown - DIR_PAGE, S.dir.shown).map(([id]) => credHTML(id)).join(''));
+  }
+  const more = $('#dir-more');
+  const left = list.length - S.dir.shown;
+  more.hidden = left <= 0;
+  more.textContent = `Show ${num(Math.min(DIR_PAGE, left))} more of ${num(list.length)}`;
+}
+
+function syncDirectoryHash() {
+  const p = new URLSearchParams();
+  if (S.dir.cat) p.set('cat', S.dir.cat);
+  if (S.dir.q) p.set('q', S.dir.q);
+  const qs = p.toString();
+  history.replaceState(null, '', `#/guests${qs ? `?${qs}` : ''}`);
+}
+
 // ---- lanyard ----------------------------------------------------------------------------------------
 
 function renderLanyard() {
   const page = $('#view-page');
-  const list = M.sortCons([...S.saved].map((id) => S.byId.get(id)).filter(Boolean));
+  const saved = [...S.saved].map((id) => S.byId.get(id)).filter(Boolean);
+  const list = [...M.sortCons(saved.filter((c) => !c.tba)), ...saved.filter((c) => c.tba)];
   const stale = [...S.saved].filter((id) => !S.byId.has(id)).length;
   document.title = 'Your lanyard · WorldCons';
   if (!list.length) {
@@ -630,7 +761,7 @@ async function share(id) {
   const c = S.byId.get(id);
   if (!c) return;
   const url = new URL(conHref(c), location.href.split('#')[0]).href;
-  const text = `${c.name} · ${M.formatRange(c.start, c.end, c.dp)} · ${placeText(c, true)}`;
+  const text = `${c.name} · ${c.tba ? 'dates TBA' : M.formatRange(c.start, c.end, c.dp)} · ${placeText(c, true)}`;
   try {
     if (navigator.share) {
       await navigator.share({ title: c.name, text, url });
@@ -642,6 +773,20 @@ async function share(id) {
     if (e && e.name === 'AbortError') return;
     toast('Couldn’t share. Copy the address bar instead.');
   }
+}
+
+function downloadICS(id) {
+  const c = S.byId.get(id);
+  if (!c) return;
+  const now = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
+  const blob = new Blob([M.toICS(c, placeText(c, true), now)], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${c.id}.ics`;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
 }
 
 // ---- search + suggestions --------------------------------------------------------------------------------
@@ -665,7 +810,11 @@ function conMatches(q, limit) {
     const hay = ` ${M.fold([c.name, c.short, c.city, regionName(c.country, c.region), countryName(c.country)].join(' '))} `;
     if (words.every((w) => hay.includes(` ${w}`))) out.push(c);
   }
-  return M.sortCons(out).slice(0, limit);
+  const tba = S.tba.filter((c) => {
+    const hay = ` ${M.fold([c.name, c.short, c.city, regionName(c.country, c.region), countryName(c.country)].join(' '))} `;
+    return words.every((w) => hay.includes(` ${w}`));
+  });
+  return [...M.sortCons(out), ...tba].slice(0, limit);
 }
 
 function renderSuggest() {
@@ -692,7 +841,7 @@ function renderSuggest() {
       suggestItems.push({ href: conHref(c) });
       html += `<a class="suggest-item" role="option" id="sg-${suggestItems.length - 1}" href="${conHref(c)}" aria-selected="false">${
         c.img ? `<img class="thumb-wide" src="${esc(c.img)}" alt="" width="56" height="30">` : `<span class="ph thumb-wide"></span>`
-      }<span><b>${esc(c.name)}</b><small>${esc(M.formatRange(c.start, c.end, c.dp))} · ${esc(placeText(c))}</small></span></a>`;
+      }<span><b>${esc(c.name)}</b><small>${esc(c.tba ? 'Dates TBA' : M.formatRange(c.start, c.end, c.dp))} · ${esc(placeText(c))}</small></span></a>`;
     }
   }
   suggestItems.push({ apply: true });
@@ -820,6 +969,19 @@ document.addEventListener('click', (e) => {
     $('#sheet').showModal();
     return;
   }
+  const dcat = t.closest('[data-dcat]');
+  if (dcat) {
+    S.dir.cat = dcat.dataset.dcat;
+    S.dir.shown = DIR_PAGE;
+    syncDirectoryHash();
+    renderDirWall();
+    return;
+  }
+  if (t.closest('#dir-more')) {
+    S.dir.shown += DIR_PAGE;
+    renderDirWall(true);
+    return;
+  }
   const cat = t.closest('[data-cat]');
   if (cat) {
     S.wall.cat = cat.dataset.cat;
@@ -836,6 +998,8 @@ document.addEventListener('click', (e) => {
   }
   const shareBtn = t.closest('[data-share]');
   if (shareBtn) return share(shareBtn.dataset.share);
+  const icsBtn = t.closest('[data-ics]');
+  if (icsBtn) return downloadICS(icsBtn.dataset.ics);
   if (t.closest('[data-apply-search]')) return applySearch();
   if (t.closest('[data-toast-action]')) {
     const el = $('#toast');
@@ -863,7 +1027,18 @@ document.addEventListener('change', (e) => {
   if (k === 'region') return setFilters({ region: sel.value });
 });
 
+let dirTimer = 0;
 document.addEventListener('input', (e) => {
+  if (e.target.id === 'dir-q') {
+    clearTimeout(dirTimer);
+    dirTimer = setTimeout(() => {
+      S.dir.q = e.target.value.trim();
+      S.dir.shown = DIR_PAGE;
+      syncDirectoryHash();
+      renderDirWall();
+    }, 120);
+    return;
+  }
   if (e.target.id === 'wall-q') {
     S.wall.q = e.target.value;
     const c = S.byId.get(decodeURIComponent(location.hash.split('/')[2] || ''));
@@ -884,6 +1059,7 @@ function parseHash() {
   if (parts[0] === 'con' && parts[1]) return { view: 'con', id: decodeURIComponent(parts[1]) };
   if (parts[0] === 'guest' && parts[1]) return { view: 'guest', id: decodeURIComponent(parts[1]) };
   if (parts[0] === 'lanyard') return { view: 'lanyard' };
+  if (parts[0] === 'guests') return { view: 'guests', qs };
   return { view: 'list', qs };
 }
 
@@ -893,6 +1069,8 @@ function route() {
   if (prev === 'list' && r.view !== 'list') S.listScroll = scrollY;
   S.view = r.view;
   closeSuggest();
+  $('.nav-guests').setAttribute('aria-current', r.view === 'guests' ? 'page' : 'false');
+  $('.lanyard-link:not(.nav-guests)').setAttribute('aria-current', r.view === 'lanyard' ? 'page' : 'false');
   const listEl = $('#view-list');
   const pageEl = $('#view-page');
   if (r.view === 'list') {
@@ -909,6 +1087,7 @@ function route() {
     if (!S.ready) pageEl.innerHTML = S.failed ? notFound('The convention list didn’t load', 'Check your connection and reload.') : skeletonGrid(4);
     else if (r.view === 'con') renderCon(r.id);
     else if (r.view === 'guest') renderGuest(r.id);
+    else if (r.view === 'guests') renderDirectory(r.qs);
     else renderLanyard();
     scrollTo(0, 0);
     if (prev !== r.view || r.view !== 'list') $('#main').focus({ preventScroll: true });
@@ -976,7 +1155,8 @@ async function loadData() {
     S.generated = data.generated || '';
     S.guests = data.guests || {};
     S.cons = data.cons || [];
-    S.byId = new Map(S.cons.map((c) => [c.id, c]));
+    S.tba = data.tba || [];
+    S.byId = new Map([...S.cons, ...S.tba].map((c) => [c.id, c]));
     S.series = new Map();
     for (const c of M.sortCons(S.cons)) {
       if (!S.series.has(c.series)) S.series.set(c.series, []);
@@ -999,6 +1179,10 @@ async function loadData() {
 // ---- boot ----------------------------------------------------------------------------------------------------------
 
 document.body.insertAdjacentHTML('afterbegin', SPRITE);
+const narrow = matchMedia('(max-width: 760px)');
+const setPlaceholder = () => (qInput.placeholder = narrow.matches ? 'Search' : 'Search cons, cities, guests');
+setPlaceholder();
+narrow.addEventListener('change', setPlaceholder);
 S.saved = new Set(load(LS_SAVED, []));
 stripVersionParam();
 themeLabel();

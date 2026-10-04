@@ -1,0 +1,30 @@
+{
+  "id": "days-of-the-dead-indianapolis",
+  "name": "Days of the Dead Indianapolis",
+  "short": "",
+  "url": "https://www.daysofthedead.com/indianapolis/",
+  "organizer": "POSE",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Indianapolis stop (Summer edition) of the multi-city Days of the Dead horror-celebrity convention, with autographs and photo ops.",
+  "cover": { "file": "pipeline/cache/extract/days-of-the-dead-indianapolis.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Wyndham Indianapolis West",
+      "city": "Indianapolis",
+      "region": "IN",
+      "country": "US",
+      "tickets": "https://www.daysofthedead.com/indianapolis/tickets",
+      "guestsPage": "https://www.daysofthedead.com/indianapolis/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "The official ticketing partner page (captureticketing.com/events/267, linked from this page) is titled 'Days Of The Dead Summer Indianapolis 2027' and gives the dates July 9-11, 2027 at the Wyndham Indianapolis West, 2544 Executive Dr, Indianapolis, IN."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "daysofthedead.com/indianapolis posts a guest gallery (images/guests/2027/ind-1.png ... ind-6.png plus a 'chiodos_1.png') for the 2027 edition, but the images carry no name captions in the page DOM, so individual guests could not be identified; guests is recorded as 'unavailable' rather than guessed. The 'chiodos' filename suggests the band Chiodos is booked (it also appears in the Las Vegas gallery), but this was not added as a pick since it is a filename guess, not a captioned source."
+}

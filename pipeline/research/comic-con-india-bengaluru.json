@@ -1,0 +1,28 @@
+{
+  "id": "comic-con-india-bengaluru",
+  "name": "Comic Con India (Bengaluru)",
+  "short": "BCC",
+  "url": "https://www.comicconindia.com",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Bengaluru leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics, cosplay and gaming.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "last": {
+    "start": "2025-12-20",
+    "end": "2025-12-21",
+    "city": "Bengaluru",
+    "region": "",
+    "country": "IN"
+  },
+  "checked": "2026-10-05",
+  "notes": "No live 2026-27 event page on comicconindia.com as of this check. Comic Con India's Bengaluru 13th edition was Dec 20-21, 2025 at KTPO, Whitefield (Outlook India/respawn: 'Bengaluru Comic Con 2025 set for Dec 20-21 at KTPO, Whitefield') -- already before this check date, so recorded as the last edition rather than an upcoming one. No 2026 or 2027 Bengaluru date has been announced yet; the work-list's 'exact 2026 date not yet confirmed' matches what was found."
+}

@@ -1,0 +1,12 @@
+1. id=fantasy-and-magic-con | Fantasy & Magic Con | https://fantasymagiccon.eu/ | Warsaw, PL | types: pop, scifi
+2. id=gdakon | Gdakon | https://gdakon.pl/ | Sopot, PL | types: furry | note: Next edition announced for March 2027, not 2026
+3. id=hikari-festival | Hikari Festival | https://hikari.pl | Poznań, PL | types: anime, cosplay
+4. id=magnificon-expo | Magnificon Expo | https://www.magnificonexpo.com/en | Kraków, PL | types: pop, comics
+5. id=polcon | Polcon | http://www.polcon.fandom.art.pl | Warsaw, PL | types: scifi, tabletop | note: Rotates to a different Polish city each year, organized by the local fandom club (running since 1985, nearly every year)
+6. id=puerto-rico-comic-con | Puerto Rico Comic Con | https://prcomiccon.com/ | San Juan, PR, PR | types: comics, pop, scifi | organizer: El Tercer Hombre Inc. | note: Began in 2002 as the 'Caribbean Sci-Fi Expo,' rebranded 2007; billed as the biggest event of its kind in the Caribbean (~40,000 attendees).
+7. id=lisboa-games-week | Lisboa Games Week | https://www.lisboagamesweek.pt | Lisbon, PT | types: games | note: 63k+ visitors at peak; major Portuguese games expo
+8. id=amadora-bd | Amadora BD | https://www.amadorabd.com | Amadora, PT | types: comics | note: One of Portugal's largest comics events; confirmed 16-25 Oct 2026
+9. id=comic-con-portugal | Comic Con Portugal | https://www.comicconportugal.pt | Lisbon, PT | types: pop, comics | note: Held at FIL Lisbon; largest pop-culture convention in Portugal; URL not independently re-fetched this session (DNS blocked)
+10. id=fantasporto | Fantasporto | https://www.fantasporto.com | Porto, PT | types: horror, scifi | note: Long-running fantasy/horror/sci-fi film festival
+11. id=iberanime | Iberanime | https://www.iberanime.com | Porto, PT | types: anime | note: Held at Exponor; major Iberian anime convention
+12. id=east-european-comic-con | East European Comic Con | https://comic-con.ro/ | Bucharest, RO | types: comics, pop, games | organizer: Yuzu Events | note: Largest pop-culture festival in Eastern Europe; runs a second (spring) edition in April too

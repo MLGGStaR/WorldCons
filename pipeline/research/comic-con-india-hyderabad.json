@@ -1,0 +1,85 @@
+{
+  "id": "comic-con-india-hyderabad",
+  "name": "Comic Con India (Hyderabad)",
+  "short": "HCC",
+  "url": "https://www.comicconindia.com/all-cities-pages-2026/hyderabad-comic-con",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Hyderabad leg of Comic Con India's national tour, run with ReedPop, with Indian indie-comics studios and artists.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "Bharat Future City",
+      "city": "Hyderabad",
+      "region": "",
+      "country": "IN",
+      "tickets": "",
+      "guestsPage": "https://www.comicconindia.com/all-cities-pages-2026/hyderabad-comic-con#guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-india-hyderabad.guests.json",
+          "picks": [
+            [
+              5,
+              "Urban Tales",
+              "City-story comic artist collective",
+              "comics"
+            ],
+            [
+              6,
+              "Ubharta Kalakar By Dhruv",
+              "Jaipur doodle and mural artist",
+              "comics"
+            ],
+            [
+              7,
+              "Bullseye Press",
+              "Indian bilingual comic publisher",
+              "comics"
+            ],
+            [
+              8,
+              "Holy Cow Entertainment",
+              "Comic publisher: Ravanayan, The Aghori",
+              "comics"
+            ],
+            [
+              9,
+              "Lilorosh",
+              "Artist duo making tools for artists",
+              "other"
+            ],
+            [
+              10,
+              "Studio Kapi",
+              "Manga-style graphic novel studio",
+              "comics"
+            ],
+            [
+              11,
+              "Yali Dream Creations",
+              "Indian graphic novel publisher",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page text: '11th - 13th Dec 2026 Bharat Future City, Hyderabad'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Single-page site; guests (Indian indie-comics studios and artists) and dates are on the same page, not a separate guest URL. Card images did not report a rendered size (0x0) during this headless render but each resolved to a real photo URL, so they are kept as valid picks. No edition-specific key art is published, so the cover uses the shared Comic Con India logo (see comic-con-india-delhi.json notes)."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gen-con",
+  "name": "Gen Con",
+  "short": "",
+  "url": "https://www.gencon.com/",
+  "organizer": "Gen Con LLC",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The largest tabletop-gaming convention in North America, with thousands of board, card and roleplaying game events at the Indiana Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/gen-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-08-05",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Indiana Convention Center",
+      "city": "Indianapolis",
+      "region": "IN",
+      "country": "US",
+      "tickets": "https://www.gencon.com/badge_selection",
+      "guestsPage": "https://genconwriters.org/guests/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown/footer text: \"Gen Con Returns August 5 - 8, 2027\" / \"COUNTDOWN TO GEN CON August 5 - August 8, 2027 Indianapolis, IN\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "gencon.com itself has no general celebrity-guest page (/guests 404s); Gen Con is primarily an exhibitor/event-driven tabletop convention. It does host an affiliated Gen Con Writers' Symposium (genconwriters.org) each year with dozens of sci-fi/fantasy author panelists, but that program lives on a separate site and its 2027 lineup is not posted yet, so guests is set to 'unavailable' rather than fabricating a list."
+}

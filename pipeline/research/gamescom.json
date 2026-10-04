@@ -1,0 +1,30 @@
+{
+  "id": "gamescom",
+  "name": "Gamescom",
+  "short": "",
+  "url": "https://www.gamescom.global/",
+  "organizer": "Koelnmesse",
+  "status": "active",
+  "types": ["games", "cosplay"],
+  "blurb": "The world's largest trade and consumer event for computer and video games, with publisher reveals, Opening Night Live and a cosplay contest in Cologne.",
+  "cover": { "file": "pipeline/cache/extract/gamescom.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-23",
+      "end": "2027-08-29",
+      "dates": "confirmed",
+      "venue": "Koelnmesse",
+      "city": "Cologne",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.gamescom.global/en/info/private-visitors",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '#gamescom 23.-29.08.2027 open for public: 26.-29.08.2027'; meta description: 'gamescom 2027: The world's biggest event for computer and video games from 23-29 August 2027 in Cologne.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Trade days (incl. gamescom dev and Opening Night Live) run 23-25 Aug, public days 26-29 Aug 2027; no individual autograph-style guest roster is published, only a 'Creators' content-creator partner list and the Gamescom Cosplay Contest, so guests is 'none'."
+}

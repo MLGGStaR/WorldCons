@@ -1,0 +1,14 @@
+{
+  "id": "tampa-toy-con",
+  "name": "Tampa Toy Con",
+  "short": "",
+  "url": "https://www.eventeny.com/events/tampa-toy-con-2026-29697/",
+  "organizer": "Florida Toy Shows & Expos",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "A toy and collectibles show at the Florida State Fairgrounds in Tampa, with toy displays, 150+ vendor tables and pop-culture guests.",
+  "cover": { "file": "pipeline/cache/extract/tampa-toy-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No dedicated con domain exists; the organizer (Florida Toy Shows & Expos, which also runs the separately-branded 'Collectorfest' shows across Florida) manages this listing directly on Eventeny, so it is used as the official source. The page's JSON-LD gave July 11-12, 2026, but the visible body text said 'Saturday July 12th... Sunday July 13th', and external listings (Florida State Fairgrounds' own event page, Family Friendly Tampa Bay, Fun 4 Tampa Kids) independently confirm July 12-13, 2026 at the Florida State Fairgrounds, 4800 US-301, Tampa — the JSON-LD date was stale/wrong. Either way that edition is now in the past (outside the 2026-10-05+ window), and the organizer's Eventeny hub page (87 hosted events) lists upcoming 2026-2027 'Collectorfest'-branded shows in other Florida cities but no new Tampa Toy Con date, so editions is empty pending a 2027 announcement. The July 2026 edition's guests (Jack O'Halloran, Corin Nemec, Peter Raymundo, Keith Coogan) are not recorded since that edition has already ended."
+}

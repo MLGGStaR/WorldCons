@@ -1,0 +1,30 @@
+{
+  "id": "further-confusion",
+  "name": "Further Confusion",
+  "short": "FC",
+  "url": "https://furtherconfusion.org/",
+  "organizer": "Anthropomorphic Arts and Education, Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Annual furry convention in San Jose run by the non-profit Anthropomorphic Arts and Education, with panels, dances, dealers and an art show.",
+  "cover": { "file": "pipeline/cache/extract/further-confusion.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-01-14",
+      "end": "2027-01-18",
+      "dates": "confirmed",
+      "venue": "San Jose McEnery Convention Center",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://furtherconfusion.org/register",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'January 14th - 18th, 2027 San Jose Convention Center' and footer '150 W San Carlos St, San Jose, CA 95113 01/14/2027 - 01/18/2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Further Confusion's own homepage has no Guests/Guest-of-Honor nav link or mention; a WebSearch (Wikipedia/WikiFur-sourced) confirms FC has had no designated Guest of Honor program since 2017, so guests is 'none' rather than 'none-yet' -- this con structurally doesn't book a guest lineup. Venue written out as the full 'San Jose McEnery Convention Center' (the same downtown San Jose venue FanimeCon uses); the site's own text just shortens it to 'San Jose Convention Center' at the same 150 W San Carlos St address."
+}

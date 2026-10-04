@@ -1,0 +1,15 @@
+{
+  "id": "nairobi-comic-con",
+  "name": "Nairobi Comic Con",
+  "short": "NAICCON",
+  "url": "https://www.facebook.com/Naiccon/",
+  "organizer": "NAICCON",
+  "status": "active",
+  "types": ["comics", "cosplay", "games", "pop"],
+  "blurb": "East Africa's biggest comic convention, run by NAICCON in Nairobi since 2014, with cosplay, gaming and pop-culture programming.",
+  "cover": null,
+  "editions": [],
+  "last": { "start": "2024-11-16", "end": "2024-11-16", "city": "Nairobi", "region": "", "country": "KE" },
+  "checked": "2026-10-05",
+  "notes": "Official domain naiccon.co.ke has been taken over by an unrelated gambling/casino content site (confirmed on a fresh live check, 2026-10-05: title 'NAICCON Betpawa Kenya Casino'), so the Facebook page is used as url per the social-only fallback rule, matching the batch note. NAICCON's most recent confirmed-dated Nairobi Comic Con was its 10th-anniversary edition on 2024-11-16 (per okayafrica.com); Facebook and Instagram require a login to read posts, so no 2025, 2026 or 2027 date for the main Nairobi event could be confirmed from reachable sources. NAICCON is still active overall (a 'Kids Con' side event is confirmed for 2026-08-29 at Nairobi Street Kitchen, and a Halloween 'Bops & Screams' event is being promoted on its Linktree), so status is 'active' with no confirmed upcoming edition of the main con, rather than 'inactive'."
+}

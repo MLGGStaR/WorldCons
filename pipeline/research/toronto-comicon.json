@@ -1,0 +1,30 @@
+{
+  "id": "toronto-comicon",
+  "name": "Toronto Comicon",
+  "short": "",
+  "url": "https://fanexpohq.com/comicontoronto/",
+  "organizer": "Fan Expo HQ (Informa)",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A spring pop-culture weekend at the Metro Toronto Convention Centre, run by Fan Expo HQ as a smaller lead-in to Fan Expo Canada.",
+  "cover": { "file": "pipeline/cache/extract/toronto-comicon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Metro Toronto Convention Centre, North Building",
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA",
+      "tickets": "https://fanexpohq.com/comicontoronto/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/comicontoronto/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and JSON-LD: 'MARCH 19 - 21, 2027 METRO TORONTO CONVENTION CENTRE, NORTH BUILDING'; Fan Expo HQ's own events page lists 'TORONTO COMICON ... Metro Toronto Convention Centre MARCH 19 - 21, 2027 comicontoronto.com'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given URL fanexpohq.com/torontocomicon/ no longer resolves to the show (it redirects to the generic fanexpohq.com/home/ corporate page); the real slug, confirmed from Fan Expo HQ's events listing and from comicontoronto.com itself (which redirects here), is fanexpohq.com/comicontoronto/ — updated id's url accordingly, id kept as given since 'toronto-comicon' still matches the show. Celebrities/Animation Voices/Anime Guests/Comic Creators/Cosplayers pages are headed 'PAST FAN FAVE GUESTS INCLUDED' (Cary Elwes, Steven Ogg, Mara Wilson, etc.) with a newsletter sign-up CTA, not a 2027 lineup, so guests is none-yet."
+}

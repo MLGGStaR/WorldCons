@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   formatRange, dateBlock, phase, countdown, applyFilters, sortCons, groupByMonth, facets,
   filtersToQuery, queryToFilters, DEFAULT_FILTERS, buildGuestIndex, searchGuests, matchesQuery,
-  describeFilters, monthCounts, fold,
+  describeFilters, monthCounts, fold, toICS,
 } from '../js/model.js';
 
 const guests = {
@@ -142,7 +142,34 @@ test('guest index and guest search', () => {
   assert.deepEqual(searchGuests(guests, index, ''), []);
 });
 
+test('toICS makes an all-day event with an exclusive end and escaped text', () => {
+  const ics = toICS({ ...CONS[0], venue: 'Javits Center', blurb: 'Comics, film; and more', url: 'https://example.com/' }, 'New York, NY', '20261005T000000Z');
+  assert.match(ics, /DTSTART;VALUE=DATE:20261008\r\n/);
+  assert.match(ics, /DTEND;VALUE=DATE:20261012\r\n/);
+  assert.match(ics, /SUMMARY:New York Comic Con\r\n/);
+  assert.match(ics, /LOCATION:Javits Center\\, New York\\, NY\r\n/);
+  assert.match(ics, /DESCRIPTION:Comics\\, film\\; and more\\nhttps:\/\/example.com\/\r\n/);
+  const dec31 = toICS({ ...CONS[0], start: '2026-12-31', end: '2026-12-31' }, '');
+  assert.match(dec31, /DTEND;VALUE=DATE:20270101/);
+});
+
 test('describeFilters reads like a sentence', () => {
   assert.equal(describeFilters(F({ types: ['anime'], country: 'JP', when: '2027' })), 'Anime & Manga in Japan in 2027');
   assert.equal(describeFilters(F()), '');
+});
+
+test('undated cons: shown only in open date views and filtered by place/type/text', async () => {
+  const { showsTBA, filterTBA } = await import('../js/model.js');
+  const tba = [
+    { id: 'blizzcon', name: 'BlizzCon', city: 'Anaheim', region: 'CA', country: 'US', types: ['games'], tba: true, g: [] },
+    { id: 'connichi', name: 'Connichi', city: 'Wiesbaden', region: '', country: 'DE', types: ['anime'], tba: true, g: [] },
+  ];
+  assert.ok(showsTBA(F()));
+  assert.ok(!showsTBA(F({ month: '2026-11' })));
+  assert.ok(!showsTBA(F({ when: '2027' })));
+  assert.ok(!showsTBA(F({ guests: true })));
+  assert.ok(!showsTBA(F({ sort: 'name' })));
+  assert.deepEqual(filterTBA(tba, guests, F({ continent: 'EU' })).map((c) => c.id), ['connichi']);
+  assert.deepEqual(filterTBA(tba, guests, F({ types: ['games'] })).map((c) => c.id), ['blizzcon']);
+  assert.deepEqual(filterTBA(tba, guests, F({ q: 'anaheim' })).map((c) => c.id), ['blizzcon']);
 });

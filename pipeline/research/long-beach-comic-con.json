@@ -1,0 +1,15 @@
+{
+  "id": "long-beach-comic-con",
+  "name": "Long Beach Comic Con",
+  "short": "LBCC",
+  "url": "https://longbeachcomiccon.com/",
+  "organizer": "Nerd Street LLC",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A comics and pop-culture convention at the Long Beach Convention Center, with guest panels, an exhibitor hall, cosplay and artist exhibitors.",
+  "cover": { "file": "pipeline/cache/extract/long-beach-comic-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-09-05", "end": "2026-09-06", "city": "Long Beach", "region": "CA", "country": "US", "venue": "Long Beach Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The last confirmed edition ran September 5-6, 2026 (per the batch seed note), which ended before the 2026-10-05 research window. The current homepage (rendered 2026-10-05) still only advertises that same September 5 & 6, 2026 show ('LONG BEACH COMIC CON RETURNS SEPTEMBER 5 & 6, 2026!') with no next date anywhere in its text, nav or links; a WebSearch for 2027 dates likewise found none announced for Long Beach Comic Con itself (a related but separate one-day spring show, 'Long Beach Comic Expo', has a reported Feb 6, 2027 date, but that is a different event from this fall Comic Con and is out of scope for this id). Left editions empty until Long Beach Comic Con announces its next date."
+}

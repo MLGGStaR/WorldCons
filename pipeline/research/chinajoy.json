@@ -1,0 +1,15 @@
+{
+  "id": "chinajoy",
+  "name": "ChinaJoy",
+  "short": "",
+  "url": "https://en.chinajoy.net/#/englishPage/englishHome",
+  "organizer": "IDG / China Audio-video and Digital Publishing Association (CADPA)",
+  "status": "active",
+  "types": ["games", "pop"],
+  "blurb": "China's largest digital entertainment expo in Shanghai, spanning video games, animation, esports, toys and livestreaming across B2B and B2C halls.",
+  "cover": { "file": "pipeline/cache/extract/chinajoy.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-07-31", "end": "2026-08-03", "city": "Shanghai", "region": "", "country": "CN", "venue": "Shanghai New International Expo Centre" },
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition ran 2026-07-31 to 2026-08-03 at the Shanghai New International Expo Centre (confirmed on the official site's own text: 'will be held at the Shanghai New International Expo Center from July 31 to August 3, 2026') and has already concluded, before this window. The site's own homepage names no 2027 date. Several third-party trade-fair listings (e.g. jufair.com) give 2027-07-30 to 2027-08-02, but since that figure is not on chinajoy.net itself it is left out per the 'confirm from an official source' rule rather than carried over from an aggregator. ChinaJoy is an exhibitor/B2B-B2C trade expo (game publisher booths, hardware, esports stages) rather than a convention with an individual flown-in guest program, so guests would be 'none' once a qualifying edition is confirmed. og:image/twitter:image on the page both resolve to a bad non-image URL (just the bare page URL), so the cover instead uses the 2026 event logo graphic."
+}

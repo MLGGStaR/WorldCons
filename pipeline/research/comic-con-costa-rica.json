@@ -1,0 +1,48 @@
+{
+  "id": "comic-con-costa-rica",
+  "name": "Comic Con Costa Rica",
+  "short": "C2CR",
+  "url": "https://comicconcostarica.com/",
+  "organizer": "XGS / Pumpkin Palooza",
+  "status": "active",
+  "types": ["comics", "games", "cosplay", "pop"],
+  "blurb": "San José's NEON-themed comic con, with international film, game and comic-book guests alongside a cosplay programme at the national convention centre.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-costa-rica.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Centro de Convenciones de Costa Rica",
+      "city": "San José",
+      "region": "",
+      "country": "CR",
+      "tickets": "https://fandomticket.com/",
+      "guestsPage": "https://comicconcostarica.com/invitados/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-costa-rica.guests.json",
+          "picks": [
+            [1, "Ryan Drummond", "Original voice of Sonic the Hedgehog", "voice"],
+            [2, "Jeff Ward", "Agents of S.H.I.E.L.D.", "actor"],
+            [3, "Jennifer English", "Shadowheart in Baldur's Gate 3", "voice"],
+            [4, "Reed Shannon", "Ekko in Arcane (Netflix)", "voice"],
+            [5, "John Timms", "Superman: Son of Kal-El, Harley Quinn", "comics"],
+            [6, "Lorraine", "", "cosplay"],
+            [7, "Daliascos", "", "cosplay"],
+            [8, "Paulinka Maumora", "", "cosplay"],
+            [9, "Thames Malerose", "", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [
+        ["Catmynt", "", "comics"],
+        ["Vonhexa", "", "cosplay"]
+      ],
+      "evidence": "JSON-LD Event 'Comic Con Costa Rica: NEON' 2026-10-24T09:00:00-06:00 -> 2026-10-25T19:00:00-06:00 @ Centro de Convenciones de Costa Rica; homepage text '24–25 OCTUBRE 2026 CENTRO DE CONVENCIONES DE COSTA RICA'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Catmynt and Vonhexa appear on the guests grid and on their own bio pages with a 'FOTO PRONTO' (photo coming soon) placeholder instead of a photo, so they are filed as text-only guests rather than numbered picks. Reed Shannon's badge on the grid just says 'ACTOR', but his own bio page specifies he voices Ekko in the animated Netflix series Arcane, so he is filed as 'voice' to match his actual credit rather than the generic site label."
+}

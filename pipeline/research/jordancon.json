@@ -1,0 +1,34 @@
+{
+  "id": "jordancon",
+  "name": "JordanCon",
+  "short": "",
+  "url": "https://www.jordancon.org",
+  "organizer": "JordanCon, Inc.",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "A Wheel of Time-themed literary science fiction and fantasy convention held each April in Atlanta, benefiting the Mayo Clinic.",
+  "cover": { "file": "pipeline/cache/extract/jordancon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Atlanta Perimeter at Ravinia",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://www.jordancon.org/",
+      "guestsPage": "https://www.jordancon.org/2026/08/16/its-tiiiiimme-jordancon-2027-memberships-now-available/",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Scott Lynch", "Author of The Lies of Locke Lamora", "author"],
+        ["Charles Keegan", "Wheel of Time YA cover artist", "other"],
+        ["Ebony Adomanis", "Toastmaster", "other"]
+      ],
+      "evidence": "The homepage key-art banner (2027-Website_Banner.jpg, viewed directly) reads 'JordanCon April 16-18, 2027, Crowne Plaza Ravinia, Atlanta, Georgia'; homepage text: 'JordanCon is a Science Fiction/Fantasy literature convention... Taking place each April in Atlanta, GA' and '2027 Guests of Honor Literary Guest of Honor: Scott Lynch Artist Guest of Honor: Charles Keegan Toastmaster: Ebony Adomanis'; the Location page gives the full venue address, 4355 Ashford Dunwoody Road, Atlanta, GA 30346."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The same banner image's alt attribute (and an older hero slot) read 'April 17-19, 2026' — stale leftover text from last year's graphic — but the banner artwork itself, opened and read directly, clearly prints 'April 16-18, 2027'; a web search independently corroborates April 16-18, 2027 at Crowne Plaza Ravinia. No dedicated 2027 guest-photo page exists yet: the site's general 'Guests' nav link currently redirects to a stale 'Guests of Honor 2018' page, and the JordanCon FAQ itself says 2027 details are only under the homepage's 'JordanCon 2027' dropdown, which has no guest subpage yet. The three announced Guests of Honor/Toastmaster are therefore recorded as textOnlyGuests from the homepage announcement, with no photos available. Charles Keegan is a fantasy/book-cover painter (did the YA covers for The Eye of the World and The Great Hunt), not a comics artist, so he is filed as cat 'other' rather than 'comics'; Ebony Adomanis's own profession was not stated anywhere on the site, so her known-for is left as her stated role, Toastmaster, cat 'other'."
+}

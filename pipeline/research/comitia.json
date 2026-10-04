@@ -1,0 +1,60 @@
+{
+  "id": "comitia",
+  "name": "COMITIA",
+  "short": "",
+  "url": "https://www.comitia.co.jp/",
+  "organizer": "COMITIA Executive Committee",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Japan's largest market for original (non-fanwork) doujinshi, held about four times a year at Tokyo Big Sight, with sister COMITIA events elsewhere in Japan.",
+  "cover": { "file": "pipeline/cache/extract/comitia.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "Tokyo Big Sight, East Halls 1-2-3-7-8",
+      "city": "Tokyo",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Schedule page (comitia.co.jp/html/schedule.html): 'COMITIA158 日程：2026年12月13日（日） 場所：東京ビグサイト 東1・2・3・7・8ホール'"
+    },
+    {
+      "start": "2027-03-14",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Tokyo Big Sight, West Halls 1-2-3-4",
+      "city": "Tokyo",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Schedule page (comitia.co.jp/html/schedule.html): 'COMITIA159 日程：2027年3月14日（日） 場所：東京ビグサイト 西1・2・3・4ホール'"
+    },
+    {
+      "start": "2027-05-23",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Tokyo Big Sight, East Halls 4-5-6-7-8",
+      "city": "Tokyo",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Schedule page (comitia.co.jp/html/schedule.html): 'COMITIA160 日程：2027年5月23日（日） 場所：東京ビグサイト 東4・5・6・7・8ホール'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "COMITIA runs 4x/year (spring/summer/autumn/winter) at Tokyo Big Sight; the dedicated schedule page lists the next three confirmed single-day dates (158, 159, 160), each in a different hall combination, all pulled directly from that page rather than the homepage teaser. This is an original-works (non-fanwork) circle market, not a guest-booking convention, so guests is 'none' for every edition. Regional sister events (Kansai, Nagoya, Niigata COMITIA) run on their own sites and are out of scope for this id. Cover uses the official COMITIA158 flyer image."
+}

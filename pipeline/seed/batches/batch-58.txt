@@ -1,0 +1,12 @@
+1. id=hauntmare-expo | Hauntmare Expo | https://www.hauntmareexpo.com/ | Fresno, CA, US | types: horror, pop | note: 2026 edition July 18-19 at the Fresno Fairgrounds
+2. id=lfg-con | LFG Con | https://lfg-con.com/ | Burbank, CA, US | types: tabletop, games | note: Held at the Marriott Burbank Airport Hotel & Convention Center
+3. id=loscon | Loscon | https://loscon.org/ | Los Angeles, CA, US | types: scifi | organizer: Los Angeles Science Fantasy Society (LASFS)
+4. id=orccon | OrcCon | https://www.strategicon.net/ | Los Angeles, CA, US | types: tabletop, games | organizer: Strategicon | note: Presidents' Day weekend; one of three annual Strategicon shows at the Hilton LAX (with Gamex, Gateway)
+5. id=pacificon | Pacificon | https://www.pacificonquest.com/ | Santa Clara, CA, US | types: tabletop, games | note: Long-running Bay Area gaming convention; 2027 edition Sept 3-6 at the Santa Clara Marriott
+6. id=pasadena-comic-con | Pasadena Comic Con | https://www.pasadenacomiccon.com/ | Pasadena, CA, US | types: comics, pop | note: One-day show at the Pasadena Convention Center
+7. id=san-diego-rocket-con | San Diego Rocket Con | https://sdrocketcon.com/ | Del Mar, CA, US | types: comics, toys, pop | note: Held at the Del Mar Fairgrounds
+8. id=scream-diego | Scream Diego | https://screamdiego.com/ | San Diego, CA, US | types: horror, pop | note: San Diego's Halloween and horror convention; 2026 edition Oct 17
+9. id=sinister-creature-con | Sinister Creature Con | https://www.sinistercreaturecon.com/ | Sacramento, CA, US | types: horror, pop | note: Horror convention with film festival, cosplay contests and guest autographs; exact 2026 dates not yet posted
+10. id=socal-gaming-expo | SoCal Gaming Expo | https://socalgamingexpo.com/ | Pasadena, CA, US | types: games, tabletop | note: Includes a Tetris world-qualifier tournament; held at the Pasadena Convention Center
+11. id=colorado-festival-of-horror | Colorado Festival of Horror | https://cofestivalofhorror.com | Denver, CO, US | types: horror
+12. id=nan-desu-kan | Nan Desu Kan | http://www.ndkdenver.org | Aurora, CO, US | types: anime | organizer: Rocky Mountain Anime Association | note: Attendance capped at 7,500/day since 2011

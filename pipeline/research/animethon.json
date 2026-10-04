@@ -1,0 +1,30 @@
+{
+  "id": "animethon",
+  "name": "Animethon",
+  "short": "",
+  "url": "https://animethon.org/",
+  "organizer": "Alberta Society for Asian Popular Arts (ASAPA)",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Canada's longest-running anime convention, a volunteer-run festival in Edmonton with a nightly Asian-pop Music Fes, AMV programming, voice-actor and VTuber guests.",
+  "cover": { "file": "pipeline/cache/extract/animethon.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Edmonton Convention Centre",
+      "city": "Edmonton",
+      "region": "AB",
+      "country": "CA",
+      "tickets": "https://animethon.ca/tickets/",
+      "guestsPage": "https://animethon.org/guest/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Edmonton Convention Centre August 6 - 8, 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage already shows the next edition's dates (Aug 6-8, 2027), but /guest/ still lists the just-finished 2026 edition's roster (confirmed by a web search: Animethon 2026 ran Aug 7-9, 2026 with exactly this cast -- Erica Mendez, Kenji Nojima, Alan Lee, Daoko, Who-ya Extended, Minori Chihara, The 404s -- i.e. before today, 2026-10-05), so per the stale-lineup rule no guests are recorded for 2027 (guests=none-yet). Two 'Industry Guests' cards (a 'DAN DA DAN Booth' and a 'Heroine? Saint? No, I'm an All-Works Maid' card, linking to /guest/dandadan/ and /guest/all-works-maid/) are show/exhibitor promotions rather than people and would have been skipped even if the edition had been current. No usable logo or dedicated key-art banner was found (ogImage is empty and the only brand mark is a thin wordmark PNG), so that wordmark is used for cover rather than the homepage's hero photo, which is of a specific past guest (filename 'Ai_Furihata', a 2023-dated voice-actress photo)."
+}

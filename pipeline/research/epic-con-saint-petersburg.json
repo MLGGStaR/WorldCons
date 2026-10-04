@@ -1,0 +1,30 @@
+{
+  "id": "epic-con-saint-petersburg",
+  "name": "Epic Con Saint Petersburg",
+  "short": "",
+  "url": "https://epiccon.ru/",
+  "organizer": "Game Expo LLC",
+  "status": "active",
+  "types": ["cosplay", "games", "scifi"],
+  "blurb": "Russia's largest cosplay competition and fan festival for film, TV, comics and games, held at Sevcabel Port in Saint Petersburg.",
+  "cover": { "file": "pipeline/cache/extract/epic-con-saint-petersburg.home.json", "key": "hero:6" },
+  "editions": [
+    {
+      "start": "2027-07-10",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Sevcabel Port",
+      "city": "Saint Petersburg",
+      "region": "",
+      "country": "RU",
+      "tickets": "https://epiccon.ru/tickets/",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "epiccon.ru itself still shows the 2026 edition ('EPIC CON 2026 завершен!' / 'concluded') and has not posted 2027 dates yet. The official ticketing page (linked from epiccon.ru, organizer ООО «ГЕЙМ ЭКСПО» / Game Expo LLC) gives '10 июля – 11 июля' 2027 at 'Севкабель Порт', Санкт-Петербург, Кожевенная линия, дом 40 — i.e. July 10-11, 2027 at Sevcabel Port, the same venue as the 2026 show."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "epiccon.ru covers two separate annual shows under one domain/brand (Saint Petersburg and Moscow, different dates/venues each year, per the homepage text '11-12 июля 2026 Санкт-Петербург, 4-5 июля 2026 Москва'); this file covers the Saint Petersburg edition only, using the SPB-branded hero image (hero:6, logo reads 'EPIC CON SAINT PETERSBURG'). The 2026 SPB edition (July 11-12) ended before the research window and is excluded. No nav item or page for a guest/celebrity program exists on the site (only Home/Scheme/Cosplay/Schedule/Partners/Contact/Tickets); it is a cosplay-contest and fan-zone festival rather than an autograph-guest convention, so guests is 'none'. 2027 dates are confirmed only via the official ticketing partner page (which itself names the legal organizer and links back to epiccon.ru), not yet via the main site's own text, per RESEARCH.md's preference for the con's own site this is flagged in evidence rather than silently treated as equal to a same-site confirmation."
+}

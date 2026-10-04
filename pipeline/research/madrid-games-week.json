@@ -1,0 +1,16 @@
+{
+  "id": "madrid-games-week",
+  "name": "Madrid Games Week",
+  "short": "MGW",
+  "url": "https://www.ifema.es/madrid-games-week",
+  "organizer": "IFEMA / AEVI",
+  "status": "inactive",
+  "types": [
+    "games"
+  ],
+  "blurb": "Madrid's former consumer video game expo at IFEMA; paused since the 2019 edition and not on IFEMA's current events calendar.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "madridgamesweek.com no longer resolves (net::ERR_NAME_NOT_RESOLVED, and ECONNREFUSED/EAI_AGAIN from a second network, tried 2026-10-05); replaced the url with IFEMA's own page about the brand, which is reachable. Rendering IFEMA's live videojuegos calendar (ifema.es/calendario/videojuegos, fetched 2026-10-05) returns only one upcoming event, 'Madhorror' (30/10/26-02/11/26) — Madrid Games Week itself is not listed. Web search indicates the fair ran yearly 2013-2019, had its 2020 edition cancelled (IFEMA/AEVI, COVID-19) and has not been confirmed to run since; a press piece from June 2024 describes Madrid's big game/comic fairs as gone. Recorded as inactive (on extended hiatus) rather than 'nothing announced yet'; re-check if IFEMA's calendar adds a listing."
+}

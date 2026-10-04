@@ -1,0 +1,43 @@
+{
+  "id": "nekocon-hampton",
+  "name": "Nekocon",
+  "short": "",
+  "url": "https://www.nekocon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Virginia's oldest anime convention, held in Hampton with voice actor guests, cosplay and an artists alley.",
+  "cover": { "file": "pipeline/cache/extract/nekocon-hampton.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Hampton Roads Convention Center",
+      "city": "Hampton",
+      "region": "VA",
+      "country": "US",
+      "tickets": "https://www.showclix.com/event/nekocon-2026",
+      "guestsPage": "https://www.nekocon.com/voice-actors",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/nekocon-hampton.guests.json",
+          "picks": [
+            [1, "Kimberley Anne Campbell", "", "voice"],
+            [2, "Christopher Niosi", "Arataka Reigen in Mob Psycho 100", "voice"],
+            [3, "Tiana Camacho", "", "voice"],
+            [4, "Bill Rogers", "Brock in Pokémon", "voice"],
+            [5, "Isaak Wells", "Viral Skeletor persona", "voice"],
+            [6, "Jon Allen", "Mori in FLCL Progressive", "voice"],
+            [7, "Alex Mai", "One Piece, Toilet-Bound Hanako-kun", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'NekoCon 2026: The Rise of Purrzilla!! November 6th - November 8th, 2026'; guest page footer address '1610 Coliseum Drive Hampton, Virginia 23666' (the Hampton Roads Convention Center)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only the Voice Actor Guests page was reachable within budget; a 'Featured Artists' page is also linked from the nav but was not checked, so there may be additional non-voice-actor guests not captured here."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "comic-city-tokyo",
+  "name": "Comic City (Tokyo)",
+  "short": "",
+  "url": "https://www.akaboo.jp",
+  "organizer": "Akaboo Communications",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A long-running, all-genre doujinshi (fan comic) market held periodically at Tokyo Big Sight, part of the Comic City network also running in Osaka and Fukuoka.",
+  "cover": { "file": "pipeline/cache/extract/comic-city-tokyo.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Tokyo Big Sight",
+      "city": "Tokyo",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Akaboo (organizer) homepage schedule list: '11月29日（東京）COMIC CITY 東京 153' (Nov 29, 2026). Venue Tokyo Big Sight is the consistent venue for this numbered series per the organizer's own announcements for neighbouring editions (e.g. official X/Twitter post: '2024年12月15日（日） COMIC CITY 東京 151 東京ビッグサイト西・南ホール'), though it was not separately confirmed for #153 itself."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Akaboo runs many differently-branded doujinshi markets in Tokyo under one organizer (plain-numbered COMIC CITY 東京, plus HARU COMIC CITY, SUPER COMIC CITY, COMIC CITY SPARK, COMIC CITY VEGA, TOKYO FES, DOZEN ROSE FES and themed 'only' events, all visible on the same homepage calendar). This file tracks only the plain numbered 'COMIC CITY 東京' series, the one literally matching this id/name; the other same-organizer Tokyo events are not filed separately. This is a doujin-circle table-sales market (circles apply to sell self-published work), not a guest-driven convention — there is no celebrity guest program, so guests is 'none'. Cover uses the organizer's own dynamically-themed 'COMIC CITY' wordmark logo (logo:0 on the shared akaboo.jp homepage extract), since no edition-specific key art was found; this same cached homepage file is reused as the cover source for the sister comic-city-osaka and comic-city-fukuoka entries, as all three cities share one akaboo.jp portal homepage."
+}

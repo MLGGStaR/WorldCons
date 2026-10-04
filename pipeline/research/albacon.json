@@ -1,0 +1,22 @@
+{
+  "id": "albacon",
+  "name": "Albacon",
+  "short": "",
+  "url": "https://albacon.org",
+  "organizer": "LASTSFA",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "An annual science-fiction and fantasy fan convention in the Albany, NY area, run by the LASTSFA fan club.",
+  "cover": { "file": "pipeline/cache/extract/albacon.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": {
+    "start": "2025-09-12",
+    "end": "2025-09-14",
+    "venue": "Courtyard Albany (Clifton Park)",
+    "city": "Clifton Park",
+    "region": "NY",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The live site (albacon.org, which redirects to /2025/) only has the 2025 edition (Sept 12-14, 2025, at the Courtyard Albany in Clifton Park, NY), which ended before the research window. albacon.org/2026/ resolves to a bare, mostly-default WordPress install (Twenty Twenty-Five theme) with an unrelated 'Relaxacon in Saratoga Springs' placeholder text and the theme's own stock 404 image — not a real announcement, so no 2026 dates are recorded. No next edition has been publicly announced as of 2026-10-05; Albacon itself remains active (ran in 2025, organized continuously by LASTSFA since 1996 per Wikipedia)."
+}

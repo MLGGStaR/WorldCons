@@ -1,0 +1,38 @@
+{
+  "id": "furnal-equinox",
+  "name": "Furnal Equinox",
+  "short": "FE",
+  "url": "https://furnalequinox.com/",
+  "organizer": "Anthropomorphic Events of Ontario",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Canada's largest furry convention, held over the Spring Equinox weekend in Toronto, now at the Sheraton Centre.",
+  "cover": { "file": "pipeline/cache/extract/furnal-equinox.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-13",
+      "end": "2027-02-15",
+      "dates": "confirmed",
+      "venue": "Sheraton Centre Toronto",
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA",
+      "tickets": "https://furnalequinox.com/register/",
+      "guestsPage": "https://furnalequinox.com/guests-of-honour/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/furnal-equinox.guests.json",
+          "picks": [
+            [1, "Chise", "Vaccine researcher & science communicator", "other"],
+            [5, "Amyte", "Music producer and DJ", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown: 'February 13 - 15, 2027'; venue confirmed on the Hotel & Travel page: 'Our wonderful new venue, the Sheraton Centre Toronto... 123 Queen St W Toronto, Ontario M5H 2M9'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Each Guest of Honour (Chise, Amyte) has a multi-photo gallery on the guests page (4 and 3 images respectively); one representative photo per person was picked rather than every image. Venue change to the Sheraton Centre Toronto for 2027 confirmed on-site."
+}

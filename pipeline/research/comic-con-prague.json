@@ -1,0 +1,40 @@
+{
+  "id": "comic-con-prague",
+  "name": "Comic-Con Prague",
+  "short": "CCP",
+  "url": "https://www.comiccon.cz/?lang=en",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A pop-culture convention at Prague's O2 universum congress centre, with film and TV actors, comic-book artists and authors.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-prague.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Kongresové centrum O2 universum",
+      "city": "Prague",
+      "region": "",
+      "country": "CZ",
+      "tickets": "https://www.comiccon.cz/tickets",
+      "guestsPage": "https://www.comiccon.cz/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-prague.guests.json",
+          "picks": [
+            [5, "Jonathan Frakes", "Star Trek: The Next Generation", "actor"],
+            [6, "Marina Sirtis", "Star Trek: The Next Generation", "actor"],
+            [7, "John Higgins", "Watchmen (colourist)", "comics"],
+            [8, "Dave McKean", "Sandman, Batman: Arkham Asylum", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 'Comic-Con Prague 2027' 2027-04-16T10:00:00+01:00 -> 2027-04-18T18:00:00+01:00 @ Kongresové centrum O2 universum; page title 'Comic-Con Prague 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only 4 guests are announced so far for 2027 (this early in the cycle). Candidates #0-#2 on the guests page are unlabelled top banner slides, #3-#4 are a sponsor logo and a city logo, and #9 is a leftover 'download your photo with a Comic-Con Prague 2025 guest' promo graphic — none of those are guests. Comic-Con Brno & Junior (a separate research item, same organizer/template) was checked in the same session and shares this platform."
+}

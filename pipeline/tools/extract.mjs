@@ -11,41 +11,83 @@
 // they pick guests by candidate number, the build step maps numbers back to image URLs).
 
 import { chromium } from 'playwright';
-import { writeFileSync, mkdirSync } from 'node:fs';
-import { dirname, join, relative } from 'node:path';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs';
+import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const argv = process.argv.slice(2);
-const flags = new Set(['mode', 'save', 'out', 'shot', 'channel', 'max', 'wait']);
-const opt = (name, dflt) => {
-  const i = argv.indexOf(`--${name}`);
-  return i >= 0 ? argv[i + 1] : dflt;
-};
-const url = argv.find((a, i) => !a.startsWith('--') && !(i > 0 && flags.has(argv[i - 1].replace(/^--/, ''))));
-if (!url) {
-  console.error('usage: extract.mjs <url> [--mode guests|home] [--save slug] [--out file] [--shot file] [--channel msedge]');
-  process.exit(2);
-}
-const mode = opt('mode', 'guests');
-const save = opt('save');
-const out = opt('out') || (save ? join(ROOT, 'pipeline', 'cache', 'extract', `${save}.${mode}.json`) : null);
-const shot = opt('shot');
-const channel = opt('channel');
-const maxCandidates = Number(opt('max', 1500));
-const extraWait = Number(opt('wait', 0));
+export const EXTRACT_DIR = join(ROOT, 'pipeline', 'cache', 'extract');
 
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function main() {
-  const browser = await chromium.launch({
+export function launch(channel) {
+  return chromium.launch({
     headless: true,
     args: ['--disable-blink-features=AutomationControlled'],
     ...(channel ? { channel } : {}),
   });
+}
+
+export const savedPath = (slug, mode) => join(EXTRACT_DIR, `${slug}.${mode}.json`);
+
+export function saveResult(result, file) {
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, JSON.stringify(result, null, 1));
+}
+
+// A saved extraction of the same URL, made recently and successfully, is reused.
+function fromCache(file, url, maxAgeHours) {
+  if (!file || !existsSync(file) || maxAgeHours <= 0) return null;
+  try {
+    const r = JSON.parse(readFileSync(file, 'utf8'));
+    const age = (Date.now() - Date.parse(r.extractedAt || 0)) / 36e5;
+    if (r.url === url && age < maxAgeHours && !r.error && r.status && r.status < 400) return r;
+  } catch {
+    /* unreadable cache: render again */
+  }
+  return null;
+}
+
+async function cli() {
+  const argv = process.argv.slice(2);
+  const flags = new Set(['mode', 'save', 'out', 'shot', 'channel', 'max', 'wait', 'max-age']);
+  const opt = (name, dflt) => {
+    const i = argv.indexOf(`--${name}`);
+    return i >= 0 ? argv[i + 1] : dflt;
+  };
+  const url = argv.find((a, i) => !a.startsWith('--') && !(i > 0 && flags.has(argv[i - 1].replace(/^--/, ''))));
+  if (!url) {
+    console.error('usage: extract.mjs <url> [--mode guests|home] [--save slug] [--out file] [--shot file] [--channel msedge] [--fresh]');
+    process.exit(2);
+  }
+  const mode = opt('mode', 'guests');
+  const save = opt('save');
+  const out = opt('out') || (save ? savedPath(save, mode) : null);
+  const maxAge = argv.includes('--fresh') || opt('channel') ? 0 : Number(opt('max-age', 24));
+  const cached = save ? fromCache(out, url, maxAge) : null;
+  if (cached) {
+    printCompact(cached, relative(ROOT, out).replace(/\\/g, '/'));
+    return;
+  }
+  const browser = await launch(opt('channel'));
+  const result = await extractWith(browser, url, {
+    mode,
+    maxCandidates: Number(opt('max', 1500)),
+    extraWait: Number(opt('wait', 0)),
+    shot: opt('shot'),
+  });
+  await browser.close();
+  if (out) saveResult(result, out);
+  if (save) printCompact(result, relative(ROOT, out).replace(/\\/g, '/'));
+  else if (!out) process.stdout.write(JSON.stringify(result, null, 1) + '\n');
+  else console.log(`wrote ${out}`);
+}
+
+/** Render one page in a fresh context and collect metadata plus image candidates. */
+export async function extractWith(browser, url, { mode = 'guests', maxCandidates = 1500, extraWait = 0, shot = null } = {}) {
   const context = await browser.newContext({
     userAgent: UA,
     viewport: { width: 1366, height: 900 },
@@ -79,20 +121,44 @@ async function main() {
   } catch (e) {
     error = error || String(e.message || e).split('\n')[0];
   }
+  // Paginated guest lists (numbered pager or a "next" link): walk every page and merge.
+  if (mode === 'guests' && data.candidates) {
+    try {
+      const seen = new Set(data.candidates.map((c) => c.img));
+      let pages = 1;
+      let stalled = false;
+      for (let p = 0; p < 80; p++) {
+        const moved = await page.evaluate(nextPage);
+        if (!moved) break;
+        await page.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
+        await page.waitForLoadState('networkidle', { timeout: 8000 }).catch(() => {});
+        await sleep(700);
+        await autoScroll(page, 40);
+        const more = await page.evaluate(collect, { mode, maxCandidates });
+        let added = 0;
+        for (const c of more.candidates || []) {
+          if (seen.has(c.img)) continue;
+          seen.add(c.img);
+          data.candidates.push({ ...c, i: data.candidates.length, page: pages + 1 });
+          added++;
+        }
+        pages++;
+        if (!added) {
+          stalled = true;
+          break;
+        }
+      }
+      if (pages > 1) data.pagination = { pages, stalled };
+    } catch (e) {
+      data.pagination = { error: String(e.message || e).split('\n')[0] };
+    }
+  }
   if (shot) {
     mkdirSync(dirname(shot), { recursive: true });
     await page.screenshot({ path: shot, fullPage: false }).catch(() => {});
   }
-  await browser.close();
-
-  const result = { url, status, error, mode, extractedAt: new Date().toISOString(), ...data };
-  if (out) {
-    mkdirSync(dirname(out), { recursive: true });
-    writeFileSync(out, JSON.stringify(result, null, 1));
-  }
-  if (save) printCompact(result, relative(ROOT, out).replace(/\\/g, '/'));
-  else if (!out) process.stdout.write(JSON.stringify(result, null, 1) + '\n');
-  else console.log(`wrote ${out}`);
+  await context.close();
+  return { url, status, error, mode, extractedAt: new Date().toISOString(), ...data };
 }
 
 const JUNK =
@@ -115,9 +181,9 @@ function printCompact(r, savedPath) {
   }
   if (r.dateSnippets && r.dateSnippets.length) {
     lines.push('DATE TEXT:');
-    for (const d of r.dateSnippets.slice(0, mode === 'home' ? 14 : 6)) lines.push(`  ~ ${d}`);
+    for (const d of r.dateSnippets.slice(0, r.mode === 'home' ? 14 : 6)) lines.push(`  ~ ${d}`);
   }
-  if (mode === 'home') {
+  if (r.mode === 'home') {
     lines.push(`DESCRIPTION ${squeeze(r.description, 240)}`);
     lines.push('IMAGES (pick one key for the cover):');
     if (r.ogImage) lines.push(`  og      ${r.ogImage}`);
@@ -130,6 +196,13 @@ function printCompact(r, savedPath) {
   } else {
     const c = r.candidates || [];
     lines.push(`CANDIDATES ${c.length} (cite guests by #number; size is rendered px)`);
+    if (r.pagination) {
+      lines.push(
+        r.pagination.error
+          ? `PAGINATION ERROR ${r.pagination.error}: the list may continue on further pages`
+          : `PAGINATION walked ${r.pagination.pages} pages and merged them (later pages are marked page=N)`,
+      );
+    }
     const norm = (s) => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
     let sec = null;
     for (const x of c) {
@@ -187,9 +260,24 @@ async function expandAll(page) {
   for (let round = 0; round < 30; round++) {
     await autoScroll(page, 60);
     const clicked = await page.evaluate(() => {
-      const re = /^(load|show|view|see) (more|all)( guests?| results| celebrities| talent| creators)?$|^more guests$/i;
-      const els = [...document.querySelectorAll('button, a[role=button], a.button, a.btn, .load-more, [class*="load-more"]')];
-      const el = els.find((e) => re.test((e.innerText || '').trim()) && e.offsetParent !== null);
+      // "Load more" in the languages con sites are written in.
+      const re = new RegExp(
+        [
+          '^(load|show|view|see) (more|all)( guests?| results| celebrities| talent| creators| artists)?$',
+          '^more guests$',
+          '^(mostra|carica|vedi) (altri|altro|tutti)$',
+          '^(voir|afficher|charger) (plus|tout)$',
+          '^(mehr (laden|anzeigen)|alle anzeigen)$',
+          '^(ver|cargar|mostrar) (más|todos)$',
+          '^(carregar|ver) mais$',
+          '^(meer laden|toon meer|bekijk meer)$',
+          '^(visa fler|ladda fler|näytä lisää|vis flere)$',
+          '^(もっと見る|さらに表示|더보기|더 보기|加载更多|查看更多|顯示更多|载入更多)$',
+        ].join('|'),
+        'i',
+      );
+      const els = [...document.querySelectorAll('button, a[role=button], a.button, a.btn, .load-more, [class*="load-more"], [class*="loadmore"]')];
+      const el = els.find((e) => re.test((e.innerText || '').trim()) && e.offsetParent !== null && !e.disabled);
       if (el) {
         el.click();
         return true;
@@ -204,6 +292,60 @@ async function expandAll(page) {
   }
   await page.evaluate(() => window.scrollTo(0, 0));
   await sleep(300);
+}
+
+// Runs inside the page: click the control that leads to the next page of results.
+// Returns true when something was clicked.
+function nextPage() {
+  const cls = (e) => (typeof e.className === 'string' ? e.className : '');
+  // Whole class tokens only: utility classes such as Tailwind's "disabled:bg-x" are not states.
+  const hasToken = (e, re) => cls(e).split(/\s+/).some((t) => re.test(t));
+  const visible = (e) =>
+    e && e.offsetParent !== null && !e.disabled && e.getAttribute('aria-disabled') !== 'true' && !hasToken(e, /^(is-)?disabled$/i);
+  const carousel = /slick|swiper|carousel|slider|glide|owl-|splide|flickity|lightbox|gallery/i;
+  const inCarousel = (e) => {
+    for (let n = e; n && n !== document.body; n = n.parentElement) if (carousel.test(cls(n))) return true;
+    return false;
+  };
+  const inPager = (e) => !!e.closest('[class*="pag" i], [aria-label*="pag" i], [role="navigation"], nav');
+  const label = (e) => ((e.getAttribute('aria-label') || '') + ' ' + (e.innerText || '')).replace(/\s+/g, ' ').trim();
+  const clickables = [...document.querySelectorAll('a, button, [role="button"], li[onclick], span[onclick]')].filter((e) => visible(e) && !inCarousel(e) && !e.closest('header'));
+  // 1. An explicit "next" control: rel=next, a "Next" label, or an arrow inside a pager.
+  const nextWords = /^(next( page)?|avanti|successiv[ao]|pagina successiva|suivant(e)?|page suivante|weiter|nächste( seite)?|siguiente|próxima|volgende|nästa|seuraava|次へ|次のページ|다음|下一页|下一頁)$/i;
+  const rel = document.querySelector('a[rel="next"]');
+  const next =
+    (rel && visible(rel) && !inCarousel(rel) && rel) ||
+    clickables.find((e) => {
+      const raw = label(e);
+      const words = raw.replace(/[›»>→]+/g, '').trim();
+      if (nextWords.test(words)) return true;
+      if (/^[›»>→]+$/.test(raw) && inPager(e)) return true;
+      return /(^|[\s_-])next([\s_-]|$)/i.test(cls(e)) && inPager(e);
+    });
+  if (next) {
+    next.click();
+    return true;
+  }
+  // 2. A numbered pager: click the number after the current one. The current page is the
+  // number marked current/active, or the one that is not a link.
+  const isNum = (e) => /^\d{1,3}$/.test((e.innerText || '').trim());
+  const nums = clickables.filter((e) => isNum(e) && inPager(e));
+  if (!nums.length) return false;
+  const pager = nums[0].closest('[class*="pag" i], [aria-label*="pag" i], [role="navigation"], nav');
+  let cur = NaN;
+  if (pager) {
+    const leaves = [...pager.querySelectorAll('*')].filter((e) => !e.children.length && isNum(e));
+    const marked = leaves.find((e) => e.closest('[aria-current="page"], .current, .active, .selected, .is-active, [aria-selected="true"]') && pager.contains(e.closest('[aria-current="page"], .current, .active, .selected, .is-active, [aria-selected="true"]')) && e.closest('[aria-current="page"], .current, .active, .selected, .is-active, [aria-selected="true"]') !== pager);
+    const plain = leaves.find((e) => !e.closest('a, button, [role="button"]'));
+    const el = marked || plain;
+    if (el) cur = parseInt(el.innerText.trim(), 10);
+  }
+  if (Number.isNaN(cur)) cur = Number(window.__wcPage || 1);
+  const target = nums.find((e) => parseInt(e.innerText.trim(), 10) === cur + 1);
+  if (!target) return false;
+  window.__wcPage = cur + 1;
+  target.click();
+  return true;
 }
 
 // Runs inside the page.
@@ -348,7 +490,9 @@ function collect({ mode, maxCandidates }) {
     }
     const text = clean(card.innerText, 240) || clean(card.textContent, 240);
     const a = it.el.closest('a') || card.querySelector('a');
-    return { text, link: a ? a.href : null };
+    // a.href is an SVGAnimatedString (not a plain string) when `a` is an <svg><a> element.
+    const href = a ? (typeof a.href === 'string' ? a.href : (a.href && a.href.baseVal) || '') : '';
+    return { text, link: href || null };
   };
 
   const seen = new Set();
@@ -377,7 +521,8 @@ function collect({ mode, maxCandidates }) {
   const links = [];
   const seenLinks = new Set();
   for (const a of document.querySelectorAll('a[href]')) {
-    const href = a.href;
+    // a.href is an SVGAnimatedString (not a plain string) when `a` is an <svg><a> element.
+    const href = typeof a.href === 'string' ? a.href : (a.href && a.href.baseVal) || '';
     if (!href || seenLinks.has(href) || href.startsWith('javascript:') || href.startsWith('mailto:') || href.startsWith('tel:')) continue;
     const text = clean(a.innerText || a.getAttribute('aria-label') || '', 60);
     if (!linkRe.test(href) && !linkRe.test(text)) continue;
@@ -422,7 +567,8 @@ function collect({ mode, maxCandidates }) {
   return result;
 }
 
-main().catch((e) => {
+const isMain = process.argv[1] && fileURLToPath(import.meta.url).toLowerCase() === resolve(process.argv[1]).toLowerCase();
+if (isMain) cli().catch((e) => {
   console.error(e);
   process.exit(1);
 });

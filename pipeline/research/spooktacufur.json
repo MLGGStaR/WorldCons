@@ -1,0 +1,37 @@
+{
+  "id": "spooktacufur",
+  "name": "Spooktacufur",
+  "short": "",
+  "url": "https://spooktacufur.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A one-day Halloween-themed furry mini-con in Salt Lake City.",
+  "cover": { "file": "pipeline/cache/extract/spooktacufur.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "dates": "confirmed",
+      "venue": "The Hilton at Salt Lake City Center",
+      "city": "Salt Lake City",
+      "region": "UT",
+      "country": "US",
+      "tickets": "https://ticketstripe.com/spooktacufur2026",
+      "guestsPage": "https://spooktacufur.com/#home",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/spooktacufur.guests.json",
+          "picks": [
+            [2, "Hannimations", "Plushie and sticker artist", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Saturday, October 24, 2026 12pm to 8pm Where The Hilton at Salt Lake City Center 255 South West Temple Salt Lake City, Utah'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Single-day furry mini-con with one named Guest of Honor (Hannimations, a local Utah plushie/sticker artist), represented on-site by their logo rather than a personal photo -- used as the guest picture per the furry-convention norm of a fursona/brand mark standing in for the person."
+}

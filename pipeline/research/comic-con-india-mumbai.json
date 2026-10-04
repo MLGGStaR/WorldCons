@@ -1,0 +1,21 @@
+{
+  "id": "comic-con-india-mumbai",
+  "name": "Comic Con India (Mumbai)",
+  "short": "MCC",
+  "url": "https://www.comicconindia.com",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Mumbai leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics-industry and pop-culture guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No live 2026-27 event page on comicconindia.com as of this check (only an 'all-cities-main-page/mumbai-comic-con' pattern from last season, which now 404s); the site's only current, confirmed city pages are Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar (Oct-Dec 2026). A third-party site (sceneloc8.com) lists '9th-10th May 2026, Jio World Convention Centre, BKC' but explicitly says to verify it officially, and that date is before this check date anyway, so it is left out rather than guessed. No confirmed next edition in the 2026-10-05 to 2027-12-31 window was found."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "creation-washington-dc-area",
+  "name": "Creation Washington DC Area",
+  "short": "",
+  "url": "https://creationent.com/events/ce-dc27/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Washington DC-area stop (held in Arlington, VA) of Creation's touring Supernatural reunion weekend, with cast autographs and photo ops.",
+  "cover": { "file": "pipeline/cache/extract/creation-washington-dc-area.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Crystal Gateway Marriott Hotel",
+      "city": "Arlington",
+      "region": "VA",
+      "country": "US",
+      "tickets": "https://creationent.com/events/ce-dc27/tickets/",
+      "guestsPage": "https://creationent.com/events/ce-dc27/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/creation-washington-dc-area.guests.json",
+          "picks": [
+            [4, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
+            [5, "Jared Padalecki", "Sam Winchester, Supernatural", "actor"],
+            [6, "Misha Collins", "Castiel, Supernatural", "actor"],
+            [8, "Mark Sheppard", "Crowley, Supernatural", "actor"],
+            [10, "Ruth Connell", "Rowena, Supernatural", "actor"],
+            [12, "Richard Speight Jr.", "Gabriel/Trickster, Supernatural", "actor"],
+            [14, "Rob Benedict", "Chuck/God, Supernatural", "actor"],
+            [16, "Alexander Calvert", "Jack, Supernatural", "actor"],
+            [18, "Briana Buckmaster", "Donna Hanscum, Supernatural", "actor"],
+            [20, "Kim Rhodes", "Sheriff Jody Mills, Supernatural", "actor"],
+            [22, "Samantha Smith", "Mary Winchester, Supernatural", "actor"],
+            [24, "DJ Qualls", "Garth Fitzgerald IV, Supernatural", "actor"],
+            [26, "Matt Cohen", "Young John Winchester, Supernatural", "actor"],
+            [28, "Adam Fergus", "Mick Davies, Supernatural", "actor"],
+            [30, "Julie McNiven", "Anna Milton, Supernatural", "actor"],
+            [32, "Gil McKinney", "Henry Winchester, Supernatural", "actor"],
+            [34, "Osric Chau", "Kevin Tran, Supernatural", "actor"],
+            [36, "David Haydn-Jones", "Arthur Ketch, Supernatural", "actor"],
+            [38, "Jason Manns", "Singer-songwriter on the Supernatural tour", "music"],
+            [40, "Louden Swain", "House band on the Supernatural tour", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page: 'Arlington, VA(Washington DC Area) Mar. 19-21, 2027 - Creation Washington DC Area'; event page: 'WASHINGTON, D.C. • MARCH 19-21, 2027' and '...Arlington, VA, on March 19-21 at the Crystal Gateway Marriott Hotel'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Despite the 'Washington DC Area' name the venue/city is Arlington, VA (seed note confirmed). Same touring Supernatural-cast brand as Pittsburgh/Boston/Austin/Salt Lake City. Guest photos are duplicated at two sizes; picks cite the larger image of each pair, confirmed by filename (e.g. #40 is loudenSwain.jpg)."
+}

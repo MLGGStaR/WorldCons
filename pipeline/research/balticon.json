@@ -1,0 +1,38 @@
+{
+  "id": "balticon",
+  "name": "Balticon",
+  "short": "",
+  "url": "https://www.balticon.org",
+  "organizer": "Baltimore Science Fiction Society",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "Maryland's science fiction & fantasy convention since 1967, with 300+ hours of programming, an art show, masquerade and gaming in Baltimore's Inner Harbor.",
+  "cover": { "file": "pipeline/cache/extract/balticon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-31",
+      "dates": "confirmed",
+      "venue": "Renaissance Baltimore Harborplace Hotel",
+      "city": "Baltimore",
+      "region": "MD",
+      "country": "US",
+      "tickets": "https://www.balticon.org/registration-hotel",
+      "guestsPage": "https://www.balticon.org/goh",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/balticon.guests.json",
+          "picks": [
+            [2, "Hayley Gelfuso", "The Book of Lost Hours; 2026 Compton Crook winner", "author"],
+            [4, "The PDX Broadsides", "Music Guest of Honor; Portland pop-folk trio", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage + hotel page text: \"BALTICON 61 MAY 28 - 31, 2027\"; \"Balticon will once again be at the Renaissance Baltimore Harborplace Hotel ... 202 East Pratt Street, Baltimore, MD 21202\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The 2027 Guest of Honor, Robert A. Heinlein Award recipient, Compton Crook Winner and one Special Guest slot are all still teased as \"Guess Who?\" (hidden, with a reveal-later photo placeholder) on the official Guests of Honor page, so those are excluded as not yet announced; only the two already-named guests (the Music Guest of Honor and the 2026 Compton Crook winner invited as a special guest) are recorded. An aggregator site gave different dates (May 21-24, 2027); the official site's own text (May 28-31, 2027) was used instead per the research rules."
+}

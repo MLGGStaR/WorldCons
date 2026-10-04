@@ -1,0 +1,30 @@
+{
+  "id": "agf-korea-anime-x-game-festival",
+  "name": "AGF Korea",
+  "short": "AGF",
+  "url": "https://www.agfkorea.com/",
+  "organizer": "Aniplus",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "South Korea's largest anime and game expo at KINTEX, with exhibitor booths, stage talk shows and Virtual YouTuber content.",
+  "cover": { "file": "pipeline/cache/extract/agf-korea-anime-x-game-festival.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "KINTEX",
+      "city": "Goyang",
+      "region": "",
+      "country": "KR",
+      "tickets": "https://www.agfkorea.com/ticket",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Event info page (agfkorea.com/event?idx=1): '일시 2026년 12월 4일(금) 09:30~18:00 / 12월 5일(토) / 12월 6일(일)', venue 'KINTEX 제1전시장 1/2/3/4/5홀'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Official site is www.agfkorea.com (the bare agfkorea.com given in the seed redirects there). Organizer line on the event page lists four co-organizing companies (ANIPLUS INC., Daewon Media, Sony Music Solutions, D&C Media); Aniplus is listed first and is the best-known. The site has no guest/lineup page structure (nav is 행사정보/전시참가/이벤트/티켓안내/커뮤니티) — stage events (seiyuu talk shows, artist mini-concerts, VTuber reveals) are mentioned generically but no named 2026 performers are published yet, so guests is none-yet rather than guessed."
+}

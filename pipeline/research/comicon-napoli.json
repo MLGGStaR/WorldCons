@@ -1,0 +1,45 @@
+{
+  "id": "comicon-napoli",
+  "name": "Comicon Napoli",
+  "short": "",
+  "url": "https://napoli.comicon.it",
+  "organizer": "Comicon",
+  "status": "active",
+  "types": [
+    "comics",
+    "cosplay",
+    "anime",
+    "games"
+  ],
+  "blurb": "Italy's major comics and pop-culture festival at the Mostra d'Oltremare in Naples, with international comics, anime, music and gaming guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comicon-napoli.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-04-29",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "Mostra d'Oltremare",
+      "city": "Naples",
+      "region": "",
+      "country": "IT",
+      "tickets": "https://ticket.comicon.it/",
+      "guestsPage": "https://napoli.comicon.it/ospiti",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "comicon.it homepage: 'COMICON NAPOLI 2027 29 aprile 02 maggio' (shown with a 'LOADING...' placeholder where guests/programme will appear)"
+    }
+  ],
+  "last": {
+    "start": "2026-04-30",
+    "end": "2026-05-03",
+    "city": "Naples",
+    "region": "",
+    "country": "IT"
+  },
+  "checked": "2026-10-05",
+  "notes": "The work-list's '30 Apr-3 May 2026' date is confirmed correct (napoli.comicon.it: 'Comicon Napoli 2026 · 30 aprile - 3 maggio 2026'), but that edition already ended before this check date (2026-10-05), so it is recorded as 'last' rather than as an upcoming edition; its huge, fully-announced guest lineup (447 names on the site's alphabetised /ospiti roster, including Makoto Yukimura, John C. McGinley, Troy Baker, Milo Manara, Zerocalcare, Don Rosa and dozens of international comics artists) is therefore not carried into 'editions' per the schema (guests only attach to upcoming editions, and nothing says the same guests return next year). The only edition inside the research window is 2027 (29 apr - 2 mag), which the homepage already names but has not announced guests for yet ('LOADING...' placeholder). The umbrella site comicon.it also runs a separate Comicon Bergamo festival (26-28 giugno 2026); that is a different city/edition and is not covered by this id. The real festival site is the napoli.comicon.it subdomain (comicon.it is the group's corporate hub); venue confirmed via Wikipedia's 'Napoli Comicon' article ('hosted at the Mostra d'Oltremare exhibition and convention center... since 2010')."
+}

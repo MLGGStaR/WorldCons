@@ -1,0 +1,12 @@
+1. id=orcacon | OrcaCon | https://www.orcacon.org/ | SeaTac, WA, US | types: tabletop, games | note: Board-game convention including a CATAN National Championship Qualifier; 2026 edition Jan 9-11 at the DoubleTree Sea-Tac
+2. id=radcon | RadCon | https://www.radcon.org/ | Pasco, WA, US | types: scifi, games, cosplay | note: Presidents' Day weekend; 2026 edition Feb 13-15
+3. id=seattle-black-nerd-festival | Seattle Black Nerd Festival | https://www.langstonseattle.org/ | Seattle, WA, US | types: pop, cosplay, games | organizer: LANGSTON Seattle | note: Celebrates Black nerd culture, fandoms, gaming and anime at the Langston Hughes Performing Arts Institute; 2026 edition Aug 28-30
+4. id=midwest-gaming-classic | Midwest Gaming Classic | http://www.midwestgamingclassic.com/ | Milwaukee, WI, US | types: games, tabletop | note: Covers retro/arcade/pinball/console gaming plus tabletop; 24,000+ attendees (2023)
+5. id=anime-milwaukee | Anime Milwaukee | https://animemilwaukee.org/ | Milwaukee, WI, US | types: anime
+6. id=gamehole-con | Gamehole Con | https://www.gameholecon.com/ | Madison, WI, US | types: tabletop
+7. id=gary-con | Gary Con | https://www.garycon.com/ | Lake Geneva, WI, US | types: tabletop | note: Tribute to D&D co-creator Gary Gygax, run by his son Luke Gygax
+8. id=kitsune-kon | Kitsune Kon | https://www.kitsunekon.com/ | Green Bay, WI, US | types: anime, games
+9. id=no-brand-con | No Brand Con | http://www.nobrandcon.org/ | Eau Claire, WI, US | types: anime | note: Founded by UW-Eau Claire's Anime Appreciation Society
+10. id=wiscon | WisCon | https://www.wiscon.net/ | Madison, WI, US | types: scifi | note: Feminist SF/fantasy convention; hybrid in-person/online, next confirmed edition May 2027
+11. id=tsubasacon | Tsubasacon | https://www.tsubasacon.org | Charleston, WV, US | types: anime | organizer: Tsubasacon LLC | note: first anime convention held in West Virginia
+12. id=color-fiesta | Color Fiesta | https://colorfiesta.vn | Ho Chi Minh City, VN | types: anime, comics, cosplay | organizer: Yana Media | note: Vietnam's largest Artist Event; 25,000+ attendees per 2-day event; held April & October

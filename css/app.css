@@ -320,6 +320,15 @@ html {
 .search input::-webkit-search-cancel-button {
   display: none;
 }
+.nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nav-guests[aria-current='page'],
+.lanyard-link[aria-current='page'] {
+  background: var(--strap-2);
+}
 .lanyard-link {
   display: inline-flex;
   align-items: center;
@@ -329,7 +338,7 @@ html {
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   border: 1px solid var(--strap-2);
 }
 .lanyard-link:hover {
@@ -412,13 +421,13 @@ html {
 .suggest-item b {
   display: block;
   font-weight: 650;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.25;
 }
 .suggest-item small {
   display: block;
   color: var(--ink-3);
-  font-size: 12.5px;
+  font-size: 12px;
   line-height: 1.3;
 }
 .suggest-all {
@@ -430,7 +439,7 @@ html {
   padding: 10px;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
 }
 .suggest-all:hover,
 .suggest-all[aria-selected='true'] {
@@ -470,7 +479,7 @@ main {
   padding: 0 14px;
   border-radius: 17px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--ink-2);
   white-space: nowrap;
 }
@@ -494,7 +503,7 @@ main {
   background: var(--card);
   padding: 0 34px 0 14px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   max-width: 220px;
   text-overflow: ellipsis;
 }
@@ -530,7 +539,7 @@ main {
   border: 1px solid var(--line);
   background: var(--card);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
 }
 .toggle:hover {
   border-color: var(--ink-3);
@@ -569,7 +578,7 @@ main {
   border: 0;
   background: transparent;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--ink-2);
   text-decoration: underline;
   text-underline-offset: 0.25em;
@@ -595,7 +604,7 @@ main {
   border: 1px solid var(--line);
   background: var(--card);
   font-weight: 600;
-  font-size: 13.5px;
+  font-size: 15px;
   color: var(--ink-2);
   white-space: nowrap;
 }
@@ -608,7 +617,7 @@ main {
 .rtoggle .n {
   color: var(--ink-3);
   font-weight: 500;
-  font-size: 12.5px;
+  font-size: 12px;
 }
 .rtoggle:hover {
   border-color: var(--ink-3);
@@ -660,7 +669,7 @@ main {
   display: flex;
   align-items: flex-end;
   padding: 0 6px 6px 10px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 800;
   font-stretch: 112%;
   color: var(--ink-3);
@@ -687,14 +696,14 @@ main {
   color: var(--ink-2);
 }
 .ruler button b {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 750;
   font-stretch: 112%;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 .ruler button span {
-  font-size: 11.5px;
+  font-size: 12px;
   color: var(--ink-3);
 }
 .ruler button:hover {
@@ -732,7 +741,7 @@ main {
   gap: 4px 14px;
   padding: 18px 0 4px;
   color: var(--ink-2);
-  font-size: 14.5px;
+  font-size: 15px;
 }
 .results strong {
   color: var(--ink);
@@ -753,7 +762,7 @@ main {
   margin-bottom: 18px;
 }
 .month-head h2 {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.1;
   font-weight: 850;
   font-stretch: 118%;
@@ -762,7 +771,7 @@ main {
 .month-head span {
   color: var(--ink-3);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
 }
 .grid {
   display: grid;
@@ -898,6 +907,16 @@ main {
   height: 100%;
   object-fit: cover;
 }
+/* a hairline edge so pale logo plates don't melt into the white badge */
+.art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgb(18 20 24 / 0.08);
+  pointer-events: none;
+}
 .art.is-logo img {
   object-fit: contain;
   padding: 10% 14%;
@@ -912,7 +931,7 @@ main {
   color: #fff;
   font-weight: 900;
   font-stretch: 125%;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.05;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -944,15 +963,21 @@ main {
   height: 7px;
   border-radius: 50%;
   background: #b9f5d3;
-  animation: pulse 1.6s ease-in-out infinite;
-}
-@keyframes pulse {
-  50% {
-    opacity: 0.35;
-  }
 }
 .when-chip.past {
   background: rgb(18 20 24 / 0.6);
+}
+.when-chip.tba {
+  background: rgb(18 20 24 / 0.62);
+}
+.tba-note {
+  color: var(--ink-3);
+  font-size: 15px;
+  margin: -8px 0 20px;
+  max-width: 70ch;
+}
+.results a {
+  color: inherit;
 }
 
 .badge-body {
@@ -980,7 +1005,7 @@ main {
   align-items: baseline;
   gap: 10px;
   font-weight: 650;
-  font-size: 14.5px;
+  font-size: 15px;
 }
 .con-when .days {
   color: var(--ink-3);
@@ -995,7 +1020,7 @@ main {
   align-items: center;
   gap: 7px;
   color: var(--ink-2);
-  font-size: 14px;
+  font-size: 15px;
   min-width: 0;
 }
 .con-where span {
@@ -1032,7 +1057,7 @@ main {
   background: var(--skeleton);
 }
 .faces .more {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 650;
   color: var(--ink-2);
   line-height: 1.2;
@@ -1045,7 +1070,7 @@ main {
 }
 .faces.tba {
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 550;
 }
 .faces.tba .slots {
@@ -1074,14 +1099,14 @@ main {
   position: relative;
   z-index: 2;
   flex: none;
-  height: 31px;
-  padding: 9px 9px 0;
+  height: 32px;
+  padding: 8px 8px 0;
   background: var(--rc);
   color: var(--rc-ink, var(--r-ink));
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
-  font-stretch: 112%;
-  letter-spacing: 0.07em;
+  font-stretch: 104%;
+  letter-spacing: 0.04em;
   line-height: 1;
   text-transform: uppercase;
   white-space: nowrap;
@@ -1174,7 +1199,7 @@ button.ribbon:hover {
 }
 .empty h2 {
   color: var(--ink);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
   font-stretch: 112%;
 }
@@ -1190,7 +1215,7 @@ button.ribbon:hover {
   background: var(--ink);
   color: var(--on-ink);
   font-weight: 650;
-  font-size: 14.5px;
+  font-size: 15px;
   text-decoration: none;
   white-space: nowrap;
   transition: transform 0.15s var(--ease-out), background 0.2s;
@@ -1227,7 +1252,7 @@ button.ribbon:hover {
   gap: 6px;
   margin: 22px 0 18px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
   color: var(--ink-2);
   padding: 6px 10px 6px 4px;
@@ -1269,7 +1294,7 @@ button.ribbon:hover {
 }
 .con-card .sub {
   color: var(--ink-3);
-  font-size: 13.5px;
+  font-size: 15px;
   font-weight: 600;
 }
 .facts {
@@ -1282,7 +1307,7 @@ button.ribbon:hover {
   grid-template-columns: 20px 1fr;
   gap: 10px;
   align-items: start;
-  font-size: 14.5px;
+  font-size: 15px;
   color: var(--ink-2);
 }
 .fact .icon {
@@ -1304,12 +1329,12 @@ button.ribbon:hover {
   margin-top: 8px;
 }
 .blurb {
-  font-size: 14.5px;
+  font-size: 15px;
   color: var(--ink-2);
   line-height: 1.55;
 }
 .checked {
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--ink-3);
   border-top: 1px solid var(--line-2);
   padding-top: 12px;
@@ -1327,7 +1352,7 @@ button.ribbon:hover {
   gap: 8px;
 }
 .also h2 {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--ink-3);
 }
@@ -1340,7 +1365,7 @@ button.ribbon:hover {
   padding: 12px 14px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   box-shadow: var(--shadow);
 }
 .also a span {
@@ -1383,7 +1408,7 @@ button.ribbon:hover {
   border: 1px solid var(--line);
   background: var(--card);
   padding: 0 14px 0 38px;
-  font-size: 14px;
+  font-size: 15px;
 }
 .wall-search input:focus {
   outline: 2px solid var(--focus);
@@ -1411,7 +1436,7 @@ button.ribbon:hover {
   border: 1px solid var(--line);
   background: var(--card);
   font-weight: 600;
-  font-size: 13.5px;
+  font-size: 15px;
   color: var(--ink-2);
 }
 .cats button span {
@@ -1438,7 +1463,7 @@ button.ribbon:hover {
 }
 .wall-section {
   grid-column: 1 / -1;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 750;
   color: var(--ink-2);
   padding-top: 8px;
@@ -1498,7 +1523,7 @@ a.cred:hover {
   inset: 0;
   display: grid;
   place-items: center;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 850;
   font-stretch: 120%;
   color: var(--ink-3);
@@ -1508,7 +1533,7 @@ a.cred:hover {
   background: var(--ink);
   color: var(--on-ink);
   border-radius: 4px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   font-stretch: 112%;
   letter-spacing: 0.09em;
@@ -1525,7 +1550,7 @@ a.cred:hover {
   text-wrap: balance;
 }
 .cred-known {
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--ink-3);
   line-height: 1.3;
   padding: 2px 2px 0;
@@ -1541,6 +1566,18 @@ a.cred:hover {
   font-weight: 650;
   color: var(--ink-2);
 }
+.dir-head {
+  align-items: flex-start;
+}
+.dir-head .cats {
+  margin-bottom: 0;
+  flex: 1;
+}
+.more-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0 8px;
+}
 .wall-empty {
   background: var(--card);
   border-radius: var(--radius);
@@ -1553,7 +1590,7 @@ a.cred:hover {
 }
 .wall-empty h3 {
   color: var(--ink);
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 800;
   font-stretch: 112%;
 }
@@ -1589,16 +1626,16 @@ a.cred:hover {
   margin-left: -18px;
 }
 .guest-page .cred-name {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 850;
   font-stretch: 112%;
 }
 .guest-page .cred-known {
-  font-size: 14px;
+  font-size: 15px;
   -webkit-line-clamp: 4;
 }
 .guest-page .cred-band {
-  font-size: 11px;
+  font-size: 12px;
 }
 .guest-links {
   display: flex;
@@ -1607,7 +1644,7 @@ a.cred:hover {
   padding: 12px 2px 0;
 }
 .guest-links a {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--ink-2);
 }
@@ -1621,7 +1658,7 @@ a.cred:hover {
 }
 .page-sub {
   color: var(--ink-3);
-  font-size: 14.5px;
+  font-size: 15px;
   margin-bottom: 26px;
 }
 
@@ -1631,7 +1668,7 @@ a.cred:hover {
   border-top: 1px solid var(--line);
   padding: 26px var(--gutter) 40px;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 12px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 24px;
@@ -1647,7 +1684,7 @@ a.cred:hover {
   border: 0;
   background: transparent;
   color: var(--ink-2);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 0.2em;
@@ -1667,7 +1704,7 @@ a.cred:hover {
   padding: 12px 16px;
   border-radius: 12px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s, transform 0.3s var(--ease-out);
@@ -1728,14 +1765,14 @@ a.cred:hover {
   margin: 0 auto 4px;
 }
 .sheet h2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 850;
   font-stretch: 112%;
 }
 .sheet label {
   display: grid;
   gap: 6px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--ink-3);
 }
@@ -1779,6 +1816,13 @@ a.cred:hover {
     height: 40px;
     font-size: 16px;
   }
+  .suggest {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    top: calc(var(--strap-h) + 4px);
+    max-height: calc(100dvh - var(--strap-h) - 16px);
+  }
   .lanyard-link {
     padding: 0 10px;
   }
@@ -1806,7 +1850,7 @@ a.cred:hover {
   }
   .results {
     padding-top: 12px;
-    font-size: 14px;
+    font-size: 15px;
   }
   .month {
     padding-top: 18px;
@@ -1828,7 +1872,7 @@ a.cred:hover {
     display: none;
   }
   .month-head h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .grid {
     gap: 50px 16px;
@@ -1847,7 +1891,7 @@ a.cred:hover {
     margin: 0 auto;
   }
   .con-card h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .wall {
     grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
@@ -1861,12 +1905,30 @@ a.cred:hover {
     margin-left: 0;
     width: 100%;
   }
+  .cats {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: calc(var(--gutter) * -1);
+    margin-right: calc(var(--gutter) * -1);
+    padding: 0 var(--gutter);
+    scrollbar-width: none;
+  }
+  .cats::-webkit-scrollbar {
+    display: none;
+  }
+  .cats button {
+    flex: none;
+  }
+  .dir-head .cats {
+    flex: none;
+    width: calc(100% + var(--gutter) * 2);
+  }
 }
 
 @media (max-width: 420px) {
   .seg button {
     padding: 0 9px;
-    font-size: 13.5px;
+    font-size: 15px;
   }
   .wall {
     grid-template-columns: repeat(2, minmax(0, 1fr));

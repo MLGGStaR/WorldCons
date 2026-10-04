@@ -1,0 +1,14 @@
+{
+  "id": "conquest",
+  "name": "ConQuesT",
+  "short": "",
+  "url": "https://conquestkc.org/",
+  "organizer": "Kansas City Science Fiction and Fantasy Society",
+  "status": "inactive",
+  "types": ["scifi"],
+  "blurb": "Kansas City's longest-running fan-run science fiction and fantasy convention, on hiatus since 2023 while seeking a new venue.",
+  "cover": { "file": "pipeline/cache/extract/conquest.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "On hiatus: the last edition was ConQuesT 54, June 2-4, 2023 at the Hilton Kansas City Airport. The official site still shows that 2023 event with no newer announcement, and Wikipedia states ConQuesT has been on hiatus pending a suitable venue. No new dates found via web search as of 2026-10-05."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "niigata-comic-market-gataket",
+  "name": "Niigata Comic Market (Gataket)",
+  "short": "Gataket",
+  "url": "http://gataket.com",
+  "organizer": "Gataket secretariat",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "The largest doujinshi (self-published comics) market on Japan's west coast, held several times a year at the Niigata City Industrial Promotion Center since 1983.",
+  "cover": { "file": "pipeline/cache/extract/niigata-comic-market-gataket.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Niigata City Industrial Promotion Center",
+      "city": "Niigata",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official event page (gataket.com/event/g186/): '2026.12.6（日） 10:30～15:30' at 新潟市産業振興センダー (Niigata City Industrial Promotion Center)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Gataket runs several times a year at the Niigata City Industrial Promotion Center; Gataket 185 already concluded in late September 2026, before this research window, so only Gataket 186 (Dec 6, 2026) is listed. Gataket 186 runs alongside a separate sister event, 'Niigata COMITIA 63', at the same venue/date, but that is a distinct convention/brand run by a different organizer and is not folded into this entry. This is a doujin circle sales event with no celebrity-guest program, so guests is 'none'."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "harucon",
+  "name": "Harucon",
+  "short": "",
+  "url": "https://www.harucon.org.il/",
+  "organizer": "AMAI (Association for Manga and Anime in Israel)",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "AMAI's Purim-season anime and manga convention for Israeli fans, covering anime, manga, gaming and Japanese pop culture.",
+  "cover": { "file": "pipeline/cache/extract/harucon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-03-31", "end": "2026-03-31", "city": "Jerusalem", "region": "", "country": "IL", "venue": "Online (Discord)" },
+  "checked": "2026-10-05",
+  "notes": "Correction to the assignment brief: the 2026 edition was not held at ICC Jerusalem -- the site itself says it is AMAI's 'virtual anime and manga convention', held Tuesday 31.03.2026, 11:00-21:00, entirely on AMAI's Discord server ('celebrate our love of anime safely online'), so venue is recorded as 'Online (Discord)'. City/country (Jerusalem, IL) reflect AMAI's home base rather than a physical venue for this edition. That date already passed before this research window opens (2026-10-05), so it is recorded as 'last' rather than guessed forward; no 2027 date is announced on the site yet, and it is unclear whether the next edition returns in person."
+}

@@ -1,0 +1,12 @@
+1. id=international-comics-festival-salon-stripa | International Comics Festival "Salon stripa" | https://www.salonstripaskc.rs/en/ | Belgrade, RS | types: comics | organizer: Student Cultural Center (SKC) | note: Biggest comics event in Serbia
+2. id=comic-con-russia | Comic-Con Russia | https://comiccon.ru/ | Moscow, RU | types: comics, anime, games, pop | note: Returned in 2025 after a hiatus from the Russo-Ukrainian war, under a new organizer and venue
+3. id=igromir | IgroMir | https://www.igromir.ru/ | Moscow, RU | types: games, cosplay | organizer: MDTS LLC | note: Russia's largest video-game expo; revived in Dec 2025 after a multi-year hiatus (COVID, then organizer bankruptcy); historical peak was 183,000 attendees in 2019
+4. id=comic-con-arabia | Comic Con Arabia | https://www.comicconarabia.com/ | Jeddah, SA | types: comics, pop, anime, games | organizer: The1 (formerly Panache) | note: Alternates between Jeddah and Riyadh; successor brand to the now-defunct Saudi Comic Con (2017-18); 2026 (5th) edition dates not yet confirmed as of research, expected around November.
+5. id=narcon-sommar | NärCon Sommar | https://en.narcon.se/ | Linköping, SE | types: anime, cosplay, games
+6. id=comic-con-stockholm | Comic Con Stockholm | https://www.comicconstockholm.se/en/ | Stockholm, SE | types: comics, pop | note: Also runs a Winter edition in October/November
+7. id=nordicfuzzcon | NordicFuzzCon | https://nordicfuzzcon.org/ | Malmö, SE | types: furry
+8. id=echo-base-live-scandinavia | Echo Base Live Scandinavia | https://www.echolivescandinavia.se/ | Gothenburg, SE | types: scifi, pop | note: Star Wars-focused fan convention
+9. id=gothcon | Gothcon | https://gothcon.se/ | Gothenburg, SE | types: tabletop | note: Held over Easter; running since the 1970s
+10. id=scifiworld | SciFiWorld | http://www.scifiworld.se/ | Helsingborg, SE | types: scifi, pop
+11. id=swecon | Swecon | https://fandom.se/swecon/ | Stockholm, SE | types: scifi | note: Rotates host city every year by vote; 2026 edition is 'Fantastika' in Stockholm
+12. id=singapore-comic-con | Singapore Comic Con | https://www.singaporecomiccon.com | Singapore, SG | types: pop, comics, toys, games | organizer: Reed Exhibitions | note: Formerly Singapore Toy, Games & Comic Convention (STGCC)

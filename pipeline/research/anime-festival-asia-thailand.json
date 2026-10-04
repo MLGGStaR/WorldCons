@@ -1,0 +1,14 @@
+{
+  "id": "anime-festival-asia-thailand",
+  "name": "Anime Festival Asia (Thailand)",
+  "short": "AFA TH",
+  "url": "https://animefestival.asia/afath26/",
+  "organizer": "Sozo",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "Thai edition of the Anime Festival Asia series: a J-pop/anime night concert plus a convention floor at Bangkok's Queen Sirikit National Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/anime-festival-asia-thailand.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "AFA Thailand 2026 ran 30-31 May 2026 at the Queen Sirikit National Convention Center (QSNCC), Bangkok, which already concluded before the 2026-10-05 research window. The site now marks it 'JUST COMPLETED!' and says 'Register your interest for the next AFA Thailand!' with no future date shown anywhere on the page, so editions is left empty rather than guessed. Guests were not researched since there is no current/upcoming edition to attach a lineup to."
+}

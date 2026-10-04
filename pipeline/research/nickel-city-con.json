@@ -1,0 +1,30 @@
+{
+  "id": "nickel-city-con",
+  "name": "Nickel City Comic Con",
+  "short": "",
+  "url": "https://www.nickelcitycon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Buffalo's pop-culture convention with celebrity guests, comic creators and cosplay at the Buffalo Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/nickel-city-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Buffalo Convention Center",
+      "city": "Buffalo",
+      "region": "NY",
+      "country": "US",
+      "tickets": "https://www.nickelcitycon.com/buy-tickets",
+      "guestsPage": "https://www.nickelcitycon.com/celebrities",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'JULY 9-11, 2027 BUFFALO CONVENTION CENTER 153 Franklin St. Buffalo, NY'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Both the Celebrities and Comic Creators pages say only 'KEEP CHECKING BACK!' — no guests announced yet for the July 2027 edition. Site has no og:image or JSON-LD, so the cover uses the largest homepage hero banner instead."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "finncon",
+  "name": "Finncon",
+  "short": "",
+  "url": "https://www.finncon.org/",
+  "organizer": "Finncon-yhdistys",
+  "status": "active",
+  "types": [
+    "scifi",
+    "anime"
+  ],
+  "blurb": "Finland's largest science-fiction and fantasy event: a free, all-ages convention with literature, panels and guests that rotates between Finnish cities.",
+  "cover": {
+    "file": "pipeline/cache/extract/finncon.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-07-16",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Espoo",
+      "region": "",
+      "country": "FI",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'SEURAAVA Finncon 2027 Espoo · 16.–18.7.2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Finncon did not run in 2025 ('Miksi ei Finnconia 2025?' is a headline on its own news list). The homepage only promises 'kiinnostavia vieraita' (interesting guests) in generic marketing copy, with no named guests or a guest-listing subpage found, so guests is 'none-yet'. No specific venue hall within Espoo was named on the homepage."
+}

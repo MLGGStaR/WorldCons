@@ -1,0 +1,107 @@
+{
+  "id": "motor-city-comic-con",
+  "name": "Motor City Comic Con",
+  "short": "MC3",
+  "url": "https://motorcitycomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Metro Detroit's pop-culture and comic convention at the Vibe Credit Union Showplace in Novi, with celebrity guests, comic creators, and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/motor-city-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Vibe Credit Union Showplace",
+      "city": "Novi",
+      "region": "MI",
+      "country": "US",
+      "tickets": "https://motorcitycomiccon.com/buy-tickets/",
+      "guestsPage": "https://motorcitycomiccon.com/guest/celebrity-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/motor-city-comic-con.guests.json",
+          "picks": [
+            [5, "Aaron Paul", "Jesse Pinkman in Breaking Bad", "actor"],
+            [6, "Jack Quaid", "Hughie Campbell in The Boys", "actor"],
+            [7, "Kyra Sedgwick", "Brenda Leigh Johnson in The Closer", "actor"],
+            [8, "Martin Sheen", "President Bartlet in The West Wing", "actor"],
+            [9, "Jonathan Del Arco", "Hugh the Borg in Star Trek: TNG", "actor"],
+            [10, "Dee Bradley Baker", "Clone troopers in Star Wars: The Clone Wars", "voice"],
+            [11, "Tomer Capone", "Frenchie in The Boys", "actor"],
+            [12, "Michael Cudlitz", "Abraham Ford in The Walking Dead", "actor"],
+            [13, "Jennifer English", "Shadowheart in Baldur's Gate 3", "voice"],
+            [14, "William Fichtner", "Alexander Mahone in Prison Break", "actor"],
+            [15, "Jack Dylan Grazer", "Eddie Kaspbrak in It", "actor"],
+            [16, "Jason Griffith", "Sonic the Hedgehog in Sonic X", "voice"],
+            [17, "Shawn Hatosy", "Sammy Bryant in Southland", "actor"],
+            [18, "James Lafferty", "Nathan Scott in One Tree Hill", "actor"],
+            [19, "Juliet Landau", "Drusilla in Buffy the Vampire Slayer", "actor"],
+            [20, "Ross Marquand", "Aaron in The Walking Dead", "actor"],
+            [21, "James Marsters", "Spike in Buffy the Vampire Slayer", "actor"],
+            [22, "Jaeden Martell", "Bill Denbrough in It", "actor"],
+            [23, "Mary McDonnell", "President Laura Roslin in Battlestar Galactica", "actor"],
+            [24, "Nathan Mitchell", "Black Noir in The Boys", "actor"],
+            [25, "Erin Moriarty", "Starlight in The Boys", "actor"],
+            [26, "Chad Michael Murray", "Lucas Scott in One Tree Hill", "actor"],
+            [27, "Colleen O'Shaughnessey", "Tails in Sonic the Hedgehog", "voice"],
+            [28, "Ian Ousley", "Walker: Independence", "actor"],
+            [29, "Dan Phillips", "", "other"],
+            [30, "Mike Pollock", "Dr. Eggman in Sonic the Hedgehog", "voice"],
+            [31, "Ben Starr", "Clive Rosfield in Final Fantasy XVI", "voice"],
+            [32, "Rick Steiner", "WWE/WCW wrestler, The Steiner Brothers", "sports"],
+            [33, "Scott Steiner", "WWE/WCW wrestler, The Steiner Brothers", "sports"],
+            [34, "Jon Tenney", "Fritz Howard in The Closer", "actor"],
+            [35, "Jake Weary", "Deran Cody in Animal Kingdom", "actor"],
+            [36, "Elizabeth Yu", "Voice of Ruby Gillman, Teenage Kraken", "voice"],
+            [37, "Maria Zhang", "", "other"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/motor-city-comic-con-2.guests.json",
+          "picks": [
+            [5, "Amanda Conner", "Harley Quinn artist", "comics"],
+            [6, "Jimmy Palmiotti", "Harley Quinn writer", "comics"],
+            [7, "Brian Pulido", "Lady Death creator", "comics"],
+            [8, "Jim Starlin", "Thanos creator", "comics"],
+            [9, "Chris Batista", "DC Comics artist", "comics"],
+            [10, "Jim Benton", "It's Happy Bunny creator", "comics"],
+            [11, "Reilly Brown", "Deadpool artist", "comics"],
+            [12, "Jim Calafiore", "Exiles artist", "comics"],
+            [13, "Ariel Diaz", "", "comics"],
+            [14, "Joe Eisma", "Morning Glories artist", "comics"],
+            [15, "Tehani Farr", "", "comics"],
+            [16, "Ian Glaubinger", "", "comics"],
+            [17, "Arvell Jones", "Marvel and DC artist", "comics"],
+            [18, "Karl Jones", "", "comics"],
+            [19, "Ryan Kincaid", "", "comics"],
+            [20, "Scott Kolins", "The Flash artist", "comics"],
+            [21, "Anthony Marques", "", "comics"],
+            [22, "Justin Mason", "", "comics"],
+            [23, "Pop Mhan", "Witchblade and Ben 10 artist", "comics"],
+            [24, "Paul Pelletier", "Aquaman and Guardians of the Galaxy artist", "comics"],
+            [25, "Deegan Puchkors", "", "comics"],
+            [26, "Ramón Pérez", "Hawkeye and Wolverine artist", "comics"],
+            [27, "Tom Raney", "X-Men and Fantastic Four artist", "comics"],
+            [28, "Rod Reis", "Doom Patrol artist", "comics"],
+            [29, "Amit Tishler", "", "comics"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/motor-city-comic-con-3.guests.json",
+          "picks": [
+            [5, "AMHCosplays", "", "cosplay"],
+            [6, "Kira Elric", "", "cosplay"],
+            [7, "Silvermoon Art", "", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'NOVEMBER 13-15, 2026! TICKETS ON SALE NOW!' and 'BUY TICKETS NOVEMBER 13-15, 2026 ... Vibe Credit Union Showplace 46100 Grand River Ave Novi, MI 48374'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on all three guest pages (celebrity, comic creator, cosplay) show only a stylised all-caps name with no 'known for' text; known-for above comes from general knowledge (cross-checked for the top names against news coverage of this show, e.g. Aaron Paul/Jack Quaid/Kyra Sedgwick/Mary McDonnell/Tomer Capone) rather than the card itself. Dan Phillips and Maria Zhang could not be identified with confidence, so both are left cat=other with no known-for. Organizer company name not found on the site."
+}

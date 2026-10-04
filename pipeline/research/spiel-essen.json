@@ -1,0 +1,30 @@
+{
+  "id": "spiel-essen",
+  "name": "SPIEL Essen",
+  "short": "SPIEL",
+  "url": "https://www.spiel-essen.de/en/",
+  "organizer": "Merz Verlag",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The world's largest public board-game fair, four days of new releases, publisher booths and an Artist Alley at Messe Essen.",
+  "cover": { "file": "pipeline/cache/extract/spiel-essen.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Messe Essen",
+      "city": "Essen",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://www.messe-ticket.de/SWM_SHOP/Spiel2026",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner: 'SPIEL ESSEN 22. - 25. OCT 2026'; footer: 'ON THE FAIR GROUND OF MESSE ESSEN 22 – 24th Oct 2026 (Thu – Sat) from 10am to 7pm 25th Oct 2026 (Sun) from 10am to 6pm'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "A publisher/exhibitor trade-and-public fair, not an autograph-guest convention; the only named figure on the homepage is illustrator Peter Mohrbacher as the 2026 event 'ambassador' (a single promotional role, not a guest roster), so guests is 'none'."
+}

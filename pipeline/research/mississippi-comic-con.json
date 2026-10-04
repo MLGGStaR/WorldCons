@@ -1,0 +1,30 @@
+{
+  "id": "mississippi-comic-con",
+  "name": "Mississippi Comic Con",
+  "short": "",
+  "url": "https://www.mississippicomiccon.com",
+  "organizer": "VXV Events, LLC",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "A three-day pop-culture and comics convention at the Mississippi Trade Mart in Jackson with celebrity and creator guests.",
+  "cover": { "file": "pipeline/cache/extract/mississippi-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Mississippi Trade Mart and Arena",
+      "city": "Jackson",
+      "region": "MS",
+      "country": "US",
+      "tickets": "https://www.mississippicomiccon.com/tickets",
+      "guestsPage": "https://www.mississippicomiccon.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Eventeny listing: 'Jun 25, 2027 3:00 PM - Jun 27, 2027 5:00 PM', Trade Mart and Arena, 1200 Mississippi St, Jackson, MS; matches venue hours on official site (Fri 3-8pm, Sat 10-6, Sun 11-5)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official homepage title is stale and still shows 'June 26-28, 2026' (that edition already passed before the 2026-10-05 research window); Eventeny confirms the next edition is June 25-27, 2027. Guests page shows 4 placeholder guest photos with no names and boilerplate 'list of guests scheduled to appear... will be updated' text — treated as not-yet-announced rather than unreadable."
+}

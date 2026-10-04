@@ -1,0 +1,37 @@
+{
+  "id": "ropecon",
+  "name": "Ropecon",
+  "short": "",
+  "url": "https://ropecon.fi/en/",
+  "organizer": "Ropecon Association",
+  "status": "active",
+  "types": [
+    "tabletop",
+    "cosplay",
+    "games"
+  ],
+  "blurb": "Finland's largest convention: a tabletop role-playing, board game and cosplay event held each summer in Helsinki.",
+  "cover": {
+    "file": "pipeline/cache/extract/ropecon.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2027-07-30",
+      "end": "2027-08-01",
+      "dates": "confirmed",
+      "venue": "Messukeskus",
+      "city": "Helsinki",
+      "region": "",
+      "country": "FI",
+      "tickets": "https://ropecon.fi/en/tickets/",
+      "guestsPage": "https://ropecon.fi/en/guests-of-honor/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Thank you all! Ropecon 2027 will be held 30th of July – 1st of August'; venue/city confirmed via web search (Messukeskus, Helsinki)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Guests of Honor page is still titled and dated for the 2026 event ('Guests of Honor 2026', 'ROPECON 2026 | 24.–26.7.2026') which has already happened, listing Katrine Wind and Louise Sugden; 2027 Guests of Honor had not been posted as of this session, so guests is 'none-yet'. The 2027 venue/city (Messukeskus, Helsinki) was confirmed via web search rather than directly in the homepage's 'thank you' date announcement, which names only the dates."
+}

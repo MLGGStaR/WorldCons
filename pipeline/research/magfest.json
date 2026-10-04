@@ -1,0 +1,30 @@
+{
+  "id": "magfest",
+  "name": "MAGFest",
+  "short": "",
+  "url": "https://super.magfest.org/",
+  "organizer": "MAGFest, Inc.",
+  "status": "active",
+  "types": ["games", "tabletop"],
+  "blurb": "A four-day music-and-gaming festival at the Gaylord National with consoles, arcades, tabletop, chiptunes and live bands, run by the non-profit MAGFest, Inc.",
+  "cover": { "file": "pipeline/cache/extract/magfest.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-07",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "Gaylord National Resort & Convention Center",
+      "city": "National Harbor",
+      "region": "MD",
+      "country": "US",
+      "tickets": "https://super.magfest.org/attend/registration/",
+      "guestsPage": "https://super.magfest.org/activities/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"Super MAGFest January 7 – 10, 2027 ... Gaylord National, National Harbor, MD\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Official event site is super.magfest.org (www.magfest.org is the umbrella MAGFest, Inc. page, which also links sibling events MAGWest in San Jose CA, MAGStock in Darlington MD, MAGLabs and Bit Gen in Baltimore MD under their own brands/pages); this file covers only the flagship Super MAGFest event at National Harbor, MD. Its guests page still shows 2026's 3 guests (SungWon Cho, Carlos Ferro, Wilbert Roget II) with alt text explicitly referencing a \"Super MAGFest 2026 background\" / \"MAGFest 20X6 logo\", so 2027 guests are not yet announced."
+}

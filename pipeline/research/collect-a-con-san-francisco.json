@@ -1,0 +1,14 @@
+{
+  "id": "collect-a-con-san-francisco",
+  "name": "Collect-A-Con San Francisco",
+  "short": "",
+  "url": "https://collectaconusa.com/san-francisco/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Bay Area stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings at the San Mateo Event Center.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-san-francisco.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "collectaconusa.com/san-francisco/ reads 'The First Collect-A-Con San Francisco!' with a 'get notified when details are available' signup and no explicit date, alongside Panel/Celebrity Schedule assets uploaded Aug 2026, suggesting that first show already ran. The official 'San Francisco 2026 Recap' page ('Thank you for attending! See you next year.') confirms that edition concluded, but neither page restates its exact dates in the rendered text, and no independent source could confirm them either, so no top-level `last` is recorded (only the venue, San Mateo Event Center, is known). No next San Francisco/San Mateo date is published anywhere on the site, so editions is left empty."
+}

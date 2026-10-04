@@ -1,0 +1,14 @@
+{
+  "id": "game-market-osaka",
+  "name": "Game Market (Osaka)",
+  "short": "",
+  "url": "https://gamemarket.jp/",
+  "organizer": "Arclight",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The Kansai-region edition of Japan's largest tabletop-game market, where designers and small publishers sell their own games directly to attendees.",
+  "cover": { "file": "pipeline/cache/extract/game-market-tokyo.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No Kansai/Osaka-region edition has a confirmed date or venue for the research window (2026-10-05 to 2027-12-31). The official site's own overview page states Game Market runs 3 times a year with the Kansai-region leg in winter, but as of this check gamemarket.jp only had a published date for the Tokyo 2026 Autumn show (see game-market-tokyo.json); there is no dedicated Osaka page live right now, and a web search turned up no confirmed Osaka date more recent than a past (2024) edition. Cover reuses the main Game Market logo since there is no Osaka-specific page or key art to cite yet; editions is empty per the window rule rather than guessing a date."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "arctic-lights-comic-con",
+  "name": "Arctic Lights Comic Con",
+  "short": "ALCC",
+  "url": "https://arcticlightscomiccon.messukeskus.com/en/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop"
+  ],
+  "blurb": "Helsinki's pop-culture convention at the Expo and Convention Centre, with international voice-acting, comic-art and author guests and an artist alley.",
+  "cover": {
+    "file": "pipeline/cache/extract/arctic-lights-comic-con.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2027-04-03",
+      "end": "2027-04-04",
+      "dates": "confirmed",
+      "venue": "Helsinki Expo and Convention Centre",
+      "city": "Helsinki",
+      "region": "",
+      "country": "FI",
+      "tickets": "https://arcticlightscomiccon.messukeskus.com/en/tickets/",
+      "guestsPage": "https://arcticlightscomiccon.messukeskus.com/en/star-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/arctic-lights-comic-con.guests.json",
+          "picks": [
+            [2, "Richard Price", "", "other"],
+            [3, "Rich Keeble", "", "voice"],
+            [4, "Kirsty Rider", "", "voice"],
+            [7, "Todd Nauck", "", "comics"],
+            [8, "Manuel García", "", "comics"],
+            [9, "Tom Grummett", "", "comics"],
+            [10, "Torunn Grønbekk", "", "comics"],
+            [11, "Dani Strips", "", "comics"],
+            [12, "Phil Noto", "", "comics"],
+            [13, "John McCrea", "", "comics"],
+            [14, "Daniel Acuña", "", "comics"],
+            [15, "Matt Dinniman", "", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '3.–4.4 2027, Helsinki Expo and Convention Centre'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Star Guests page lists people under 'Special Guests', 'Influencers' and 'International Comic Artists, Authors and Editors' headings; two extracted tiles (#5 and #6 in the candidate file) are decorative section art (a recycled 'tahtivieraat'/star-guests graphic and the '2027 Influencers' heading image) with no named person, and were excluded. No bio text appears on any guest card, so 'Known for' is left blank throughout, even for guests independently known to this agent (Rich Keeble and Kirsty Rider voice Clair Obscur: Expedition 33; Matt Dinniman writes Dungeon Crawler Carl) — only their cat values reflect that outside knowledge, applied conservatively; Richard Price's specialty could not be determined and is filed as 'other'. The homepage's og image filename is tagged 'ALCC26' (last year's key art) but is still the page's current meta image; no fresher wide banner was found this session."
+}

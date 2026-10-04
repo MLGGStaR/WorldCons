@@ -1,0 +1,30 @@
+{
+  "id": "san-diego-comic-con",
+  "name": "San Diego Comic-Con",
+  "short": "SDCC",
+  "url": "https://www.comic-con.org/",
+  "organizer": "San Diego Comic Convention (Comic-Con International)",
+  "status": "active",
+  "types": ["comics", "pop", "scifi"],
+  "blurb": "Comic-Con International's flagship pop-culture and comics convention at the San Diego Convention Center, with panels, exhibitors and the Will Eisner Comic Industry Awards.",
+  "cover": { "file": "pipeline/cache/extract/san-diego-comic-con.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-07-22",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "San Diego Convention Center",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.comic-con.org/cc/badges/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'COMIC-CON 2027 JULY 22-25 PREVIEW NIGHT: JULY 21 SAN DIEGO CONVENTION CENTER'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Preview Night is July 21, the evening before the 4-day show; badges are sold as a '4-day plus Preview Night' package. comic-con.org is the shared hub for Comic-Con International (SDCC), WonderCon, Comic-Con Museum and the Eisner Awards; this file covers only SDCC itself (WonderCon is filed separately as wondercon.json). The 2027 Returning-Registration badge sale is Saturday, Oct 17, 2026. No Special Guests list for 2027 has been published yet (SDCC's industry guest list is typically announced close to the show), so guests is 'none-yet'."
+}

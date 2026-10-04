@@ -1,0 +1,14 @@
+{
+  "id": "angouleme-international-comics-festival",
+  "name": "Angoulême International Comics Festival",
+  "short": "FIBD",
+  "url": "https://www.bdangouleme.com",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["comics"],
+  "blurb": "France's major annual comics festival in Angoulême; cancelled for 2025-2026 amid a management dispute, with a revival planned for 2027.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The FIBD was cancelled for 2025 following an organisational scandal, and multiple trade reports (ComicsBeat, 'Angoulême 2026 cancelled, Bondoux defiant') indicate the 2026 edition did not happen either. A revival is reportedly planned for January 2027 under a new name, organisation, logo and identity (per ComicsBeat, 'ANGOULÊME: With FIBD no more, a new comics event is planned for 2027'), with the 2027 contract contested in litigation between former organiser 9eArt+ and a new operator. As of 2026-10-05 the seed URL bdangouleme.com does not resolve (DNS failure, tried with and without www) and no confirmed replacement official site, dates or guest list could be found, so this is written as inactive with no cover rather than guessed. Re-research once the 2027 relaunch has its own announced site."
+}

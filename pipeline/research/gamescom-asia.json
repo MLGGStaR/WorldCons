@@ -1,0 +1,30 @@
+{
+  "id": "gamescom-asia",
+  "name": "gamescom asia",
+  "short": "",
+  "url": "https://gamescom.asia",
+  "organizer": "Koelnmesse / Gamescom Global",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "Southeast Asia's largest gaming business-and-consumer expo, now combined with Thailand Game Show and held at QSNCC Bangkok each autumn.",
+  "cover": { "file": "pipeline/cache/extract/gamescom-asia.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-29",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Queen Sirikit National Convention Center",
+      "city": "Bangkok",
+      "region": "",
+      "country": "TH",
+      "tickets": "https://gamescom.asia/tickets",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'gamescom asia x Thailand Game Show 2026 returns to the Queen Sirikit National Convention Center, Bangkok, from 29 October to 1 November 2026.' Countdown timer on the same (same-day) render agreed ('will start in 24 Days')."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Branded jointly as 'gamescom asia x Thailand Game Show' since the 2025 merger, matching the given note about the move from Singapore to Bangkok's QSNCC. No celebrity/creator guest roster exists: the site's only named-people feature, 'Asia Game Talent Showcase', is a student game-development competition run by the Thai Game Association, not a guest list, and there is no speakers/guests page in the nav (About/Exhibit/entertainment area/business area/Media/Travel) — treated as a trade+consumer show with guests:none per the rules."
+}

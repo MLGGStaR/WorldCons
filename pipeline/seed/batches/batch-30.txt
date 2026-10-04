@@ -1,0 +1,12 @@
+1. id=toycon-uk | ToyCon UK | https://www.toyconuk.com | London, GB | types: toys | note: Designer toy & collectibles convention; confirmed 2-3 May 2026 at Novotel London West
+2. id=yorkshire-cosplay-con | Yorkshire Cosplay Con | https://www.yorkshirecosplaycon.com | Harrogate, GB | types: cosplay
+3. id=comicdom-con-athens | Comicdom Con Athens | https://www.comicdom-con.gr/ | Athens, GR | types: comics | note: Greece's longest-running international comics festival; free entry
+4. id=the-comic-con | The Comic Con | https://thecomiccon.gr/ | Thessaloniki, GR | types: comics, pop
+5. id=anime-con-run | Anime Con: Run | https://anime-con.gr/ | Thessaloniki, GR | types: anime, cosplay
+6. id=athenscon | AthensCon | https://www.athenscon.gr/ | Athens, GR | types: comics, toys, games
+7. id=fantasy-festival | Fantasy Festival | https://fantasyfestival.gr/ | Athens, GR | types: pop, scifi | note: Held in Peristeri
+8. id=ani-com-and-games-hong-kong | Ani-Com & Games Hong Kong | https://ani-com.hk/en/ | Hong Kong, HK | types: anime, comics, games | organizer: Hong Kong Trade Development Council (HKTDC) | note: HK's largest ACG fair since 1999 (originally Hong Kong Comics Festival); 5-day/3-hall run in 2026
+9. id=hong-kong-comic-con | Hong Kong Comic Con | https://www.hkcomiccon.com | Hong Kong, HK | types: pop, comics | organizer: Optics Ventures / One Cool Group | note: Inaugural edition May 2026; Western-style star-guest con at HKCEC, independent of ReedPop
+10. id=zagreb-comic-con | Zagreb Comic Con | https://zagrebcomiccon.com/ | Zagreb, HR | types: comics | note: Also known as Crtani Romani Šou
+11. id=liburnicon | Liburnicon | http://www.liburnicon.com | Opatija, HR | types: scifi | note: Formerly Abbacon; recent activity/status uncertain, include with caution
+12. id=sferakon | SFeraKon | https://sferakon.org/ | Zagreb, HR | types: scifi, tabletop, cosplay | note: Longest-running science fiction convention in southeastern Europe

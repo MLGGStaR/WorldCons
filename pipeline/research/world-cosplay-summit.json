@@ -1,0 +1,30 @@
+{
+  "id": "world-cosplay-summit",
+  "name": "World Cosplay Summit",
+  "short": "WCS",
+  "url": "https://worldcosplaysummit.jp/en",
+  "organizer": "World Cosplay Summit Committee",
+  "status": "active",
+  "types": ["cosplay"],
+  "blurb": "An international cosplay championship with national teams from 40+ countries competing in Nagoya; the 2027 edition moves to a November date.",
+  "cover": { "file": "pipeline/cache/extract/world-cosplay-summit.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-11-12",
+      "end": "2027-11-14",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Nagoya",
+      "region": "",
+      "country": "JP",
+      "tickets": "https://worldcosplaysummit.jp/en/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'World Cosplay Summit 2027 — November 12 (Fri) · 13 (Sat) · 14 (Sun), 2027 · Nagoya · SAVE THE DATE!' and '📅 DATE NOV 12–14, 2027 📍 LOCATION NAGOYA, JAPAN'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "WCS 2026 (Jul 31-Aug 2, 2026, Oasis 21 / Aichi Arts Center, Nagoya, 41 countries) already concluded before this research window. WCS 2027 was just announced (homepage countdown reads '403 days until WCS2027' as of this check) moving to a November date for the first time; no specific venue (beyond 'Nagoya') or competing countries/judges have been named yet, so venue is left blank and guests is 'none-yet' rather than guessed from the 2026 lineup. WCS is a national-team cosplay competition, not a celebrity-guest convention; past editions have had guest judges/performers (e.g. a 2026 photo of Shoko Nakagawa on stage) but none are confirmed for 2027."
+}

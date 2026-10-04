@@ -1,0 +1,15 @@
+{
+  "id": "festival-fantazie",
+  "name": "Festival Fantazie",
+  "short": "",
+  "url": "https://www.festivalfantazie.cz/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "A week-long pop-culture camp in Chotěboř for sci-fi, fantasy and gaming fans, run by the club behind sibling events Parcon and Silicon at the same venue.",
+  "cover": { "file": "pipeline/cache/extract/festival-fantazie.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-07-02", "end": "2026-07-12", "city": "Chotěboř", "region": "", "country": "CZ", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "The 31st Festival Fantazie ran 2026-07-02 to 2026-07-12 in Chotěboř (homepage text: '31. ROČNÍK FESTIVALU POPKULTURY Čtvrtek 2.7. až neděle 12.7.2026'), already concluded before this window; no 32nd-edition date is announced yet anywhere on the site. The /hoste guests page shows only an archived 'Hosté Festivalu Fantazie 2020' heading with no 2026/2027 content, confirming nothing current is posted there. The same organizing circle runs two other separately-named events at the same hotel/venue that ARE dated within the window — Parcon 2027 (2027-09-16 to 2027-09-19) and SILICON 2026 (2026-12-30 to 2027-01-02) — but those are distinct, differently-branded conventions from Festival Fantazie itself and are outside this research item (not in this batch), so they are only mentioned here for context and are not filed as editions of this one."
+}

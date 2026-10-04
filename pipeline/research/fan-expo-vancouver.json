@@ -1,0 +1,30 @@
+{
+  "id": "fan-expo-vancouver",
+  "name": "FAN EXPO Vancouver",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexpovancouver/",
+  "organizer": "Fan Expo HQ (Informa)",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "A pop-culture weekend at the Vancouver Convention Centre with celebrity panels, comic creators, anime guests and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-vancouver.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-13",
+      "end": "2027-02-15",
+      "dates": "confirmed",
+      "venue": "Vancouver Convention Centre - West Building",
+      "city": "Vancouver",
+      "region": "BC",
+      "country": "CA",
+      "tickets": "https://fanexpohq.com/fanexpovancouver/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexpovancouver/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and JSON-LD: 'FEBRUARY 13 - 15, 2027 VANCOUVER CONVENTION CENTRE - WEST BUILDING'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Celebrities, Animation Voices, Anime Guests, Comic Creators and Cosplayers pages are all headed 'PAST FAN FAVE GUESTS INCLUDED' (e.g. Elijah Wood, Sean Astin, Ron Perlman, Katee Sackhoff) with a 'Sign up to the e-newsletter for all Celebrity Guest updates' call to action — these are prior-year highlight guests, not a 2027 lineup, so guests is none-yet rather than announced."
+}

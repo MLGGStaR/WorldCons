@@ -1,0 +1,72 @@
+{
+  "id": "animate-orlando",
+  "name": "Animate! Orlando",
+  "short": "",
+  "url": "https://galaxycon.com/pages/animate-orlando",
+  "organizer": "GalaxyCon",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A three-day anime and animation convention from GalaxyCon with voice actors, animation veterans, cosplay guests and wrestlers.",
+  "cover": { "file": "pipeline/cache/extract/animate-orlando.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-08-13",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "Orange County Convention Center",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://www.eventeny.com/events/ticket/?id=33299",
+      "guestsPage": "https://galaxycon.com/pages/animate-orlando-guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/animate-orlando.guests.json",
+          "picks": [
+            [1, "Kevin Woo", "", "music"],
+            [2, "Justin Cook", "", "voice"],
+            [3, "Stephen Silver", "", "animation"],
+            [4, "Peter Raymundo", "", "animation"],
+            [5, "Rick Law", "", "animation"],
+            [6, "Willie Ito", "", "animation"],
+            [7, "Joe Wos", "", "comics"],
+            [8, "Guy Hutchinson", "", "comics"],
+            [9, "Xia Brookside", "", "sports"],
+            [10, "Deonna Purrazzo", "", "sports"],
+            [11, "Lacey Lane", "", "sports"],
+            [12, "Kacy Catanzaro", "", "sports"],
+            [13, "Patty Hawkins", "", "cosplay"],
+            [14, "Milo Beasley", "", "other"],
+            [15, "Nerds Know", "", "creator"],
+            [16, "Noise Complaint", "", "music"],
+            [18, "Elgin David", "", "cosplay"],
+            [19, "Tyler Wood", "", "comics"],
+            [21, "Morgan Le Foy", "", "cosplay"],
+            [22, "Heartless Aquarius", "", "cosplay"],
+            [23, "Merkuma", "", "cosplay"],
+            [24, "Danielle DeNicola", "", "other"],
+            [26, "CafeDeDuy", "", "creator"],
+            [27, "Feycrafts", "", "other"],
+            [28, "Eve Talisman Cosplay", "", "cosplay"],
+            [29, "MiraiCon", "", "other"],
+            [30, "Crossroads Swords", "", "other"],
+            [31, "Freestyle Anime Podcast", "", "creator"],
+            [32, "Orlando Ghostbusters", "", "cosplay"],
+            [34, "Dan Dings", "", "other"],
+            [35, "Jaime Escanellas", "", "other"],
+            [36, "Brandon Saunders", "", "other"],
+            [39, "Margaret Kerry", "", "animation"],
+            [40, "Nolan North", "", "voice"],
+            [41, "Patrick Warburton", "", "voice"],
+            [42, "Malia Ewart", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'August 13-15, 2027' and 'We look forward to seeing you AUGUST 13-15, 2027 at the Orange County Convention Center.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name could not be confidently placed. Skipped a vendor card (a tattoo-artist business), two 'Coming Soon' placeholder cards, and 3 exact-duplicate repeats of guests already picked under a different photo (Milo Beasley, Patty Hawkins, Morgan Le Foy each appeared twice)."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hyper-japan",
+  "name": "Hyper Japan",
+  "short": "",
+  "url": "https://hyperjapan.co.uk",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "anime"],
+  "blurb": "The UK's biggest Japanese culture festival, held at Olympia London and covering anime, manga, music, fashion, food and gaming.",
+  "cover": { "file": "pipeline/cache/extract/hyper-japan.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The homepage only advertises the Festival edition that already ran 24-26 July 2026 (Olympia London) — before the 2026-10-05 research window — and gives no 2027 dates; the ticket link is for that past July 2026 show. The seed note's claim that Hyper Japan 'runs twice yearly (summer Festival + winter Christmas Market)' is outdated: per Wikipedia, the winter Christmas Market last ran in November 2018 and was not revived; a one-off Manchester expansion ran November 2025, but that is a different city and nothing on hyperjapan.co.uk announces a 2026 repeat of it or a 2027 London Festival date. Left editions empty rather than guess; cover uses the current 'HJF26' og banner, the only official key art live on the site."
+}

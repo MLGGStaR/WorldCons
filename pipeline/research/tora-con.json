@@ -1,0 +1,30 @@
+{
+  "id": "tora-con",
+  "name": "Tora-Con",
+  "short": "",
+  "url": "https://www.toracon.org",
+  "organizer": "RIT Anime Club",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "The largest convention in upstate New York for anime, cosplay and nerd culture, held at the Rochester Institute of Technology.",
+  "cover": { "file": "pipeline/cache/extract/tora-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-20",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Rochester Institute of Technology",
+      "city": "Rochester",
+      "region": "NY",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://toracon.org/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'MARCH 20 - 21, 2027 ROCHESTER INSTITUTE OF TECHNOLOGY ROCHESTER, NY'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's /guests page is still headed '2026 Guests' (that edition already ran in March 2026, before the research window) and the /guests/all-guests archive only adds 2025 and 2024 sections below it — no lineup has been posted yet for the March 2027 edition, so guests is 'none-yet'."
+}

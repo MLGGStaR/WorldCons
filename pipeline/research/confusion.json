@@ -1,0 +1,30 @@
+{
+  "id": "confusion",
+  "name": "ConFusion",
+  "short": "",
+  "url": "https://confusionsf.org/",
+  "organizer": "Stilyagi Air Corps",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The longest-running fan-run science fiction and fantasy convention in Michigan, with panels, a masquerade, gaming and rotating Guests of Honor.",
+  "cover": { "file": "pipeline/cache/extract/confusion.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "dates": "confirmed",
+      "venue": "Sheraton Detroit Novi Hotel",
+      "city": "Novi",
+      "region": "MI",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://2027.confusionsf.org/guests-of-honor/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage (2027.confusionsf.org): 'will take place from Thursday, January 21 to Sunday, January 24, 2027'; hotel page: 'The Sheraton Detroit Novi Hotel, 21111 Haggerty Rd Novi, Michigan 48375'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the 52nd ConFusion (per the about page). The batch note said the venue rotates through metro Detroit (Dearborn/Romulus/Troy), but the official 2027 site confirms this edition moved to the Sheraton Detroit Novi Hotel in Novi, MI. The Guests of Honor page for 2027 exists but lists all four GoH slots (Professional, Creative, Science, Fan) as 'TBA', so guests is none-yet."
+}

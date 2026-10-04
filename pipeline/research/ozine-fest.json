@@ -1,0 +1,30 @@
+{
+  "id": "ozine-fest",
+  "name": "Ozine Fest",
+  "short": "",
+  "url": "https://www.facebook.com/ozinefest/",
+  "organizer": "Otakuzine Anime Magazine (PSICOM Publishing)",
+  "status": "active",
+  "types": ["anime", "cosplay", "pop"],
+  "blurb": "An independent Filipino anime and cosplay fan convention at SM Megamall, with cosplay dance groups, idol-style contests and exhibitors.",
+  "cover": { "file": "pipeline/cache/extract/ozine-fest-fb.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "SM Megamall, Megatrade Hall 3",
+      "city": "Mandaluyong",
+      "region": "",
+      "country": "PH",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official Facebook page's own Events listing: 'Ozine Fest Halloween Special 2026 SM Megamall, Megatrade Hall 3 October 31 - November 1, 2026'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No live official website was found: the seed URL (facebook.com/OzineFest) redirects to facebook.com/ozinefest/, which is used as url. A WebSearch suggested an 'official site' at ozine.events, but that domain is just a parked GoDaddy page, not real — confirmed by rendering it. Organizer name (Otakuzine Anime Magazine / PSICOM Publishing) comes from secondary sources since no official About page was reachable; treat with some caution. The immediately preceding event on this page, 'Ozine Idol Fest' (Sept 26-27, 2026), was cancelled with ~2 days' notice per a Sept 25, 2026 apology post and angry attendee comments ('bakit na cancell?? ... Sana man lang mas maaga hindi 2 days before') — it's already outside this window regardless, but flagging the pattern since the Halloween Special recorded above is this page's next listed event and its actual occurrence is not separately guaranteed. No guest lineup found for the Halloween edition."
+}

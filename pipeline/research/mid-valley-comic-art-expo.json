@@ -1,0 +1,57 @@
+{
+  "id": "mid-valley-comic-art-expo",
+  "name": "Mid Valley Comic Art Expo",
+  "short": "MVCAE",
+  "url": "https://mvcae.com/",
+  "organizer": "Lahar Promotions LLC",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Salem, Oregon's comic book and pop-culture expo at the Oregon State Fairgrounds, with comic creators, cosplay groups and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/mid-valley-comic-art-expo.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-17",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Oregon State Fairgrounds, Jackman-Long Building",
+      "city": "Salem",
+      "region": "OR",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://mvcae.com/guests-and-attractions",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/mid-valley-comic-art-expo.guests.json",
+          "picks": [
+            [1, "Ron Randall", "Trekker; DC, Marvel, Dark Horse", "comics"],
+            [2, "Tracee Cocco", "Star Trek: TNG, DS9, Voyager", "actor"],
+            [3, "Chris Warner", "Comics artist/writer/editor", "comics"],
+            [4, "Keith Tucker", "Animation storyboard artist", "animation"],
+            [5, "Jason Metcalf", "Comic cover and interior artist", "comics"],
+            [6, "Dave Warren", "The Simpsons, Pinky and the Brain", "animation"],
+            [7, "Yuki Saeki", "Gates of Hell, Golgotha", "comics"],
+            [8, "Floydman", "Planet F Studios webcomic", "comics"],
+            [9, "Warren Montgomery", "Comics letterer/colorist", "comics"],
+            [10, "Mark Arnold", "Pop culture historian, Fun Ideas Podcast", "creator"],
+            [12, "Nate Quarry", "UFC fighter, The Ultimate Fighter S1", "sports"],
+            [13, "Shannon McFly", "Marty McFly cosplay", "cosplay"],
+            [14, "Brian Kidd", "The Unipiper", "cosplay"],
+            [15, "Josh Logan", "Cosplayer", "cosplay"],
+            [16, "Mark Gillespie", "Comics/illustration artist", "comics"],
+            [17, "Adam Watson", "Ghost Assassin, Darkslinger Comics", "comics"],
+            [18, "Jack Stepp", "The Elysian graphic novel", "comics"],
+            [19, "Portland Ghostbusters", "Cosplay group", "cosplay"],
+            [20, "Star Wars Oregon", "501st/Rebel Legion costuming club", "cosplay"],
+            [21, "Saber Guild Felucia", "Star Wars lightsaber performance group", "cosplay"],
+            [22, "Z Fighter Worldwide", "Dragon Ball Z cosplay group", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'April 17 - 18, 2027 / The Oregon Expo - Jackman-Long Building / Salem, OR' and schedule text 'Saturday April 17, 2027 ... Sunday April 18, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Given id/url/place were correct. Organizer 'Lahar Promotions LLC' found in homepage About text ('owned and operated by Lahar Promotions LLC'); also states this is the 6th year. Guests page candidate #11, 'Caesar The No Drama Llama', is an animal mascot/therapy llama meet-and-greet, not a person, and was excluded. #0 is the page's own banner image, excluded. Cover uses hero:0 (2027 promotional flyer) rather than og (a small square button/badge graphic)."
+}

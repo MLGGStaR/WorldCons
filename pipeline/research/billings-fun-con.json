@@ -1,0 +1,30 @@
+{
+  "id": "billings-fun-con",
+  "name": "Billings Fun Con",
+  "short": "",
+  "url": "https://www.billingsfuncon.com",
+  "organizer": "Dragon Egg Games",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Montana's large-scale comic and pop-culture convention at MetraPark in Billings, paired with the Montana Card Show.",
+  "cover": { "file": "pipeline/cache/extract/billings-fun-con.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "MetraPark Expo Center",
+      "city": "Billings",
+      "region": "MT",
+      "country": "US",
+      "tickets": "https://www.tickettailor.com/events/montanafuncon/2410177",
+      "guestsPage": "https://www.billingsfuncon.com/special-guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'BILLINGS FUN CON & MONTANA CARD SHOW June 25, 26, & 27 2027 ... In the MetraPark Expo Center' and 'Billings Fun Con June 25-27 2027 Friday 2pm-7pm Saturday 10am-7pm Sunday 10am-5pm'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage has been updated to the next edition's dates (June 25-27, 2027), but the Special Guests page still shows the prior (3rd/2026) edition's lineup — its own text says 'Billings Fun Con has lots of exciting guests joining us in 2026!' and one guest bio explicitly says he 'will be joining us at Billings Fun Con 2026.' Per web search, the 2026 edition ran June 12-14, 2026 (before this research window), so that lineup (Tim Rozon, Kat Barrell, Russell Walks, Jonathan Hallett, Kate Drummond, Brett Wagner, Breed, James C. Mulligan) is last year's and not yet confirmed for 2027; treated as not-yet-announced. Site also brands itself/tickets as 'Montana Fun Con' (montanafuncon@gmail.com, montanafuncon ticket/FB handles) alongside 'Billings Fun Con' — same event, kept the given id/name."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "vancoufur",
+  "name": "VancouFur",
+  "short": "VF",
+  "url": "https://vancoufur.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Canada's largest west coast furry convention, a four-day event in Richmond, British Columbia.",
+  "cover": { "file": "pipeline/cache/extract/vancoufur.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-04",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Richmond Conference Centre",
+      "city": "Richmond",
+      "region": "BC",
+      "country": "CA",
+      "tickets": "https://vancoufur.org/registration/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown text: 'March 4-7, 2027 Richmond Conference Centre Richmond, BC, Canada'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No Guest of Honor list is published yet for VancouFur 2027; the 'Guests' nav dropdown currently only links to a Charity page, and /guests/ 404s (confirmed via WebFetch and extract.mjs). Organizing society's name not confirmed on-site, left blank rather than guessed."
+}

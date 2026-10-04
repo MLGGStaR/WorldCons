@@ -1,0 +1,14 @@
+{
+  "id": "small-press-expo",
+  "name": "Small Press Expo",
+  "short": "SPX",
+  "url": "https://www.smallpressexpo.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "The premier showcase for independent and small-press graphic novels, comics and cartooning in the DC area; hosts the Ignatz Awards.",
+  "cover": { "file": "pipeline/cache/extract/small-press-expo.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "SPX 2026 (September 12-13, 2026, Bethesda North Marriott Hotel & Conference Center, Rockville, MD) already concluded before today's cutoff (2026-10-05) and the 2026 Ignatz Award winners are already posted on the homepage. No 2027 dates are announced yet on the official site."
+}

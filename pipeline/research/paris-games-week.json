@@ -1,0 +1,30 @@
+{
+  "id": "paris-games-week",
+  "name": "Paris Games Week",
+  "short": "PGW",
+  "url": "https://www.parisgamesweek.com/en",
+  "organizer": "SELL",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "France's biggest consumer video-game expo, held at Paris Expo Porte de Versailles each autumn.",
+  "cover": { "file": "pipeline/cache/extract/paris-games-week.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Paris Expo Porte de Versailles",
+      "city": "Paris",
+      "region": "",
+      "country": "FR",
+      "tickets": "https://www.parisgamesweek.com/billetterie",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'FROM OCTOBER 22TH TO OCTOBER 25TH 2026 PARIS EXPO / PORTE DE VERSAILLES' and 'IN 2026, PGW RETURNS FOR ITS 15TH EDITION'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Consumer video-game trade expo organised around publisher/exhibitor booths (organiser SELL = Syndicat des Éditeurs de Logiciels de Loisirs) rather than an individual celebrity-guest program; no 'guests'/'invités' page exists on the official site, so guests is 'none'."
+}

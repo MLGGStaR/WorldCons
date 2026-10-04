@@ -1,0 +1,78 @@
+{
+  "id": "facts",
+  "name": "FACTS",
+  "short": "",
+  "url": "https://www.facts.be/fr/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Belgium's biggest comic con at Flanders Expo Ghent, bringing film/TV actors, comic artists, prose authors and cosplay contests twice a year.",
+  "cover": { "file": "pipeline/cache/extract/facts.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Flanders Expo",
+      "city": "Ghent",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.facts.be/en/info/tickets/",
+      "guestsPage": "https://www.facts.be/en/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/facts.guests.json",
+          "picks": [
+            [1, "Martin Kove", "Karate Kid, Cobra Kai (John Kreese)", "actor"],
+            [2, "Tim Downie", "Gale in Baldur's Gate 3", "voice"],
+            [3, "Maria Zhang", "Suki, Avatar: The Last Airbender", "actor"],
+            [4, "William Zabka", "Karate Kid, Cobra Kai (Johnny)", "actor"],
+            [5, "Pom Klementieff", "Mantis, Guardians of the Galaxy", "actor"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/facts-2.guests.json",
+          "picks": [
+            [3, "John Romita Jr.", "Marvel artist (Spider-Man)", "comics"],
+            [8, "Artgerm", "Legendary comic cover artist", "comics"],
+            [13, "Niko Henrichon", "Pride of Baghdad artist", "comics"],
+            [17, "Valentin Sécher", "Conan, Meta-Baron illustrator", "comics"],
+            [21, "Jim", "Graphic novelist and cartoonist", "comics"],
+            [24, "Marc Verhaegen", "Suske & Wiske artist", "comics"],
+            [27, "Marini", "Batman: The Dark Prince Charming", "comics"],
+            [30, "Luc Cromheecke", "Comic and graphic novelist", "comics"],
+            [32, "Art Grafunkel", "Pop-culture comic illustrator", "comics"],
+            [34, "Lectrr", "Red Rider cartoonist", "comics"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/facts-3.guests.json",
+          "picks": [
+            [5, "Dimitri Balcaen", "Peter & Pan, Grimoire", "author"],
+            [6, "Frank Van Dongen", "De Ontdekking van de Mens", "author"],
+            [7, "Joke Pangrazio", "Boekenboom podcast", "author"],
+            [8, "Petra Doom", "Overstekers, Kinderen van Orpheus", "author"],
+            [9, "Mathias Maho", "Ruiters van de Nacht", "author"],
+            [10, "Pen Stewart", "Wintercode, Onderuniversum", "author"],
+            [11, "Peter DeWillis", "Terra Fabula, Griezel & Co.", "author"],
+            [12, "Olivier Sted", "De bergbouwers van Metis Bidenk", "author"],
+            [13, "Dianne Arentsen", "Het patroon, Spel van Illusies", "author"],
+            [14, "J. Pangrazio", "De strijders van Cathaighte", "author"],
+            [15, "Kim ten Tusscher", "Hydrhaga, Lilith", "author"],
+            [16, "Robin Rozendal", "Levende steden, Werelden ontwaken", "author"],
+            [17, "Gaby Raaijmakers", "Drakeneiland", "author"],
+            [18, "Johan Lubbers", "De Komeet, Vergane glorie", "author"],
+            [19, "Johanna Lime", "Schimmenschuw, De vergeten vloek", "author"],
+            [20, "Kelly van der Laan", "De prijs van water", "author"],
+            [21, "Mathijs Hulster CF", "Portaal", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage (fr): '31 octobre - 1 novembre 2026 Flanders Expo Gand'; actors page (en): 'at FACTS, in Flanders Expo, Ghent, on October 31st and November 1st 2026'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "FACTS runs a Spring and a Fall edition each year under one brand (per RESEARCH.md's two-shows-a-year rule, same file/city); only Fall 2026 is covered here since no FACTS Spring 2027 dates are announced anywhere on the site yet as of this check. Guests are split across several category pages (Actors, Artist Alley, Authors, Cosplay) rather than one list; Actors/Artist-Alley/Authors all rendered cleanly, but the Cosplay guests tile links to a general cosplay-activities page (contests/parades) whose one named 2026 cosplay guest, Bambi Lashes, sits further down than the page-render tool's candidates reached, so she could not be picked with a resolvable photo number and is left out rather than guessed. An 'Experts' guest category also exists on the hub page but was not explored given the per-convention tool budget. The Artist Alley page's auto-detected section headings are off by one artist (each artist's own name heading prints after, not before, their image block) — picks below were matched by filename/alt text instead, which reliably ties each image set to the right artist."
+}

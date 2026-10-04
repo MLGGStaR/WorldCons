@@ -18,7 +18,7 @@ const dark = args.includes('--dark');
 const showConsole = args.includes('--console');
 const onlyMobile = args.includes('--mobile');
 const onlyDesktop = args.includes('--desktop');
-const routes = args.slice(1).filter((a) => !a.startsWith('--')).map((r) => r.split('='));
+const routes = args.slice(1).filter((a) => !a.startsWith('--')).map((r) => { const i = r.indexOf('='); return [r.slice(0, i), r.slice(i + 1)]; });
 if (!outDir || !routes.length) {
   console.error('usage: shoot.mjs <outDir> name=#/route ... [--full] [--dark] [--mobile|--desktop]');
   process.exit(2);
@@ -55,6 +55,8 @@ for (const [vname, opts] of variants) {
     page.on('console', (m) => showConsole && console.log(`[${vname}] ${m.type()}: ${m.text()}`));
     page.on('pageerror', (e) => console.log(`[${vname}] PAGE ERROR: ${e.message}`));
     await page.goto(base + (hash || ''), { waitUntil: 'networkidle' });
+    // Full-page captures need every section painted (the app skips off-screen ones).
+    if (full) await page.addStyleTag({ content: '.month, .cred { content-visibility: visible !important; }' });
     await page.waitForFunction(() => !document.querySelector('.skel'), null, { timeout: 15000 }).catch(() => {});
     await page.evaluate(async () => {
       // Load lazy images in the first screens, then return to the top.

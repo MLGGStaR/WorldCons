@@ -1,0 +1,30 @@
+{
+  "id": "mex-berlin",
+  "name": "MEX Berlin",
+  "short": "MEX",
+  "url": "https://mex-berlin.de/",
+  "organizer": "MEX Veranstaltungs-GmbH",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "An anime, manga, Korean-culture and games expo in Berlin with an Artist Alley, cosplay corner, a Japanese garden photo spot and a gaming room.",
+  "cover": { "file": "pipeline/cache/extract/mex-berlin.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Berlin ExpoCenter City",
+      "city": "Berlin",
+      "region": "",
+      "country": "DE",
+      "tickets": "https://shop.paylogic.com/5116c03c08b5498eb27c688dcec778ca",
+      "guestsPage": "https://mex-berlin.de/",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [["NCHIVE", "Concert & fan-signing", "music"]],
+      "evidence": "Meta description: 'Vom 23. – 25. Oktober 2026 begrüßen wir euch zur MEX '26 in den Messehallen am Funkturm in Berlin.'; homepage countdown targets the same weekend."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's own 'GÄSTE' nav link currently redirects back to the homepage and the only populated guest-style grid found is sponsors/exhibitor logos (artist alley/vendor partners, not people), so no star-guest photo roster exists yet; homepage text says 2026 booking is still 'in Vorbereitung' and invites fan suggestions. The one specific, confirmed act is the group NCHIVE, who have a homepage-announced concert and fan-signing, recorded as a text-only guest since no photo of them was found on the site."
+}

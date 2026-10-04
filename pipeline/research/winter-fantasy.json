@@ -1,0 +1,22 @@
+{
+  "id": "winter-fantasy",
+  "name": "Winter Fantasy",
+  "short": "",
+  "url": "https://www.baldmangames.com/winter-fantasy/",
+  "organizer": "Baldman Games",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Baldman Games' premiere Dungeons & Dragons Organized Play convention, held every February in Fort Wayne, Indiana since 1977.",
+  "cover": { "file": "pipeline/cache/extract/winter-fantasy.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-02-04",
+    "end": "2026-02-08",
+    "venue": "Grand Wayne Convention Center",
+    "city": "Fort Wayne",
+    "region": "IN",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The seed URL wintfan.baldmangames.com no longer resolves (DNS failure on two attempts); the convention's current page is https://www.baldmangames.com/winter-fantasy/, used here instead. Winter Fantasy 50 (its 50th-anniversary edition) ran February 4-8, 2026 at the Grand Wayne Convention Center, Fort Wayne, IN - before this window starts (2026-10-05). The page still only talks about the 50th-anniversary show; no Winter Fantasy 51 / 2027 dates have been posted yet, so editions is empty."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gothcon",
+  "name": "GothCon",
+  "short": "",
+  "url": "https://www.gothcon.se/",
+  "organizer": "Föreningen GothCon",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Sweden's leading tabletop convention, running since the 1970s over Easter weekend in Gothenburg with board, role-playing and card games.",
+  "cover": { "file": "pipeline/cache/extract/gothcon.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Hvitfeldtska gymnasiet",
+      "city": "Gothenburg",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://www.gothcon.se/en/biljetter/",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '26 - 28 mars 2027' and 'När: Påskhelgen, 26 – 28 mars 2027 Var: Hvitfeldtska gymnasiet, centrala Göteborg'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Grassroots volunteer-run tabletop convention (board games, RPGs, miniatures, card games) organized by Föreningen GothCon; its program is player-submitted game sessions, not a celebrity guest lineup — found no guest/GoH page on the site or in WebSearch, so guests is 'none' rather than 'none-yet'. No og:image on the page; used the full wordmark logo (logo:1) for the cover since the available hero photos are generic activity/attendee photos from past years, which RESEARCH.md says to avoid."
+}

@@ -1,0 +1,12 @@
+1. id=cartoon-crossroads-columbus | Cartoon Crossroads Columbus | https://cartooncrossroadscolumbus.com/ | Columbus, OH, US | types: comics | note: Free festival of cartooning and graphic novels (CXC), guest cartoonists
+2. id=concoction | ConCoction | https://www.clevelandconcoction.org/ | Cleveland, OH, US | types: scifi, tabletop, comics
+3. id=marcon | Marcon | http://www.marcon.org/ | Columbus, OH, US | types: scifi | note: On hiatus as of 2026 ('suspending Marcon for a year or two' per organizers, citing finances); next date not yet announced
+4. id=small-press-and-alternative-comics-expo | Small Press and Alternative Comics Expo | http://backporchcomics.com/space | Columbus, OH, US | types: comics | note: Free indie/minicomics and webcomics expo (SPACE), running since 2000
+5. id=oklahoma-comic-con | Oklahoma Comic Con | https://www.oklahomacomiccon.com | Tulsa, OK, US | types: comics, pop
+6. id=anime-oklahoma | Anime Oklahoma | https://www.animeoklahoma.com | Midwest City, OK, US | types: anime | note: Oklahoma City-area anime convention
+7. id=oafcon | OAFCon | https://www.oafcon.com | Norman, OK, US | types: pop | note: New event; official site was still pre-launch at research time, confirm before publishing
+8. id=pokekon | PokeKon | https://www.pokekon.com | Tulsa, OK, US | types: games, toys | note: Pokemon-focused fan gathering; site was unreachable at verification time, confirm before relying
+9. id=soonercon | Soonercon | https://www.soonercon.com | Norman, OK, US | types: scifi, games | note: Long-running fan-run SF/gaming con, revived 2005 after a 1997 hiatus
+10. id=kumoricon | Kumoricon | https://www.kumoricon.org/ | Portland, OR, US | types: anime | organizer: Altonimbus Entertainment (nonprofit) | note: 2026 edition Nov 13-15 at the Oregon Convention Center
+11. id=rose-city-comic-con | Rose City Comic Con | https://rosecitycomiccon.com/ | Portland, OR, US | types: comics, pop | note: 2026 edition Sept 11-13 at the Oregon Convention Center; major celebrity and author guest lineup
+12. id=gamestorm | GameStorm | https://gamestorm.org/ | Portland, OR, US | types: tabletop, games | note: Long-running Portland-area tabletop gaming convention

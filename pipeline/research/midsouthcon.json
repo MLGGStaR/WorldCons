@@ -1,0 +1,41 @@
+{
+  "id": "midsouthcon",
+  "name": "MidSouthCon",
+  "short": "",
+  "url": "https://www.midsouthcon.org/",
+  "organizer": "Mid-South Science and Fiction Convention, Inc.",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "The longest-running fan-run multi-genre science fiction convention in the Mid-South, now held in Olive Branch, Mississippi.",
+  "cover": { "file": "pipeline/cache/extract/midsouthcon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Whispering Woods Hotel & Convention Center",
+      "city": "Olive Branch",
+      "region": "MS",
+      "country": "US",
+      "tickets": "https://www.midsouthcon.org/registration/",
+      "guestsPage": "https://www.midsouthcon.org/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/midsouthcon.guests.json",
+          "picks": [
+            [1, "John Scalzi", "Redshirts, Hugo Award-winning SF novelist", "author"],
+            [2, "Lyss Menold", "Illustrator, Wyrd Miniatures & Dogmight Games", "other"],
+            [3, "Austin Harrison", "Head of Games at IV Studio", "gaming"],
+            [4, "Bridget Landry", "Planetary scientist, Hubble & Mars Pathfinder", "other"],
+            [5, "Paul Bielaczyc", "Chesley Award-winning artist", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MidSouthCon 42 · March 19–21, 2027 · Whispering Woods Hotel & Convention Center, Olive Branch, MS'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer name confirmed via nonprofit registry (Gudsy) as Mid-South Science and Fiction Convention, Inc.; the con's own site does not print its legal organizer name. Relocated from Memphis, TN to Olive Branch, MS per batch note (matches current venue)."
+}

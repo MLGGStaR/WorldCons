@@ -1,0 +1,12 @@
+1. id=all-con | All-Con | https://www.all-con.org | Dallas, TX, US | types: scifi, comics, pop | note: 22nd annual edition in 2026
+2. id=anime-frontier | Anime Frontier | https://www.animefrontier.com | Fort Worth, TX, US | types: anime | note: Winter sister event to A-Kon, launched 2021
+3. id=furry-fiesta | Furry Fiesta | https://furryfiesta.org | Dallas, TX, US | types: furry | note: One of the larger US furry cons (8,000+ attendees); next edition March 2027
+4. id=ikkicon | Ikkicon | https://www.ikkicon.com | Round Rock, TX, US | types: anime, games | note: Central Texas anime+gaming con at Kalahari Resort
+5. id=quakecon | QuakeCon | https://quakecon.org | Grapevine, TX, US | types: games | organizer: Bethesda Softworks | note: Free LAN party plus esports event, historically at the Gaylord Texan
+6. id=bggcon | BGG.CON | https://boardgamegeek.com/bggcon | Dallas, TX, US | types: tabletop | organizer: BoardGameGeek | note: Attendee-capped tabletop/RPG convention run by BoardGameGeek
+7. id=fencon | FenCon | https://www.fencon.org | Dallas, TX, US | types: scifi | organizer: Dallas Future Society | note: Literary/filk-focused SF con; next edition (XXII) shifted to March 2027
+8. id=homebrew-austin | Homebrew Austin | https://www.homebrewaustin.com | Austin, TX, US | types: games, pop | note: Community-organized successor after Rooster Teeth ended RTX Austin in 2023
+9. id=lone-star-fur-con | Lone Star Fur Con | https://www.lonestarfurcon.com | Austin, TX, US | types: furry | note: Next edition Feb 2027
+10. id=oni-con | Oni-Con | https://oni-con.net | Houston, TX, US | types: anime | note: Long-running since 2004 but has a history of hiatuses; confirm current dates before publishing
+11. id=staple | STAPLE! | https://staple-austin.org | Austin, TX, US | types: comics | note: Independent comics/zine/indie-art expo since 2005; next edition April 2027
+12. id=stratosfur | StratosFur | https://stratosfur.org | Houston, TX, US | types: furry

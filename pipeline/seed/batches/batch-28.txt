@@ -1,0 +1,12 @@
+1. id=con-nichiwa | Con Nichiwa | https://www.con-nichiwa.com | Tucson, AZ, US | types: anime, games, cosplay | note: Tucson's largest and longest-running anime/gaming/cosplay convention
+2. id=game-on-expo | Game On Expo | https://www.gameonexpo.com | Phoenix, AZ, US | types: games, anime, pop | note: Voted 2025 Best Geek Convention by Phoenix New Times
+3. id=saboten-con | Saboten Con | https://www.sabotencon.com | Phoenix, AZ, US | types: anime | note: Self-described Arizona's largest and longest-running anime convention
+4. id=wild-wild-west-con | Wild Wild West Con | https://www.wildwestcon.com | Tucson, AZ, US | types: scifi, cosplay | note: Steampunk convention; first 4-day edition in 2026
+5. id=artists-assemble-horror-fest | Artists Assemble Horror Fest | https://artistsassembleproductions.com | Mesa, AZ, US | types: horror
+6. id=flagstaff-creepy-con | Flagstaff Creepy Con | https://www.flagstaffcreepycon.com | Flagstaff, AZ, US | types: horror, cosplay | note: Northern Arizona horror/paranormal/true-crime event run by the Creepy Coffees team
+7. id=gathering-of-the-ghouls | Gathering of the Ghouls | https://www.gatheringoftheghouls.com | Mesa, AZ, US | types: horror
+8. id=painted-desert-fur-con | Painted Desert Fur Con | https://painteddesertfc.org | Phoenix, AZ, US | types: furry
+9. id=tuscon | TusCon | http://www.tusconscificon.com | Tucson, AZ, US | types: scifi, horror | organizer: Baja Arizona Science Fiction Association
+10. id=uwu-con | UwU Con | https://www.uwucon.com | Mesa, AZ, US | types: anime, comics, games | note: Year 5 in 2026
+11. id=anime-expo | Anime Expo | https://www.anime-expo.org/ | Los Angeles, CA, US | types: anime, games, pop | organizer: Society for the Promotion of Japanese Animation (SPJA) | note: Largest anime convention in North America, held July 4th weekend at LA Convention Center; 2027 edition July 2-5
+12. id=d23-expo | D23 Expo | https://d23.com/d23-expo/ | Anaheim, CA, US | types: pop, cosplay | organizer: The Walt Disney Company / D23 | note: Biennial official Disney fan convention; most recent edition Aug 14-16 2026; next US edition not yet announced (D23 Asia debuts in Singapore 2027)

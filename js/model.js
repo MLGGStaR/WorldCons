@@ -356,3 +356,55 @@ export function describeFilters(f) {
   if (f.q) bits.push(`matching “${f.q}”`);
   return bits.join(' ');
 }
+
+// ---- calendar export -----------------------------------------------------------------
+
+const icsText = (s) => String(s || '').replace(/[\\;,]/g, (m) => `\\${m}`).replace(/\r?\n/g, '\\n');
+
+function nextDay(iso) {
+  const [y, m, d] = parts(iso);
+  const t = new Date(Date.UTC(y, m - 1, d + 1));
+  return t.toISOString().slice(0, 10);
+}
+
+/** An all-day iCalendar event for a con (end date is exclusive in iCal). */
+export function toICS(con, place, stamp = '20260101T000000Z') {
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//WorldCons//Convention tracker//EN',
+    'CALSCALE:GREGORIAN',
+    'BEGIN:VEVENT',
+    `UID:${con.id}@worldcons`,
+    `DTSTAMP:${stamp}`,
+    `DTSTART;VALUE=DATE:${con.start.replace(/-/g, '')}`,
+    `DTEND;VALUE=DATE:${nextDay(con.end).replace(/-/g, '')}`,
+    `SUMMARY:${icsText(con.name)}`,
+    `LOCATION:${icsText([con.venue, place].filter(Boolean).join(', '))}`,
+    con.url ? `URL:${con.url}` : '',
+    `DESCRIPTION:${icsText([con.blurb, con.url].filter(Boolean).join('\n'))}`,
+    'END:VEVENT',
+    'END:VCALENDAR',
+  ].filter(Boolean);
+  return lines.join('\r\n') + '\r\n';
+}
+
+// ---- cons whose next dates are not announced ----------------------------------------
+
+/** Whether the "dates not announced yet" section belongs in this view. */
+export function showsTBA(f) {
+  return (f.when === 'upcoming' || f.when === 'all') && !f.month && !f.guests && f.sort === 'date';
+}
+
+/** Filter undated cons by place, type and text (date filters don't apply to them). */
+export function filterTBA(tba, guests, f) {
+  const types = new Set(f.types || []);
+  return tba.filter((c) => {
+    if (f.continent && continentOf(c.country) !== f.continent) return false;
+    if (f.country && c.country !== f.country) return false;
+    if (f.region && c.region !== f.region) return false;
+    if (types.size && !(c.types || []).some((t) => types.has(t))) return false;
+    if (f.q && !matchesQuery(c, guests, f.q)) return false;
+    return true;
+  });
+}

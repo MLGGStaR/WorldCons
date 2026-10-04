@@ -1,0 +1,69 @@
+{
+  "id": "singapore-comic-con",
+  "name": "Singapore Comic Con",
+  "short": "SGCC",
+  "url": "https://www.singaporecomiccon.com",
+  "organizer": "Reed Exhibitions",
+  "status": "active",
+  "types": ["comics", "pop", "toys", "games"],
+  "blurb": "Southeast Asia's flagship comic convention at Marina Bay Sands, bringing together Western and Asian comic-art legends, toys, cosplay and gaming.",
+  "cover": { "file": "pipeline/cache/extract/singapore-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Marina Bay Sands Expo & Convention Centre",
+      "city": "Singapore",
+      "region": "",
+      "country": "SG",
+      "tickets": "https://www.singaporecomiccon.com/tickets",
+      "guestsPage": "https://www.singaporecomiccon.com/guest",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/singapore-comic-con.guests.json",
+          "picks": [
+            [2, "Aka", "Marvel cover artist", "comics"],
+            [3, "Arthur Suydam", "", "comics"],
+            [4, "Brian Haberlin", "", "comics"],
+            [5, "Carla Cohen", "", "comics"],
+            [6, "Chris Ng", "", "comics"],
+            [7, "Claudio Castellini", "", "comics"],
+            [8, "Clayton Crain", "", "comics"],
+            [9, "Davide Paratore", "", "comics"],
+            [10, "Derrick Chew", "", "comics"],
+            [11, "Dexter Soy", "", "comics"],
+            [12, "Eric Chen", "", "comics"],
+            [13, "Hyun Jin Kim", "", "comics"],
+            [14, "Jeehyung Lee", "", "comics"],
+            [15, "Jeff Dekal", "", "comics"],
+            [16, "Kendrick Lim", "", "comics"],
+            [17, "Leos Ng", "", "comics"],
+            [18, "Lucio Parrillo", "", "comics"],
+            [19, "Marc Lee", "", "comics"],
+            [20, "Michael Golden", "", "comics"],
+            [21, "Negishi Takuya", "", "comics"],
+            [22, "Olivier Coipel", "", "comics"],
+            [23, "Renee Witterstaetter", "", "comics"],
+            [24, "Santa Fung", "", "comics"],
+            [25, "Scott Kolins", "", "comics"],
+            [26, "Stanley Artgerm Lau", "", "comics"],
+            [27, "Stéphanie Lavaud", "", "comics"],
+            [28, "Steve Leialoha", "", "comics"],
+            [29, "Peach Momoko", "", "comics"],
+            [30, "Terada Katsuya", "", "comics"],
+            [31, "Tokitokoro", "", "comics"],
+            [32, "Tom Taylor", "", "comics"],
+            [33, "Uji Kiyotaka", "", "comics"],
+            [34, "Whilce Portacio", "", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '4 December - The Ultimate Preview Night! 5pm - 9pm 5 - 6 December - 10.30am - 8pm' and 'Event Details Dates - 4 December 2026: Ultimate Preview Night 5pm - 9pm 5 - 6 December 2026 Venue: Mari[na Bay Sands Expo & Convention Centre]'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest grid shows only a portrait and name per card, no credit text, so Known for is left blank except for 'Aka', confirmed by WebSearch as a Marvel cover artist (real name undisclosed, 'Aka' is her professional name — kept in title case rather than the card's all-caps 'AKA'). Card #16 reads 'KENDRINK LIM' but its image filename is 'Kendrick Kunkka Lim.png'; used 'Kendrick Lim' as the likely-correct spelling (own-site inconsistency, not a guess from outside the page) and left 'Kunkka' out since it reads as a separate handle/nickname, not confirmed. All 33 guests are comic artists/writers/industry figures (comic-artist convention), so all are categorised 'comics'."
+}

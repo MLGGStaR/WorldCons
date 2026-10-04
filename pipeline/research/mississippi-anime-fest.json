@@ -1,0 +1,30 @@
+{
+  "id": "mississippi-anime-fest",
+  "name": "Mississippi Anime Fest",
+  "short": "MAF",
+  "url": "https://www.msanimefest.com",
+  "organizer": "VXV Events, LLC",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A two-day anime convention at the Mississippi Trade Mart in Jackson with celebrity, creator and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/mississippi-anime-fest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Mississippi Trade Mart",
+      "city": "Jackson",
+      "region": "MS",
+      "country": "US",
+      "tickets": "https://www.msanimefest.com/tickets",
+      "guestsPage": "https://www.msanimefest.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Tickets page: 'Mississippi Anime Fest is a two day event being held in 2027 at the Mississippi Trade Mart in Jackson, Mississippi.'; Eventeny listing: 'Mar 13, 2027 10:00 AM - Mar 14, 2027 11:00 AM', Trademart Convention Center, 1200 Mississippi St, Jackson, MS"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official homepage title is stale and still shows 'March 14 & 15, 2026' (that edition already passed before the 2026-10-05 research window); the Tickets page and Eventeny confirm the next edition is March 13-14, 2027. Guests page shows 4 placeholder guest photos with no names and the page text itself says 'This is the list of guests scheduled to appear. The list will be updated as more guests are announced' — treated as not-yet-announced rather than unreadable."
+}

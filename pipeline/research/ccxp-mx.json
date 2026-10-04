@@ -1,0 +1,30 @@
+{
+  "id": "ccxp-mx",
+  "name": "CCXP MX",
+  "short": "CCXP",
+  "url": "https://www.ccxp.mx/",
+  "organizer": "CCXP Eventos Ltda.",
+  "status": "active",
+  "types": ["pop", "comics", "games", "scifi"],
+  "blurb": "The Mexican edition of Brazil's CCXP (Comic Con Experience), at Centro Citibanamex with panels, exhibitors, an Artists' Valley and board games.",
+  "cover": { "file": "pipeline/cache/extract/ccxp-mx.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "Centro Citibanamex",
+      "city": "Mexico City",
+      "region": "",
+      "country": "MX",
+      "tickets": "https://www.ccxp.mx/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official homepage (post-2026 recap page): 'Nos vemos nuevamente del 30 abril al 2 de mayo de 2027.' Corroborated by omelete.com.mx (the organizer's own media outlet): 'CCXPMX27 se llevará a cabo los días 30 de abril, 1 y 2 de mayo' at 'Centro Banamex' — the same article notes guests and panels 'se revelarán más adelante' (will be revealed later)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site currently shows a 'relive the best moments' recap of the just-finished CCXPMX26, with the 2027 dates already announced on that same page; no guests are named yet for 2027 (the organizer's own article explicitly says the lineup comes later), so guests is none-yet. Organizer is the legal entity from the site's own footer trademark notice ('CCXP® es una marca registrada de CCXP EVENTOS LTDA.'); Omelete (from the seed note) is the Brazilian media company behind the CCXP brand."
+}

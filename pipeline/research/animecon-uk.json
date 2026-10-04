@@ -1,0 +1,30 @@
+{
+  "id": "animecon-uk",
+  "name": "AnimeCon UK",
+  "short": "",
+  "url": "https://animeconnec.com/",
+  "organizer": "Oakham Group",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "The original, flagship AnimeCon UK show and the UK's largest dedicated anime & manga convention, held yearly at the NEC in Birmingham.",
+  "cover": { "file": "pipeline/cache/extract/animecon-uk.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "NEC Birmingham",
+      "city": "Birmingham",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://animeconnec.com/tickets/",
+      "guestsPage": "https://animeconnec.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'ANIMEcon uk is back for our 5th nec show! 12-13 june 2027 nec birmingham' and 'Dates & Times Saturday 12th June 10am – 6pm Sunday 13th June 10am – 5pm'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given URL (www.animeconuk.com) is now just a hub page that links out to four separate city sites run by the same Oakham Group (animeconnec.com = NEC/Birmingham = the 'AnimeCon UK' flagship, animeconlondon.com, animeconmanchester.com, animedublin.com — Dublin is not in this research list); this file uses animeconnec.com directly as the official url. The guests page shows one card (Emi Lo) explicitly marked CANCELLED, left over from a past edition, and otherwise says 'COMING SOON', so guests is 'none-yet' for the June 2027 show."
+}

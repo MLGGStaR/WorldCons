@@ -1,0 +1,14 @@
+{
+  "id": "iron-city-comic-con",
+  "name": "Iron City Comic Con",
+  "short": "ICCC",
+  "url": "https://www.ironcitycomiccon.com/",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "A comics and pop-culture convention at the Birmingham Jefferson Convention Complex, with celebrity guests, cosplay contests and wrestling stars.",
+  "cover": { "file": "pipeline/cache/extract/iron-city-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The seed's 'May 30-31, 2026' date already ran and is in the past as of this 2026-10-05 check: the Guests page's own panel-schedule graphics are headed 'PANEL SCHEDULE SATURDAY, MAY 30TH' / 'SUNDAY, MAY 31ST' and one graphic's footer explicitly reads 'SATURDAY, MAY 30, 2026' / 'East Hall'. The official site's Tickets and FAQ pages both now say only 'Iron City Comic Con will take place in 2027, at the Birmingham Jefferson Convention Center' with no month or day given, so no edition can be recorded in the window per the dates schema. A third-party aggregator (Eventeny) lists 'May 22 & 23, 2027', but RESEARCH.md directs using the con's own site over aggregators, and the official site does not corroborate that specific date, so it is not used. The 2026-05-30/31 show's guest lineup (confirmed from the panel-schedule images: Red Dead Trio, Scott Innes, Alex Winter, Nick Castle, May Hong, Simmons & Luger, Rick and Morty Trio, Patrick Seitz, Kate Micucci, New Age Outlaws, Danny Trejo, Kari Wahlgren, The Hardyz, The Van Diens, Nakia Burrise, Little Red Fox Cosplay, Mark Sheppard, Sgt. Slaughter, Animaul, Cristina Vee, Susan Egan, Adrienne Barbeau, Colleen O'Shaughnessey, Geek Out Studios, John Schneider, Matt Ryan, Drake Bell) is not this file's current edition, so per RESEARCH.md ('only the current edition's guests') it is left out rather than attached to an edition that no longer applies. Cover uses the og:image, which is the one graphic consistent across the home/tickets/guests/FAQ pages (a 'NWA Comic Con' slide appearing on the homepage carousel is a sister-site cross-promo on the same shared VXV/Wix account, not Iron City's own art, so it was not used)."
+}

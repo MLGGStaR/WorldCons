@@ -1,0 +1,30 @@
+{
+  "id": "mocca-festival",
+  "name": "MoCCA Arts Fest",
+  "short": "MoCCA",
+  "url": "https://www.moccafest.org",
+  "organizer": "Society of Illustrators",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "An independent and small-press comics festival presented by the Society of Illustrators at Manhattan's Metropolitan Pavilion.",
+  "cover": { "file": "pipeline/cache/extract/mocca-festival.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-17",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Metropolitan Pavilion",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "tickets": "https://www.moccafest.org/tickets",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'The Society of Illustrators presents MoCCA Arts Fest April 17 - 18, 2027' and 'SI MoCCA Arts Fest Hours April 17th & 18th, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Current official name is 'MoCCA Arts Fest' (site title), evolved from 'MoCCA Festival'; kept the given id. No guest/lineup page exists on the site — the event is built around paid exhibitor tabling for small-press/indie creators ('Exhibitor Applications') rather than a curated celebrity/creator guest list, so guests is set to 'none'."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "phoenix-fan-fusion",
+  "name": "Phoenix Fan Fusion",
+  "short": "",
+  "url": "https://www.phoenixfanfusion.com/",
+  "organizer": "Square Egg Entertainment",
+  "status": "active",
+  "types": ["comics", "pop", "games"],
+  "blurb": "Formerly Phoenix Comicon: Arizona's biggest pop-culture convention at the Phoenix Convention Center, with celebrity panels, comics, gaming and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/phoenix-fan-fusion.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-06-04",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "Phoenix Convention Center",
+      "city": "Phoenix",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.phoenixfanfusion.com/guests-coming-soon",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'June 4 - 6th, 2027 Phoenix Convention Center Discover Your Inner Geek!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests nav links to a dedicated 'Guests Coming Soon' page whose own text says: 'Guests Coming SooN! Our 2027 show is already shaping up to be one for the multiverse. Check back soon for our first round of guest announcements...' so guests is 'none-yet'; the 'Previously, on Fan Fusion... 2026' section on that same page is an explicit past-years archive (2026 Celebrities/Comic Creators/Authors/Cosplay/etc.), not the 2027 lineup, so it was not used. Passes/tickets are also not yet on sale ('Passes on sale soon - Check back in the new year'), so tickets is left blank rather than guessed. No og:image on the site; cover uses the plain transparent Fan Fusion logo mark since the other available images are either sponsor logos or last year's (FF26-prefixed) photos. Organizer confirmed via search: 'owned, produced and managed by Square Egg Entertainment Inc. (SEEI), DBA PHOENIX FAN FUSION LLC', matching the seed."
+}

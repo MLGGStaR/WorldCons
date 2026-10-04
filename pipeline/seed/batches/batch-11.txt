@@ -1,0 +1,12 @@
+1. id=icecon | Icecon | http://icecon-reykjavik.is/en/ | Reykjavík, IS | types: scifi | note: Small fan-run speculative-fiction convention
+2. id=etna-comics | Etna Comics | https://www.etnacomics.com | Catania, IT | types: comics, games | note: ~100k visitors; largest comics festival in Southern Italy
+3. id=romics | Romics | https://www.romics.it | Rome, IT | types: comics | note: Two editions/year (April and October); ~400k combined annual visitors
+4. id=cartoomics | Cartoomics | https://www.milangamesweek.it | Milan, IT | types: comics, anime, games | note: Now run jointly with Milan Games Week
+5. id=mantua-comics-and-games | Mantua Comics & Games | https://www.mantovacomics.it | Mantua, IT | types: comics, games | note: ~25k visitors
+6. id=trieste-science-fiction-festival | Trieste Science+Fiction Festival | https://www.sciencefictionfestival.org | Trieste, IT | types: scifi | note: Genre film festival reaching 20k+ spectators
+7. id=deepcon | DeepCon | http://www.deepcon.it | Fiuggi, IT | types: scifi, horror | note: Science-fiction/fantasy/horror convention at Ambasciatori Place Hotel
+8. id=stranimondi | Stranimondi | https://www.stranimondi.it | Milan, IT | types: scifi | note: Fantasy & science-fiction literature festival; confirmed 17-18 Oct 2026
+9. id=animejapan | AnimeJapan | https://animejapan.jp | Tokyo, JP | types: anime, pop | organizer: Anime Japan Association | note: Held at Tokyo Big Sight; one of the world's largest anime events (~150,000+ attendees)
+10. id=comic-market-comiket | Comic Market (Comiket) | https://www.comiket.co.jp | Tokyo, JP | types: comics, anime | organizer: Comiket Preparations Committee | note: World's largest doujinshi fair; held every August and December at Tokyo Big Sight
+11. id=jump-festa | Jump Festa | https://www.jumpfesta.com | Chiba, JP | types: comics, anime | organizer: Shueisha | note: Annual Shonen Jump multi-magazine franchise event; 2027 edition runs Dec 19-20, 2026
+12. id=niconico-chokaigi | Niconico Chokaigi | https://chokaigi.jp | Chiba, JP | types: pop, games | organizer: Dwango | note: Japan's largest user-generated-content/internet-culture festival, held over Golden Week

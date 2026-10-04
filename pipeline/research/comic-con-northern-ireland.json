@@ -1,0 +1,30 @@
+{
+  "id": "comic-con-northern-ireland",
+  "name": "Comic Con Northern Ireland",
+  "short": "",
+  "url": "https://www.comicconnorthernireland.co.uk",
+  "organizer": "Monopoly Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Monopoly Events' Northern Ireland pop culture convention at the Eikon Centre near Belfast, with film, TV and gaming guests.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-northern-ireland.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-18",
+      "end": "2027-09-19",
+      "dates": "confirmed",
+      "venue": "Eikon Centre",
+      "city": "Lisburn",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://www.comicconnorthernireland.co.uk/tickets",
+      "guestsPage": "https://www.comicconnorthernireland.co.uk/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '18th - 19th Sept, 2027 Eikon Centre, Lisburn'; JSON-LD on the page is stale (dated 2022) and was not used."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Annual show (per the site's own 'annual shows' copy, unlike biannual sibling events Liverpool/Wales). The guests page shows only a single 'TBC' placeholder tile with no names - guests is 'none-yet'. 'In previous years' text namedrops Elijah Wood, Sean Astin, Ian Somerhalder, Michael Rooker and Paul Wesley, but that is marketing copy about past shows, not a confirmed 2027 lineup, so it was not picked. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright and the seed note."
+}

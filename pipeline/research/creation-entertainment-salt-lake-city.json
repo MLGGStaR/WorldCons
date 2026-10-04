@@ -1,0 +1,40 @@
+{
+  "id": "creation-entertainment-salt-lake-city",
+  "name": "Creation Salt Lake City",
+  "short": "",
+  "url": "https://creationent.com/events/ce-slc27/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Salt Lake City stop of Creation's touring Supernatural reunion weekend, the first 2027 date on the tour.",
+  "cover": { "file": "pipeline/cache/extract/creation-entertainment-salt-lake-city.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Salt Lake City",
+      "city": "Salt Lake City",
+      "region": "UT",
+      "country": "US",
+      "tickets": "https://creationent.com/events/ce-slc27/tickets/",
+      "guestsPage": "https://creationent.com/events/ce-slc27/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/creation-entertainment-salt-lake-city.guests.json",
+          "picks": [
+            [4, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
+            [5, "Jared Padalecki", "Sam Winchester, Supernatural", "actor"],
+            [6, "Misha Collins", "Castiel, Supernatural", "actor"],
+            [7, "Mark Sheppard", "Crowley, Supernatural", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page: 'Salt Lake City, UT Hyatt Regency Salt Lake City Hotel January 15-17, 2027 - Creation Salt Lake City'; event page: 'JANUARY 15-17, 2027 • SALT LAKE CITY'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Same touring Supernatural-cast brand as Pittsburgh/Boston/Austin/DC; as the first 2027 tour stop, only 4 guests (Ackles, Padalecki, Collins, Sheppard) have live photo cards so far, each confirmed by full on-page text ('JENSEN ACKLES... JARED PADALECKI... MISHA COLLINS... MARK SHEPPARD “Crowley”...'). A WebFetch summary of this page also surfaced ~13 extra names, but those came from unrelated YouTube-embed captions about OTHER tour stops (Oklahoma City, Las Vegas, Chicago, etc.) further down the same page, not from an actual Salt Lake City guest card, and none of them have an image candidate on this page — confirmed by re-rendering with a longer wait, which still returned the same 4 guest candidates — so they were deliberately left out rather than guessed in. The page also carries a leftover 'hanovermarriott.jpg' venue photo (that hotel is actually the Whippany, NJ venue), so no page image reliably depicts the real Hyatt venue; cover uses the generic 'Road So Far... The Road Ahead' tour key art instead of a city-specific banner, since Salt Lake City does not yet have one live."
+}

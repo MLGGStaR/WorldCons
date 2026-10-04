@@ -1,0 +1,15 @@
+{
+  "id": "kyoto-international-manga-anime-fair",
+  "name": "Kyoto International Manga Anime Fair",
+  "short": "KYOMAF",
+  "url": "https://kyomaf.kyoto/en/",
+  "organizer": "Kyoto International Manga Anime Fair Executive Committee, Kyoto City",
+  "status": "active",
+  "types": ["anime", "comics"],
+  "blurb": "Western Japan's largest manga and anime fair, held annually in September at Miyako Messe and ROHM Theatre Kyoto.",
+  "cover": { "file": "pipeline/cache/extract/kyoto-international-manga-anime-fair.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2026-09-19", "end": "2026-09-20", "city": "Kyoto", "region": "", "country": "JP" },
+  "checked": "2026-10-05",
+  "notes": "KYOMAF 2026 (the 15th edition) ran September 19-20, 2026 at Miyako Messe / ROHM Theatre Kyoto, just before this research window opens; the homepage now shows 'thank you for coming' banners and news only up to 2026-08-06, with no 2027 date yet. KYOMAF is typically held the third Saturday/Sunday of September (per ja.wikipedia.org), which would put a 16th edition around September 2027, but no official date has been announced as of 2026-10-05, so no edition is listed rather than guessing one. Organizer confirmed via Wikipedia as the KYOMAF Executive Committee together with Kyoto City."
+}

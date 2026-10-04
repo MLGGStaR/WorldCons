@@ -1,0 +1,12 @@
+1. id=avcon | AVCon | https://avcon.org.au/ | Adelaide, SA, AU | types: anime, games, cosplay | organizer: Team AVCon Incorporated | note: Adelaide's volunteer-run anime/gaming/pop-culture con since 2002; 2026 dates July 4-5.
+2. id=pax-australia | PAX Australia | https://aus.paxsite.com/ | Melbourne, VIC, AU | types: games, tabletop, cosplay | organizer: RX (Reed Exhibitions / Penny Arcade) | note: Australia's biggest consumer gaming expo, part of Melbourne International Games Week; 2026 dates Oct 9-11 at MCEC.
+3. id=swancon | SwanCon | https://www.swancon.com.au/ | Perth, WA, AU | types: scifi, tabletop | organizer: Western Australian Science Fiction Foundation | note: Australia's longest-running SF convention (since 1976), ~250-300 attendees; site references 'Swancon51 (2027)', so exact 2026 timing/numbering is unclear.
+4. id=comic-con-brussels | Comic Con Brussels | https://comicconbrussels.com/fr/homepage-fr/ | Brussels, BE | types: comics, pop | organizer: Easyfairs
+5. id=facts | FACTS | https://facts.be/fr/ | Ghent, BE | types: comics, anime, games | note: Fantasy Anime Comics Toys Space; also runs a spring edition
+6. id=made-in-asia | Made in Asia | https://www.madeinasia.be | Mons, BE | types: anime, pop | note: Belgian anime/J-pop culture convention at Lotto Mons Expo
+7. id=heroes-world | Heroes World | https://www.heroes-world.be/ | Brussels, BE | types: anime, pop | note: Also associated with the Made in Asia brand
+8. id=japan-day-liege | Japan Day – Liège | https://japan-day.com/ | Liège, BE | types: anime, cosplay
+9. id=trolls-et-legendes | Trolls et Légendes | https://www.trolls-et-legendes.be | Mons, BE | types: scifi, cosplay | note: Fantasy literature & costume festival
+10. id=collector-geeks | Collector Geeks | https://www.collectorgeeks.com/ | Hasselt, BE | types: toys, comics
+11. id=elftopia | Elftopia | https://www.elftopia.be/fr/homepage-fr/ | Deinze, BE | types: cosplay, scifi | note: Fantasy castle fair at Kasteel van Ooidonk
+12. id=geek-village | Geek Village | https://www.geekvillage.be/the-con | Hasselt, BE | types: pop, games | note: Also runs a summer open-air edition in Heers

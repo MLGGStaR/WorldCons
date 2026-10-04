@@ -1,0 +1,21 @@
+{
+  "id": "comic-con-india-ahmedabad",
+  "name": "Comic Con India (Ahmedabad)",
+  "short": "ACC",
+  "url": "https://www.comicconindia.com",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Ahmedabad leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics-industry and pop-culture guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No live 2026-27 event page on comicconindia.com as of this check, and no third-party source with a specific 2026 or 2027 date was found either. The work-list's 'exact 2026 date not yet confirmed' matches what was found; the site's only current, confirmed city pages are Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "jafax",
+  "name": "JAFAX",
+  "short": "",
+  "url": "https://www.jafax.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "West Michigan's longest-running Japanese animation and culture convention, with cosplay contests, concerts and celebrity/VTuber guests at DeVos Place.",
+  "cover": { "file": "pipeline/cache/extract/jafax.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "DeVos Place",
+      "city": "Grand Rapids",
+      "region": "MI",
+      "country": "US",
+      "tickets": "https://www.zeffy.com/en-US/ticketing/jafax-2027-badges",
+      "guestsPage": "https://jafax.org/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/jafax.guests.json",
+          "picks": [
+            [0, "Ironmouse", "VTuber; most-subscribed female Twitch streamer", "creator"],
+            [1, "Grand Rapids Sumo Club", "Sumo demonstration group", "sports"],
+            [2, "Toxinesis", "Post-apocalyptic performance duo", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"JAFAX 29 ... Join us at DeVos Place June 25–27, 2027!\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Checked the guests page's own \"All\" filter (?view=all) to confirm these 3 are the complete current roster, not a partial/featured subset."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "comfest",
+  "name": "COMFEST",
+  "short": "",
+  "url": "https://www.instagram.com/comfestcon/",
+  "organizer": "Kuwait International Fair (KIF)",
+  "status": "active",
+  "types": ["pop", "anime", "games", "comics"],
+  "blurb": "Kuwait's annual pop-culture, anime, gaming and comics expo at the Kuwait International Fairgrounds in Mishref.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "No dedicated official website was found — only third-party event-listing aggregators (listkuwait.com, kuwaitup2date.com, eventschecker.com, kuwaitlocal.com), none of which are the organizer's own site — so the verified Instagram page (@comfestcon, 49.7K followers) is used as url per the no-website special case, and cover is left null since no official image can be sourced from it. The most recent edition ran Sept 24-26, 2026 at the Kuwait International Fairgrounds (per multiple independent listings), which is before today's window (2026-10-05), so it is not listed as an edition. Checked the Instagram page directly on 2026-10-05: posts run through October 2026 but none announce 2027 dates yet, so editions is empty rather than guessed. Organizer is carried over from the seed note (Kuwait International Fair / KIF, the fairgrounds operator); this was not independently confirmed on an official organizer page since none could be found."
+}

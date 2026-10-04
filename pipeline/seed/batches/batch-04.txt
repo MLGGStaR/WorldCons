@@ -1,0 +1,12 @@
+1. id=nekocon-kuopio | Nekocon | https://nekocon.fi/ | Kuopio, FI | types: anime
+2. id=angouleme-international-comics-festival | Angoulême International Comics Festival | https://www.bdangouleme.com | Angoulême, FR | types: comics | note: World's 2nd/3rd largest comics festival; ~200k visitors, held in late January
+3. id=japan-expo | Japan Expo | https://www.japan-expo-paris.com | Paris, FR | types: anime, pop, games, cosplay | organizer: SEFA Event | note: Europe's largest Japanese pop-culture convention; confirmed 9-12 July 2026 at Paris-Nord Villepinte
+4. id=paris-games-week | Paris Games Week | https://www.parisgamesweek.com/en | Paris, FR | types: games | organizer: SELL | note: 317k+ visitors in 2019; one of Europe's largest consumer video game expos
+5. id=comic-con-paris | Comic Con Paris | https://comic-con-paris.com | Paris, FR | types: pop, comics | organizer: SEFA Event | note: Multi-genre convention at Grande Halle de la Villette; exact 2026 month not independently confirmed this session
+6. id=les-utopiales | Les Utopiales | https://www.utopiales.org | Nantes, FR | types: scifi | note: Major French science-fiction literature & film festival with international media guests
+7. id=paris-manga-and-sci-fi-show | Paris Manga & Sci-Fi Show | https://www.parismanga.fr | Paris, FR | types: anime, pop, scifi | note: Runs twice yearly at Porte de Versailles
+8. id=toulouse-game-show | Toulouse Game Show | https://www.toulousegameshow.com | Toulouse, FR | types: games, pop | note: Major video game & pop-culture expo in southern France
+9. id=epitanime | Epitanime | https://www.epitanime.com | Paris, FR | types: anime | organizer: EPITA student association | note: Student-run anime convention
+10. id=gerardmer-film-festival | Gérardmer Film Festival | https://www.festival-gerardmer.com | Gérardmer, FR | types: horror, scifi | note: Festival International du Film Fantastique de Gérardmer; major French horror/fantasy film festival with guest Q&As
+11. id=imaginales | Imaginales | https://www.imaginales.fr | Épinal, FR | types: scifi | note: Fantasy literature festival; 2027 edition already announced for 27-30 May
+12. id=lyon-bd-festival | Lyon BD Festival | https://www.lyonbd.com | Lyon, FR | types: comics

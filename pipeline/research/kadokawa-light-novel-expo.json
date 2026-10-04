@@ -1,0 +1,14 @@
+{
+  "id": "kadokawa-light-novel-expo",
+  "name": "Kadokawa Light Novel Expo",
+  "short": "",
+  "url": "https://kadcul.com/",
+  "organizer": "Kadokawa Corporation",
+  "status": "inactive",
+  "types": ["comics", "anime"],
+  "blurb": "KADOKAWA's light-novel fan exhibit, first held as 'Light Novel EXPO' in 2021 at the Kadokawa Culture Museum in Tokorozawa; no event under that name has recurred since.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The given URL (lnexpo.kimirano.jp) no longer hosts any expo; it now redirects to mequrimequru.jp, KADOKAWA's general light-novel/entertainment-novel web magazine, unrelated to a physical event. The only confirmed 'KADOKAWA Light Novel EXPO' (informally dated '2020') ran 2021-03-06 to 2021-03-31, with a sub-venue at Tokorozawa Sakura Town. Since then the Kadokawa Culture Museum has hosted similarly-themed but differently-named light-novel exhibits instead of a recurring 'Expo' (e.g. 'ライトノヘカー 2024展' from Nov 29 2024, and 'このラノ2026' at kadcul.com/event/250 in 2026), so there is no stable recurring convention under this brand/id to give a confirmed upcoming edition for. Filed inactive; url points to the Kadokawa Culture Museum (kadcul.com), the institution that has hosted all of these occasional light-novel exhibits, since no dedicated 'Expo' site currently exists. Types kept as given (comics, anime) since light novels have no dedicated category in this schema and the exhibits mix manga/anime tie-in art with the novels themselves."
+}

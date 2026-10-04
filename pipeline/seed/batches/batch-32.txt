@@ -1,0 +1,12 @@
+1. id=capricon | Capricon | https://www.capricon.org/ | Chicago, IL, US | types: scifi
+2. id=chicago-alternative-comics-expo | Chicago Alternative Comics Expo | https://www.cakechicago.com/ | Chicago, IL, US | types: comics | note: Free indie/small-press comics festival (CAKE)
+3. id=chicago-tardis | Chicago TARDIS | https://www.chicagotardis.com/ | Chicago, IL, US | types: scifi | note: Doctor Who-focused convention, held Thanksgiving weekend
+4. id=g-fest | G-Fest | http://www.g-fan.com/ | Rosemont, IL, US | types: scifi, horror | note: Godzilla/kaiju fan convention, running since 1994
+5. id=windycon | Windycon | https://windycon.org/ | Chicago, IL, US | types: scifi | organizer: Illinois Science Fiction in Chicago (ISFiC)
+6. id=gen-con | Gen Con | https://www.gencon.com/ | Indianapolis, IN, US | types: tabletop | note: Largest tabletop-gaming convention in North America (~70,000 attendees)
+7. id=popcon-indy | PopCon Indy | https://popcon.us/popcon-indy/ | Indianapolis, IN, US | types: pop, comics | note: Formerly branded Indy PopCon
+8. id=inconjunction | InConJunction | https://inconjunction.org/ | Indianapolis, IN, US | types: scifi | note: Indiana's oldest volunteer-run SF convention; 45th edition in 2026
+9. id=starbase-indy | Starbase Indy | https://www.starbaseindy.org/ | Noblesville, IN, US | types: scifi | note: Free one-day Star Trek-themed 'Pan Galactic Fan Festival'; bar-clearing status uncertain
+10. id=winter-fantasy | Winter Fantasy | https://wintfan.baldmangames.com/ | Fort Wayne, IN, US | types: tabletop | note: D&D/RPGA-rooted winter gaming convention
+11. id=naka-kon | Naka-Kon | https://naka-kon.com/ | Overland Park, KS, US | types: anime
+12. id=anime-festival-wichita | Anime Festival Wichita | http://www.afwcon.com/ | Wichita, KS, US | types: anime

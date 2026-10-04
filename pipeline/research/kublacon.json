@@ -1,0 +1,45 @@
+{
+  "id": "kublacon",
+  "name": "KublaCon",
+  "short": "",
+  "url": "https://kublacon.com/",
+  "organizer": "KublaCon Game Conventions",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "Bay Area tabletop and board-gaming convention at the Hyatt Regency SFO in Burlingame, with open gaming, GM-hosted events and exhibitors.",
+  "cover": { "file": "pipeline/cache/extract/kublacon.home.json", "key": "logo:2" },
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-16",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency SFO",
+      "city": "Burlingame",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://register.cardboardconnect.com/kublacon-game-convention/kublacon-fall-2026/main-registration",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "KublaCon homepage: 'KublaCon Fall Join us from November 13th to 16th, 2026'; registration page: 'KublaCon Fall 2026 ... 13 - 16 NOVEMBER, 2026 FRIDAY - MONDAY BURLINGAME, CA HYATT REGENCY SFO' and 'celebrate our third annual KublaCon Fall this November 13-16, 2026'."
+    },
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-31",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency SFO",
+      "city": "Burlingame",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://register.cardboardconnect.com/kublacon-game-convention/kublacon-prime-2027/main-registration",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "KublaCon homepage: 'KublaCon Prime Join us Memorial Day Weekend 2027, May 28th to May 31st'; registration page: 'KublaCon Prime 2027 ... 28 - 31 MAY, 2027 FRIDAY - MONDAY 1333 OLD BAYSHORE HWY., BURLINGAME, CA 94010 HYATT REGENCY SFO'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "KublaCon is one brand running two tabletop-gaming weekends a year (Prime over Memorial Day, Fall in November), both at the same Hyatt Regency SFO in Burlingame, so this is filed as one file with one edition per show per the multi-show special case. Neither registration microsite (Cardboard Connect) nor the main kublacon.com homepage mentions any Guest/Guest-of-Honor program -- KublaCon is an open-gaming convention (GM-hosted tabletop events, exhibitors, a 'Protospiel' playtesting track) rather than a celebrity-guest convention, so guests is 'none' for both editions. The site also teases a 'fourth annual KublaCruise coming September 2027' (a gaming cruise out of the Port of San Francisco), but it says 'Details Coming Soon' with no actual dates, so it is left out of editions rather than guessed at; it is a third, separate format under the same KublaCon brand. Cover uses the current (uploaded 2026-04) 'KublaCon 25 Year Anniversary' logo rather than the plain og:image logo or the 2023-dated background photo."
+}

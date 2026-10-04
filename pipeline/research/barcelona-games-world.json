@@ -1,0 +1,16 @@
+{
+  "id": "barcelona-games-world",
+  "name": "Barcelona Games World",
+  "short": "BGW",
+  "url": "https://www.barcelonagamesworld.com",
+  "organizer": "Fira de Barcelona / AEVI",
+  "status": "inactive",
+  "types": [
+    "games"
+  ],
+  "blurb": "Barcelona's former consumer video game expo at Fira de Barcelona; it has not run since 2019 and was succeeded by the separate NiceOne Barcelona event.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The official domain no longer resolves (net::ERR_CONNECTION_TIMED_OUT from this session's renderer, and a direct fetch got ECONNREFUSED, tried on 2026-10-05). A web search (2026-10-05) indicates Barcelona Games World's last edition was 2019 and that the brand has been inactive since, with Fira de Barcelona's gaming event continuing instead as 'NiceOne Barcelona' (a distinct event/id, not covered here). No 2026/2027 Barcelona Games World edition was found anywhere, so this is recorded as inactive rather than 'nothing announced yet'."
+}

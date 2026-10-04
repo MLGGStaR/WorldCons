@@ -1,0 +1,45 @@
+{
+  "id": "comic-world-seoul",
+  "name": "Comic World (Seoul)",
+  "short": "",
+  "url": "https://comicw.net/",
+  "organizer": "S.E.Techno",
+  "status": "active",
+  "types": ["comics", "anime"],
+  "blurb": "Long-running Korean doujinshi fair held roughly monthly at KINTEX near Seoul, one city of the touring multi-city Comic World series.",
+  "cover": { "file": "pipeline/cache/extract/comic-world-seoul.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "KINTEX Exhibition Hall 1",
+      "city": "Goyang",
+      "region": "",
+      "country": "KR",
+      "tickets": "https://comicw.net/",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage event ticker: '진행중코믹월드 339 일산#11코일산 기간 : 2026-11-07 ~ 2026-11-08 장소 : 일산 키택스 제1전시장' (Comic World 339 Ilsan, period 2026-11-07~2026-11-08, venue Ilsan KINTEX Exhibition Hall 1)."
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "KINTEX Exhibition Hall 1",
+      "city": "Goyang",
+      "region": "",
+      "country": "KR",
+      "tickets": "https://comicw.net/",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage event ticker: '준뱄중코믹월드 WINTER 2026#12코일산 기간 : 2026-12-12 ~ 2026-12-13 장소 : 일산 키택스 제1전시장' (Comic World WINTER 2026, Ilsan, period 2026-12-12~2026-12-13, same venue)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "comicw.co.kr (seed URL) redirects to comicw.net, the current official domain; one shared portal lists every city's Comic World dates (Suwon, Ilsan/KINTEX = Seoul area, Busan, Ulsan...) under one sequential event-number series. This file covers the Ilsan/KINTEX (Seoul-area) edition only, matching the seed note's 'held roughly monthly at KINTEX'. Comic World is a fan-made doujinshi/circle market, not a guest-celebrity convention (no guest menu or guest program on the site), so guests is 'none' for every edition. No official og/twitter/banner image is Seoul/Ilsan-specific right now (current homepage banners all promote the Suwon edition or an unrelated stationery expo), so the cover uses the site's own logo rather than another city's artwork."
+}

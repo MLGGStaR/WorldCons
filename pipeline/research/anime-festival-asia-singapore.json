@@ -1,0 +1,53 @@
+{
+  "id": "anime-festival-asia-singapore",
+  "name": "Anime Festival Asia (Singapore)",
+  "short": "AFA SG",
+  "url": "https://animefestival.asia/afasg26/",
+  "organizer": "Sozo",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "The flagship, original Anime Festival Asia show since 2008: three nights of J-pop/anime concerts plus an exhibition hall at Suntec Singapore.",
+  "cover": { "file": "pipeline/cache/extract/anime-festival-asia-singapore.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "city": "Singapore",
+      "region": "",
+      "country": "SG",
+      "tickets": "https://ticketmaster.sg/activity/detail/26sg_afasingapore",
+      "guestsPage": "https://animefestival.asia/afasg26/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-festival-asia-singapore.guests.json",
+          "picks": [
+            [0, "Yuki Kajiura", "Anime composer, Mobile Suit Gundam SEED", "music"],
+            [1, "Aooo", "Four-piece rock band", "music"],
+            [3, "Kaf", "Virtual singer", "music"],
+            [4, "Isekaijoucho", "Virtual dark singer", "music"],
+            [5, "Kyary Pamyu Pamyu", "J-pop artist, major debut 2011", "music"],
+            [6, "Liella!", "", "music"],
+            [10, "May'n", "Pop/rock singer, major debut 2005", "music"],
+            [13, "CHiCO (CHiCO with HoneyWorks)", "", "music"],
+            [14, "Hanon", "", "music"],
+            [15, "Kotoha", "", "music"],
+            [16, "Erisa Higashiyama", "", "music"],
+            [17, "Hina Hinahata", "", "music"],
+            [18, "Rio Nagao", "", "music"],
+            [19, "Yura Nishihara", "", "music"],
+            [20, "Hachioji-P", "", "music"],
+            [21, "kz (livetune)", "", "music"],
+            [22, "Gakuto Kajiwara", "Asta in Black Clover", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official key art (og image, AFASG26KV.webp): '27-29 NOV 2026 SUNTEC SINGAPORE CONVENTION & EXHIBITION CENTRE'; homepage text: 'Anime Festival Asia Singapore 2026 27 – 29 November 2026 Suntec City Convention & Exhibition Centre, Hall 401 – 406'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "AFA Singapore's '/guests/' page mixes night-concert artistes with the separate 'AFA NEXT STAGE GUESTS' panel program; both are picked here under this one page since the site itself files them together. Most concert-artiste cards carry only a name + 'CONCERT ARTISTE' with no further bio, so Known for is left blank for those per the card-text rule; only Kajiura, Aooo, KAF, Isekaijoucho, Kyary Pamyu Pamyu, May'n and Kajiwara had enough card text for a real credit. Liella! is a vocal unit shown with three member photos captioned '[name] as [character]' (e.g. 'Naomi Payton as Sumire Heanna'), but the section labels on those three cards are visibly shifted by one card (each card's 'section' matches the PREVIOUS card's name), a clear sign the scraper's name/character text is not reliably paired to the right photo for this trio — so only the group card 'Liella!' itself is picked and the three member sub-cards are skipped rather than risk a wrong name-photo match. A segment header with no bio ('KAMITSUBAKI STAGE SEGMENT') and a group segment title ('HoneyWorks Vocal All Stars SEGMENT', itself not an individual performer — its named vocalists CHiCO, Hanon, Kotoha, Erisa Higashiyama, Hina Hinahata, Rio Nagao and Yura Nishihara are picked individually instead) were both skipped as non-guest section dividers."
+}

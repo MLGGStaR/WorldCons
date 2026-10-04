@@ -1,0 +1,30 @@
+{
+  "id": "comic-con-manchester",
+  "name": "Comic Con Manchester",
+  "short": "",
+  "url": "https://www.comicconventionmanchester.co.uk",
+  "organizer": "Monopoly Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Monopoly Events' pop culture convention at Bowlers Exhibition Centre, Manchester, separate from the MCM-brand Comic Con shows.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-manchester.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-24",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "Bowlers Exhibition Centre",
+      "city": "Manchester",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://www.comicconventionmanchester.co.uk/tickets",
+      "guestsPage": "https://www.comicconventionmanchester.co.uk/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '24-25th July, 2027 BEC Arena, Manchester' and body text 'our home venue, Bowlers Exhibition Centre in Manchester'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The browser tab title is a stale 'Trafford Centre' meta title, but the page's own date banner ('BEC Arena') and body copy ('Bowlers Exhibition Centre') agree, so that is the venue used ('BEC' = Bowlers Exhibition Centre). Annual show (site copy: 'attracting over ten thousand fans annually'), confirming the seed note. The guests page shows only a single 'TBC' placeholder tile with no names - guests is 'none-yet'. 'In previous years' text namedrops Tyler Hoechlin, Zachary Quinto, Seth Green, Zachary Levi and Elisabeth Berkley, but that is marketing copy about past shows, not a confirmed 2027 lineup. Organizer Monopoly Events confirmed by the shared Wix template/footer and the seed note."
+}

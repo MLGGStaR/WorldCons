@@ -1,0 +1,12 @@
+1. id=fan-expo-san-francisco | Fan Expo San Francisco | https://fanexpohq.com/fanexposanfrancisco/ | San Mateo, CA, US | types: comics, anime, scifi, horror | organizer: Informa Connect (Fan Expo HQ) | note: Held at the San Mateo County Event Center; 2026 edition Nov 27-29
+2. id=fan-expo-vancouver | Fan Expo Vancouver | https://fanexpohq.com/fanexpovancouver/ | Vancouver, BC, CA | types: pop, comics, anime, games | organizer: Fan Expo HQ (Informa)
+3. id=ottawa-comiccon | Ottawa Comiccon | https://fanexpohq.com/ottawacomiccon/ | Ottawa, ON, CA | types: comics, pop, scifi, horror | organizer: Fan Expo HQ (Informa)
+4. id=toronto-comicon | Toronto Comicon | https://fanexpohq.com/torontocomicon/ | Toronto, ON, CA | types: comics, pop | organizer: Fan Expo HQ (Informa) | note: Spring lead-in show to the larger Fan Expo Canada; same organizer.
+5. id=galaxycon-raleigh | GalaxyCon Raleigh | https://galaxycon.com/pages/galaxycon-raleigh | Raleigh, NC, US | types: comics, pop, anime, scifi | organizer: GalaxyCon | note: Confirmed Jul 29-Aug 1, 2027 edition
+6. id=galaxycon-richmond | GalaxyCon Richmond | https://galaxycon.com/pages/richmond | Richmond, VA, US | types: comics, pop, anime | organizer: GalaxyCon
+7. id=galaxycon-san-jose | GalaxyCon San Jose | https://www.galaxycon.com/pages/galaxycon-san-jose | San Jose, CA, US | types: comics, pop, anime | organizer: GalaxyCon LLC | note: Launched 2024, succeeding SiliCon/Silicon Valley Comic Con at the same San Jose Convention Center venue; 2027 edition Aug 20-22
+8. id=galaxycon-columbus | GalaxyCon Columbus | https://www.galaxycon.com/pages/galaxycon-columbus | Columbus, OH, US | types: pop, comics | organizer: GalaxyCon
+9. id=galaxycon-des-moines | GalaxyCon Des Moines | https://www.galaxycon.com/pages/galaxycon-des-moines | Des Moines, IA, US | types: pop, comics | organizer: GalaxyCon
+10. id=galaxycon-nashville | GalaxyCon Nashville | https://galaxycon.com/pages/galaxycon-nashville | Nashville, TN, US | types: comics, pop, anime | organizer: GalaxyCon | note: New GalaxyCon city debuting 2026; confirmed Jun 4-6, 2027 edition
+11. id=galaxycon-new-orleans | GalaxyCon New Orleans | https://www.galaxycon.com | New Orleans, LA, US | types: comics, pop, anime | organizer: GalaxyCon | note: Dedicated city page not found at time of research; linking main GalaxyCon site
+12. id=galaxycon-oklahoma-city | GalaxyCon Oklahoma City | https://www.galaxycon.com | Oklahoma City, OK, US | types: pop, comics, games | organizer: GalaxyCon LLC | note: Smaller satellite stop of the GalaxyCon touring brand

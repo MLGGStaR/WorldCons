@@ -1,0 +1,30 @@
+{
+  "id": "star-trek-las-vegas",
+  "name": "Star Trek Las Vegas",
+  "short": "STLV",
+  "url": "https://www.creationent.com/calendar.htm",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "Creation's five-day Star Trek convention in Las Vegas, the genre's largest, with cast autographs, panels, cosplay and photo ops at the Rio.",
+  "cover": { "file": "pipeline/cache/extract/star-trek-las-vegas.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-08-04",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Rio Las Vegas Hotel",
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page (calendar.htm): 'Las Vegas, NV Aug. 4-8, 2027 - ST-LV:Trek to Vegas'; homepage events ticker: 'LAS VEGAS, NV Rio Las Vegas Hotel August 4-8, 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed note said 'no 2026 edition found', but the 2026 STLV (Aug 5-9, 2026, sold out, at the Rio) did run — it is simply already over, before this research window; the 2027 date above is the correctly-identified next edition. The dedicated creationent.com/events/stlv-27/ page does not exist yet (confirmed 404; the still-live stlv-26 page says 'see you in Philadelphia this November', i.e. no 2027 guests posted yet), so guests is 'none-yet' and the cover uses the generic 'STLVGraphic' brand mark from the 2026 page rather than any single year's photo collage, since no 2027-specific art exists."
+}

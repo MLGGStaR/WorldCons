@@ -1,0 +1,15 @@
+{
+  "id": "canfurence",
+  "name": "CanFURence",
+  "short": "CF",
+  "url": "https://canfurence.ca/",
+  "organizer": "Canfurence Anthropomorphic Events Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Eastern Canada's premier furry convention, held annually in Ottawa.",
+  "cover": { "file": "pipeline/cache/extract/canfurence.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-08-07", "end": "2026-08-09", "city": "Ottawa", "region": "ON", "country": "CA" },
+  "checked": "2026-10-05",
+  "notes": "CanFURence 2026 ('MarOwOned') ran August 7-9, 2026, already past the research window; a post-con announcement names next year's theme ('Pawdyssey', set in Ottawa) but exact 2027 dates are still TBA (confirmed via web search of fan listings), so no edition is listed yet."
+}

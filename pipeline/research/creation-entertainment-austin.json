@@ -1,0 +1,55 @@
+{
+  "id": "creation-entertainment-austin",
+  "name": "Creation Austin",
+  "short": "",
+  "url": "https://creationent.com/events/ce-austin26/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Austin stop of Creation's touring Supernatural reunion weekend, with cast autographs, photo ops, panels and a concert.",
+  "cover": { "file": "pipeline/cache/extract/creation-entertainment-austin.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Marriott Austin Downtown",
+      "city": "Austin",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://creationent.com/events/ce-austin26/tickets/",
+      "guestsPage": "https://creationent.com/events/ce-austin26/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/creation-entertainment-austin.guests.json",
+          "picks": [
+            [1, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
+            [2, "Jared Padalecki", "Sam Winchester, Supernatural", "actor"],
+            [3, "Misha Collins", "Castiel, Supernatural", "actor"],
+            [4, "Mark Sheppard", "Crowley, Supernatural", "actor"],
+            [5, "Alexander Calvert", "Jack, Supernatural", "actor"],
+            [6, "Rob Benedict", "Chuck/God, Supernatural", "actor"],
+            [7, "Ruth Connell", "Rowena, Supernatural", "actor"],
+            [8, "Richard Speight Jr.", "Gabriel/Trickster, Supernatural", "actor"],
+            [9, "Kim Rhodes", "Sheriff Jody Mills, Supernatural", "actor"],
+            [10, "Briana Buckmaster", "Donna Hanscum, Supernatural", "actor"],
+            [11, "Samantha Smith", "Mary Winchester, Supernatural", "actor"],
+            [12, "Matt Cohen", "Young John Winchester, Supernatural", "actor"],
+            [13, "Jake Abel", "Adam Milligan, Supernatural", "actor"],
+            [14, "DJ Qualls", "Garth Fitzgerald IV, Supernatural", "actor"],
+            [15, "Julian Richings", "Death, Supernatural", "actor"],
+            [16, "Lisa Berry", "Billie/Death, Supernatural", "actor"],
+            [17, "Steve Carlson", "Musician, Radio Company", "music"],
+            [18, "Jason Manns", "Singer-songwriter on the Supernatural tour", "music"],
+            [19, "Louden Swain", "House band on the Supernatural tour", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official calendar page: 'Austin, TX Nov. 20-22, 2026 - Creation Austin'; event page: 'November 20-22, 2026 • Marriott Austin Downtown Hotel'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Same touring Supernatural-cast brand as Pittsburgh/Boston/DC/Salt Lake City. Unlike those pages, Austin's guest cards are single images (no thumbnail+full duplicate pair), each confirmed by filename (e.g. #19 is loudenSwain.jpg) and matching a WebFetch read of the live page in the same order."
+}

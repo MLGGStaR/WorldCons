@@ -1,0 +1,14 @@
+{
+  "id": "montana-celebrity-comic-con",
+  "name": "Montana Celebrity Comic Con",
+  "short": "",
+  "url": "https://celebritycomiccons.com/bozeman-mt-home/",
+  "organizer": "Celebrity Comic Con",
+  "status": "active",
+  "types": ["pop", "comics"],
+  "blurb": "Montana stop of the touring Celebrity Comic Con brand, held at the Gallatin County Fairgrounds in Bozeman.",
+  "cover": { "file": "pipeline/cache/extract/montana-celebrity-comic-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "This city's only announced date so far was its inaugural edition, Sept 5-6, 2026 at the Gallatin County Fairgrounds, Bozeman, MT — that date is before the 2026-10-05 research window, and the site (and a web search) show no newer Bozeman date yet, unlike the brand's Nashville and Houston stops which already list their next 2026 dates. Multi-city brand: used the dedicated bozeman-mt-home page (not another city's) for this file; left editions empty rather than assume an annual return."
+}

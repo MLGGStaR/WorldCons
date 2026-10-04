@@ -1,0 +1,27 @@
+{
+  "id": "gamepolis",
+  "name": "Gamepolis",
+  "short": "",
+  "url": "https://www.gamepolis.org/",
+  "organizer": "Kaiju Entertainment",
+  "status": "active",
+  "types": [
+    "games"
+  ],
+  "blurb": "An annual video game festival at FYCMA in Málaga, with esports tournaments, talks, cosplay and exhibitors, usually held in July.",
+  "cover": {
+    "file": "pipeline/cache/extract/gamepolis.home.json",
+    "key": "hero:0"
+  },
+  "editions": [],
+  "last": {
+    "start": "2019-07-19",
+    "end": "2019-07-21",
+    "city": "Málaga",
+    "region": "",
+    "country": "ES",
+    "venue": "FYCMA – Palacio de Ferias y Congresos de Málaga"
+  },
+  "checked": "2026-10-05",
+  "notes": "gamepolis.net and gamepolis.es/.com (parked) do not work; the real official domain, gamepolis.org, was confirmed via FYCMA's own event page (fycma.com/evento/gamepolis/: 'Sitio web: https://www.gamepolis.org/ ... Organizador Kaiju Entertaiment'), but gamepolis.org itself currently renders only a logo with no event text (checked 2026-10-05). The only directly-confirmed, structured date is FYCMA's own JSON-LD on that event page (GAMEPOLIS, 19-21/07/2019), used as 'last' — but that page looks frozen/unmaintained since 2019, and non-official press coverage (not used as a primary source here, and inconsistent about edition numbers) describes later, larger editions at FYCMA with tens of thousands of attendees, so the real last edition is likely more recent than 2019. No official 2026 or 2027 dates were found, so editions is empty; re-check closer to summer for a 2027 date."
+}

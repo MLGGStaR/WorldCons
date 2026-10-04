@@ -1,0 +1,49 @@
+{
+  "id": "anime-usa",
+  "name": "Anime USA",
+  "short": "",
+  "url": "https://animeusa.org",
+  "organizer": "Northern Virginia Anime Association",
+  "status": "active",
+  "types": ["anime", "games", "tabletop"],
+  "blurb": "A Washington D.C.-area anime convention with video and tabletop gaming, a masquerade, idol showcase and artist alley.",
+  "cover": { "file": "pipeline/cache/extract/anime-usa.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Westfields Marriott Washington Dulles",
+      "city": "Chantilly",
+      "region": "VA",
+      "country": "US",
+      "tickets": "https://animeusa.org/registration/",
+      "guestsPage": "https://animeusa.org/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-usa.guests.json",
+          "picks": [
+            [1, "Anastasia Muñoz", "", "voice"],
+            [2, "AniParty", "", "music"],
+            [3, "Carrie Savage", "", "voice"],
+            [4, "Dessi-Desu", "", "cosplay"],
+            [5, "Kevin Bolk", "", "comics"],
+            [6, "Inksie", "", "creator"],
+            [7, "Iron Mouse", "", "creator"],
+            [8, "Natalie Van Sistine", "", "voice"],
+            [9, "Neo Atomic Motor", "", "music"],
+            [11, "Saberspark", "", "creator"],
+            [12, "Sarah Hodge-Wetherbe", "", "other"],
+            [13, "Scarlett Mafia Burlesque", "", "other"],
+            [14, "Shoujo-A-Go-Go", "", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'ANIME USA XXVI: THE RPG November 20-22, 2026 Westfields Marriott Washington Dulles'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Moved to the Westfields Marriott Washington Dulles (in Chantilly, VA) starting this edition, per the seed note and the homepage. Each 2026 Guests card only shows a name plus a one-or-two-word role label (e.g. 'Voice Actor', 'Artist') with no specific show credit, so Known-for is left blank throughout, matching how role-only cards were handled elsewhere. Skipped one candidate ('Otaku Brain Trust', explicitly labeled a 'Panelist Group') under the skip-panels rule, plus the page's own logo, a 'Anime USA Guests' section banner, and a footer social-link banner. No og/twitter image on this site (the theme's template/demo images were excluded as not real event art), so the cover uses the Anime USA logo."
+}

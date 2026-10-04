@@ -1,0 +1,44 @@
+{
+  "id": "con-nichiwa",
+  "name": "Con Nichiwa",
+  "short": "",
+  "url": "https://www.con-nichiwa.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "Tucson's largest and longest-running anime, gaming and cosplay convention, held each Halloween weekend.",
+  "cover": { "file": "pipeline/cache/extract/con-nichiwa.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton Hotel Tucson - Reid Park",
+      "city": "Tucson",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "https://www.con-nichiwa.com/badges",
+      "guestsPage": "https://www.con-nichiwa.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/con-nichiwa.guests.json",
+          "picks": [
+            [0, "Ricco Fajardo", "Voice of Isagi in Blue Lock, Mirio in My Hero Academia", "voice"],
+            [1, "Drew Breedlove", "Voice actor, Blue Lock, Dr. STONE", "voice"],
+            [2, "Vitamin H", "Convention panelist group", "other"],
+            [3, "Cosplaytology", "Arizona cosplay crafter", "cosplay"],
+            [4, "GuiltyRose Cosplay", "Phoenix-based cosplayer and crafter", "cosplay"],
+            [5, "LemarTheConGuy", "Convention host, comedian and panelist", "other"],
+            [6, "Utahime Cosplay", "International cosplay host and content creator", "cosplay"],
+            [7, "Andrew Alandy", "Host, competitive gamer and tabletop storyteller", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Con Nichiwa October 30 - November 1, 2026 | DoubleTree by Hilton Hotel Tucson - Reid Park'; JSON-LD Event confirms same dates/venue."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": ""
+}

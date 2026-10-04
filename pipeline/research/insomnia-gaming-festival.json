@@ -1,0 +1,14 @@
+{
+  "id": "insomnia-gaming-festival",
+  "name": "Insomnia Gaming Festival",
+  "short": "",
+  "url": "https://www.insomniagamingfestival.com",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "Long-running UK LAN and esports festival; its i74 edition was cancelled in March 2026 before taking place and no future edition has been announced.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The entire homepage is now a single press release: on 2026-03-03 the organisers cancelled i74, which had been scheduled for 30 April - 3 May 2026 at Staffordshire County Showground, citing 'industry-wide challenges' / reduced sponsor investment, with full refunds. For more than 25 years Insomnia ran as a LAN/esports festival (most recently at the NEC Birmingham in 2025 with 40,000+ visitors per the release), but no replacement date or venue is announced anywhere on the site. Marked inactive per RESEARCH.md's guidance for a cancelled/on-hiatus event; cover left null because the only image on the page is a logo, not event key art, and there is no upcoming edition for it to represent (per the field rules, null is normally only for social-only URLs, but there is no usable cover image here either way)."
+}

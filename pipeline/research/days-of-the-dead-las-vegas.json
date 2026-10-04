@@ -1,0 +1,14 @@
+{
+  "id": "days-of-the-dead-las-vegas",
+  "name": "Days of the Dead Las Vegas",
+  "short": "",
+  "url": "https://www.daysofthedead.com/lasvegas2/",
+  "organizer": "POSE",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Las Vegas stop of the multi-city Days of the Dead horror-celebrity convention; its next confirmed date has not been announced yet.",
+  "cover": { "file": "pipeline/cache/extract/days-of-the-dead-las-vegas.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The current Las Vegas sub-site is 'lasvegas2' (there is no 'lasvegas1' — that path 404s). It already shows a 2027-dated guest-image folder (images/guests/2027/chiodos_1.png ... chiodos_3.png) but no date text appears anywhere in the rendered page, and it links no ticketing-partner id (unlike Atlanta/Indianapolis/Chicago, its captureticketing link never resolved to a specific event). Past editions found by WebSearch were January 16-18, 2026 (Plaza Hotel and Casino) and September 4-6, 2026, both before this window's start (2026-10-05). A captureticketing id found via search ('Las Vegas Summer', events/200) now returns 'event does not exist'. No officially confirmed upcoming date was found, so editions is left empty per the no-guessing rule; check back once the next date is announced."
+}

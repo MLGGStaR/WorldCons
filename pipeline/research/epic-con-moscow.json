@@ -1,0 +1,14 @@
+{
+  "id": "epic-con-moscow",
+  "name": "Epic Con Moscow",
+  "short": "",
+  "url": "https://epicconrussia.ru/",
+  "organizer": "",
+  "status": "active",
+  "types": ["cosplay", "games", "scifi"],
+  "blurb": "A fantasy, film and video-game festival in Moscow with a cosplay contest, exhibits and interactive zones; sister event to Epic Con St. Petersburg.",
+  "cover": { "file": "pipeline/cache/extract/epic-con-moscow-ru.home.json", "key": "hero:1" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The Moscow edition for 2026 already ran July 4-5, 2026 (before this window's start of 2026-10-05); the site's own banner now reads 'EPIC CON 2026 zavershen!' (2026 has ended) on the hub (epiccon.ru) and, on the Moscow-specific site (epicconrussia.ru), 'Hurry to get your EPIC CON 2027 ticket at presale price! Ticket sales starting soon' - confirming a 2027 edition is planned but with no specific dates announced and presale not yet open. No dedicated guest/lineup page was found in the site nav (Home/Map/Schedule/Cosplay/Partners/Contacts/Tickets), so guests were not researched for this (currently edition-less) entry. Re-check once 2027 dates go live."
+}

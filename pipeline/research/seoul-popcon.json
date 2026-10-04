@@ -1,0 +1,14 @@
+{
+  "id": "seoul-popcon",
+  "name": "Seoul POPCON",
+  "short": "",
+  "url": "https://en.seoulpopcon.org/",
+  "organizer": "Exporum Inc.",
+  "status": "active",
+  "types": ["pop", "comics", "games"],
+  "blurb": "Seoul's pop-culture convention at COEX, produced with Brazil's CCXP and spanning games, comics, webtoons, film, music and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/seoul-popcon.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition (Seoul POPCON 2026 by CCXP) already ran Aug 14-16, 2026 at COEX, confirmed by the homepage's own key-art banner text '14(Fri)-16(Sun) August, Coex' and matching WebSearch results — that is before today's window start (2026-10-05), so it is not listed. No 2027 dates are announced yet: the show-info page is still titled '2026 Show Information' and the newest Notice post is an 8 Apr 2026 item about 2026 booth applications, with nothing posted since the August show. Organizer is Exporum Inc. (CEO Danny Hyundae Shin, per site footer); 'by CCXP' in the branding reflects a partnership with Brazil's CCXP, not a separate organizer."
+}

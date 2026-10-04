@@ -1,0 +1,12 @@
+1. id=motor-city-comic-con | Motor City Comic Con | https://www.motorcitycomiccon.com/ | Novi, MI, US | types: comics, pop
+2. id=confusion | ConFusion | https://confusionsf.org/ | Detroit, MI, US | types: scifi | organizer: Stilyagi Air Corps | note: Venue rotates around metro Detroit (Dearborn/Romulus/Troy)
+3. id=motor-city-nightmares | Motor City Nightmares | https://motorcitynightmares.com/ | Belleville, MI, US | types: horror | note: 2026 edition branded 'Camp Hollow Hills,' an outdoor horror-camping weekend with celebrity guests
+4. id=penguicon | Penguicon | https://www.penguicon.org/ | Southfield, MI, US | types: scifi | note: Blends SF fandom with open-source/maker culture; has also used an Ypsilanti venue
+5. id=anime-detour | Anime Detour | https://animedetour.com/ | Minneapolis, MN, US | types: anime | organizer: Anime Twin Cities, Inc.
+6. id=convergence | CONvergence | https://convergence-con.org/ | Minneapolis, MN, US | types: scifi, pop | note: Premier multigenre fan convention of the upper Midwest
+7. id=arcana | Arcana | http://arcanacon.com/ | Saint Paul, MN, US | types: horror, scifi | note: Self-described 'convention of the dark fantastic'
+8. id=diversicon | Diversicon | http://www.diversicon.org/ | Saint Paul, MN, US | types: scifi | note: Diversity-focused SF convention
+9. id=furry-migration | Furry Migration | https://www.furrymigration.org/ | Minneapolis, MN, US | types: furry | organizer: Minnesota Furs
+10. id=marscon-bloomington | MarsCon | https://www.marscon.org/ | Bloomington, MN, US | types: scifi, pop
+11. id=minicon | Minicon | https://www.mnstf.org/minicon/ | Bloomington, MN, US | types: scifi | organizer: Minnesota Science Fiction Society (MNSTF) | note: Minnesota's longest-running SF convention, since 1968
+12. id=planet-comicon-kansas-city | Planet Comicon Kansas City | https://www.planetcomicon.com/ | Kansas City, MO, US | types: comics, pop

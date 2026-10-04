@@ -1,0 +1,41 @@
+{
+  "id": "keycon",
+  "name": "Keycon",
+  "short": "",
+  "url": "https://keycon.org/",
+  "organizer": "Winnipeg Science Fiction Association",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "Manitoba's longest-running science-fiction and fantasy convention, a multi-genre fan gathering in Winnipeg.",
+  "cover": { "file": "pipeline/cache/extract/keycon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-05-21",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "The Viscount Gort Hotel",
+      "city": "Winnipeg",
+      "region": "MB",
+      "country": "CA",
+      "tickets": "https://keycon.org/43/",
+      "guestsPage": "https://keycon.org/43/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/keycon.guests.json",
+          "picks": [
+            [2, "Steven Erikson", "Malazan Book of the Fallen author", "author"],
+            [3, "Sonya Ballantyne", "", "other"],
+            [4, "Bear Greyeyes", "Sailor Moon cosplay", "cosplay"],
+            [5, "Lillian Bryant", "", "other"],
+            [6, "Kenna Alexander", "Creator of Coyote and Crow RPG", "gaming"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'coming May 21-23rd, 2027 at The Viscount Gort Hotel on 1670 Portage Ave, Winnipeg, MB.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Two guest tiles on the homepage are still 'TBA' (skipped). 'Keycon Lite' (Nov 7, 2026, Lord Roberts Community Centre) is a smaller free satellite mixer announced on the same site, not a full Keycon edition, so it is not listed separately. Sonya Ballantyne and Lillian Bryant have no further bio text on the site beyond their Guest of Honour title, so 'known for' is left blank rather than guessed."
+}

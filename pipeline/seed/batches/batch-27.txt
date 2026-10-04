@@ -1,0 +1,12 @@
+1. id=animangaki | AniManGaki | https://www.animangaki.com | Kuala Lumpur, MY | types: anime, cosplay | note: Malaysia's premier anime/manga/cosplay/gaming convention at MIECC
+2. id=lagos-comic-con | Lagos Comic Con | https://lagoscomiccon.net/ | Lagos, NG | types: comics, cosplay, games, pop | note: West Africa's longest-running comic con; 15th edition in 2026 (Sept 12-13), 7,000+ attendees, Landmark Event Centre.
+3. id=heroes-dutch-comic-con | Heroes Dutch Comic Con | https://www.dutchcomiccon.com/ | Utrecht, NL | types: comics, pop | organizer: Heroes International / Easyfairs | note: Runs a Summer edition too; this is the Winter edition
+4. id=castlefest | Castlefest | https://castlefest.nl/en | Lisse, NL | types: cosplay, scifi | note: Fantasy/medieval fair with a large fantasy-fandom and cosplay community
+5. id=animecon | Animecon | https://www.animecon.nl | Rotterdam, NL | types: anime | note: Dutch anime convention at Rotterdam Ahoy
+6. id=comic-con-holland | Comic Con Holland | https://comicconholland.nl/en/homepage-en/ | Amsterdam, NL | types: comics, pop | note: Held in Vijfhuizen near Amsterdam
+7. id=abunai | Abunai! | https://www.abunaicon.nl/ | Veldhoven, NL | types: anime, cosplay | note: Near Eindhoven
+8. id=fantastic-reads | Fantastic Reads | https://lochal.nl/fantasy | Tilburg, NL | types: scifi, tabletop
+9. id=hsfcon | HSFCon | https://www.hsfcon.nl/en/hsfcon/ | Deventer, NL | types: horror, scifi | note: Horror/sci-fi/fantasy convention
+10. id=imagine-film-festival | Imagine Film Festival | https://www.imaginefilmfestival.nl | Amsterdam, NL | types: horror, scifi | note: Fantastic/genre film festival, formerly Amsterdam Fantastic Film Festival
+11. id=tomofair | TomoFair | https://www.tomofairutrecht.nl/ | Houten, NL | types: anime, cosplay | note: Branded as TomoFair Utrecht though held in Houten
+12. id=viencon-summer-festival | Viencon Summer Festival | https://www.viencon.nl/ | Venlo, NL | types: pop, cosplay | note: Held at America/Venlo

@@ -1,0 +1,42 @@
+{
+  "id": "alaska-comicon",
+  "name": "Alaska ComiCon",
+  "short": "AKCC",
+  "url": "https://www.alaskacomicon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A comics and pop-culture convention at the Carlson Center in Fairbanks, with media guests, comic creators and local exhibitors.",
+  "cover": { "file": "pipeline/cache/extract/alaska-comicon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-20",
+      "end": "2027-02-21",
+      "dates": "confirmed",
+      "venue": "Carlson Center",
+      "city": "Fairbanks",
+      "region": "AK",
+      "country": "US",
+      "tickets": "https://www.alaskacomicon.com/registration/",
+      "guestsPage": "https://www.alaskacomicon.com/2027-exhibitors/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/alaska-comicon-exh.guests.json",
+          "picks": [
+            [1, "Matt Dinniman", "Dungeon Crawler Carl series", "author"],
+            [2, "Jeff Hays", "Audiobook narrator, Dungeon Crawler Carl", "voice"],
+            [3, "Erin Cahill", "Power Rangers Time Force", "actor"],
+            [4, "Brian Shearer", "G.I. Joe, Dungeon Crawler Carl comics", "comics"],
+            [5, "Timothy Zahn", "Star Wars: Thrawn & Mara Jade novels", "author"],
+            [6, "Dan Parent", "Archie Comics, Betty & Veronica", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Site title/header: 'Alaska ComiCon - Feb 20-21, 2027 in Fairbanks!' and homepage text 'Carlson Center 2010 2nd Ave, Fairbanks, AK'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The 2027-exhibitors page cleanly separates 'MEDIA GUESTS:' (Dinniman, Hays, Cahill) and 'COMIC GUESTS:' (Shearer, Zahn, Parent) from 'COMIC RETAILERS', 'LOWER 48 EXHIBITORS', 'ALASKAN EXHIBITORS' and 'SPONSORS' sections, which were excluded as vendors/sponsors. Each guest's own bio page (linked from their photo) gave a one-line credit used verbatim for Known For (e.g. Jeff Hays: 'DCC Audio Book Narrator!'; Erin Cahill: 'Pink Ranger - Time Force!'; Timothy Zahn: 'Creator of Thrawn & Mara Jade! Star Wars!'; Dan Parent: 'Betty & Veronica! Archie Cover Artist!'; Brian Shearer: 'G.I. JOE! Dungeon Crawler Carl!'; Matt Dinniman: 'creator of the Dungeon Crawler Carl PHENOMENON'). No organizer/company name was visible on the site, so left blank rather than guessed. Cover falls back to the 2019 site logo (og:image); the only other images on the homepage are guest photos and sponsor logos, which the brief says to avoid using as the con's own cover."
+}

@@ -1,0 +1,12 @@
+1. id=horror-rama | Horror-Rama | https://horrorrama.ca/ | Toronto, ON, CA | types: horror | note: Toronto's only dedicated all-horror convention.
+2. id=montreal-comiccon | Montreal Comiccon | https://www.montrealcomiccon.com/ | Montreal, QC, CA | types: comics, pop, scifi | note: Hosts the Canada Cosplay Championship finale.
+3. id=otakuthon | Otakuthon | https://www.otakuthon.com/ | Montreal, QC, CA | types: anime | note: Canada's second-largest anime convention; fully bilingual English/French.
+4. id=nadeshicon | Nadeshicon | https://www.nadeshicon.ca/ | Quebec City, QC, CA | types: anime | organizer: Club Animé Québec (CAQ) | note: 2024 edition was cancelled due to committee understaffing, but returned in 2025.
+5. id=pop-con-yxe | Pop Con YXE | https://www.popconyxe.com/ | Saskatoon, SK, CA | types: pop, comics | organizer: Prairieland Park | note: Rebranded from the Saskatchewan Entertainment Expo/SaskExpo after Prairieland Park took over Saskatoon's portion of that show in 2020.
+6. id=fantasy-basel | Fantasy Basel | https://fantasybasel.ch/en/ | Basel, CH | types: comics, pop, cosplay | note: The Swiss Comic Con
+7. id=polymanga | Polymanga | https://www.polymanga.com/ | Lausanne, CH | types: anime, cosplay | note: 20th edition in 2026, held over Easter weekend
+8. id=herofest | HeroFest | https://www.herofest.ch/ | Bern, CH | types: pop, games, cosplay
+9. id=zurich-pop-con-and-game-show | Zurich Pop Con & Game Show | https://zurichpopcon.ch/en | Zürich, CH | types: pop, games | organizer: Amazing Event AG | note: URL had a certificate mismatch on direct fetch this session but the domain resolves; not fully re-verified
+10. id=retromania | RetroMania | https://www.retromania.ch/ | Payerne, CH | types: toys, games | note: Retro video game, pinball and arcade fair
+11. id=solocon | SoloCon | https://www.solocon.ch/ | Derendingen, CH | types: tabletop, games
+12. id=bilibiliworld | BilibiliWorld | https://bw.bilibili.com | Shanghai, CN | types: anime, games, pop | organizer: Bilibili | note: China's largest ACG subculture expo; first year selling tickets internationally (2026); sister concert event Bilibili Macro Link (BML) runs concurrently

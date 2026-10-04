@@ -1,0 +1,14 @@
+{
+  "id": "fan-expo-san-francisco",
+  "name": "FAN EXPO San Francisco",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexposanfrancisco/",
+  "organizer": "Informa Connect (Fan Expo HQ)",
+  "status": "inactive",
+  "types": ["comics", "anime", "scifi", "horror"],
+  "blurb": "A Bay Area pop-culture convention held at Moscone Center in San Francisco from 2022 through 2025, before Fan Expo HQ ended its run there.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Inactive: Fan Expo HQ announced in spring 2026 that FAN EXPO San Francisco would not continue at Moscone Center ('we weren't able to secure dates that meet the experience we're committed to delivering' — per Fantha Tracks and The Game of Nerds, 2026-05-14), with November 2025 as its final edition and no replacement venue or city confirmed. The live fanexpohq.com page itself has no date text or JSON-LD worth trusting (its only JSON-LD start date, 2026-04-14, is clearly stale/wrong, and the homepage's nav/text carry no schedule). Several aggregator listings (10times, happeningnext, a Berkeley Boathouse calendar) still auto-show 'Nov 27-29, 2026 at Moscone Center' as a leftover/projected slot, and this task's discovery note claimed a move to the San Mateo County Event Center — neither is corroborated by the organizer or any primary source, so no edition is recorded. Guests were not researched since there is no upcoming edition."
+}

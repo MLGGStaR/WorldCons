@@ -1,0 +1,30 @@
+{
+  "id": "generations-star-wars-et-science-fiction",
+  "name": "Générations Star Wars et Science Fiction",
+  "short": "",
+  "url": "https://genstarwars.fr",
+  "organizer": "Les Héritiers de la Force",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "France's largest Star Wars fan gathering, a free two-day convention in Cusset with actor guests, exhibits and charity fundraising, running since 1999.",
+  "cover": { "file": "pipeline/cache/extract/generations-star-wars-et-science-fiction.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Espace Chambon",
+      "city": "Cusset",
+      "region": "",
+      "country": "FR",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'PROCHAINE ÉDITION 15 ET 16 MAI 2027 À CUSSET (03)' and news post dated 15 September 2026 'RDV pour la 28e édition de Générations Star Wars et SF !' announcing those dates."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed note's '2-3 May 2026' date was the 27th edition, which already happened (a 7 May 2026 post thanks attendees for that weekend); the site has since announced the 28th edition for 15-16 May 2027 at Espace Chambon, 1 rue du Faubourg du Chambon, Cusset (confirmed via WebFetch of the venue/practical-info page, since the homepage nav links weren't exposed as plain <a> tags to extract.mjs). Entry is free ('Entièrement gratuit'), so no ticket link. No confirmed actor/guest lineup for the 2027 edition yet (the association's own site didn't show one, and genstarwars.fr has no public guest list page distinct from its practical-info/venue content as of this check) — guests is 'none-yet' rather than carrying over 2026's lineup. Organizer is the hosting non-profit association named on the site ('association loi 1901 organisant la convention'). Cover uses the official wordmark (og), the only clear key art; other homepage images are candid photos from past editions."
+}

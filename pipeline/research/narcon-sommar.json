@@ -1,0 +1,30 @@
+{
+  "id": "narcon-sommar",
+  "name": "NärCon Sommar",
+  "short": "",
+  "url": "https://en.narcon.se/",
+  "organizer": "",
+  "status": "active",
+  "types": ["cosplay", "games", "anime"],
+  "blurb": "Northern Europe's biggest cosplay and gaming festival, an alcohol- and drug-free gathering at Linköping University.",
+  "cover": { "file": "pipeline/cache/extract/narcon-sommar.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-22",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "Linköping University",
+      "city": "Linköping",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://tickets.narcon.se/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown text: 'NärCon Sommar 2027 July 22–25 Linköping University Get your ticket later here'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No guest list is published yet for the 2027 edition. The homepage has no 'guests' link; a direct /guests URL 404s back to the homepage, and the only guest-adjacent links found are the Nordic Cosplay Championship and 'about/rules' cosplay-competition pages, not a celebrity guest roster. WebSearch found only generic 'meet famous guests' marketing copy, no actual 2027 names, so guests is marked none-yet rather than guessing. NärCon also runs a separate Vinter (winter) edition in Jönköping (www.narcon.se/vinter-cosplay) — out of scope for this id, which covers Sommar only, per RESEARCH.md's rule to keep two-show-a-year brands together only when they share one brand/city; NärCon Vinter is a different city so would need its own id if added later."
+}

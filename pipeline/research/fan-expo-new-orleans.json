@@ -1,0 +1,42 @@
+{
+  "id": "fan-expo-new-orleans",
+  "name": "FAN EXPO New Orleans",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexponeworleans/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "FAN EXPO HQ's Louisiana show at the Ernest N. Morial Convention Center, with celebrity, anime, gaming and comic-creator guests.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-new-orleans.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-01-08",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "New Orleans Ernest N. Morial Convention Center",
+      "city": "New Orleans",
+      "region": "LA",
+      "country": "US",
+      "tickets": "https://fanexpohq.com/fanexponeworleans/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexponeworleans/celebrities/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fan-expo-new-orleans.guests.json",
+          "picks": [
+            [2, "Jared Padalecki", "Supernatural, Gilmore Girls", "actor"],
+            [3, "Adam Savage", "MythBusters", "other"],
+            [4, "Jim Beaver", "Supernatural", "actor"],
+            [5, "Mark Sheppard", "Supernatural", "actor"],
+            [6, "Mark Pellegrino", "Supernatural, Dexter", "actor"],
+            [7, "Ruth Connell", "Supernatural", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event \"FAN EXPO New Orleans\" 2027-01-08 -> 2027-01-10 @ New Orleans Ernest N. Morial Convention Center; same text on page: 'JANUARY 8 - 10, 2027 NEW ORLEANS ERNEST N. MORIAL CONVENTION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-city FAN EXPO HQ brand; this show is close enough (3 months out) that its celebrities page is a real 2027 announcement ('THE STARS OF SUPERNATURAL' -- Jared Padalecki, Mark Sheppard, Mark Pellegrino, Jim Beaver, Ruth Connell -- plus Adam Savage), unlike its sister cities. The other four guest category pages (animation-voices, anime-guests, comic-creators, cosplayers, gaming-stars) still only show 'PAST FAN FAVE GUESTS INCLUDED' placeholders, so only the celebrities page is reflected here. Adam Savage is filed as 'other' (TV host/maker, not an actor, voice actor or creator-platform personality per the schema). Cover uses the 'MEET YOUR HEROES' homepage carousel photo of Jared Padalecki (one of the confirmed guests) signing at a FAN EXPO table, the only edition-relevant photo found; the plain header image is a repeating text pattern and the og/logo are generic."
+}

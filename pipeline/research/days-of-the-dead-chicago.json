@@ -1,0 +1,30 @@
+{
+  "id": "days-of-the-dead-chicago",
+  "name": "Days of the Dead Chicago",
+  "short": "",
+  "url": "https://www.daysofthedead.com/chicago2/",
+  "organizer": "POSE",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Chicago stop of the multi-city Days of the Dead horror-celebrity convention; runs two weekends a year with autographs, photo ops and vendors.",
+  "cover": { "file": "pipeline/cache/extract/days-of-the-dead-chicago-2.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Marriott Chicago O'Hare",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://www.daysofthedead.com/chicago2/tickets",
+      "guestsPage": "https://www.daysofthedead.com/chicago2/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "The official ticketing partner page (captureticketing.com/events/275, linked from this page) gives the dates November 20-22, 2026 at the Marriott Chicago O'Hare, 8535 W Higgins Rd, Chicago, IL 60631."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Chicago runs two Days of the Dead weekends a year under 'chicago1' and 'chicago2' sub-sites. chicago2 is the Fall 2026 show above (confirmed via its ticketing partner page). chicago1's own page and ticketing link never resolved to a specific date (captureticketing.com/events/ with no id, and no date text anywhere in the rendered page), even though it already has a 2027-dated guest-image folder (images/guests/2027/chi-1.png ... chi-4.png); a WebSearch for a chicago1-specific 2027 date only surfaced the same chicago2/Fall-2026 listing under a slightly different nickname ('Chicago Winter 2026', captureticketing.com/events/231 — same Marriott Chicago O'Hare address and same Nov 20-22, 2026 dates as event 275, so likely the same show under two names, not a second edition). Per the no-guessing rule, chicago1 is left out of editions until an official date is found. Both chicago1 and chicago2 guest galleries have no name captions in the DOM, so guests is 'unavailable' for the edition that is listed."
+}

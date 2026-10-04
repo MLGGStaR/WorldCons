@@ -1,0 +1,15 @@
+{
+  "id": "comic-con-cape-town",
+  "name": "Comic Con Cape Town",
+  "short": "",
+  "url": "https://comicconafrica.co.za/ccct-home-page",
+  "organizer": "RX Africa (Reed Exhibitions)",
+  "status": "active",
+  "types": ["pop", "comics", "games", "cosplay"],
+  "blurb": "Cape Town's pop-culture and gaming festival at the CTICC, with cosplay, artist alley, tabletop gaming and international celebrity guests; a sister event to Comic Con Africa.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-cape-town.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-04-30", "end": "2026-05-03", "city": "Cape Town", "region": "", "country": "ZA", "venue": "Cape Town International Convention Centre (CTICC 2)" },
+  "checked": "2026-10-05",
+  "notes": "The official homepage explicitly marks the next date 'TBA TBC' ('Cape's Biggest Pop Culture & Gaming Festival TBA TBC') and its body copy recaps the just-finished show by name (guests Christopher Sabat, Jason Liebrecht, Evanna Lynch), so no next edition is announced and none is guessed. Last confirmed edition (Apr 30 - May 3, 2026 at CTICC 2) is corroborated by independent coverage (Wikipedia, bizcommunity.com, whatsonincapetown.com) since the page itself has no date text. Younger sister event to Comic Con Africa (Johannesburg), same organizer, filed separately as comic-con-africa.json."
+}

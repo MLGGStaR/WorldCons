@@ -1,0 +1,39 @@
+{
+  "id": "northwest-comiccon",
+  "name": "Northwest ComicCon",
+  "short": "",
+  "url": "https://northwestcomiccon.com/Portland/Index.aspx",
+  "organizer": "Terry's Vintage Comics",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A one-day vintage and Golden/Silver Age comic book and original-art dealer show at the DoubleTree Portland, with comic creator guests.",
+  "cover": { "file": "pipeline/cache/extract/northwest-comiccon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton Portland",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://northwestcomiccon.com/Portland/Guests.aspx",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/northwest-comiccon.guests.json",
+          "picks": [
+            [1, "Randy Emberlin", "Amazing Spider-Man inker", "comics"],
+            [4, "Aaron Lopresti", "Wonder Woman, Justice League", "comics"],
+            [7, "Chris Warner", "Predator, Doctor Strange art (Dark Horse)", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Portland subpage text: 'Northwest ComicCon – Portland, OR Saturday, October 17th, 2026 • 11:00 am – 5:00 pm DoubleTree by Hilton – Portland, 1000 NE Multnomah, Portland, OR 97232'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Brand runs two shows (Bellevue Sep 19 2026 and Portland Oct 17 2026) under northwestcomiccon.com; per the multi-city rule this file covers only the Portland edition (batch place = Portland, OR), using https://northwestcomiccon.com/Portland/Index.aspx rather than the shared root URL. Organizer inferred from the site's own social links (facebook.com/terrysvintagecomics, whatnot.com/user/terrysoldschoolcomics, x.com/TerrysOldSchool). Guests page shows only a name + 2 art-sample images per guest, no bio text; Known-for for Aaron Lopresti confirmed via a web search (Wonder Woman, Justice League, DC), the other two inferred directly from the work-sample filenames shown on the card (randy_asm.jpg/Spidy Carnage Sketch; CW_PREDCOVER1/cw_DrStrange) plus Chris Warner's own Dark Horse bio confirmed separately on another con's guest page."
+}

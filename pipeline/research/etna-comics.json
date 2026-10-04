@@ -1,0 +1,30 @@
+{
+  "id": "etna-comics",
+  "name": "Etna Comics",
+  "short": "",
+  "url": "https://etnacomics.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "games", "cosplay"],
+  "blurb": "Southern Italy's largest comics and pop-culture festival, held in Catania with cosplay, games, film and manga programming.",
+  "cover": { "file": "pipeline/cache/extract/etna-comics.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-06-03",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Catania",
+      "region": "",
+      "country": "IT",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage meta description: 'Scopri Etna Comics 2027 dal 3 al 6 Giugno a Catania, insieme a noi la 15° Edizione del Festival internazionale del fumetto, del gioco e della cultura pop'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No dedicated guest-announcement page found yet for the 2027 (15th) edition; the rendered homepage still shows mostly 2026 recap content alongside the 2027 date announcement, and no venue name was stated (only a Catania contact address)."
+}

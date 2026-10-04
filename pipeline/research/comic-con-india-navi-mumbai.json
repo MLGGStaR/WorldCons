@@ -1,0 +1,169 @@
+{
+  "id": "comic-con-india-navi-mumbai",
+  "name": "Comic Con India (Navi Mumbai)",
+  "short": "",
+  "url": "https://www.comicconindia.com/all-cities-pages-2026/navi-mumbai-comic-con",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Navi Mumbai leg of Comic Con India's national tour, run with ReedPop, with indie comic artists, music and comedy performances.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Cidco Convention Centre",
+      "city": "Navi Mumbai",
+      "region": "",
+      "country": "IN",
+      "tickets": "",
+      "guestsPage": "https://www.comicconindia.com/all-cities-pages-2026/navi-mumbai-comic-con#guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/comic-con-india-navi-mumbai.guests.json",
+          "picks": [
+            [
+              5,
+              "Ek Ladi Pav",
+              "Mumbai comedy podcast (Audiomatic)",
+              "creator"
+            ],
+            [
+              6,
+              "Farhan Khan",
+              "Hip-hop and Urdu-poetry artist",
+              "music"
+            ],
+            [
+              7,
+              "Prathmesh",
+              "Nagpur-based music artist",
+              "music"
+            ],
+            [
+              8,
+              "Holy Cow Entertainment",
+              "Comic publisher: Ravanayan, The Aghori",
+              "comics"
+            ],
+            [
+              9,
+              "Bullseye Press",
+              "Indian bilingual comic publisher",
+              "comics"
+            ],
+            [
+              10,
+              "Yali Dream Creations",
+              "Indian graphic novel publisher",
+              "comics"
+            ],
+            [
+              11,
+              "Indusverse",
+              "Indian comics and graphic-novel brand",
+              "comics"
+            ],
+            [
+              12,
+              "Rajesh Nagulakonda",
+              "Artist, Krishna: Defender of Dharma",
+              "comics"
+            ],
+            [
+              13,
+              "Studio Kapi",
+              "Manga-style graphic novel studio",
+              "comics"
+            ],
+            [
+              14,
+              "Abhijeet Kini Studios",
+              "Krishna: Defender of Dharma artist",
+              "comics"
+            ],
+            [
+              15,
+              "Urban Tales",
+              "City-story comic artist collective",
+              "comics"
+            ],
+            [
+              16,
+              "Indian Scribbles",
+              "Mumbai animator and indie comic author",
+              "comics"
+            ],
+            [
+              17,
+              "Jazyl Homavazir",
+              "The Beast Legion webmanga creator",
+              "comics"
+            ],
+            [
+              18,
+              "Ubharta Kalakar By Dhruv",
+              "Jaipur doodle and mural artist",
+              "comics"
+            ],
+            [
+              19,
+              "Comix Canal",
+              "Independent comics and graphic novels platform",
+              "comics"
+            ],
+            [
+              20,
+              "Dizon Draws",
+              "Manga/manhwa-influenced digital artist",
+              "comics"
+            ],
+            [
+              21,
+              "Rage Sage",
+              "Indian manga universe series",
+              "comics"
+            ],
+            [
+              22,
+              "Graphicurry",
+              "Viral vector-caricature artist",
+              "comics"
+            ],
+            [
+              23,
+              "Black Valiant",
+              "Manga x Indian-history visual artist",
+              "comics"
+            ],
+            [
+              24,
+              "Aparna Chaurasia",
+              "Mangaka, Soul Contract",
+              "comics"
+            ],
+            [
+              25,
+              "Qissa Comics",
+              "Indian sci-fi comic startup",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page text: '28th - 29th Nov 2026 Cidco Convention Centre, Navi Mumbai'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Single-page site; guests (comedy/music performers plus Indian indie-comics studios and artists) and dates are on the same page as a grid of cards, not a separate guest URL. Several cards present a studio/collective name rather than one person (e.g. Holy Cow Entertainment, Studio Kapi, Urban Tales); these are kept as the site presents them, the same way a band or duo is one guest. No edition-specific key art is published, so the cover uses the shared Comic Con India logo (see comic-con-india-delhi.json notes)."
+}

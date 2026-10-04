@@ -1,0 +1,30 @@
+{
+  "id": "san-japan",
+  "name": "San Japan",
+  "short": "",
+  "url": "https://www.san-japan.org",
+  "organizer": "San Japan, LLC",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "The largest anime and gaming convention in South Texas, held on Labor Day Weekend at the Henry B. Gonzalez Convention Center in San Antonio.",
+  "cover": { "file": "pipeline/cache/extract/san-japan.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-05",
+      "dates": "confirmed",
+      "venue": "Henry B. Gonzalez Convention Center & San Antonio Grand Hyatt",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://www.san-japan.org/registration/information/",
+      "guestsPage": "https://www.san-japan.org/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'WELCOME TO SAN JAPAN 18 SEPTEMBER 3RD – SEPTEMBER 5TH, 2027 henry b. gonzalez convention center san antonio, texas' with a live countdown; body text: 'It occurs at the Henry B. Gonzalez Convention Center and the San Antonio Grand Hyatt within downtown San Antonio on Labor Day Weekend'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The /guests/ page's entire roster (44 named guests plus two VTuber-announcement galleries) sits under a heading that reads '2026 GUESTS WILL BE CONTINUALLY ANNOUNCED UP THROUGH THE MIDDLE OF AUGUST' and a repeated '2026 Guests' banner further down -- i.e. it is still the prior (already-completed) edition's lineup, not 2027's, so guests is 'none-yet'. The homepage's 'buy passes' button still links to 'sanjapan2026' ticketing, consistent with 2027 sales not yet being open."
+}

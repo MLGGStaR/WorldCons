@@ -1,0 +1,12 @@
+1. id=middle-east-film-and-comic-con-mefcc | Middle East Film & Comic Con (MEFCC) | https://www.mefcc.com/ | Abu Dhabi, AE | types: comics, pop, anime, scifi | organizer: Informa Connect | note: Region's first and largest pop-culture con (since 2012); moved from Dubai to Abu Dhabi's ADNEC in 2022; 2026 edition Sept 11-13.
+2. id=argentina-game-show-ags | Argentina Game Show (AGS) | https://ags.show/ | Buenos Aires, AR | types: games | note: Argentina's largest video-game expo.
+3. id=crack-bang-boom | Crack Bang Boom | https://www.crackbangboom.com.ar/ | Rosario, AR | types: comics, cosplay | note: One of Latin America's largest comics festivals, running since 2010; awards the Trillo Prize for Argentine comics creators.
+4. id=vienna-comic-con | Vienna Comic Con | https://viecc.com/en/ | Vienna, AT | types: comics, pop | organizer: ReedPop | note: Also branded VIECC
+5. id=aninite | AniNite | https://www.aninite.at | Vienna, AT | types: anime, cosplay
+6. id=hanamicon | HanamiCon | https://www.hanamicon.at/ | Graz, AT | types: anime
+7. id=mosticon | MostiCon | https://www.mosticon.com/ | Wieselburg, AT | types: pop, comics
+8. id=spielefest-wien | Spielefest Wien | https://spielefest.wien/ | Vienna, AT | types: tabletop, games | organizer: skilled New Media GmbH | note: Co-located with an Esports Festival at the same venue/dates
+9. id=yunicon | Yunicon | https://www.yunicon.at/ | Schwechat, AT | types: anime, pop
+10. id=conflux | Conflux | https://www.conflux.org.au/ | Canberra, ACT, AU | types: scifi | organizer: Conflux Inc. | note: Canberra's literary SF/fantasy convention; the planned Oct 2-6 2026 'Conflux 20' was cancelled by organizers ('circumstances beyond control') - future editions uncertain.
+11. id=smash-sydney-manga-and-anime-show | SMASH! (Sydney Manga & Anime Show) | https://www.smash.org.au/ | Sydney, NSW, AU | types: anime, cosplay, games | organizer: SMASH Inc | note: Not-for-profit, fan-run anime con since 2007; 2026 dates July 11-12 at ICC Sydney.
+12. id=furdu | FurDU | https://www.furdu.com.au/ | Gold Coast, QLD, AU | types: furry | organizer: Furry Down Under Inc. | note: Largest furry convention in Australia/Oceania; beachside at Surfers Paradise since 2013 (~850 cap in 2019).

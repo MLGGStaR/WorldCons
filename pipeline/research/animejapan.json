@@ -1,0 +1,30 @@
+{
+  "id": "animejapan",
+  "name": "AnimeJapan",
+  "short": "AJ",
+  "url": "https://anime-japan.jp/en/",
+  "organizer": "Anime Japan Association",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "One of the world's largest anime industry expos, with exhibitor booths, stage programmes and merchandise; moving to Osaka for 2027.",
+  "cover": { "file": "pipeline/cache/extract/animejapan.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-27",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "INTEX Osaka",
+      "city": "Osaka",
+      "region": "",
+      "country": "JP",
+      "tickets": "https://anime-japan.jp/en/tickets/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage hero image text: 'Held at INTEX Osaka, March 27 (Sat) - 28 (Sun), 2027!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed URL (animejapan.jp, no hyphen) is broken: the apex domain returns a persistent 502 Bad Gateway and www.animejapan.jp is an unrelated parked/for-sale domain. The real official site is anime-japan.jp (with a hyphen). For 2027 the event moves from Tokyo Big Sight to INTEX Osaka for the first time in its history, because Tokyo Big Sight is under renovation; some secondary sources mention an additional trade-only business day on March 26, but the official homepage itself only states the Mar 27-28 range quoted above, so that is what is recorded. Stage/guest lineup not yet announced."
+}

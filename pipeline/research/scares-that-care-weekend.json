@@ -1,0 +1,30 @@
+{
+  "id": "scares-that-care-weekend",
+  "name": "Scares That Care Weekend",
+  "short": "",
+  "url": "https://scaresthatcare.org",
+  "organizer": "Scares That Care",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A Williamsburg, Virginia charity horror weekend for authors, readers and publishers, run by the Scares That Care charity.",
+  "cover": { "file": "pipeline/cache/extract/scares-that-care-weekend.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton Williamsburg",
+      "city": "Williamsburg",
+      "region": "VA",
+      "country": "US",
+      "tickets": "https://scaresthatcare.ticketspice.com/authorcon-vii",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'AuthorCon VII A three-day long celebration of writers, readers, and publishers; hosted by Brian Keene. March 5-7, 2027'; ticket page confirms venue '50 Kingsmill Road, Williamsburg, VA 23185'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This charity's current flagship multi-day weekend convention is branded 'AuthorCon' (hosted by horror author Brian Keene); local press (williamsburgfamilies.com) still refers to it as the 'Scares That Care Charity Weekend', which is the name this batch entry was seeded under, so this file tracks AuthorCon VII (March 5-7, 2027) under that id/name. The same charity separately runs a one-day 'Women's Writing Symposium Chapter 2' (Mar 4, 2027) and a differently-branded 'Killer Pride II' weekend (Sep 24-26, 2027, LGBTQIA+ themed) -- not included here since they are distinctly named sister events, not 'Scares That Care Weekend' itself. No page with individual author photos/bios was found within budget (only promo tiles for the event itself), so guests is 'none-yet' even though Brian Keene is named as host in the description text."
+}

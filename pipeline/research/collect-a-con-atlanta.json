@@ -1,0 +1,15 @@
+{
+  "id": "collect-a-con-atlanta",
+  "name": "Collect-A-Con Atlanta",
+  "short": "",
+  "url": "https://collectaconusa.com/atlanta-2/",
+  "organizer": "Collect-A-Con LLC",
+  "status": "active",
+  "types": ["toys", "pop"],
+  "blurb": "Atlanta stop of the multi-city Collect-A-Con tour: trading cards, pop-culture collectibles, cosplay and celebrity autograph signings at the Georgia World Congress Center.",
+  "cover": { "file": "pipeline/cache/extract/collect-a-con-atlanta.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-26", "end": "2026-09-27", "city": "Atlanta", "region": "GA", "country": "US", "venue": "Georgia World Congress Center" },
+  "checked": "2026-10-05",
+  "notes": "Collect-A-Con runs Atlanta twice a year. The live city page (/atlanta-2/) still shows the most recent show, 'Atlanta 2' on Sept 26-27, 2026 at the Georgia World Congress Center Hall A1, which ended before this research window opens (2026-10-05); its countdown has expired and no next date is shown. Checked the site's XML sitemap for any schedule/tour page or 2027-dated URL across the whole domain and found none, so no Atlanta edition is announced yet for 2027. Cover uses this page's own branded key art (og image)."
+}

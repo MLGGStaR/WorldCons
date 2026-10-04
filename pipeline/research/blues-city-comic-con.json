@@ -1,0 +1,14 @@
+{
+  "id": "blues-city-comic-con",
+  "name": "Blues City Comic Con",
+  "short": "BCCC",
+  "url": "https://www.bluescitycomiccon.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A two-day comic con at the Memphis Sports & Event Center bringing guests, vendors, artists and fan groups to Memphis, TN.",
+  "cover": { "file": "pipeline/cache/extract/blues-city-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Most recent edition ran March 28-29, 2026 at the Memphis Sports & Event Center, already over as of today (2026-10-05). Neither the con's own site (homepage title is still literally 'Blues City Comic Con - March 28 & 29, 2026', no later date anywhere) nor its organizer VXV Events' full events calendar (vxvevents.com/events, which separately lists 'Blues City Comic Con March 28 & 29 2026' under '2026 Events' and does NOT include it under the '2027 Events' heading, unlike e.g. Anime Blues Con which is already listed there for July 2027) has a next date yet, so editions is left empty until one is announced. Fills the gap left by the defunct Memphis Comic and Fantasy Convention, per the seed note (not independently re-verified here)."
+}

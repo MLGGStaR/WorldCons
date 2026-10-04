@@ -1,0 +1,30 @@
+{
+  "id": "dragon-con",
+  "name": "Dragon Con",
+  "short": "",
+  "url": "https://www.dragoncon.org",
+  "organizer": "Dragon Con, Inc.",
+  "status": "active",
+  "types": ["scifi", "comics", "cosplay", "anime"],
+  "blurb": "The largest multi-media pop-culture convention in the US, spanning sci-fi, fantasy, comics, gaming, literature, art, music and film each Labor Day weekend in Atlanta.",
+  "cover": { "file": "pipeline/cache/extract/dragon-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-09-02",
+      "end": "2027-09-06",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Atlanta, Marriott Marquis, Hilton, Sheraton & Westin Peachtree Plaza (downtown Atlanta)",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://www.dragoncon.org/",
+      "guestsPage": "https://www.dragoncon.org/people-to-see/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wayback Machine snapshot (2026-09-28) of the homepage: 'Sep. 2 – Sep. 6, 2027 in Atlanta, GA' and a countdown reading '338 Days ... BUY NOW FOR 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live dragoncon.org timed out on every attempt (default Chromium x2, msedge channel x1 - each hit the renderer's 45s navigation timeout rather than showing a bot wall), so home and guests were both pulled from Wayback Machine snapshots instead. The only reachable guests-page snapshot (2026-09-04, mid-weekend of the Sep 3-7, 2026 show) is that show's own guest list, not the 2027 one, so per the 'last year's lineup' rule guests is 'none-yet' rather than carrying those names forward; it is also a heavily JS/alphabet-tab driven page that did not expand into real guest-photo candidates even where rendered. Venue is Dragon Con's long-standing multi-hotel downtown-Atlanta setup, not independently re-confirmed this pass. Organizer and the 2027 dates are confirmed directly from the archived homepage."
+}

@@ -1,0 +1,440 @@
+{
+  "id": "grand-rapids-comic-con",
+  "name": "Grand Rapids Comic Con",
+  "short": "GRCC",
+  "url": "https://www.grcomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop"
+  ],
+  "blurb": "West Michigan's comic and pop-arts convention at DeVos Place, with media, comic, literary, streaming and cosplay guest tracks.",
+  "cover": {
+    "file": "pipeline/cache/extract/grand-rapids-comic-con.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "DeVos Place",
+      "city": "Grand Rapids",
+      "region": "MI",
+      "country": "US",
+      "tickets": "https://www.grcomiccon.com/tickets",
+      "guestsPage": "https://www.grcomiccon.com/media-guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con.guests.json",
+          "picks": [
+            [
+              2,
+              "Jodi Benson",
+              "Ariel, The Little Mermaid",
+              "voice"
+            ],
+            [
+              3,
+              "Nadji Jeter",
+              "Miles Morales, Marvel's Spider-Man",
+              "voice"
+            ],
+            [
+              4,
+              "Amy Jo Johnson",
+              "Pink Ranger, Mighty Morphin Power Rangers",
+              "actor"
+            ],
+            [
+              5,
+              "Diedrich Bader",
+              "The Drew Carey Show, Office Space",
+              "actor"
+            ],
+            [
+              6,
+              "Leah Clark",
+              "",
+              "voice"
+            ],
+            [
+              7,
+              "Alexis Tipton",
+              "Megumin, KonoSuba",
+              "voice"
+            ],
+            [
+              8,
+              "Emily Neves",
+              "Winry Rockbell, Fullmetal Alchemist",
+              "voice"
+            ],
+            [
+              9,
+              "Justin Cook",
+              "",
+              "voice"
+            ],
+            [
+              10,
+              "Jessie James Grelle",
+              "",
+              "voice"
+            ],
+            [
+              11,
+              "Justin Briner",
+              "Izuku Midoriya, My Hero Academia",
+              "voice"
+            ],
+            [
+              12,
+              "Jake \"The Snake\" Roberts",
+              "WWE Hall of Famer",
+              "sports"
+            ],
+            [
+              13,
+              "Greg \"The Hammer\" Valentine",
+              "WWE Hall of Famer",
+              "sports"
+            ],
+            [
+              14,
+              "Brittney Karbowski",
+              "",
+              "voice"
+            ],
+            [
+              15,
+              "Michelle Rojas",
+              "",
+              "actor"
+            ],
+            [
+              16,
+              "Tia Ballard",
+              "Mirajane Strauss, Fairy Tail",
+              "voice"
+            ],
+            [
+              17,
+              "Jad Saxton",
+              "Mina Ashido, My Hero Academia",
+              "voice"
+            ],
+            [
+              18,
+              "Michael Kovach",
+              "",
+              "voice"
+            ],
+            [
+              19,
+              "Alex Rochon",
+              "The Amazing Digital Circus",
+              "voice"
+            ],
+            [
+              20,
+              "Amanda Hufford",
+              "",
+              "actor"
+            ],
+            [
+              21,
+              "Lizzie Freeman",
+              "",
+              "voice"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-2.guests.json",
+          "picks": [
+            [
+              2,
+              "Ryan Stegman",
+              "Invincible, Amazing Spider-Man",
+              "comics"
+            ],
+            [
+              3,
+              "Ron Marz",
+              "Green Lantern, Witchblade",
+              "comics"
+            ],
+            [
+              4,
+              "Chip Zdarsky",
+              "Daredevil, Sex Criminals",
+              "comics"
+            ],
+            [
+              5,
+              "Laura Martin",
+              "Thor, Daredevil colorist",
+              "comics"
+            ],
+            [
+              6,
+              "Scott Rosema",
+              "",
+              "comics"
+            ],
+            [
+              7,
+              "Corinne Roberts",
+              "",
+              "comics"
+            ],
+            [
+              8,
+              "Stuart Sayger",
+              "The Joker",
+              "comics"
+            ],
+            [
+              9,
+              "Vince Locke",
+              "A History of Violence",
+              "comics"
+            ],
+            [
+              10,
+              "Roger Scholz",
+              "",
+              "comics"
+            ],
+            [
+              11,
+              "Robert Pope",
+              "Scooby-Doo comics",
+              "comics"
+            ],
+            [
+              12,
+              "Dirk Manning",
+              "Nightmare World",
+              "comics"
+            ],
+            [
+              13,
+              "Jesse Milo Miles",
+              "",
+              "comics"
+            ],
+            [
+              14,
+              "Dan Monroe",
+              "",
+              "comics"
+            ],
+            [
+              15,
+              "Randy Zimmerman",
+              "",
+              "comics"
+            ],
+            [
+              16,
+              "Christy McCulfor",
+              "",
+              "comics"
+            ],
+            [
+              17,
+              "Paul Storrie",
+              "Aquaman, X-Men Unlimited",
+              "comics"
+            ],
+            [
+              18,
+              "Jason Moore",
+              "",
+              "comics"
+            ],
+            [
+              19,
+              "Gavin Smith",
+              "",
+              "comics"
+            ],
+            [
+              20,
+              "K Lynn Smith",
+              "",
+              "comics"
+            ],
+            [
+              21,
+              "Jason Douglas",
+              "",
+              "comics"
+            ],
+            [
+              22,
+              "Julio Guerra",
+              "",
+              "comics"
+            ],
+            [
+              23,
+              "Kenny Porter",
+              "Superboy, The Flash",
+              "comics"
+            ],
+            [
+              24,
+              "Tom Savage",
+              "",
+              "comics"
+            ],
+            [
+              25,
+              "Tim Jacobus",
+              "Goosebumps cover artist",
+              "other"
+            ],
+            [
+              26,
+              "ZM Thomas",
+              "",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-3.guests.json",
+          "picks": [
+            [
+              2,
+              "Danica Davidson",
+              "Manga Art for Beginners",
+              "author"
+            ],
+            [
+              3,
+              "Julie Rathsack",
+              "",
+              "author"
+            ],
+            [
+              4,
+              "Bryan Donihue",
+              "",
+              "author"
+            ],
+            [
+              5,
+              "Anne Serling",
+              "Daughter of Rod Serling; As I Knew Him",
+              "author"
+            ],
+            [
+              6,
+              "Mark Oshiro",
+              "Anger Is a Gift",
+              "author"
+            ],
+            [
+              7,
+              "Susan Dennard",
+              "Truthwitch",
+              "author"
+            ],
+            [
+              8,
+              "Brigid Kemmerer",
+              "A Curse So Dark and Lonely",
+              "author"
+            ],
+            [
+              9,
+              "Lydia Kang",
+              "Quackery, Control",
+              "author"
+            ],
+            [
+              10,
+              "Brian K Morris",
+              "",
+              "author"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-4.guests.json",
+          "picks": [
+            [
+              2,
+              "Volfgang Twins",
+              "",
+              "music"
+            ],
+            [
+              3,
+              "Harp Twins",
+              "",
+              "music"
+            ],
+            [
+              4,
+              "PeterPrankster",
+              "YouTube creator",
+              "creator"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-5.guests.json",
+          "picks": [
+            [
+              2,
+              "Papa Bear",
+              "",
+              "cosplay"
+            ],
+            [
+              3,
+              "Sweets4aSweet",
+              "",
+              "cosplay"
+            ],
+            [
+              4,
+              "KnightMage",
+              "",
+              "cosplay"
+            ],
+            [
+              5,
+              "Bebe Alkaid",
+              "",
+              "cosplay"
+            ],
+            [
+              6,
+              "Pink Opal",
+              "",
+              "cosplay"
+            ],
+            [
+              7,
+              "Envy the Green Fairy",
+              "",
+              "cosplay"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"Save the Date! November 13-15, 2026 The DeVos Place 303 Monroe Ave NW, Grand Rapids, MI 49503\" and video caption \"Grand Rapids Comic-Con | November 13-15, 2026!\" (the page's own meta description says Nov 14-16, but the visible on-page text agrees twice on Nov 13-15, so that was used)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests are split across 5 category pages (media/comic/literary/streaming/cosplay guests); each is cited as its own lineup entry. Company/exhibitor booths shown among the comic guests (Kapow School, Caliber Comics, Drawing Blood Comics, CGC, MAS Authentication) and streaming guests (Channel Awesome) were excluded as not individual people. All-caps names were converted to normal capitalisation; most cards show only a name and photo with no bio, so known-for is left blank for guests not confidently identifiable from public knowledge."
+}

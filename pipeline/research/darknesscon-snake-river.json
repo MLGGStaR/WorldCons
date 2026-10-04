@@ -1,0 +1,41 @@
+{
+  "id": "darknesscon-snake-river",
+  "name": "DarknessCon: Snake River",
+  "short": "",
+  "url": "https://darknesscon.com/snake-river",
+  "organizer": "DarknessCon",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Pocatello-area stop of the touring DarknessCon horror convention, with celebrity guests, cosplay and a Zombie Prom at Red Lion Hotel Pocatello.",
+  "cover": { "file": "pipeline/cache/extract/darknesscon-snake-river.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "dates": "confirmed",
+      "venue": "Red Lion Hotel Pocatello",
+      "city": "Pocatello",
+      "region": "ID",
+      "country": "US",
+      "tickets": "https://darknesscon.com/get-tickets?show=snake-river",
+      "guestsPage": "https://darknesscon.com/snake-river",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/darknesscon-snake-river.guests.json",
+          "picks": [
+            [5, "Tye Lombardi", "Guest of honor, creative producer", "other"],
+            [6, "Crafty Acai", "Cosplayer / costumer", "cosplay"],
+            [7, "Doug Owen", "Author", "author"],
+            [8, "Mythica Blessyng", "Special effects artist, Skin Wars", "other"],
+            [9, "Noel Wing", "Author", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Snake River page text/title: 'DarknessCon Snake River — October 17, 2026' / 'OCTOBER 17, 2026 SNAKE RIVER RED LION HOTEL POCATELLO'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Part of the touring DarknessCon brand (shared darknesscon.com site, one page per city). The og image on this page is a generic Unsplash stock photo, so the cover uses the branded 'Zombie Prom' key art (hero:0) instead. A 'To Be Announced' placeholder guest tile was skipped."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "retro-horror-con",
+  "name": "Retro-Horror Con",
+  "short": "",
+  "url": "https://retro-horrorcon.com",
+  "organizer": "Toy Federation",
+  "status": "active",
+  "types": ["horror", "toys"],
+  "blurb": "Toy Federation's horror convention in Greenville, SC, with celebrity guests, cosplay, panels and toy vendors.",
+  "cover": { "file": "pipeline/cache/extract/retro-horror-con.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Most recent edition (confirmed via the con's own /hotel/ page: 'Embassy Suites by Hilton Greenville Golf Resort & Conference Center for September 11, 2026'; homepage: 'SEPTEMBER 11-13, 2026 IN GREENVILLE, SC') ran 2026-09-11 to 2026-09-13 in Greenville, SC — already over as of today (2026-10-05), so it is outside the research window. No 2027 edition is announced anywhere on the site (no date past September 2026 in the homepage text, dateSnippets or JSON-LD, which is empty); editions is left empty until next year's dates are posted. For reference, that 2026 edition's guests page (https://retro-horrorcon.com/guests/) was a photo grid with no name captions (every <img alt=\"\">, links only go to /tickets/); filenames (Thomas, Wallace, Kassir, Amelie, Kevin, Audrey, Mark, Michaels, Elobar, Travis, Arthur) matched the celebrity-guest list in local press coverage (Spartanburg.com/Greenville.com, Aug 2026) and the con's own /tickets/ page (which separately names Kevin Foster and Audrey Lynn-Marie): Henry Thomas, Dee Wallace, John Kassir, Amelie McLain, Kevin Foster, Audrey Lynn-Marie, Mark Steger, Michael St. Michaels, Sky Elobar, Travis Tutterow (artist), and Arthur Burghardt. One image ('Soup') was a 'Screaming Soup' logo/banner, not a person. Press coverage also named a 'Roger L. Jackson' (voice of Ghostface) but no matching photo appeared, so he was not counted. Re-check this page when the 2027 dates are announced."
+}

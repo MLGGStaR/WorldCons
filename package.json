@@ -11,7 +11,11 @@
     "build:data": "node pipeline/build-data.mjs"
   },
   "devDependencies": {
+    "css-select": "^7.0.0",
+    "css-tree": "^3.2.1",
+    "domutils": "^4.0.2",
     "flag-icons": "^7.5.0",
+    "htmlparser2": "^12.0.0",
     "lucide-static": "^1.52.0",
     "playwright": "^1.59.1",
     "sharp": "^0.35.5"

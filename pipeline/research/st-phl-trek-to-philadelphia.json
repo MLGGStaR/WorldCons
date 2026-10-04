@@ -1,0 +1,73 @@
+{
+  "id": "st-phl-trek-to-philadelphia",
+  "name": "ST-PHL: Trek to Philadelphia",
+  "short": "ST-PHL",
+  "url": "https://creationent.com/events/stphilly26/",
+  "organizer": "Creation Entertainment",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "Creation's Star Trek 60th-anniversary celebration in Philadelphia, with cast autographs, photo ops and science panels over two days.",
+  "cover": { "file": "pipeline/cache/extract/st-phl-trek-to-philadelphia.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Sheraton Philadelphia Downtown Hotel",
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://creationent.com/events/stphilly26/tickets/",
+      "guestsPage": "https://creationent.com/events/stphilly26/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/st-phl-trek-to-philadelphia.guests.json",
+          "picks": [
+            [2, "Anson Mount", "Captain Pike, Strange New Worlds", "actor"],
+            [3, "Jeri Ryan", "Seven of Nine, Voyager & Picard", "actor"],
+            [4, "Tim Russ", "Tuvok, Voyager", "actor"],
+            [5, "Denise Crosby", "Tasha Yar, The Next Generation", "actor"],
+            [6, "Christina Chong", "Lt. La'an, Strange New Worlds", "actor"],
+            [7, "Celia Rose Gooding", "Uhura, Strange New Worlds", "actor"],
+            [8, "Melissa Navia", "Erica Ortegas, Strange New Worlds", "actor"],
+            [9, "Nana Visitor", "Kira Nerys, Deep Space Nine", "actor"],
+            [10, "Chase Masterson", "Leeta, Deep Space Nine", "actor"],
+            [11, "Terry Farrell", "Jadzia Dax, Deep Space Nine", "actor"],
+            [12, "Nicole de Boer", "Ezri Dax, Deep Space Nine", "actor"],
+            [13, "Cirroc Lofton", "Jake Sisko, Deep Space Nine", "actor"],
+            [14, "Robert Duncan McNeill", "Tom Paris, Voyager", "actor"],
+            [15, "Garrett Wang", "Harry Kim, Voyager", "actor"],
+            [16, "Todd Stashwick", "Captain Shaw, Picard", "actor"],
+            [17, "Alison Pill", "Dr. Agnes Jurati, Picard", "actor"],
+            [18, "Michelle Hurd", "Raffi, Picard", "actor"],
+            [19, "Bella Shepard", "Genesis Lythe, Starfleet Academy", "actor"],
+            [20, "Romeo Carere", "Ocam Sadal, Starfleet Academy", "actor"],
+            [21, "Karim Diané", "Jay-Den Kraag, Starfleet Academy", "actor"],
+            [22, "David Ajala", "Cleveland 'Book' Booker, Discovery", "actor"],
+            [23, "Daniel Davis", "Doctor Moriarty, TNG and Picard", "actor"],
+            [24, "Diane Salinger", "Lupaza, Deep Space Nine", "actor"],
+            [25, "J.G. Hertzler", "Martok, Deep Space Nine", "actor"],
+            [26, "Sandy Gimpel", "Talosian / Salt Vampire, The Original Series", "actor"],
+            [27, "Sean Kenney", "Captain Christopher Pike, The Original Series", "actor"],
+            [28, "Tanya Lemani", "Kara, The Original Series", "actor"],
+            [29, "Gillian Vigman", "T'Ana, Lower Decks", "voice"],
+            [30, "Fred Tatasciore", "Shaxs, Lower Decks", "voice"],
+            [31, "Brian Bonsall", "Alexander, The Next Generation", "actor"],
+            [32, "Vernon Smith", "IDW Comics artist", "comics"],
+            [33, "Lolita Fatjo", "Script coordinator, TNG/DS9/Voyager", "other"],
+            [34, "Bonnie Gordon", "Ship's Computer, Prodigy", "voice"],
+            [35, "Dr. Andy Broadbent", "Assistant professor of virology", "other"],
+            [36, "Dr. Jess Stasik", "Astrophysicist & CEO", "other"],
+            [37, "Dr. Liv Greene", "Astrophysicist", "other"],
+            [39, "Ryan T. Husk", "Producer/host of VTC and The 7th Rule", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Event page: 'ST-PHL: TREK TO PHILADELPHIA 60th CELEBRATION November 14-15, 2026 Sheraton Philadelphia Downtown Hotel 201 N 17th Street Philadelphia, PA 19103'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Kate Mulgrew (candidate #38) is skipped: the page's own Sept. 25 update says she is unable to attend and refunds are being issued. Every pick's name/character text came directly from this page's own guest cards (no WebFetch needed), including a few non-actor panelists (virologist/astrophysicists, a script coordinator, a comics artist) filed under 'other'/'comics' rather than 'actor'."
+}

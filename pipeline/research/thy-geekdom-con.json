@@ -1,0 +1,30 @@
+{
+  "id": "thy-geekdom-con",
+  "name": "Thy Geekdom Con",
+  "short": "",
+  "url": "https://thygeekdomcon.com/",
+  "organizer": "Game Infirmary Enterprises LLC",
+  "status": "active",
+  "types": ["games", "anime", "pop", "tabletop"],
+  "blurb": "Greater Philadelphia's gaming and anime convention at the Expo Center in Oaks, PA, with anime, tabletop and video-game programming, cosplay and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/thy-geekdom-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Greater Philadelphia Expo Center",
+      "city": "Oaks",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://www.ontreasure.com/events/thy-geekdom-con-05282027/tickets",
+      "guestsPage": "https://thygeekdomcon.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Thy Geekdom Con will be returning in 2027 for our 12th year! ... Date: May 28 - 30 2027' at 'Greater Philadelphia Expo Center Halls A, B, D, and E ... 100 Station Ave, Oaks, PA 19456'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer corrected from the batch's 'Sparrowpeak LLC' to 'Game Infirmary Enterprises LLC', which is the entity the site's own footer credits ('Thy Geekdom Con and Game Infirmary logos are copyrighted by Game Infirmary Enterprises LLC'); no mention of Sparrowpeak appears anywhere on the site. The current /guests/ page for the 2027 edition has no guest cards yet (only site/venue logos), so guests is 'none-yet'; a separate /past-guests/ page exists but was not used since it is explicitly last year's roster."
+}

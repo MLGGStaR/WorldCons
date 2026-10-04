@@ -1,0 +1,15 @@
+{
+  "id": "comic-con-africa",
+  "name": "Comic Con Africa",
+  "short": "",
+  "url": "https://comicconafrica.co.za/cca-home/",
+  "organizer": "RX Africa (Reed Exhibitions)",
+  "status": "active",
+  "types": ["pop", "comics", "games", "cosplay"],
+  "blurb": "Pop-culture and gaming festival at the Johannesburg Expo Centre, Nasrec, with cosplay, artist alley, tabletop RPGs, esports and TV/film guests; organizer-reported attendance is about 70,000.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-africa.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-24", "end": "2026-09-27", "city": "Johannesburg", "region": "", "country": "ZA", "venue": "Johannesburg Expo Centre, Nasrec" },
+  "checked": "2026-10-05",
+  "notes": "The homepage still reads 'COMIC CON AFRICA RETURNS 24-27 SEP 2026' and frames the show as upcoming ('coming to you... this September'), but that edition (its seventh) ended 2026-09-27, before this research window opens (2026-10-05); the site evidently has not refreshed its copy since the show. No 2027 date appears anywhere on the homepage or in its links, so no next edition is recorded yet. Sister event Comic Con Cape Town, same organizer, is filed separately as comic-con-cape-town.json."
+}

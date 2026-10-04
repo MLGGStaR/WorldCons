@@ -1,0 +1,30 @@
+{
+  "id": "gerardmer-film-festival",
+  "name": "Gérardmer Film Festival",
+  "short": "",
+  "url": "https://www.festival-gerardmer.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "France's leading genre-film festival in the Vosges, showcasing fantasy, horror and thriller cinema with juries and masterclasses.",
+  "cover": { "file": "pipeline/cache/extract/gerardmer-film-festival.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-01-26",
+      "end": "2027-01-31",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Gérardmer",
+      "region": "",
+      "country": "FR",
+      "tickets": "",
+      "guestsPage": "https://festival-gerardmer.com/2027/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "jds.fr festival listing (via WebFetch): dates 'Du 26/01/2027 au 31/01/2027', billed as the '34e édition'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site redirects to a '/2027/' minisite (nav already has an 'Edition 2027' link) but currently shows only recap photos and an open call for films from the January 2026 (33rd) edition, plus a 2026 palmarès; no jury, guests or exact dates are posted there yet, so the 2027 dates above come from a secondary listing (jds.fr) rather than the festival's own copy — worth re-checking against the official site closer to the date. Cover uses the 2027-branded logo (file name 'LogoGerardmerFRA27') since the homepage's visible photos are recap images explicitly credited to the 2026 edition ('XGE26')."
+}

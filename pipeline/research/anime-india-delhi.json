@@ -1,0 +1,15 @@
+{
+  "id": "anime-india-delhi",
+  "name": "Anime India Delhi",
+  "short": "",
+  "url": "https://animeindia.live/delhi/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "pop", "cosplay"],
+  "blurb": "The Delhi edition of India's touring anime convention and anison concert, with voice-actor guests, cosplay and a Japan-culture pavilion.",
+  "cover": { "file": "pipeline/cache/extract/anime-india.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-06-06", "end": "2026-06-07", "city": "Delhi", "region": "", "country": "IN", "venue": "Yashobhoomi Convention Centre" },
+  "checked": "2026-10-05",
+  "notes": "Renamed from the assigned id 'anime-india' to 'anime-india-delhi': animeindia.live is a multi-city touring brand (confirmed separate Delhi/Mumbai/Kolkata/Hyderabad city pages and ticket listings on the root site), so per the multi-city rule it needs a per-city id rather than one bare id for the whole brand. Dates confirmed via the official ticket listing (district.in): 'Sat, 06 Jun 2026 - Sun, 07 Jun 2026' at 'Yashobhoomi, Delhi', matching the assignment brief. That edition already ended before this research window opens (2026-10-05), so it is recorded as 'last'; no Delhi 2027 date is announced (the brand's other cities -- Mumbai, Kolkata, Hyderabad -- have their own separate, more recent or upcoming dates, which belong in their own files, not this one). Guests for the passed 2026 edition (voice actor Kazuhiko Inoue -- Kakashi in Naruto, Yoriichi in Demon Slayer -- and anison artist YURiKA) are not recorded here since the 'last' field has no guest structure and only upcoming editions carry a lineup. Organizer left blank: no legal entity name was found in the rendered text within budget."
+}

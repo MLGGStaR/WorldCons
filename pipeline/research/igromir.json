@@ -1,0 +1,14 @@
+{
+  "id": "igromir",
+  "name": "IgroMir",
+  "short": "",
+  "url": "https://www.igromir.ru/",
+  "organizer": "MDTS LLC",
+  "status": "inactive",
+  "types": ["games", "cosplay"],
+  "blurb": "Russia's largest video-game expo; its 2025 revival has since merged into the joint Comic Con Игромир festival.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Duplicate of comic-con-russia in this batch. igromir.ru is now a parked/for-sale domain (extract.mjs home pass returned a DomainParking.ru placeholder page, no event content). WebSearch confirms IgroMir's revived event has merged brands with Comic Con Russia into one combined festival, 'Comic Con Игромир', Dec 3-6 2026 at Timiryazev Center, Moscow (afisha.yandex.ru, cybersport.ru, dtf.ru all describe one joint festival, not two separate shows). That 2026 edition and its guests are recorded under comic-con-russia.json; marking this entry inactive rather than duplicating the same edition/guests under a second id. Cover left null per the 'no reachable official image' allowance since the brand's own site no longer carries one (status is inactive here so a cover is not otherwise required, but noting explicitly since checked)."
+}

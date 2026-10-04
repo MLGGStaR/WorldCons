@@ -1,0 +1,22 @@
+{
+  "id": "icecon",
+  "name": "IceCon",
+  "short": "",
+  "url": "https://icecon-reykjavik.is/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "A small, biennial fan convention in Reykjavik covering science fiction, fantasy and horror, running since 2016.",
+  "cover": { "file": "pipeline/cache/extract/icecon.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-29",
+    "end": "2026-05-31",
+    "venue": "",
+    "city": "Reykjavik",
+    "region": "",
+    "country": "IS"
+  },
+  "checked": "2026-10-05",
+  "notes": "IceCon runs every other year. The most recent edition ran May 29-31, 2026 (homepage text: 'Fantasy, Sci-Fi and Horror Fan Convention | Reykjavík | Iceland May 29th - 31th, 2026'), which already ended before the research window (2026-10-05). The homepage states 2026 is 'our 10th anniversary and our 5th con' since 2016, confirming the biennial cadence, so the next edition would fall in 2028 - after the window end (2027-12-31) - and is not listed. The seed URL (icecon-reykjavik.is/en/) 404'd; used the site root instead, which works."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bahrain-comic-con",
+  "name": "Bahrain Comic Con",
+  "short": "",
+  "url": "https://www.facebook.com/p/Bahraincomiccon-100086947231983/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["comics", "pop", "games", "cosplay"],
+  "blurb": "Bahrain's largest pop-culture convention, with cosplay, gaming zones, artist alleys and celebrity guests, running annually in Manama since 2018.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "On hiatus. The 2026 edition (originally May 1-2, 2026 at Exhibition World Bahrain) was postponed indefinitely; organisers cited 'the ongoing regional situation' / attendee safety amid regional tensions, with no replacement date announced (Gulf Good News and Gulf News, both Sept/Oct 2026, 'Bahrain Comic Con 2026 postponed: Organisers cite safety amid regional tensions'; Curly Tales, 'no new dates have been officially announced'). The domain bahraincomiccon.com (floated by a search summary as the official site) resolves but renders a completely blank page (no title, text, images or links) -- effectively not a working site -- so the Facebook page is used as url per the no-standalone-site rule; cover is left null since no reachable image represents the (postponed) event."
+}

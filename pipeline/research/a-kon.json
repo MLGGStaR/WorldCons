@@ -1,0 +1,14 @@
+{
+  "id": "a-kon",
+  "name": "A-Kon",
+  "short": "",
+  "url": "https://a-kon.com",
+  "organizer": "A-Kon LLC",
+  "status": "inactive",
+  "types": ["anime", "games"],
+  "blurb": "One of the longest-running US anime conventions (since 1990), based in the Dallas area; postponed in 2025 and currently on hiatus.",
+  "cover": { "file": "pipeline/cache/extract/a-kon.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "On hiatus: the site's own homepage banner reads 'EVENT POSTPONED 05/10/2025 — EVENT UPDATE: A-Kon 33: Attendee Refunds Are Happening', and its FAQ states 'There will not be an event in 2025, but we're actively exploring possibilities for 2026 or 2027. We want to come back the right way...'. A web search for confirmed 2026/2027 dates turned up nothing beyond that same statement, so no edition has been announced since the postponement. Marked inactive/on hiatus per the seed note's 'one of the oldest running anime conventions' history; re-check a-kon.com for a comeback announcement."
+}

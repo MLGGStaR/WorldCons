@@ -1,0 +1,14 @@
+{
+  "id": "comic-world-busan",
+  "name": "Comic World (Busan)",
+  "short": "",
+  "url": "https://comicw.net/",
+  "organizer": "S.E.Techno",
+  "status": "active",
+  "types": ["comics", "anime"],
+  "blurb": "Busan leg of Korea's touring Comic World doujinshi fair, held roughly every two months at BEXCO.",
+  "cover": { "file": "pipeline/cache/extract/comic-world-seoul.home.json", "key": "logo:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "comicw.co.kr (seed URL) redirects to comicw.net, the shared portal for every Comic World city (Suwon, Ilsan/KINTEX, Busan, Ulsan...). The last confirmed Busan edition was #333 on 2026-05-16~05-17 at BEXCO (per web search of the organizer's own announcements) - already over before the research window. As of 2026-10-05 the homepage's own event ticker (which lists every city's open-for-application/next events) shows only Suwon (#338, Oct 24-25), Ilsan (#339, Nov 7-8) and an Ilsan winter edition (Dec 12-13); no Busan date has been posted yet for the window, so editions is empty rather than guessed. Comic World does not run a guest-celebrity program (fan-made doujinshi/circle market), so guests would be 'none' once a date is announced. Cover reuses the shared portal's logo (comic-world-seoul.home.json, same site) since no Busan-specific artwork is currently live; see that file/id for the full site render."
+}

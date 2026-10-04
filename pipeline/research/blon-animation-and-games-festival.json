@@ -1,0 +1,14 @@
+{
+  "id": "blon-animation-and-games-festival",
+  "name": "BLON Animation and Games Festival",
+  "short": "BLON",
+  "url": "https://blon.lt/en/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "The Baltic states' largest animation festival, held in Klaipėda with animated-film competitions, a video game award, AR/VR and industry talks.",
+  "cover": { "file": "pipeline/cache/extract/blon-animation-and-games-festival.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition already ran 10-13 September 2026 (per the FAQ page and 'BLON Festival Announces Animation and Video Game Award Winners' news post dated 13 September 2026), which is before today's window, so it is not listed. No 2027 dates are announced on the official site yet — the FAQ still states only the 2026 run, and every guests/news link still points at '/2026/...'. A third-party festival aggregator (zippyframes.com) lists '10-13 September 2027' but explicitly flags it as tentative and it is not sourced from blon.lt, so it is not used as a confirmed edition per the no-guessing rule. Could not find a separate organizing-company legal name within budget (About page lists a festival director and staff by role/email, e.g. Laura Almantaitė, but no company entity); BLON is a BAFTA-qualifying festival and part of the Northern Animation Network (NAN) alongside Norway's FAF, Denmark's VAF and Sweden's REX."
+}

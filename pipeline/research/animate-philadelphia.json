@@ -1,0 +1,14 @@
+{
+  "id": "animate-philadelphia",
+  "name": "Animate! Philadelphia",
+  "short": "",
+  "url": "https://galaxycon.com/pages/animate-philadelphia",
+  "organizer": "GalaxyCon",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "GalaxyCon's anime and animation convention at the Greater Philadelphia Expo Center, with voice actors, animation creators and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/animate-philadelphia.home.json", "key": "hero:3" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The homepage still shows the just-finished edition (October 2-4, 2026), which ended the day before today (2026-10-05), so it falls outside the research window and is left out per the rule for upcoming editions only. No 2027 date is announced anywhere on the site yet: the schedule and floor-plan links still say 'The 2026 schedule/floor map is available now' with no next-year mention. The 2026 edition ran at the Greater Philadelphia Expo Center, 100 Station Avenue, Oaks, PA 19456, which is presumably where it returns to."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "comic-market-comiket",
+  "name": "Comic Market",
+  "short": "Comiket",
+  "url": "https://www.comiket.co.jp/",
+  "organizer": "Comiket Preparations Committee",
+  "status": "active",
+  "types": ["comics", "anime"],
+  "blurb": "The world's largest self-published doujinshi fair, held twice a year at Tokyo Big Sight for independent manga and fan circles.",
+  "cover": { "file": "pipeline/cache/extract/comic-market-comiket.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-12-29",
+      "end": "2026-12-31",
+      "dates": "confirmed",
+      "venue": "Tokyo Big Sight",
+      "city": "Tokyo",
+      "region": "",
+      "country": "JP",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'コミックマーケット１０９は、東京ビッグサイトにて2026年12月29日～31日の３日間開催です' (Comic Market 109 will be held at Tokyo Big Sight over three days, Dec 29-31, 2026)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Comiket is a circle/doujinshi self-publishing fair with no celebrity guest program, so guests is set to 'none' rather than 'none-yet'."
+}

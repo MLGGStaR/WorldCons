@@ -1,0 +1,28 @@
+{
+  "id": "comic-con-india-pune",
+  "name": "Comic Con India (Pune)",
+  "short": "PCC",
+  "url": "https://www.comicconindia.com",
+  "organizer": "Comic Con India / ReedPop",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
+  "blurb": "Pune leg of Comic Con India's national pop-culture tour, run with ReedPop, with comics-industry and pop-culture guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-india-hub.home.json",
+    "key": "logo:0"
+  },
+  "editions": [],
+  "last": {
+    "start": "2026-03-21",
+    "end": "2026-03-22",
+    "city": "Pune",
+    "region": "",
+    "country": "IN"
+  },
+  "checked": "2026-10-05",
+  "notes": "No live 2026-27 event page on comicconindia.com as of this check (the 'all-cities-main-page/pune-comic-con' URL now 404s and its cached copy was footed 'Comic Con India 2025'). Outlook India/respawn reported an official Comic Con India announcement of a Pune edition for Mar 21-22, 2026 at Yash Lawns, Bibvewadi, presented by Maruti Suzuki Arena and Crunchyroll -- recorded here as the last edition since it is before this check date (2026-10-05); no 2027 Pune date has been announced yet."
+}

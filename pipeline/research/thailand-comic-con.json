@@ -1,0 +1,22 @@
+{
+  "id": "thailand-comic-con",
+  "name": "Thailand Comic Con",
+  "short": "TCC",
+  "url": "https://www.thailandcomiccon.com",
+  "organizer": "Thailand Comic Con (TCC)",
+  "status": "inactive",
+  "types": ["pop", "comics"],
+  "blurb": "Bangkok's self-described biggest pop-culture convention, covering comics, anime, games, toys and cosplay; dormant since its 2023 edition.",
+  "cover": { "file": "pipeline/cache/extract/thailand-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2023-09-22",
+    "end": "2023-09-24",
+    "city": "Bangkok",
+    "region": "",
+    "country": "TH",
+    "venue": "Royal Paragon Hall"
+  },
+  "checked": "2026-10-05",
+  "notes": "On hiatus/inactive, matching the given note that no 2026 schedule is published. The official homepage renders with no date text or countdown at all — its visible content is only the nav labels (Home/Exhibitors/Activities/Special Guest/Schedule/Past Event/News Update/Gallery/About Us) — and its footer reads 'Copyright 2020 TCC', and the /news page's newest items are 2023-era (plus older 2020-2021 stories), with no 2024-2026 posts. A web search confirms the last confirmed edition was 22-24 Sep 2023 at Royal Paragon Hall, Bangkok, explicitly described then as the con '[returning] to the scene after a couple of years due to the pandemic.' No 2024, 2025 or 2026 edition could be found anywhere (other Bangkok cons for those years turn up easily in the same searches), so this is treated as inactive/on hiatus since 2023 rather than merely 'dates not announced yet'. Cover is the site's small logo (no og/twitter photo and all large banners are sponsor ads)."
+}

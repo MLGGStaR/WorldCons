@@ -1,0 +1,30 @@
+{
+  "id": "game-market-tokyo",
+  "name": "Game Market (Tokyo)",
+  "short": "",
+  "url": "https://gamemarket.jp/",
+  "organizer": "Arclight",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Japan's largest tabletop and board-game market, where hundreds of designers and small publishers sell their own games directly to attendees.",
+  "cover": { "file": "pipeline/cache/extract/game-market-tokyo.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "https://gamemarket.jp/information/177473",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official overview page (gamemarket.jp/access): '開催日 (Dates) 2026年10月17日（土）11:00～18:00 2026年10月18日（日）11:00～17:00 会場 (Venue) 幕張メッセ展示ホール 1・2・3・4・5'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is a market-style event (circles/small publishers sell their own games at booths) with no celebrity guest program, so guests is 'none'. The venue, Makuhari Messe, is technically in Chiba (Mihama-ku, Chiba City), not Tokyo proper, though the event is widely called just 'Game Market' in English; this file is labelled '(Tokyo)' only to distinguish it from the separate Osaka/Kansai file. The official site states Game Market runs 3 times a year (Tokyo in spring and autumn, the Kansai region in winter); a Tokyo Spring 2027 edition is expected but had no announced dates yet as of this check."
+}

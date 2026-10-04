@@ -1,0 +1,22 @@
+{
+  "id": "mantua-comics-and-games",
+  "name": "Mantova Wonderfest",
+  "short": "",
+  "url": "https://www.wonderfest.it/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "games", "cosplay"],
+  "blurb": "Mantua's pop-culture fair for comics, retro gaming and cosplay; the convention formerly known as Mantova Comics & Games.",
+  "cover": { "file": "pipeline/cache/extract/mantua-comics-and-games.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-06-02",
+    "end": "2026-06-04",
+    "venue": "",
+    "city": "Mantua",
+    "region": "",
+    "country": "IT"
+  },
+  "checked": "2026-10-05",
+  "notes": "This convention rebranded from 'Mantova Comics & Games' to 'Mantova Wonderfest' around 2022-2023 (kept the original batch id for stability since it is the same event/organizer, not a different con). The seed URL mantovacomics.it is now squatted by an unrelated app (a Tesla screen-mirroring tool, 'Car Cast'); the real current site is wonderfest.it, which as of this check is a placeholder ('Mantova Wonderfest is under construction' / 'aggiornamenti a breve') with no 2027 dates announced. The last confirmed edition ran June 2-4, 2026, already past the research window, so no edition is listed."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "tokyo-comic-con",
+  "name": "Tokyo Comic Con",
+  "short": "",
+  "url": "https://tokyocomiccon.jp/",
+  "organizer": "Tokyo Comic Convention Co., Ltd.",
+  "status": "active",
+  "types": ["pop", "comics", "cosplay"],
+  "blurb": "Japan's Hollywood-star-studded comic con at Makuhari Messe in Chiba, with celebrity autographs/photo ops, artist alley and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/tokyo-comic-con.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "Makuhari Messe",
+      "city": "Chiba",
+      "region": "",
+      "country": "JP",
+      "tickets": "https://tokyocomiccon.jp/en/ticket",
+      "guestsPage": "https://tokyocomiccon.jp/en/celebrities",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/tokyo-comic-con.guests.json",
+          "picks": [
+            [3, "Nicolas Cage", "The Rock, Con Air, Face/Off", "actor"],
+            [4, "Giancarlo Esposito", "Do the Right Thing, Malcolm X", "actor"],
+            [5, "Charlie Cox", "Daredevil, Stardust", "actor"],
+            [6, "Vincent D'Onofrio", "Full Metal Jacket, Men in Black, Jurassic World", "actor"],
+            [7, "James Phelps and Oliver Phelps", "Harry Potter (the Weasley twins)", "actor"],
+            [8, "Jamie Campbell Bower", "Sweeney Todd, Stranger Things", "actor"],
+            [9, "Mads Mikkelsen", "Casino Royale (Le Chiffre)", "actor"],
+            [10, "Daniel Logan", "Star Wars: young Boba Fett", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Japanese homepage description meta tag: '2026年12月11日（金）～12月13日（日）までの3日間、幕張メッセ...にて開催' (held over 3 days, Fri Dec 11 - Sun Dec 13, 2026, at Makuhari Messe)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Used the English-language mirror (tokyocomiccon.jp/en/) for romanized guest names instead of transliterating the Japanese katakana myself; each guest card gives the name in both scripts ('ニコラス・ケイジ / Nicolas Cage'). The Guest Celebrity page lists only Hollywood actors (8 cards/9 people); it does not include BEYOOOOONDS (a J-pop group announced as 2026 PR Ambassadors doing a closing-day live performance) or Yuichi Nakamaru/IMALU (announced as main MCs), since neither has a profile card on this page -- left out per the rule to only pick from the guest page's own cards, not news mentions."
+}

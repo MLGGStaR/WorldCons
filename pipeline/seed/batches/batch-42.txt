@@ -1,0 +1,12 @@
+1. id=conquest | ConQuesT | https://conquestkc.org/ | Kansas City, MO, US | types: scifi | organizer: Kansas City Science Fiction and Fantasy Society | note: Kansas City's original science fiction convention
+2. id=coastcon | CoastCon | http://www.coastcon.org | Biloxi, MS, US | types: scifi, tabletop, cosplay | note: Mississippi's longest-running SF/fantasy/gaming con; 48th edition 2026
+3. id=mississippi-anime-fest | Mississippi Anime Fest | https://www.msanimefest.com | Jackson, MS, US | types: anime | organizer: VXV Events | note: Confirmed Mar 14-15, 2026 edition
+4. id=mississippi-comic-con | Mississippi Comic Con | https://www.mississippicomiccon.com | Jackson, MS, US | types: comics | organizer: VXV Events | note: Confirmed Jun 26-28, 2026 edition
+5. id=midsouthcon | MidSouthCon | https://midsouthcon.org | Olive Branch, MS, US | types: scifi, tabletop | note: Longest-running fan-run multigenre SF con in the MidSouth (42nd edition, Mar 2027); relocated from Memphis, TN
+6. id=billings-fun-con | Billings Fun Con | https://www.billingsfuncon.com | Billings, MT, US | types: comics, pop | note: Comic/pop-culture show with a card-show component at MetraPark
+7. id=miscon | MisCon | https://www.miscon.org | Missoula, MT, US | types: scifi, tabletop | note: 41st edition in 2027; multigenre SF/fantasy/gaming con
+8. id=montana-celebrity-comic-con | Montana Celebrity Comic Con | https://www.celebritycomiccons.com | Bozeman, MT, US | types: pop, comics | organizer: Celebrity Comic Cons | note: Part of a multi-city touring brand
+9. id=heroes-convention | Heroes Convention | https://www.heroesonline.com | Charlotte, NC, US | types: comics | note: Creator-focused comics con, est. 1982; one of the largest independent comic shows in the US
+10. id=animazement | Animazement | https://www.animazement.org | Raleigh, NC, US | types: anime
+11. id=concarolinas | ConCarolinas | https://concarolinas.org | Charlotte, NC, US | types: scifi, tabletop | note: Longest-running SF/fantasy convention in the Carolinas
+12. id=nc-comicon | NC Comicon | https://nccomicon.com | Durham, NC, US | types: comics | note: 11th annual edition in 2026

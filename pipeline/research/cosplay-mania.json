@@ -1,0 +1,14 @@
+{
+  "id": "cosplay-mania",
+  "name": "Cosplay Mania",
+  "short": "",
+  "url": "https://cosplay.ph/",
+  "organizer": "Cosplay.ph",
+  "status": "active",
+  "types": ["cosplay", "anime", "pop"],
+  "blurb": "The Philippines' flagship cosplay convention, run by Cosplay.ph at SMX Convention Center Manila with cosplay guests, J-pop concerts and exhibits.",
+  "cover": { "file": "pipeline/cache/extract/cosplay-mania-post.home.json", "key": "logo:1" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The seed URL (cosplaymania.com) is an unrelated photo-sharing social network for individual cosplayers ('The Visual Network for Cosplayers...'), not the convention; corrected to the organizer's real site cosplay.ph. The 2026 edition ('Dazzling Diamond') ran Oct 2-4, 2026 at SMX Convention Center Manila and just concluded the day before today; no 2027 Cosplay Mania date is announced yet on the site or in search results (confirmed via WebSearch), so no edition is recorded. Cosplay.ph also runs several other same-organizer brands (Cosplay Matsuri, CosMeet, FanFes, Anime and Cosplay Expo, Cosplay Carnival) which are separate conventions, not covered by this file. Cover uses the dedicated 'Cosplay Mania' logo since no clean key-art banner for a specific upcoming edition exists yet; homepage/og images found were exhibitor-booth flyers or venue photos."
+}

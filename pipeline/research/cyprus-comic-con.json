@@ -1,0 +1,15 @@
+{
+  "id": "cyprus-comic-con",
+  "name": "Cyprus Comic Con",
+  "short": "CCC",
+  "url": "https://cypruscomiccon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Nicosia's largest pop-culture weekend, held at the Cyprus State Fair with international actors, voice actors, comic artists, cosplayers and musicians.",
+  "cover": { "file": "pipeline/cache/extract/cyprus-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Nicosia", "region": "", "country": "CY", "venue": "Cyprus State Fair" },
+  "checked": "2026-10-05",
+  "notes": "The 2026 edition just concluded 2026-10-02 to 2026-10-04 (JSON-LD + on-site schedule), ending the day before this window opens, so it is not listed. A WebSearch for a 2027 Nicosia date found none; Cyprus Comic Con's own event calendar currently lists only its sister/licensed shows abroad for 2027 (Thessaloniki Comic Con, Aniventure Comic Con/Sofia), not a Nicosia date of its own. The just-finished 2026 lineup was substantial — around 30 actors, voice actors, artists, cosplayers and musicians on /special-guests/, including the Clair Obscur: Expedition 33 voice cast (Kirsty Rider, Rich Keeble, Maxence Cazorla) and several One Piece live-action actors (Callum Kerr, Vincent Regan) — but is not recorded here since no edition within the window exists to attach it to."
+}

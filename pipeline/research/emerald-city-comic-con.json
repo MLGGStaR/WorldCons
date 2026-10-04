@@ -1,0 +1,30 @@
+{
+  "id": "emerald-city-comic-con",
+  "name": "Emerald City Comic Con",
+  "short": "ECCC",
+  "url": "https://www.emeraldcitycomiccon.com/",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": ["comics", "pop", "anime"],
+  "blurb": "A spring comic and pop culture convention in Seattle with celebrity guests, comic creators, cosplay and gaming at the Seattle Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/emerald-city-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-04",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Seattle Convention Center",
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://www.emeraldcitycomiccon.com/en-us/buy/tickets.html",
+      "guestsPage": "https://www.emeraldcitycomiccon.com/en-us/guests.html",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'March 4-7, 2027 Seattle Convention Center' and 'ECCC 2027 Tickets Are On Sale Now! Seattle's geekiest event returns March 4-7, 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page renders with no names yet (only a cookie-banner image), so 2027 guests are none-yet. Footer carries the ReedPop/RELX logo, confirming organizer."
+}

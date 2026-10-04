@@ -1,0 +1,30 @@
+{
+  "id": "tampa-bay-comic-con",
+  "name": "Tampa Bay Comic & Pop Culture Convention",
+  "short": "TBCC",
+  "url": "https://tampabaycomicconvention.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Tampa's annual comic and pop-culture convention at the Tampa Bay Convention Center, with TV/film guests, comic creators, authors and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/tampa-bay-comic-con.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-08-20",
+      "end": "2027-08-22",
+      "dates": "confirmed",
+      "venue": "Tampa Bay Convention Center",
+      "city": "Tampa",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://www.tampabaycomicconvention.com/ticket-info/",
+      "guestsPage": "https://www.tampabaycomicconvention.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wayback Machine snapshot (2026-09-30) of the official homepage: 'Tampa Bay Comic & Pop Culture Convention August 20th - 22nd, 2027 Tampa Bay Convention Center' and 'Save the Date for TBCC27 ... back in 2027 from August 20th to the 22nd with a whole new Guestlist'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live site returned a Cloudflare 'Just a moment...' interstitial with HTTP 403 on every attempt (default Chromium, msedge channel, and a fresh render with a 9s wait), consistent with an IP-level block rather than a passable JS challenge, so per the retry-once rule I fell back to a Wayback Machine snapshot (2026-09-30) of the homepage, which is recent enough to show the current 'Save the Date for TBCC27' announcement; the cover image is the archived copy of the official 1080x1080 convention logo. The guest nav (TV & Film, Comic Creators, Authors, Cosplayers, Panelists) still reflects the prior edition, and the site itself says the 2027 show will have 'a whole new Guestlist', so guests is 'none-yet'. WebSearch/WebFetch separately confirmed a September 4-6, 2026 edition at the same venue, but that date already ended before the 2026-10-05 research window, so it is not listed; no organizer name was found (LEAP Event Technology appears only as the ticketing platform, not a stated producer)."
+}

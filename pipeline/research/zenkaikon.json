@@ -1,0 +1,30 @@
+{
+  "id": "zenkaikon",
+  "name": "Zenkaikon",
+  "short": "",
+  "url": "https://zenkaikon.com/",
+  "organizer": "Zenkaikon Entertainment Inc.",
+  "status": "active",
+  "types": ["anime", "scifi", "pop", "cosplay"],
+  "blurb": "A volunteer-run, nonprofit anime and sci-fi convention at the Lancaster County Convention Center, with cosplay contests, an artist alley and late-night dances.",
+  "cover": { "file": "pipeline/cache/extract/zenkaikon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-18",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Lancaster County Convention Center",
+      "city": "Lancaster",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://zenkaikon.ticketspice.com/zenkaikon-2027",
+      "guestsPage": "https://zenkaikon.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'March 18-21, 2027 Lancaster County Convention Center, Lancaster, PA ... Zenkaikon 2027 March 18 - 21, 2027 - Lancaster, PA'; location address confirmed: '25 South Queen Street Lancaster, PA 17603'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The /guests/ page's own section heading reads '2026 Guests' (18 names: Caitlin Glass, Dana Terrace, Dante Basco, Phil LaMarr, Khary Payton, Jeremy Shada, etc.) -- that is last year's roster, not yet replaced for the March 2027 edition, so guests is 'none-yet' per the rules rather than picking a stale lineup. The homepage's own 'Hours of Programming / Program Items / Exhibitors / Event Participants' stat block is also explicitly labeled '2026' for the same reason."
+}

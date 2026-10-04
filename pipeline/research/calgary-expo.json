@@ -1,0 +1,30 @@
+{
+  "id": "calgary-expo",
+  "name": "Calgary Expo",
+  "short": "",
+  "url": "https://fanexpohq.com/calgaryexpo/",
+  "organizer": "Fan Expo HQ (Informa)",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "A four-day, family-friendly Fan Expo HQ show at Stampede Park in Calgary, with celebrity guests, anime, gaming, comics and a big cosplay program.",
+  "cover": { "file": "pipeline/cache/extract/calgary-expo.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-04-22",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Stampede Park",
+      "city": "Calgary",
+      "region": "AB",
+      "country": "CA",
+      "tickets": "https://fanexpohq.com/calgaryexpo/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/calgaryexpo/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage JSON-LD Event 'CALGARY EXPO' 2027-04-22 -> 2027-04-25 @ Stampede Park, matching the visible countdown banner 'APRIL 22 - 25, 2027 STAMPEDE PARK'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Calgary Expo's own domain now redirects to fanexpohq.com/calgaryexpo/ (same Fan Expo HQ / Informa network as the other FEHQ shows). All of its guest pages (Celebrities, Comic Creators, and by the same template Animation Voices/Anime Guests/Gaming Stars/Cosplayers) are headed 'PAST FAN FAVE GUESTS INCLUDED', explicitly showcasing previous years' highlights (e.g. Elijah Wood, Sean Astin, William Shatner on Celebrities; Greg Capullo, Joe Quesada, Amanda Conner on Comic Creators) rather than a confirmed 2027 lineup, consistent with the show still being ~200 days out; no names were picked as guests for that reason. og:image is literally filenamed 'CE-Web-Placeholder', so the site's own logo is used for cover instead."
+}

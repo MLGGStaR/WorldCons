@@ -1,0 +1,14 @@
+{
+  "id": "i-con",
+  "name": "I-CON",
+  "short": "",
+  "url": "https://www.iconsf.org",
+  "organizer": "ICON Science Fiction, Inc.",
+  "status": "inactive",
+  "types": ["scifi", "games"],
+  "blurb": "Long Island's science-fiction convention, long run at Stony Brook University; the flagship multi-day event has been on hiatus since 2017.",
+  "cover": { "file": "pipeline/cache/extract/i-con.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Flagship convention is defunct/on hiatus: the last major edition (I-CON 32) ran in March 2017 (confirmed via Wikipedia), and the org's own site confirms it 're-visioned' itself in 2023 under a 'Team Phoenix' rebrand, moving from one large annual con to scattered smaller local events. The only things iconsf.org currently runs are 'Terrifying Trails' (a seasonal haunted-trail walk at Belmont Lake State Park, open on scattered weekend nights roughly Oct 9 - Oct 31, 2026, ticketed per-night rather than as one multi-day con) and an annual 'I-CON BBQ' fan meetup (held Feb 2026) — neither is a multi-day fan convention with a guest program, so no edition fitting this tracker's schema exists. Written as inactive rather than inventing an edition out of either event."
+}

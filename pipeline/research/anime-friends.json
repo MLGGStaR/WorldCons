@@ -1,0 +1,30 @@
+{
+  "id": "anime-friends",
+  "name": "Anime Friends",
+  "short": "AF",
+  "url": "https://www.animefriends.com.br/",
+  "organizer": "Maru Division",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "One of the world's largest anime conventions, filling Distrito Anhembi in Sao Paulo with anime, cosplay, an artist's alley and music festival stages.",
+  "cover": { "file": "pipeline/cache/extract/anime-friends.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-01",
+      "end": "2027-07-04",
+      "dates": "confirmed",
+      "venue": "Distrito Anhembi",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "BR",
+      "tickets": "https://www.animefriends.com.br/",
+      "guestsPage": "https://www.animefriends.com.br/af26-sp/artists-alley/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage (a post-AF26 'obrigado'/thank-you page) text: '01, 02, 03 E 04 JULHO DE 2027 DISTRITO ANHEMBI - SAO PAULO'; corroborated by press coverage (Omelete, JWave, The Seriuz News, Universo Japanese Music, all reporting 'Anime Friends 2027 ... 1, 2, 3 e 4 de julho' at Distrito Anhembi) and the organizer's own X/Twitter post announcing the same dates."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Types inferred from the brand (anime convention with a long-running artist's alley, cosplay and, per coverage, a returning 'Bandai Namco Music Live Festival' stage) rather than stated on-site, since the current homepage is just a thank-you page for the just-finished AF26 edition. All on-page nav links (Atracoes AF26, Programacao AF26, Artist's Alley, Meet and Greet) still point at AF26 content; press coverage confirms AF27's guest/artist lineup has not been announced yet beyond the music festival's return as a program element (not an individual guest), so guests=none-yet. Cover uses the Anime Friends logo (the og:image), the only on-brand asset available before AF27's own key art is published; the homepage also carries a sponsor-strip image which was avoided per the cover rules."
+}

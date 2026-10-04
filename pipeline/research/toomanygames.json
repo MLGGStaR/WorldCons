@@ -1,0 +1,30 @@
+{
+  "id": "toomanygames",
+  "name": "TooManyGames",
+  "short": "TMG",
+  "url": "https://toomanygames.com/",
+  "organizer": "Level 4 Event Management Inc.",
+  "status": "active",
+  "types": ["games", "anime", "tabletop"],
+  "blurb": "PA's premier gaming convention at the Greater Philadelphia Expo Center, mixing retro and modern video games, tabletop and anime-dub voice-actor guests.",
+  "cover": { "file": "pipeline/cache/extract/toomanygames.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Greater Philadelphia Expo Center",
+      "city": "Oaks",
+      "region": "PA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://toomanygames.com/special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'TooManyGames returns June 25-27, 2027 at the Greater Philadelphia Expo Center ... WHEN June 25-27, 2027 WHERE Greater Philadelphia Expo Center, 100 Station Avenue, Oaks, PA'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Batch URL toomanygames.net is now an unrelated generic browser-games site (domain squatted/repurposed) -- the real convention's official site is toomanygames.com, confirmed by an independent web search and its own content (June 25-27, 2027, Greater Philadelphia Expo Center). The only guest-roster page is explicitly titled 'TooManyGames 2026 Guests | Special Appearances', and one of its 85 names is flagged 'Fred Tatasciore - Postponed Until 2027', which only makes sense if the rest of that list is the already-past 2026 lineup -- so guests is 'none-yet' for the 2027 edition rather than picking any of those 85 (many are well-known voice actors/gaming YouTubers, e.g. Nolan North, Steve Blum, James Rolfe/AVGN, Vinny Vinesauce, but none are confirmed for 2027 yet)."
+}

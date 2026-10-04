@@ -1,0 +1,216 @@
+{
+  "id": "youmacon",
+  "name": "Youmacon",
+  "short": "",
+  "url": "https://youmacon.com/",
+  "organizer": "Youmacon, Inc.",
+  "status": "active",
+  "types": [
+    "anime",
+    "cosplay"
+  ],
+  "blurb": "Michigan's largest anime convention, held over Halloween weekend in downtown Detroit with voice-actor, music and cosplay guests.",
+  "cover": {
+    "file": "pipeline/cache/extract/youmacon.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-10-29",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Huntington Place",
+      "city": "Detroit",
+      "region": "MI",
+      "country": "US",
+      "tickets": "https://events.leapevents.com/event/youmacon-2026",
+      "guestsPage": "https://youmacon.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/youmacon.guests.json",
+          "picks": [
+            [
+              2,
+              "Marina Inoue",
+              "",
+              "voice"
+            ],
+            [
+              3,
+              "Hikaru Midorikawa",
+              "",
+              "voice"
+            ],
+            [
+              4,
+              "Kaiji Tang",
+              "",
+              "voice"
+            ],
+            [
+              5,
+              "Anne Yatco",
+              "",
+              "voice"
+            ],
+            [
+              6,
+              "Adam McArthur",
+              "",
+              "voice"
+            ],
+            [
+              7,
+              "Robbie Daymond",
+              "",
+              "voice"
+            ],
+            [
+              8,
+              "Emi Lo",
+              "",
+              "voice"
+            ],
+            [
+              9,
+              "David Vincent",
+              "",
+              "voice"
+            ],
+            [
+              10,
+              "Griffin Burns",
+              "",
+              "voice"
+            ],
+            [
+              11,
+              "Lex Lang",
+              "",
+              "voice"
+            ],
+            [
+              12,
+              "Sandy Fox",
+              "",
+              "voice"
+            ],
+            [
+              13,
+              "Cedric Williams",
+              "",
+              "voice"
+            ],
+            [
+              14,
+              "Morgan Laure",
+              "",
+              "voice"
+            ],
+            [
+              15,
+              "Karen Strassman",
+              "",
+              "voice"
+            ],
+            [
+              16,
+              "Virginia Lee",
+              "",
+              "voice"
+            ],
+            [
+              17,
+              "NateWantsToBattle",
+              "",
+              "music"
+            ],
+            [
+              18,
+              "Cam Steady",
+              "",
+              "music"
+            ],
+            [
+              19,
+              "Genwunner",
+              "",
+              "music"
+            ],
+            [
+              20,
+              "Cybertronic Spree",
+              "",
+              "music"
+            ],
+            [
+              21,
+              "DJ Fluff313",
+              "",
+              "music"
+            ],
+            [
+              22,
+              "Find the Rabbit",
+              "",
+              "music"
+            ],
+            [
+              23,
+              "Similar Outskirts",
+              "",
+              "music"
+            ],
+            [
+              24,
+              "AllieCat Cosplay",
+              "Cosplay judge",
+              "cosplay"
+            ],
+            [
+              25,
+              "AnnieChie Designs",
+              "Cosplay judge",
+              "cosplay"
+            ],
+            [
+              26,
+              "Don Esteban Cosplay",
+              "Cosplay judge",
+              "cosplay"
+            ],
+            [
+              27,
+              "HokuProps",
+              "Industry guest",
+              "creator"
+            ],
+            [
+              28,
+              "Casey Renee",
+              "Workshop teacher",
+              "cosplay"
+            ],
+            [
+              29,
+              "Melanie Jasmine",
+              "Workshop teacher",
+              "cosplay"
+            ],
+            [
+              30,
+              "Quiltoni",
+              "Workshop teacher",
+              "cosplay"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: \"October 29 – November 1, 2026 | Huntington Place – 1 Washington Blvd, Detroit, MI 48226\""
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page cleanly separates the current \"2026 Guests\" section from a \"~Check out our previous guests~\" section (2025 and earlier), which was excluded. Two 2026 guests marked \"Cancelled\" (Jordan Dash Cruz, AmaLee) were excluded. Guest cards only give a role (Voice Actor/Music Guest/etc.) and appearance schedule, no specific show credit, so known-for is left blank for most per the card-only rule."
+}

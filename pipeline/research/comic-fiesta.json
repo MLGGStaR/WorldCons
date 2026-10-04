@@ -1,0 +1,30 @@
+{
+  "id": "comic-fiesta",
+  "name": "Comic Fiesta",
+  "short": "CF",
+  "url": "https://comicfiesta.org/",
+  "organizer": "Comic Fiesta Sdn Bhd",
+  "status": "active",
+  "types": ["comics", "anime", "games"],
+  "blurb": "Southeast Asia's largest and longest-running ACG (anime, comics, games) convention, held every December in Kuala Lumpur since 2002.",
+  "cover": { "file": "pipeline/cache/extract/comic-fiesta.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "dates": "confirmed",
+      "venue": "Kuala Lumpur Convention Centre",
+      "city": "Kuala Lumpur",
+      "region": "",
+      "country": "MY",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "2026 key-art image on the homepage (CF26_Announcement_v1-01.png) reads 'COMIC FIESTA 2026', dated '19.12 SAT — 20.12 SUN', location 'Kuala Lumpur Convention Centre'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests for Comic Fiesta 2026 are not announced yet: /guests-2026 404s (the site's sitemap only lists guests-2023, guests-2024 and guests-2025, one page per past edition), and the homepage's 'Our Events — Upcoming Events' section shows placeholder 'SOON!' tiles. The homepage's own 'Previously on Comic Fiesta' retrospective confirms the pattern of one December edition per year back to 2002 (most recently 2025: 20-21 Dec, Kuala Lumpur Convention Centre, 75,000 visitors), which is consistent with the 2026 key art. Organizer is the registered company from the Info page footer ('Comic Fiesta Sdn Bhd (1093656-D)')."
+}

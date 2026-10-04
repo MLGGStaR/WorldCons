@@ -1,0 +1,22 @@
+{
+  "id": "eoy-cosplay-festival",
+  "name": "EOY Music, Comics & Arts Festival",
+  "short": "EOY",
+  "url": "https://www.theeoy.com/eoy/",
+  "organizer": "EOY LLP",
+  "status": "active",
+  "types": ["cosplay", "anime"],
+  "blurb": "A Japanese pop-culture festival in Singapore with cosplay and idol stage shows, J-pop and anime music, and an independent creators' market.",
+  "cover": { "file": "pipeline/cache/extract/eoy-cosplay-festival.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2025-12-27",
+    "end": "2025-12-28",
+    "city": "Singapore",
+    "region": "",
+    "country": "SG",
+    "venue": "Raffles City Convention Centre"
+  },
+  "checked": "2026-10-05",
+  "notes": "Most recent confirmed edition (27-28 Dec 2025, Raffles City Convention Centre) already ended before the research window (must end on/after 2026-10-05). The nav shows a 'Booth Registration (2026)' link, so the organizer is clearly preparing a 2026 edition, but no dates for it are posted anywhere on the site yet, so editions is empty per the no-dates-announced rule. Site title/branding now reads 'EOY Music, Comics & Arts Festival' (also 'EOY J-Culture Festival' in copy); kept the given id since EOY is the stable short name. Guests were not pulled since no in-window edition exists yet."
+}

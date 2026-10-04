@@ -1,0 +1,30 @@
+{
+  "id": "fan-expo-portland",
+  "name": "FAN EXPO Portland",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexpoportland/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["comics", "anime", "scifi", "horror"],
+  "blurb": "FAN EXPO HQ's Pacific Northwest show at the Oregon Convention Center, covering comics, anime, sci-fi and horror.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-portland.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-01-29",
+      "end": "2027-01-31",
+      "dates": "confirmed",
+      "venue": "Oregon Convention Center",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "tickets": "https://fanexpohq.com/fanexpoportland/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexpoportland/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event \"FAN EXPO Portland\" (title 'FAN EXPO Portland: 3 days of fun, workshops and stars!'); page text 'JANUARY 29 - 31, 2027 OREGON CONVENTION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-city FAN EXPO HQ brand. Despite being only ~4 months out, both the celebrities and comic-creators guest pages still show only a 'PAST FAN FAVE GUESTS INCLUDED' section (Elijah Wood, Sean Astin, Mark Brooks, Michael Golden, etc.) with 'sign up for updates' copy, not a 2027 lineup, so guests is 'none-yet' (compare fan-expo-new-orleans, a similarly-close show that does have a real 2027 announcement). The site's own 'See all Gaming Guests' link is mis-pointed to fanexpohq.com/fanexposanfrancisco/gaming/ (a different city), so that category was not used. Cover falls back to the 'FAN EXPO Portland' wordmark logo (no Portland-specific key art found)."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "quai-des-bulles",
+  "name": "Quai des Bulles",
+  "short": "",
+  "url": "https://festival.quaidesbulles.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Comics festival in the walled port city of Saint-Malo, Brittany, with hundreds of visiting authors, exhibitions and a graphic-novel book fair.",
+  "cover": { "file": "pipeline/cache/extract/quai-des-bulles.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Palais du Grand Large",
+      "city": "Saint-Malo",
+      "region": "",
+      "country": "FR",
+      "tickets": "",
+      "guestsPage": "https://festival.quaidesbulles.com/autrices-auteurs-attendus-2026/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Informations pratiques page: 'Quai des bulles 45e festival de la bande dessinée et de l'image projetée DU 9 AU 11 OCTOBRE 2026, à SAINT-MALO Palais du Grand Large'; programme flyers for 'Programme du 9 octobre 2026', '10 octobre 2026' and '11 octobre 2026'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The association's main site (quaidesbulles.com, the URL given in the seed) only covers prizes/archives/shop; the actual festival microsite with dates, authors and practical info is festival.quaidesbulles.com, used here as url. 45th edition runs across several Saint-Malo venues (Palais du Grand Large, Pôle culturel La Grande Passerelle, Chapelle Saint-Sauveur, Tour Bidouane); Palais du Grand Large is listed first and hosts the main salon du livre. The 'Autrices et auteurs attendus 2026' guest page states '800 autrices et auteurs attendus' but lists them only as an unillustrated alphabetical name list split into sections (the fetched section covered roughly '0 à E' and was cut off mid-name in our capture); extract.mjs found zero real guest photos on that page (only sponsor logos), so this huge list could not be reliably transcribed into individual picks within budget - recorded guests as unavailable rather than risk wrong/incomplete names. Cover uses the 2026 key art (og); no common public abbreviation found, so short is left blank."
+}

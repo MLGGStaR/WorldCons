@@ -1,0 +1,38 @@
+{
+  "id": "dreamhack-stockholm",
+  "name": "DreamHack Stockholm",
+  "short": "",
+  "url": "https://dreamhack.com/stockholm/",
+  "organizer": "DreamHack AB",
+  "status": "active",
+  "types": ["games", "cosplay"],
+  "blurb": "Sweden's major gaming festival at Stockholmsmassan, with esports tournaments, an expo, artist alley, tabletop and cosplay competitions.",
+  "cover": { "file": "pipeline/cache/extract/dreamhack-stockholm.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Stockholmsmassan",
+      "city": "Stockholm",
+      "region": "",
+      "country": "SE",
+      "tickets": "https://www.tixr.com/groups/dreamhacksweden/events/dreamhack-stockholm-2026-191278",
+      "guestsPage": "https://dreamhack.com/stockholm/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/dreamhack-stockholm.guests.json",
+          "picks": [
+            [4, "bbno$", "Rapper; live concert at DreamHack Stockholm", "music"],
+            [5, "hololive", "Virtual idol livestreams and meet-and-greets", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Stockholm page text: 'November 27 - 29, 2026 ... STOCKHOLMSMASSAN'. The page's own JSON-LD 'Festival' entry carries a stale 2025-11-28 date, which was disregarded in favor of the consistent visible header/body text."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "DreamHack Stockholm is a gaming/esports festival rather than a classic guest-signing convention, so only the two headline acts called out on the homepage (bbno$ performing live; hololive hosting livestreams/meet-and-greets) were picked as guests; the Creator Hub likely lists further invited streamers/creators not enumerated here."
+}

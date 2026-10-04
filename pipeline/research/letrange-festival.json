@@ -1,0 +1,14 @@
+{
+  "id": "letrange-festival",
+  "name": "L'Étrange Festival",
+  "short": "",
+  "url": "https://www.etrangefestival.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "Paris genre-film festival for horror, fantasy and sci-fi cinema, with international competitions, guest filmmakers and themed retrospectives.",
+  "cover": { "file": "pipeline/cache/extract/letrange-festival.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The site's 2026 microsite (XXXIIe édition, 1-12 September 2026) just concluded when checked: the homepage shows the 'PALMARÈS 2026' (2026 winners) and thank-you copy for that edition, which ended 2026-09-12, before the research window (2026-10-05 onward). No 2027 edition (the 33rd) has been announced yet — the site has no 2027 microsite, schedule or guest page live, and French genre-film festivals of this kind do not typically confirm next-year dates this far out. Left editions empty rather than guess next year's dates. cover uses the current 2026 poster (og/hero:5), the only official key art available; it will likely be replaced once a 2027 poster is published."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "darknesscon-denver",
+  "name": "DarknessCon: Denver",
+  "short": "",
+  "url": "https://darknesscon.com/denver",
+  "organizer": "DarknessCon",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Denver-area stop of the touring DarknessCon horror convention, with celebrity guests, cosplay and a Dark Harvest Masquerade Ball at The Castle Event Center.",
+  "cover": { "file": "pipeline/cache/extract/darknesscon-denver.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "dates": "confirmed",
+      "venue": "The Castle Event Center",
+      "city": "Northglenn",
+      "region": "CO",
+      "country": "US",
+      "tickets": "https://darknesscon.com/get-tickets?show=denver",
+      "guestsPage": "https://darknesscon.com/denver",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/darknesscon-denver.guests.json",
+          "picks": [
+            [5, "Mythica Blessyng", "Special effects artist, Skin Wars", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Denver page text/title: 'DarknessCon Denver — October 31, 2026' / 'OCTOBER 31, 2026 DENVER THE CASTLE EVENT CENTER'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "DarknessCon is a touring horror-convention brand (one shared darknesscon.com site with a per-city page for Snake River, Denver, Reno, Boise, Salt Lake City, plus Albuquerque/Jacksonville/New Orleans/Omaha/Portland 'coming 2027'). Only Denver, Snake River and Salt Lake City were in this research batch; Reno and Boise are separate editions of the same brand not assigned here. Denver's special-guests section lists only one named guest (Mythica Blessyng) plus a 'To Be Announced' placeholder tile, which was skipped."
+}
