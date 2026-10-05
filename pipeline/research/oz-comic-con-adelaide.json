@@ -1,0 +1,30 @@
+{
+  "id": "oz-comic-con-adelaide",
+  "name": "Oz Comic-Con Adelaide",
+  "short": "",
+  "url": "https://ozcomiccon.com/adelaide/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Adelaide's stop on the Oz Comic-Con circuit, with film, cosplay, comics and author guests at the Adelaide Showgrounds.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-adelaide.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Adelaide Showgrounds",
+      "city": "Adelaide",
+      "region": "SA",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/adelaide-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "City page countdown text: 'countdown to oz comic-con adelaide 2027! March 13 & 14, 2027 Adelaide Showgrounds'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Same page structure as the other Oz Comic-Con cities: cards show a 'View Guest Bio' button with no name/credit text, so names came from each card's own profile-page link slug and known-for is blank throughout. Verify pass (2026-10-05): reversed to stale -- the guest photos are all uploaded to the site's 2026/02 and 2026/05 folders and independent search confirms Oz Comic-Con's most recent Adelaide show ran May 30-31, 2026 with Gordon Cormier as a headline guest (matching the 'Gordon-Cancellation-Adel.jpg' tile still on the page), so this is that already-concluded show's lineup and cancellations, not an announcement for March 13-14, 2027; cleared to none-yet."
+}

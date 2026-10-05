@@ -70,5 +70,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Organizer entity not confirmed from the site (no legal-name footer); left blank rather than guessed. Edward James Olmos's guest card notes he appears Saturday and Sunday only. Nivek Ogre (Skinny Puppy) and Terrance Zdunich both appear via their Repo! The Genetic Opera connection; categorised by primary vocation (music vs. acting)."
+  "notes": "Organizer entity not confirmed from the site (no legal-name footer); left blank rather than guessed. Edward James Olmos's guest card notes he appears Saturday and Sunday only. Nivek Ogre (Skinny Puppy) and Terrance Zdunich both appear via their Repo! The Genetic Opera connection; categorised by primary vocation (music vs. acting). Verify pass (2026-10-05): confirmed current -- a fresh fetch of /guests/ shows the same 38 cards still grouped under a '2027 Guests' section heading and the page title reads 'Pensacon - February 19-21, 2027', so this is this edition's own lineup, not a leftover."
 }

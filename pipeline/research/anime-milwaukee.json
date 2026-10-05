@@ -1,0 +1,39 @@
+{
+  "id": "anime-milwaukee",
+  "name": "Anime Milwaukee",
+  "short": "AMKE",
+  "url": "https://animemilwaukee.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Milwaukee's anime convention with voice-actor and industry guests, a cosplay studio and masquerade, music DJs, and an active fan-run Discord community.",
+  "cover": { "file": "pipeline/cache/extract/anime-milwaukee.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Baird Center & Hilton Milwaukee",
+      "city": "Milwaukee",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://www.eventeny.com/events/ticket/?id=28803",
+      "guestsPage": "https://animemilwaukee.org/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-milwaukee-news.guests.json",
+          "picks": [
+            [5, "Colleen Clinkenbeard", "Voice of Luffy in One Piece", "voice"],
+            [6, "R Bruce Elliot", "Veteran anime dub voice actor", "voice"],
+            [7, "Monica Rial", "Voice of Bulma, Tsuyu", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Anime Milwaukee 2027 March 5-7, 2027 Baird Center & Hilton Milwaukee #AMKE2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The static /guests (Guests of Honor) page still displays the full AMKE2026 lineup (all dated Feb 1-18, 2026, for the March 2026 show) and has not been reset for 2027, so that grid's names are excluded as last year's lineup. Three guests have been announced for 2027 so far via homepage news posts - Colleen Clinkenbeard (Oct 2, 2026), R Bruce Elliot (Sep 25, 2026) and Monica Rial (Sep 18, 2026) - confirmed via their individual /inside-amke/ announcement pages and pictured on the homepage (used as the lineup source since they are not yet on the /guests grid). International Guests, Guest DJs, Industry Guests and Cosplay Judges subpages were not separately checked within budget; re-check closer to the show for a fuller lineup. Organizer entity name not found on the site. Verify pass (2026-10-05): confirmed current -- the homepage's own news ticker reads 'Thank you for making Anime Milwaukee 2026 Magical! See you March 5-7, 2027' immediately followed by the Colleen Clinkenbeard/R Bruce Elliot/Monica Rial announcements (Oct 2, Sep 25, Sep 18 2026), all dated after that 2026 sign-off, while the static /guests grid is still unambiguously AMKE2026 (dated Feb 2026 announcements) and remains correctly excluded."
+}
