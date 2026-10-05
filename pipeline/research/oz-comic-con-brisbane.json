@@ -1,0 +1,28 @@
+{
+  "id": "oz-comic-con-brisbane",
+  "name": "Oz Comic-Con Brisbane",
+  "short": "",
+  "url": "https://ozcomiccon.com/brisbane/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Brisbane's stop on the Oz Comic-Con circuit, with film, cosplay, comics and author guests at the Brisbane Convention & Exhibition Centre.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-brisbane.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-25",
+      "end": "2027-09-26",
+      "dates": "confirmed",
+      "venue": "Brisbane Convention & Exhibition Centre",
+      "city": "Brisbane",
+      "region": "QLD",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/occ-brisbane-guests/",
+      "guests": "none-yet",
+      "evidence": "City page countdown text: 'countdown to oz comic-con Brisbane 2027! SEPTEMBER 25 & 26, 2027 | BCEC'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on /occ-brisbane-guests/ only show a 'View Guest Bio' button, no visible name or credit text; names were read from each card's own profile-page link slug (the con's own permalink, e.g. /emily-bett-rickards/), which is why known-for is blank for all of them (never shown on the card itself). Cat is 'other' by default; cosplay is used only where the slug itself says so (e.g. '-cosplay') or the handle style clearly reads as a cosplay persona grouped with the other cosplay cards; 'author' is used only for Kathleen Jennings, whose own slug is tagged '-author'. Emily Bett Rickards (Arrow) is the one name confidently identifiable as an actor from outside knowledge. Skipped one card (filename 'Wayne.jpg') that had no link and no name text at all - not enough to safely pick a name. 'BCEC' = Brisbane Convention & Exhibition Centre, confirmed from the hub site's own venue list. VERIFY-08 recheck (2026-10-05): stale — a fresh fetch of /occ-brisbane-guests/ shows its own heading reads 'Oz Comic-Con Brisbane 2026 Guests' with a 'guest cancellations' section, and WebSearch confirms the real Brisbane 2026 show ran Sept 19-20, 2026 with this exact guest set (Adam McArthur, Brandon Rogers, Emily Bett Rickards, Griffin Burns, Lizzie Freeman, Morgana Ignis, etc.) — this is that just-finished 2026 roster, not a 2027 announcement, so cleared to none-yet."
+}

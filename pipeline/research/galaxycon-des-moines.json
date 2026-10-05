@@ -19,49 +19,10 @@
       "country": "US",
       "tickets": "https://www.eventeny.com/events/ticket/?id=34325",
       "guestsPage": "https://galaxycon.com/pages/galaxycon-des-moines-guests",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/galaxycon-des-moines.guests.json",
-          "picks": [
-            [2, "Mark Bagley", "", "comics"],
-            [3, "Robert Venditti", "", "comics"],
-            [4, "Steve Englehart", "", "comics"],
-            [5, "Cory Smith", "", "comics"],
-            [7, "Elgin David", "", "other"],
-            [8, "Tyler Wood", "", "other"],
-            [9, "Patty Hawkins", "", "other"],
-            [10, "Mark A. Altman", "", "author"],
-            [11, "Kofi Kingston", "", "sports"],
-            [12, "Austin Creed", "", "sports"],
-            [13, "Jeff Hardy", "", "sports"],
-            [14, "Matt Hardy", "", "sports"],
-            [15, "Lua Stardust", "", "cosplay"],
-            [16, "Feycrafts", "", "cosplay"],
-            [17, "Grave Craft", "", "cosplay"],
-            [18, "Merkuma", "", "cosplay"],
-            [19, "Mid Iowa Ghostbusters", "", "cosplay"],
-            [20, "The Pink Force USA", "", "cosplay"],
-            [21, "Twister Fanatics", "", "other"],
-            [22, "X-Vengers: Heroes Impact", "", "cosplay"],
-            [26, "Brandon Rogers", "", "voice"],
-            [27, "Lou Diamond Phillips", "", "actor"],
-            [28, "Marisha Ray", "", "creator"],
-            [29, "Liam O'Brien", "", "voice"],
-            [30, "Sam Riegel", "", "voice"],
-            [31, "Matthew Mercer", "", "voice"],
-            [32, "Kerry Gammill", "", "comics"],
-            [33, "Jim Starlin", "", "comics"],
-            [34, "Kevin Smith", "", "creator"]
-          ]
-        }
-      ],
-      "textOnlyGuests": [
-        ["Travis Willingham", "", "voice"]
-      ],
+      "guests": "none-yet",
       "evidence": "Homepage text: 'GALAXYCON DES MOINES ... SEPTEMBER 10-12, 2027 ... We look forward to seeing you September 10-12, 2027 at the Iowa Events Center'"
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner."
+  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner. VERIFY-08 recheck (2026-10-05): stale — GalaxyCon Des Moines 2026 just ran Sept 11-13, 2026 (WebSearch), the live guests page's own 'Cancellations' section names the exact 9 people this file had picked as 'announced' (Brandon Rogers, Lou Diamond Phillips, Marisha Ray, Liam O'Brien, Sam Riegel, Matthew Mercer, Kerry Gammill, Jim Starlin, Kevin Smith), nearly every other photo is filename-tagged 2026-GC- (that show's program guide), and the only 2027-GC- tagged card sits in a 'Coming Soon' placeholder section — no guest has positive evidence of being booked for Sept 2027, so cleared to none-yet."
 }
