@@ -10,6 +10,8 @@ const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]);
 const num = (n) => n.toLocaleString('en-US');
+// Links that come from scraped data: only plain web addresses become clickable.
+const safeHref = (u) => (/^https?:\/\/[^\s"'<>]+$/i.test(String(u || '')) ? esc(u) : '#');
 const plural = (n, one, many = `${one}s`) => `${num(n)} ${n === 1 ? one : many}`;
 
 const SHORT_TYPE = {
@@ -226,13 +228,21 @@ function selectHTML(k, label, options, value, placeholder, disabled = false) {
   return `<label class="select${value ? ' is-set' : ''}"><span class="sr-only">${esc(label)}</span><select data-k="${k}"${disabled ? ' disabled' : ''}>${opts}</select>${icon('chevron-down')}</label>`;
 }
 
+// Keep the chosen value listed even when the other filters leave it with zero cons.
+const ensure = (list, value, label) => (value && !list.some((o) => o.value === value) ? [...list, { value, label, n: 0 }] : list);
+
+function placeOptions(fx) {
+  const f = S.f;
+  return {
+    continents: ensure(fx.continents, f.continent, CONTINENTS[f.continent]),
+    countries: ensure(fx.countries, f.country, countryName(f.country)),
+    regions: ensure(fx.regions, f.region, regionName(f.country, f.region)),
+  };
+}
+
 function placeSelects(fx) {
   const f = S.f;
-  // Keep the chosen value visible even when the other filters leave it with zero cons.
-  const ensure = (list, value, label) => (value && !list.some((o) => o.value === value) ? [...list, { value, label, n: 0 }] : list);
-  const continents = ensure(fx.continents, f.continent, CONTINENTS[f.continent]);
-  const countries = ensure(fx.countries, f.country, countryName(f.country));
-  const regions = ensure(fx.regions, f.region, regionName(f.country, f.region));
+  const { continents, countries, regions } = placeOptions(fx);
   const regionWord = f.country === 'US' ? 'state' : f.country === 'CA' ? 'province' : 'state';
   return [
     selectHTML('continent', 'Continent', continents, f.continent, 'All continents'),
@@ -346,21 +356,57 @@ function renderGroups(list) {
     el.innerHTML = `<div class="empty">${icon('search')}<h2>No conventions match</h2><p>Try a wider date range, another place, or fewer types.</p><button type="button" class="btn" data-k="reset" data-reset>Clear all filters</button></div>`;
     return;
   }
+  let sections;
   if (S.f.sort !== 'date') {
     const title = S.f.sort === 'name' ? 'A to Z' : 'Most guests first';
-    el.innerHTML = `<section class="month"><div class="month-head"><h2>${title}</h2></div><div class="grid">${list.map(badgeHTML).join('')}</div></section>`;
-    return;
-  }
-  const tba = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f) : [];
-  el.innerHTML = M.groupByMonth(list)
-    .map(
+    // Long flat lists are cut into blocks of 24 so they can stream in like months do.
+    sections = [];
+    for (let i = 0; i < list.length; i += 24) {
+      const head = i === 0 ? `<div class="month-head"><h2>${title}</h2></div>` : '';
+      sections.push(`<section class="month">${head}<div class="grid">${list.slice(i, i + 24).map(badgeHTML).join('')}</div></section>`);
+    }
+  } else {
+    const tba = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f) : [];
+    sections = M.groupByMonth(list).map(
       (g) =>
         `<section class="month" id="m-${g.key}" aria-labelledby="mh-${g.key}"><div class="month-head"><h2 id="mh-${g.key}">${esc(g.label)}</h2><span>${plural(
           g.items.length,
           'con',
         )}</span></div><div class="grid">${g.items.map(badgeHTML).join('')}</div></section>`,
-    )
-    .join('') + (tba.length ? tbaSection(tba) : '');
+    );
+    if (tba.length) sections.push(tbaSection(tba));
+  }
+  streamSections(el, sections);
+}
+
+// Paint the first screens at once and append the rest in small idle-time chunks, so a
+// filter tap stays quick on phones. A newer render cancels an unfinished one.
+let stream = null;
+function streamSections(el, sections) {
+  const s = { el, sections, i: 0 };
+  stream = s;
+  let html = '';
+  let badges = 0;
+  while (s.i < sections.length && (S.syncRender || badges < 28)) {
+    html += sections[s.i];
+    badges += (sections[s.i].match(/class="badge/g) || []).length;
+    s.i++;
+  }
+  el.innerHTML = html;
+  const next = () => {
+    if (stream !== s || s.i >= sections.length) return;
+    el.insertAdjacentHTML('beforeend', sections.slice(s.i, s.i + 2).join(''));
+    s.i += 2;
+    if (s.i < sections.length) (window.requestIdleCallback || ((f) => setTimeout(f, 16)))(next);
+  };
+  if (s.i < sections.length) setTimeout(next, 0);
+}
+
+// Append whatever is still waiting (before jumping to a section near the end).
+function flushStream() {
+  if (!stream || stream.i >= stream.sections.length) return;
+  stream.el.insertAdjacentHTML('beforeend', stream.sections.slice(stream.i).join(''));
+  stream.i = stream.sections.length;
 }
 
 function tbaSection(tba) {
@@ -393,6 +439,12 @@ function renderList() {
   renderResults(list);
   renderGroups(list);
   if ($('#sheet').open) renderSheet();
+  S.listKey = listKeyNow();
+}
+
+// What the rendered list depends on; when unchanged, returning to the list reuses it.
+function listKeyNow() {
+  return `${listHref()}|${S.today}|${S.generated}|${S.cons.length}`;
 }
 
 function setFilters(patch, { toTop = true } = {}) {
@@ -419,12 +471,13 @@ function renderSheet() {
   const n = M.applyFilters(S.cons, S.guests, S.f, S.today).length;
   const f = S.f;
   const form = $('#sheet-form');
+  const opts = placeOptions(fx);
   keepFocus(form, () => {
     form.innerHTML = `<div class="sheet-grip"></div>
       <div class="row"><h2 id="sheet-title">Filters</h2><button type="button" class="reset" data-k="sreset" data-sheet-reset>Reset</button></div>
-      <label>Continent${selectHTML('continent', 'Continent', fx.continents, f.continent, 'All continents')}</label>
-      <label>Country${selectHTML('country', 'Country', fx.countries, f.country, 'All countries')}</label>
-      ${REGIONS[f.country] ? `<label>${f.country === 'CA' ? 'Province' : 'State'}${selectHTML('region', 'State', fx.regions, f.region, 'Any')}</label>` : ''}
+      <label>Continent${selectHTML('continent', 'Continent', opts.continents, f.continent, 'All continents')}</label>
+      <label>Country${selectHTML('country', 'Country', opts.countries, f.country, 'All countries')}</label>
+      ${REGIONS[f.country] ? `<label>${f.country === 'CA' ? 'Province' : 'State'}${selectHTML('region', 'State', opts.regions, f.region, 'Any')}</label>` : ''}
       <button type="button" class="toggle" data-k="guests" aria-pressed="${f.guests}"><span class="box">${icon('check')}</span>Only cons with guests announced</button>
       <label>Sort<span class="select"><select data-k="sort">
         <option value="date"${f.sort === 'date' ? ' selected' : ''}>Date, soonest first</option>
@@ -473,8 +526,8 @@ function renderCon(id) {
           </div>
           ${c.blurb ? `<p class="blurb">${esc(c.blurb)}</p>` : ''}
           <div class="actions">
-            <a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener">Official site${icon('arrow-up-right')}</a>
-            ${c.tickets ? `<a class="btn ghost" href="${esc(c.tickets)}" target="_blank" rel="noopener">${icon('ticket')}Tickets</a>` : ''}
+            <a class="btn" href="${safeHref(c.url)}" target="_blank" rel="noopener">Official site${icon('arrow-up-right')}</a>
+            ${c.tickets ? `<a class="btn ghost" href="${safeHref(c.tickets)}" target="_blank" rel="noopener">${icon('ticket')}Tickets</a>` : ''}
             <button type="button" class="btn ghost" data-clip="${esc(c.id)}" aria-pressed="${saved}">${icon('lanyard')}<span>${saved ? 'On your lanyard' : 'Clip to lanyard'}</span></button>
             ${c.dp === 'd' ? `<button type="button" class="btn ghost" data-ics="${esc(c.id)}">${icon('calendar-days')}Add to calendar</button>` : ''}
             <button type="button" class="btn ghost" data-share="${esc(c.id)}">${icon('share-2')}Share</button>
@@ -500,8 +553,8 @@ function renderCon(id) {
 function checkedLine(c) {
   const when = c.checked ? `Checked ${esc(M.formatDay(c.checked))}` : 'Checked recently';
   if (c.gs === 'announced' && c.guestsPage)
-    return `${when} against the <a href="${esc(c.guestsPage)}" target="_blank" rel="noopener">official guest list</a>. Guests can cancel; confirm with the con.`;
-  return `${when} on the <a href="${esc(c.url)}" target="_blank" rel="noopener">official site</a>.`;
+    return `${when} against the <a href="${safeHref(c.guestsPage)}" target="_blank" rel="noopener">official guest list</a>. Guests can cancel; confirm with the con.`;
+  return `${when} on the <a href="${safeHref(c.url)}" target="_blank" rel="noopener">official site</a>.`;
 }
 
 function wallFrame(c) {
@@ -515,7 +568,7 @@ function wallFrame(c) {
           ? ['Lineup on the official site', 'The guest list couldn’t be read automatically. It’s on the con’s own site.']
           : ['Guests not announced yet', 'Cons usually announce guests in waves in the months before the show. Clip it to your lanyard and check back.'];
     return `<div class="wall-empty"><span class="slots" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h3 id="wall-title">${msg[0]}</h3><p>${msg[1]}</p>${
-      c.gs === 'unavailable' && c.guestsPage ? `<a class="btn ghost" href="${esc(c.guestsPage)}" target="_blank" rel="noopener">See the guest page${icon('arrow-up-right')}</a>` : ''
+      c.gs === 'unavailable' && c.guestsPage ? `<a class="btn ghost" href="${safeHref(c.guestsPage)}" target="_blank" rel="noopener">See the guest page${icon('arrow-up-right')}</a>` : ''
     }</div>`;
   }
   return `<div class="wall-head"><h2 id="wall-title">Guests<small>${num(ids.length)}</small></h2>${
@@ -538,9 +591,15 @@ function renderWall(c) {
   const cats = CAT_ORDER.filter((k) => counts.get(k));
   const catsEl = $('#wall-cats');
   if (cats.length > 1) {
-    catsEl.innerHTML = [`<button type="button" data-cat="" aria-pressed="${!S.wall.cat}">All<span>${num(ids.length)}</span></button>`]
-      .concat(cats.map((k) => `<button type="button" data-cat="${k}" aria-pressed="${S.wall.cat === k}">${CAT_PLURAL[k]}<span>${num(counts.get(k))}</span></button>`))
-      .join('');
+    keepFocus(catsEl, () => {
+      catsEl.innerHTML = [`<button type="button" data-k="cat-" data-cat="" aria-pressed="${!S.wall.cat}">All<span>${num(ids.length)}</span></button>`]
+        .concat(
+          cats.map(
+            (k) => `<button type="button" data-k="cat-${k}" data-cat="${k}" aria-pressed="${S.wall.cat === k}">${CAT_PLURAL[k]}<span>${num(counts.get(k))}</span></button>`,
+          ),
+        )
+        .join('');
+    });
   } else catsEl.innerHTML = '';
 
   const q = M.fold(S.wall.q);
@@ -582,7 +641,7 @@ function renderGuest(id) {
   const cons = S.index.get(id) || [];
   const upcoming = cons.filter((c) => M.phase(c, S.today) !== 'past');
   const past = cons.filter((c) => M.phase(c, S.today) === 'past');
-  const links = g.w ? `<span class="guest-links"><a href="${esc(g.w)}" target="_blank" rel="noopener">Wikipedia</a></span>` : '';
+  const links = g.w ? `<span class="guest-links"><a href="${safeHref(g.w)}" target="_blank" rel="noopener">Wikipedia</a></span>` : '';
   page.innerHTML = `<a class="back" href="${listHref()}">${icon('arrow-left')}All conventions</a>
   <div class="guest-page">
     ${credHTML(id, { static: true, eager: true, h1: true, extra: links })}
@@ -622,6 +681,8 @@ function renderDirectory(qs) {
   const p = new URLSearchParams(qs || '');
   const cat = CAT_ORDER.includes(p.get('cat')) ? p.get('cat') : '';
   S.dir = { cat, q: (p.get('q') || '').slice(0, 60), shown: DIR_PAGE };
+  // Back from a guest page: show as many guests as before so the scroll position exists.
+  if (S.dirState && S.dirState.qs === dirQuery()) S.dir.shown = S.dirState.shown;
   const total = directoryOrder().length;
   $('#view-page').innerHTML = `<a class="back" href="${listHref()}">${icon('arrow-left')}All conventions</a>
     <h1 class="page-title">Guests</h1>
@@ -650,13 +711,15 @@ function renderDirWall(append = false) {
   for (const [id] of byQuery) counts.set(S.guests[id].c, (counts.get(S.guests[id].c) || 0) + 1);
   const list = S.dir.cat ? byQuery.filter(([id]) => S.guests[id].c === S.dir.cat) : byQuery;
   if (!append) {
-    $('#dir-cats').innerHTML = [`<button type="button" data-dcat="" aria-pressed="${!S.dir.cat}">All<span>${num(byQuery.length)}</span></button>`]
-      .concat(
-        CAT_ORDER.filter((k) => counts.get(k)).map(
-          (k) => `<button type="button" data-dcat="${k}" aria-pressed="${S.dir.cat === k}">${CAT_PLURAL[k]}<span>${num(counts.get(k))}</span></button>`,
-        ),
-      )
-      .join('');
+    keepFocus($('#dir-cats'), () => {
+      $('#dir-cats').innerHTML = [`<button type="button" data-k="dcat-" data-dcat="" aria-pressed="${!S.dir.cat}">All<span>${num(byQuery.length)}</span></button>`]
+        .concat(
+          CAT_ORDER.filter((k) => counts.get(k)).map(
+            (k) => `<button type="button" data-k="dcat-${k}" data-dcat="${k}" aria-pressed="${S.dir.cat === k}">${CAT_PLURAL[k]}<span>${num(counts.get(k))}</span></button>`,
+          ),
+        )
+        .join('');
+    });
     wall.innerHTML = list.length
       ? list.slice(0, S.dir.shown).map(([id]) => credHTML(id)).join('')
       : `<p class="wall-section">No guest matches “${esc(S.dir.q)}”.</p>`;
@@ -669,11 +732,15 @@ function renderDirWall(append = false) {
   more.textContent = `Show ${num(Math.min(DIR_PAGE, left))} more of ${num(list.length)}`;
 }
 
-function syncDirectoryHash() {
+function dirQuery() {
   const p = new URLSearchParams();
-  if (S.dir.cat) p.set('cat', S.dir.cat);
-  if (S.dir.q) p.set('q', S.dir.q);
-  const qs = p.toString();
+  if (S.dir && S.dir.cat) p.set('cat', S.dir.cat);
+  if (S.dir && S.dir.q) p.set('q', S.dir.q);
+  return p.toString();
+}
+
+function syncDirectoryHash() {
+  const qs = dirQuery();
   history.replaceState(null, '', `#/guests${qs ? `?${qs}` : ''}`);
 }
 
@@ -709,9 +776,16 @@ function toast(html, action) {
   const el = $('#toast');
   el.innerHTML = html + (action ? `<button type="button" data-toast-action>${esc(action.label)}</button>` : '');
   el.classList.add('show');
+  el.inert = false;
   el._action = action ? action.run : null;
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => el.classList.remove('show'), 4200);
+  toastTimer = setTimeout(hideToast, 4200);
+}
+
+function hideToast() {
+  const el = $('#toast');
+  el.classList.remove('show');
+  el.inert = true;
 }
 
 function setSaved(id, on, { silent = false } = {}) {
@@ -741,7 +815,7 @@ function setSaved(id, on, { silent = false } = {}) {
   if (!silent && c) {
     toast(on ? `Clipped ${esc(c.name)} to your lanyard` : `Removed ${esc(c.name)}`, { label: 'Undo', run: () => setSaved(id, !on, { silent: true }) });
   }
-  if (S.view === 'lanyard' && !on) renderLanyard();
+  if (S.view === 'lanyard') renderLanyard();
 }
 
 function updateLanyardCount(bump = false) {
@@ -846,7 +920,7 @@ function renderSuggest() {
   }
   suggestItems.push({ apply: true });
   html += `<button type="button" class="suggest-all" role="option" id="sg-${suggestItems.length - 1}" aria-selected="false" data-apply-search>${
-    all ? `Show all ${plural(all, 'convention')} matching “${esc(q)}”` : `No conventions match “${esc(q)}”`
+    all ? `Show all ${plural(all, 'convention')} matching “${esc(q)}”` : cons.length ? `Search all conventions for “${esc(q)}”` : `No conventions match “${esc(q)}”`
   }</button>`;
   suggestEl.innerHTML = html;
   suggestEl.hidden = false;
@@ -992,8 +1066,11 @@ document.addEventListener('click', (e) => {
   const jump = t.closest('[data-jump]');
   if (jump) {
     e.preventDefault();
+    flushStream();
     const target = document.getElementById(jump.dataset.jump);
-    if (target) target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    // An instant jump: smooth scrolling over sections the browser hasn't laid out yet
+    // (content-visibility) stops short of the target.
+    if (target) target.scrollIntoView({ behavior: 'auto', block: 'start' });
     return;
   }
   const shareBtn = t.closest('[data-share]');
@@ -1004,7 +1081,7 @@ document.addEventListener('click', (e) => {
   if (t.closest('[data-toast-action]')) {
     const el = $('#toast');
     if (el._action) el._action();
-    el.classList.remove('show');
+    hideToast();
     return;
   }
   if (t.closest('[data-retry]')) {
@@ -1028,6 +1105,7 @@ document.addEventListener('change', (e) => {
 });
 
 let dirTimer = 0;
+let wallTimer = 0;
 document.addEventListener('input', (e) => {
   if (e.target.id === 'dir-q') {
     clearTimeout(dirTimer);
@@ -1040,33 +1118,69 @@ document.addEventListener('input', (e) => {
     return;
   }
   if (e.target.id === 'wall-q') {
-    S.wall.q = e.target.value;
-    const c = S.byId.get(decodeURIComponent(location.hash.split('/')[2] || ''));
-    if (c) renderWall(c);
+    clearTimeout(wallTimer);
+    wallTimer = setTimeout(() => {
+      S.wall.q = e.target.value;
+      const r = parseHash();
+      const c = r.view === 'con' && S.byId.get(r.id);
+      if (c) renderWall(c);
+    }, 120);
   }
 });
 
 $('#sheet').addEventListener('click', (e) => {
   if (e.target === e.currentTarget) e.currentTarget.close();
 });
+// The filters button is re-rendered while the sheet is open, so put focus back on the new one.
+$('#sheet').addEventListener('close', () => {
+  const b = $('.filters-btn');
+  if (b) b.focus({ preventScroll: true });
+});
+// The skip link moves focus without touching the route (its #main is not a route).
+$('.skip').addEventListener('click', (e) => {
+  e.preventDefault();
+  $('#main').focus();
+});
 
 // ---- routing -------------------------------------------------------------------------------------------------
+
+const decode = (s) => {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s; // a malformed escape such as "100%" stays as typed (and simply isn't found)
+  }
+};
 
 function parseHash() {
   const h = location.hash.replace(/^#/, '') || '/';
   const [path, qs = ''] = h.split('?');
   const parts = path.split('/').filter(Boolean);
-  if (parts[0] === 'con' && parts[1]) return { view: 'con', id: decodeURIComponent(parts[1]) };
-  if (parts[0] === 'guest' && parts[1]) return { view: 'guest', id: decodeURIComponent(parts[1]) };
+  if (parts[0] === 'con' && parts[1]) return { view: 'con', id: decode(parts[1]) };
+  if (parts[0] === 'guest' && parts[1]) return { view: 'guest', id: decode(parts[1]) };
   if (parts[0] === 'lanyard') return { view: 'lanyard' };
   if (parts[0] === 'guests') return { view: 'guests', qs };
   return { view: 'list', qs };
 }
 
+function renderPage(r) {
+  const pageEl = $('#view-page');
+  S.pageRendered = S.ready;
+  if (!S.ready) pageEl.innerHTML = S.failed ? notFound('The convention list didn’t load', 'Check your connection and reload.') : skeletonGrid(4);
+  else if (r.view === 'con') renderCon(r.id);
+  else if (r.view === 'guest') renderGuest(r.id);
+  else if (r.view === 'guests') renderDirectory(r.qs);
+  else renderLanyard();
+}
+
+// Navigation: a new hash route. In-page anchors (#main, #wall-title) are not routes.
 function route() {
+  const hash = location.hash;
+  if (hash && !hash.startsWith('#/')) return;
   const r = parseHash();
   const prev = S.view;
-  if (prev === 'list' && r.view !== 'list') S.listScroll = scrollY;
+  if (prev === 'list' && r.view !== 'list') S.listState = { href: listHref(), y: scrollY };
+  if (prev === 'guests' && r.view !== 'guests' && S.dir) S.dirState = { qs: dirQuery(), shown: S.dir.shown, y: scrollY };
   S.view = r.view;
   closeSuggest();
   $('.nav-guests').setAttribute('aria-current', r.view === 'guests' ? 'page' : 'false');
@@ -1078,19 +1192,36 @@ function route() {
     pageEl.hidden = true;
     pageEl.innerHTML = '';
     listEl.hidden = false;
-    renderList();
+    // Coming back to the same list: keep the rendered badges so the scroll position lands
+    // exactly where it was (re-rendering resets the skipped-section placeholders).
+    const back = prev !== 'list' && S.listState && S.listState.href === listHref();
+    if (!(back && S.listKey === listKeyNow())) renderList();
     document.title = 'WorldCons · every fan convention and every guest';
-    if (prev !== 'list') requestAnimationFrame(() => scrollTo(0, S.listScroll));
+    if (prev !== 'list') requestAnimationFrame(() => scrollTo(0, back ? S.listState.y : 0));
   } else {
     listEl.hidden = true;
     pageEl.hidden = false;
-    if (!S.ready) pageEl.innerHTML = S.failed ? notFound('The convention list didn’t load', 'Check your connection and reload.') : skeletonGrid(4);
-    else if (r.view === 'con') renderCon(r.id);
-    else if (r.view === 'guest') renderGuest(r.id);
-    else if (r.view === 'guests') renderDirectory(r.qs);
-    else renderLanyard();
-    scrollTo(0, 0);
-    if (prev !== r.view || r.view !== 'list') $('#main').focus({ preventScroll: true });
+    renderPage(r);
+    if (r.view === 'guests' && S.dirState && S.dirState.qs === dirQuery() && S.ready) {
+      const { y } = S.dirState;
+      requestAnimationFrame(() => scrollTo(0, y));
+    } else scrollTo(0, 0);
+    $('#main').focus({ preventScroll: true });
+  }
+  syncSearchBox();
+}
+
+// Data arrived or the day rolled over: refresh what is on screen without moving the
+// reader (no scroll jump, no focus change, typed search text kept).
+function refreshView() {
+  if (S.view === 'list') {
+    const y = scrollY;
+    S.syncRender = true; // the whole list at once, so the old scroll position still exists
+    renderList();
+    S.syncRender = false;
+    scrollTo(0, y);
+  } else if (!S.pageRendered) {
+    renderPage(parseHash());
   }
   syncSearchBox();
 }
@@ -1172,8 +1303,40 @@ async function loadData() {
     console.error('data load failed', e);
     S.failed = true;
   }
+  if (S.ready) remapSaved();
   updateLanyardCount();
-  route();
+  refreshView();
+}
+
+// A clipped con keeps its place on the lanyard when its id changes: an undated con
+// (id = series) gets dates (id = series-year), or a show moves to another month.
+function remapSaved() {
+  const editions = (series) => S.series.get(series) || [];
+  let changed = false;
+  const next = new Set();
+  for (const id of S.saved) {
+    if (S.byId.has(id)) {
+      next.add(id);
+      continue;
+    }
+    const m = /^(.*?)-(\d{4})(?:-\d{2}){0,2}$/.exec(id);
+    const series = S.series.has(id) || S.tba.some((c) => c.id === id) ? id : m ? m[1] : id;
+    const year = m ? m[2] : '';
+    const list = editions(series);
+    const hit =
+      list.find((c) => c.start.startsWith(year)) ||
+      list.find((c) => M.phase(c, S.today) !== 'past') ||
+      list[0] ||
+      S.byId.get(series);
+    if (hit) {
+      next.add(hit.id);
+      changed = true;
+    } else next.add(id); // keep it; the lanyard page reports cons that dropped off
+  }
+  if (changed) {
+    S.saved = next;
+    store(LS_SAVED, [...next]);
+  }
 }
 
 // ---- boot ----------------------------------------------------------------------------------------------------------
@@ -1196,7 +1359,7 @@ setInterval(() => {
   const t = M.isoToday();
   if (t !== S.today) {
     S.today = t;
-    if (S.ready) route();
+    if (S.ready) refreshView();
   }
 }, 60_000);
 

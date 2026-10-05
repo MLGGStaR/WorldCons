@@ -113,6 +113,61 @@ for (const [vname, opts] of [
   const secondPage = await page.$$eval('#dir-wall .cred', (e) => e.length);
   check(`${vname}: directory pages through guests`, firstPage <= 120 && (!moreVisible || secondPage > firstPage), `${firstPage} -> ${secondPage}`);
 
+  // Regression checks from the code review.
+  if (vname === 'desktop') {
+    // Back from a con page lands exactly where the reader was.
+    await page.goto(base, { waitUntil: 'networkidle' });
+    await page.waitForSelector('.badge:not(.skel)');
+    await page.waitForTimeout(800); // let the streamed months arrive
+    await page.evaluate(() => window.scrollTo(0, 3000));
+    await page.waitForTimeout(300);
+    const target = await page.evaluate(() => {
+      const b = [...document.querySelectorAll('#groups .badge')].find((x) => x.getBoundingClientRect().top > 100);
+      return b && { id: b.dataset.id, top: Math.round(b.getBoundingClientRect().top) };
+    });
+    await page.click(`#groups .badge[data-id="${target.id}"] .badge-link`);
+    await page.waitForTimeout(400);
+    await page.goBack();
+    await page.waitForTimeout(600);
+    const after = await page.evaluate((id) => Math.round(document.querySelector(`#groups .badge[data-id="${id}"]`).getBoundingClientRect().top), target.id);
+    check('desktop: back from a con page restores the list position', Math.abs(after - target.top) <= 4, `${target.top}px -> ${after}px`);
+
+    // A month's ruler count equals what clicking it shows.
+    const m = await page.$eval('#ruler button[data-month]:nth-of-type(1)', (b) => ({ key: b.dataset.month }));
+    const rulerN = await page.$eval(`#ruler button[data-month="${m.key}"] span`, (s) => Number(s.textContent.replace(/,/g, '')));
+    await page.click(`#ruler button[data-month="${m.key}"]`);
+    await page.waitForTimeout(400);
+    const shown = await page.$$eval('#groups section:not(#m-tba) .badge', (e) => e.length);
+    check(`desktop: ruler count for ${m.key} matches the list`, rulerN === shown, `${rulerN} vs ${shown}`);
+
+    // The skip link keeps the current filters.
+    await page.goto(`${base}#/?country=JP`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('.badge:not(.skel)');
+    await page.focus('.skip');
+    await page.keyboard.press('Enter');
+    await page.waitForTimeout(300);
+    check('desktop: skip link keeps the filters', (await page.evaluate(() => location.hash)) === '#/?country=JP');
+
+    // A malformed id does not break the app.
+    await page.goto(`${base}#/con/100%`, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(500);
+    check('desktop: a malformed con link shows "not found"', !!(await page.$('#view-page .empty')));
+
+    // Undo on the lanyard page brings the badge back.
+    await page.goto(`${base}#/lanyard`, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(400);
+    const before = await page.$$eval('#view-page .badge', (e) => e.length);
+    if (before) {
+      const first = await page.$eval('#view-page .badge', (b) => b.dataset.id);
+      await page.hover(`#view-page .badge[data-id="${first}"]`);
+      await page.click(`#view-page .badge[data-id="${first}"] .clip`);
+      await page.waitForTimeout(300);
+      await page.click('[data-toast-action]');
+      await page.waitForTimeout(300);
+      check('desktop: undo on the lanyard page restores the badge', (await page.$$eval('#view-page .badge', (e) => e.length)) === before);
+    }
+  }
+
   // Mobile filter sheet.
   if (vname === 'mobile') {
     await page.goto(base, { waitUntil: 'networkidle' });

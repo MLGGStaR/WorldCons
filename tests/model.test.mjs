@@ -63,8 +63,24 @@ test('year filter includes past cons of that year; all shows everything', () => 
   assert.equal(applyFilters(CONS, guests, F({ when: 'all' }), TODAY).length, CONS.length);
 });
 
-test('month filter matches cons overlapping the month', () => {
-  assert.deepEqual(applyFilters(CONS, guests, F({ month: '2026-11' }), TODAY).map((c) => c.id), ['lucca']);
+test('month filter matches cons starting in the month (same rule as the ruler counts)', () => {
+  assert.deepEqual(applyFilters(CONS, guests, F({ month: '2026-11' }), TODAY).map((c) => c.id), []);
+  assert.deepEqual(applyFilters(CONS, guests, F({ month: '2026-10' }), TODAY).map((c) => c.id).sort(), ['lucca', 'nycc']);
+  const fx = facets(CONS, guests, F(), TODAY);
+  assert.equal(fx.months.find((m) => m.key === '2026-10').n, 2);
+});
+
+test('a con with only its month announced is never "on now"', () => {
+  assert.equal(phase(CONS[5], '2027-06-15'), 'upcoming');
+  assert.equal(phase(CONS[5], '2027-07-01'), 'past');
+});
+
+test('search folds accents and keeps non-Latin scripts', () => {
+  assert.equal(fold('Łódź'), 'lodz');
+  assert.equal(fold('Ærø Ætt Straße'), 'aero aett strasse');
+  assert.equal(fold('Москва'), 'москва');
+  assert.equal(fold('東京 コミコン'), '東京 コミコン');
+  assert.ok(!matchesQuery(CONS[0], guests, 'Москва'));
 });
 
 test('place filters: continent, country, US state', () => {

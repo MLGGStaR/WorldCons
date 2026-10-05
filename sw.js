@@ -57,7 +57,10 @@ async function networkFirst(req) {
   try {
     const fresh = await fetch(req, { cache: 'no-cache' });
     if (fresh && fresh.ok && fresh.type === 'basic') {
-      cache.put(req.mode === 'navigate' ? 'index.html' : stripSearch(req.url), fresh.clone());
+      if (req.mode !== 'navigate') cache.put(stripSearch(req.url), fresh.clone());
+      // Only the app's own page becomes the offline copy, never some other file opened directly.
+      else if (/\/(index\.html)?$/.test(new URL(req.url).pathname) && (fresh.headers.get('content-type') || '').includes('text/html'))
+        cache.put('index.html', fresh.clone());
     }
     return fresh;
   } catch {

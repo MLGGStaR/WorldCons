@@ -76,3 +76,36 @@ export function mergeTypos(guests, cons) {
   }
   return log;
 }
+
+// A 4:5 crop around the detected face(s) (YuNet boxes [x, y, w, h, score] in oriented
+// pixels). Faces of similar size are framed together (duos, bands); the face sits a little
+// above the middle, like an ID photo. faceFrac = face width / crop width.
+export function faceCrop(W, H, faces, faceFrac, minW) {
+  const main = faces[0];
+  let peers = faces.filter((f) => f[2] * f[3] >= 0.5 * main[2] * main[3]).slice(0, 4);
+  // A group that cannot fit in one 4:5 frame would be cut through; frame the main face.
+  const span = Math.max(...peers.map((f) => f[0] + f[2])) - Math.min(...peers.map((f) => f[0]));
+  if (peers.length > 1 && span / 0.8 > Math.min(W, H * 0.8)) peers = [main];
+  const x0 = Math.min(...peers.map((f) => f[0]));
+  const y0 = Math.min(...peers.map((f) => f[1]));
+  const x1 = Math.max(...peers.map((f) => f[0] + f[2]));
+  const y1 = Math.max(...peers.map((f) => f[1] + f[3]));
+  let cw = peers.length > 1 ? (x1 - x0) / 0.8 : (x1 - x0) / faceFrac;
+  cw = Math.max(cw, Math.min(minW, W, H * 0.8));
+  let ch = cw / 0.8;
+  if (ch > H) {
+    ch = H;
+    cw = ch * 0.8;
+  }
+  if (cw > W) {
+    cw = W;
+    ch = cw / 0.8;
+  }
+  const width = Math.max(1, Math.floor(cw));
+  const height = Math.max(1, Math.floor(ch));
+  const cx = (x0 + x1) / 2;
+  const cy = (y0 + y1) / 2;
+  const left = Math.round(Math.min(Math.max(cx - width / 2, 0), W - width));
+  const top = Math.round(Math.min(Math.max(cy - height * 0.42, 0), H - height));
+  return { left, top, width, height };
+}

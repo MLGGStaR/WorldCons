@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // Split pipeline/seed/todo.json into research batches for the agent workflow.
-//   node pipeline/tools/make-batches.mjs [--size 12] [--exclude id,id] > pipeline/seed/batches.json
+//   node pipeline/tools/make-batches.mjs [--size 12] [--exclude id,id]
 // Cons that share a website (multi-city brands) stay together so one agent learns the
 // site once; batches holding the biggest cons are scheduled first.
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -38,9 +38,17 @@ const batches = [];
 for (let i = 0; i < todo.length; i += SIZE) batches.push(todo.slice(i, i + SIZE));
 const prio = (b) => Math.min(...b.map((c) => RANK[c.size] ?? 9)) * 100 + b.filter((c) => c.size === 'small').length;
 batches.sort((a, b) => prio(a) - prio(b));
-process.stdout.write(
-  JSON.stringify(
-    batches.map((b) => b.map(({ id, name, url, city, region, country, types, organizer, note }) => ({ id, name, url, city, region, country, types, organizer, note }))),
-  ),
-);
-console.error(`${todo.length} cons in ${batches.length} batches of up to ${SIZE}`);
+// One plain-text work list per batch for the research workflow (pipeline/workflows/research.js).
+const dir = join(ROOT, 'pipeline', 'seed', 'batches');
+mkdirSync(dir, { recursive: true });
+for (const f of readdirSync(dir)) if (/^batch-\d+\.txt$/.test(f)) rmSync(join(dir, f));
+batches.forEach((b, i) => {
+  const lines = b.map(
+    (c, k) =>
+      `${k + 1}. id=${c.id} | ${c.name} | ${c.url} | ${[c.city, c.region, c.country].filter(Boolean).join(', ')} | types: ${c.types.join(', ')}${
+        c.organizer ? ` | organizer: ${c.organizer}` : ''
+      }${c.note ? ` | note: ${c.note}` : ''}`,
+  );
+  writeFileSync(join(dir, `batch-${String(i + 1).padStart(2, '0')}.txt`), lines.join('\n') + '\n');
+});
+console.log(`${todo.length} cons in ${batches.length} batches of up to ${SIZE}: pipeline/seed/batches/batch-01..${String(batches.length).padStart(2, '0')}.txt`);

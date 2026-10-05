@@ -85,6 +85,9 @@ export function checkFile(path) {
     if (regions && !regions[e.region]) errors.push(`${at}: region "${e.region}" is not a valid ${e.country} state/province code`);
     if (e.country === 'US' && !e.region) errors.push(`${at}: US editions need the two-letter state in region`);
     if (!GUEST_STATES.includes(e.guests)) errors.push(`${at}: guests must be one of ${GUEST_STATES.join(', ')}`);
+    for (const k of ['tickets', 'guestsPage']) {
+      if (e[k] && !/^https?:\/\//i.test(e[k])) errors.push(`${at}: ${k} must be an http(s) URL or ""`);
+    }
     if (!e.evidence) warn.push(`${at}: evidence is empty`);
     const names = new Set();
     let count = 0;

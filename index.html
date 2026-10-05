@@ -65,7 +65,7 @@
         <span>WORLD<b>CONS</b></span>
       </a>
       <div class="search" role="search">
-        <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search cons, cities, guests" aria-label="Search conventions, cities or guests" aria-controls="suggest" aria-expanded="false" aria-autocomplete="list" />
+        <input id="q" type="search" role="combobox" aria-haspopup="listbox" autocomplete="off" spellcheck="false" placeholder="Search cons, cities, guests" aria-label="Search conventions, cities or guests" aria-controls="suggest" aria-expanded="false" aria-autocomplete="list" />
         <svg class="icon" aria-hidden="true"><use href="#i-search" /></svg>
         <button class="clear" type="button" aria-label="Clear search" hidden><svg class="icon" aria-hidden="true"><use href="#i-x" /></svg></button>
         <div class="suggest" id="suggest" role="listbox" aria-label="Suggestions" hidden></div>
@@ -102,7 +102,7 @@
     <dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
       <form method="dialog" class="sheet-inner" id="sheet-form"></form>
     </dialog>
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="toast" id="toast" role="status" aria-live="polite" inert></div>
 
     <script type="module" src="js/app.js"></script>
   </body>

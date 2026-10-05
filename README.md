@@ -38,6 +38,26 @@ Static site, no backend. The data is a dated snapshot built by `pipeline/`:
 Dates and guests come from each convention's official website. Guest photos belong to
 their owners and are shown to identify who is appearing.
 
+### Refreshing the data
+
+Guest lineups change every week, so the data is a dated snapshot. To refresh:
+
+1. `node pipeline/tools/make-seed.mjs <discovery.json>` merges a con list into
+   `pipeline/seed/series.json` (skip if the list is unchanged).
+2. `node pipeline/tools/prefetch.mjs pipeline/seed/todo.json` renders homepages ahead.
+3. `node pipeline/tools/make-batches.mjs` writes `pipeline/seed/batches/batch-NN.txt`, then
+   run the `pipeline/workflows/research.js` workflow over those batch numbers (research
+   files that should be redone must be deleted first; existing ones are skipped).
+4. `node pipeline/tools/audit-guests.mjs --reextract` flags lineups that may be incomplete;
+   `pipeline/workflows/fixup.js` rechecks them, backfills last-held dates, finds missing
+   photos (written to `pipeline/overrides/photos-*.json`) and researches leftovers.
+5. `npm run build:data`, `npm test`, `node pipeline/tools/interact.mjs`,
+   `node pipeline/tools/build-og.mjs`, `node pipeline/stamp.mjs`, then commit and push.
+
+`pipeline/cache/` (rendered pages and downloaded originals) stays on the machine that ran
+the research; the committed `data/` and `img/` are everything the site needs, and
+`data/sources.json` records where every image came from.
+
 ## Develop
 
 ```

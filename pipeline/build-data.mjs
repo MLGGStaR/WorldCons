@@ -18,7 +18,7 @@ import { execFile } from 'node:child_process';
 import sharp from 'sharp';
 import { checkFile, resolveCover } from './tools/check-research.mjs';
 import { COUNTRIES } from '../js/geo.js';
-import { slug, mergeTypos } from './lib/guests.mjs';
+import { slug, mergeTypos, faceCrop } from './lib/guests.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const RESEARCH = join(ROOT, 'pipeline', 'research');
@@ -220,19 +220,72 @@ async function processConArt(buf, outFile, forceContain) {
   return { w: out.info.width, h: out.info.height, tint, fit: 'cover' };
 }
 
-async function processGuestPhoto(buf, id) {
-  const meta = await sharp(buf, { animated: false }).metadata();
+async function processGuestPhoto(buf, id, det) {
+  // Bake in EXIF orientation first so pixel boxes from the detector line up.
+  const oriented = await sharp(buf, { animated: false }).rotate().flatten({ background: '#e9ebee' }).png().toBuffer();
+  const meta = await sharp(oriented).metadata();
   if (!meta.width || !meta.height || meta.width < 60 || meta.height < 60) throw new Error('too small');
-  const aspect = meta.width / meta.height;
-  // Taller than 4:5: keep the top (faces sit high in headshots). Wider: let sharp find the subject.
-  const position = aspect < 0.8 ? 'north' : 'attention';
-  const base = sharp(buf).flatten({ background: '#e9ebee' });
-  const big = await base.clone().resize(240, 300, { fit: 'cover', position }).webp({ quality: 76 }).toBuffer();
-  const small = await base.clone().resize(60, 76, { fit: 'cover', position }).webp({ quality: 70 }).toBuffer();
+  const faces = det && det.w === meta.width && det.h === meta.height ? (det.faces || []).filter((f) => f[4] >= 0.8) : [];
+  let big;
+  let small;
+  if (faces.length) {
+    big = await sharp(oriented).extract(faceCrop(meta.width, meta.height, faces, 0.42, 200)).resize(240, 300).webp({ quality: 78 }).toBuffer();
+    small = await sharp(oriented).extract(faceCrop(meta.width, meta.height, faces, 0.6, 90)).resize(60, 76).webp({ quality: 72 }).toBuffer();
+  } else {
+    // No face found (artwork, logo, book cover): keep the top of tall images, let sharp
+    // find the subject in wide ones.
+    const position = meta.width / meta.height < 0.8 ? 'north' : 'attention';
+    big = await sharp(oriented).resize(240, 300, { fit: 'cover', position }).webp({ quality: 76 }).toBuffer();
+    small = await sharp(oriented).resize(60, 76, { fit: 'cover', position }).webp({ quality: 70 }).toBuffer();
+  }
   writeFileSync(join(OUT_GUEST, `${id}.webp`), big);
   writeFileSync(join(OUT_GUEST_S, `${id}.webp`), small);
-  return { w: meta.width, h: meta.height };
+  return { w: meta.width, h: meta.height, face: faces.length > 0 };
 }
+
+// ---- face detection (pipeline/tools/faces.py, OpenCV YuNet), cached per image URL -------------
+
+const FACE_MODEL = join(ROOT, 'pipeline', 'models', 'face_detection_yunet_2023mar.onnx');
+const FACE_CACHE = join(CACHE, 'faces.json');
+let faceCache = null;
+
+// Calls are serialised: the per-guest Wikipedia fallback runs from parallel workers.
+let faceQueue = Promise.resolve();
+let faceRun = 0;
+function detectFaces(items) {
+  const run = faceQueue.then(() => detectFacesNow(items));
+  faceQueue = run.catch(() => {});
+  return run;
+}
+
+async function detectFacesNow(items) {
+  if (!faceCache) faceCache = existsSync(FACE_CACHE) ? JSON.parse(readFileSync(FACE_CACHE, 'utf8')) : {};
+  const todo = items.filter((i) => !faceCache[i.key]);
+  if (todo.length && existsSync(FACE_MODEL)) {
+    const n = faceRun++;
+    const inFile = join(CACHE, `faces-in-${n}.json`);
+    const outFile = join(CACHE, `faces-out-${n}.json`);
+    writeFileSync(inFile, JSON.stringify(todo.map((i) => ({ id: i.key, file: i.file }))));
+    rmSync(outFile, { force: true });
+    await new Promise((resolve) =>
+      execFile('python', [join(ROOT, 'pipeline', 'tools', 'faces.py'), FACE_MODEL, inFile, outFile], { maxBuffer: 1 << 26 }, (err) => {
+        if (err) console.log(`face detection unavailable (${String(err.message).split('\n')[0]}); using plain crops`);
+        resolve();
+      }),
+    );
+    try {
+      if (existsSync(outFile)) Object.assign(faceCache, JSON.parse(readFileSync(outFile, 'utf8')));
+    } catch (e) {
+      console.log(`face results unreadable (${e.message}); those photos use plain crops`);
+    }
+    rmSync(inFile, { force: true });
+    rmSync(outFile, { force: true });
+    writeFileSync(FACE_CACHE, JSON.stringify(faceCache));
+  }
+  return faceCache;
+}
+
+const hasFace = (det) => !!(det && det.faces && det.faces.some((f) => f[4] >= 0.8));
 
 // ---- Wikipedia fallback for guests without a con photo ---------------------------------------
 
@@ -317,9 +370,14 @@ async function main() {
       });
       continue;
     }
+    // Edition ids depend only on the edition's own dates: series-YYYY, or series-YYYY-MM
+    // (series-YYYY-MM-DD) for every edition of a year (month) that has several, so ids
+    // don't shuffle when an earlier edition drops out of the data.
+    const sameYear = (e) => (r.editions || []).filter((x) => x.start.slice(0, 4) === e.start.slice(0, 4)).length;
+    const sameMonth = (e) => (r.editions || []).filter((x) => x.start.slice(0, 7) === e.start.slice(0, 7)).length;
     for (const e of r.editions || []) {
-      let id = `${r.id}-${e.start.slice(0, 4)}`;
-      if (ids.has(id)) id = `${r.id}-${e.start.slice(0, 7)}`;
+      let id = sameYear(e) === 1 ? `${r.id}-${e.start.slice(0, 4)}` : sameMonth(e) === 1 ? `${r.id}-${e.start.slice(0, 7)}` : `${r.id}-${e.start}`;
+      if (ids.has(id)) id = `${id}-${ids.size}`;
       ids.add(id);
       const lineup = [];
       const perConKnown = {};
@@ -440,40 +498,84 @@ async function main() {
     // Guest photos: try the con photos (largest first), then Wikipedia.
     const entries = [...guests.entries()];
     let fromCon = 0, fromWiki = 0, none = 0;
-    await pool(entries, 10, async ([gid, g]) => {
-      const photos = [...g.photos].sort((a, b) => b.w * b.h - a.w * a.h);
-      for (const p of photos) {
-        const buf = await download(p.url, p.referer);
-        if (!buf) continue;
+    // Hand-checked photos for guests whose con page had none: { "<guest-id>": { "url", "source" } }.
+    // Every pipeline/overrides/photos*.json is merged (one file per agent avoids write races).
+    const overrideDir = join(ROOT, 'pipeline', 'overrides');
+    const overrides = {};
+    if (existsSync(overrideDir)) {
+      for (const f of readdirSync(overrideDir).filter((f) => /^photos.*\.json$/.test(f))) {
         try {
-          await processGuestPhoto(buf, gid);
-          guestOut[gid].p = `img/g/${gid}.webp`;
-          guestOut[gid].s = `img/g/s/${gid}.webp`;
-          sources.guests[gid] = p.url;
+          Object.assign(overrides, JSON.parse(readFileSync(join(overrideDir, f), 'utf8')));
+        } catch (e) {
+          problems.push(`overrides/${f}: ${e.message}`);
+        }
+      }
+    }
+    // 1. Every candidate photo of every guest: the cons' own (largest first) plus overrides.
+    const cands = new Map();
+    for (const [gid, g] of entries) {
+      const list = [...g.photos].sort((a, b) => b.w * b.h - a.w * a.h).slice(0, 4);
+      if (overrides[gid] && overrides[gid].url) list.push({ url: overrides[gid].url, w: 1, h: 1, referer: overrides[gid].source || '' });
+      cands.set(gid, list.map((p) => ({ ...p, key: sha1(p.url) })));
+    }
+    const allCands = [...cands.values()].flat();
+    await pool(allCands, 12, async (c) => {
+      c.buf = await download(c.url, c.referer);
+    });
+    // 2. Faces in all of them, one batch.
+    const faces = await detectFaces(allCands.filter((c) => c.buf).map((c) => ({ key: c.key, file: join(IMG_CACHE, c.key) })));
+    // 3. Per guest: a photo with a real face beats artwork, logos and book covers; among
+    //    those, the biggest face (sharpest crop). No face anywhere -> try Wikipedia's photo.
+    let withFace = 0;
+    await pool(entries, 10, async ([gid]) => {
+      const ranked = cands
+        .get(gid)
+        .filter((c) => c.buf)
+        .map((c) => {
+          const det = faces[c.key];
+          const f = hasFace(det) ? det.faces.find((x) => x[4] >= 0.8) : null;
+          return { c, det, faceArea: f ? f[2] * f[3] : 0, area: det && det.w ? det.w * det.h : c.w * c.h };
+        })
+        .sort((a, b) => b.faceArea - a.faceArea || b.area - a.area);
+      const use = async (buf, det, url, wikiPage) => {
+        const info = await processGuestPhoto(buf, gid, det);
+        guestOut[gid].p = `img/g/${gid}.webp`;
+        guestOut[gid].s = `img/g/s/${gid}.webp`;
+        if (wikiPage) guestOut[gid].w = wikiPage;
+        sources.guests[gid] = url;
+        if (info.face) withFace++;
+      };
+      if (!ranked.length || !ranked[0].faceArea) {
+        const wiki = await wikipediaPhoto(guestOut[gid].n, guestOut[gid].k);
+        const buf = wiki && (await download(wiki.img, 'https://en.wikipedia.org/'));
+        if (buf) {
+          const key = sha1(wiki.img);
+          const det = (await detectFaces([{ key, file: join(IMG_CACHE, key) }]))[key];
+          if (hasFace(det) || !ranked.length) {
+            try {
+              await use(buf, det, wiki.img, wiki.page);
+              fromWiki++;
+              return;
+            } catch {
+              /* fall back to the con's image */
+            }
+          }
+        }
+      }
+      for (const r of ranked) {
+        try {
+          await use(r.c.buf, r.det, r.c.url);
           fromCon++;
           return;
         } catch {
           /* try the next photo */
         }
       }
-      const wiki = await wikipediaPhoto(guestOut[gid].n, guestOut[gid].k);
-      if (wiki) {
-        const buf = await download(wiki.img, 'https://en.wikipedia.org/');
-        if (buf) {
-          try {
-            await processGuestPhoto(buf, gid);
-            guestOut[gid].p = `img/g/${gid}.webp`;
-            guestOut[gid].s = `img/g/s/${gid}.webp`;
-            guestOut[gid].w = wiki.page;
-            sources.guests[gid] = wiki.img;
-            fromWiki++;
-            return;
-          } catch {}
-        }
-      }
       none++;
     });
-    console.log(`guest photos: ${fromCon} from con pages, ${fromWiki} from Wikipedia, ${none} without a photo (of ${entries.length})`);
+    console.log(
+      `guest photos: ${fromCon} from con pages, ${fromWiki} from Wikipedia, ${none} without a photo (of ${entries.length}); ${withFace} cropped around a detected face`,
+    );
   } else {
     // Keep whatever images already exist on disk, with the sizes and fit the last full
     // build measured for them.

@@ -64,3 +64,26 @@ test('isTypoPair accepts vowel slips and doubled letters only', () => {
   assert.ok(!isTypoPair('dan-fogler', 'dan-fowler'));
   assert.ok(!isTypoPair('same-name', 'same-name'));
 });
+
+test('faceCrop frames one face as an ID photo inside the image', async () => {
+  const { faceCrop } = await import('../pipeline/lib/guests.mjs');
+  const box = faceCrop(1000, 1300, [[400, 300, 200, 260, 0.95]], 0.42, 200);
+  assert.equal(Math.round((box.width / box.height) * 100) / 100, 0.8);
+  assert.ok(box.left >= 0 && box.top >= 0 && box.left + box.width <= 1000 && box.top + box.height <= 1300);
+  // face centred horizontally, a little above the middle vertically
+  assert.ok(Math.abs(box.left + box.width / 2 - 500) <= 1);
+  const faceCy = 300 + 130;
+  assert.ok(faceCy - box.top < box.height * 0.5);
+});
+
+test('faceCrop keeps duos together and stays inside small images', async () => {
+  const { faceCrop } = await import('../pipeline/lib/guests.mjs');
+  // a duo that fits in one frame is framed together
+  const duo = faceCrop(1200, 1000, [[400, 300, 120, 150, 0.9], [620, 310, 110, 140, 0.9]], 0.42, 200);
+  assert.ok(duo.left <= 400 && duo.left + duo.width >= 730);
+  // one that cannot fit frames the main face instead of cutting through both
+  const wide = faceCrop(800, 600, [[100, 150, 120, 150, 0.9], [500, 160, 110, 140, 0.9]], 0.42, 200);
+  assert.ok(wide.left <= 100 && wide.left + wide.width >= 220);
+  const tiny = faceCrop(120, 100, [[40, 20, 30, 40, 0.9]], 0.42, 200);
+  assert.ok(tiny.width <= 120 && tiny.height <= 100 && tiny.left >= 0 && tiny.top >= 0);
+});

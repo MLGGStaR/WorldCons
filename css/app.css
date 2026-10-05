@@ -939,6 +939,7 @@ main {
 .when-chip {
   position: absolute;
   z-index: 2;
+  pointer-events: none;
   left: 8px;
   top: 8px;
   display: inline-flex;

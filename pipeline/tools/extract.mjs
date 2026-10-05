@@ -461,11 +461,16 @@ function collect({ mode, maxCandidates }) {
   const sizeable = items.filter((it) => (it.w >= 60 && it.h >= 60) || (it.w === 0 && it.h === 0));
 
   // Section heading that precedes an element (e.g. "Celebrity Guests", "Comic Creators").
+  // Elements that hold a candidate image (cards and the blocks around them). Their own
+  // headings are guest names, never section titles, so the search below skips them.
+  const holds = new Set();
+  for (const it of sizeable) for (let n = it.el; n && !holds.has(n); n = n.parentElement) holds.add(n);
   const headingFor = (el) => {
     let node = el;
-    for (let hops = 0; node && hops < 400; hops++) {
+    for (let hops = 0; node && hops < 600; hops++) {
       if (node.previousElementSibling) {
         node = node.previousElementSibling;
+        if (holds.has(node)) continue;
         const hs = node.matches('h1,h2,h3,h4') ? [node] : [...node.querySelectorAll('h1,h2,h3,h4')];
         const last = hs[hs.length - 1];
         if (last && clean(last.innerText, 80)) return clean(last.innerText, 80);

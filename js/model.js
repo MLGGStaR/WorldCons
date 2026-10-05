@@ -116,6 +116,8 @@ export function dateBlock(con) {
 /** Where a con sits relative to today: past | live | soon (≤14 days) | upcoming. */
 export function phase(con, today) {
   if (con.end < today) return 'past';
+  // Only the month is known: never claim it is on now.
+  if (con.dp === 'm') return 'upcoming';
   if (con.start <= today) return 'live';
   if (con.dp !== 'm' && daysBetween(today, con.start) <= 14) return 'soon';
   return 'upcoming';
@@ -139,12 +141,17 @@ export function countdown(con, today) {
 
 // ---- text search -------------------------------------------------------------------
 
+// Letters that don't decompose into a base letter plus an accent.
+const FOLD_MAP = { ø: 'o', ł: 'l', đ: 'd', ð: 'd', ß: 'ss', þ: 'th', æ: 'ae', œ: 'oe', ı: 'i' };
+
+/** Lowercase, strip accents, keep letters and digits of every script (Cyrillic, CJK…). */
 export function fold(s) {
   return (s || '')
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/[øłđðßþæœı]/g, (ch) => FOLD_MAP[ch])
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
 }
 
@@ -210,7 +217,9 @@ export function yearsIn(cons) {
   return [...new Set(cons.flatMap((c) => [Number(c.start.slice(0, 4)), Number(c.end.slice(0, 4))]))].sort();
 }
 
-const overlapsMonth = (c, key) => monthKey(c.start) <= key && monthKey(c.end) >= key;
+// A con belongs to the month it starts in: the same rule the month ruler counts with and
+// the list groups by, so a month's count always matches what clicking it shows.
+const startsInMonth = (c, key) => monthKey(c.start) === key;
 const overlapsYear = (c, y) => Number(c.start.slice(0, 4)) <= y && Number(c.end.slice(0, 4)) >= y;
 
 /**
@@ -224,7 +233,7 @@ export function applyFilters(cons, guests, f, today, skip = '') {
       if (f.when === 'upcoming' && c.end < today) return false;
       if (/^\d{4}$/.test(f.when) && !overlapsYear(c, Number(f.when))) return false;
     }
-    if (skip !== 'month' && f.month && !overlapsMonth(c, f.month)) return false;
+    if (skip !== 'month' && f.month && !startsInMonth(c, f.month)) return false;
     if (skip !== 'place') {
       if (f.continent && continentOf(c.country) !== f.continent) return false;
       if (f.country && c.country !== f.country) return false;
