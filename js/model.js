@@ -200,18 +200,27 @@ export function buildGuestIndex(cons) {
 }
 
 // ---- filters -----------------------------------------------------------------------
+//
+// Every filter takes several values. A con matches when it fits ANY chosen value of a filter
+// and EVERY filter that has values: comics or anime, in Japan or Korea, in October or May.
 
 export const DEFAULT_FILTERS = Object.freeze({
-  when: 'upcoming', // upcoming | 2026 | 2027 | … | all
-  month: '', // YYYY-MM
-  continent: '',
-  country: '',
-  region: '',
+  when: 'upcoming', // upcoming | all | years (then `years` holds the chosen years)
+  years: [], // ['2026', '2027']
+  months: [], // ['2026-10', '2026-12']
+  continents: [], // ['EU', 'AS']
+  countries: [], // ['US', 'CA']
+  regions: [], // ['US-CA', 'CA-ON']: country code, a dash, the state or province code
   types: [],
   q: '',
   guests: false, // only cons with announced guests
   sort: 'date', // date | name | guests
 });
+
+/** A filter state with nothing chosen (fresh arrays, safe to change). */
+export function blankFilters() {
+  return { ...DEFAULT_FILTERS, years: [], months: [], continents: [], countries: [], regions: [], types: [] };
+}
 
 export function yearsIn(cons) {
   return [...new Set(cons.flatMap((c) => [Number(c.start.slice(0, 4)), Number(c.end.slice(0, 4))]))].sort();
@@ -219,8 +228,25 @@ export function yearsIn(cons) {
 
 // A con belongs to the month it starts in: the same rule the month ruler counts with and
 // the list groups by, so a month's count always matches what clicking it shows.
-const startsInMonth = (c, key) => monthKey(c.start) === key;
 const overlapsYear = (c, y) => Number(c.start.slice(0, 4)) <= y && Number(c.end.slice(0, 4)) >= y;
+
+export const regionKey = (country, region) => `${country}-${region}`;
+
+// The place filters form a tree (continent > country > state or province). A chosen place
+// counts as a whole unless something inside it is chosen too: Europe + the United States +
+// California means every European con, plus the US cons in California.
+export function placeMatch(c, f) {
+  const conts = f.continents || [];
+  const countries = f.countries || [];
+  const regions = f.regions || [];
+  if (!conts.length && !countries.length && !regions.length) return true;
+  if (countries.includes(c.country)) {
+    const inside = regions.filter((r) => r.startsWith(`${c.country}-`));
+    return !inside.length || inside.includes(regionKey(c.country, c.region));
+  }
+  const cont = continentOf(c.country);
+  return conts.includes(cont) && !countries.some((k) => continentOf(k) === cont);
+}
 
 /**
  * Apply filters. `skip` names one filter to ignore, which is how facet counts are made
@@ -228,17 +254,15 @@ const overlapsYear = (c, y) => Number(c.start.slice(0, 4)) <= y && Number(c.end.
  */
 export function applyFilters(cons, guests, f, today, skip = '') {
   const types = new Set(f.types || []);
+  const months = new Set(f.months || []);
+  const years = (f.years || []).map(Number);
   return cons.filter((c) => {
     if (skip !== 'when') {
       if (f.when === 'upcoming' && c.end < today) return false;
-      if (/^\d{4}$/.test(f.when) && !overlapsYear(c, Number(f.when))) return false;
+      if (f.when === 'years' && years.length && !years.some((y) => overlapsYear(c, y))) return false;
     }
-    if (skip !== 'month' && f.month && !startsInMonth(c, f.month)) return false;
-    if (skip !== 'place') {
-      if (f.continent && continentOf(c.country) !== f.continent) return false;
-      if (f.country && c.country !== f.country) return false;
-      if (f.region && c.region !== f.region) return false;
-    }
+    if (skip !== 'month' && months.size && !months.has(monthKey(c.start))) return false;
+    if (skip !== 'place' && !placeMatch(c, f)) return false;
     if (skip !== 'types' && types.size && !(c.types || []).some((t) => types.has(t))) return false;
     if (skip !== 'guests' && f.guests && !(c.g && c.g.length)) return false;
     if (skip !== 'q' && f.q && !matchesQuery(c, guests, f.q)) return false;
@@ -280,15 +304,30 @@ export function monthCounts(list) {
   return [...counts.entries()].sort(([a], [b]) => (a < b ? -1 : 1)).map(([key, n]) => ({ key, n }));
 }
 
-/** Facet options with counts, given the current filters. */
+/**
+ * Facet options with counts, given the current filters. Each count is what choosing that
+ * option on its own would show with the other filters as they are.
+ */
 export function facets(cons, guests, f, today) {
   const placeBase = applyFilters(cons, guests, f, today, 'place');
   const continents = countBy(placeBase, (c) => continentOf(c.country));
-  const inContinent = f.continent ? placeBase.filter((c) => continentOf(c.country) === f.continent) : placeBase;
-  const countries = countBy(inContinent, (c) => c.country);
-  const inCountry = f.country ? inContinent.filter((c) => c.country === f.country) : [];
-  const regions = REGIONS[f.country] ? countBy(inCountry, (c) => c.region || '') : new Map();
-  regions.delete('');
+  const conts = f.continents || [];
+  const inContinents = conts.length ? placeBase.filter((c) => conts.includes(continentOf(c.country))) : placeBase;
+  const countries = countBy(inContinents, (c) => c.country);
+  // States and provinces of every chosen country that has them, grouped by country.
+  const regions = [];
+  for (const k of f.countries || []) {
+    if (!REGIONS[k]) continue;
+    const counts = countBy(
+      placeBase.filter((c) => c.country === k && c.region),
+      (c) => c.region,
+    );
+    regions.push(
+      ...[...counts.entries()]
+        .map(([r, n]) => ({ value: regionKey(k, r), label: regionName(k, r), group: countryName(k), country: k, n }))
+        .sort((a, b) => a.label.localeCompare(b.label)),
+    );
+  }
   const types = new Map();
   for (const c of applyFilters(cons, guests, f, today, 'types')) for (const t of c.types || []) types.set(t, (types.get(t) || 0) + 1);
   return {
@@ -298,9 +337,7 @@ export function facets(cons, guests, f, today) {
     countries: [...countries.entries()]
       .map(([value, n]) => ({ value, label: countryName(value), n }))
       .sort((a, b) => a.label.localeCompare(b.label)),
-    regions: [...regions.entries()]
-      .map(([value, n]) => ({ value, label: regionName(f.country, value), n }))
-      .sort((a, b) => a.label.localeCompare(b.label)),
+    regions,
     types: Object.keys(TYPES).map((k) => ({ value: k, label: TYPES[k], n: types.get(k) || 0 })),
     months: monthCounts(applyFilters(cons, guests, f, today, 'month')),
   };
@@ -317,34 +354,61 @@ function countBy(list, key) {
 
 // ---- URL state ---------------------------------------------------------------------
 
+const uniq = (xs) => [...new Set(xs)];
+const listParam = (p, name) =>
+  (p.get(name) || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+
 export function filtersToQuery(f) {
   const p = new URLSearchParams();
-  if (f.when && f.when !== DEFAULT_FILTERS.when) p.set('when', f.when);
-  if (f.month) p.set('month', f.month);
-  if (f.continent) p.set('continent', f.continent);
-  if (f.country) p.set('country', f.country);
-  if (f.region) p.set('region', f.region);
-  if (f.types && f.types.length) p.set('type', f.types.join(','));
+  if (f.when === 'all') p.set('when', 'all');
+  else if (f.when === 'years' && (f.years || []).length) p.set('when', f.years.join(','));
+  if ((f.months || []).length) p.set('month', f.months.join(','));
+  if ((f.continents || []).length) p.set('continent', f.continents.join(','));
+  if ((f.countries || []).length) p.set('country', f.countries.join(','));
+  if ((f.regions || []).length) p.set('region', f.regions.join(','));
+  if ((f.types || []).length) p.set('type', f.types.join(','));
   if (f.q) p.set('q', f.q);
   if (f.guests) p.set('guests', '1');
   if (f.sort && f.sort !== DEFAULT_FILTERS.sort) p.set('sort', f.sort);
-  return p.toString();
+  // Commas are legal in a query string and keep shared links readable.
+  return p.toString().replace(/%2C/gi, ',');
 }
 
 export function queryToFilters(qs) {
   const p = new URLSearchParams(qs || '');
-  const f = { ...DEFAULT_FILTERS, types: [] };
-  const when = p.get('when');
-  if (when && (when === 'all' || when === 'upcoming' || /^\d{4}$/.test(when))) f.when = when;
-  const month = p.get('month');
-  if (month && /^\d{4}-\d{2}$/.test(month)) f.month = month;
-  const continent = (p.get('continent') || '').toUpperCase();
-  if (CONTINENTS[continent]) f.continent = continent;
-  const country = (p.get('country') || '').toUpperCase();
-  if (COUNTRIES[country]) f.country = country;
-  const region = (p.get('region') || '').toUpperCase();
-  if (f.country && REGIONS[f.country] && REGIONS[f.country][region]) f.region = region;
-  f.types = (p.get('type') || '').split(',').filter((t) => TYPES[t]);
+  const f = blankFilters();
+  const when = (p.get('when') || '').trim();
+  if (when === 'all') f.when = 'all';
+  else {
+    const years = uniq(when.split(',').filter((y) => /^\d{4}$/.test(y))).sort();
+    if (years.length) {
+      f.when = 'years';
+      f.years = years;
+    }
+  }
+  f.months = uniq(listParam(p, 'month').filter((m) => /^\d{4}-(0[1-9]|1[0-2])$/.test(m))).sort();
+  f.continents = uniq(listParam(p, 'continent').map((k) => k.toUpperCase()).filter((k) => CONTINENTS[k]));
+  f.countries = uniq(listParam(p, 'country').map((k) => k.toUpperCase()).filter((k) => COUNTRIES[k]));
+  // Regions are COUNTRY-REGION. Older links had a bare code next to a single country.
+  f.regions = uniq(
+    listParam(p, 'region')
+      .map((r) => r.toUpperCase())
+      .map((r) => (r.includes('-') ? r : f.countries.length === 1 ? regionKey(f.countries[0], r) : ''))
+      .filter((r) => {
+        const i = r.indexOf('-');
+        const k = r.slice(0, i);
+        return i > 0 && REGIONS[k] && REGIONS[k][r.slice(i + 1)];
+      }),
+  );
+  // A chosen state implies its country.
+  for (const r of f.regions) {
+    const k = r.slice(0, r.indexOf('-'));
+    if (!f.countries.includes(k)) f.countries.push(k);
+  }
+  f.types = uniq(listParam(p, 'type').filter((t) => TYPES[t]));
   f.q = (p.get('q') || '').slice(0, 80);
   f.guests = p.get('guests') === '1';
   const sort = p.get('sort');
@@ -352,15 +416,32 @@ export function queryToFilters(qs) {
   return f;
 }
 
+// "a", "a or b", "a, b or c"; long lists end with "and N more".
+function joinOr(xs, noun = 'items') {
+  if (xs.length > 4) return `${xs.slice(0, 3).join(', ')} and ${xs.length - 3} more ${noun}`;
+  return xs.length <= 1 ? xs.join('') : `${xs.slice(0, -1).join(', ')} or ${xs[xs.length - 1]}`;
+}
+
+/** The chosen places as people say them, most specific first within each branch. */
+export function placeNames(f) {
+  const out = [];
+  for (const k of f.continents || []) if (!(f.countries || []).some((c) => continentOf(c) === k)) out.push(CONTINENTS[k]);
+  for (const c of f.countries || []) {
+    const regs = (f.regions || []).filter((r) => r.startsWith(`${c}-`));
+    if (regs.length) out.push(...regs.map((r) => regionName(c, r.slice(c.length + 1))));
+    else out.push(countryName(c));
+  }
+  return out;
+}
+
 /** Plain-language summary of the active filters, for the results line. */
 export function describeFilters(f) {
   const bits = [];
-  if (f.types.length) bits.push(f.types.map((t) => TYPES[t]).join(' or '));
-  if (f.region) bits.push(`in ${regionName(f.country, f.region)}`);
-  else if (f.country) bits.push(`in ${countryName(f.country)}`);
-  else if (f.continent) bits.push(`in ${CONTINENTS[f.continent]}`);
-  if (f.month) bits.push(`in ${monthLabel(f.month)}`);
-  else if (/^\d{4}$/.test(f.when)) bits.push(`in ${f.when}`);
+  if ((f.types || []).length) bits.push(joinOr(f.types.map((t) => TYPES[t]), 'types'));
+  const places = placeNames(f);
+  if (places.length) bits.push(`in ${joinOr(places, 'places')}`);
+  if ((f.months || []).length) bits.push(`in ${joinOr(f.months.map((m) => monthLabel(m)), 'months')}`);
+  else if (f.when === 'years' && (f.years || []).length) bits.push(`in ${joinOr(f.years, 'years')}`);
   if (f.guests) bits.push('with guests announced');
   if (f.q) bits.push(`matching “${f.q}”`);
   return bits.join(' ');
@@ -402,16 +483,14 @@ export function toICS(con, place, stamp = '20260101T000000Z') {
 
 /** Whether the "dates not announced yet" section belongs in this view. */
 export function showsTBA(f) {
-  return (f.when === 'upcoming' || f.when === 'all') && !f.month && !f.guests && f.sort === 'date';
+  return (f.when === 'upcoming' || f.when === 'all') && !(f.months || []).length && !f.guests && f.sort === 'date';
 }
 
 /** Filter undated cons by place, type and text (date filters don't apply to them). */
 export function filterTBA(tba, guests, f) {
   const types = new Set(f.types || []);
   return tba.filter((c) => {
-    if (f.continent && continentOf(c.country) !== f.continent) return false;
-    if (f.country && c.country !== f.country) return false;
-    if (f.region && c.region !== f.region) return false;
+    if (!placeMatch(c, f)) return false;
     if (types.size && !(c.types || []).some((t) => types.has(t))) return false;
     if (f.q && !matchesQuery(c, guests, f.q)) return false;
     return true;

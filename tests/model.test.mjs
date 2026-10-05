@@ -2,8 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   formatRange, dateBlock, phase, countdown, applyFilters, sortCons, groupByMonth, facets,
-  filtersToQuery, queryToFilters, DEFAULT_FILTERS, buildGuestIndex, searchGuests, matchesQuery,
-  describeFilters, monthCounts, fold, toICS,
+  filtersToQuery, queryToFilters, blankFilters, buildGuestIndex, searchGuests, matchesQuery,
+  describeFilters, monthCounts, fold, toICS, placeMatch,
 } from '../js/model.js';
 
 const guests = {
@@ -23,7 +23,8 @@ const CONS = [
   con({ id: 'june', name: 'Summer Fest', start: '2027-06-01', end: '2027-06-30', dp: 'm', city: 'Sydney', region: 'NSW', country: 'AU', types: ['games'] }),
 ];
 const TODAY = '2026-10-05';
-const F = (o = {}) => ({ ...DEFAULT_FILTERS, types: [], ...o });
+const F = (o = {}) => ({ ...blankFilters(), ...o });
+const ids = (list) => list.map((c) => c.id).sort();
 
 test('formatRange covers same month, cross-month, cross-year and month precision', () => {
   assert.equal(formatRange('2026-10-08', '2026-10-11'), 'Oct 8–11, 2026');
@@ -57,15 +58,18 @@ test('default view hides past cons and sorts by start date', () => {
   assert.deepEqual(list.map((c) => c.id), ['nycc', 'lucca', 'tcc', 'hm', 'june']);
 });
 
-test('year filter includes past cons of that year; all shows everything', () => {
-  assert.ok(applyFilters(CONS, guests, F({ when: '2026' }), TODAY).some((c) => c.id === 'old'));
-  assert.ok(!applyFilters(CONS, guests, F({ when: '2026' }), TODAY).some((c) => c.id === 'june'));
+test('year filter includes past cons of that year; years combine; all shows everything', () => {
+  assert.ok(applyFilters(CONS, guests, F({ when: 'years', years: ['2026'] }), TODAY).some((c) => c.id === 'old'));
+  assert.ok(!applyFilters(CONS, guests, F({ when: 'years', years: ['2026'] }), TODAY).some((c) => c.id === 'june'));
+  assert.equal(applyFilters(CONS, guests, F({ when: 'years', years: ['2026', '2027'] }), TODAY).length, CONS.length);
   assert.equal(applyFilters(CONS, guests, F({ when: 'all' }), TODAY).length, CONS.length);
 });
 
 test('month filter matches cons starting in the month (same rule as the ruler counts)', () => {
-  assert.deepEqual(applyFilters(CONS, guests, F({ month: '2026-11' }), TODAY).map((c) => c.id), []);
-  assert.deepEqual(applyFilters(CONS, guests, F({ month: '2026-10' }), TODAY).map((c) => c.id).sort(), ['lucca', 'nycc']);
+  assert.deepEqual(applyFilters(CONS, guests, F({ months: ['2026-11'] }), TODAY).map((c) => c.id), []);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ months: ['2026-10'] }), TODAY)), ['lucca', 'nycc']);
+  // Several months: any of them.
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ months: ['2026-10', '2027-06'] }), TODAY)), ['june', 'lucca', 'nycc']);
   const fx = facets(CONS, guests, F(), TODAY);
   assert.equal(fx.months.find((m) => m.key === '2026-10').n, 2);
 });
@@ -84,9 +88,28 @@ test('search folds accents and keeps non-Latin scripts', () => {
 });
 
 test('place filters: continent, country, US state', () => {
-  assert.deepEqual(applyFilters(CONS, guests, F({ continent: 'EU' }), TODAY).map((c) => c.id), ['lucca']);
-  assert.deepEqual(applyFilters(CONS, guests, F({ country: 'US' }), TODAY).map((c) => c.id).sort(), ['hm', 'nycc']);
-  assert.deepEqual(applyFilters(CONS, guests, F({ country: 'US', region: 'FL' }), TODAY).map((c) => c.id), ['hm']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ continents: ['EU'] }), TODAY)), ['lucca']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ countries: ['US'] }), TODAY)), ['hm', 'nycc']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ countries: ['US'], regions: ['US-FL'] }), TODAY)), ['hm']);
+});
+
+test('place filters take several values, the most specific choice winning in each branch', () => {
+  // Any of the chosen countries, continents or states.
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ countries: ['IT', 'JP'] }), TODAY)), ['lucca', 'tcc']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ continents: ['EU', 'OC'] }), TODAY)), ['june', 'lucca']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ countries: ['US'], regions: ['US-FL', 'US-NY'] }), TODAY)), ['hm', 'nycc']);
+  // A continent counts as a whole unless one of its countries is chosen: Europe + the US
+  // (in North America) gives every European con plus the US ones.
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ continents: ['EU'], countries: ['US'] }), TODAY)), ['hm', 'lucca', 'nycc']);
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ continents: ['EU', 'AS'], countries: ['JP'] }), TODAY)), ['lucca', 'tcc']);
+  // A state narrows only its own country: Florida + Japan.
+  assert.deepEqual(ids(applyFilters(CONS, guests, F({ countries: ['US', 'JP'], regions: ['US-FL'] }), TODAY)), ['hm', 'tcc']);
+  assert.ok(placeMatch(CONS[0], F()));
+});
+
+test('filters combine: any value within a filter, every filter together', () => {
+  const f = F({ countries: ['US', 'IT'], types: ['anime', 'games'], months: ['2026-10', '2026-12'] });
+  assert.deepEqual(ids(applyFilters(CONS, guests, f, TODAY)), ['hm', 'lucca']);
 });
 
 test('type filter is any-of', () => {
@@ -122,14 +145,20 @@ test('groupByMonth groups a date-sorted list', () => {
 });
 
 test('facets count every option without their own filter', () => {
-  const fx = facets(CONS, guests, F({ continent: 'NA', types: ['anime'] }), TODAY);
+  const fx = facets(CONS, guests, F({ continents: ['NA'], types: ['anime'] }), TODAY);
   assert.deepEqual(fx.continents.map((c) => c.value), ['NA']);
   const t = Object.fromEntries(fx.types.map((x) => [x.value, x.n]));
   assert.equal(t.comics, 1);
   assert.equal(t.anime, 1);
   assert.deepEqual(fx.months, [{ key: '2026-12', n: 1 }]);
-  const us = facets(CONS, guests, F({ country: 'US' }), TODAY);
-  assert.deepEqual(us.regions.map((r) => r.value), ['FL', 'NY']);
+  const us = facets(CONS, guests, F({ countries: ['US'] }), TODAY);
+  assert.deepEqual(us.regions.map((r) => r.value), ['US-FL', 'US-NY']);
+  assert.equal(us.regions[0].group, 'United States');
+  // With several countries chosen, every chosen country's states are offered, each grouped.
+  const two = facets(CONS, guests, F({ countries: ['US', 'AU'], when: 'all' }), TODAY);
+  assert.deepEqual(two.regions.map((r) => r.value), ['US-FL', 'US-NY', 'US-TX', 'AU-NSW']);
+  // The country counts ignore the country filter itself (so other countries stay choosable).
+  assert.deepEqual(us.countries.map((c) => c.value).sort(), ['AU', 'IT', 'JP', 'US']);
 });
 
 test('monthCounts orders months', () => {
@@ -137,16 +166,27 @@ test('monthCounts orders months', () => {
 });
 
 test('URL state round-trips and rejects junk', () => {
-  const f = F({ when: '2027', month: '2027-03', continent: 'EU', country: 'DE', types: ['anime', 'comics'], q: 'oda', guests: true, sort: 'guests' });
+  const f = F({
+    when: 'years', years: ['2026', '2027'], months: ['2027-03', '2027-05'], continents: ['EU', 'AS'], countries: ['DE', 'US'],
+    regions: ['US-CA', 'US-TX'], types: ['anime', 'comics'], q: 'oda', guests: true, sort: 'guests',
+  });
   assert.deepEqual(queryToFilters(filtersToQuery(f)), f);
   assert.equal(filtersToQuery(F()), '');
-  const junk = queryToFilters('when=yesterday&country=ZZ&type=nope,anime&sort=hack&region=XX');
+  // Lists stay readable in shared links.
+  assert.match(filtersToQuery(F({ countries: ['US', 'CA'] })), /^country=US,CA$/);
+  const junk = queryToFilters('when=yesterday&country=ZZ,jp&type=nope,anime&sort=hack&region=XX,US-ZZ&month=2026-13,2026-11');
   assert.equal(junk.when, 'upcoming');
-  assert.equal(junk.country, '');
+  assert.deepEqual(junk.countries, ['JP']);
   assert.deepEqual(junk.types, ['anime']);
   assert.equal(junk.sort, 'date');
-  assert.equal(junk.region, '');
-  assert.equal(queryToFilters('country=us&region=ca').region, 'CA');
+  assert.deepEqual(junk.regions, []);
+  assert.deepEqual(junk.months, ['2026-11']);
+  // Links made before multi-select still open the same view.
+  assert.deepEqual(queryToFilters('country=us&region=ca').regions, ['US-CA']);
+  const old = queryToFilters('when=2027&month=2027-03&continent=EU');
+  assert.deepEqual([old.when, old.years, old.months, old.continents], ['years', ['2027'], ['2027-03'], ['EU']]);
+  // A chosen state brings its country along.
+  assert.deepEqual(queryToFilters('region=US-FL').countries, ['US']);
 });
 
 test('guest index and guest search', () => {
@@ -170,8 +210,13 @@ test('toICS makes an all-day event with an exclusive end and escaped text', () =
 });
 
 test('describeFilters reads like a sentence', () => {
-  assert.equal(describeFilters(F({ types: ['anime'], country: 'JP', when: '2027' })), 'Anime & Manga in Japan in 2027');
+  assert.equal(describeFilters(F({ types: ['anime'], countries: ['JP'], when: 'years', years: ['2027'] })), 'Anime & Manga in Japan in 2027');
   assert.equal(describeFilters(F()), '');
+  assert.equal(
+    describeFilters(F({ types: ['comics', 'anime'], continents: ['EU'], countries: ['US', 'JP'], regions: ['US-CA', 'US-TX'], months: ['2026-10', '2026-12'] })),
+    'Comics or Anime & Manga in Europe, California, Texas or Japan in October 2026 or December 2026',
+  );
+  assert.equal(describeFilters(F({ countries: ['US', 'CA', 'MX', 'JP', 'DE'] })), 'in United States, Canada, Mexico and 2 more places');
 });
 
 test('undated cons: shown only in open date views and filtered by place/type/text', async () => {
@@ -181,11 +226,13 @@ test('undated cons: shown only in open date views and filtered by place/type/tex
     { id: 'connichi', name: 'Connichi', city: 'Wiesbaden', region: '', country: 'DE', types: ['anime'], tba: true, g: [] },
   ];
   assert.ok(showsTBA(F()));
-  assert.ok(!showsTBA(F({ month: '2026-11' })));
-  assert.ok(!showsTBA(F({ when: '2027' })));
+  assert.ok(!showsTBA(F({ months: ['2026-11'] })));
+  assert.ok(!showsTBA(F({ when: 'years', years: ['2027'] })));
   assert.ok(!showsTBA(F({ guests: true })));
   assert.ok(!showsTBA(F({ sort: 'name' })));
-  assert.deepEqual(filterTBA(tba, guests, F({ continent: 'EU' })).map((c) => c.id), ['connichi']);
+  assert.deepEqual(filterTBA(tba, guests, F({ continents: ['EU'] })).map((c) => c.id), ['connichi']);
+  assert.deepEqual(ids(filterTBA(tba, guests, F({ countries: ['US', 'DE'] }))), ['blizzcon', 'connichi']);
+  assert.deepEqual(filterTBA(tba, guests, F({ countries: ['US'], regions: ['US-CA'] })).map((c) => c.id), ['blizzcon']);
   assert.deepEqual(filterTBA(tba, guests, F({ types: ['games'] })).map((c) => c.id), ['blizzcon']);
   assert.deepEqual(filterTBA(tba, guests, F({ q: 'anaheim' })).map((c) => c.id), ['blizzcon']);
 });

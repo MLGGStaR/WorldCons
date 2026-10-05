@@ -593,6 +593,198 @@ main {
 .controls .spacer {
   flex: 1;
 }
+.controls .place {
+  display: contents;
+}
+
+/* Multi-select place pickers: a place pill that opens a panel of checkboxes with counts. */
+.picker {
+  position: relative;
+  display: inline-flex;
+}
+.pick-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  max-width: 240px;
+  padding: 0 12px 0 14px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--ink);
+}
+.pick-btn:hover {
+  border-color: var(--ink-3);
+}
+.pick-sum {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pick-btn .icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  transition: transform 0.15s var(--ease-out);
+}
+.pick-btn[aria-expanded='true'] .icon {
+  transform: rotate(180deg);
+}
+.picker.is-set .pick-btn {
+  background: var(--ink);
+  color: var(--on-ink);
+  border-color: var(--ink);
+}
+.pick-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 35;
+  width: 300px;
+  max-width: calc(100vw - 2 * var(--gutter));
+  display: grid;
+  gap: 4px;
+  padding: 6px;
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: var(--shadow-lift);
+}
+.pick-panel.is-right {
+  left: auto;
+  right: 0;
+}
+.pick-search {
+  position: relative;
+  margin: 2px 2px 4px;
+}
+.pick-search .icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 16px;
+  height: 16px;
+  color: var(--ink-3);
+  pointer-events: none;
+}
+.pick-search input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px 0 36px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-size: 15px;
+}
+.pick-search input:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 0;
+  border-color: transparent;
+}
+.pick-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 320px;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.pick-group {
+  padding: 10px 10px 4px;
+  font-size: 12px;
+  font-weight: 800;
+  font-stretch: 112%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.pick-opt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.pick-opt:hover {
+  background: var(--card-2);
+}
+/* The real checkbox stays focusable for keyboards and screen readers; the box draws it. */
+.pick-opt input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+.pick-opt .box {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1.5px solid var(--ink-3);
+  display: grid;
+  place-items: center;
+}
+.pick-opt .box .icon {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+}
+.pick-opt input:checked ~ .box {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--on-ink);
+}
+.pick-opt input:checked ~ .box .icon {
+  opacity: 1;
+}
+.pick-opt input:focus-visible ~ .box {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.pick-opt .lbl {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pick-opt .n {
+  color: var(--ink-3);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.pick-none {
+  padding: 12px 10px;
+  color: var(--ink-3);
+  font-size: 15px;
+}
+.pick-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 4px 2px;
+  border-top: 1px solid var(--line);
+}
+.pick-foot .btn {
+  height: 34px;
+  padding: 0 16px;
+  border-radius: 17px;
+}
+.reset:disabled {
+  opacity: 0.45;
+  text-decoration: none;
+  cursor: default;
+}
 .filters-btn {
   display: none;
 }
@@ -1529,7 +1721,8 @@ a.ribbon:focus-visible {
   gap: 6px;
   margin-bottom: 20px;
 }
-.cats button {
+.cats button,
+.chips button {
   height: 34px;
   padding: 0 12px;
   border-radius: 17px;
@@ -1539,20 +1732,24 @@ a.ribbon:focus-visible {
   font-size: 15px;
   color: var(--ink-2);
 }
-.cats button span {
+.cats button span,
+.chips button span {
   color: var(--ink-3);
   font-weight: 500;
   margin-left: 4px;
 }
-.cats button:hover {
+.cats button:hover,
+.chips button:hover {
   border-color: var(--ink-3);
 }
-.cats button[aria-pressed='true'] {
+.cats button[aria-pressed='true'],
+.chips button[aria-pressed='true'] {
   background: var(--ink);
   border-color: var(--ink);
   color: var(--on-ink);
 }
-.cats button[aria-pressed='true'] span {
+.cats button[aria-pressed='true'] span,
+.chips button[aria-pressed='true'] span {
   color: inherit;
   opacity: 0.75;
 }
@@ -1896,6 +2093,44 @@ a.cred:hover {
   max-width: none;
   height: 46px;
   border-radius: 12px;
+}
+/* Multi-select groups in the sheet: continent chips, then checkbox lists. */
+.sheet-set {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  display: grid;
+  gap: 8px;
+}
+.sheet-set legend {
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.sheet-list {
+  max-height: 248px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.sheet .pick-search {
+  margin: 0;
+}
+/* Checkbox rows are labels too: keep them rows, not the sheet's stacked field labels. */
+.sheet .pick-opt {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
 }
 .sheet .row {
   display: flex;

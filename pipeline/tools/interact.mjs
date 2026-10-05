@@ -148,6 +148,64 @@ for (const [vname, opts] of [
     await page.waitForTimeout(300);
     check('desktop: skip link keeps the filters', (await page.evaluate(() => location.hash)) === '#/?country=JP');
 
+    // Multi-select: two countries ticked in the Country picker show only those countries.
+    await page.goto(base, { waitUntil: 'networkidle' });
+    await page.waitForSelector('.badge:not(.skel)');
+    await page.click('[data-pick-open="countries"]');
+    await page.waitForSelector('#pick-countries');
+    const two = await page.$$eval('#pick-countries input[data-pick]', (els) => els.slice(0, 2).map((e) => e.value));
+    for (const v of two) {
+      await page.click(`#pick-countries .pick-opt:has(input[value="${v}"])`);
+      await page.waitForTimeout(250);
+    }
+    const hashC = await page.evaluate(() => location.hash);
+    const flags = await page.$$eval('#groups section:not(#m-tba) .badge .flag', (els) => els.map((e) => e.getAttribute('src').replace(/^.*\/(\w+)\.svg$/, '$1').toUpperCase()));
+    check('desktop: two countries can be ticked together', hashC.includes(`country=${two.join(',')}`) && flags.length > 0 && flags.every((f) => two.includes(f)), `${hashC} (${flags.length} badges)`);
+    check('desktop: the picker stays open while ticking', !!(await page.$('#pick-countries')));
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(200);
+    const focusBack = await page.evaluate(() => document.activeElement && document.activeElement.dataset.pickOpen);
+    check('desktop: Escape closes the picker and returns focus', !(await page.$('#pick-countries')) && focusBack === 'countries', `focus on ${focusBack}`);
+    await page.screenshot({ path: join(out, 'desktop-multiselect.png') });
+
+    // The same by keyboard alone: open, tick, arrow down, tick, close.
+    await page.click('[data-k="reset"]');
+    await page.waitForTimeout(300);
+    await page.focus('[data-pick-open="continents"]');
+    await page.keyboard.press('Enter');
+    await page.waitForSelector('#pick-continents');
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(250);
+    await page.keyboard.press('ArrowDown');
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(250);
+    const conts = await page.evaluate(() => new URLSearchParams(location.hash.split('?')[1] || '').get('continent') || '');
+    check('desktop: the keyboard ticks several continents', conts.split(',').filter(Boolean).length === 2, conts);
+    await page.keyboard.press('Escape');
+
+    // Two months on the ruler, and two years.
+    await page.click('[data-k="reset"]');
+    await page.waitForTimeout(300);
+    const months = await page.$$eval('#ruler button[data-month]', (els) => els.slice(0, 3).map((b) => b.dataset.month));
+    await page.click(`#ruler button[data-month="${months[0]}"]`);
+    await page.waitForTimeout(250);
+    await page.click(`#ruler button[data-month="${months[2]}"]`);
+    await page.waitForTimeout(400);
+    const pressed = await page.$$eval('#ruler button[aria-pressed="true"]', (els) => els.map((b) => b.dataset.month));
+    const sections = await page.$$eval('#groups section:not(#m-tba)', (els) => els.map((s) => s.id.replace(/^m-/, '')));
+    check('desktop: two months can be chosen on the ruler', pressed.join() === [months[0], months[2]].join() && sections.join() === [months[0], months[2]].join(), `${pressed} / ${sections}`);
+    await page.click('[data-k="reset"]');
+    await page.waitForTimeout(300);
+    const yrs = await page.$$eval('[data-when]', (els) => els.map((b) => b.dataset.when).filter((v) => /^\d{4}$/.test(v)));
+    if (yrs.length >= 2) {
+      await page.click(`[data-when="${yrs[0]}"]`);
+      await page.waitForTimeout(250);
+      await page.click(`[data-when="${yrs[1]}"]`);
+      await page.waitForTimeout(250);
+      const both = await page.$$eval('[data-when][aria-pressed="true"]', (els) => els.map((b) => b.dataset.when));
+      check('desktop: two years can be chosen together', both.join() === yrs.slice(0, 2).join(), both.join());
+    }
+
     // A malformed id does not break the app.
     await page.goto(`${base}#/con/100%`, { waitUntil: 'networkidle' });
     await page.waitForTimeout(500);
@@ -173,8 +231,23 @@ for (const [vname, opts] of [
     await page.goto(base, { waitUntil: 'networkidle' });
     await page.click('.filters-btn');
     await page.waitForSelector('#sheet[open]');
-    await page.screenshot({ path: join(out, 'mobile-sheet.png') });
     check('mobile: filter sheet opens', true);
+    // Several continents and countries at once from the sheet.
+    const chips = await page.$$eval('#sheet [data-pick-toggle="continents"]', (els) => els.slice(0, 2).map((b) => b.dataset.value));
+    for (const v of chips) {
+      await page.click(`#sheet [data-pick-toggle="continents"][data-value="${v}"]`);
+      await page.waitForTimeout(250);
+    }
+    const chipsOn = await page.$$eval('#sheet [data-pick-toggle="continents"][aria-pressed="true"]', (els) => els.length);
+    const rows = await page.$$eval('#sheet input[data-pick="countries"]', (els) => els.slice(0, 2).map((e) => e.value));
+    for (const v of rows) {
+      await page.click(`#sheet .pick-opt:has(input[value="${v}"])`);
+      await page.waitForTimeout(250);
+    }
+    const ticked = await page.$$eval('#sheet input[data-pick="countries"]:checked', (els) => els.length);
+    const show = await page.$eval('#sheet button[type="submit"]', (b) => b.textContent);
+    check('mobile: the sheet takes several continents and countries', chipsOn === 2 && ticked === 2 && /Show [1-9]/.test(show), `${chipsOn} chips, ${ticked} countries, "${show}"`);
+    await page.screenshot({ path: join(out, 'mobile-sheet.png') });
   }
   check(`${vname}: no page errors`, errors.length === 0, errors.join(' | '));
   await ctx.close();

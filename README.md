@@ -10,9 +10,12 @@ Live site: https://mlggstar.github.io/WorldCons/
 
 - Upcoming cons by start date, grouped by month, each shown as a con badge with its
   key art, dates, place, type ribbons and a strip of guest faces.
-- Filters: when (upcoming / year / all), month ruler, continent, country, US state
+- Filters: when (upcoming / years / all), month ruler, continent, country, US state
   (plus Canadian provinces and Australian states), con type, "with guests", sort by
-  date, name or guest count. Every view is a shareable URL.
+  date, name or guest count. Every filter takes several values (any of them within a
+  filter, all filters together: comics or anime, in Japan or Korea, in October or May);
+  the most specific place wins in each branch (Europe + United States + California =
+  all of Europe plus California). Every view is a shareable URL.
 - Search across cons, cities and guests; guest suggestions show their photo.
 - Con page: dates, venue, map, official site, tickets, and the full guest wall
   (photo credentials, grouped by actors, voice actors, comics, authors …).

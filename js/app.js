@@ -41,6 +41,8 @@ const S = {
   view: 'list',
   listScroll: 0,
   wall: { cat: '', q: '' },
+  pick: { open: null, q: '', sheetQ: '' }, // the open place picker and its search text
+  fx: null, // the last facet counts, so a picker can re-render without refiltering
 };
 
 // ---- storage ----------------------------------------------------------------------------
@@ -132,7 +134,7 @@ function ribbonsHTML(c, asLinks = false) {
     .slice(0, 3)
     .map((t) =>
       asLinks
-        ? `<a class="ribbon r-${t}" href="${listHref({ ...M.DEFAULT_FILTERS, types: [t] })}" title="All ${esc(M.TYPES[t])} cons">${SHORT_TYPE[t]}</a>`
+        ? `<a class="ribbon r-${t}" href="${listHref({ ...M.blankFilters(), types: [t] })}" title="All ${esc(M.TYPES[t])} cons">${SHORT_TYPE[t]}</a>`
         : `<button class="ribbon r-${t}" type="button" data-type="${t}" title="Show only ${esc(M.TYPES[t])} cons">${SHORT_TYPE[t]}</button>`,
     )
     .join('')}</div>`;
@@ -225,54 +227,132 @@ function keepFocus(container, render) {
   }
 }
 
-function selectHTML(k, label, options, value, placeholder, disabled = false) {
-  const opts = [`<option value="">${esc(placeholder)}</option>`]
-    .concat(options.map((o) => `<option value="${esc(o.value)}"${o.value === value ? ' selected' : ''}>${esc(o.label)} (${num(o.n)})</option>`))
-    .join('');
-  return `<label class="select${value ? ' is-set' : ''}"><span class="sr-only">${esc(label)}</span><select data-k="${k}"${disabled ? ' disabled' : ''}>${opts}</select>${icon('chevron-down')}</label>`;
+// ---- multi-select place pickers ---------------------------------------------------------------
+// Continent, country and state each take several values. On wide screens each is a pill that
+// opens a panel of checkboxes with counts (and a search box for long lists); on phones the same
+// rows sit in the filter sheet.
+
+const PICK = {
+  continents: { one: 'continent', many: 'continents', all: 'All continents' },
+  countries: { one: 'country', many: 'countries', all: 'All countries' },
+  regions: { one: 'state', many: 'states', all: 'Any state' },
+};
+
+// What "state" means for the chosen countries: Canada has provinces, the US and Australia states.
+function regionWords() {
+  const ks = new Set(S.f.countries.filter((k) => REGIONS[k]));
+  if (ks.size === 1 && ks.has('CA')) return { one: 'province', many: 'provinces', all: 'Any province' };
+  if (ks.has('CA') && ks.size > 1) return { one: 'state or province', many: 'states and provinces', all: 'Any state or province' };
+  return PICK.regions;
+}
+const pickWords = (kind) => (kind === 'regions' ? regionWords() : PICK[kind]);
+
+// The options for a picker, keeping every chosen value listed even when the other filters
+// leave it with no cons (so it can still be unticked).
+function pickOptions(kind, fx) {
+  const chosen = S.f[kind];
+  const list = fx[kind] || [];
+  const missing = chosen.filter((v) => !list.some((o) => o.value === v));
+  const extra = missing.map((v) => {
+    if (kind === 'continents') return { value: v, label: CONTINENTS[v] || v, n: 0 };
+    if (kind === 'countries') return { value: v, label: countryName(v), n: 0 };
+    const k = v.slice(0, v.indexOf('-'));
+    return { value: v, label: regionName(k, v.slice(k.length + 1)), group: countryName(k), country: k, n: 0 };
+  });
+  const all = [...list, ...extra];
+  if (kind === 'countries' && extra.length) all.sort((a, b) => a.label.localeCompare(b.label));
+  if (kind === 'regions' && extra.length) all.sort((a, b) => a.group.localeCompare(b.group) || a.label.localeCompare(b.label));
+  return all;
 }
 
-// Keep the chosen value listed even when the other filters leave it with zero cons.
-const ensure = (list, value, label) => (value && !list.some((o) => o.value === value) ? [...list, { value, label, n: 0 }] : list);
-
-function placeOptions(fx) {
-  const f = S.f;
-  return {
-    continents: ensure(fx.continents, f.continent, CONTINENTS[f.continent]),
-    countries: ensure(fx.countries, f.country, countryName(f.country)),
-    regions: ensure(fx.regions, f.region, regionName(f.country, f.region)),
-  };
+function pickSummary(kind, opts) {
+  const chosen = S.f[kind];
+  const words = pickWords(kind);
+  if (!chosen.length) return words.all;
+  const labels = chosen.map((v) => (opts.find((o) => o.value === v) || { label: v }).label);
+  if (labels.length === 1) return labels[0];
+  const two = labels.join(', ');
+  return labels.length === 2 && two.length <= 22 ? two : `${labels.length} ${words.many}`;
 }
 
-function placeSelects(fx) {
-  const f = S.f;
-  const { continents, countries, regions } = placeOptions(fx);
-  const regionWord = f.country === 'US' ? 'state' : f.country === 'CA' ? 'province' : 'state';
-  return [
-    selectHTML('continent', 'Continent', continents, f.continent, 'All continents'),
-    selectHTML('country', 'Country', countries, f.country, f.continent ? `All of ${CONTINENTS[f.continent]}` : 'All countries'),
-    REGIONS[f.country] ? selectHTML('region', regionWord, regions, f.region, `Any ${regionWord}`) : '',
-  ].join('');
+// Checkbox rows, grouped (states under their country), filtered by the search text.
+function pickRowsHTML(kind, opts, q) {
+  const fq = M.fold(q);
+  const shown = fq ? opts.filter((o) => M.fold(`${o.label} ${o.group || ''}`).includes(fq)) : opts;
+  const chosen = new Set(S.f[kind]);
+  const rows = [];
+  let group = '';
+  for (const o of shown) {
+    if (o.group && o.group !== group && new Set(opts.map((x) => x.group)).size > 1) {
+      group = o.group;
+      rows.push(`<li class="pick-group" aria-hidden="true">${esc(group)}</li>`);
+    }
+    rows.push(
+      `<li><label class="pick-opt"><input type="checkbox" data-k="pk-${kind}-${esc(o.value)}" data-pick="${kind}" value="${esc(o.value)}"${
+        chosen.has(o.value) ? ' checked' : ''
+      }><span class="box" aria-hidden="true">${icon('check')}</span>${kind === 'countries' ? flagImg(o.value) : ''}<span class="lbl">${esc(o.label)}${
+        o.group && kind === 'regions' ? `<span class="sr-only">, ${esc(o.group)}</span>` : ''
+      }</span><span class="n">${num(o.n)}</span></label></li>`,
+    );
+  }
+  if (!rows.length) rows.push(`<li class="pick-none">No ${esc(pickWords(kind).one)} matches “${esc(q)}”</li>`);
+  return rows.join('');
+}
+
+function pickSearchHTML(kind, key, value) {
+  const words = pickWords(kind);
+  return `<div class="pick-search">${icon('search')}<input type="search" data-k="${key}" data-pick-q="${kind}" value="${esc(value)}" placeholder="Find a ${esc(words.one)}" aria-label="Find a ${esc(words.one)}" autocomplete="off" spellcheck="false"></div>`;
+}
+
+function pickerHTML(kind, fx) {
+  const opts = pickOptions(kind, fx);
+  const open = S.pick.open === kind;
+  const words = pickWords(kind);
+  const label = words.one[0].toUpperCase() + words.one.slice(1);
+  const n = S.f[kind].length;
+  const panel = open
+    ? `<div class="pick-panel" id="pick-${kind}" role="group" aria-label="${esc(label)}">
+        ${opts.length > 8 ? pickSearchHTML(kind, `pkq-${kind}`, S.pick.q) : ''}
+        <ul class="pick-list">${pickRowsHTML(kind, opts, S.pick.q)}</ul>
+        <div class="pick-foot"><button type="button" class="reset" data-k="pkc-${kind}" data-pick-clear="${kind}"${n ? '' : ' disabled'}>Clear</button><button type="button" class="btn" data-k="pkd-${kind}" data-pick-done>Done</button></div>
+      </div>`
+    : '';
+  return `<div class="picker${n ? ' is-set' : ''}" data-picker="${kind}">
+    <button type="button" class="pick-btn" data-k="pick-${kind}" data-pick-open="${kind}" aria-expanded="${open}" aria-controls="pick-${kind}"><span class="sr-only">${esc(label)}: </span><span class="pick-sum">${esc(
+      pickSummary(kind, opts),
+    )}</span>${icon('chevron-down')}</button>${panel}
+  </div>`;
+}
+
+function placePickers(fx) {
+  const hasRegions = S.f.countries.some((k) => REGIONS[k]);
+  return ['continents', 'countries', ...(hasRegions ? ['regions'] : [])].map((k) => pickerHTML(k, fx)).join('');
 }
 
 function activeFilterCount() {
   const f = S.f;
-  return [f.continent, f.country, f.region, f.guests].filter(Boolean).length;
+  return f.continents.length + f.countries.length + f.regions.length + (f.guests ? 1 : 0);
 }
+
+const yearPressed = (v) => (v === 'upcoming' || v === 'all' ? S.f.when === v : S.f.when === 'years' && S.f.years.includes(v));
 
 function renderControls(fx) {
   const f = S.f;
+  S.fx = fx;
   const years = M.yearsIn(S.cons).filter((y) => y >= Number(S.today.slice(0, 4)));
   const when = [['upcoming', 'Upcoming'], ...years.map((y) => [String(y), String(y)]), ['all', 'All']];
   const anyFilter = M.filtersToQuery({ ...f, sort: 'date' }) !== '';
   const nPlace = activeFilterCount();
   const el = $('#controls');
+  // An open panel keeps its scroll position across the re-render a tick causes.
+  const list = el.querySelector('.pick-list');
+  const scroll = list ? list.scrollTop : 0;
   keepFocus(el, () => {
     el.innerHTML = `
       <div class="seg" role="group" aria-label="When">${when
-        .map(([v, label]) => `<button type="button" data-k="when-${v}" data-when="${v}" aria-pressed="${f.when === v}">${label}</button>`)
+        .map(([v, label]) => `<button type="button" data-k="when-${v}" data-when="${v}" aria-pressed="${yearPressed(v)}">${label}</button>`)
         .join('')}</div>
-      <span class="place">${placeSelects(fx)}</span>
+      <span class="place">${placePickers(fx)}</span>
       <button type="button" class="toggle guests-toggle" data-k="guests" aria-pressed="${f.guests}"><span class="box">${icon('check')}</span>With guests</button>
       <button type="button" class="toggle filters-btn" data-k="sheet" aria-haspopup="dialog">${icon('sliders-horizontal')}Filters${nPlace ? ` · ${nPlace}` : ''}</button>
       <span class="spacer"></span>
@@ -283,6 +363,43 @@ function renderControls(fx) {
         <option value="name"${f.sort === 'name' ? ' selected' : ''}>Sort: Name</option>
       </select>${icon('arrow-up-down')}</label>`;
   });
+  const panel = el.querySelector('.pick-panel');
+  if (panel) {
+    const again = panel.querySelector('.pick-list');
+    if (again) again.scrollTop = scroll;
+    // Keep the panel on screen when its pill sits near the right edge.
+    if (panel.getBoundingClientRect().right > document.documentElement.clientWidth - 8) panel.classList.add('is-right');
+  }
+}
+
+function openPicker(kind) {
+  S.pick.open = S.pick.open === kind ? null : kind;
+  S.pick.q = '';
+  renderControls(S.fx);
+  if (S.pick.open) {
+    const first = $(`#pick-${kind} [data-pick-q]`) || $(`#pick-${kind} input[data-pick]`);
+    if (first) first.focus({ preventScroll: true });
+  }
+}
+
+function closePicker(focusButton = false) {
+  const kind = S.pick.open;
+  if (!kind) return;
+  S.pick.open = null;
+  S.pick.q = '';
+  if (S.fx) renderControls(S.fx);
+  if (focusButton) {
+    const b = $(`[data-pick-open="${kind}"]`);
+    if (b) b.focus({ preventScroll: true });
+  }
+}
+
+// Tick or untick one value of a multi-value filter.
+function toggleValue(kind, value, on) {
+  const set = new Set(S.f[kind]);
+  if (on === undefined ? !set.has(value) : on) set.add(value);
+  else set.delete(value);
+  setFilters({ [kind]: [...set] }, { toTop: false });
 }
 
 function renderRibbonRow(fx) {
@@ -316,7 +433,7 @@ function renderRuler(fx) {
       year = y;
       items.push(`<li class="year" aria-hidden="true">${y}</li>`);
     }
-    const on = S.f.month === m.key;
+    const on = S.f.months.includes(m.key);
     items.push(
       `<li><button type="button" data-k="m-${m.key}" data-month="${m.key}" aria-pressed="${on}" aria-label="${esc(M.monthLabel(m.key))}: ${plural(m.n, 'con')}"><b>${M.monthShort(
         m.key,
@@ -455,9 +572,13 @@ function listKeyNow() {
 
 function setFilters(patch, { toTop = true } = {}) {
   const f = { ...S.f, ...patch };
-  if ('continent' in patch && f.country && continentOf(f.country) !== f.continent && f.continent) f.country = '';
-  if ('continent' in patch || 'country' in patch) f.region = patch.region || '';
-  if ('country' in patch && patch.country) f.continent = continentOf(patch.country) || f.continent;
+  // A state goes when its country is unticked.
+  if ('countries' in patch) f.regions = f.regions.filter((r) => f.countries.includes(r.slice(0, r.indexOf('-'))));
+  // Months only make sense inside the chosen years (or from this month on, for Upcoming).
+  if ('when' in patch || 'years' in patch) {
+    if (f.when === 'years') f.months = f.months.filter((m) => f.years.includes(m.slice(0, 4)));
+    else if (f.when === 'upcoming') f.months = f.months.filter((m) => m >= S.today.slice(0, 7));
+  }
   S.f = f;
   const href = listHref(f);
   if (S.view === 'list') history.replaceState(null, '', href);
@@ -477,13 +598,32 @@ function renderSheet() {
   const n = M.applyFilters(S.cons, S.guests, S.f, S.today).length;
   const f = S.f;
   const form = $('#sheet-form');
-  const opts = placeOptions(fx);
+  const sheet = $('#sheet');
+  // Ticking re-renders the sheet: keep the lists and the sheet where they were scrolled to.
+  const scrolls = [...form.querySelectorAll('.sheet-list')].map((l) => l.scrollTop);
+  const top = sheet.scrollTop;
+  const continents = pickOptions('continents', fx);
+  const countries = pickOptions('countries', fx);
+  const regions = f.countries.some((k) => REGIONS[k]) ? pickOptions('regions', fx) : [];
+  const rw = regionWords().one;
+  const chosen = (n) => (n ? ` · ${n} chosen` : '');
   keepFocus(form, () => {
     form.innerHTML = `<div class="sheet-grip"></div>
       <div class="row"><h2 id="sheet-title">Filters</h2><button type="button" class="reset" data-k="sreset" data-sheet-reset>Reset</button></div>
-      <label>Continent${selectHTML('continent', 'Continent', opts.continents, f.continent, 'All continents')}</label>
-      <label>Country${selectHTML('country', 'Country', opts.countries, f.country, 'All countries')}</label>
-      ${REGIONS[f.country] ? `<label>${f.country === 'CA' ? 'Province' : 'State'}${selectHTML('region', 'State', opts.regions, f.region, 'Any')}</label>` : ''}
+      <fieldset class="sheet-set"><legend>Continent${chosen(f.continents.length)}</legend><div class="chips">${continents
+        .map(
+          (o) =>
+            `<button type="button" data-k="sc-${o.value}" data-pick-toggle="continents" data-value="${o.value}" aria-pressed="${f.continents.includes(o.value)}">${esc(o.label)}<span>${num(o.n)}</span></button>`,
+        )
+        .join('')}</div></fieldset>
+      <fieldset class="sheet-set"><legend>Country${chosen(f.countries.length)}</legend>${
+        countries.length > 8 ? pickSearchHTML('countries', 'sq-countries', S.pick.sheetQ) : ''
+      }<ul class="pick-list sheet-list">${pickRowsHTML('countries', countries, S.pick.sheetQ)}</ul></fieldset>
+      ${
+        regions.length
+          ? `<fieldset class="sheet-set"><legend>${esc(rw[0].toUpperCase() + rw.slice(1))}${chosen(f.regions.length)}</legend><ul class="pick-list sheet-list">${pickRowsHTML('regions', regions, '')}</ul></fieldset>`
+          : ''
+      }
       <button type="button" class="toggle" data-k="guests" aria-pressed="${f.guests}"><span class="box">${icon('check')}</span>Only cons with guests announced</button>
       <label>Sort<span class="select"><select data-k="sort">
         <option value="date"${f.sort === 'date' ? ' selected' : ''}>Date, soonest first</option>
@@ -492,6 +632,8 @@ function renderSheet() {
       </select>${icon('chevron-down')}</span></label>
       <button type="submit" class="btn" value="done">Show ${plural(n, 'convention')}</button>`;
   });
+  form.querySelectorAll('.sheet-list').forEach((l, i) => (l.scrollTop = scrolls[i] || 0));
+  sheet.scrollTop = top;
 }
 
 // ---- con page -----------------------------------------------------------------------------------
@@ -921,7 +1063,7 @@ function renderSuggest() {
   if (!S.ready || q.length < 2) return closeSuggest();
   const guests = M.searchGuests(S.guests, S.index, q, 5);
   const cons = conMatches(q, 5);
-  const all = M.applyFilters(S.cons, S.guests, { ...M.DEFAULT_FILTERS, types: [], q }, S.today).length;
+  const all = M.applyFilters(S.cons, S.guests, { ...M.blankFilters(), q }, S.today).length;
   suggestItems = [];
   let html = '';
   if (guests.length) {
@@ -978,7 +1120,7 @@ function applySearch() {
   closeSuggest();
   qInput.blur();
   if (S.view !== 'list') {
-    S.f = { ...M.DEFAULT_FILTERS, types: [], q };
+    S.f = { ...M.blankFilters(), q };
     location.hash = listHref(S.f);
   } else setFilters({ q });
 }
@@ -1044,9 +1186,31 @@ document.addEventListener('click', (e) => {
     return;
   }
   const when = t.closest('[data-when]');
-  if (when) return setFilters({ when: when.dataset.when, month: '' });
+  if (when) {
+    const v = when.dataset.when;
+    if (v === 'upcoming' || v === 'all') return setFilters({ when: v, years: [] });
+    // Years combine: 2026 and 2027 together; unticking the last one goes back to Upcoming.
+    const set = new Set(S.f.when === 'years' ? S.f.years : []);
+    if (set.has(v)) set.delete(v);
+    else set.add(v);
+    const years = [...set].sort();
+    return setFilters(years.length ? { when: 'years', years } : { when: 'upcoming', years: [] });
+  }
   const month = t.closest('[data-month]');
-  if (month) return setFilters({ month: S.f.month === month.dataset.month ? '' : month.dataset.month });
+  if (month) return toggleValue('months', month.dataset.month);
+  const pickOpen = t.closest('[data-pick-open]');
+  if (pickOpen) return openPicker(pickOpen.dataset.pickOpen);
+  const pickClear = t.closest('[data-pick-clear]');
+  if (pickClear) {
+    const kind = pickClear.dataset.pickClear;
+    setFilters({ [kind]: [] }, { toTop: false });
+    const first = $(`#pick-${kind} [data-pick-q]`) || $(`#pick-${kind} input[data-pick]`);
+    if (first) first.focus({ preventScroll: true });
+    return;
+  }
+  if (t.closest('[data-pick-done]')) return closePicker(true);
+  const pickToggle = t.closest('[data-pick-toggle]');
+  if (pickToggle) return toggleValue(pickToggle.dataset.pickToggle, pickToggle.dataset.value);
   const typeToggle = t.closest('[data-type-toggle]');
   if (typeToggle) {
     const v = typeToggle.dataset.typeToggle;
@@ -1060,9 +1224,13 @@ document.addEventListener('click', (e) => {
   if (t.closest('[data-k="guests"]')) return setFilters({ guests: !S.f.guests }, { toTop: false });
   if (t.closest('[data-k="reset"]') || t.closest('[data-reset]')) {
     qInput.value = '';
-    return setFilters({ ...M.DEFAULT_FILTERS, types: [] });
+    S.pick.open = null;
+    return setFilters(M.blankFilters());
   }
-  if (t.closest('[data-sheet-reset]')) return setFilters({ continent: '', country: '', region: '', guests: false });
+  if (t.closest('[data-sheet-reset]')) {
+    S.pick.sheetQ = '';
+    return setFilters({ continents: [], countries: [], regions: [], guests: false });
+  }
   if (t.closest('[data-k="sheet"]')) {
     renderSheet();
     $('#sheet').showModal();
@@ -1120,18 +1288,59 @@ document.addEventListener('click', (e) => {
 });
 
 document.addEventListener('change', (e) => {
+  const box = e.target.closest('input[data-pick]');
+  if (box) return toggleValue(box.dataset.pick, box.value, box.checked);
   const sel = e.target.closest('select[data-k]');
-  if (!sel) return;
-  const k = sel.dataset.k;
-  if (k === 'sort') return setFilters({ sort: sel.value }, { toTop: false });
-  if (k === 'continent') return setFilters({ continent: sel.value });
-  if (k === 'country') return setFilters({ country: sel.value });
-  if (k === 'region') return setFilters({ region: sel.value });
+  if (sel && sel.dataset.k === 'sort') setFilters({ sort: sel.value }, { toTop: false });
+});
+
+// A click anywhere outside an open place picker closes it.
+document.addEventListener('pointerdown', (e) => {
+  if (S.pick.open && !e.target.closest('.picker')) closePicker();
+});
+
+// Inside a picker: arrows move between the checkboxes (and up into the search box), Escape
+// closes it, and Enter in the search box ticks the first match.
+document.addEventListener('keydown', (e) => {
+  const picker = e.target.closest && e.target.closest('.picker, .sheet-set');
+  if (!picker) return;
+  if (e.key === 'Escape' && picker.matches('.picker') && S.pick.open) {
+    e.preventDefault();
+    closePicker(true);
+    return;
+  }
+  const boxes = [...picker.querySelectorAll('input[data-pick]')];
+  const search = picker.querySelector('[data-pick-q]');
+  if (e.key === 'Enter' && e.target === search) {
+    e.preventDefault();
+    if (boxes[0]) toggleValue(boxes[0].dataset.pick, boxes[0].value, !boxes[0].checked);
+    return;
+  }
+  if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(e.key) || !boxes.length) return;
+  if (e.target !== search && !boxes.includes(e.target)) return;
+  e.preventDefault();
+  const i = boxes.indexOf(e.target);
+  const j = e.key === 'Home' ? 0 : e.key === 'End' ? boxes.length - 1 : e.key === 'ArrowDown' ? Math.min(boxes.length - 1, i + 1) : i - 1;
+  if (j < 0 && search) search.focus();
+  else boxes[Math.max(0, j)].focus();
 });
 
 let dirTimer = 0;
 let wallTimer = 0;
 document.addEventListener('input', (e) => {
+  // Typing in a picker's search box narrows its list in place (the box itself is kept).
+  const pq = e.target.closest && e.target.closest('[data-pick-q]');
+  if (pq) {
+    const kind = pq.dataset.pickQ;
+    if (pq.dataset.k.startsWith('sq-')) S.pick.sheetQ = pq.value;
+    else S.pick.q = pq.value;
+    const list = pq.closest('.pick-panel, .sheet-set').querySelector('.pick-list');
+    if (list && S.fx) {
+      list.innerHTML = pickRowsHTML(kind, pickOptions(kind, S.fx), pq.value);
+      list.scrollTop = 0;
+    }
+    return;
+  }
   if (e.target.id === 'dir-q') {
     clearTimeout(dirTimer);
     dirTimer = setTimeout(() => {
@@ -1208,6 +1417,7 @@ function route() {
   if (prev === 'guests' && r.view !== 'guests' && S.dir) S.dirState = { qs: dirQuery(), shown: S.dir.shown, y: scrollY };
   S.view = r.view;
   closeSuggest();
+  if (r.view !== 'list') S.pick.open = null;
   $('.nav-guests').setAttribute('aria-current', r.view === 'guests' ? 'page' : 'false');
   $('.lanyard-link:not(.nav-guests)').setAttribute('aria-current', r.view === 'lanyard' ? 'page' : 'false');
   const listEl = $('#view-list');
