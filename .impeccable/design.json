@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T02:19:32.243Z",
+  "generatedAt": "2026-10-05T10:21:58.479Z",
   "title": "Design System: WorldCons",
   "extensions": {
     "colorMeta": {
@@ -650,7 +650,7 @@
       {
         "name": "laminate-lift",
         "value": "0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38)",
-        "purpose": "Hovered badge or credential (with a 3px rise), the suggestion panel and the toast (light theme)."
+        "purpose": "Hovered badge or credential (with a 3px rise) and the three popovers: the suggestion panel, the place picker panel and the toast (light theme)."
       },
       {
         "name": "laminate-lift-dark",
@@ -688,6 +688,11 @@
         "name": "press",
         "value": "0.15s transform",
         "purpose": "Buttons rise 1px on hover and settle on press."
+      },
+      {
+        "name": "chevron-turn",
+        "value": "0.15s ease-out: rotate(180deg)",
+        "purpose": "A place picker chevron turns over while its panel is open."
       },
       {
         "name": "tint",
@@ -781,7 +786,7 @@
       "name": "Guest-type Chips",
       "kind": "chip",
       "refersTo": "chip",
-      "description": "Role filters over a guest wall or the directory: hairline pills with a quiet count; pressed fills ink.",
+      "description": "Role filters over a guest wall or the directory: hairline pills with a quiet count; pressed fills ink. The phone filter sheet uses the same chips for continents, several pressed at once.",
       "html": "<div class=\"ds-chips\" role=\"group\" aria-label=\"Guest type\"><button type=\"button\" aria-pressed=\"true\">All<span>455</span></button><button type=\"button\" aria-pressed=\"false\">Actors<span>52</span></button><button type=\"button\" aria-pressed=\"false\">Voice actors<span>41</span></button><button type=\"button\" aria-pressed=\"false\">Comics<span>209</span></button></div>",
       "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:6px;font-variant-numeric:tabular-nums}.ds-chips button{height:34px;padding:0 12px;border-radius:17px;border:1px solid var(--line,#d2d7de);background:var(--card,#ffffff);color:var(--ink-2,#353a43);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);cursor:pointer}.ds-chips button span{margin-left:4px;color:var(--ink-3,#5a616c);font-weight:500}.ds-chips button:hover{border-color:var(--ink-3,#5a616c)}.ds-chips button[aria-pressed=\"true\"]{background:var(--ink,#121418);border-color:var(--ink,#121418);color:var(--on-ink,#ffffff)}.ds-chips button[aria-pressed=\"true\"] span{color:inherit;opacity:.75}.ds-chips button:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}"
     },
@@ -789,9 +794,17 @@
       "name": "When Segments",
       "kind": "chip",
       "refersTo": "segment",
-      "description": "The When control: a Laminate White pill track with an inset hairline ring; the pressed segment fills ink.",
-      "html": "<div class=\"ds-seg\" role=\"group\" aria-label=\"When\"><button type=\"button\" aria-pressed=\"true\">Upcoming</button><button type=\"button\" aria-pressed=\"false\">2026</button><button type=\"button\" aria-pressed=\"false\">2027</button><button type=\"button\" aria-pressed=\"false\">All</button></div>",
+      "description": "The When control: a Laminate White pill track with an inset hairline ring; pressed segments fill ink. Upcoming and All are exclusive; years toggle and combine (shown: 2026 + 2027), and unticking the last year returns to Upcoming.",
+      "html": "<div class=\"ds-seg\" role=\"group\" aria-label=\"When\"><button type=\"button\" aria-pressed=\"false\">Upcoming</button><button type=\"button\" aria-pressed=\"true\">2026</button><button type=\"button\" aria-pressed=\"true\">2027</button><button type=\"button\" aria-pressed=\"false\">All</button></div>",
       "css": ".ds-seg{display:inline-flex;padding:3px;border-radius:21px;background:var(--card,#ffffff);box-shadow:inset 0 0 0 1px var(--line,#d2d7de)}.ds-seg button{height:34px;padding:0 14px;border:0;border-radius:17px;background:transparent;color:var(--ink-2,#353a43);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);font-variant-numeric:tabular-nums;white-space:nowrap;cursor:pointer}.ds-seg button:hover{color:var(--ink,#121418)}.ds-seg button[aria-pressed=\"true\"]{background:var(--ink,#121418);color:var(--on-ink,#ffffff)}.ds-seg button:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}"
+    },
+    {
+      "name": "Place Picker",
+      "kind": "input",
+      "refersTo": "place-picker",
+      "description": "Multi-select place filter (continent, country, state or province): a 40px pill that fills with ink once anything is chosen and reads the choice, opening a 300px popover of 40px checkbox rows with flags and counts, a search pill past 8 options, and a Clear / Done footer. Arrows move between rows, Escape closes, Enter in the search ticks the first match.",
+      "html": "<div class=\"ds-picker-stage\"><div class=\"ds-picker is-set\"><button type=\"button\" class=\"ds-pick-btn\" aria-expanded=\"true\" aria-controls=\"ds-pick-countries\"><span class=\"ds-pick-sum\">Germany, Japan</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button><div class=\"ds-pick-panel\" id=\"ds-pick-countries\" role=\"group\" aria-label=\"Country\"><div class=\"ds-pick-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg><input type=\"search\" placeholder=\"Find a country\" aria-label=\"Find a country\" autocomplete=\"off\"></div><ul class=\"ds-pick-list\"><li><label class=\"ds-pick-opt\"><input type=\"checkbox\"><span class=\"ds-pick-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-pick-flag ds-flag-fr\" aria-hidden=\"true\"></span><span class=\"ds-pick-lbl\">France</span><span class=\"ds-pick-n\">8</span></label></li><li><label class=\"ds-pick-opt\"><input type=\"checkbox\" checked><span class=\"ds-pick-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-pick-flag ds-flag-de\" aria-hidden=\"true\"></span><span class=\"ds-pick-lbl\">Germany</span><span class=\"ds-pick-n\">12</span></label></li><li><label class=\"ds-pick-opt\"><input type=\"checkbox\"><span class=\"ds-pick-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-pick-flag ds-flag-it\" aria-hidden=\"true\"></span><span class=\"ds-pick-lbl\">Italy</span><span class=\"ds-pick-n\">8</span></label></li><li><label class=\"ds-pick-opt\"><input type=\"checkbox\" checked><span class=\"ds-pick-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-pick-flag ds-flag-jp\" aria-hidden=\"true\"></span><span class=\"ds-pick-lbl\">Japan</span><span class=\"ds-pick-n\">17</span></label></li></ul><div class=\"ds-pick-foot\"><button type=\"button\" class=\"ds-pick-clear\">Clear</button><button type=\"button\" class=\"ds-pick-done\">Done</button></div></div></div></div>",
+      "css": ".ds-picker-stage{min-height:340px;padding:4px;font-family:var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);font-variant-numeric:tabular-nums}.ds-picker{position:relative;display:inline-flex}.ds-pick-btn{display:inline-flex;align-items:center;gap:8px;height:40px;max-width:240px;padding:0 12px 0 14px;border-radius:20px;border:1px solid var(--line,#d2d7de);background:var(--card,#ffffff);color:var(--ink,#121418);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);cursor:pointer}.ds-pick-btn:hover{border-color:var(--ink-3,#5a616c)}.ds-pick-btn:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}.ds-pick-sum{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-pick-btn svg{width:16px;height:16px;flex:none;transition:transform .15s cubic-bezier(0.16, 1, 0.3, 1);fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.ds-pick-btn[aria-expanded=\"true\"] svg{transform:rotate(180deg)}.ds-picker.is-set .ds-pick-btn{background:var(--ink,#121418);color:var(--on-ink,#ffffff);border-color:var(--ink,#121418)}.ds-pick-panel{position:absolute;top:calc(100% + 8px);left:0;z-index:35;width:300px;max-width:calc(100vw - 32px);display:grid;gap:4px;padding:6px;border-radius:14px;background:var(--card,#ffffff);color:var(--ink,#121418);box-shadow:var(--shadow-lift, 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38))}.ds-pick-search{position:relative;margin:2px 2px 4px}.ds-pick-search svg{position:absolute;left:12px;top:50%;translate:0 -50%;width:16px;height:16px;color:var(--ink-3,#5a616c);pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.ds-pick-search input{box-sizing:border-box;width:100%;height:40px;padding:0 12px 0 36px;border-radius:20px;border:1px solid var(--line,#d2d7de);background:var(--card,#ffffff);color:var(--ink,#121418);font:400 15px/1.5 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);-webkit-appearance:none;appearance:none}.ds-pick-search input:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:0;border-color:transparent}.ds-pick-list{list-style:none;margin:0;padding:0;max-height:320px;overflow:auto;overscroll-behavior:contain}.ds-pick-opt{position:relative;display:flex;align-items:center;gap:10px;min-height:40px;padding:0 10px;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer}.ds-pick-opt:hover{background:var(--card-2,#f4f6f8)}.ds-pick-opt input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}.ds-pick-box{box-sizing:border-box;flex:none;width:20px;height:20px;border-radius:6px;border:1.5px solid var(--ink-3,#5a616c);display:grid;place-items:center}.ds-pick-box svg{width:14px;height:14px;opacity:0;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.ds-pick-opt input:checked~.ds-pick-box{background:var(--ink,#121418);border-color:var(--ink,#121418);color:var(--on-ink,#ffffff)}.ds-pick-opt input:checked~.ds-pick-box svg{opacity:1}.ds-pick-opt input:focus-visible~.ds-pick-box{outline:2px solid var(--focus,#121418);outline-offset:2px}.ds-pick-flag{flex:none;width:18px;height:13.5px;border-radius:2px;box-shadow:0 0 0 1px rgb(0 0 0 / 0.08)}.ds-flag-fr{background:linear-gradient(90deg,#0055a4 0 33.4%,#ffffff 33.4% 66.6%,#ef4135 66.6%)}.ds-flag-de{background:linear-gradient(#000000 0 33.4%,#dd0000 33.4% 66.6%,#ffce00 66.6%)}.ds-flag-it{background:linear-gradient(90deg,#009246 0 33.4%,#ffffff 33.4% 66.6%,#ce2b37 66.6%)}.ds-flag-jp{background:radial-gradient(circle,#bc002d 0 3.4px,#ffffff 3.7px)}.ds-pick-lbl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-pick-n{color:var(--ink-3,#5a616c);font-weight:500}.ds-pick-foot{display:flex;align-items:center;justify-content:space-between;padding:6px 4px 2px;border-top:1px solid var(--line,#d2d7de)}.ds-pick-clear{height:40px;padding:0 6px;border:0;background:transparent;color:var(--ink-2,#353a43);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);text-decoration:underline;text-underline-offset:.25em;cursor:pointer}.ds-pick-clear:disabled{opacity:.45;text-decoration:none;cursor:default}.ds-pick-done{height:34px;padding:0 16px;border-radius:17px;border:1px solid var(--ink,#121418);background:var(--ink,#121418);color:var(--on-ink,#ffffff);font:650 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);cursor:pointer;transition:transform .15s cubic-bezier(0.16, 1, 0.3, 1)}.ds-pick-done:hover{transform:translateY(-1px)}.ds-pick-clear:focus-visible,.ds-pick-done:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}"
     },
     {
       "name": "Con Badge",
@@ -886,7 +899,7 @@
       },
       {
         "name": "The Flat Controls Rule",
-        "body": "Pills, segments, chips and selects never cast a drop shadow; they are edged with a 1px line (Hairline on the hall, Strap Raised on the strap, an inset 1px ring on the When track). Elevation belongs to laminates and the two popovers, the suggestion panel and the toast.",
+        "body": "Pills, segments, chips and selects never cast a drop shadow; they are edged with a 1px line (Hairline on the hall, Strap Raised on the strap, an inset 1px ring on the When track). Elevation belongs to laminates and the three popovers: the suggestion panel, the place picker panel and the toast.",
         "section": "elevation"
       },
       {

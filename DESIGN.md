@@ -196,6 +196,42 @@ components:
   filter-pill-set:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.on-ink}"
+  place-picker:
+    backgroundColor: "{colors.card}"
+    textColor: "{colors.ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.pill}"
+    height: "40px"
+    padding: "0 12px 0 14px"
+  place-picker-set:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.on-ink}"
+  picker-panel:
+    backgroundColor: "{colors.card}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.badge}"
+    padding: "6px"
+    width: "300px"
+  pick-row:
+    textColor: "{colors.ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.tile}"
+    height: "40px"
+    padding: "0 10px"
+  pick-row-hover:
+    backgroundColor: "{colors.card-2}"
+  pick-box-checked:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.on-ink}"
+    rounded: "{rounded.photo}"
+    size: "20px"
+  pick-done:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.on-ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.pill}"
+    height: "34px"
+    padding: "0 16px"
   chip:
     backgroundColor: "{colors.card}"
     textColor: "{colors.ink-2}"
@@ -313,7 +349,7 @@ Confirmed rejections: the Eventbrite card with a pin icon and a filter sidebar; 
 A cool grey-and-ink print palette with one action colour and ten satin ribbon colours that only ever appear as ribbons.
 
 ### Primary
-- **Badge Ink** (#121418): the only action colour. It fills every pressed, selected and primary state (When segments, a set place select, the guests toggle, ruler months, guest-type chips, the primary button), sets body text, draws the 2px focus ring on the hall and the laminates, prints the credential role band and outlines the day boxes. **On Ink** (#ffffff) is the text on it.
+- **Badge Ink** (#121418): the only action colour. It fills every pressed, selected and primary state (When segments, a set place picker and its ticked checkboxes, the guests toggle, ruler months, guest-type and continent chips, the primary button), sets body text, draws the 2px focus ring on the hall and the laminates, prints the credential role band and outlines the day boxes. **On Ink** (#ffffff) is the text on it.
 - **Hall Light** (#f2f3f5): Badge Ink's dark-mode value, so pressed controls become near-white pills on the charcoal hall; On Ink flips to #121418 with it.
 
 ### Secondary
@@ -327,11 +363,11 @@ The satin ribbons, one per con type. Each is flat and carries its label at 4.5:1
 
 ### Neutral
 - **Hall Grey** (#e6e9ee): the page ground. It also shows through every punched slot and corner, because a punch is a hole through to the hall. Dark: **Charcoal Hall** (#17181a).
-- **Laminate White** (#ffffff): badges, credentials, the suggestion panel, the filter sheet, the When track, the filter pills and the chips. In dark mode the badges and credentials stay Laminate White; the pills, panels and sheet move to **Charcoal Card** (#232427).
-- **Laminate Tint** (#f4f6f8): the hovered or keyboard-selected row in search suggestions. Dark: #2c2d31.
+- **Laminate White** (#ffffff): badges, credentials, the suggestion and place picker panels, the filter sheet, the When track, the filter pills and the chips. In dark mode the badges and credentials stay Laminate White; the pills, panels and sheet move to **Charcoal Card** (#232427).
+- **Laminate Tint** (#f4f6f8): the hovered or keyboard-selected row in search suggestions, and the hovered row in a place picker. Dark: #2c2d31.
 - **Slate Ink** (#353a43): secondary text: place lines, unpressed segment and chip labels, blurbs, text buttons. Dark: #cdd0d5.
-- **Pencil Grey** (#5a616c): tertiary text: counts, day counts, known-for lines, ruler years, subtitles, the footer. Dark: #a2a6ad.
-- **Hairline** (#d2d7de): 1px pill borders, the ruler's bottom rule, dashed empty photo slots, the footer rule. Dark: #36383d.
+- **Pencil Grey** (#5a616c): tertiary text: counts, day counts, known-for lines, ruler years, subtitles, picker group heads, filter-sheet legends, the footer. Dark: #a2a6ad.
+- **Hairline** (#d2d7de): 1px pill borders, the ruler's bottom rule, the picker footer rule, the border of the filter sheet's checklists, dashed empty photo slots, the footer rule. Dark: #36383d.
 - **Skeleton Grey** (#edf0f3): photo, face and art placeholders and the loading shimmer. Dark: #22262c (outside the laminates).
 - **Strap Black** (#121418), **Strap Ink** (#f4f5f7), **Strap Raised** (#2a2e35): the header band, its text and focus rings, and its search field and active nav fill. Dark: #0b0b0c, #f2f3f5, #232427.
 
@@ -374,7 +410,7 @@ The satin ribbons, one per con type. Each is flat and carries its label at 4.5:1
 
 Content runs to 1480px, centred, inside a gutter of clamp(16px, 3vw, 32px). The strap is sticky at 64px (58px on phones); the month ruler sticks directly beneath it, and anchor jumps are offset by both.
 
-**List view**, top to bottom: a wrapping controls row (When segments, place selects, the guests toggle, a spacer, Clear filters, Sort), the type ribbon row, the sticky month ruler, a one-line results summary, then month sections. Each month heading has 30px above and 18px below it, so it belongs to the badges it labels (10px and 2px on phones). The badge grid auto-fills columns of at least 286px, which gives four across at 1440px, with a 54px row gap and a 22px column gap (50px and 16px on phones).
+**List view**, top to bottom: a wrapping controls row (When segments; the continent and country place pickers, plus a state or province picker once a chosen country has them; the guests toggle; a spacer; Clear filters; Sort), the type ribbon row, the sticky month ruler, a one-line results summary, then month sections. Each month heading has 30px above and 18px below it, so it belongs to the badges it labels (10px and 2px on phones). The badge grid auto-fills columns of at least 286px, which gives four across at 1440px, with a 54px row gap and a 22px column gap (50px and 16px on phones).
 
 **Con page**: two columns, a sticky badge column of minmax(300px, 400px) beside the guest wall, 40px apart. The badge column scrolls on its own when it is taller than the viewport. At 1080px and below it narrows to 280–340px with a 28px gap. At 760px and below it becomes a single column in the order badge, guest wall, then notes (blurb, tickets, calendar, share, last-checked line, other dates).
 
@@ -382,7 +418,7 @@ Content runs to 1480px, centred, inside a gutter of clamp(16px, 3vw, 32px). The 
 
 **Walls** of guest credentials auto-fill columns of at least 150px with a 16px gap (132px and 12px on phones; exactly two columns at 420px and below). Lineups of 16 or more with mixed roles group under role headings.
 
-**Phones** (760px and below): the place selects, guests toggle, sort and clear collapse into one Filters pill that opens a bottom sheet in thumb reach. The strap drops its text labels to icons plus the count. The ribbon row and chip rows become single-line horizontal scrollers that bleed to the screen edge. Key art goes to 2.2:1 so the first badge lands whole in the first viewport.
+**Phones** (760px and below): the place pickers, guests toggle, sort and clear collapse into one Filters pill that opens a bottom sheet in thumb reach. The strap drops its text labels to icons plus the count. The ribbon row and chip rows become single-line horizontal scrollers that bleed to the screen edge. Key art goes to 2.2:1 so the first badge lands whole in the first viewport.
 
 Breakpoints are 1080px, 760px and 420px, plus a no-hover query that keeps the clip faintly visible on touch screens.
 
@@ -399,26 +435,26 @@ A hybrid. Laminates sit on the hall with a soft two-layer ambient shadow and lif
 
 ### Shadow Vocabulary
 - **Laminate rest** (`box-shadow: 0 1px 1px rgb(18 20 24 / 0.05), 0 10px 24px -14px rgb(18 20 24 / 0.32)`): badges, credentials, "Other dates" links, the empty-wall card. Dark: `0 1px 1px rgb(0 0 0 / 0.3), 0 12px 26px -14px rgb(0 0 0 / 0.7)`.
-- **Laminate lift** (`box-shadow: 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38)`): a hovered badge or credential (with a 3px rise), the suggestion panel, the toast. Dark: `0 2px 3px rgb(0 0 0 / 0.35), 0 20px 36px -16px rgb(0 0 0 / 0.8)`.
+- **Laminate lift** (`box-shadow: 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38)`): a hovered badge or credential (with a 3px rise), the suggestion panel, the place picker panel, the toast. Dark: `0 2px 3px rgb(0 0 0 / 0.35), 0 20px 36px -16px rgb(0 0 0 / 0.8)`.
 - **Punch** (`box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.22)`): the lanyard slot; 0.25 for the corner punch on an ended con.
 - **Ribbon fold** (`box-shadow: inset 0 6px 5px -4px rgb(0 0 0 / 0.38)`): the top edge of every hanging ribbon, where it tucks under the badge; 0.35 on a pressed type toggle.
 - **Art hairline** (`box-shadow: inset 0 0 0 1px rgb(18 20 24 / 0.08)`): keeps pale logo plates from melting into the white badge.
 
 ### Named Rules
-**The Flat Controls Rule.** Pills, segments, chips and selects never cast a drop shadow; they are edged with a 1px line (Hairline on the hall, Strap Raised on the strap, an inset 1px ring on the When track). Elevation belongs to laminates and the two popovers, the suggestion panel and the toast.
+**The Flat Controls Rule.** Pills, segments, chips and selects never cast a drop shadow; they are edged with a 1px line (Hairline on the hall, Strap Raised on the strap, an inset 1px ring on the When track). Elevation belongs to laminates and the three popovers: the suggestion panel, the place picker panel and the toast.
 
 **The Punch Rule.** A punch is a hole through the laminate to the hall: it takes the ground colour of the current theme and an inset shadow, never a fill of its own.
 
 ## Shapes
 
-Corners step down from the object to its printed details. Badges are 14px and credentials 12px. Inset windows are 8px for key art and 6px for guest photos. Printed details are 4px: face thumbnails, the role band, day boxes, the lanyard slot. Flags are 2px. Ruler months and suggestion rows are 10px, and the filter sheet has 20px top corners. Every control is a full pill; the build writes the radius as half the control height (17px on 34px, 20px on 40px, 21px on 42px, 22px on 44px).
+Corners step down from the object to its printed details. Badges are 14px and credentials 12px. Inset windows are 8px for key art and 6px for guest photos. Printed details are 4px: face thumbnails, the role band, day boxes, the lanyard slot. Flags are 2px. Ruler months, suggestion rows and picker rows are 10px; the suggestion and picker panels are 14px; the filter sheet has 20px top corners and its checklists 12px. Every control is a full pill; the build writes the radius as half the control height (17px on 34px, 20px on 40px, 21px on 42px, 22px on 44px).
 
 Recurring silhouettes:
 - **The notched ribbon tail:** a straight-cut ribbon with a centred V notch, 7px on hanging ribbons and 8px on type toggles.
 - **The lanyard slot:** a 40×7px rounded slot centred 9px from the top of a badge; 26×5px at 7px on a credential (36×7px on the guest page's large credential).
 - **The corner punch:** a 12px circle, 14px in from the top right of an ended con's badge, which also drops to 72% opacity.
 - **Fixed ratios:** key art 1.91:1 (2.2:1 on phones), guest photos 4:5, face thumbnails 30×38px.
-- **Strokes:** 1px Hairline on pill borders; 1.5px for printed day boxes (ink), dashed empty photo slots (Hairline) and the guests-toggle checkbox (Pencil Grey, 6px radius).
+- **Strokes:** 1px Hairline on pill borders; 1.5px for printed day boxes (ink), dashed empty photo slots (Hairline) and the 20px checkboxes in the guests toggle and the place pickers (Pencil Grey, 6px radius; a ticked picker box fills with ink).
 
 ## Components
 
@@ -438,19 +474,28 @@ The black lanyard strap across the top of every view.
 - **Text actions:** Clear filters, Reset and the footer controls are underlined text buttons in Slate Ink, never pills.
 
 ### Chips
-- **When segments:** a Laminate White pill track (3px padding, inset 1px Hairline ring) holding 34px pill segments in Label type and Slate Ink; pressed fills ink.
-- **Place selects and the guests toggle:** 40px Laminate White pills with a Hairline border; on hover the border goes Pencil Grey. When set or pressed they fill ink and the chevron or checkbox flips to On Ink. Disabled sits at 45%.
+- **When segments:** a Laminate White pill track (3px padding, inset 1px Hairline ring) holding 34px pill segments in Label type and Slate Ink; pressed fills ink. Upcoming and All are exclusive; years toggle and combine (2026 + 2027 can be pressed together), and unticking the last year returns to Upcoming.
+- **Guests toggle and sort:** 40px Laminate White pills with a Hairline border; on hover the border goes Pencil Grey. The pressed guests toggle fills ink and its checkbox flips to On Ink.
 - **Guest-type chips:** 34px pills with a Hairline border, Label type in Slate Ink and the count at 500 in Pencil Grey. Pressed fills ink, with the count at 75%.
+
+### Place Pickers
+Multi-select pills for continent, country, and state or province; every place filter takes several values.
+- **Pill:** the filter-pill look shared with the guests toggle and sort: 40px, Laminate White, Hairline border (Pencil Grey on hover), Label type, up to 240px wide with the label ellipsised. It fills with ink once anything is chosen, and its 16px chevron turns over (0.15s, ease-out) while the panel is open.
+- **Label:** reads the choice: "All countries" (or "Any state"), one name, two names when together they fit in 22 characters, otherwise a count ("3 countries").
+- **Panel:** a popover like the suggestion panel: Laminate White, 300px wide (never wider than the screen minus the gutters), 8px below the pill, 14px radius, the lift shadow, 6px padding. It right-aligns when the pill sits near the right edge, and closes on a click outside.
+- **Contents:** a 40px search pill (the wall-search style, 16px icon) when the list has more than 8 options; a list up to 320px tall of 40px checkbox rows (10px radius, Laminate Tint on hover), each with a 20px box that fills with ink and an On Ink tick when chosen, a flag for countries, the name, and the count right-aligned in Pencil Grey; uppercase group heads (12px, 800, 112% width, +0.02em, Pencil Grey) when states of several countries are listed; a Hairline footer with Clear (a text action, at 45% when nothing is chosen) and Done (a 34px primary pill).
+- **Keyboard:** the arrows (and Home and End) move between rows and up into the search; Escape closes the panel and returns focus to the pill; Enter in the search ticks the first match. A focused row draws the 2px focus outline around its box.
+- **State picker:** appears only when a chosen country has states, and its words follow the country: "state", "province" (Canada alone), or "state or province".
 
 ### Inputs / Fields
 - **Style:** a 40px pill with a Hairline border, a Laminate White fill, 15px text and a 17px search icon set 12px in, in Pencil Grey.
 - **Focus:** a 2px ink outline flush to the edge (0 offset) while the border goes transparent.
-- **Filter sheet fields:** 46px tall, 12px radius, full width, under 12px/700 Pencil Grey labels.
+- **Filter sheet fields:** the sort select is 46px tall with a 12px radius at full width; the country and state checklists are the picker's checkbox rows in a 12px-radius Hairline-bordered list (4px padding, at most 248px tall). Labels and legends are 12px/700 Pencil Grey.
 
 ### Month Ruler
 - Sticky under the strap, on the hall ground at 92% opacity with a light blur and a Hairline bottom rule; a horizontal scroller with no visible scrollbar.
 - **Years:** 12px, 800, 112% width, Pencil Grey, separated by a Hairline.
-- **Months:** 52×46px buttons with a 10px radius: the three-letter month in Title Small uppercase, the count in 12px Pencil Grey, and a 22×3px count bar (minimum 12%) at 70% opacity. Hover fills Laminate White; pressed fills ink.
+- **Months:** 52×46px buttons with a 10px radius: the three-letter month in Title Small uppercase, the count in 12px Pencil Grey, and a 22×3px count bar (minimum 12%) at 70% opacity. Months toggle, so several can be pressed at once. Hover fills Laminate White; pressed fills ink.
 
 ### Type Ribbon Toggles
 - The badge's own satin ribbon, used as a filter: 42px tall (38px on phones), a notched tail, the label in Ribbon Label at +0.05em, and its count at 600 in Pencil Grey.
@@ -487,7 +532,7 @@ A 4:5 photo ID in the same laminate.
 
 ### Toast and Filter Sheet
 - **Toast:** an ink fill with On Ink 15px/600 text, 12px radius, 12px 16px padding and the lift shadow, at the bottom centre. It rises 20px into place over 0.3s, and its action is an underlined text button at 750.
-- **Filter sheet (phones):** a bottom dialog up to 560px wide in Laminate White with 20px top corners and a 40×5px grip. It holds the place selects, the guests toggle and sort, and ends with a full-width primary button reading "Show N conventions". It slides up 40px over 0.32s over a 50% near-black backdrop.
+- **Filter sheet (phones):** a bottom dialog up to 560px wide in Laminate White with 20px top corners and a 40×5px grip. It holds continent chips (the guest-type chip style, several pressed at once), a country checklist (with a search pill when the list runs past 8), a state checklist when a chosen country has states, then the guests toggle and sort, and ends with a full-width primary button reading "Show N conventions". Legends count the choice ("Country · 2 chosen"). It slides up 40px over 0.32s over a 50% near-black backdrop.
 
 ### Icons
 - Line icons at 18px (16–17px inside controls, 22px for the clip) with a 2px stroke, round caps and joins, in currentColor: Lucide, plus a lanyard and a clip drawn in the same stroke language. The wordmark's mark is a lanyard badge.
