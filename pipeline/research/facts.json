@@ -5,9 +5,16 @@
   "url": "https://www.facts.be/fr/",
   "organizer": "Easyfairs",
   "status": "active",
-  "types": ["comics", "pop", "cosplay"],
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
   "blurb": "Belgium's biggest comic con at Flanders Expo Ghent, bringing film/TV actors, comic artists, prose authors and cosplay contests twice a year.",
-  "cover": { "file": "pipeline/cache/extract/facts.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/facts.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-31",
@@ -24,26 +31,124 @@
         {
           "file": "pipeline/cache/extract/facts.guests.json",
           "picks": [
-            [1, "Martin Kove", "Karate Kid, Cobra Kai (John Kreese)", "actor"],
-            [2, "Tim Downie", "Gale in Baldur's Gate 3", "voice"],
-            [3, "Maria Zhang", "Suki, Avatar: The Last Airbender", "actor"],
-            [4, "William Zabka", "Karate Kid, Cobra Kai (Johnny)", "actor"],
-            [5, "Pom Klementieff", "Mantis, Guardians of the Galaxy", "actor"]
+            [
+              1,
+              "Martin Kove",
+              "Karate Kid, Cobra Kai (John Kreese)",
+              "actor"
+            ],
+            [
+              2,
+              "Tim Downie",
+              "Gale in Baldur's Gate 3",
+              "voice"
+            ],
+            [
+              3,
+              "Maria Zhang",
+              "Suki, Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              4,
+              "William Zabka",
+              "Karate Kid, Cobra Kai (Johnny)",
+              "actor"
+            ],
+            [
+              5,
+              "Pom Klementieff",
+              "Mantis, Guardians of the Galaxy",
+              "actor"
+            ]
           ]
         },
         {
           "file": "pipeline/cache/extract/facts-2.guests.json",
           "picks": [
-            [3, "John Romita Jr.", "Marvel artist (Spider-Man)", "comics"],
-            [8, "Artgerm", "Legendary comic cover artist", "comics"],
-            [13, "Niko Henrichon", "Pride of Baghdad artist", "comics"],
-            [17, "Valentin Sécher", "Conan, Meta-Baron illustrator", "comics"],
-            [21, "Jim", "Graphic novelist and cartoonist", "comics"],
-            [24, "Marc Verhaegen", "Suske & Wiske artist", "comics"],
-            [27, "Marini", "Batman: The Dark Prince Charming", "comics"],
-            [30, "Luc Cromheecke", "Comic and graphic novelist", "comics"],
-            [32, "Art Grafunkel", "Pop-culture comic illustrator", "comics"],
-            [34, "Lectrr", "Red Rider cartoonist", "comics"]
+            [
+              3,
+              "John Romita Jr.",
+              "Marvel artist (Spider-Man)",
+              "comics"
+            ],
+            [
+              8,
+              "Artgerm",
+              "Legendary comic cover artist",
+              "comics"
+            ],
+            [
+              13,
+              "Niko Henrichon",
+              "Pride of Baghdad artist",
+              "comics"
+            ],
+            [
+              17,
+              "Valentin Sécher",
+              "Conan, Meta-Baron illustrator",
+              "comics"
+            ],
+            [
+              21,
+              "Jim",
+              "Graphic novelist and cartoonist",
+              "comics"
+            ],
+            [
+              24,
+              "Marc Verhaegen",
+              "Suske & Wiske artist",
+              "comics"
+            ],
+            [
+              27,
+              "Marini",
+              "Batman: The Dark Prince Charming",
+              "comics"
+            ],
+            [
+              30,
+              "Luc Cromheecke",
+              "Comic and graphic novelist",
+              "comics"
+            ],
+            [
+              32,
+              "Art Grafunkel",
+              "Pop-culture comic illustrator",
+              "comics"
+            ],
+            [
+              34,
+              "Lectrr",
+              "Red Rider cartoonist",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/facts-2-r20261005.guests.json",
+          "picks": [
+            [
+              35,
+              "Romano Molenaar",
+              "Odys Storm, Galaxa, Roodhaar artist",
+              "comics"
+            ],
+            [
+              36,
+              "Louis Clement",
+              "Nonkels, Nachtwacht cartoonist",
+              "comics"
+            ],
+            [
+              37,
+              "Sabine De Meyer",
+              "Colorist on Jommeke, Suske en Wiske",
+              "comics"
+            ]
           ]
         }
       ],
@@ -52,5 +157,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "FACTS runs a Spring and a Fall edition each year under one brand (per RESEARCH.md's two-shows-a-year rule, same file/city); only Fall 2026 is covered here since no FACTS Spring 2027 dates are announced anywhere on the site yet as of this check. Guests are split across several category pages (Actors, Artist Alley, Authors, Cosplay) rather than one list; the Cosplay guests tile links to a general cosplay-activities page (contests/parades) whose one named 2026 cosplay guest, Bambi Lashes, sits further down than the page-render tool's candidates reached, so she could not be picked with a resolvable photo number and is left out rather than guessed. An 'Experts' guest category also exists on the hub page but was not explored given the per-convention tool budget. The Artist Alley page's auto-detected section headings are off by one artist (each artist's own name heading prints after, not before, their image block) — picks below were matched by filename/alt text instead, which reliably ties each image set to the right artist. Refute pass (2026-10-05): dropped the 17-name 'Authors' block (was facts-3.guests.json, picks #5-21) that a stale-scan flagged as 17/32 dated photos pre-dating this edition. A fresh re-extract of /en/guests/authors/ returns the identical 17 names/images with no edition year or dated autograph schedule on any card (only generic 'Saturday/Sunday'), and archive.org's 2026-03-11 snapshot of that same URL already lists all 17 names verbatim -- i.e. this roster was already live before the Spring 2026 show and hasn't changed since, so it is not evidence of a Fall 2026 booking. The Actors (5) and Artist Alley (10) blocks are kept: every pick's own image was uploaded 2026-05 through 2026-10 (after Spring 2026 ended), and Maria Zhang's and Marini's filenames are tagged 'FACTS-Fall-2026' / dated 2026-10 specifically."
+  "notes": "FACTS runs a Spring and a Fall edition each year under one brand (per RESEARCH.md's two-shows-a-year rule, same file/city); only Fall 2026 is covered here since no FACTS Spring 2027 dates are announced anywhere on the site yet as of this check. Guests are split across several category pages (Actors, Artist Alley, Authors, Cosplay) rather than one list; the Cosplay guests tile links to a general cosplay-activities page (contests/parades) whose one named 2026 cosplay guest, Bambi Lashes, sits further down than the page-render tool's candidates reached, so she could not be picked with a resolvable photo number and is left out rather than guessed. An 'Experts' guest category also exists on the hub page but was not explored given the per-convention tool budget. The Artist Alley page's auto-detected section headings are off by one artist (each artist's own name heading prints after, not before, their image block) — picks below were matched by filename/alt text instead, which reliably ties each image set to the right artist. Refute pass (2026-10-05): dropped the 17-name 'Authors' block (was facts-3.guests.json, picks #5-21) that a stale-scan flagged as 17/32 dated photos pre-dating this edition. A fresh re-extract of /en/guests/authors/ returns the identical 17 names/images with no edition year or dated autograph schedule on any card (only generic 'Saturday/Sunday'), and archive.org's 2026-03-11 snapshot of that same URL already lists all 17 names verbatim -- i.e. this roster was already live before the Spring 2026 show and hasn't changed since, so it is not evidence of a Fall 2026 booking. The Actors (5) and Artist Alley (10) blocks are kept: every pick's own image was uploaded 2026-05 through 2026-10 (after Spring 2026 ended), and Maria Zhang's and Marini's filenames are tagged 'FACTS-Fall-2026' / dated 2026-10 specifically. Refresh 2026-10-05: added Romano Molenaar, Louis Clement and Sabine De Meyer, three new cards on the Artist Alley guest list (re-rendered 2026-10-05; all earlier picks of that page still present)."
 }

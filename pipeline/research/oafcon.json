@@ -5,9 +5,14 @@
   "url": "https://www.oafcomiccon.com/",
   "organizer": "Oklahoma Alliance of Fans (OAF)",
   "status": "active",
-  "types": ["comics"],
+  "types": [
+    "comics"
+  ],
   "blurb": "Norman, Oklahoma comic book convention run by the Oklahoma Alliance of Fans, one of the oldest fan groups in the country.",
-  "cover": { "file": "pipeline/cache/extract/oafcon.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/oafcon.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-23",
@@ -24,21 +29,78 @@
         {
           "file": "pipeline/cache/extract/oafcon.guests.json",
           "picks": [
-            [1, "Michael Golden", "Avengers Annual, Micronauts artist", "comics"],
-            [8, "Bob Hall", "West Coast Avengers, Batman artist", "comics"],
-            [14, "Sam de la Rosa", "Ultimate Spider-Man, Avengers artist", "comics"],
-            [21, "William Bernhardt", "Bestselling author, The Superman Wars", "author"],
-            [22, "Zavier Leslie Cabarga", "G.I. Joe box art, Betty Boop artist", "comics"],
-            [29, "Thomas Yeates", "Award-winning comic book illustrator", "comics"],
-            [34, "Anthony Tollin", "DC Comics colorist (Detective, Action)", "comics"],
-            [36, "Buddy Saunders", "MyComicShop.com; Texas Trio fanzines", "comics"]
+            [
+              1,
+              "Michael Golden",
+              "Avengers Annual, Micronauts artist",
+              "comics"
+            ],
+            [
+              8,
+              "Bob Hall",
+              "West Coast Avengers, Batman artist",
+              "comics"
+            ],
+            [
+              14,
+              "Sam de la Rosa",
+              "Ultimate Spider-Man, Avengers artist",
+              "comics"
+            ],
+            [
+              21,
+              "William Bernhardt",
+              "Bestselling author, The Superman Wars",
+              "author"
+            ],
+            [
+              22,
+              "Zavier Leslie Cabarga",
+              "G.I. Joe box art, Betty Boop artist",
+              "comics"
+            ],
+            [
+              29,
+              "Thomas Yeates",
+              "Award-winning comic book illustrator",
+              "comics"
+            ],
+            [
+              34,
+              "Anthony Tollin",
+              "DC Comics colorist (Detective, Action)",
+              "comics"
+            ],
+            [
+              36,
+              "Buddy Saunders",
+              "MyComicShop.com; Texas Trio fanzines",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/oafcon-r20261005.guests.json",
+          "picks": [
+            [
+              30,
+              "Jason Heil",
+              "Oklahoma freelance card artist",
+              "other"
+            ]
           ]
         }
       ],
-      "textOnlyGuests": [],
+      "textOnlyGuests": [
+        [
+          "Daniel Scott Jr.",
+          "Pop-culture portraits made from candy wrappers",
+          "other"
+        ]
+      ],
       "evidence": "Homepage: 'OAFCON 2026 October 23rd - 25th, 2026 Embassy Suites Norman Hotel & Conference Center Norman, OK'"
     }
   ],
   "checked": "2026-10-05",
-  "notes": "The real official site is oafcomiccon.com - the seed URL oafcon.com is an unrelated pre-launch placeholder page and was not used. Larry Hama was announced as a guest but his section on the guests page is explicitly marked 'CANCELED' next to his comic covers, so he is skipped per the cancelled-guest rule. Known-for text for the artist guests (Golden, Hall, de la Rosa, Cabarga, Tollin, Saunders) is drawn from the comic-cover image filenames shown on their guest cards, since the page has no separate bio paragraph for most of them."
+  "notes": "The real official site is oafcomiccon.com - the seed URL oafcon.com is an unrelated pre-launch placeholder page and was not used. Larry Hama was announced as a guest but his section on the guests page is explicitly marked 'CANCELED' next to his comic covers, so he is skipped per the cancelled-guest rule. Known-for text for the artist guests (Golden, Hall, de la Rosa, Cabarga, Tollin, Saunders) is drawn from the comic-cover image filenames shown on their guest cards, since the page has no separate bio paragraph for most of them. Refresh 2026-10-05: added Jason Heil and Daniel Scott Jr., two new guest sections on the guests page (rendered 2026-10-05, same page headed '2026 GUESTS'); Daniel Scott Jr.'s section has only unlabelled photos (card text is a file name), so he is listed as text-only rather than picked."
 }

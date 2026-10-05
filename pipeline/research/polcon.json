@@ -5,9 +5,15 @@
   "url": "https://polcon2027.fandom.org.pl/",
   "organizer": "Śląski Klub Fantastyki / Związek Stowarzyszeń \"Fandom Polski\"",
   "status": "active",
-  "types": ["scifi", "tabletop"],
+  "types": [
+    "scifi",
+    "tabletop"
+  ],
   "blurb": "Poland's oldest general sci-fi and fantasy fandom convention, running since 1985 and hosted by a different local fan club each year.",
-  "cover": { "file": "pipeline/cache/extract/polcon.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/polcon.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2027-11-18",
@@ -19,12 +25,36 @@
       "country": "PL",
       "tickets": "https://polcon2027.fandom.org.pl/",
       "guestsPage": "https://polcon2027.fandom.org.pl/",
-      "guests": "none-yet",
-      "lineup": [],
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/polcon-r20261005.guests.json",
+          "picks": [
+            [
+              17,
+              "Grzegorz Chudy",
+              "Twórca roku (Creator of the Year)",
+              "other"
+            ],
+            [
+              18,
+              "Aleksandra Klęczar",
+              "Fanka roku (Fan of the Year)",
+              "other"
+            ],
+            [
+              19,
+              "Silesia Progress",
+              "Wydawca roku (Publisher of the Year)",
+              "other"
+            ]
+          ]
+        }
+      ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'Muzeum Śląskie w Katowicach 18 - 21 XI 2027 XLI OGÓLNOPOLSKI KONWENT MIŁOŚNIKÓW FANTASTYKI w samym sercu śląska'."
     }
   ],
   "checked": "2026-10-05",
-  "notes": "The id/url from the batch (polcon.fandom.art.pl) is now a dead domain up for sale; Polcon has no single permanent site because it rotates host city/club each year — the current official site for the next (41st) edition is polcon2027.fandom.org.pl, run jointly by the host club (Śląski Klub Fantastyki, Katowice) and the national body Związek Stowarzyszeń 'Fandom Polski', which coordinates the Polcon series. The site has a 'GOŚCIE HONOROWI' (Guests of Honor) nav item but it is a Google Sites page with no working link captured and a guessed /goscie-honorowi URL 404s; a web search for Polcon 2027 guests of honor found nothing announced yet (event is over a year out), so guests is none-yet."
+  "notes": "The id/url from the batch (polcon.fandom.art.pl) is now a dead domain up for sale; Polcon has no single permanent site because it rotates host city/club each year — the current official site for the next (41st) edition is polcon2027.fandom.org.pl, run jointly by the host club (Śląski Klub Fantastyki, Katowice) and the national body Związek Stowarzyszeń 'Fandom Polski', which coordinates the Polcon series. The site has a 'GOŚCIE HONOROWI' (Guests of Honor) nav item but it is a Google Sites page with no working link captured and a guessed /goscie-honorowi URL 404s; a web search for Polcon 2027 guests of honor found nothing announced yet (event is over a year out), so guests is none-yet. 2026-10-05 refresh: the Gości Honorowi section of polcon2027.fandom.org.pl (the 2027 edition site) now shows three honorees (Grzegorz Chudy, Aleksandra Klęczar, Silesia Progress), so guests is announced; cards name them only with their Polcon award titles, so cat is other."
 }
