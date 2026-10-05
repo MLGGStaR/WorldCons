@@ -15,6 +15,7 @@
     "key": "og"
   },
   "editions": [],
+  "last": { "start": "2026-09-25", "end": "2026-09-27", "city": "Baltimore", "region": "MD", "country": "US", "venue": "Baltimore Convention Center" },
   "checked": "2026-10-05",
-  "notes": "The 2026 edition (Sept 25-27, 2026, Baltimore Convention Center) concluded before today (2026-10-05), so it falls outside the tracking window; checked the official homepage and it names no 2027 dates yet. No editions to list until 2027 dates are announced."
+  "notes": "The 2026 edition (Sept 25-27, 2026, Baltimore Convention Center) concluded before today (2026-10-05), so it falls outside the tracking window; checked the official homepage and it names no 2027 dates yet. No editions to list until 2027 dates are announced. Re-checked 2026-10-05 (fresh render): homepage still reads '\"America's Greatest Comic Book Convention!\" returns September 25-27, 2026' with a zeroed countdown, no 2027 mention; added 'last' for the confirmed 2026 edition."
 }

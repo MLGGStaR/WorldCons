@@ -8,7 +8,23 @@
   "types": ["comics", "pop", "cosplay"],
   "blurb": "A comics and pop-culture convention at the Statehouse Convention Center in Little Rock, with celebrity guests and cosplay.",
   "cover": { "file": "pipeline/cache/extract/arkansas-comic-con.home.json", "key": "og" },
-  "editions": [],
+  "editions": [
+    {
+      "start": "2027-09-10",
+      "end": "2027-09-12",
+      "dates": "confirmed",
+      "venue": "Statehouse Convention Center",
+      "city": "Little Rock",
+      "region": "AR",
+      "country": "US",
+      "tickets": "https://www.arkansascomiccon.com/tickets",
+      "guestsPage": "https://www.arkansascomiccon.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "VXV Events' own events calendar (vxvevents.com/events) lists under its '2027 Events' heading: 'Arkansas Comic Con September 10 - 12 2027, Statehouse Convention Center, Little Rock, AR'."
+    }
+  ],
   "checked": "2026-10-05",
-  "notes": "Confirms the seed's 'Sep 18-20, 2026' (page title 'Arkansas Comic Con | September 18-20, 2026 | Statehouse Convention Center'; FAQ text 'Arkansas Comic Con will take place September 18th - 20th 2026'), but that show ended 2026-09-20, before this 2026-10-05 check window. No later date is posted anywhere on the site yet (no '2027' placeholder the way sibling VXV site Iron City Comic Con has), so editions is left empty. Same VXV/Wix template as Iron City and South Alabama Comic Con: the 'NWA Comic Con' carousel slide and 'Photo Ops Example.png' are shared cross-site stock assets, not this con's own art."
+  "notes": "Confirms the seed's 'Sep 18-20, 2026' (page title 'Arkansas Comic Con | September 18-20, 2026 | Statehouse Convention Center'; FAQ text 'Arkansas Comic Con will take place September 18th - 20th 2026'), but that show ended 2026-09-20, before this 2026-10-05 check window. Same VXV/Wix template as Iron City and South Alabama Comic Con: the 'NWA Comic Con' carousel slide and 'Photo Ops Example.png' are shared cross-site stock assets, not this con's own art. Re-checked 2026-10-05: arkansascomiccon.com itself still shows only the just-concluded Sept 18-20, 2026 run with no next date, but VXV Events' (the organizer's) own master events calendar now lists a confirmed 2027 edition, Sept 10-12, 2027, same venue -- added as the upcoming edition; guests not yet announced (the /guests page still shows 2026's lineup)."
 }

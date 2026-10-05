@@ -9,6 +9,7 @@
   "blurb": "A small, relaxed DC-area literary convention focused on short fiction, with Guests of Honor, readings and a dealer's room; successor to Disclave.",
   "cover": { "file": "pipeline/cache/extract/capclave.home.json", "key": "hero:0" },
   "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Rockville", "region": "MD", "country": "US", "venue": "Hilton Washington DC/Rockville Executive Meeting Center" },
   "checked": "2026-10-05",
-  "notes": "Capclave 2026 (October 2-4, 2026, per the official site) concluded just before today's cutoff (2026-10-05), so it falls outside the tracking window. The site is still on the dated path capclave.org/capclave26/ with no capclave27 subsite yet, so 2027 dates are not announced. 2026's Guests of Honor were Nino Cipri and Rebecca Roanhorse, noted here for reference only (not an emitted edition)."
+  "notes": "Capclave 2026 (October 2-4, 2026, per the official site) concluded just before today's cutoff (2026-10-05), so it falls outside the tracking window. The site is still on the dated path capclave.org/capclave26/ with no capclave27 subsite yet, so 2027 dates are not announced. 2026's Guests of Honor were Nino Cipri and Rebecca Roanhorse, noted here for reference only (not an emitted edition). Re-checked 2026-10-05 (fresh render, capclave.org/ still redirects to /capclave26/, site nav shows a 'LAST YEAR' link not a next-year one): still no 2027 date. Venue/city for the confirmed 2026 edition (Hilton Washington DC/Rockville Executive Meeting Center, 1750 Rockville Pike, Rockville, MD) confirmed via the site's own hotel-information page; added as 'last'."
 }
