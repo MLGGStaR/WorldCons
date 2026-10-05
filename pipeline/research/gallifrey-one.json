@@ -1,0 +1,49 @@
+{
+  "id": "gallifrey-one",
+  "name": "Gallifrey One",
+  "short": "",
+  "url": "https://www.gallifreyone.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "The world's largest and longest-running annual Doctor Who fan convention, held over Presidents' Day Weekend near LAX since 1990.",
+  "cover": { "file": "pipeline/cache/extract/gallifrey-one.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-05",
+      "end": "2027-02-07",
+      "dates": "confirmed",
+      "venue": "Marriott Los Angeles Airport Hotel",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.gallifreyone.com/register/",
+      "guestsPage": "https://www.gallifreyone.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/gallifrey-one.guests.json",
+          "picks": [
+            [1, "Carole Ann Ford", "Susan, Doctor Who's first companion", "actor"],
+            [2, "Katy Manning", "Jo Grant, companion to the Third Doctor", "actor"],
+            [3, "Frazer Hines", "Jamie McCrimmon, Doctor Who companion", "actor"],
+            [4, "Anita Dobson", "Mrs. Flood in Doctor Who", "actor"],
+            [5, "Geoffrey Beevers", "The Master in Doctor Who", "actor"],
+            [6, "Waris Hussein", "Director of Doctor Who's first story", "other"],
+            [7, "Graeme Harper", "Director, Doctor Who classic and revival", "other"],
+            [8, "Mat Irvine", "BBC visual effects designer, Doctor Who", "other"],
+            [9, "Daisy Ashford", "Liz Shaw in Big Finish audio dramas", "voice"],
+            [10, "Steve Cole", "Author; former BBC Books Doctor Who editor", "author"],
+            [11, "Simon Guerrier", "Writer, Doctor Who books and audio", "author"],
+            [12, "Toby Hadoke", "Comedian, 'Moths Ate My Doctor Who Scarf'", "actor"],
+            [13, "Jason Haigh-Ellery", "Managing Director, Big Finish Productions", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Our next event The Magnificent 37 of Gallifrey One will take place on February 5-7, 2027'; About text: 'usually taking place every February over Presidents' Day Weekend at the Marriott Los Angeles Airport Hotel'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page lists 13 confirmed guests for 2027 to date (candidates #1-#13); the page itself says 'More guests will be announced in the months to come', so this is a partial, growing lineup, not a final one. #0 (nav/countdown) and #14 (GDPR cookie banner) were skipped. Two guests (Waris Hussein, Graeme Harper) are TV directors and one (Mat Irvine) a visual-effects designer -- none of the fixed categories covers live-action crew, so all three are filed as 'other'; Daisy Ashford's credit here is specifically her Big Finish audio-drama role, so she is filed as 'voice' rather than 'actor'. No og/twitter image exists; cover uses logo:0, the convention's own 2027 site logo. Verify pass (2026-10-05): confirmed current -- the guest page's own title is 'Featured Guests - Gallifrey One 2027' and its news feed shows the prior show already wrapped ('Gallifrey One 2026 Wrap-Up... and a Preview of 2027', Feb 14 2026) before these 2027 guest announcements began. Refute pass (2026-10-05): fresh re-extraction still titles the page 'Featured Guests – Gallifrey One 2027' with intro prose naming this same roster as joining 'The Magnificent 37 of Gallifrey One in February 2027' (not just a countdown date), plus a news feed of 2027-specific posts through August 24, 2026 ('Continuing 2027 Guest Announcements'); lineup upheld."
+}

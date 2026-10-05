@@ -1,0 +1,40 @@
+{
+  "id": "minicon",
+  "name": "Minicon",
+  "short": "",
+  "url": "https://www.mnstf.org/minicon/",
+  "organizer": "Minnesota Science Fiction Society (MNSTF)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Minnesota's longest-running science fiction convention, a general-purpose SF/fantasy gathering held over Easter weekend with four Guests of Honor each year.",
+  "cover": { "file": "pipeline/cache/extract/minicon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-25",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton Hotel Bloomington - Minneapolis South",
+      "city": "Bloomington",
+      "region": "MN",
+      "country": "US",
+      "tickets": "https://mnstf.org/minicon60/register.php",
+      "guestsPage": "https://mnstf.org/minicon60/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/minicon.guests.json",
+          "picks": [
+            [2, "Ada Palmer", "Author of the Terra Ignota series", "author"],
+            [3, "Sassafrass", "A cappella folk group", "music"],
+            [4, "Phil and Kaja Foglio", "Girl Genius webcomic creators", "comics"],
+            [5, "Geri Sullivan", "Longtime Minicon volunteer, former Minn-StF President", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Main mnstf.org/minicon/ history page: 'Minicon 60 will be held March 25–28, 2027'; dedicated site mnstf.org/minicon60/: 'DOUBLETREE BY HILTON HOTEL BLOOMINGTON - MINNEAPOLIS SOUTH • March 25-28, 2027 ... We are at the DoubleTree Bloomington (just south of Minneapolis) at 7800 Normandale Blvd.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is Minicon 60 (the 1968-founded con's main numbered sequence, distinct from Diversicon which the same mnstf.org/minicon/ page also mentions as a separate upcoming MNSTF convention). Sassafrass is a trio (Ada Palmer, Emily Lewis, Lauren Schiller) and Phil & Kaja Foglio are a couple, each kept as one guest per RESEARCH.md. Verify-03 pass (2026-10-05): confirmed current -- a fresh re-extraction is unchanged, and the guest page itself is titled 'Minicon 60: March 25-28, 2027', the exact edition tracked here, so its four GoH sections are this edition's own lineup, not a leftover page. Refute pass (2026-10-05): fresh re-extraction is unchanged -- page still titled 'Minicon 60: March 25-28, 2027' with the same four GoH-labeled sections; Minicon's sequential numbering (60) makes this page specific to this one edition, not reusable from Minicon 59; lineup upheld."
+}
