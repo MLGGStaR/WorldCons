@@ -1,0 +1,59 @@
+{
+  "id": "terrificon",
+  "name": "TerrifiCon",
+  "short": "",
+  "url": "https://terrificon.com",
+  "organizer": "Big Fedora Marketing, LLC",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Connecticut's largest comic book convention, held at Mohegan Sun with comic-creator panels plus TV and film guest autographs.",
+  "cover": { "file": "pipeline/cache/extract/terrificon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-13",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "Mohegan Sun Earth Expo Center",
+      "city": "Uncasville",
+      "region": "CT",
+      "country": "US",
+      "tickets": "https://terrificon.com/tickets-1.html",
+      "guestsPage": "https://terrificon.com/media-guests-1.html",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/terrificon-2.guests.json",
+          "picks": [
+            [1, "Alyson Stoner", "Camp Rock, Step Up, Phineas & Ferb", "actor"],
+            [2, "Barry Gordon", "TMNT (Donatello), Batman: The Animated Series", "voice"],
+            [3, "Brian Thompson", "The X-Files, Cobra, Terminator", "actor"],
+            [4, "Cam Clarke", "TMNT (Leonardo), Metal Gear Solid, He-Man", "voice"],
+            [5, "Chris Poland", "Megadeth, guitarist", "music"],
+            [6, "Daniel Ross", "Star Wars: The Clone Wars, Rebels", "voice"],
+            [7, "David Errigo Jr.", "Cobra Kai, actor", "actor"],
+            [8, "Dee Bradley Baker", "Clone Wars, American Dad, SpongeBob", "voice"],
+            [9, "Diedrich Bader", "Batman Brave and the Bold, Office Space", "actor"],
+            [10, "Frank Whaley", "Pulp Fiction, Swimming with Sharks, Broken Arrow", "actor"],
+            [11, "Harry Belden", "Actor, stuntman", "actor"],
+            [12, "Ian Cardoni", "Rick and Morty (Rick Sanchez)", "voice"],
+            [13, "Maurice LaMarche", "Pinky and the Brain (The Brain), Futurama", "voice"],
+            [14, "Ming Chen", "Comic Book Men (AMC), podcaster", "creator"],
+            [15, "Nhut Le", "Cobra Kai, actor", "actor"],
+            [16, "Patrick Warburton", "Seinfeld (Puddy), The Tick", "actor"],
+            [17, "Ranea Jacobs", "Jem and the Holograms (Jem/Jerrica)", "voice"],
+            [18, "Rob Paulsen", "TMNT (Raphael & Donatello), Pinky and the Brain", "voice"],
+            [19, "Samantha Scaffidi", "Victor Crowley, actress", "actor"],
+            [20, "Spencer Grammer", "Rick and Morty (Summer Smith), Greek", "voice"],
+            [21, "Taylor Gray", "Star Wars Rebels (Ezra Bridger)", "voice"],
+            [22, "Theo Rossi", "Sons of Anarchy (Juice), Luke Cage", "actor"],
+            [23, "Tyler Mane", "Halloween (Michael Myers), X-Men (Sabretooth)", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 'TERRIFICON® 2027' 2027-08-13 -> 2027-08-15 @ Mohegan Sun Earth Expo Center; homepage: 'AUGUST 13 – 15, 2027 MOHEGAN SUN EARTH EXPO CENTER · UNCASVILLE, CT'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Comic-book-creator guests (separate page, comic-guests-1.html) are not announced yet -- all 6 'Headlining Creators' cards say 'TO BE ANNOUNCED', so no picks came from that page; only the 23 confirmed names on the TV/Film & Media Guests page were picked. A few guests do both voice and live-action work (Alyson Stoner, Diedrich Bader, Patrick Warburton, Spencer Grammer); cat reflects the credit that reads as their primary/best-known one on the card. Organizer confirmed via on-page JSON-LD/text ('Big Fedora Marketing, LLC', run by Mitch Hallock). Verify pass (2026-10-05): current -- both the comic-creators page and the TV/Film & Media Guests page actually used for picks have 'August 13–15, 2027' baked directly into their own <title>, and the lone '2026' hit in each cached extract is just the tool's fetch timestamp, so the lineup stands."
+}

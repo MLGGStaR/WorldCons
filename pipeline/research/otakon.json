@@ -1,0 +1,30 @@
+{
+  "id": "otakon",
+  "name": "Otakon",
+  "short": "",
+  "url": "https://otakon.com",
+  "organizer": "Otakorp, Inc.",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Long-running 'Convention of Otaku Generation' in Washington DC, with Japanese, Korean and VTuber guest lineups.",
+  "cover": { "file": "pipeline/cache/extract/otakon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Walter E. Washington Convention Center",
+      "city": "Washington",
+      "region": "DC",
+      "country": "US",
+      "tickets": "https://otakon.com/comingsoon/",
+      "guestsPage": "https://otakon.com/2026guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Otakon 2027 Convention of Otaku Generation! ... August 6, 2027 – August 8, 2027' with live countdown; footer: 'Walter E. Washington Convention Center, Washington, D.C. 20001'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Verify pass (2026-10-05): corrected to guests=none-yet and the 87-name lineup removed -- a fresh fetch of /2026guests/ shows its own heading reads '2026 Guests', every date on the page is 'coming to Otakon 2026!' / 'Dates: 7/31/26-8/2/26', and the full extract contains the string '2026' 182 times and '2027' zero times, so this is Otakon 2026's lineup still live months after that show rather than any announcement for the 2027 edition; the earlier 'fresh-looking bios' reasoning for treating it as current was mistaken. The 2027 event dates/venue (homepage: 'Otakon 2027 ... August 6, 2027 – August 8, 2027' with live countdown) are independently confirmed and unaffected."
+}

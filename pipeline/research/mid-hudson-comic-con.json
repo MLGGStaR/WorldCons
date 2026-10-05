@@ -37,5 +37,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": ""
+  "notes": "Verify pass (2026-10-05): current -- guest cards give explicit 'SIGNING 10AM-6PM'/'SIGNING 10AM-3PM' times on 8/7 and 8/8 matching the 2027-08-07/08 edition exactly, and image filenames are tagged '27' (e.g. 'MHCC CP 27.png'); the extract's only '2026' hit is the tool's own fetch timestamp, so the lineup stands."
 }

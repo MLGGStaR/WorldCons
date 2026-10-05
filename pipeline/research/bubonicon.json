@@ -1,0 +1,33 @@
+{
+  "id": "bubonicon",
+  "name": "Bubonicon",
+  "short": "B'Con",
+  "url": "https://www.bubonicon.com/",
+  "organizer": "Albuquerque Science Fiction Society",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "New Mexico's literary science-fiction and fantasy convention, run by the Albuquerque Science Fiction Society, with panels, art show and masquerade.",
+  "cover": { "file": "pipeline/cache/extract/bubonicon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-08-27",
+      "end": "2027-08-29",
+      "dates": "confirmed",
+      "venue": "Albuquerque Marriott Uptown",
+      "city": "Albuquerque",
+      "region": "NM",
+      "country": "US",
+      "tickets": "https://www.bubonicon.com/registration/",
+      "guestsPage": "https://www.bubonicon.com/links/news/",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Charlie Jane Anders", "Co-Guest of Honor", "author"],
+        ["Marshall Ryan Maresca", "Co-Guest of Honor", "author"]
+      ],
+      "evidence": "Homepage: 'Bubonicon 58 will be August 27-29, 2027, as Montreal, Canada, is hosting Worldcon September 2-6 Co-Guests of Honor are Charlie Jane Anders & Marshall Ryan Maresca'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Bubonicon 57 (Aug 21-23, 2026) just concluded ('Bubonicon 57 is Done!'); the only forward-looking information is a brief news blurb naming Bubonicon 58's dates and two co-guests of honor, adding 'We're still working on a 2027 Guest Artist'. No photos exist yet for the 58th edition's guests, so both named guests are recorded as textOnlyGuests rather than picked from a lineup image. The blurb doesn't restate a venue for the 58th edition; used the hotel the site elsewhere calls 'Bubonicon's hotel' (ABQ Marriott Uptown on Louisiana NE) since no other venue has been announced for 2027. Cover uses the current Bubonicon-57-dated logo graphic (the con's generic brand mark, just year-numbered) since no 58-specific art exists yet; the homepage's og:image is a full Bubonicon-57 Facebook feature banner (likely collaging that edition's own guests), which was avoided as edition-specific to the wrong year. Verify pass (2026-10-05): current as scoped -- the homepage still confirms Bubonicon 57 'Is Done!' (Aug 2026) and under 'FUTURE B'CON DATES' names only Charlie Jane Anders and Marshall Ryan Maresca for the 58th (2027) edition while saying 'We're still working on a 2027 Guest Artist', matching the two textOnlyGuests already recorded exactly."
+}
