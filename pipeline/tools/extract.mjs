@@ -73,11 +73,18 @@ function fromCache(file, url, maxAgeHours) {
 
 async function cli() {
   const argv = process.argv.slice(2);
-  const flags = new Set(['mode', 'save', 'out', 'shot', 'channel', 'max', 'wait', 'max-age']);
+  const flags = new Set(['mode', 'save', 'out', 'shot', 'channel', 'max', 'wait', 'max-age', 'print']);
   const opt = (name, dflt) => {
     const i = argv.indexOf(`--${name}`);
     return i >= 0 ? argv[i + 1] : dflt;
   };
+  // --print <saved .json>: the numbered listing of an extraction made earlier (the daily
+  // refresh renders pages itself and hands agents the file; numbers are that file's).
+  if (opt('print')) {
+    const file = resolve(ROOT, opt('print'));
+    printCompact(JSON.parse(readFileSync(file, 'utf8')), relative(ROOT, file).replace(/\\/g, '/'));
+    return;
+  }
   const url = argv.find((a, i) => !a.startsWith('--') && !(i > 0 && flags.has(argv[i - 1].replace(/^--/, ''))));
   if (!url) {
     console.error('usage: extract.mjs <url> [--mode guests|home] [--save slug] [--out file] [--shot file] [--channel msedge] [--fresh]');

@@ -22,7 +22,7 @@ Live site: https://mlggstar.github.io/WorldCons/
 
 ## How the data is made
 
-Static site, no backend. The data is a dated snapshot built by `pipeline/`:
+Static site, no backend. The data is built by `pipeline/` and refreshed every day (see below):
 
 1. `pipeline/tools/extract.mjs` renders a con's homepage or guest page in Chromium and
    lists dates, images and numbered guest candidates.
@@ -38,9 +38,37 @@ Static site, no backend. The data is a dated snapshot built by `pipeline/`:
 Dates and guests come from each convention's official website. Guest photos belong to
 their owners and are shown to identify who is appearing.
 
-### Refreshing the data
+### Daily automatic refresh
 
-Guest lineups change every week, so the data is a dated snapshot. To refresh:
+The data refreshes itself once a day. The Windows scheduled task "WorldCons daily refresh"
+(10:17 local time; if the PC was off or asleep it runs as soon as it can) starts
+`pipeline/refresh/run.mjs`:
+
+1. `pipeline/refresh/plan.mjs` (no AI) re-renders the guest pages behind every upcoming
+   lineup, the guest pages of editions still waiting on guests, and a seventh of the
+   homepages of cons waiting on dates. It compares them with the extraction the research
+   picked from and with everything earlier runs saw (`pipeline/cache/refresh/seen.json`), then
+   writes task files for what changed: new guest cards, guests gone from the page, guests
+   appearing, new date text.
+2. Each task file goes to a headless Claude Code agent (`claude -p`, Sonnet, three at a time,
+   at most 8 files a day; the rest wait for the next day). The agents follow `RESEARCH.md`
+   (`pipeline/refresh/prompts.mjs` holds their instructions) and only edit research files.
+3. Edits that fail `check-research.mjs` or the picks audit are put back. `build-data.mjs`
+   rebuilds the data and images, safety gates refuse any big drop in cons, guests or photos,
+   and the tests run.
+4. The result is committed and pushed, and GitHub Pages publishes it. Any failure leaves
+   the published site as it was, and the changes are found again the next day.
+
+Logs are in `pipeline/logs/` (`refresh-<date>.log`, `last-run.json`). Run it by hand with
+`node pipeline/refresh/run.mjs` (`--no-agents`, `--no-push`, `--reuse-plan` to reuse today's
+scan). Install or move the task with
+`powershell -ExecutionPolicy Bypass -File pipeline/refresh/install-task.ps1 -At 10:17`.
+The PC needs to be on at some point in the day; a run skips itself if the working tree has
+uncommitted changes, so it never mixes with work in progress.
+
+### Re-researching from scratch
+
+The daily refresh keeps known cons current. To add new cons or redo the research:
 
 1. `node pipeline/tools/make-seed.mjs <discovery.json>` merges a con list into
    `pipeline/seed/series.json` (skip if the list is unchanged).

@@ -4,3 +4,6 @@ pipeline/.tmp/
 .impeccable/review/
 *.log
 .DS_Store
+pipeline/seed/refresh/
+pipeline/logs/
+.blender-toolkit/
