@@ -186,9 +186,30 @@ function vetEdits() {
     if (added.includes(f)) rmSync(join(ROOT, f), { force: true });
     else git('checkout', '--', f);
   };
+  // Guests listed for upcoming editions in a research file.
+  const guestsIn = (json) => {
+    try {
+      const r = JSON.parse(json);
+      return (r.editions || []).filter((e) => e.end >= TODAY).reduce((s, e) => s + (e.lineup || []).reduce((n, l) => n + (l.picks || []).length, 0) + (e.textOnlyGuests || []).length, 0);
+    } catch {
+      return 0;
+    }
+  };
   for (const f of [...changed, ...added]) {
     const { errors } = checkFile(join(ROOT, f));
-    if (errors.length) undo(f, errors.slice(0, 3).join(' | '));
+    if (errors.length) {
+      undo(f, errors.slice(0, 3).join(' | '));
+      continue;
+    }
+    // A big loss is more often a bad render than a real change: hold it for a person.
+    if (changed.includes(f)) {
+      const was = guestsIn(git('show', `HEAD:${f}`).stdout);
+      const now = guestsIn(readFileSync(join(ROOT, f), 'utf8'));
+      if (was - now >= 40 || (was >= 10 && now <= was * 0.3)) {
+        heldBack.push(`${f}: ${was} -> ${now} guests`);
+        undo(f, `held back, the lineup would drop from ${was} to ${now} guests`);
+      }
+    }
   }
   node('pipeline/tools/audit-picks.mjs', '--fix');
   const audit = run(process.execPath, ['pipeline/tools/audit-picks.mjs'], { allowFail: true });
@@ -202,6 +223,8 @@ function vetEdits() {
   }
   return { changed: lines(git('diff', '--name-only', '--', 'pipeline/research').stdout).length, added: lines(git('ls-files', '--others', '--exclude-standard', '--', 'pipeline/research').stdout).length };
 }
+
+const heldBack = [];
 
 const count = (d) => ({
   upcoming: d.cons.filter((c) => c.end >= TODAY).length,
@@ -303,7 +326,8 @@ async function main() {
       for (const t of done) Object.assign(seen, t.remember);
       writeFileSync(SEEN, JSON.stringify(seen));
     }
-    writeFileSync(join(LOGS, 'last-run.json'), JSON.stringify({ date: TODAY, ok: true, before, after, plan: plan.found, agents: done.length }, null, 1));
+    if (heldBack.length) log(`held back for a person to check: ${heldBack.join('; ')}`);
+    writeFileSync(join(LOGS, 'last-run.json'), JSON.stringify({ date: TODAY, ok: true, before, after, plan: plan.found, agents: done.length, heldBack }, null, 1));
   } catch (e) {
     log(`FAILED: ${e.message}`);
     try {
