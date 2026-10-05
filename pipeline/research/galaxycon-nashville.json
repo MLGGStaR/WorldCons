@@ -26,42 +26,8 @@
           "picks": [
             [0, "Nolan North", "", "voice"],
             [1, "Ross Marquand", "", "actor"],
-            [2, "Terry Farrell", "", "actor"],
             [3, "Adam McArthur", "", "voice"],
-            [4, "Erica Schroeder", "", "voice"],
-            [17, "Chris Claremont", "", "comics"],
-            [18, "Phil Noto", "", "comics"],
-            [19, "Mike Grell", "", "comics"],
-            [20, "Colleen Doran", "", "comics"],
-            [21, "John Pomeroy", "", "animation"],
-            [23, "Jimmy Hart", "", "sports"],
-            [24, "Ted DiBiase", "", "sports"],
-            [25, "The Godfather", "", "sports"],
-            [26, "Jerry Lawler", "", "sports"],
-            [27, "Witchy Brew", "", "cosplay"],
-            [28, "Elgin David", "", "other"],
-            [29, "Joe Wos", "", "comics"],
-            [32, "Storyteller Cosplay", "", "cosplay"],
-            [33, "Grave Craft", "", "cosplay"],
-            [34, "Feycrafts", "", "cosplay"],
-            [35, "Chainsaw Kitten Cosplay", "", "cosplay"],
-            [36, "Galaxie Ink", "", "other"],
-            [37, "Adam Phillips", "", "other"],
-            [38, "Dan Dings", "", "other"],
-            [39, "Jaime Escanelles", "", "other"],
-            [40, "Lucille The Impala", "", "cosplay"],
-            [41, "Tennessee Ghostbusters of Tennessee", "", "cosplay"],
-            [42, "Midsouth Garrison 501st Legion", "", "cosplay"],
-            [43, "Sith Dynasty", "", "cosplay"],
-            [46, "Jackson Rathbone", "", "actor"],
-            [47, "Sam Haft", "", "music"],
-            [48, "Dana Snyder", "", "voice"],
-            [49, "Erika Henningsen", "", "music"],
-            [50, "Trevor Von Eeden", "", "comics"],
-            [51, "Mitch Gerads", "", "comics"],
-            [52, "Guy Hutchinson", "", "author"],
-            [53, "405 Infantry Division", "", "cosplay"],
-            [54, "Dreams and Wishes", "", "cosplay"]
+            [4, "Erica Schroeder", "", "voice"]
           ]
         }
       ],
@@ -70,5 +36,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "This is a new 2027 debut city (per the discovery note), confirmed directly from the live site. Thirteen cards on the Nashville guests page (#5-16, #22; Diane Pershing, Loren Lester, Bob West, Jeff Steitzer, John DiMaggio, Roger Craig Smith, Charles Martinet, Sam Witwer, Kenn Scott, Brian Tochi, Robbie Rist, Ernie Reyes Jr., and a duplicate Joe Wos) are each captioned 'at GalaxyCon Columbus', not Nashville — leftover/mistemplated data, not a Nashville confirmation — so none of them are picked; Joe Wos is still counted once from his correctly Nashville-captioned card (#29). #31 compounds this with a concatenated 'GamingComing SoonTabitha Lyons at GalaxyCon Columbus' caption and is excluded outright. #30 'FSCW' is the same unexplained acronym seen on galaxycon-columbus (filename even disagrees with the caption, 'FCSW' vs 'FSCW') and is left out rather than guessed. #44-45 (JSA, Agents of Slabs) are Authentication vendor services, excluded. Known for is left blank throughout (no bio text on any card). Cover uses the Nashville wordmark logo; the homepage's other images are the shared 11-city promo, decorative props, stock photos and a ticket-sale banner."
+  "notes": "This is a new 2027 debut city (per the discovery note), confirmed directly from the live site. Thirteen cards on the Nashville guests page (#5-16, #22; Diane Pershing, Loren Lester, Bob West, Jeff Steitzer, John DiMaggio, Roger Craig Smith, Charles Martinet, Sam Witwer, Kenn Scott, Brian Tochi, Robbie Rist, Ernie Reyes Jr., and a duplicate Joe Wos) are each captioned 'at GalaxyCon Columbus', not Nashville — leftover/mistemplated data, not a Nashville confirmation — so none of them are picked; Joe Wos is still counted once from his correctly Nashville-captioned card (#29). #31 compounds this with a concatenated 'GamingComing SoonTabitha Lyons at GalaxyCon Columbus' caption and is excluded outright. #30 'FSCW' is the same unexplained acronym seen on galaxycon-columbus (filename even disagrees with the caption, 'FCSW' vs 'FSCW') and is left out rather than guessed. #44-45 (JSA, Agents of Slabs) are Authentication vendor services, excluded. Known for is left blank throughout (no bio text on any card). Cover uses the Nashville wordmark logo; the homepage's other images are the shared 11-city promo, decorative props, stock photos and a ticket-sale banner. Verify-05 recheck (2026-10-05): the 'new 2027 debut city' premise above does not hold -- GalaxyCon Nashville already ran May 29-31, 2026 at this same Fairgrounds venue, and a fresh extraction shows most of the remaining Nashville-captioned cards (Chris Claremont, Phil Noto, Mitch Gerads, Mike Grell, Colleen Doran, Trevor Von Eeden, the wrestlers, Joe Wos, the cosplay groups) carry 2026-dated filenames and match that already-held lineup; trimmed the picks to just the 4 with 2027-dated filenames (Nolan North, Ross Marquand, Adam McArthur, Erica Schroeder), independently confirmed touring GalaxyCon's 2027 Richmond/Oklahoma City/Nashville dates together. Terry Farrell's card (index 2) is dropped too -- same 2026-dated filename, shared verbatim with her stale Oklahoma City card."
 }

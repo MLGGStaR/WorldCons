@@ -1,0 +1,45 @@
+{
+  "id": "oz-comic-con-melbourne",
+  "name": "Oz Comic-Con Melbourne",
+  "short": "",
+  "url": "https://ozcomiccon.com/melbourne/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Melbourne's stop on the Oz Comic-Con circuit, running a Christmas edition and a mid-year edition at the Melbourne Convention & Exhibition Centre.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-melbourne.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "city": "Melbourne",
+      "region": "VIC",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/occ-melb-xmas-edition-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Xmas edition page (ozcomiccon.com/melbourne-xmas-edition/) countdown text: 'countdown to oz comic-con Melbourne xmas edition! December 5 & 6, 2026 | MCEC'"
+    },
+    {
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "city": "Melbourne",
+      "region": "VIC",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/melbourne-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "City page countdown text: 'countdown to oz comic-con Melbourne 2027! June 12 & 13, 2027 | MCEC'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Melbourne runs two shows a year (special case in RESEARCH.md): a December 'Xmas Edition' and a mid-year regular show, both at MCEC. The Xmas edition's own guest page (occ-melb-xmas-edition-guests) currently 404s, so its guests are 'none-yet'. The regular June 2027 edition's guest cards only show a 'View Guest Bio' button with no name/credit text; names came from each card's profile-page link slug, so known-for is blank throughout. Cat defaults to 'other'; cosplay is used where the slug says so or the handle sits in the clearly cosplay-labelled run of cards; actor/comics/author are used only for names independently recognisable (Giancarlo Esposito, Summer Glau, David Giuntoli, Bitsie Tulloch, Emilie de Ravin, Luke Arnold, Barrett Wilbert Weed as performers; Dean Rankine as an Australian comic artist; Devin Madson, Ellie Marney, George Ivanoff and T.R. Napper as Australian spec-fic authors). One cancelled guest (Gordon Cormier, filename 'Gordon-Cancellation-Melb.jpg') and one unlinked cancelled card were skipped per the skip-cancelled-guests rule. Verify-05 recheck (2026-10-05): the June 2027 lineup above was stale -- Giancarlo Esposito, Summer Glau, David Giuntoli, Bitsie Tulloch, Barrett Wilbert Weed, Luke Arnold, Emilie de Ravin, Georgina Leahy and Chris Tergliafera were all guests of the already-held June 6-7, 2026 Melbourne show (confirmed by press coverage published 2026-05-19 and the con's own 2026 schedule page), and the guest photos sit in the site's May 2026 upload folder; reset the June 2027 edition's guests to none-yet and dropped its lineup pending a genuine 2027 announcement."
+}

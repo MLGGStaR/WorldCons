@@ -35,5 +35,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Checked the guests page's own \"All\" filter (?view=all) to confirm these 3 are the complete current roster, not a partial/featured subset."
+  "notes": "Checked the guests page's own \"All\" filter (?view=all) to confirm these 3 are the complete current roster, not a partial/featured subset. Verify-05 recheck (2026-10-05): confirmed current -- a fresh extraction shows the same 3 names, and the page's own nav now labels this view 'JAFAX 29 Current' linked to '?year=2027'."
 }

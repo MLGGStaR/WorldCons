@@ -45,5 +45,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Only one guest category (Bulle du Livre authors/scientists/academics) was populated on the 2027 guest page at research time; other past sections (Bulle du Jeu, illustrators, international guests) may add more names later since the festival is still 8 months out. The og cover image is still last year's (2025) poster since no 2027 key art has been published yet; cards gave no 'known for' text beyond the name, so Known for is left blank for all 13."
+  "notes": "Only one guest category (Bulle du Livre authors/scientists/academics) was populated on the 2027 guest page at research time; other past sections (Bulle du Jeu, illustrators, international guests) may add more names later since the festival is still 8 months out. The og cover image is still last year's (2025) poster since no 2027 key art has been published yet; cards gave no 'known for' text beyond the name, so Known for is left blank for all 13. Verify-05 recheck (2026-10-05): confirmed current -- a fresh extraction of the guests page still shows these same 13 names under the page's own '27 - 30 Mai 2027' banner, with the URL auto-filtering to '?saison=2027'."
 }

@@ -27,42 +27,7 @@
             [0, "Ross Marquand", "", "actor"],
             [1, "Nolan North", "", "voice"],
             [2, "Erica Schroeder", "", "voice"],
-            [3, "Adam McArthur", "", "voice"],
-            [4, "Jim Starlin", "", "comics"],
-            [5, "Dan Jurgens", "", "comics"],
-            [6, "Timothy Zahn", "", "author"],
-            [7, "Robbi Rodriguez", "", "comics"],
-            [8, "Elgin David", "", "other"],
-            [9, "Joe Wos", "", "comics"],
-            [10, "Patty Hawkins", "", "other"],
-            [11, "Tyler Wood", "", "other"],
-            [12, "Gangrel", "", "sports"],
-            [13, "Kofi Kingston", "", "sports"],
-            [14, "Austin Creed", "", "sports"],
-            [15, "Cynthia Eve", "", "cosplay"],
-            [16, "Lua Stardust", "", "cosplay"],
-            [17, "CafeDeDuy", "", "cosplay"],
-            [18, "PerlerTricks", "", "cosplay"],
-            [19, "Soonercon Cosplay Repair Station", "", "cosplay"],
-            [20, "Barony of Namron, SCA", "", "cosplay"],
-            [21, "Twister Truck", "", "cosplay"],
-            [22, "Jurassic Jeeps OKC", "", "cosplay"],
-            [23, "Galaxie Ink", "", "other"],
-            [24, "Jose Velazquez", "", "other"],
-            [25, "Dan Dings", "", "other"],
-            [26, "Joe Stevens", "", "other"],
-            [27, "Jaime Escanellas", "", "other"],
-            [28, "Chey Peck", "", "other"],
-            [29, "Jessica Simmons", "", "other"],
-            [30, "Morgan Strong", "", "other"],
-            [33, "Paul Bettany", "", "actor"],
-            [35, "Jeremy Jordan", "", "music"],
-            [36, "Callum Kerr", "", "actor"],
-            [37, "Tom Cavanagh", "", "actor"],
-            [38, "Terry Farrell", "", "actor"],
-            [39, "Malia Ewart", "", "other"],
-            [40, "Morgan Le Foy", "", "cosplay"],
-            [41, "Felecia Angelle", "", "cosplay"]
+            [3, "Adam McArthur", "", "voice"]
           ]
         }
       ],
@@ -71,5 +36,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "A dedicated page exists at galaxycon.com/pages/galaxycon-oklahoma-city (unlike what the discovery note assumed); id kept as given. The guests page's 'Guest Page 2' link (…-guests-page-2) 404s, so page 1's 43 candidates are the whole list. #34 is a second, bare 'Nolan North' card (no attendance text) duplicating #1's fully-confirmed one and is not double-picked. #31-32 (JSA, Agents of Slabs) are Authentication vendor services, excluded. Known for is left blank throughout (no bio text on any card). Cover uses the Oklahoma City wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative cosplay-cutout props, and a ticket-sale banner."
+  "notes": "A dedicated page exists at galaxycon.com/pages/galaxycon-oklahoma-city (unlike what the discovery note assumed); id kept as given. The guests page's 'Guest Page 2' link (…-guests-page-2) 404s, so page 1's 43 candidates are the whole list. #34 is a second, bare 'Nolan North' card (no attendance text) duplicating #1's fully-confirmed one and is not double-picked. #31-32 (JSA, Agents of Slabs) are Authentication vendor services, excluded. Known for is left blank throughout (no bio text on any card). Cover uses the Oklahoma City wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative cosplay-cutout props, and a ticket-sale banner. Verify-05 recheck (2026-10-05): the guest grid sits under its own 'Coming Soon' section header, and a fresh extraction shows 35 of the 39 original picks (Jim Starlin, Dan Jurgens, Paul Bettany, Timothy Zahn and the rest) carry 2026-dated image filenames and match the independently-reported May 2026 Oklahoma City lineup that already ran; trimmed the picks to just the 4 with 2027-dated filenames (Ross Marquand, Nolan North, Erica Schroeder, Adam McArthur), who are independently confirmed touring GalaxyCon's 2027 Richmond/Oklahoma City/Nashville dates together. The other 35 are dropped as stale 2026 holdovers, not re-announced for 2027."
 }

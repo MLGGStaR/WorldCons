@@ -1,0 +1,57 @@
+{
+  "id": "momocon",
+  "name": "MomoCon",
+  "short": "",
+  "url": "https://www.momocon.com",
+  "organizer": "MomoCon, LLC",
+  "status": "active",
+  "types": ["anime", "games", "comics"],
+  "blurb": "An all-ages geek-culture convention in Atlanta for anime, gaming and comics fans, with voice actors, animators and YouTube creators each May.",
+  "cover": { "file": "pipeline/cache/extract/momocon.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-05-27",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Georgia World Congress Center",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://www.momocon.com/registration/",
+      "guestsPage": "https://www.momocon.com/guest-list/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/momocon.guests.json",
+          "picks": [
+            [2, "Lauren Faust", "My Little Pony: Friendship is Magic, Powerpuff Girls", "animation"],
+            [3, "Owen Dennis", "Infinity Train creator", "animation"],
+            [4, "Susan Egan", "Hercules (Megara); Beauty and the Beast (Belle)", "voice"],
+            [5, "Steve Blum", "Cowboy Bebop (Spike Spiegel)", "voice"],
+            [6, "Mary Elizabeth McGlynn", "Anime ADR director/voice actress", "voice"],
+            [7, "Bryson Baugus", "Demon Slayer (Tanjiro)", "voice"],
+            [8, "Corey Wilder", "", "voice"],
+            [9, "Katie Caruso", "Audio dramas, original animation, anime", "voice"],
+            [10, "Zeno Robinson", "My Hero Academia (Hawks)", "voice"],
+            [11, "Bryce Papenbrook", "Attack on Titan (Eren), Sword Art Online (Kirito)", "voice"],
+            [12, "Robert McCollum", "Jujutsu Kaisen (Yuji Itadori)", "voice"],
+            [13, "Lauren Landa", "Attack on Titan (Mikasa)", "voice"],
+            [14, "Dante Basco", "Avatar: The Last Airbender (Zuko)", "voice"],
+            [15, "MC Lars", "Nerdcore rapper", "music"],
+            [16, "Breana Navickas", "", "other"],
+            [17, "Katy Johnson", "", "other"],
+            [18, "ACRacebest", "", "creator"],
+            [19, "Jaxblade", "", "creator"],
+            [20, "Saberspark", "Animation YouTuber", "creator"],
+            [21, "Johnny 2 Cellos", "Cartoons That Curse podcast", "creator"],
+            [22, "ToonrificTariq", "Animation YouTuber/essayist", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'May 27-30, 2027 REGISTER FOR 2027!'; guest page labelled 'MomoCon Guest List 2027'; WebSearch confirmed venue as Georgia World Congress Center, Downtown Atlanta"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards gave only names (no bio text), so categories/known-for were filled from general knowledge plus a WebSearch that confirmed Katie Caruso (voice actor), ToonrificTariq (animation YouTuber/essayist) and Johnny 2 Cellos (his co-host on the 'Cartoons That Curse' podcast, not a musical act as the name might suggest). Breana Navickas, Katy Johnson, ACRacebest and Jaxblade could not be confirmed, so their known-for is left blank; Corey Wilder is grouped with the anime-dub voice cast but his specific roles could not be confirmed either. No og/twitter image on the homepage; cover uses the official site logo. Verify-05 recheck (2026-10-05): confirmed current -- a fresh extraction shows the identical 21 names directly under an on-page 'MomoCon Guest List 2027' banner."
+}
