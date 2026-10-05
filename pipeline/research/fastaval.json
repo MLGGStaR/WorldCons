@@ -1,0 +1,30 @@
+{
+  "id": "fastaval",
+  "name": "Fastaval",
+  "short": "",
+  "url": "https://www.fastaval.dk/",
+  "organizer": "Foreningen Alea",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Denmark's largest roleplaying and board-game congress, gathering about 1,000 people over Easter in Hobro each year.",
+  "cover": { "file": "pipeline/cache/extract/fastaval.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-24",
+      "end": "2027-03-29",
+      "dates": "confirmed",
+      "venue": "Mariagerfjord Gymnasium",
+      "city": "Hobro",
+      "region": "",
+      "country": "DK",
+      "tickets": "https://www.fastaval.dk/",
+      "guestsPage": "https://www.fastaval.dk/en/aeres-gaester/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Danmarks største rollespils- og brætspilskongres 24. MARTS - 29. MARTS 2027 Mariagerfjord Gymnasium, Hobro'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Matches the seed note (Denmark's largest roleplaying/board-game congress, held over Easter; seed's ~1000-attendee figure comes from the site's own description). Organizer is the volunteer association 'Foreningen Alea', named in the site's own nav (Arrangør > Foreningen Alea). Fastaval names a single Guest of Honour per year; Paula Deming was that guest for 2026, described on her guest page as running a ttRPG one-shot and a 'Comedy Meets Board Games' talk with Fastaval attendees. Verify-03 pass (2026-10-05): stale -> none-yet -- the Guest of Honour page's own section heading still reads 'Guest of Honour at Fastaval 2026 Paula Deming' (not 2027), and her photo and the two program-session images are uploaded 2025/12 and 2026/02, i.e. material published for last year's show; the homepage confirms the 2027 edition's dates (24-29 March 2027, a 170-day countdown from today) but no 2027 Guest of Honour has been named yet, so guests resets to none-yet and the Paula Deming pick is removed."
+}

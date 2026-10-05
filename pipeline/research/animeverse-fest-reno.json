@@ -1,0 +1,15 @@
+{
+  "id": "animeverse-fest-reno",
+  "name": "AnimeVerse Fest Reno",
+  "short": "",
+  "url": "https://animeversefest.com/reno/",
+  "organizer": "Zimmad Events",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Reno stop of the Animeverse Fest multi-city anime convention tour, with voice actors, cosplay, gaming and live performances.",
+  "cover": { "file": "pipeline/cache/extract/animeverse-fest-reno.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-19", "end": "2026-09-20", "city": "Reno", "region": "NV", "country": "US", "venue": "Reno Event Center" },
+  "checked": "2026-10-05",
+  "notes": "Animeverse Fest is a multi-city brand (separate shows in Reno, Baton Rouge, Pittsburgh, Houston and others are promoted from the same wp-site); only the Reno-specific page (animeversefest.com/reno/) was used for this file, never the generic landing page. That page still shows the past 'SEPTEMBER 19TH-20TH, 2026' edition and the footer already reads 'ZIMMAD EVENTS, LLC 2027', but no specific 2027 Reno date is posted yet and a search for 'Animeverse Fest Reno 2027 dates' found none either, so editions is empty and the last confirmed edition is recorded instead."
+}

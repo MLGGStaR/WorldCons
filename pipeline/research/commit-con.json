@@ -1,0 +1,15 @@
+{
+  "id": "commit-con",
+  "name": "CommIT Con",
+  "short": "",
+  "url": "https://commitcon.dk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "games"],
+  "blurb": "A free, student-run pop-culture convention at the IT University of Copenhagen, open to students and non-students alike.",
+  "cover": { "file": "pipeline/cache/extract/commit-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-03-28", "end": "2026-03-28", "city": "Copenhagen", "region": "", "country": "DK", "venue": "IT University of Copenhagen" },
+  "checked": "2026-10-05",
+  "notes": "The homepage carries no date text at all, and its own Schedule page (con/schedule) says 'Schedule Coming Soon! We are currently finalizing the schedule for CommIT Con', with no date given either. That page's JSON-LD lists a SocialEvent on 2026-03-28, but per the research procedure JSON-LD is often stale and that date has already passed relative to this 2026-10-05 research window, so it is recorded as 'last' rather than as a confirmed upcoming edition. No next date is announced yet; recheck closer to the next CommIT Con. No guest roster was found (small student con; 'Coming Soon' schedule suggests the program, and likely any guest list, is not yet public), so guests were not captured. Organizer name (presumably a student society at ITU) was not found on the page."
+}

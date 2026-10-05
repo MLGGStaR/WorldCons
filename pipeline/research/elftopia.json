@@ -1,0 +1,30 @@
+{
+  "id": "elftopia",
+  "name": "Elftopia",
+  "short": "",
+  "url": "https://www.elftopia.be/en/",
+  "organizer": "Elftopia",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "Fantasy festival at Ooidonk Castle near Ghent, with cosplay, storytellers, fire performers, falconers and fantasy authors.",
+  "cover": { "file": "pipeline/cache/extract/elftopia.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-08-14",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "Ooidonk Castle",
+      "city": "Deinze",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.elftopia.be/fr/tickets-fr/",
+      "guestsPage": "https://www.elftopia.be/en/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown: 'Le Fantasy Fest Belge 14 - 15 août 2027'; guests page: 'Elftopia welcomes you at Ooidonk Castle Saturday 14 August 2027 ... Sunday 15 August 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page says outright 'The guests will be announced soon', so guests is \"none-yet\" for the Aug 2027 edition. No distinct organizing company name is shown anywhere on the site (only 'Website by ESKIDOOS.be', the web developer, same as this batch's Comic Con Brussels — likely just a shared site-builder, not a shared organizer), so organizer is listed as the event brand itself. Ooidonk Castle sits in/near Nazareth and Deinze, Belgium; keeping Deinze as given since the site itself only says 'near the city of Ghent' without naming a specific municipality."
+}

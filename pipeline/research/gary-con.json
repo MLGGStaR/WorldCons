@@ -1,0 +1,30 @@
+{
+  "id": "gary-con",
+  "name": "Gary Con",
+  "short": "",
+  "url": "https://www.garycon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop", "cosplay"],
+  "blurb": "A tribute to D&D co-creator Gary Gygax, run by his son Luke Gygax, held each spring at the Grand Geneva Resort in Lake Geneva, Wisconsin.",
+  "cover": { "file": "pipeline/cache/extract/gary-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-18",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Grand Geneva Resort & Spa",
+      "city": "Lake Geneva",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://garycon.com/event-ticketing/",
+      "guestsPage": "https://garycon.com/gary-con-xviii-special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Site page title 'Gary Con XIX - Gary Con' and its og:image file 'gary-con-xix-scaled.png' (read via a Wayback Machine snapshot, see notes); dates and venue confirmed by search results from happeningnext.com and 10times.com: 'Gary Con XIX at 7036 Grand Geneva Way, Lake Geneva, WI... on 18th March, 2027' / 'Gary Con XIX is scheduled for March 18-21, 2027... Grand Geneva Resort & Spa'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live site returns a Cloudflare 'Just a moment...' bot-check (HTTP 403) to extract.mjs even with --channel msedge, so it was read via a Wayback Machine snapshot (captured 2026-06-08, the most recent one archived) instead. That snapshot's nav still only links to the prior year's 'gary-con-xviii-special-guests' page (no XIX-specific guest page existed yet as of June 2026, and no newer snapshot was available), so guests are recorded as none-yet; re-check closer to the March 2027 show. Organizer entity beyond 'Gary Con' (run by Luke Gygax, son of D&D co-creator Gary Gygax) not found."
+}

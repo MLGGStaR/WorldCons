@@ -1,0 +1,30 @@
+{
+  "id": "ibashocon",
+  "name": "Ibashocon",
+  "short": "",
+  "url": "https://www.ibashocon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An anime convention, now in its third year, at the Hilton Raleigh North Hills in Raleigh, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/ibashocon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-26",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Hilton Raleigh North Hills",
+      "city": "Raleigh",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://www.ibashocon.com/tickets",
+      "guestsPage": "https://www.ibashocon.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'HILTON RALEIGH NORTH HILLS FEB. 26TH, 2027, @4PM THRU FEB. 28TH, 2027, @5PM' and 'LOCATION HILTON RALEIGH NORTH HILLS 3415 Wake Forest Rd, Raleigh, NC 27609'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Meta description notes 2027 is the con's '3rd year'. No organizer/company name is stated anywhere on the rendered homepage, so organizer is left blank. The /guests page rendered with no guest candidates (only the site logo), so guests is 'none-yet' for 2027; the homepage instead shows photos from the 2026 event ('CHECK OUT IMAGES FROM 2026 BELOW!'), which were not used as guest or cover material since they are crowd/attendee photos, not guest or key art."
+}

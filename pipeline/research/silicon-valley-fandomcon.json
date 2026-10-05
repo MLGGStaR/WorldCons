@@ -1,0 +1,22 @@
+{
+  "id": "silicon-valley-fandomcon",
+  "name": "FandomCon Silicon Valley",
+  "short": "",
+  "url": "https://fandomcon.com/silicon-valley",
+  "organizer": "FandomCon",
+  "status": "active",
+  "types": ["pop", "anime", "comics"],
+  "blurb": "A multi-fandom weekend in San Jose with celebrity guests, anime, comics, cosplay and gaming; part of the multi-city FandomCon brand.",
+  "cover": { "file": "pipeline/cache/extract/silicon-valley-fandomcon.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-04-10",
+    "end": "2026-04-12",
+    "city": "San Jose",
+    "region": "CA",
+    "country": "US",
+    "venue": "San Jose McEnery Convention Center (South Hall)"
+  },
+  "checked": "2026-10-05",
+  "notes": "The homepage (and its ShowClix ticket link 'fandomcon-2026') still only advertises April 10-12, 2026, which has already happened relative to today; no 2027 Silicon Valley date is announced on the site, and a web search turned up no later date either, so editions is empty and the April 2026 run is recorded as 'last'. FandomCon is a multi-city brand (fandomcon.com/events lists Silicon Valley/San Jose, New York, Toronto, Orlando, Dubai and Dallas editions); this file covers only the Silicon Valley (San Jose) show per the batch. Renamed to 'FandomCon Silicon Valley' (brand-first) to match this dataset's convention for other multi-city brands (FAN EXPO, GalaxyCon); the id was kept as given. Cover uses hero:0, the wide 1100x400 'Main Events' banner image; the og:image (IMG_3780.jpg) looked like an untitled photo rather than designed key art. Guests were not researched since the only edition on record already happened before the research window and is recorded only as 'last'."
+}

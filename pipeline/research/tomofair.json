@@ -1,0 +1,15 @@
+{
+  "id": "tomofair",
+  "name": "TomoFair Utrecht",
+  "short": "",
+  "url": "https://www.tomofairutrecht.nl/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "An indoor Japanese pop-culture market in Utrecht with gaming, anime, cosplay and manga, running every year since 2014.",
+  "cover": { "file": "pipeline/cache/extract/tomofair.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "last": { "start": "2026-09-26", "end": "2026-09-27", "city": "Utrecht", "region": "", "country": "NL", "venue": "Gietijzer" },
+  "notes": "The homepage's only date ('TOMOFAIR UTRECHT 26 & 27 september 2026') already ended before today, and its ticket link still reads 'Coming soon' with no next edition announced, so the site appears not yet updated since that edition; editions is empty. Corrected city from the seed's 'Houten' to Utrecht: the live homepage explicitly reads 'TOMOFAIR UTRECHT ... Gietijzer Utrecht' with no mention of Houten (the brand may have changed venues since the seed note was written)."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "anime-town-pensacola",
+  "name": "Anime Town Pensacola",
+  "short": "",
+  "url": "https://www.animetowncons.com/pensacola",
+  "organizer": "Anime Town LLC",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A stop of the Anime Town multi-city tour at the Pensacola Interstate Fairgrounds, billed as the Florida Panhandle's premier anime convention.",
+  "cover": { "file": "pipeline/cache/extract/anime-town-pensacola.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-05-08", "end": "2026-05-10", "city": "Pensacola", "region": "FL", "country": "US", "venue": "Pensacola Interstate Fair" },
+  "checked": "2026-10-05",
+  "notes": "Own page ('Anime Town Pensacola takes place May 8-10, 2026 at the Pensacola Interstate Fair') shows an edition that already concluded before this check (2026-10-05). The brand's main animetowncons.com homepage tags Pensacola's next date as '2027 TBA', so no exact 2027 date has been announced yet. Part of the multi-city Anime Town tour — see the Greenville, Huntsville, Biloxi and Louisiana/Bossier City files for the other stops."
+}

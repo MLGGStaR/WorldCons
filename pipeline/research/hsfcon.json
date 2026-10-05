@@ -1,0 +1,74 @@
+{
+  "id": "hsfcon",
+  "name": "HSFCon",
+  "short": "",
+  "url": "https://www.hsfcon.nl/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "A small Dutch fan convention for horror, science fiction and fantasy, with author and genre guests over a weekend in Deventer.",
+  "cover": { "file": "pipeline/cache/extract/hsfcon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Deventer",
+      "region": "",
+      "country": "NL",
+      "tickets": "https://www.hsfcon.nl/tickets/",
+      "guestsPage": "https://www.hsfcon.nl/en/gasten/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/hsfcon-eregasten.guests.json",
+          "picks": [
+            [0, "Roderick Leeuwenhart", "", "other"],
+            [1, "Pam Hage", "", "other"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/hsfcon-gasten.guests.json",
+          "picks": [
+            [0, "Robin Rozendal", "", "other"],
+            [1, "Alexander Verbeek-van den Toren", "", "other"],
+            [2, "Mirjam Boers", "", "other"],
+            [3, "Jan Scholte", "", "other"],
+            [4, "Raymond Brands", "", "other"],
+            [5, "Eric Bol", "", "other"],
+            [6, "Alex Scholten", "", "other"],
+            [7, "Ayşe Calkin", "", "other"],
+            [8, "Mathias Maho", "", "other"],
+            [9, "Kim ten Tusscher", "", "other"],
+            [11, "Ian Laverman", "", "other"],
+            [12, "Charles van Wettum", "", "other"],
+            [21, "Katja van den Doel", "", "other"],
+            [26, "Carla Kuster", "", "other"],
+            [29, "Eddie van Dijk", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [
+        ["Anthonie Holslag", "", "other"],
+        ["Babs van der Hoeven", "", "other"],
+        ["Erwin van Ballegoij", "", "other"],
+        ["Heidi van der Vloet", "", "other"],
+        ["Jasper van der Pijl", "", "other"],
+        ["Kalyma Nadal Uceda", "", "other"],
+        ["Koen Maas", "", "other"],
+        ["Larissa Klein Bennink", "", "other"],
+        ["Lars van Eijk", "", "other"],
+        ["Mara van Ness", "", "other"],
+        ["Martijn Lindeboom", "", "other"],
+        ["Niels van Lieshout", "", "other"],
+        ["Patrick Bouwens", "", "other"],
+        ["Susan Middelkoop", "", "other"],
+        ["Yaron Mesika", "", "other"]
+      ],
+      "evidence": "Homepage text: 'The fourth edition of HSFCon will be held on Saturday 10 and Sunday 11 October 2026 in Deventer.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards show only names/photos with no bio text anywhere on-site, so 'known for' is left blank and cat defaults to 'other' per RESEARCH.md's never-guess rule. The two Eregasten (guests of honour) have personalized photo filenames and were picked directly. On the 30-photo 'Gasten' grid, 15 photos have personalized filenames (e.g. 'Aankondigingen-2026-Eric-Bol') matching the homepage's name list and were picked by number; the remaining photos use generic 'Untitled-Page-N' filenames with no name attribution, so rather than guess which unnamed photo belongs to which of the 15 remaining names, those are listed in textOnlyGuests instead. No venue name was found on-site (only the city, Deventer); the organizer's legal name was not found either."
+}

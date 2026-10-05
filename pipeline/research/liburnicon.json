@@ -1,0 +1,22 @@
+{
+  "id": "liburnicon",
+  "name": "Liburnicon",
+  "short": "",
+  "url": "https://liburnicon.com/",
+  "organizer": "Kulturni front",
+  "status": "active",
+  "types": ["scifi", "cosplay", "tabletop"],
+  "blurb": "A summer SF and fantasy festival in Opatija (at Ika) with cosplay, tabletop games, panels and workshops.",
+  "cover": { "file": "pipeline/cache/extract/liburnicon.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-21",
+    "end": "2026-08-22",
+    "city": "Opatija",
+    "region": "",
+    "country": "HR",
+    "venue": "Fakultet za menadžment u turizmu i ugostiteljstvu (FMTU), Ika"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage text: 'LIBURNICON 21. – 22. kolovoza 2026. FMTU, Ika, Opatija OUTLAWED EDITION' plus a press mention 'ugostio 21. Liburnicon' (hosted the 21st Liburnicon) confirm this was the 21st edition and that it already ended before today; no 2027 dates are posted, so editions is empty and this run is recorded as 'last'. This is clearly active, not the 'uncertain status' the discovery batch flagged — the site names a specific numbered 2026 edition, a named theme, a post-event media writeup and photo galleries from the days of the event. Types expanded from the batch's scifi-only to add cosplay (nav has a dedicated cosplay-competition page) and tabletop (homepage lists a 'BOARDGAME ZONA' and 'IGRE I TURNIRI'/games & tournaments). Organizer and contact from the footer: 'Udruga \"Kulturni front\"', liburnicon@kulturnifront.hr. Cover uses logo:1 (the festival's own gold logo at full size, 800x800); the hero images are all crowd/event photos from past editions, which RESEARCH.md says to avoid."
+}

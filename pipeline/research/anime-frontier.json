@@ -1,0 +1,62 @@
+{
+  "id": "anime-frontier",
+  "name": "Anime Frontier",
+  "short": "",
+  "url": "https://animefrontier.com/",
+  "organizer": "LeftField Media",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "North Texas's December anime convention at the Fort Worth Convention Center, with voice-actor guests and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/anime-frontier.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Fort Worth Convention Center",
+      "city": "Fort Worth",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://animefrontier.com/tickets/",
+      "guestsPage": "https://animefrontier.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-frontier.guests.json",
+          "picks": [
+            [3, "Ashley Johnson", "Ellie in The Last of Us", "voice"],
+            [4, "Daman Mills", "Frieza in Dragon Ball", "voice"],
+            [5, "Laura Bailey", "Critical Role cast, One Piece", "voice"],
+            [6, "Liam O'Brien", "Naruto's Gaara, Critical Role", "voice"],
+            [7, "Mackenyu", "Zoro in Netflix's One Piece", "actor"],
+            [8, "Marisha Ray", "Critical Role cast & co-owner", "voice"],
+            [9, "Matthew Mercer", "Critical Role Dungeon Master", "voice"],
+            [10, "Sam Riegel", "Critical Role cast", "voice"],
+            [11, "Taliesin Jaffe", "Critical Role cast", "voice"],
+            [12, "Travis Willingham", "Roy Mustang in Fullmetal Alchemist", "voice"],
+            [13, "Ben Phillips", "Voice actor, Mushoku Tensei", "voice"],
+            [14, "Branden Loera", "Voice actor, Gachiakuta", "voice"],
+            [15, "Celeste Perez", "AMO in Gachiakuta", "voice"],
+            [16, "Corey Pettit", "", "voice"],
+            [17, "Corey Wilder", "Zanka in Gachiakuta, Frieren", "voice"],
+            [18, "Eduardo Vildasol", "Voice actor, plays Seiichirou Kondou", "voice"],
+            [19, "Emily Fajardo", "English dub director of One Piece", "voice"],
+            [20, "Emily Neves", "Voice actor, 300+ anime roles", "voice"],
+            [21, "Erin Lundquist", "Olivia Park in GLITCH Productions", "voice"],
+            [22, "Katie Caruso", "Riyo in Gachiakuta", "voice"],
+            [23, "Lee George", "Stage/voice actor, ADR director", "voice"],
+            [24, "Madeleine Morris", "Adaptive writer, Mushoku Tensei", "voice"],
+            [25, "Reagan Murdock", "Aki Hayakawa in Chainsaw Man", "voice"],
+            [26, "Rudy Lopez", "", "voice"],
+            [27, "Sarah Wiedenheft", "", "voice"],
+            [28, "Ironmouse", "VTuber, 'Demon Queen of Hell'", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'ANIME IS BIGGER IN TEXAS - FORT WORTH - DEC. 4-6, 2026' and 'WHERE FORT WORTH CONVENTION CENTER 1201 Houston St, Fort Worth, TX 76102'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "animefrontier.com returns a Cloudflare bot-check ('Just a moment...') to the renderer on both the default and msedge channels, so the homepage and guests page were read from Wayback Machine snapshots of those same official URLs (Sept/Oct 2026 captures) instead of a live render; url/tickets/guestsPage above are still the live site's own addresses. Organizer confirmed via the page's own footer credit ('Anime Frontier is a creation of LeftField Media, the creators of Anime NYC'). Skipped non-guest candidates: #0-1 (site logos), #2 (a 'GUESTS' section-header card, not a person), #29 (the LeftField Media footer credit banner), #30-54 (hidden duplicate modal cards for the same 26 guests already picked from their thumbnails, #3-28, used only to read fuller bios), and #55 (an untitled full-width image with no guest text). Several bios were truncated by the page's own 'read more' cutoff before naming a specific role, so known-for is left blank or generic for Corey Pettit, Rudy Lopez and Sarah Wiedenheft rather than guessing which anime they voice; Corey Pettit's cat is inferred as voice from the surrounding section (every other name in that 'GUESTS' group is an explicitly stated voice actor) rather than from her own bio text, which cuts off before stating her craft."
+}

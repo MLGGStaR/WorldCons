@@ -1,0 +1,14 @@
+{
+  "id": "arcana",
+  "name": "Arcana",
+  "short": "",
+  "url": "https://arcanacon.3trikes.com/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["horror", "scifi"],
+  "blurb": "A horror and dark-fantasy convention held annually in Minnesota since 1971, self-described as 'a convention of the dark fantastic', on hiatus since 2023.",
+  "cover": { "file": "pipeline/cache/extract/arcana.home.json", "key": "hero:3" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The batch-given domain arcanacon.com has expired and is now a domain-parking/for-sale page; the convention's actual (old-style, still-online) site is at arcanacon.3trikes.com. That site's own text: 'In 2022 we hosted our Arcana 50 programming at deCONgestant 5! ... For 2023, due to other commitments, the organizers have decided to put Arcana (as a convention-style gathering) on hiatus. We hope to return in 2024.' No edition has actually run since, and the lapsed original domain is a further sign of inactivity, so status is inactive (long-term hiatus) with editions left empty. The batch's given city (Saint Paul, MN) could not be confirmed as current since no venue has been booked since the hiatus began; the last concretely-dated venue mentioned on the site is a planned-but-seemingly-never-held Oct 6-8 2023 date at the Hilton Minneapolis/Bloomington."
+}

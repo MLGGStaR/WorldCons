@@ -417,3 +417,9 @@ export function filterTBA(tba, guests, f) {
     return true;
   });
 }
+
+/** The ISO date n days after iso. */
+export function addDays(iso, n) {
+  const [y, m, d] = parts(iso);
+  return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
+}

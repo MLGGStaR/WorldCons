@@ -1,0 +1,15 @@
+{
+  "id": "armageddon-expo-tauranga",
+  "name": "Armageddon Expo Tauranga",
+  "short": "",
+  "url": "https://www.armageddonexpo.com/",
+  "organizer": "Beyond Reality Media Premier Event Management",
+  "status": "inactive",
+  "types": ["pop", "comics", "games", "cosplay"],
+  "blurb": "The Tauranga stop of New Zealand's Armageddon Expo tour; no edition has run since March 2024 and it is no longer part of the tour's current line-up.",
+  "cover": { "file": "pipeline/cache/extract/armageddon-expo-auckland.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2024-03-16", "end": "2024-03-17", "city": "Tauranga", "region": "", "country": "NZ", "venue": "Baypark Arena" },
+  "checked": "2026-10-05",
+  "notes": "The site's General Info nav currently lists only Auckland Spring, Auckland Autumn, Wellington, Christchurch and Palmerston North — no Tauranga page exists at /general-info/tauranga/ or similar — and the homepage's forward-looking ticker of 6 upcoming shows (through Aug 2027) does not include Tauranga either; the newer, smaller Palmerston North stop appears to have replaced it. Wikipedia's Armageddon Expo history table's most recent confirmed Tauranga date is 16-17 March 2024 at Baypark Arena, and none of the site's own 'Armageddon Updates' news posts found while researching this (covering the 2026-2027 touring season) mention Tauranga. Treated as inactive/dropped from the circuit rather than merely 'date not yet announced'; the given seed note describing it as 'currently-active' could not be confirmed."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "anime-festival-orlando",
+  "name": "Anime Festival Orlando",
+  "short": "AFO",
+  "url": "https://animefestivalorlando.com",
+  "organizer": "Blue Moose Inc",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Florida's longest-running anime convention, held for over 25 years in Orlando with panels, artist alley and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/anime-festival-orlando.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-16",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Orlando",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://animefestivalorlando.com/registration",
+      "guestsPage": "https://animefestivalorlando.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'July 16-18, 2027 Anime Festival Orlando 2027' with countdown, and footer address 'July 16-18, 2027 Hyatt Regency 9801 International Dr Orlando, FL 32819'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given URL (http://www.animefestivalorlando.com, www subdomain) failed (522/ERR_HTTP_RESPONSE_CODE_FAILURE); the bare https://animefestivalorlando.com (no www) worked fine -- corrected here. The seed note's 'Confirmed Jun 19-21, 2026 edition' has already run and ended before the research window (2026-10-05), so it is not listed; it is not recorded as \"last\" either since this check could not independently verify its exact dates/venue (only the now-superseded homepage no longer shows it). The 2027 edition (Jul 16-18) is confirmed with venue, but guests page explicitly states 'AFO 2027 guest info coming soon!' so guests is none-yet."
+}

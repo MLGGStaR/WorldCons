@@ -1,0 +1,45 @@
+{
+  "id": "collector-geeks",
+  "name": "Collector Geeks",
+  "short": "",
+  "url": "https://www.collectorgeeks.com/",
+  "organizer": "Collector Geeks",
+  "status": "active",
+  "types": ["toys", "comics"],
+  "blurb": "Collectibles fair in Hasselt and Sint-Truiden, Belgium for trading cards, retro games, LEGO, Funko and comics.",
+  "cover": { "file": "pipeline/cache/extract/collector-geeks.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "dates": "confirmed",
+      "venue": "Trixxo Arena",
+      "city": "Hasselt",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.collectorgeeks.com/tickets-februari-2027",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'COLLECTOR GEEKS 12-13 september 2026 6-7 februari 2027 17-18 april 2027 LOCATIES: Trixxo Arena Hass[elt]...'; nav link '6-7 februari 2027 (Hasselt)'"
+    },
+    {
+      "start": "2027-04-17",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "H27",
+      "city": "Sint-Truiden",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.collectorgeeks.com/tickets-april-2027",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Extra locatie H27 Sint-Truiden'; nav link '17-18 April 2026 (Sint-Truiden)' sits alongside the page's own 'COLLECTOR GEEKS ... 17-18 april 2027' banner text, so 2027 (not the mistyped 2026 in the link label) is the correct year"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is a small twice/thrice-yearly trading-card & collectibles fair (Pokémon, Magic: The Gathering, Yu-Gi-Oh!, sports cards, retro games, LEGO, Funko, comics) rotating between two Limburg venues under one brand/ticket system, treated as one file with one edition per date per the two-shows-a-year rule rather than split by city. The September 12–13, 2026 Sint-Truiden date already passed before this 2026-10-05 check and is excluded. It is a vendor/dealer fair with no guest program (no guests/gasten nav link anywhere on the site), so guests is \"none\" for both editions. One nav link literally reads '17-18 April 2026 (Sint-Truiden)' while the page's own repeated banner text says '17-18 april 2027' — treated as a typo in the link label and used 2027, matching the banner and sitting in logical sequence after the Feb 2027 Hasselt date."
+}

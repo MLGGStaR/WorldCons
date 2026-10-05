@@ -1,0 +1,15 @@
+{
+  "id": "homebrew-austin",
+  "name": "Homebrew Austin",
+  "short": "",
+  "url": "https://homebrewaustin.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "pop"],
+  "blurb": "Fan-run successor to Rooster Teeth's RTX Austin, with live shows, cosplay and panels for the former RT fandom.",
+  "cover": { "file": "pipeline/cache/extract/homebrew-austin.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-06-26", "end": "2026-06-27", "city": "Austin", "region": "TX", "country": "US", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "Homepage only ever advertised 'Homebrew Austin 2026' live shows on June 26 & 27 (ticketed per-day via Eventim); that weekend already happened before this research window, the copyright footer still reads 2026, and no 2027 dates have been posted. The specific show venue isn't named on-site; the page only promotes a hotel room block at the Hyatt Place Downtown Austin, which may or may not be the actual show venue, so venue is left blank rather than assumed. Site frames this as community-organized 'live shows' (ticketed individually per day) rather than a traditional expo-hall convention, continuing after Rooster Teeth ended RTX Austin in 2023."
+}

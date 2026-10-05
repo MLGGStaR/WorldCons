@@ -1,0 +1,30 @@
+{
+  "id": "comic-square",
+  "name": "Comic Square",
+  "short": "CQ",
+  "url": "https://cq.enterdock.com/en/infoen/",
+  "organizer": "Anitime",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Thailand's largest doujinshi convention: a fan-comic and original-creator circle market at Union Mall, Bangkok, now in its 10th year.",
+  "cover": { "file": "pipeline/cache/extract/comic-square.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Union Hall 1-2, Union Mall",
+      "city": "Bangkok",
+      "region": "",
+      "country": "TH",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Info page: 'March 13-14, 2027 (SAT&SUN) AM11.00-PM6.00 Hr. at Union Hall 1-2, Fl.F6, Union Mall'; About page tagline: 'COMIC SQUARE 10 March 13-14, 2027, Union Hall 1-2, Union Mall, Bangkok, THAILAND'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is Comic Square 10 (CQ10), the 10th-anniversary edition, 2,300+ 'SPs' (doujin circle spaces). Organizer confirmed from the about page footer: '©2027 Anitime, COMIC SQUARE Staffs'. No guest program: the nav only has About Us/Information/Floorplan/For Visitor/For Circle — it is a doujinshi circle market (fan/original-creator tables), which the rules treat the same as artist-alley/vendor tables, so guests is 'none' rather than an unannounced lineup. Cover uses the homepage's 'CQ10_KV_A3-HD' key visual, credited elsewhere on the site to artist LavyPlus."
+}

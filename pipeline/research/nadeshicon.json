@@ -1,0 +1,30 @@
+{
+  "id": "nadeshicon",
+  "name": "Nadeshicon",
+  "short": "",
+  "url": "https://www.nadeshicon.ca/",
+  "organizer": "Club Animé Québec (CAQ)",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Quebec City's anime convention, run by Club Animé Québec, with a cosplay salon, Japanese music guests and fan activities now held at Université Laval.",
+  "cover": { "file": "pipeline/cache/extract/nadeshicon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-03",
+      "end": "2027-04-04",
+      "dates": "confirmed",
+      "venue": "Université Laval",
+      "city": "Quebec City",
+      "region": "QC",
+      "country": "CA",
+      "tickets": "",
+      "guestsPage": "https://www.nadeshicon.ca/invites/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage nav/banner text: '3 et 4 avril 2027 Université Laval'. The guest page itself says it is still last year's lineup: 'Invités de l'édition 2026, les invités de l'édition 2027 seront affichés à une date ultérieure.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "2027 moves from the previous Québec City Convention Centre venue to Université Laval and shortens from 3 days to 2 (the 2026 edition ran April 10-12 at the Convention Centre, per the guests page's own text). The guests page explicitly states 2027 guests aren't posted yet (still showing 2026 honoree MADKID and other 2026 guests), so guests is 'none-yet' and that old lineup was not picked. Organizer confirmed by the on-site 'LogoCAQ' partner logo matching the seed's 'Club Animé Québec (CAQ)'. No ticket link was found on the rendered homepage, left blank rather than guessed."
+}

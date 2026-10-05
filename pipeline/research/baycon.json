@@ -1,0 +1,41 @@
+{
+  "id": "baycon",
+  "name": "BayCon",
+  "short": "",
+  "url": "https://baycon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "anime", "games"],
+  "blurb": "The San Francisco Bay Area's science fiction and fantasy convention since 1982; its 2027 edition doubles as the rotating Westercon 79.",
+  "cover": { "file": "pipeline/cache/extract/baycon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-02",
+      "end": "2027-07-05",
+      "dates": "confirmed",
+      "venue": "Santa Clara Marriott",
+      "city": "Santa Clara",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://baycon.org/register/",
+      "guestsPage": "https://baycon.org/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/baycon.guests.json",
+          "picks": [
+            [1, "Sumiko Saulson", "Bram Stoker Award-nominated poet", "author"],
+            [2, "Charlie Jane Anders", "Sci-fi author, co-founder of io9", "author"],
+            [3, "Annalee Newitz", "Sci-fi author, founder of io9", "author"],
+            [4, "Jenay Marontate", "The Kitchen Witch; herbalism and herb lore", "other"],
+            [5, "Desmond Crisis", "Digital lifestyle host, Otaku Patrol founder", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'JULY 2-5, 2027 - SANTA CLARA MARRIOTT'; page title 'BayCon 2027 / Westercon 79 | Night City Rising'; guest page headed 'BAYCON 42' (2027 is BayCon's 42nd year)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Branded this cycle as 'BayCon 2027 / Westercon 79' (its 42nd year) since the rotating Westercon is combined with it, matching the seed note; Westercon 78 (2026) would already have run (BayCon is traditionally around Memorial Day weekend) and is before the research window, so only the confirmed July 2-5, 2027 edition is listed. Guests of Honor page lists 5 real guests (#1-#5); #0 and #6 are the nav bar and a repeated section banner and were skipped. Jenay Marontate ('The Kitchen Witch', an herbalist) doesn't fit any defined guest category cleanly, so she is filed as 'other'; Desmond Crisis (self-described 'digital lifestyle evangelist' / host / former game developer / otaku-community founder) was filed as 'creator' as the closest fit. Cover uses hero:0, the 'Night City Rising' key art banner (2560x961); the og:image is only a small cropped favicon, not event key art. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — a fresh re-render of the guests-of-honor page still captions every card 'BAYCON 42' and titles the page 'BayCon 2027 / Westercon 79', with no stale-year or past-edition markers. Refute-03 recheck (2026-10-05): tried to refute, upheld -- on fresh re-extraction, 3 of the 5 cards (Saulson, Marontate, Crisis) still self-caption 'BAYCON 42' directly in their own bio text (per-guest, not just page-level); Anders and Newitz sit in the same single 'Guests of Honor' grid with no competing or older-year content anywhere on the page."
+}

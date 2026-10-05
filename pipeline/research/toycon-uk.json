@@ -1,0 +1,22 @@
+{
+  "id": "toycon-uk",
+  "name": "Toy Con UK",
+  "short": "",
+  "url": "https://www.toyconuk.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["toys"],
+  "blurb": "The UK's only dedicated designer toy convention, held annually in London with exhibitor tables of independent toy and art-toy makers.",
+  "cover": { "file": "pipeline/cache/extract/toycon-uk.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-02",
+    "end": "2026-05-03",
+    "city": "London",
+    "region": "",
+    "country": "GB",
+    "venue": "Novotel London West"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage (extract.mjs, home mode) still presents the 2026 edition as current: 'We look forward to seeing you on May 2nd and 3rd, 2026 at the Novotel London West! TOYCON UK 2026 TICKETS ON SALE FEBRUARY 15TH AT 12:00PM' and 'ALL TOYCON UK 2026 EXHIBITOR SPACES ARE SOLD OUT!'. That edition already ended before today (2026-10-05) and the site has not been updated with 2027 dates, so editions is empty and the May 2026 run is recorded as 'last'. Toy Con UK is an exhibitor/dealer-table designer-toy fair with no separate celebrity guest program (nav has Exhibitors but no Guests page), so guests would be 'none' once an edition exists. Cover uses hero:0, the '2026 TC POSTER' key art (1130x1401, filename contains POSTER); the og image is a generic Squarespace social placeholder. Organizer name not found on the pages checked."
+}

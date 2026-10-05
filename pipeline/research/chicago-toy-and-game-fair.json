@@ -1,0 +1,30 @@
+{
+  "id": "chicago-toy-and-game-fair",
+  "name": "Chicago Toy & Game Fair",
+  "short": "ChiTAG",
+  "url": "https://chitag.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["toys", "games"],
+  "blurb": "A family consumer toy and game fair in Rosemont, Illinois, the public-facing event inside Chicago Toy & Game (POP) Week.",
+  "cover": { "file": "pipeline/cache/extract/chitag-tickets.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Donald E. Stephens Convention Center",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://www.chitag.com/2026-chitag-pop-tickets",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Tickets page text: 'CHICAGO TOY & GAME FAIR TICKETS 11/7/2026 - 11/8/2026 ... Join us at the Donald E. Stephens Convention Center in Rosemont for the annual Chicago Toy & Game Fair! ... Saturday, November 7th, 10am-6pm Sunday, November 8th 10am-5pm.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "'POP Week' is the umbrella brand for a cluster of events in Rosemont: the Inventor Pitch & Innovation Conferences, the Young Inventor Challenge and the TAGIE Awards are industry/trade-only, but the 'Chicago Toy & Game Fair' itself is explicitly the consumer-facing show ('Families & People of All Ages to Play'), so it is kept active rather than inactive. The page labels the fair 'Details TBA!' right next to the specific Nov 7-8 dates and hours, which read as the fair's confirmed dates with programming details still pending, not an unconfirmed date range. This is a toy/game trade fair rather than a guest-driven con, so guests is 'none'."
+}

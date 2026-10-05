@@ -1,0 +1,40 @@
+{
+  "id": "philcon",
+  "name": "Philcon",
+  "short": "",
+  "url": "https://philcon.org/",
+  "organizer": "Philadelphia Science Fiction Society",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The Philadelphia Science Fiction Society's literary SF, fantasy and horror convention, marking its 90th anniversary in 2026 at a Cherry Hill, NJ hotel.",
+  "cover": { "file": "pipeline/cache/extract/philcon.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Doubletree by Hilton",
+      "city": "Cherry Hill",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://philcon.org/",
+      "guestsPage": "https://philcon.org/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/philcon.guests.json",
+          "picks": [
+            [1, "Charlie Jane Anders", "Author, All the Birds in the Sky", "author"],
+            [2, "Donato Giancola", "SFF cover artist", "other"],
+            [3, "Sarah Pinsker", "Musical Guest of Honor", "music"],
+            [4, "Charles Gannon", "Dragon Award-winning author", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Philcon 2026 will take place on November 20-22, 2026 at the Doubletree by Hilton, 2349 Marlton Pike West, Cherry Hill, NJ'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page cleanly lists 4 named guests: Principal Speaker, Artist Guest, Musical Guest of Honor, and a special guest for the Eric Flint's 1632 Minicon track held within Philcon. Each has a bio on the page, but the extractor's captured text is truncated, so Known For is condensed from the first clause of each bio. Sarah Pinsker's card captured only an alt-text label ('Musical Guest of Honor Headshot') with no separate bio text, so Known For uses that label directly; she is also a Hugo/Nebula-winning SF author, but the con specifically bills her for music this year, so cat is music to match. Donato Giancola is a narrative/SFF fine-art and book-cover painter rather than a comic-book artist, so cat is 'other' (no better fit in the allowed list)."
+}

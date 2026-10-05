@@ -1,0 +1,32 @@
+{
+  "id": "cardshow-dubai",
+  "name": "CardShow Dubai",
+  "short": "",
+  "url": "https://cardshowexhibition.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["toys"],
+  "blurb": "Trading-card show in Dubai with vendor tables, showcases and a Chunkz meet & greet.",
+  "cover": { "file": "pipeline/cache/extract/cardshow-dubai.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "dates": "confirmed",
+      "venue": "Sound Stage 3, Dubai Studio City",
+      "city": "Dubai",
+      "region": "",
+      "country": "AE",
+      "tickets": "https://portal.ticketmagic.me/badge/onsite/reg/CARDEX26",
+      "guestsPage": "https://cardshowexhibition.com/",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["Chunkz", "YouTuber / content creator, Beta Squad", "creator"]
+      ],
+      "evidence": "Official homepage: 'CardShow Dubai October 23-24 2026'; venue confirmed via the event's Eventbrite listing ('Dubai International Card Show'), which gives the venue as Sound Stage 3, Dubai (the official site itself does not state a venue yet)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage shows 'SOLD OUT CHUNKZ TICKETS' with only a generic 100x100 ticket-tier icon, not an actual photo of Chunkz, so he is recorded as a text-only guest for the build step to find a photo for. Eventbrite lists this event as 'Dubai International Card Show' - same show, same dates (Oct 23-24, 2026)."
+}

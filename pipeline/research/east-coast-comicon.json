@@ -1,0 +1,14 @@
+{
+  "id": "east-coast-comicon",
+  "name": "East Coast Comicon",
+  "short": "",
+  "url": "https://www.facebook.com/eastcoastcomicon/",
+  "organizer": "Crucial Entertainment",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A comic book fan convention held annually at the Meadowlands Exposition Center in Secaucus, NJ, founded in 2011 as the Asbury Park Comicon.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The official site eastcoastcomicon.com could not be read by any available tool: our renderer (default and --channel msedge) and a plain WebFetch both get an HTTP 403 with the body 'Blocked request. This host (\"eastcoastcomicon.com\") is not allowed. To allow this host, add \"eastcoastcomicon.com\" to server.allowedHosts in vite.config.js' — a server-side Vite dev-server host-allowlist error, which strongly suggests the live site is currently misconfigured/broken for all visitors, not just this tool. Two web searches and a Wikipedia check confirm the convention is real and 'remains active' (organizer Cliff Galbraith / Crucial Entertainment LLC, originally launched 2011-2012 as the Asbury Park Comicon, renamed and moved to the Meadowlands Exposition Center in Secaucus, NJ in 2015), matching the batch note, but turned up no 2026/2027 dates or guest info — only stale listings (a venue page showing a 2015 date, an aggregator showing 2019). Rather than guess a date or venue, this file records no editions and no 'last' (none could be confirmed with confidence). Switched url to the convention's Facebook page, which is reachable, since the nominal official domain is currently unusable; cover is left null since no image could be sourced from any reachable page (the Wikipedia article has no usable infobox photo, only generic Wikipedia icons)."
+}

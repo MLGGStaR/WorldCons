@@ -9,6 +9,14 @@
   "blurb": "A fantasy and cosplay festival at Kasteeltuinen Arcen (Arcen Castle Gardens) in Limburg, Netherlands, with costume parades, music and workshops.",
   "cover": { "file": "pipeline/cache/extract/elfia-programme-arcen.home.json", "key": "og" },
   "editions": [],
+  "last": {
+    "start": "2026-09-19",
+    "end": "2026-09-20",
+    "city": "Arcen",
+    "region": "",
+    "country": "NL",
+    "venue": "Kasteeltuinen Arcen (Arcen Castle Gardens)"
+  },
   "checked": "2026-10-05",
-  "notes": "The most recent confirmed Arcen edition ran September 19-20, 2026, which is before this window's start (2026-10-05). elfia.com's own Programme page for Arcen (elfia.com/Programme?lm=arcen) describes the festival's activities but names no 2027 date; only a 'Vorden 2027 Ticket' is currently being sold on the official site. Third-party festival calendars (medievalbooker.com, dagjeweg.nl) expect the next Arcen edition around the third weekend of September 2027 (about Sept 18-19) but say this is not yet officially confirmed, so per the no-guessing rule no edition is listed here; check back once elfia.com announces it. No guest lineup is posted either, consistent with no edition being announced yet."
+  "notes": "Re-checked elfia.com and the Arcen Programme page fresh (--fresh), plus the main elfia.com homepage: still only 'Vorden Tickets Live', no 2027 Arcen date anywhere on the official site. A web search likewise still finds only third-party festival calendars (medievalbooker.com) expecting the next Arcen edition around the third weekend of September 2027 (about Sept 18-19) but explicitly 'not confirmed yet' / 'not been announced' — so per the no-guessing rule no edition is added. Added 'last': the most recent confirmed Arcen edition ran September 19-20, 2026 at Kasteeltuinen Arcen (Arcen Castle Gardens) — already over before this window starts (2026-10-05). No guest lineup is posted either, consistent with no edition being announced yet."
 }

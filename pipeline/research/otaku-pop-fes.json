@@ -9,6 +9,7 @@
   "blurb": "A Japanese pop-culture festival at Okada Manila with anime and game exhibits, anisong/idol concerts and a cosplay competition.",
   "cover": { "file": "pipeline/cache/extract/otaku-pop-fes.home.json", "key": "hero:3" },
   "editions": [],
+  "last": { "start": "2026-04-25", "end": "2026-04-26", "city": "Parañaque", "region": "", "country": "PH", "venue": "Okada Manila" },
   "checked": "2026-10-05",
-  "notes": "This was the inaugural edition, held April 25-26, 2026 at Okada Manila (Entertainment City, Parañaque) — confirmed by a Manila Times/Okada Manila press release calling it the debut. That edition is already over; the homepage (rendered fresh 2026-10-04) still shows the April dates and its latest news item (July 4, 2026) is only about appearing at a separate expo, 'PGDX 2026'. WebSearch found no announced 2027 date, so no edition is recorded. Guests for the past edition (Hiroshi Kitadani, Aoi Eir, UNIS) were concert performers for that edition only and are not carried over."
+  "notes": "This was the inaugural edition, held April 25-26, 2026 at Okada Manila (Entertainment City, Parañaque) — confirmed by a Manila Times/Okada Manila press release calling it the debut. That edition is already over; the homepage (re-rendered fresh 2026-10-05) still shows the April dates and its latest news item (July 4, 2026) is only about appearing at a separate expo, 'PGDX 2026'. No announced 2027 date, so no edition is recorded; the most recent confirmed edition is recorded as \"last\" instead. Guests for the past edition (Hiroshi Kitadani, Aoi Eir, UNIS) were concert performers for that edition only and are not carried over."
 }

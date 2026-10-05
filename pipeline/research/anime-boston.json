@@ -1,0 +1,30 @@
+{
+  "id": "anime-boston",
+  "name": "Anime Boston",
+  "short": "",
+  "url": "https://www.animeboston.com",
+  "organizer": "New England Anime Society",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "The Northeast's largest anime convention, a three-day non-profit event in Boston celebrating Japanese animation, manga, comics and video games.",
+  "cover": { "file": "pipeline/cache/extract/anime-boston.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Hynes Convention Center",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://www.animeboston.com/registration/online_registration",
+      "guestsPage": "https://www.animeboston.com/guest/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official Convention FAQ (animeboston.com/policy/convention_faq): 'Anime Boston 2027: 05/28/2027 - 05/30/2027'; homepage confirms 'Celebrate Anime Boston's 25th anniversary in 2027!' with pre-registration open. Hotel page names the venue: 'Hynes Convention Center, 900 Boylston St, Boston, MA 02115'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Guests page lets you pick a year, and 2027 is already listed as an option (alongside 2003-2026), but choosing it returns the same empty guest list as the default page (no names/photos populated yet), so 2027 is not-yet-announced; the news feed's 'Welcome Joshua Waters to Anime Boston 2026!' guest announcement is for the already-finished 2026 show, not 2027. No og/twitter image; used the dedicated 'banner_2027.webp' key art."
+}

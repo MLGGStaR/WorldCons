@@ -1,0 +1,30 @@
+{
+  "id": "color-fiesta",
+  "name": "Color Fiesta",
+  "short": "",
+  "url": "https://colorfiesta.vn",
+  "organizer": "Yana Media",
+  "status": "active",
+  "types": ["anime", "comics", "cosplay", "games"],
+  "blurb": "Vietnam's largest Artist Alley event for comic, anime, gaming and cosplay creators, held multiple times a year in Ho Chi Minh City.",
+  "cover": { "file": "pipeline/cache/extract/color-fiesta-tickets.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-04-01",
+      "end": "2027-04-30",
+      "dates": "month",
+      "venue": "Sky Expo",
+      "city": "Ho Chi Minh City",
+      "region": "",
+      "country": "VN",
+      "tickets": "https://colorfiesta.vn/tickets/",
+      "guestsPage": "https://colorfiesta.vn/tickets/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Tickets page: 'Coming Up Next: Color Fiesta S 2027 Venue: Sky Expo - Công viên phần mềm Quang Trung, Phườờ\u009cng Trung Mỹ Tây, Tp. Hồ Chí Minh Date: April 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Color Fiesta #17 'Wonderland' (the Oct 2026 Ho Chi Minh City show the seed note referred to) ran Oct 3-4, 2026 - it ended the day before this research window opens, so it is excluded and the next HCMC show (still unnamed/un-numbered as of this check, listed only as 'Color Fiesta S 2027', month-only) is used instead. The brand is expanding beyond Ho Chi Minh City: the tickets page also lists 'Color Fiesta #18: Bon Appétit' for January 2027 at the Vietnam Exposition Center in Hanoi - a second city that would need its own file (e.g. color-fiesta-hanoi) in a future batch; not created here since it is outside this id/city. No guest names are posted yet for the April 2027 HCMC show, but past seasons (per search results on #17) did include 'meet-and-greets with guest artists and idols', so guests is none-yet rather than none. No dedicated guest photo page exists on-site; guestsPage points to the general tickets/events page. Organizer 'Yana Media' taken from the seed note, not independently re-confirmed on-site."
+}

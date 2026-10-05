@@ -1,0 +1,28 @@
+{
+  "id": "copenhagen-comics",
+  "name": "Copenhagen Comics",
+  "short": "",
+  "url": "https://copenhagencomics.dk/en/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "cosplay"],
+  "blurb": "A free, volunteer-run comics festival in Copenhagen with Danish and international creators, an Artist Alley and a cosplay show.",
+  "cover": { "file": "pipeline/cache/extract/copenhagen-comics.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Valbyhallen",
+      "city": "Copenhagen",
+      "region": "",
+      "country": "DK",
+      "tickets": "https://copenhagencomics.dk/en/",
+      "guestsPage": "https://copenhagencomics.dk/en/creators/",
+      "guests": "none-yet",
+      "evidence": "Homepage text: '15.-16. maj 2027 | Valbyhallen'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Matches the seed note: a free indie/art-focused comics festival. The Creators page uses 'load more' pagination that the tool walked across 5 pages (90 candidates total), but pages 4-5 turned out to exactly re-list pages 2-3 (indices 65-89 duplicate 30-54 verbatim) and Reinhard Kleist appears twice within the unique range (#48 English 'Comic Artist' and #49 Danish 'Tegneseriekunstner', same person) -- both kinds of duplicates were picked only once, per the 'a guest who appears twice is picked once' rule. No organizer legal name was found on the page (run by a volunteer committee per the seed note). 2026-10-05 re-verify: current, lineup unchanged -- the Creators page itself (not just the homepage) opens with '15.-16. maj 2027 | Valbyhallen' and the same 62 names still populate it; as a cross-check, named guests from a 2024-dated press writeup about this festival (Alan Davis, Dan Berry, Gemma Correll, Michael Lark, Craig Thompson) are no longer on the page at all, showing the Creators list is actively refreshed per edition rather than a cumulative alumni archive. Also confirmed via a 2026 collaboration announcement that Copenhagen Comics continues as its own independent event on these same May 15-16, 2027 dates at Valbyhallen (separate from its new 'Comics Village' presence at the unrelated Comic Con Denmark event in November). Refute attempt (2026-10-05): refuted -> none-yet -- the Creators page carries zero per-guest date evidence (every card is just name/role/nationality, no year anywhere), and an independent search for the festival's actual May 23-24, 2026 edition (which ended only 4.5 months before this check) turns up at least 22 of these same 62 names (e.g. Amanda Conner, Jimmy Palmiotti, Hugleikur Dagsson, Pieter De Poortere, Karoline Stjernfelt, Reinhard Kleist, Mike Diana, Sussi Bech) as that edition's own published guests, so this is the recently-concluded show's roster still live under a bumped '15.-16. maj 2027' banner; guests set to none-yet and the lineup removed."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sinister-creature-con",
+  "name": "Sinister Creature Con",
+  "short": "",
+  "url": "https://www.sinistercreaturecon.com/",
+  "organizer": "Love Horror Events",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Northern California's SFX, makeup and horror convention in Sacramento, with celebrity guests, a cosplay and makeup competition, and a film festival.",
+  "cover": { "file": "pipeline/cache/extract/sinister-creature-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-06-20", "end": "2026-06-21", "city": "Sacramento", "region": "CA", "country": "US", "venue": "Scottish Rite Masonic Center" },
+  "checked": "2026-10-05",
+  "notes": "The main homepage carries no date text at all. Its own ticket link (lovehorrorevents.ticketspice.com/sinister-creature-con-2026) now reads 'Online Registration is Closed', and third-party listings (Eventbrite, 10times, sacramento365, HorrorCons.com) independently confirm that 2026 run was June 20-21, 2026 at the Scottish Rite Masonic Center, Sacramento — already past, so it is recorded as 'last'. No 2027 (or later 2026) date for the main convention has been announced, matching the batch note. Separately, the site's '/thecon' page (reached via the Tickets link) advertises a smaller 'Sinister Book Fair & Market' side-event with its own dates (Sept 27 and Oct 17, 2026); that is a different, non-guest satellite event under the same Love Horror Events organizer, not the main guest/cosplay convention this file tracks, so its dates were not used here."
+}

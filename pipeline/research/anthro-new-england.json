@@ -1,0 +1,39 @@
+{
+  "id": "anthro-new-england",
+  "name": "Anthro New England",
+  "short": "ANE",
+  "url": "https://anthronewengland.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A cozy, charity-driven furry fandom convention in Boston's Seaport district with guests of honor, art, music and fursuiting across two hotels.",
+  "cover": { "file": "pipeline/cache/extract/anthro-new-england.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-14",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Westin Boston Seaport District Hotel & Omni Boston at the Seaport Hotel",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://www.anthronewengland.com/registration/",
+      "guestsPage": "https://www.anthronewengland.com/about/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anthro-new-england.guests.json",
+          "picks": [
+            [1, "Snackpony", "Illustrator", "other"],
+            [2, "Prismpaws", "Artist & apparel designer", "other"],
+            [3, "Sean Chiplock", "Voice actor", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Jan 14 – 17, 2027' and 'JOIN US, JANUARY 14-17, 2027 IN BOSTON, MA' for 'Anthro New England 2027: Sleepytime!'; venue page names the two host hotels in Boston's Seaport."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests-of-Honor page clearly separates the 3 guests labeled '2027 GUEST OF HONOR' (picked) from a long 'PAST GUESTS OF HONOR' archive back to 2015 (skipped). Illustrator/apparel-designer guests are filed as 'other' rather than 'comics' since nothing on their cards ties them to comics specifically (general furry character art/apparel design). No organizer legal name found on-site. Refute pass (2026-10-05): upheld -- a fresh re-check of the page confirms the same per-card labels, with Snackpony, Prismpaws and Sean Chiplock each still individually tagged '2027 GUEST OF HONOR' directly on their own card, cleanly separated from the 'PAST GUESTS OF HONOR' section where every other card instead carries its own specific past year (2026 down to 2015). This is exactly the kind of per-guest, this-edition-year card label RESEARCH.md counts as proof."
+}

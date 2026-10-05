@@ -1,0 +1,15 @@
+{
+  "id": "quakecon",
+  "name": "QuakeCon",
+  "short": "",
+  "url": "https://quakecon.org/",
+  "organizer": "Bethesda Softworks",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "Bethesda's long-running free LAN party and esports weekend at the Gaylord Texan Resort in Grapevine, Texas.",
+  "cover": { "file": "pipeline/cache/extract/quakecon.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-08-06", "end": "2026-08-09", "city": "Grapevine", "region": "TX", "country": "US", "venue": "Gaylord Texan Resort & Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "QuakeCon 2026 (the 30th-anniversary BYOC, Aug 6-9) already happened before this research window and the site still headlines it as the current event, with no 2027 dates or venue announced anywhere on the page."
+}

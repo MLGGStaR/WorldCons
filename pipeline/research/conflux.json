@@ -1,0 +1,22 @@
+{
+  "id": "conflux",
+  "name": "Conflux",
+  "short": "",
+  "url": "https://www.conflux.org.au/",
+  "organizer": "Conflux Inc.",
+  "status": "inactive",
+  "types": ["scifi"],
+  "blurb": "Canberra's literary speculative-fiction convention, covering science fiction, fantasy and horror writing since 2004.",
+  "cover": { "file": "pipeline/cache/extract/conflux.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2025-10-03",
+    "end": "2025-10-06",
+    "city": "Canberra",
+    "region": "ACT",
+    "country": "AU",
+    "venue": ""
+  },
+  "checked": "2026-10-05",
+  "notes": "Marked inactive: the homepage's only content is a notice that 'Conflux 20: Beyond the Abyss', planned for Oct 2-6, 2026, 'will no longer take place as scheduled' due to 'unfortunate circumstances beyond control', with refunds promised and 'more information to follow' - no future edition is announced. 'last' is the previous, successfully-held edition: Conflux 19 ran Oct 3-6, 2025 in Canberra with guests of honour Kirstyn McDermott, James Bradley, Freya Marske and Elise Miller (chaired by Cat Sparks), per web search of fan reports; exact venue not confirmed within budget so left blank. Organizer confirmed directly on-site: the page title itself is 'CONFLUX INC. - Home'."
+}

@@ -5,10 +5,43 @@
   "url": "https://www.daysofthedead.com/lasvegas2/",
   "organizer": "POSE",
   "status": "active",
-  "types": ["horror"],
-  "blurb": "Las Vegas stop of the multi-city Days of the Dead horror-celebrity convention; its next confirmed date has not been announced yet.",
-  "cover": { "file": "pipeline/cache/extract/days-of-the-dead-las-vegas.home.json", "key": "hero:0" },
-  "editions": [],
+  "types": [
+    "horror"
+  ],
+  "blurb": "Las Vegas stop of the multi-city Days of the Dead horror-celebrity convention, held at the Plaza Hotel and Casino.",
+  "cover": {
+    "file": "pipeline/cache/extract/days-of-the-dead-las-vegas.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-09-17",
+      "end": "2027-09-19",
+      "dates": "confirmed",
+      "venue": "Plaza Hotel and Casino",
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/283",
+      "guestsPage": "https://www.daysofthedead.com/lasvegas2/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/days-of-the-dead-las-vegas.guests.json",
+          "picks": [
+            [
+              9,
+              "The Chiodo Brothers",
+              "Killer Klowns from Outer Space creators",
+              "creator"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "captureticketing.com/events/283 (linked from the site's own /lasvegas2/tickets page): 'Days of the Dead: Las Vegas 2027 ... September 17 - 19 2027' at 'Plaza Hotel And Casino, 1 Main St, Las Vegas, NV'."
+    }
+  ],
   "checked": "2026-10-05",
-  "notes": "The current Las Vegas sub-site is 'lasvegas2' (there is no 'lasvegas1' — that path 404s). It already shows a 2027-dated guest-image folder (images/guests/2027/chiodos_1.png ... chiodos_3.png) but no date text appears anywhere in the rendered page, and it links no ticketing-partner id (unlike Atlanta/Indianapolis/Chicago, its captureticketing link never resolved to a specific event). Past editions found by WebSearch were January 16-18, 2026 (Plaza Hotel and Casino) and September 4-6, 2026, both before this window's start (2026-10-05). A captureticketing id found via search ('Las Vegas Summer', events/200) now returns 'event does not exist'. No officially confirmed upcoming date was found, so editions is left empty per the no-guessing rule; check back once the next date is announced."
+  "notes": "The current Las Vegas sub-site is 'lasvegas2' (there is no 'lasvegas1' — that path 404s). Re-checked fresh (--fresh): the /lasvegas2/tickets page now links a live captureticketing id (events/283, replacing the dead 'events/200' found previously) which names the event 'Days of the Dead: Las Vegas 2027' with dates September 17-19 2027 at the Plaza Hotel And Casino - inside the research window, so added as an edition. Guests: the /lasvegas2/guests page's only real guest images are #9-11, three photos filed as images/guests/2027/chiodos_1.png..3.png; the band name is not shown as on-page text (no alt/caption), so it is read from the filename alone, but a web search independently corroborates it ('Chiodos will be appearing at Days of the Dead conventions in 2027 ... Las Vegas in September', per Chiodo Bros. Productions/tour-date aggregators) - picked once (#9) as one music-guest entry (a band), known-for left '' since no card text names their work. Past editions (Jan 16-18, 2026 and Sept 4-6, 2026, both at Plaza Hotel and Casino) are now before the window and superseded by this edition. Correction (2026-10-05): the three chiodos_1..3.png images are one banner reading \"THE CHIODO BROTHERS - Charles, Edward...\" with a Killer Klown (checked with card-shot), i.e. the Killer Klowns from Outer Space filmmakers, not the band Chiodos; the guest is recorded as The Chiodo Brothers."
 }

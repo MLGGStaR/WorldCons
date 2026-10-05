@@ -1,0 +1,37 @@
+{
+  "id": "kitsune-kon",
+  "name": "Kitsune Kon",
+  "short": "",
+  "url": "https://kitsunekon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "A fan-run anime and gaming convention at the KI Convention Center in Green Bay, Wisconsin, with cosplay, classic gaming, foam sword fighting and a manga cafe.",
+  "cover": { "file": "pipeline/cache/extract/kitsune-kon.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "KI Convention Center",
+      "city": "Green Bay",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://kitsunekon.com/register-now/",
+      "guestsPage": "https://kitsunekon.com/people-to-meet/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/kitsune-kon.guests.json",
+          "picks": [
+            [2, "JJtheBunBun", "Con artist: plushie & badge designer", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'JULY 9-11, 2027 KI CONVENTION CENTER GREEN BAY, WI'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page has no confirmed edition year label on it (no 'announced for 2027' text), but it is linked from the current homepage and is distinct from the separate 'Past Guests' page, so treated as the current/upcoming lineup. All cards under Cosplay Talent and DJ Talent show only a stage name with no bio. The five cards after DJ Kahmahkahzi (MangaBookGuy, Bad Corey, Thresher, UrsaMajor, SakeBomb) sit in the same unbroken grid with no distinct new heading in the page markup, so their specific role is unconfirmed; categorized 'other' rather than guessing they are also DJs. Organizer entity and a short/abbreviation for the con name were not found on the site. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current, and more clearly so now — a fresh render shows the artist card under a '2027 Kitsune Kon Artist' heading, and the site's separate Past Guests page remains a distinct URL from this one. TRIMMED 15 -> 1 (refute-04, 2026-10-05): a fresh re-render shows the '2027 Kitsune Kon Artist' year label covers only the Artist card (#2, JJtheBunBun) -- the Cosplay Talent (#3-7) and DJ Talent (#8-16) sections directly below have no year heading of their own, and their image filenames carry no edition tag (several are still at the /wp-content/uploads/2025/06/ and 2026/06/ paths, not retagged for 2027, unlike the Artist's own image). With no per-guest or per-section proof for the 14 Cosplay/DJ Talent names, and this con's prior edition having ended only ~3 months ago (July 2026), those 14 are dropped as unproven for 2027; only JJtheBunBun (the one card with an explicit '2027' section label) is kept."
+}

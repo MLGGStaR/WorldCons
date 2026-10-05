@@ -1,0 +1,30 @@
+{
+  "id": "staple",
+  "name": "STAPLE!",
+  "short": "",
+  "url": "https://staple-austin.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Austin's independent comics, zine and DIY-art expo, held each spring at St. Edward's University.",
+  "cover": { "file": "pipeline/cache/extract/staple.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-04-10",
+      "end": "2027-04-11",
+      "dates": "confirmed",
+      "venue": "The Mabee Ballroom, St. Edward's University",
+      "city": "Austin",
+      "region": "TX",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'STAPLE! 2027, will be April 10-11 in The Mabee Ballroom at St. Edward's University!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only a one-line save-the-date has been posted for 2027 so far; the live 'Schedule' and 'Guests & Speakers' nav links still point to last year's pages ('/2026-schedule/', '/staple-2026-guests-speakers/'), confirming no 2027 guest list yet, so tickets/guestsPage are left blank. Cover uses the plain wordmark logo: the page's og:image is a crowd photo (explicitly to be avoided) and the only poster-style art on the page is past years' 'Staplegator' illustrations (2015-2019), not current key art."
+}

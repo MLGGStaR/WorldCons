@@ -1,0 +1,30 @@
+{
+  "id": "setsucon",
+  "name": "Setsucon",
+  "short": "",
+  "url": "https://www.setsucon.com",
+  "organizer": "Penn State Anime Organization",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Pennsylvania's winter anime convention at the Blair County Convention Center, run by students and alumni of the Penn State Anime Organization since 2007.",
+  "cover": { "file": "pipeline/cache/extract/setsucon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-29",
+      "end": "2027-01-31",
+      "dates": "confirmed",
+      "venue": "Blair County Convention Center",
+      "city": "Altoona",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://setsucon.com/registration/",
+      "guestsPage": "https://setsucon.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Setsucon 2027 January 29th – 31st, 2027 Blair County Convention Center | Altoona, Pennsylvania'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Confirmed via web search that Setsucon is organized by Penn State Anime (student/alumni org, running the con since 2007; it moved from State College to the Blair County Convention Center in Altoona in 2018), matching the batch note. The homepage also promotes a smaller one-day satellite event, 'Autumn Alley 2026' (Oct 24, 2026, Hyatt Place, State College, PA) -- out of scope here since it is a differently-named, different-city event and not part of this batch. No og/twitter image is set on the homepage, so cover uses one of the site's own 'Setsucon 2026' banner photos. Refute pass (2026-10-05): refuted -> none-yet -- every one of the 10 /guests/ cards is a dated 'IGTW_GUEST' announcement graphic from Sep 2025-Jan 2026 (one, Glinta, literally filenamed 'Setsucon-2025_Guest-Image'), i.e. before or during the con's own already-completed Jan 30-Feb 1, 2026 show; Setsucon 2026 press (Altoona Mirror) and listings confirm that show's real lineup included Megan Hollingshead, Reagan Murdock, Ryan Colt Levy, Antipode, Awesomus Prime, Karl 'Uncle Yo' Custer and Lex Winter by name -- the same people still shown here -- so this is the 2026 lineup left up, not a 2027 announcement."
+}

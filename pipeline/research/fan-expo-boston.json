@@ -1,0 +1,30 @@
+{
+  "id": "fan-expo-boston",
+  "name": "FAN EXPO Boston",
+  "short": "",
+  "url": "https://fanexpohq.com/fanexpoboston/",
+  "organizer": "Fan Expo HQ",
+  "status": "active",
+  "types": ["comics", "pop", "scifi"],
+  "blurb": "A three-day pop culture weekend in Boston with celebrity panels, comic creators, cosplay and gaming, formerly Boston Comic Con before the Informa rebrand.",
+  "cover": { "file": "pipeline/cache/extract/fan-expo-boston.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-12-03",
+      "end": "2027-12-05",
+      "dates": "confirmed",
+      "venue": "Thomas Michael Menino Convention & Exhibition Center",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://fanexpohq.com/fanexpoboston/buy-tickets/",
+      "guestsPage": "https://fanexpohq.com/fanexpoboston/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page JSON-LD: Event 'FAN EXPO Boston' 2027-12-03 -> 2027-12-05 @ Thomas Michael Menino Convention & Exhibition Center; homepage text 'DECEMBER 3 - 5, 2027 THOMAS MICHAEL MENINO CONVENTION & EXHIBITION CENTER'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Multi-category guest pages (Celebrities, Comic Creators checked; Animation Voices, Anime Guests, Gaming Stars, Cosplayers not yet checked individually since the pattern was already clear) all show only a 'PAST FAN FAVE GUESTS INCLUDED' marketing section (Chris Evans, Mel Gibson, Elijah Wood, Tom King, Jason Aaron, etc. from a prior year), not an announced 2027 lineup, so guests is 'none-yet', matching the same pre-announcement state seen on sibling FAN EXPO city pages (e.g. Denver) this far out from the show. Cover: no Boston-specific key art/banner found (hero images are either generic FAN EXPO stock photos or past-year celebrity/cosplay photo-ops shared across templates), so used the 'FAN EXPO Boston' wordmark logo instead, same approach as other FAN EXPO city files."
+}

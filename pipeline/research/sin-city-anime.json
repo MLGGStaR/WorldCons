@@ -1,0 +1,57 @@
+{
+  "id": "sin-city-anime",
+  "name": "Sin City Anime",
+  "short": "",
+  "url": "https://www.sincityanime.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "A Las Vegas anime convention at the Orleans Hotel & Casino with voice actors, cosplay guests, Japanese performers and gaming.",
+  "cover": { "file": "pipeline/cache/extract/sin-city-anime.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Orleans Hotel & Casino",
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/sin-city-anime-2026-anime-convention-las-vegas-nv-tickets-1986378286928?aff=oddtdtcreator&keep_tld=true",
+      "guestsPage": "https://www.sincityanime.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/sin-city-anime-v2.guests.json",
+          "picks": [
+            [4, "Babybeard", "Japanese pop-metal idol trio", "music"],
+            [6, "Ghost Girl Goods", "MC and fashion guest", "other"],
+            [8, "Emi Lo", "", "voice"],
+            [9, "Brian Beacock", "", "voice"],
+            [10, "Heather Gonzalez", "", "voice"],
+            [11, "Steve Staley", "", "voice"],
+            [12, "Brittany Cox", "", "voice"],
+            [13, "Kelly Baskin", "", "voice"],
+            [14, "Stephanie Southerland", "", "voice"],
+            [15, "Dale Kelly", "", "voice"],
+            [16, "Aicosu", "Cosplay Competition judge", "cosplay"],
+            [18, "Draxxisa", "Cosplay Competition judge", "cosplay"],
+            [20, "Kaychan", "Cosplay Competition judge", "cosplay"],
+            [22, "Jez Roth", "Host, Lip Sync for Your Cosplay", "other"],
+            [23, "Dykemint", "JFashion Show guest designer", "other"],
+            [25, "PAiDA", "Japanese performing duo", "music"],
+            [27, "Black Ros3", "Anime cover band", "music"],
+            [28, "Pixel Baka", "Anime cover band", "music"],
+            [29, "Gerry Trevino", "Videogame cover guitarist", "music"],
+            [30, "SPPWalker", "21+ Lounge hostess", "cosplay"],
+            [32, "Kori-Oujo", "VTuber content creator", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Guests page: 'Nov. 20th-22nd, 2026 Orleans Hotel & Casino, Las Vegas NV' and 'November 20th-22nd, 2026 held at the Orleans 4500 W Tropicana Ave, Las Vegas, NV 89103'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Recheck 2026-10-05 (was flagged: 11 picks vs 31 person-sized images): the earlier pass correctly saw that these photo cards have generic camera filenames and no name in the image alt text, but was wrong that the names weren't on the page -- each photo is followed a little further down by a separate rich-text block (heading name + role line + bio) that the extractor's text-grouping doesn't glue to the photo above it, so the card looked blank. Reading the page directly in visual order pairs every photo with its block: #6-7 'Ghost Girl Goods' (MC and Fashion Guest, kawaii fashion brand) under Master of Ceremonies; #16-17 'AICOSU', the cosplay duo Darling and Sylar Santa Maria, judging the Cosplay Competition; #18-19 'Draxxisa' and #20-21 'Kaychan' (handle Kaychans_cosplay, Michigan), both Cosplay Competition judges -- Kaychan's identity doubly confirmed by a 'Check out Kaychan's Instagram' link to instagram.com/kaychans_cosplay right next to her bio; #22 'Jez Roth', Industry Guest hosting 'Lip Sync for Your Cosplay' (bio mentions Cirque du Soleil, RuPaul's Drag Race, School of Cosplay); #23-24 'Dykemint', guest designer for the JFashion Show; #27 'Black Ros3' and #28 'Pixel Baka', two separate Anime Cover bands (Black Ros3 confirmed by its own image filename); #29 'Gerry Trevino', Videogame Cover Guitarist (also confirmed by filename); #30-31 'SPPWalker', the NSFW Cosplay Guest / 21+ Lounge Hostess. Picks now cite pipeline/cache/extract/sin-city-anime-v2.guests.json, a fresh render whose 36 candidates are pixel-for-pixel identical to the original file (same images, same order, no pagination) -- nothing on the page changed, only the reading of it. Babybeard's and PAiDA's names still come from page text/links next to their photos rather than image alt text (confirmed by section headings and, for PAiDA, by filename and a linked Spotify artist page)."
+}

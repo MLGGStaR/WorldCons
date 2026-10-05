@@ -1,0 +1,30 @@
+{
+  "id": "gamestorm",
+  "name": "GameStorm",
+  "short": "",
+  "url": "https://sites.google.com/osfci.org/gamestorm/home",
+  "organizer": "Oregon Science Fiction Conventions, Inc. (OSFCI)",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "Portland, Oregon's annual tabletop, board-game and RPG convention, run by the nonprofit Oregon Science Fiction Conventions.",
+  "cover": { "file": "pipeline/cache/extract/gamestorm.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-18",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Holiday Inn Portland - Columbia Riverfront",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "tickets": "https://sites.google.com/osfci.org/gamestorm/home",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'GameStorm 27 will be March 18-21, 2027 at the Holiday Inn Portland - Columbia Riverfront.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed URL gamestorm.org would not connect (ERR_CONNECTION_TIMED_OUT, tried default and msedge channels) across two separate attempts; the convention's real current site is this Google Sites page hosted under the organizer's own osfci.org domain. GameStorm shows no celebrity/author guest-of-honor program on the site (nav is Home/About Us/Volunteers/Merchandise/Policies/News & Updates/Contact Us, with no Guests page), so guests is 'none'."
+}

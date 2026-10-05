@@ -1,0 +1,15 @@
+{
+  "id": "stratosfur",
+  "name": "StratosFur",
+  "short": "",
+  "url": "https://stratosfur.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Houston furry convention at the Marriott Westchase, with an artist alley, dealers den, night market and dances.",
+  "cover": { "file": "pipeline/cache/extract/stratosfur.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-08-27", "end": "2026-08-30", "city": "Houston", "region": "TX", "country": "US", "venue": "Houston Marriott Westchase" },
+  "checked": "2026-10-05",
+  "notes": "Homepage still headlines the just-finished 'Unconventional Dungeon' edition (Aug 27-30, 2026; copyright footer reads (c) 2026), with no 2027 dates announced. A 'Guest of Honor' nav page exists on the site but wasn't checked for next-year names since there is no upcoming edition yet to attach them to."
+}

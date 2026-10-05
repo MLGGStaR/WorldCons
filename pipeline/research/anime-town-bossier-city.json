@@ -1,0 +1,15 @@
+{
+  "id": "anime-town-bossier-city",
+  "name": "Anime Town Bossier City",
+  "short": "",
+  "url": "https://www.animetowncons.com/louisiana",
+  "organizer": "Anime Town LLC",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A stop of the Anime Town multi-city tour at the Bossier City Civic Center, in the Shreveport-Bossier area of Louisiana.",
+  "cover": { "file": "pipeline/cache/extract/anime-town-bossier-city.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-04-10", "end": "2026-04-12", "city": "Bossier City", "region": "LA", "country": "US", "venue": "Bossier City Civic Center" },
+  "checked": "2026-10-05",
+  "notes": "The organizer brands this edition 'Anime Town Louisiana' on its own site (nav label 'LOUISIANA', URL path /louisiana, heading 'ANIME TOWN LOUSIANA' [sic]) even though the venue is in Bossier City; kept the given id/name since Bossier City is the actual host city, matching how the other Anime Town files are named. Own page ('APRIL 10TH-12TH, 2026 Bossier City Civic Center... Bossier City Civic Center. 620 Benton Road, Bossier City, LA 71111') shows an edition that already concluded before this check (2026-10-05); the brand's main homepage lists this city's next date as 'TBD', so no 2027 edition is announced yet. Part of the multi-city Anime Town tour — see the Greenville, Huntsville, Biloxi and Pensacola files for the other stops."
+}

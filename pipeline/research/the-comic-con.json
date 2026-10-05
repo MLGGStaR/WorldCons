@@ -1,0 +1,22 @@
+{
+  "id": "the-comic-con",
+  "name": "The Comic Con",
+  "short": "TCC",
+  "url": "https://thecomiccon.gr/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Thessaloniki's annual comic convention, known as TCC, with artist alley, cosplay alley and international guests.",
+  "cover": { "file": "pipeline/cache/extract/the-comic-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-08",
+    "end": "2026-05-10",
+    "city": "Thessaloniki",
+    "region": "",
+    "country": "GR",
+    "venue": ""
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage meta description says 'The Comic Con will return in 8-10 May 2026!' (TCC10, the 10th edition); the dedicated /news/ page lists only TCC10 announcements (guests Don Rosa and Akira Yamaoka, presale, opening concert), confirming that edition already happened and ended before today. The current homepage already shows 'TCC11' key art (uploaded Sept 2026) and a generic 'Artist Alley & Cosplay Alley applications opening soon' banner, but no TCC11 dates are published anywhere on the site yet, so editions is left empty and TCC10 (May 2026) is recorded as 'last'. Cover uses hero:0, the explicit 'TCC11_Cover' key art, as the best current representation of the brand going forward. Venue name for TCC10 was not stated on the pages checked. Organizer not confirmed on-site."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "japan-day-liege",
+  "name": "Japan Day – Liège",
+  "short": "",
+  "url": "https://japan-day.com/",
+  "organizer": "Japan Day ASBL",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Annual Japanese pop-culture festival in Liège with manga, anime, cosplay, music and gaming, run by Japan Day ASBL.",
+  "cover": { "file": "pipeline/cache/extract/japan-day-liege.home.json", "key": "hero:2" },
+  "editions": [],
+  "last": { "start": "2026-09-26", "end": "2026-09-27", "city": "Liège", "region": "", "country": "BE", "venue": "Liège Expo (Hall 2)" },
+  "checked": "2026-10-05",
+  "notes": "The given url (japan-day.com) is real and clearly belongs to the Japan Day ASBL brand (matching favicon/branding), but as rendered on 2026-10-05 its homepage is almost empty and promotes only other cities on the ASBL's circuit ('AGF 21 & 22 novembre 2026, Luxembourg' and an unclear '20 & 20 février 2027' date with no city given) — it does not mention Liège anywhere, so per the multi-city rule those other cities' dates are not recorded here. The confirmed Liège edition (last field) comes from local press (dhnet.be, published 2026-09-16) and the L'Agenda Geek listing, both saying Liège Expo Hall 2, Place Louis de Geer, Sat 26 – Sun 27 September 2026, 10h-18h; that edition is already over as of this check and no Liège 2027 date is announced anywhere found (the organizer's own L'Agenda Geek profile currently lists zero upcoming or past events). The organizer's only other confirmed official presence is a Facebook page (facebook.com/Japan-Day-104129758847717); cover/guests could not be sourced from a Liège-specific page since none was found — the picked cover image is the best of three generic, undated images on the thin homepage, not confirmed Liège key art."
+}

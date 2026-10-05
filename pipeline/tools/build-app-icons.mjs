@@ -5,6 +5,7 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { addPngText } from '../lib/png-text.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const OUT = join(ROOT, 'icons');
@@ -27,7 +28,11 @@ const svg = (radius, s = 1) =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="${radius}" fill="${INK}"/>${mark(s)}</svg>`;
 
 writeFileSync(join(OUT, 'icon.svg'), svg(112));
-const render = (s, size, radius, scale = 1) => sharp(Buffer.from(svg(radius, scale))).resize(size, size).png().toFile(join(OUT, s));
+const ORIGIN = 'Origin: drawn in code by pipeline/tools/build-app-icons.mjs (a white con badge on a lanyard over ink #121418); no generated or stock imagery.';
+const render = async (s, size, radius, scale = 1) => {
+  await sharp(Buffer.from(svg(radius, scale))).resize(size, size).png().toFile(join(OUT, s));
+  addPngText(join(OUT, s), ORIGIN);
+};
 await render('icon-192.png', 192, 0);
 await render('icon-512.png', 512, 0);
 await render('icon-maskable-512.png', 512, 0, 0.78);

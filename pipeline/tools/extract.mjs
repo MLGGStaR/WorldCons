@@ -11,7 +11,7 @@
 // they pick guests by candidate number, the build step maps numbers back to image URLs).
 
 import { chromium } from 'playwright';
-import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -36,6 +36,26 @@ export const savedPath = (slug, mode) => join(EXTRACT_DIR, `${slug}.${mode}.json
 export function saveResult(result, file) {
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, JSON.stringify(result, null, 1));
+}
+
+// Lineup picks are candidate numbers inside a saved extraction, so a file that a research
+// file points at is never overwritten: a new render could renumber (or lose) the candidates
+// and pair names with the wrong photos. Returns the research file that uses it, or null.
+function referencedBy(file) {
+  const rel = relative(ROOT, file).replace(/\\/g, '/');
+  const dir = join(ROOT, 'pipeline', 'research');
+  if (!existsSync(dir)) return null;
+  for (const f of readdirSync(dir)) {
+    if (f.endsWith('.json') && readFileSync(join(dir, f), 'utf8').includes(`"${rel}"`)) return f;
+  }
+  return null;
+}
+
+function nextFreePath(slug, mode) {
+  for (let n = 2; ; n++) {
+    const p = savedPath(`${slug}-v${n}`, mode);
+    if (!existsSync(p)) return p;
+  }
 }
 
 // A saved extraction of the same URL, made recently and successfully, is reused.
@@ -65,12 +85,19 @@ async function cli() {
   }
   const mode = opt('mode', 'guests');
   const save = opt('save');
-  const out = opt('out') || (save ? savedPath(save, mode) : null);
+  let out = opt('out') || (save ? savedPath(save, mode) : null);
   const maxAge = argv.includes('--fresh') || opt('channel') ? 0 : Number(opt('max-age', 24));
   const cached = save ? fromCache(out, url, maxAge) : null;
   if (cached) {
     printCompact(cached, relative(ROOT, out).replace(/\\/g, '/'));
     return;
+  }
+  let note = '';
+  const user = out && existsSync(out) ? referencedBy(out) : null;
+  if (user) {
+    const kept = relative(ROOT, out).replace(/\\/g, '/');
+    out = nextFreePath(save || kept.replace(/^.*\//, '').replace(/\.[^.]+\.json$/, ''), mode);
+    note = `NOTE ${kept} holds the picks in pipeline/research/${user} and was kept as it is. This render is saved under a new name: pick from ITS numbers and point the lineup "file" at it.`;
   }
   const browser = await launch(opt('channel'));
   const result = await extractWith(browser, url, {
@@ -81,6 +108,7 @@ async function cli() {
   });
   await browser.close();
   if (out) saveResult(result, out);
+  if (note) console.log(note);
   if (save) printCompact(result, relative(ROOT, out).replace(/\\/g, '/'));
   else if (!out) process.stdout.write(JSON.stringify(result, null, 1) + '\n');
   else console.log(`wrote ${out}`);
@@ -231,7 +259,7 @@ function printCompact(r, savedPath) {
   process.stdout.write(lines.join('\n') + '\n');
 }
 
-async function dismissOverlays(page) {
+export async function dismissOverlays(page) {
   const labels = [/^accept( all)?( cookies)?$/i, /^(i )?agree$/i, /^got it$/i, /^allow all$/i, /^(no thanks|close)$/i];
   for (const re of labels) {
     const btn = page.getByRole('button', { name: re }).first();
@@ -253,7 +281,7 @@ async function autoScroll(page, steps) {
   }
 }
 
-async function expandAll(page) {
+export async function expandAll(page) {
   // Scroll to the bottom repeatedly (infinite scroll + lazy images), clicking any
   // "load more" style button we pass, until the page stops growing.
   let lastHeight = 0;

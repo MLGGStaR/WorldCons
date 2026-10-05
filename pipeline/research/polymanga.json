@@ -1,0 +1,30 @@
+{
+  "id": "polymanga",
+  "name": "Polymanga",
+  "short": "",
+  "url": "https://www.polymanga.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "Switzerland's Easter-weekend anime and video-game convention, with an artist village, cosplay and guest signings; relocating from Lausanne to Montreux's 2m2c in 2027.",
+  "cover": { "file": "pipeline/cache/extract/polymanga.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-29",
+      "dates": "confirmed",
+      "venue": "2m2c (Montreux Music & Convention Centre)",
+      "city": "Montreux",
+      "region": "VD",
+      "country": "CH",
+      "tickets": "https://www.polymanga.com/tickets",
+      "guestsPage": "https://www.polymanga.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage <title> is still 'Polymanga – 20e ! | Du 3 au 6 avril 2026' (last, Lausanne edition). The official @Polymanga account on X is now named 'Polymanga 26-29.3.2027 (Montreux)', and 20min.ch reports the festival returns 'dès 2027' to the '2M2C' in Montreux after three years in Lausanne, with dates 'du 26 au 29 mars 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed's 'Lausanne' place is now stale: after 3 editions at Lausanne's Palais de Beaulieu, Polymanga is moving back to Montreux (2m2c) for 2027 per its own rebranded X handle and local press (20min.ch, 24heures.ch); kept id 'polymanga' since it's one relocating event, not a simultaneous multi-city brand. The live site's guest page (181 guests) and news feed still belong to the just-finished April 2026 Lausanne show (title tag confirms '2026'); no guests are posted yet for the Montreux edition, so guests is 'none-yet' and that old lineup (Bob Lennon, Anaïs Delva, several Baldur's Gate 3 / K-pop Demon Hunters voice actors, etc.) was not picked. A direct fetch of the site's own 'Polymanga 2027' artist-village news post kept returning ECONNRESET (tried extract.mjs default and --channel msedge, and WebFetch), so the 2027 date/venue is sourced from the con's own X account name plus press coverage instead. No og/twitter image exists on the homepage and the only non-icon image is a short, thin 766x100 'Banner' graphic, used here as cover for lack of a better option. Organizer not confirmed from available sources."
+}

@@ -18,7 +18,7 @@ import { execFile } from 'node:child_process';
 import sharp from 'sharp';
 import { checkFile, resolveCover } from './tools/check-research.mjs';
 import { COUNTRIES } from '../js/geo.js';
-import { slug, mergeTypos, faceCrop } from './lib/guests.mjs';
+import { slug, mergeTypos, faceCrop, framedFaces, subjectBox, clearOfText } from './lib/guests.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const RESEARCH = join(ROOT, 'pipeline', 'research');
@@ -178,6 +178,45 @@ async function flatness(buf, edge) {
   return flat / (info.width * info.height);
 }
 
+// Mean luminance of the pixels that differ from the plate colour (the logo's ink), or null.
+async function inkLuminance(buf, edge) {
+  const { data, info } = await sharp(buf).flatten({ background: hex(edge) }).resize(96, 96, { fit: 'inside' }).raw().toBuffer({ resolveWithObject: true });
+  let sum = 0;
+  let n = 0;
+  for (let i = 0; i < data.length; i += info.channels) {
+    const d = Math.abs(data[i] - edge.r) + Math.abs(data[i + 1] - edge.g) + Math.abs(data[i + 2] - edge.b);
+    if (d > 60) {
+      sum += luminance({ r: data[i], g: data[i + 1], b: data[i + 2] });
+      n++;
+    }
+  }
+  return n ? sum / n : null;
+}
+
+// Mean luminance of the opaque pixels of an image with transparency.
+async function opaqueLuminance(buf) {
+  const { data, info } = await sharp(buf).ensureAlpha().resize(96, 96, { fit: 'inside' }).raw().toBuffer({ resolveWithObject: true });
+  let sum = 0;
+  let n = 0;
+  for (let i = 0; i < data.length; i += info.channels) {
+    if (data[i + 3] < 128) continue;
+    sum += luminance({ r: data[i], g: data[i + 1], b: data[i + 2] });
+    n++;
+  }
+  return n ? sum / n : 0.5;
+}
+
+// Make the plate colour transparent, with a soft edge so anti-aliased outlines stay smooth.
+async function keyOut(buf, edge) {
+  const { data, info } = await sharp(buf).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  for (let i = 0; i < data.length; i += 4) {
+    const d = Math.abs(data[i] - edge.r) + Math.abs(data[i + 1] - edge.g) + Math.abs(data[i + 2] - edge.b);
+    if (d < 36) data[i + 3] = 0;
+    else if (d < 90) data[i + 3] = Math.round(data[i + 3] * ((d - 36) / 54));
+  }
+  return sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } }).png().toBuffer();
+}
+
 async function processConArt(buf, outFile, forceContain) {
   let meta = await sharp(buf, { animated: false }).metadata();
   if (!meta.width || !meta.height) throw new Error('not an image');
@@ -186,10 +225,15 @@ async function processConArt(buf, outFile, forceContain) {
   // trim the plate so the logo fills the badge window, then show it contained on that colour.
   let plate = false;
   let plateTint = null;
+  let plateEdge = null;
   if (!alpha) {
     const edge = await edgeColour(buf);
     plateTint = hex(edge);
-    if ((await flatness(buf, edge)) > 0.6) {
+    plateEdge = edge;
+    // Night photos are mostly near-black too: a real plate is flat, so the picture as a
+    // whole carries little information (entropy around 1-3 bits; photos run 6-7).
+    const { entropy } = await sharp(buf, { animated: false }).flatten({ background: '#ffffff' }).resize(256, 256, { fit: 'inside' }).stats();
+    if (entropy < 4.5 && (await flatness(buf, edge)) > 0.6) {
       const trimmed = await sharp(buf).flatten({ background: hex(edge) }).trim({ background: hex(edge), threshold: 24 }).png().toBuffer().catch(() => null);
       if (trimmed) {
         buf = trimmed;
@@ -198,18 +242,30 @@ async function processConArt(buf, outFile, forceContain) {
       }
     }
   }
-  const aspect = meta.width / meta.height;
-  const contain = forceContain || alpha || plate || aspect < 1.45 || aspect > 2.5;
+  // Only logos are contained (transparent artwork, a logo on a flat plate, or a cover the
+  // researcher marked as a logo). Photographs and posters fill the badge window.
+  let transparent = alpha;
+  if (plate) {
+    // A light logo that barely stands off its own plate (white on pale grey) would vanish on
+    // the badge: key the plate out and give the logo a ground that contrasts with it instead.
+    // Darker ink on a light plate is a poster or a normal logo and keeps its plate. The plate
+    // colour comes from the untrimmed image: after the trim the border is the logo itself.
+    const logoLum = await inkLuminance(buf, plateEdge);
+    const plateLum = luminance(plateEdge);
+    if (logoLum !== null && logoLum > plateLum && logoLum - plateLum < 0.3) {
+      buf = await keyOut(buf, plateEdge);
+      transparent = true;
+    }
+  }
+  const contain = forceContain || transparent || plate;
   let tint;
   if (contain) {
-    if (alpha) {
-      // Transparent logo: pick a ground that contrasts with the artwork itself.
-      const st = await sharp(buf).stats();
-      const logoLum = luminance(st.dominant);
-      tint = logoLum > 0.6 ? '#1f2329' : '#f3f4f6';
+    if (transparent) {
+      const lum = await opaqueLuminance(buf);
+      tint = lum > 0.55 ? '#1f2329' : '#f3f4f6';
     } else tint = plate ? plateTint : hex(await edgeColour(buf));
     const img = sharp(buf).resize(720, 377, { fit: 'inside', withoutEnlargement: plate });
-    const out = await (alpha ? img : img.flatten({ background: tint })).webp({ quality: 80, alphaQuality: 90 }).toBuffer({ resolveWithObject: true });
+    const out = await (transparent ? img : img.flatten({ background: tint })).webp({ quality: 80, alphaQuality: 90 }).toBuffer({ resolveWithObject: true });
     writeFileSync(outFile, out.data);
     return { w: out.info.width, h: out.info.height, tint, fit: 'contain' };
   }
@@ -220,17 +276,41 @@ async function processConArt(buf, outFile, forceContain) {
   return { w: out.info.width, h: out.info.height, tint, fit: 'cover' };
 }
 
-async function processGuestPhoto(buf, id, det) {
-  // Bake in EXIF orientation first so pixel boxes from the detector line up.
+// Where to crop a guest photo: around the face (and faces framed with it), clear of printed
+// text when the picture is a con promo tile. det/text are the detectors' results for the
+// EXIF-oriented image; null when no face was found.
+function planCrop(det, text) {
+  const faces = det && det.w ? (det.faces || []).filter((f) => f[4] >= 0.8) : [];
+  if (!faces.length) return null;
+  const W = det.w;
+  const H = det.h;
+  const boxes = text && text.w === W && text.h === H ? text.boxes || [] : [];
+  // A face that is small in its picture usually sits inside a promo tile (lettering under the
+  // chin, frames, logos around it): frame it tighter and lower so the credential is the person.
+  const share = faces[0][2] / W;
+  const [frac, minW, anchor] = share < 0.22 ? [0.7, 120, 0.5] : share < 0.32 ? [0.62, 160, 0.5] : [0.42, 200, 0.42];
+  const subject = subjectBox(framedFaces(W, H, faces));
+  const big0 = faceCrop(W, H, faces, frac, minW, anchor);
+  const small0 = faceCrop(W, H, faces, 0.62, 90);
+  const big = clearOfText(W, H, subject, big0, boxes, anchor);
+  const small = clearOfText(W, H, subject, small0, boxes, 0.42, 40);
+  // A plain photo carries no printed text anywhere; promo graphics do, even outside the crop.
+  const textArea = boxes.reduce((s, x) => s + x[2] * x[3], 0);
+  const plain = textArea < 0.004 * W * H;
+  return { W, H, big: big || big0, small: small || small0, textFree: !!big, plain, share, faceW: faces[0][2], faceArea: faces[0][2] * faces[0][3] };
+}
+
+async function processGuestPhoto(buf, id, plan) {
+  // Bake in EXIF orientation first so pixel boxes from the detectors line up.
   const oriented = await sharp(buf, { animated: false }).rotate().flatten({ background: '#e9ebee' }).png().toBuffer();
   const meta = await sharp(oriented).metadata();
   if (!meta.width || !meta.height || meta.width < 60 || meta.height < 60) throw new Error('too small');
-  const faces = det && det.w === meta.width && det.h === meta.height ? (det.faces || []).filter((f) => f[4] >= 0.8) : [];
+  const fits = plan && plan.W === meta.width && plan.H === meta.height;
   let big;
   let small;
-  if (faces.length) {
-    big = await sharp(oriented).extract(faceCrop(meta.width, meta.height, faces, 0.42, 200)).resize(240, 300).webp({ quality: 78 }).toBuffer();
-    small = await sharp(oriented).extract(faceCrop(meta.width, meta.height, faces, 0.6, 90)).resize(60, 76).webp({ quality: 72 }).toBuffer();
+  if (fits) {
+    big = await sharp(oriented).extract(plan.big).resize(240, 300).webp({ quality: 78 }).toBuffer();
+    small = await sharp(oriented).extract(plan.small).resize(60, 76).webp({ quality: 72 }).toBuffer();
   } else {
     // No face found (artwork, logo, book cover): keep the top of tall images, let sharp
     // find the subject in wide ones.
@@ -240,77 +320,133 @@ async function processGuestPhoto(buf, id, det) {
   }
   writeFileSync(join(OUT_GUEST, `${id}.webp`), big);
   writeFileSync(join(OUT_GUEST_S, `${id}.webp`), small);
-  return { w: meta.width, h: meta.height, face: faces.length > 0 };
+  return { w: meta.width, h: meta.height, face: !!fits };
 }
 
-// ---- face detection (pipeline/tools/faces.py, OpenCV YuNet), cached per image URL -------------
+// ---- face and text detection (pipeline/tools/faces.py, text.py; OpenCV), cached per image -------
 
-const FACE_MODEL = join(ROOT, 'pipeline', 'models', 'face_detection_yunet_2023mar.onnx');
-const FACE_CACHE = join(CACHE, 'faces.json');
-let faceCache = null;
+const MODELS = join(ROOT, 'pipeline', 'models');
+const DETECTORS = {
+  faces: { script: 'faces.py', model: join(MODELS, 'face_detection_yunet_2023mar.onnx'), cache: join(CACHE, 'faces.json') },
+  text: { script: 'text.py', model: join(MODELS, 'text_detection_en_ppocrv3_2023may.onnx'), cache: join(CACHE, 'text.json') },
+};
+const detCache = {};
+const detQueue = {};
+let detRun = 0;
 
-// Calls are serialised: the per-guest Wikipedia fallback runs from parallel workers.
-let faceQueue = Promise.resolve();
-let faceRun = 0;
-function detectFaces(items) {
-  const run = faceQueue.then(() => detectFacesNow(items));
-  faceQueue = run.catch(() => {});
+// Calls are serialised per detector: the per-guest Wikipedia fallback runs from parallel workers.
+function detect(kind, items) {
+  const run = (detQueue[kind] || Promise.resolve()).then(() => detectNow(kind, items));
+  detQueue[kind] = run.catch(() => {});
   return run;
 }
+const detectFaces = (items) => detect('faces', items);
+const detectText = (items) => detect('text', items);
 
-async function detectFacesNow(items) {
-  if (!faceCache) faceCache = existsSync(FACE_CACHE) ? JSON.parse(readFileSync(FACE_CACHE, 'utf8')) : {};
-  const todo = items.filter((i) => !faceCache[i.key]);
-  if (todo.length && existsSync(FACE_MODEL)) {
-    const n = faceRun++;
-    const inFile = join(CACHE, `faces-in-${n}.json`);
-    const outFile = join(CACHE, `faces-out-${n}.json`);
-    writeFileSync(inFile, JSON.stringify(todo.map((i) => ({ id: i.key, file: i.file }))));
-    rmSync(outFile, { force: true });
-    await new Promise((resolve) =>
-      execFile('python', [join(ROOT, 'pipeline', 'tools', 'faces.py'), FACE_MODEL, inFile, outFile], { maxBuffer: 1 << 26 }, (err) => {
-        if (err) console.log(`face detection unavailable (${String(err.message).split('\n')[0]}); using plain crops`);
-        resolve();
-      }),
-    );
-    try {
-      if (existsSync(outFile)) Object.assign(faceCache, JSON.parse(readFileSync(outFile, 'utf8')));
-    } catch (e) {
-      console.log(`face results unreadable (${e.message}); those photos use plain crops`);
-    }
-    rmSync(inFile, { force: true });
-    rmSync(outFile, { force: true });
-    writeFileSync(FACE_CACHE, JSON.stringify(faceCache));
-  }
-  return faceCache;
+async function detectNow(kind, items) {
+  const d = DETECTORS[kind];
+  if (!detCache[kind]) detCache[kind] = existsSync(d.cache) ? JSON.parse(readFileSync(d.cache, 'utf8')) : {};
+  const cache = detCache[kind];
+  const todo = items.filter((i) => !cache[i.key]);
+  if (!todo.length || !existsSync(d.model)) return cache;
+  // A big first run is split over a few processes.
+  const parts = todo.length > 400 ? 4 : 1;
+  const size = Math.ceil(todo.length / parts);
+  await Promise.all(
+    Array.from({ length: parts }, async (_, p) => {
+      const chunk = todo.slice(p * size, (p + 1) * size);
+      if (!chunk.length) return;
+      const n = detRun++;
+      const inFile = join(CACHE, `${kind}-in-${n}.json`);
+      const outFile = join(CACHE, `${kind}-out-${n}.json`);
+      writeFileSync(inFile, JSON.stringify(chunk.map((i) => ({ id: i.key, file: i.file }))));
+      rmSync(outFile, { force: true });
+      await new Promise((resolve) =>
+        execFile('python', [join(ROOT, 'pipeline', 'tools', d.script), d.model, inFile, outFile], { maxBuffer: 1 << 26 }, (err) => {
+          if (err) console.log(`${kind} detection unavailable (${String(err.message).split('\n')[0]}); using plain crops`);
+          resolve();
+        }),
+      );
+      try {
+        if (existsSync(outFile)) Object.assign(cache, JSON.parse(readFileSync(outFile, 'utf8')));
+      } catch (e) {
+        console.log(`${kind} results unreadable (${e.message}); those photos use plain crops`);
+      }
+      rmSync(inFile, { force: true });
+      rmSync(outFile, { force: true });
+    }),
+  );
+  writeFileSync(d.cache, JSON.stringify(cache));
+  return cache;
 }
-
-const hasFace = (det) => !!(det && det.faces && det.faces.some((f) => f[4] >= 0.8));
 
 // ---- Wikipedia fallback for guests without a con photo ---------------------------------------
 
 const PERSONISH =
   /actor|actress|voice|artist|illustrator|cartoonist|writer|author|novelist|comedian|cosplayer|wrestler|singer|musician|rapper|director|producer|presenter|host|youtuber|streamer|model|athlete|player|animator|manga|creator|designer|puppeteer|stunt|dancer|personality|journalist|podcaster|composer|editor|filmmaker|screenwriter/i;
 
-async function wikipediaPhoto(name, known) {
-  const q = `${name} ${known || ''}`.trim();
+// Search answers are cached (pipeline/cache/wiki-search.json) so a rate-limited build never
+// loses a photo an earlier build found; network failures are retried, never cached.
+const WIKI_CACHE = join(CACHE, 'wiki-search.json');
+let wikiCache = null;
+const saveWikiCache = () => wikiCache && writeFileSync(WIKI_CACHE, JSON.stringify(wikiCache));
+
+// The page must describe someone in the guest's line of work: a comics guest never takes the
+// photo of a footballer who shares the name.
+const ROLE = {
+  actor: /actor|actress|performer|comedian|stunt|presenter/i,
+  voice: /voice|actor|actress|singer|performer|presenter/i,
+  comics: /comic|cartoon|illustrat|artist|writer|author|manga|colou?rist|inker|letterer|editor|novelist/i,
+  animation: /anim|director|artist|manga|storyboard|producer|voice|illustrat/i,
+  author: /writer|author|novelist|poet|journalist|editor|screenwriter|essayist|historian/i,
+  cosplay: /cosplay|model|costume|performer|youtuber|streamer|influencer|personality/i,
+  creator: /creator|youtuber|streamer|director|producer|artist|designer|writer|podcaster|personality|host|comedian|filmmaker/i,
+  gaming: /game|gaming|streamer|youtuber|e-?sports|designer|programmer/i,
+  // "other" guests are matched only with a known-for line, and only to fan-world professions.
+  other: /actor|actress|director|filmmaker|writer|author|novelist|artist|illustrator|editor|screenwriter|producer|comedian|designer|publisher|cartoonist|animator|composer|presenter|personality/i,
+  music: /singer|musician|band|rapper|composer|dj|songwriter|guitarist|drummer|vocalist|group|idol/i,
+  sports: /wrestler|player|athlete|boxer|fighter|olympi|racing|driver|skater|footballer|coach/i,
+};
+
+async function wikipediaSearch(q) {
+  if (!wikiCache) wikiCache = existsSync(WIKI_CACHE) ? JSON.parse(readFileSync(WIKI_CACHE, 'utf8')) : {};
+  if (q in wikiCache) return wikiCache[q];
   const api =
     'https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&generator=search&gsrlimit=4' +
     `&gsrsearch=${encodeURIComponent(q)}&prop=pageimages%7Cdescription&piprop=thumbnail&pithumbsize=500&origin=*`;
-  try {
-    const res = await fetch(api, { headers: { 'user-agent': 'WorldConsBot/1.0 (https://github.com/MLGGStaR/WorldCons)' } });
-    if (!res.ok) return null;
-    const json = await res.json();
-    const pages = ((json.query && json.query.pages) || []).sort((a, b) => a.index - b.index);
-    const want = slug(name);
-    for (const p of pages) {
-      const titleSlug = slug(p.title.replace(/\s*\(.*\)\s*$/, ''));
-      if (titleSlug !== want) continue;
-      if (!p.thumbnail || !PERSONISH.test(p.description || '')) continue;
-      return { img: p.thumbnail.source, page: `https://en.wikipedia.org/wiki/${encodeURIComponent(p.title.replace(/ /g, '_'))}` };
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetch(api, { headers: { 'user-agent': 'WorldConsBot/1.0 (https://github.com/MLGGStaR/WorldCons)' } });
+      if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) return [];
+      const json = await res.json();
+      const pages = ((json.query && json.query.pages) || [])
+        .sort((a, c) => a.index - c.index)
+        .map((p) => ({ title: p.title, description: p.description || '', thumb: p.thumbnail ? p.thumbnail.source : '' }));
+      wikiCache[q] = pages;
+      return pages;
+    } catch {
+      // offline or rate-limited: wait and try again, then give up for this build
+      await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
     }
-  } catch {
-    /* offline or rate-limited: no fallback */
+  }
+  return [];
+}
+
+// A page about someone who has died (a lifespan or "died" in the description) is a namesake,
+// never the guest.
+const DEAD = /\(\s*(?:c\.\s*)?\d{3,4}\s*[–-]\s*\d{3,4}\s*\)|\bdied\b|\bdeceased\b/i;
+
+async function wikipediaPhoto(name, known, cat) {
+  if (cat === 'other' && !known) return null; // too little to tell namesakes apart
+  const pages = await wikipediaSearch(`${name} ${known || ''}`.trim());
+  const want = slug(name);
+  const role = ROLE[cat] || PERSONISH;
+  for (const p of pages) {
+    if (slug(p.title.replace(/\s*\(.*\)\s*$/, '')) !== want) continue;
+    if (!p.thumb || !PERSONISH.test(p.description) || !role.test(p.description)) continue;
+    if (DEAD.test(p.description)) continue;
+    return { img: p.thumb, page: `https://en.wikipedia.org/wiki/${encodeURIComponent(p.title.replace(/ /g, '_'))}` };
   }
   return null;
 }
@@ -402,7 +538,9 @@ async function main() {
         const x = loadExtract(l.file);
         for (const [i, name, known, cat] of l.picks || []) {
           const cand = x && x.candidates[i];
-          addGuest(name, known, cat, cand ? { url: cand.img, w: cand.w, h: cand.h, referer: x.finalUrl || x.url } : null);
+          // An SVG beside a name is a flag or a social icon, never the person.
+          const usable = cand && cand.img && !/\.svg(\?|#|$)/i.test(cand.img);
+          addGuest(name, known, cat, usable ? { url: cand.img, w: cand.w, h: cand.h, referer: x.finalUrl || x.url } : null);
         }
       }
       for (const [name, known, cat] of e.textOnlyGuests || []) addGuest(name, known, cat, null);
@@ -467,12 +605,26 @@ async function main() {
       const x = loadExtract(homeFile);
       const tries = [];
       const add = (url, logo) => url && !tries.some((t) => t.url === url) && tries.push({ url, logo });
+      // A share image on another host (a domain not live yet, a CDN that refuses bots) is
+      // often also served from the page's own host under the same path.
+      const sameHost = (url) => {
+        try {
+          const u = new URL(url);
+          const page = new URL(x.finalUrl || x.url);
+          return u.host !== page.host ? new URL(u.pathname + u.search, page.origin).href : null;
+        } catch {
+          return null;
+        }
+      };
       add(resolveCover(c._cover), /^logo:/.test(c._coverKey || ''));
       if (x) {
-        add(x.ogImage, false);
-        add(x.twitterImage, false);
+        for (const url of [x.ogImage, x.twitterImage]) {
+          add(url, false);
+          if (url) add(sameHost(url), false);
+        }
         for (const h of x.heroImages || []) if (h.w >= 300 && h.h >= 150) add(h.img, false);
-        for (const l of x.logos || []) add(l.img, true);
+        // Sponsor and partner strips are other companies' logos, never the con's.
+        for (const l of x.logos || []) if (!/sponsor|partner|exhibitor|vendor|supporter/i.test(`${l.img} ${l.alt || ''}`)) add(l.img, true);
       }
       const out = join(OUT_CON, `${c.series}.webp`);
       let lastErr = 'no image';
@@ -522,50 +674,83 @@ async function main() {
     await pool(allCands, 12, async (c) => {
       c.buf = await download(c.url, c.referer);
     });
-    // 2. Faces in all of them, one batch.
-    const faces = await detectFaces(allCands.filter((c) => c.buf).map((c) => ({ key: c.key, file: join(IMG_CACHE, c.key) })));
-    // 3. Per guest: a photo with a real face beats artwork, logos and book covers; among
-    //    those, the biggest face (sharpest crop). No face anywhere -> try Wikipedia's photo.
-    let withFace = 0;
-    await pool(entries, 10, async ([gid]) => {
-      const ranked = cands
-        .get(gid)
-        .filter((c) => c.buf)
-        .map((c) => {
-          const det = faces[c.key];
-          const f = hasFace(det) ? det.faces.find((x) => x[4] >= 0.8) : null;
-          return { c, det, faceArea: f ? f[2] * f[3] : 0, area: det && det.w ? det.w * det.h : c.w * c.h };
-        })
-        .sort((a, b) => b.faceArea - a.faceArea || b.area - a.area);
-      const use = async (buf, det, url, wikiPage) => {
-        const info = await processGuestPhoto(buf, gid, det);
-        guestOut[gid].p = `img/g/${gid}.webp`;
-        guestOut[gid].s = `img/g/s/${gid}.webp`;
-        if (wikiPage) guestOut[gid].w = wikiPage;
-        sources.guests[gid] = url;
-        if (info.face) withFace++;
-      };
-      if (!ranked.length || !ranked[0].faceArea) {
-        const wiki = await wikipediaPhoto(guestOut[gid].n, guestOut[gid].k);
-        const buf = wiki && (await download(wiki.img, 'https://en.wikipedia.org/'));
-        if (buf) {
-          const key = sha1(wiki.img);
-          const det = (await detectFaces([{ key, file: join(IMG_CACHE, key) }]))[key];
-          if (hasFace(det) || !ranked.length) {
-            try {
-              await use(buf, det, wiki.img, wiki.page);
-              fromWiki++;
-              return;
-            } catch {
-              /* fall back to the con's image */
-            }
-          }
-        }
+    // 2. Faces and printed text in all of them, one batch each.
+    const batch = allCands.filter((c) => c.buf).map((c) => ({ key: c.key, file: join(IMG_CACHE, c.key) }));
+    const faces = await detectFaces(batch);
+    const texts = await detectText(batch);
+    // 3. Per guest: a photo with a real face beats artwork, logos and book covers; then a face
+    //    big enough to stay sharp, a crop with no printed name or logo in it, a plain photo
+    //    rather than a promo graphic, a portrait rather than a small face, and the biggest face.
+    const rank = (r) => [
+      r.plan ? 1 : 0,
+      r.plan && r.plan.faceW >= 60 ? 1 : 0,
+      r.plan && r.plan.textFree ? 1 : 0,
+      r.plan && r.plan.plain ? 1 : 0,
+      r.plan && r.plan.share >= 0.25 ? 1 : 0,
+      r.plan ? r.plan.faceArea : 0,
+      r.area,
+    ];
+    const byRank = (a, b) => {
+      const x = rank(a);
+      const y = rank(b);
+      for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return y[i] - x[i];
+      return 0;
+    };
+    const clean = (r) => !!(r && r.plan && r.plan.faceW >= 60 && r.plan.textFree && r.plan.plain);
+    const ranked = new Map();
+    for (const [gid] of entries) {
+      ranked.set(
+        gid,
+        cands
+          .get(gid)
+          .filter((c) => c.buf)
+          .map((c) => {
+            const det = faces[c.key];
+            return { c, plan: planCrop(det, texts[c.key]), area: det && det.w ? det.w * det.h : c.w * c.h };
+          })
+          .sort(byRank),
+      );
+    }
+    // 4. Guests whose best con photo is not a clean portrait (no face, printed text in the
+    //    frame, a promo graphic) also get their Wikipedia photo as a candidate, in one batch.
+    const wiki = [];
+    await pool(
+      entries.filter(([gid]) => !clean(ranked.get(gid)[0])),
+      8,
+      async ([gid]) => {
+        const g = guestOut[gid];
+        const hit = await wikipediaPhoto(g.n, g.k, g.c);
+        const buf = hit && (await download(hit.img, 'https://en.wikipedia.org/'));
+        if (buf) wiki.push({ gid, c: { buf, url: hit.img, key: sha1(hit.img), page: hit.page } });
+      },
+    );
+    const wbatch = wiki.map((w) => ({ key: w.c.key, file: join(IMG_CACHE, w.c.key) }));
+    const wfaces = await detectFaces(wbatch);
+    const wtexts = await detectText(wbatch);
+    for (const w of wiki) {
+      const det = wfaces[w.c.key];
+      const plan = planCrop(det, wtexts[w.c.key]);
+      const list = ranked.get(w.gid);
+      if (plan || !list.length) {
+        list.push({ c: w.c, plan, area: det && det.w ? det.w * det.h : 0 });
+        list.sort(byRank);
       }
-      for (const r of ranked) {
+    }
+    // 5. Crop each guest's winner (falling back down the list if an image will not decode).
+    let withFace = 0;
+    let textCleared = 0;
+    await pool(entries, 10, async ([gid]) => {
+      for (const r of ranked.get(gid)) {
         try {
-          await use(r.c.buf, r.det, r.c.url);
-          fromCon++;
+          const info = await processGuestPhoto(r.c.buf, gid, r.plan);
+          guestOut[gid].p = `img/g/${gid}.webp`;
+          guestOut[gid].s = `img/g/s/${gid}.webp`;
+          if (r.c.page) guestOut[gid].w = r.c.page;
+          sources.guests[gid] = r.c.url;
+          if (info.face) withFace++;
+          if (info.face && r.plan.textFree) textCleared++;
+          if (r.c.page) fromWiki++;
+          else fromCon++;
           return;
         } catch {
           /* try the next photo */
@@ -574,7 +759,7 @@ async function main() {
       none++;
     });
     console.log(
-      `guest photos: ${fromCon} from con pages, ${fromWiki} from Wikipedia, ${none} without a photo (of ${entries.length}); ${withFace} cropped around a detected face`,
+      `guest photos: ${fromCon} from con pages, ${fromWiki} from Wikipedia, ${none} without a photo (of ${entries.length}); ${withFace} cropped around a detected face, ${textCleared} of them clear of printed text`,
     );
   } else {
     // Keep whatever images already exist on disk, with the sizes and fit the last full
@@ -615,6 +800,7 @@ async function main() {
   const generated = research.reduce((d, r) => (r.checked && r.checked > d ? r.checked : d), '') || TODAY;
   writeFileSync(join(OUT_DATA, 'cons.json'), JSON.stringify({ generated, cons, tba, guests: guestOut }));
   writeFileSync(join(OUT_DATA, 'sources.json'), JSON.stringify(sources, null, 1));
+  saveWikiCache();
 
   const withGuests = cons.filter((c) => c.g.length).length;
   console.log(`cons: ${cons.length} editions from ${research.length} research files (${withGuests} with guests), ${tba.length} waiting on dates, guests: ${Object.keys(guestOut).length}`);

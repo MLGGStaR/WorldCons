@@ -1,0 +1,22 @@
+{
+  "id": "crypticon-seattle",
+  "name": "Crypticon Seattle",
+  "short": "",
+  "url": "https://crypticonseattle.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A horror and genre-entertainment convention billed as 'Halloween in May,' held near Seattle with celebrity guests, a film festival and vendors.",
+  "cover": { "file": "pipeline/cache/extract/crypticon-seattle.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-01",
+    "end": "2026-05-03",
+    "venue": "DoubleTree by Hilton Hotel Seattle Airport",
+    "city": "SeaTac",
+    "region": "WA",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "No 2027 dates are announced yet: the homepage, Attend page and Guests page all only say 'We will open Submissions for the 2027 Festival on: October 7th' and the Guests page shows '2027's Celebrities More Coming Soon...'. The 2026 edition (most recent, now past) ran Fri-Sun May 1-3, 2026 per the ticket tiers (Friday/Saturday/Sunday + Weekend Pass) and the Events page's May 2026 listings, at the DoubleTree by Hilton Hotel Seattle Airport in SeaTac, WA (confirmed via the Attend page's hotel map link). No organizer company name found on the site; left blank rather than guessed. Re-check after Oct 7, 2026 when submissions/guest announcements for 2027 are expected to open."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "smash-sydney-manga-and-anime-show",
+  "name": "SMASH! Sydney Manga & Anime Show",
+  "short": "SMASH",
+  "url": "https://smash.org.au/",
+  "organizer": "SMASH Inc",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Sydney's not-for-profit, fan-run anime and manga convention, with international guests, an artist market, cosplay and gaming at ICC Sydney.",
+  "cover": { "file": "pipeline/cache/extract/smash-sydney-manga-and-anime-show.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "city": "Sydney",
+    "region": "NSW",
+    "country": "AU",
+    "venue": "ICC Sydney Exhibition Centre"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage still headlines 'JULY 11-12, 2026 ICC SYDNEY EXHIBITION CENTRE' with that show's own guest list (Mackenyu, TeddyLoid, AriesFaries, Densetsu.EXE, AKrCos, Inspector Lemon, Giorgia Costumes, Astercat Cosplay, Yuka Nishio, Takayama Toshiaki, Swallowtail Butler Opera Group, Aida Rikako, AiSA, Kradness, Yasei Yoshida) and no next date is posted yet, so that July 2026 edition is recorded as 'last' rather than as an upcoming edition, and its guests aren't picked here (the window has no upcoming edition for this con yet). Organizer and not-for-profit status confirmed in the footer: 'SMASH Inc is a not-for-profit organisation. (c) 2025 SMASH Inc.'."
+}

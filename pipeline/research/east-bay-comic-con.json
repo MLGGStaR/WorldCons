@@ -1,0 +1,22 @@
+{
+  "id": "east-bay-comic-con",
+  "name": "East Bay Comic Con",
+  "short": "EBCC",
+  "url": "https://eastbaycomiccon.com/",
+  "organizer": "Moonball Comics",
+  "status": "active",
+  "types": ["comics", "toys"],
+  "blurb": "A one-day comic book, toy and fantasy show in Concord, California, billed as Contra Costa County's biggest; run by Moonball Comics.",
+  "cover": { "file": "pipeline/cache/extract/east-bay-comic-con.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-02-15",
+    "end": "2026-02-15",
+    "city": "Concord",
+    "region": "CA",
+    "country": "US",
+    "venue": "Concord Plaza Inn (formerly Crowne Plaza Inn)"
+  },
+  "checked": "2026-10-05",
+  "notes": "The site's own countdown widget ('Only -233 days till the next East Bay Comic Con Show! February 15th, 2026') has gone negative and is stale, confirming the Feb 15, 2026 one-day show already happened. The site's own cross-promotion list of Moonball Comics' sister shows explicitly marks this one 'East Bay Comic-Con TBA Concord CA' (while giving firm 2026 dates for its other shows), so no 2027 date is announced yet; recorded as 'last' rather than an upcoming edition. Guests for the Feb 2026 show (headshots of Brent A., Bair, Fong, Estrada, Wilcox, comics writer Steven Seagle, Evigan) were not catalogued since that edition is already in the past and outside the research window. Cover uses logo:0, the East Bay Comic Con wordmark logo (1215x452); no og/twitter image was present."
+}

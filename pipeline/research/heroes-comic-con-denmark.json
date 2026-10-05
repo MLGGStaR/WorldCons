@@ -1,0 +1,63 @@
+{
+  "id": "heroes-comic-con-denmark",
+  "name": "Heroes Comic Con Denmark",
+  "short": "",
+  "url": "https://www.comiccondenmark.com/",
+  "organizer": "Heroes International / Easyfairs",
+  "status": "active",
+  "types": ["pop", "comics", "cosplay", "games"],
+  "blurb": "Denmark's largest pop-culture event at Bella Center Copenhagen, with Hollywood actors, comic creators, cosplayers and gaming guests.",
+  "cover": { "file": "pipeline/cache/extract/heroes-comic-con-denmark.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Bella Center",
+      "city": "Copenhagen",
+      "region": "",
+      "country": "DK",
+      "tickets": "https://www.comiccondenmark.com/tickets/",
+      "guestsPage": "https://www.comiccondenmark.com/line-up/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/heroes-comic-con-denmark.guests.json",
+          "picks": [
+            [3, "Giancarlo Esposito", "The Mandalorian", "actor"],
+            [4, "Eliza Taylor", "The 100", "actor"],
+            [5, "Lindsey Morgan", "The 100, Walker", "actor"],
+            [6, "Troy Baker", "The Last of Us, Indiana Jones", "voice"],
+            [7, "Jennifer English", "Clair Obscur, Baldur's Gate 3", "voice"],
+            [8, "Aliona Baranova", "Clair Obscur, Baldur's Gate 3", "voice"],
+            [9, "Luke Dale", "Kingdom Come: Deliverance", "voice"],
+            [10, "Tom McKay", "Kingdom Come: Deliverance", "voice"],
+            [11, "Neil Newbon", "Baldur's Gate 3", "voice"],
+            [12, "Brian Stelfreeze", "Comic artist (Nightwing)", "comics"],
+            [13, "R.B. Silva", "X-Men artist", "comics"],
+            [14, "Chris Sprouse", "Comic artist", "comics"],
+            [15, "Pere Perez", "Comic artist", "comics"],
+            [16, "Marc Ellerby", "Comic artist", "comics"],
+            [17, "Marie Javins", "Comic book editor", "comics"],
+            [18, "Don Rosa", "Comic special guest", "comics"],
+            [19, "Elf Darling Cami", "Cosplay contest judge", "cosplay"],
+            [20, "Sabaku", "Cosplay contest judge", "cosplay"],
+            [21, "Dishy Crafts", "Cosplay contest judge", "cosplay"],
+            [22, "ToxieKat", "", "cosplay"],
+            [23, "Bambi Lashes", "", "cosplay"],
+            [24, "Cinderys", "", "cosplay"],
+            [25, "Niki Topgaard", "YouTuber", "creator"],
+            [26, "P4perback", "", "creator"],
+            [27, "taylorxhx", "", "creator"],
+            [28, "whataboutandy", "Streamer", "creator"],
+            [29, "Desca_Gaming", "", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and line-up page text: 'Comic Con Denmark is a pop culture event, happening Nov 7-8, 2026, at Bella Center' and 'Saturday 7 November: 10:00-20:00 Sunday 8 November: 10:00-18:00'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Run by Easyfairs under the Heroes brand (site assets served from easyfairsassets.com), matching the seed's organizer. Expanded seed types (comics, pop) to also include cosplay and games since the site explicitly groups guests into Special Guests (actors/voice), Comic Artists, Cosplay Guests and Cool Creators, and its own description reads 'films, series, gaming and cosplay'. Cover uses the wide 1366x695 'Group-866x2-1' banner graphic rather than the raw og:image photo, which looked like a generic event photo. A few handle-style creator names (taylorxhx, Desca_Gaming) had slightly inconsistent alt-text vs. card-text spelling; the card's own visible text was used. No independent 'known for' text was on the card for several comic artists and cosplay guests beyond their category, so known-for is left blank for those."
+}

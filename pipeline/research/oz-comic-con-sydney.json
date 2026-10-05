@@ -1,0 +1,30 @@
+{
+  "id": "oz-comic-con-sydney",
+  "name": "Oz Comic-Con Sydney",
+  "short": "",
+  "url": "https://ozcomiccon.com/sydney/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Sydney's stop on the Oz Comic-Con circuit, a pop-culture weekend of comics, cosplay and gaming at Sydney Showground.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-sydney.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-18",
+      "end": "2027-09-19",
+      "dates": "confirmed",
+      "venue": "Sydney Showground",
+      "city": "Sydney",
+      "region": "NSW",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/sydney-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "City page countdown text: 'countdown to oz comic-con Sydney 2027! SEPTEMBER 18 & 19 2027 | SYDNEY SHOWGROUND'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated guest page (ozcomiccon.com/sydney-guests/) currently returns a 404 (page not found) with no guest cards at all, so guests is 'none-yet' for this far-out 2027 edition."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "taipei-game-show",
+  "name": "Taipei Game Show",
+  "short": "TGS",
+  "url": "https://tgs.tca.org.tw",
+  "organizer": "Taipei Computer Association (TCA)",
+  "status": "active",
+  "types": ["games", "tabletop"],
+  "blurb": "Asia-Pacific's leading consumer-and-trade video game expo at Taipei's Nangang Exhibition Center, with a player zone, indie games, tabletop and an industry summit.",
+  "cover": { "file": "pipeline/cache/extract/taipei-game-show.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "dates": "confirmed",
+      "venue": "Taipei Nangang Exhibition Center Hall 1",
+      "city": "Taipei",
+      "region": "",
+      "country": "TW",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official event-info page (tgs.tca.org.tw/?p=event_info): '活動名稱：2027台北國際電玩展 ... 【APGS亞太遊戲高峰會】1/21(四)–1/22(五) 【B2B商務區】1/21(四)–1/22(五) 【B2C玩家區】1/21(四)–1/24(日) 展出地點：南港展覽餆1館 主辦单位：台北市電腦公會' (2027 Taipei Game Show: APGS summit & B2B zone Jan 21-22, B2C player zone Jan 21-24; venue Nangang Exhibition Center Hall 1; organizer Taipei Computer Association). Used the full B2C player-zone span (Jan 21-24) as the edition dates since that is the public-facing run."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage's default visible program detail (speaker lists, exhibitor lists, floor plans under a '2026展出內容' heading) is still the 2026 edition's content, but the dedicated event-info page's header block explicitly names '2027台北國際電玩展' with the dates above, and the homepage news feed independently confirms registration for the 2027 edition is open. No individual guest/celebrity program exists — like gamescom asia, this is a trade-association-run B2B/B2C games expo (exhibitor booths, an APGS industry summit with speakers, an indie-game and tabletop zone) rather than a con with a curated guest roster, so guests is 'none'. Organizer and venue both match the given note."
+}

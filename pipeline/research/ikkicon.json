@@ -1,0 +1,30 @@
+{
+  "id": "ikkicon",
+  "name": "IKKiCON",
+  "short": "",
+  "url": "https://www.ikkicon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "Central Texas anime and gaming convention at the Kalahari Resort in Round Rock, just outside Austin.",
+  "cover": { "file": "pipeline/cache/extract/ikkicon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-01-08",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "Kalahari Resorts & Conventions",
+      "city": "Round Rock",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://www.tixr.com/groups/ikkicon/events/ikkicon-2027-183405",
+      "guestsPage": "https://www.ikkicon.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'JANUARY 8-10 2027 Central Texas' Premier Anime + Gaming Con' and '3001 Kalahari Blvd, Round Rock, TX 78665'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Both the '/guests' and '/guests-1' nav links are empty Squarespace folders ('This folder does not contain any pages'); the only guest-like art on the homepage is two graphics labeled 'IKKiCON 21 Guest Block' (a past edition), so no 2027 lineup has been posted yet."
+}

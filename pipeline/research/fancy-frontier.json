@@ -9,6 +9,14 @@
   "blurb": "Taiwan's largest doujinshi convention, held twice a year (February and August) at Taipei Expo Park, with circle sales, cosplay and model kits.",
   "cover": { "file": "pipeline/cache/extract/fancy-frontier.home.json", "key": "og" },
   "editions": [],
+  "last": {
+    "start": "2026-08-21",
+    "end": "2026-08-23",
+    "city": "Taipei",
+    "region": "",
+    "country": "TW",
+    "venue": "Taipei Expo Park"
+  },
   "checked": "2026-10-05",
-  "notes": "FF47 ran 2026-08-21 to 2026-08-23 (per EventGo listing and site history), already over as of the 2026-10-05 check date. FF48, the next numbered Fancy Frontier edition (normally February), has no announced dates yet on the official site's news feed or nav as of this check; nothing confirmed to list in the 2026-10-05..2027-12-31 window. The homepage currently promotes two same-organizer sister events that are NOT the main FF brand and are left out of this file: 'Petit Fancy 45 x Reality Fantasy 14' (2026-11-07/08, Taipei Expo Park Flower Expo Hall) and the Kaohsiung-only '2026 駁二動漫祭' / FFK19 (2026-12-05/06, Pier-2 Art Center, Kaohsiung) — both are separate, smaller doujin events under the same company, distinct from the Feb/Aug Taipei 'FF' series the seed note describes."
+  "notes": "FF47 ran 2026-08-21 to 2026-08-23 (per EventGo listing and site history), already over as of the 2026-10-05 check date. FF48, the next numbered Fancy Frontier edition (normally February), has no announced dates yet on the official site's news feed or nav as of this check; nothing confirmed to list in the 2026-10-05..2027-12-31 window. The homepage currently promotes two same-organizer sister events that are NOT the main FF brand and are left out of this file: 'Petit Fancy 45 x Reality Fantasy 14' (2026-11-07/08, Taipei Expo Park Flower Expo Hall) and the Kaohsiung-only '2026 駁二動漫祭' / FFK19 (2026-12-05/06, Pier-2 Art Center, Kaohsiung) — both are separate, smaller doujin events under the same company, distinct from the Feb/Aug Taipei 'FF' series the seed note describes. 2026-10-05 fixup pass: homepage re-checked fresh, still no FF48 date; recorded FF47 as \"last\"."
 }

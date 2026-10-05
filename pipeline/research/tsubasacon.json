@@ -1,0 +1,44 @@
+{
+  "id": "tsubasacon",
+  "name": "Tsubasacon",
+  "short": "",
+  "url": "https://tsubasacon.org/",
+  "organizer": "Tsubasacon LLC",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "West Virginia's first anime convention, held every October in Charleston with cosplay contests, gaming tournaments and voice-actor guests.",
+  "cover": { "file": "pipeline/cache/extract/tsubasacon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Charleston Coliseum & Convention Center",
+      "city": "Charleston",
+      "region": "WV",
+      "country": "US",
+      "tickets": "https://www.eventeny.com/events/tsubasacon-2026-24387/",
+      "guestsPage": "https://tsubasacon.org/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/tsubasacon.guests.json",
+          "picks": [
+            [1, "Spirit Bomb", "Musical guest, anime-themed band", "music"],
+            [2, "Jordan Dash Cruz", "Voice actor and ADR director", "voice"],
+            [3, "Ricco Fajardo", "Anime and video game voice actor", "voice"],
+            [4, "Kelsey Cruz", "Voice actor and singer", "voice"],
+            [5, "Sean Chiplock", "Voice of Loid Forger, Spy x Family", "voice"],
+            [6, "Chris Guerrero", "Voice of Ainz, Overlord", "voice"],
+            [7, "Vitamin H", "Pop-culture panelist group", "creator"],
+            [9, "Interpret As You Will", "Convention panelist group", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Tsubasacon 2026 October 9,10,11 2026 Charleston, WV Charleston Coliseum & Convention Center'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Tsubasacon 2026 is only 4 days out from the check date, so this is the next/current edition; no 2027 dates are announced yet (too soon). Organizer 'Tsubasacon LLC' taken from the provided seed note; not independently confirmed on the site (no footer/copyright entity text was found)."
+}

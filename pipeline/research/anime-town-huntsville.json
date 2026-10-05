@@ -1,0 +1,15 @@
+{
+  "id": "anime-town-huntsville",
+  "name": "Anime Town Huntsville",
+  "short": "",
+  "url": "https://www.animetowncons.com/huntsville",
+  "organizer": "Anime Town LLC",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A stop of the Anime Town multi-city tour at Huntsville, Alabama's Von Braun Center, with anime voice actors, cosplay and gaming.",
+  "cover": { "file": "pipeline/cache/extract/anime-town-huntsville.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Huntsville", "region": "AL", "country": "US", "venue": "Von Braun Center" },
+  "checked": "2026-10-05",
+  "notes": "Anime Town Huntsville's own page ('Anime Town Huntsville takes place October 2-4, 2026 at the Von Braun Center in Huntsville, Alabama') only shows an edition that had already concluded one day before this check (2026-10-05); no 2027 date is announced yet, so it is recorded as the last edition rather than upcoming. Part of the multi-city Anime Town tour — see the Greenville, Biloxi, Louisiana/Bossier City and Pensacola files for the other stops."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "snafu-con",
+  "name": "SNAFU Con",
+  "short": "",
+  "url": "https://snafucon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An anime convention at the Reno-Sparks Convention Center with eleven Guests of Honor spanning voice acting, comics and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/snafu-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Reno-Sparks Convention Center",
+      "city": "Reno",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://register.snafucon.com/",
+      "guestsPage": "https://snafucon.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/snafu-con.guests.json",
+          "picks": [
+            [1, "Kenny Loui", "Graphic novelist & voice actor", "voice"],
+            [2, "Kay Kennedy", "Anime dubs: Nukitashi, Chuhai Lips", "voice"],
+            [3, "Christopher Escalante", "Voice actor & musician", "voice"],
+            [4, "Steve Warky Nunez", "Audiobook narrator", "voice"],
+            [5, "Shane Tay", "Actor, Ascendent Animation", "voice"],
+            [6, "Gavin Black", "Fantasy author, Crop Burner", "author"],
+            [7, "Spencer Stoner", "Author", "author"],
+            [8, "Jade Griffin", "Horror & fantasy writer", "author"],
+            [9, "Steven Yu", "Comic illustrator, storyboard artist", "comics"],
+            [10, "GumiV4", "Award-winning cosplayer", "cosplay"],
+            [11, "Astro", "Competitive cosplayer", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Friday, October 9th through Sunday, October 11th, 2026 in The Reno-Sparks Convention Center, 4590 S Virginia St, Reno, NV 89502'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Bios on the Guests of Honor page are cut off at 240 characters by the extractor, so categories/known-for use as much of each bio as was visible. Kenny Loui's bio calls him a graphic novelist, scriptwriter and voice actor (ending mid-sentence on a voice-acting award nomination), and Shane Tay's card says 'actor' but places him at Ascendent Animation, the same anime-dub studio named in Christopher Escalante's and Kay Kennedy's clearly voice-acting bios -- both are filed under 'voice' on that basis."
+}

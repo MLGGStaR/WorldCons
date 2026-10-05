@@ -16,6 +16,14 @@
     "key": "logo:0"
   },
   "editions": [],
+  "last": {
+    "start": "2026-05-09",
+    "end": "2026-05-10",
+    "city": "Mumbai",
+    "region": "",
+    "country": "IN",
+    "venue": "Jio World Convention Centre, Bandra Kurla Complex"
+  },
   "checked": "2026-10-05",
-  "notes": "No live 2026-27 event page on comicconindia.com as of this check (only an 'all-cities-main-page/mumbai-comic-con' pattern from last season, which now 404s); the site's only current, confirmed city pages are Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar (Oct-Dec 2026). A third-party site (sceneloc8.com) lists '9th-10th May 2026, Jio World Convention Centre, BKC' but explicitly says to verify it officially, and that date is before this check date anyway, so it is left out rather than guessed. No confirmed next edition in the 2026-10-05 to 2027-12-31 window was found."
+  "notes": "Re-checked comicconindia.com fresh (--fresh) (only an 'all-cities-main-page/mumbai-comic-con' pattern from last season, which still 404s); the site's only current, confirmed city pages are Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar (Oct-Dec 2026), confirming no 2026-27 Mumbai edition has been announced yet. Added 'last': multiple outlets (curlytales.com, theory9.in, technosports.co.in recap 'Mumbai Never Disappoints: Comic Con 2026 Closes the Season with 55,000 Fans') confirm the most recent Mumbai edition ran May 9-10, 2026 at Jio World Convention Centre, BKC - already over before the research window (2026-10-05) opened."
 }

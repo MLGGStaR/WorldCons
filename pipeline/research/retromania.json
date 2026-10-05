@@ -1,0 +1,15 @@
+{
+  "id": "retromania",
+  "name": "RetroMania",
+  "short": "",
+  "url": "https://www.retromania.ch/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "toys", "cosplay"],
+  "blurb": "A one-day Swiss retrogaming and geek-culture fair in Payerne, with a geek flea market, arcade cabinets, tournaments and a cosplay contest.",
+  "cover": { "file": "pipeline/cache/extract/retromania.home.json", "key": "hero:5" },
+  "editions": [],
+  "last": { "start": "2026-04-25", "end": "2026-04-25", "city": "Payerne", "region": "VD", "country": "CH", "venue": "Halle des Fêtes" },
+  "checked": "2026-10-05",
+  "notes": "Homepage reads '25 avril 2026, 11h-19h Payerne, Halle des Fêtes' for its 8th edition, a one-day fair that already passed as of this check (2026-10-05); its own countdown timer is at zero and no 2027 date is posted on the site (only an 'Affiche_2026' poster, no 2027 poster yet) or found via search, so editions is empty and April 2026 is recorded as 'last'. Guests were not collected since there is no upcoming edition; this is a flea-market/arcade-and-tournament fair rather than a celebrity-guest convention. A 'logo-wavemind-media.svg' appears in the footer alongside the Retromania logo but it's not clearly labeled as the organizer (could be a web/production credit), so organizer was left blank rather than guessed. Used the official 2026 event poster ('Affiche retromania') as cover, the best available key art."
+}

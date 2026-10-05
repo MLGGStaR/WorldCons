@@ -1,0 +1,22 @@
+{
+  "id": "comic-exhibition-taipei",
+  "name": "Comic Exhibition",
+  "short": "CCPA",
+  "url": "https://www.ccpa.org.tw/comic/",
+  "organizer": "Chinese Animation & Comic Publishers Association (CCPA)",
+  "status": "active",
+  "types": ["comics", "toys", "games"],
+  "blurb": "Taiwan's long-running comics expo at Taipei World Trade Center, co-located with the Taipei Movie & Toys Convention and Taiwan Gamers-Con under one ticket.",
+  "cover": { "file": "pipeline/cache/extract/comic-exhibition-taipei-event.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-23",
+    "end": "2026-07-27",
+    "city": "Taipei",
+    "region": "",
+    "country": "TW",
+    "venue": "Taipei World Trade Center Exhibition Hall 1"
+  },
+  "checked": "2026-10-05",
+  "notes": "Confirmed the given details: the official event microsite's own title is '2026第25屆漫画博覽會GOSHINE!與夢想同行！7/23日~7/27日世貿一館' (2026 25th Comic Exhibition, 'GO SHINE! Walk With Dreams', 23-27 July at World Trade Center Exhibition Hall 1), and ticket info confirms it bundles entry to the 10th Taipei International Film, Toy & Collectibles Expo and the 8th Taiwan Game & Esports Expo, matching the given co-location note. That 25th edition already ended (23-27 Jul 2026) before the research window, and neither the event microsite nor the parent CCPA association site (ccpa.org.tw/ccpa) announces a 26th/2027 edition yet — the association's own news feed is current through late Sept 2026 and is now focused on its separate Kaohsiung ACG festival (9-12 Oct 2026), so editions is empty and the 2026 run is recorded as 'last'. Organizer confirmed from the site footer: '© 2023 Chinese Animation & Comic Publishers Association'. No guests pulled since there is no in-window edition."
+}

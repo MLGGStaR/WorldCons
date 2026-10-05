@@ -1,0 +1,5 @@
+little-rock-anime-fest | pipeline/cache/extract/little-rock-anime-fest.guests.json | 0 J Michael Tatum
+nwa-comic-con | pipeline/cache/extract/nwa-comic-con.guests.json | 0 Dee Bradley Baker
+oafcon | pipeline/cache/extract/oafcon.guests.json | 14 Sam de la Rosa ; 34 Anthony Tollin
+palmetto-anthro-weekend | pipeline/cache/extract/palmetto-anthro-weekend.guests.json | 1 Wyviryn
+sin-city-anime | pipeline/cache/extract/sin-city-anime-v2.guests.json | 4 Babybeard ; 6 Ghost Girl Goods ; 16 Aicosu ; 18 Draxxisa ; 20 Kaychan ; 22 Jez Roth ; 28 Pixel Baka ; 30 SPPWalker

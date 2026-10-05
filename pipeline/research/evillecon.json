@@ -1,0 +1,30 @@
+{
+  "id": "evillecon",
+  "name": "EvilleCon",
+  "short": "",
+  "url": "https://www.evillecon.com",
+  "organizer": "Evansville Anime Conventions Inc.",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An annual anime convention with cosplay, panels, karaoke and guests, relocated from Evansville, Indiana to Owensboro, Kentucky in 2026.",
+  "cover": { "file": "pipeline/cache/extract/evillecon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Owensboro Convention Center",
+      "city": "Owensboro",
+      "region": "KY",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "evillecon.com itself is a 'coming soon' placeholder ('EvilleCon will return in 2027 under an exciting new identity', no dates); the venue's own listing at owensborocenter.com/event/evillecon-2027 states 'Dates: March 19-21, 2027' at the Owensboro Convention Center, matching an Eventbrite listing for the same weekend."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Official site (evillecon.com) is mid-redesign and only shows a 'coming soon' page with application links, no dates or guest page yet, so dates are sourced from the Owensboro Convention Center's own event listing (owensborocenter.com/event/evillecon-2027) corroborated by an Eventbrite listing for the same weekend; treated as reliable since it is the host venue's own page, not an aggregator. Organizer (Evansville Anime Conventions Inc.) and founding history from Wikipedia. No guest list published yet for 2027."
+}

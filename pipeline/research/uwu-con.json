@@ -1,0 +1,15 @@
+{
+  "id": "uwu-con",
+  "name": "UwU Con",
+  "short": "",
+  "url": "https://www.uwucon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "comics", "games"],
+  "blurb": "Anime, comics and gaming convention at the Mesa Convention Center with cosplay showcases and voice-actor guests.",
+  "cover": { "file": "pipeline/cache/extract/uwu-con.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Mesa", "region": "AZ", "country": "US", "venue": "Mesa Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Year 5 (Oct 2-4, 2026) ended the day before the research window opens (2026-10-05), so it is recorded as 'last'. The homepage still shows Year 5 info with no Year 6 / 2027 dates announced yet (no og:image either, so the cover uses the site logo). Year 5's homepage listed 10 voice-actor guests (Paul Castro Jr., Daman Mills, Nick Monteleone, Jacob Carlson, Amber Lee Connors, Matthew David Rudd, David Sobolov, Christina Kelly, Jamie Marchi, Chris Rager) but these predate the research window so are not included."
+}

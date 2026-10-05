@@ -1,0 +1,15 @@
+{
+  "id": "all-con",
+  "name": "All-Con",
+  "short": "",
+  "url": "https://www.all-con.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "comics", "pop"],
+  "blurb": "Dallas hotel convention mixing sci-fi, cosplay, gaming and tabletop fandom with a themed dance party every night.",
+  "cover": { "file": "pipeline/cache/extract/all-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-03-12", "end": "2026-03-15", "city": "Dallas", "region": "TX", "country": "US", "venue": "Hilton Dallas Lincoln Centre" },
+  "checked": "2026-10-05",
+  "notes": "All-Con's Year 22 edition (March 12-15, 2026) already concluded before this research window, and neither the homepage nor the hotel page names a Year 23 / 2027 date yet (both still display the Year 22 banner and its room-block rates). Venue is the Hilton Dallas Lincoln Centre by the Galleria: the site itself only gives the street address '5410 Lyndon B Johnson Freeway, Dallas, TX 75240', confirmed to that hotel via a web search. Cover picked from the homepage's 'menu/2026.png' year-badge graphic since no larger key art or logo is on the page; the other homepage images are either small guest headshots from the concluded edition or generic layout art."
+}

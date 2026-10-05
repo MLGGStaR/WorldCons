@@ -1,0 +1,15 @@
+{
+  "id": "gathering-of-the-ghouls",
+  "name": "Gathering of the Ghouls",
+  "short": "",
+  "url": "https://www.gatheringoftheghouls.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Arizona's annual Halloween and horror convention at the Mesa Convention Center, with horror celebrities, cosplay contests and haunted attractions.",
+  "cover": { "file": "pipeline/cache/extract/gathering-of-the-ghouls.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-22", "end": "2026-08-23", "city": "Mesa", "region": "AZ", "country": "US", "venue": "Mesa Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The homepage itself says the 2026 edition (Aug 22-23) 'HAS ENDED' and reads 'WHO'S READY FOR GHOULS 2027? Vendor and convention info coming soon!' — so the next edition is confirmed to be happening but its dates are not yet announced."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "anime-central",
+  "name": "Anime Central",
+  "short": "ACen",
+  "url": "https://www.acen.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "The largest anime, manga and Japanese pop-culture convention in Chicago and the Midwest, held in Rosemont.",
+  "cover": { "file": "pipeline/cache/extract/anime-central.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Donald E. Stephens Convention Center",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://www.acen.org/registration/",
+      "guestsPage": "https://www.acen.org/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 2027-05-14T10:00 -> 2027-05-16T16:00 at Donald E Stephens Convention Center; homepage text: 'Anime Central will return May 14-16, 2027 ... Donald E. Stephens Convention Center & Hyatt Regency O'Hare, Rosemont.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest grid images only render for the first card in each adjacent cluster; sibling cards' text (name + bare role) still gets captured even when their own photo doesn't, so Corey Wilder, Ricco Fajardo, Hyuganatsu, Ayumi Moriyama, Takushi Koide and the FictionJunction vocalists are listed as textOnlyGuests rather than picks. One more vocalist name starting with 'Y' was cut off by the extractor's text-length cap after 'LINO LEIA Vocalist Y' and is left out entirely rather than guessed. Every captured card gives only a bare role label (Voice Actor/Actress, Director, Composer and Vocalist, Vocalist, Creator) with no specific show credit, so known-for is left blank for all of them, matching the convention used in the bundled holiday-matsuri example. Skipped as non-guests: Japan Information Center (Consulate General of Japan at Chicago), Japanese Culture Center, Japanime Games and Vitalant (all organizations/exhibitors, not people), and Yusuke Yamamoto, who is explicitly listed under 'Guests No Longer Attending.' 2026-10-05 re-verify: current, lineup unchanged -- two fresh re-extractions (same lazy-load clustering quirk as before, card counts varied 6 vs 26 run to run) both still show Clifford Chapin/Morgan Berry/Jordan Dash Cruz/Caitlin Glass/Corey Wilder/Ricco Fajardo on the page with no stale-year label anywhere, the 'Guests No Longer Attending' removal section still lists only Yusuke Yamamoto (unchanged), the sidebar's own 'Recent Posts' are dated Aug-Sep 2026 (last 1-2 months), and a sibling link already points to an '-2027' URL slug (artist-alley-and-retailers-2027), all indicating an actively-maintained, already-2027-oriented site rather than stale leftover content. The second re-extraction also surfaced several Japanese-guest names (e.g. Kristen McGuire, Sayaka Ueda, Yuichiro Hayashi, Akiko Hasegawa, Yumi Hara) not in the original pick/textOnly lists, which may be legitimate newer additions to this growing, flaky-rendering page -- out of scope for this staleness check, but worth a dedicated re-extraction pass to capture fully. REFUTE pass (2026-10-05): overturned to none-yet -- re-fetching the live /guests/ page shows its American Guests, International Guests and Industry Guests sections all sit directly under one literal heading, 'Guests from our Last Convention' (confirmed by re-reading the rendered page), and Clifford Chapin and Morgan Berry are independently confirmed by third-party coverage to have actually appeared at the already-completed Anime Central 2026 (May 15-17, 2026, ~4.5 months before this check); their own individual official acen.org announcement pages (clifford-chapin-will-appear-at-anime-central, morgan-berry-will-appear-at-anime-central) are themselves headed 'Guests from our Last Convention'. Every name previously picked or text-only (Clifford Chapin, Morgan Berry, Jordan Dash Cruz, Caitlin Glass, Keisuke Shinohara, Corey Wilder, Ricco Fajardo, Hyuganatsu, Ayumi Moriyama, Takushi Koide, Yuki Kajiura/FictionJunction, Kaori, Yuriko Kaida, Joelle, Lino Leia) is this same recently-completed 2026 lineup, not a 2027 announcement, so guests is reset to none-yet with lineup/textOnlyGuests cleared; the prior Verify-03 pass had relied only on template-level site-freshness signals (recent blog-post dates, a sibling '-2027' URL slug) rather than this page's own explicit last-convention labeling."
+}

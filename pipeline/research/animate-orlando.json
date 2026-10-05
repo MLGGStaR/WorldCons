@@ -24,42 +24,7 @@
         {
           "file": "pipeline/cache/extract/animate-orlando.guests.json",
           "picks": [
-            [1, "Kevin Woo", "", "music"],
-            [2, "Justin Cook", "", "voice"],
-            [3, "Stephen Silver", "", "animation"],
-            [4, "Peter Raymundo", "", "animation"],
-            [5, "Rick Law", "", "animation"],
-            [6, "Willie Ito", "", "animation"],
-            [7, "Joe Wos", "", "comics"],
-            [8, "Guy Hutchinson", "", "comics"],
-            [9, "Xia Brookside", "", "sports"],
-            [10, "Deonna Purrazzo", "", "sports"],
-            [11, "Lacey Lane", "", "sports"],
-            [12, "Kacy Catanzaro", "", "sports"],
-            [13, "Patty Hawkins", "", "cosplay"],
-            [14, "Milo Beasley", "", "other"],
-            [15, "Nerds Know", "", "creator"],
-            [16, "Noise Complaint", "", "music"],
-            [18, "Elgin David", "", "cosplay"],
-            [19, "Tyler Wood", "", "comics"],
-            [21, "Morgan Le Foy", "", "cosplay"],
-            [22, "Heartless Aquarius", "", "cosplay"],
-            [23, "Merkuma", "", "cosplay"],
-            [24, "Danielle DeNicola", "", "other"],
-            [26, "CafeDeDuy", "", "creator"],
-            [27, "Feycrafts", "", "other"],
-            [28, "Eve Talisman Cosplay", "", "cosplay"],
-            [29, "MiraiCon", "", "other"],
-            [30, "Crossroads Swords", "", "other"],
-            [31, "Freestyle Anime Podcast", "", "creator"],
-            [32, "Orlando Ghostbusters", "", "cosplay"],
-            [34, "Dan Dings", "", "other"],
-            [35, "Jaime Escanellas", "", "other"],
-            [36, "Brandon Saunders", "", "other"],
-            [39, "Margaret Kerry", "", "animation"],
-            [40, "Nolan North", "", "voice"],
-            [41, "Patrick Warburton", "", "voice"],
-            [42, "Malia Ewart", "", "other"]
+            [2, "Justin Cook", "", "voice"]
           ]
         }
       ],
@@ -68,5 +33,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name could not be confidently placed. Skipped a vendor card (a tattoo-artist business), two 'Coming Soon' placeholder cards, and 3 exact-duplicate repeats of guests already picked under a different photo (Milo Beasley, Patty Hawkins, Morgan Le Foy each appeared twice). Verify pass (2026-10-05): current -- the page's own text runs straight from the 'Voice Actors' heading into a named, scheduled guest ('Kevin Woo at Animate! Orlando All 3 Days') with no 'coming soon' wording visible, and one filename is explicitly '2027-A_-JustinCook...jpg'; the literal 'Coming Soon' value in every candidate's extracted section field is a GalaxyCon template artifact, confirmed by the same pattern on the San Jose page (see galaxycon-san-jose notes), not a real unannounced status."
+  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name could not be confidently placed. Skipped a vendor card (a tattoo-artist business), two 'Coming Soon' placeholder cards, and 3 exact-duplicate repeats of guests already picked under a different photo (Milo Beasley, Patty Hawkins, Morgan Le Foy each appeared twice). Verify pass (2026-10-05): current -- the page's own text runs straight from the 'Voice Actors' heading into a named, scheduled guest ('Kevin Woo at Animate! Orlando All 3 Days') with no 'coming soon' wording visible, and one filename is explicitly '2027-A_-JustinCook...jpg'; the literal 'Coming Soon' value in every candidate's extracted section field is a GalaxyCon template artifact, confirmed by the same pattern on the San Jose page (see galaxycon-san-jose notes), not a real unannounced status. Refute attempt (2026-10-05): trimmed 34 -> 1 -- the 'current' call relied only on template-level date text; a fresh per-guest check of the cached image filenames shows most of the grid is explicitly tagged '26-' (2026) -- including both copies each of Milo Beasley, Patty Hawkins, Tyler Wood, Morgan Le Foy, Eve Talisman Cosplay and others -- i.e. last cycle's images recycled under the 2027 header, with zero other filename carrying a 2027 tag; only Justin Cook's image is explicitly tagged '2027-A!-JustinCook...jpg', so only he has real proof and the rest (including untagged cards like Kevin Woo, which is the same '2026-GC-KevinWoo' asset also seen stale on GalaxyCon San Jose) are dropped for lack of edition-specific evidence."
 }

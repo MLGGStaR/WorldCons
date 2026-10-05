@@ -45,28 +45,6 @@
             [32, "Art Grafunkel", "Pop-culture comic illustrator", "comics"],
             [34, "Lectrr", "Red Rider cartoonist", "comics"]
           ]
-        },
-        {
-          "file": "pipeline/cache/extract/facts-3.guests.json",
-          "picks": [
-            [5, "Dimitri Balcaen", "Peter & Pan, Grimoire", "author"],
-            [6, "Frank Van Dongen", "De Ontdekking van de Mens", "author"],
-            [7, "Joke Pangrazio", "Boekenboom podcast", "author"],
-            [8, "Petra Doom", "Overstekers, Kinderen van Orpheus", "author"],
-            [9, "Mathias Maho", "Ruiters van de Nacht", "author"],
-            [10, "Pen Stewart", "Wintercode, Onderuniversum", "author"],
-            [11, "Peter DeWillis", "Terra Fabula, Griezel & Co.", "author"],
-            [12, "Olivier Sted", "De bergbouwers van Metis Bidenk", "author"],
-            [13, "Dianne Arentsen", "Het patroon, Spel van Illusies", "author"],
-            [14, "J. Pangrazio", "De strijders van Cathaighte", "author"],
-            [15, "Kim ten Tusscher", "Hydrhaga, Lilith", "author"],
-            [16, "Robin Rozendal", "Levende steden, Werelden ontwaken", "author"],
-            [17, "Gaby Raaijmakers", "Drakeneiland", "author"],
-            [18, "Johan Lubbers", "De Komeet, Vergane glorie", "author"],
-            [19, "Johanna Lime", "Schimmenschuw, De vergeten vloek", "author"],
-            [20, "Kelly van der Laan", "De prijs van water", "author"],
-            [21, "Mathijs Hulster CF", "Portaal", "author"]
-          ]
         }
       ],
       "textOnlyGuests": [],
@@ -74,5 +52,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "FACTS runs a Spring and a Fall edition each year under one brand (per RESEARCH.md's two-shows-a-year rule, same file/city); only Fall 2026 is covered here since no FACTS Spring 2027 dates are announced anywhere on the site yet as of this check. Guests are split across several category pages (Actors, Artist Alley, Authors, Cosplay) rather than one list; Actors/Artist-Alley/Authors all rendered cleanly, but the Cosplay guests tile links to a general cosplay-activities page (contests/parades) whose one named 2026 cosplay guest, Bambi Lashes, sits further down than the page-render tool's candidates reached, so she could not be picked with a resolvable photo number and is left out rather than guessed. An 'Experts' guest category also exists on the hub page but was not explored given the per-convention tool budget. The Artist Alley page's auto-detected section headings are off by one artist (each artist's own name heading prints after, not before, their image block) — picks below were matched by filename/alt text instead, which reliably ties each image set to the right artist."
+  "notes": "FACTS runs a Spring and a Fall edition each year under one brand (per RESEARCH.md's two-shows-a-year rule, same file/city); only Fall 2026 is covered here since no FACTS Spring 2027 dates are announced anywhere on the site yet as of this check. Guests are split across several category pages (Actors, Artist Alley, Authors, Cosplay) rather than one list; the Cosplay guests tile links to a general cosplay-activities page (contests/parades) whose one named 2026 cosplay guest, Bambi Lashes, sits further down than the page-render tool's candidates reached, so she could not be picked with a resolvable photo number and is left out rather than guessed. An 'Experts' guest category also exists on the hub page but was not explored given the per-convention tool budget. The Artist Alley page's auto-detected section headings are off by one artist (each artist's own name heading prints after, not before, their image block) — picks below were matched by filename/alt text instead, which reliably ties each image set to the right artist. Refute pass (2026-10-05): dropped the 17-name 'Authors' block (was facts-3.guests.json, picks #5-21) that a stale-scan flagged as 17/32 dated photos pre-dating this edition. A fresh re-extract of /en/guests/authors/ returns the identical 17 names/images with no edition year or dated autograph schedule on any card (only generic 'Saturday/Sunday'), and archive.org's 2026-03-11 snapshot of that same URL already lists all 17 names verbatim -- i.e. this roster was already live before the Spring 2026 show and hasn't changed since, so it is not evidence of a Fall 2026 booking. The Actors (5) and Artist Alley (10) blocks are kept: every pick's own image was uploaded 2026-05 through 2026-10 (after Spring 2026 ended), and Maria Zhang's and Marini's filenames are tagged 'FACTS-Fall-2026' / dated 2026-10 specifically."
 }

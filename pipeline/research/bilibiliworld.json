@@ -1,0 +1,15 @@
+{
+  "id": "bilibiliworld",
+  "name": "BilibiliWorld",
+  "short": "BW",
+  "url": "https://bw.bilibili.com",
+  "organizer": "Bilibili",
+  "status": "active",
+  "types": ["anime", "games", "pop"],
+  "blurb": "China's largest ACG (anime/comics/games) expo, held by Bilibili at Shanghai's National Exhibition and Convention Center, with exhibitors, cosplay and creator meet-and-greets.",
+  "cover": { "file": "pipeline/cache/extract/bilibiliworld.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-07-10", "end": "2026-07-12", "city": "Shanghai", "region": "", "country": "CN", "venue": "National Exhibition and Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "BilibiliWorld 2026 (BW2026) ran July 10-12, 2026 at the National Exhibition and Convention Center in Shanghai (confirmed via web search: Baidu Baike, bendibao, sina.cn), already past as of this check (2026-10-05); BW follows an annual early-July pattern but no BW2027 date is announced yet anywhere (own site or press), so editions is empty and July 2026 is recorded as 'last'. The live site is still that past edition's microsite (title 'BW2026，次元新航线！') with its own 'all guests' section (B-site UP主/streamers like YUMEHANABI, LIV, 樱萍Apple, etc.) and exhibitor news (Genshin Impact, Arknights, Hatsune Miku: Project Sekai, Azur Lane, Reverse:1999, Toei Animation's 70th, and Marvel Studios president/CCO Kevin Feige confirmed to appear) — none of this was picked since it belongs to the already-finished edition, not an included one. og:image/twitter:image on this page are malformed (they resolve to the page's own URL, not an image file), so the largest real hero image was used as cover instead. Per the seed note, 2026 was BW's first year selling tickets internationally, and its sister concert event Bilibili Macro Link (BML) runs concurrently — both unverified further here since they concern the same past edition; the organizer is Bilibili itself, as given."
+}

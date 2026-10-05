@@ -1,0 +1,15 @@
+{
+  "id": "duke-city-retro-con",
+  "name": "Duke City Retro Con",
+  "short": "",
+  "url": "https://dukecityretrocon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "toys"],
+  "blurb": "A retro-themed pop-culture convention in Albuquerque with classic film and TV actors, held at the Albuquerque Marriott Pyramid North.",
+  "cover": { "file": "pipeline/cache/extract/duke-city-retro-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-06-19", "end": "2026-06-21", "city": "Albuquerque", "region": "NM", "country": "US", "venue": "Albuquerque Marriott Pyramid North" },
+  "checked": "2026-10-05",
+  "notes": "Homepage still only shows the already-past edition ('Duke City Retro Con, June 19-21st - 2026'), which ended before the research window; no 2027 dates appear on the site and a search for 'Duke City Retro Con 2027' turned up nothing beyond the 2026 info, so editions is empty and the last confirmed edition is recorded instead. Cover picked from the home extract's hero images: hero:0 is a square event-banner-style image, while the other heroes are single guest headshots (Priscilla Presley, Barry Bostwick, etc.), which the brief says to avoid as a stand-in for the event itself."
+}

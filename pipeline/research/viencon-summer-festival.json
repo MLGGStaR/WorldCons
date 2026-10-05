@@ -1,0 +1,15 @@
+{
+  "id": "viencon-summer-festival",
+  "name": "Viencon Summer Festival",
+  "short": "",
+  "url": "https://viencon.nl/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A cosplay- and anime-fan getaway weekend at a Center Parcs-style resort in Limburg, the Netherlands.",
+  "cover": { "file": "pipeline/cache/extract/viencon-summer-festival.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "last": { "start": "2026-08-28", "end": "2026-08-30", "city": "America", "region": "", "country": "NL", "venue": "Limburgse Peel" },
+  "notes": "The homepage's only date ('Viencon 2026 The Owl Awakens Aug 28 - Aug 30, 2026') already ended before today, with no 2027 edition announced, so editions is empty. Corrected types from the seed's ['pop','cosplay'] to ['anime','cosplay'] per the homepage's own description ('ideal getaway for fans of anime, cosplay, and photography'). Venue (Limburgse Peel, Peelheideweg 25, America) confirmed via the site's own location page, matching the seed's 'America/Venlo' note."
+}

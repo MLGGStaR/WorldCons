@@ -1,0 +1,15 @@
+{
+  "id": "animangaki",
+  "name": "AniManGaki",
+  "short": "AMG",
+  "url": "https://www.animangaki.com/",
+  "organizer": "Rakugaki Projects Sdn Bhd",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Malaysia's fan-run anime, manga, cosplay and gaming convention near Kuala Lumpur, active since 2009.",
+  "cover": { "file": "pipeline/cache/extract/animangaki.home.json", "key": "hero:7" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "last": { "start": "2026-08-28", "end": "2026-08-30", "city": "Seri Kembangan", "region": "", "country": "MY", "venue": "Mines International Exhibition & Convention Centre (MIECC)" },
+  "notes": "The homepage ('AniManGaki 2026 has officially ended! ... see you again next year!') shows no 2027 dates or venue announced yet, and has no date text at all for the next edition, so editions is empty. The 'last' edition's dates/venue (Aug 28-30 2026, MIECC, Seri Kembangan, Selangor) come from a web search (fancons.com/X/expolah.com/otabase.net listings) since the site itself no longer states them now that the event has concluded. Corrected city from the seed's 'Kuala Lumpur' to Seri Kembangan (Selangor), the actual MIECC venue town in the Klang Valley. Guests (Aya Hirano, Hidetaka Tenjin, KOTOKO, etc., seen as anchor links on the homepage) belong to the concluded 2026 edition, not a current one, so they were not captured."
+}

@@ -40,7 +40,7 @@
   --on-ink: #ffffff;
   --live: #0f7a45;
   --live-bg: #e2f3ea;
-  --focus: #1d5bff;
+  --focus: #121418;
   --shadow: 0 1px 1px rgb(18 20 24 / 0.05), 0 10px 24px -14px rgb(18 20 24 / 0.32);
   --shadow-lift: 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38);
   --skeleton: #edf0f3;
@@ -71,48 +71,67 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --ground: #0e1013;
-    --ground-2: #16191d;
-    --card: #1b1e23;
-    --card-2: #23272d;
-    --ink: #f1f3f6;
-    --ink-2: #c9ced6;
-    --ink-3: #9aa2ad;
-    --line: #2d323a;
-    --line-2: #252a31;
-    --strap: #050607;
-    --strap-ink: #f1f3f6;
-    --strap-2: #1f2328;
+    --ground: #17181a;
+    --ground-2: #202124;
+    --card: #232427;
+    --card-2: #2c2d31;
+    --ink: #f2f3f5;
+    --ink-2: #cdd0d5;
+    --ink-3: #a2a6ad;
+    --line: #36383d;
+    --line-2: #2c2e32;
+    --strap: #0b0b0c;
+    --strap-ink: #f2f3f5;
+    --strap-2: #232427;
     --on-ink: #121418;
     --live: #4fd08f;
     --live-bg: #12301f;
-    --focus: #7ea2ff;
+    --focus: #f2f3f5;
     --shadow: 0 1px 1px rgb(0 0 0 / 0.3), 0 12px 26px -14px rgb(0 0 0 / 0.7);
     --shadow-lift: 0 2px 3px rgb(0 0 0 / 0.35), 0 20px 36px -16px rgb(0 0 0 / 0.8);
     --skeleton: #22262c;
+    /* the black horror ribbon would vanish on the charcoal hall: lift it to dusk */
+    --r-horror: #463c52;
   }
 }
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --ground: #0e1013;
-  --ground-2: #16191d;
-  --card: #1b1e23;
-  --card-2: #23272d;
-  --ink: #f1f3f6;
-  --ink-2: #c9ced6;
-  --ink-3: #9aa2ad;
-  --line: #2d323a;
-  --line-2: #252a31;
-  --strap: #050607;
-  --strap-ink: #f1f3f6;
-  --strap-2: #1f2328;
+  --ground: #17181a;
+  --ground-2: #202124;
+  --card: #232427;
+  --card-2: #2c2d31;
+  --ink: #f2f3f5;
+  --ink-2: #cdd0d5;
+  --ink-3: #a2a6ad;
+  --line: #36383d;
+  --line-2: #2c2e32;
+  --strap: #0b0b0c;
+  --strap-ink: #f2f3f5;
+  --strap-2: #232427;
   --on-ink: #121418;
   --live: #4fd08f;
   --live-bg: #12301f;
-  --focus: #7ea2ff;
+  --focus: #f2f3f5;
   --shadow: 0 1px 1px rgb(0 0 0 / 0.3), 0 12px 26px -14px rgb(0 0 0 / 0.7);
   --shadow-lift: 0 2px 3px rgb(0 0 0 / 0.35), 0 20px 36px -16px rgb(0 0 0 / 0.8);
   --skeleton: #22262c;
+  --r-horror: #463c52;
+}
+
+/* the laminate: badges and credentials keep their printed palette in every theme */
+.badge,
+.cred {
+  --card: #ffffff;
+  --card-2: #f4f6f8;
+  --ink: #121418;
+  --ink-2: #353a43;
+  --ink-3: #5a616c;
+  --line: #d2d7de;
+  --line-2: #e3e7ec;
+  --skeleton: #edf0f3;
+  --on-ink: #ffffff;
+  --focus: #121418;
+  color: var(--ink);
 }
 
 /* ---- base ------------------------------------------------------------------------ */
@@ -379,7 +398,7 @@ html {
   background: var(--card);
   color: var(--ink);
   border-radius: 14px;
-  box-shadow: var(--shadow-lift), 0 0 0 1px var(--line);
+  box-shadow: var(--shadow-lift);
   padding: 6px;
   max-height: min(70vh, 520px);
   overflow: auto;
@@ -593,48 +612,60 @@ main {
   flex-wrap: wrap;
   padding: 2px 0 6px;
 }
+/* Each type filter is the badge's own satin ribbon: notched tail, printed label, a tinted
+   ribbon at rest and the full satin colour when it is on. The shape is drawn on ::before
+   so the focus ring around the button is never clipped. */
 .rtoggle {
   --rc: var(--ink);
+  position: relative;
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  height: 36px;
-  padding: 0 12px 0 8px;
-  border-radius: 18px;
-  border: 1px solid var(--line);
-  background: var(--card);
-  font-weight: 600;
-  font-size: 15px;
-  color: var(--ink-2);
+  gap: 7px;
+  height: 42px;
+  padding: 0 14px 7px;
+  border: 0;
+  background: transparent;
+  font-weight: 800;
+  font-stretch: 104%;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink);
   white-space: nowrap;
+  transition: transform 0.2s var(--ease-out);
 }
-.rtoggle .swatch {
-  width: 12px;
-  height: 18px;
-  background: var(--rc);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 74%, 0 100%);
+.rtoggle::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: color-mix(in srgb, var(--rc) 15%, var(--card));
+  box-shadow: inset 0 3px 0 var(--rc);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 8px), 0 100%);
+  transition: background 0.2s;
 }
 .rtoggle .n {
   color: var(--ink-3);
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
 }
-.rtoggle:hover {
-  border-color: var(--ink-3);
-  color: var(--ink);
+.rtoggle:hover:not(:disabled) {
+  transform: translateY(1px);
+}
+.rtoggle:hover:not(:disabled)::before {
+  background: color-mix(in srgb, var(--rc) 26%, var(--card));
 }
 .rtoggle[aria-pressed='true'] {
-  background: var(--rc);
-  border-color: var(--rc);
   color: var(--rc-ink, #fff);
 }
-.rtoggle[aria-pressed='true'] .swatch {
-  background: currentColor;
-  opacity: 0.85;
+.rtoggle[aria-pressed='true']::before {
+  background: var(--rc);
+  box-shadow: inset 0 6px 5px -4px rgb(0 0 0 / 0.35);
 }
 .rtoggle[aria-pressed='true'] .n {
   color: inherit;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .rtoggle:disabled {
   opacity: 0.4;
@@ -762,7 +793,7 @@ main {
   margin-bottom: 18px;
 }
 .month-head h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.1;
   font-weight: 850;
   font-stretch: 118%;
@@ -888,6 +919,13 @@ main {
   opacity: 0.45;
   transform: none;
 }
+/* Touch screens have no hover: keep the clip faintly visible so it can be found. */
+@media (hover: none) {
+  .clip .icon {
+    opacity: 0.4;
+    transform: none;
+  }
+}
 .clip[aria-pressed='true'] .icon {
   opacity: 1;
   transform: none;
@@ -952,8 +990,6 @@ main {
   color: #fff;
   font-size: 12px;
   font-weight: 650;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
 }
 .when-chip.live {
   background: #0f7a45;
@@ -1269,23 +1305,32 @@ button.ribbon:hover {
   gap: 40px;
   align-items: start;
 }
-.con-card {
+/* Desktop: the badge and its notes stay beside the guest wall while it scrolls. */
+.con-side {
   position: sticky;
   top: calc(var(--strap-h) + 20px);
-  margin-bottom: 44px;
+  max-height: calc(100dvh - var(--strap-h) - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  margin: -6px -10px 0;
+  padding: 6px 10px 12px;
 }
-.con-card .badge {
+.con-head {
+  margin-bottom: 46px;
+}
+.con-head .badge {
   padding: 26px 16px 18px;
 }
-.con-card .badge:hover {
+.con-head .badge:hover {
   transform: none;
   box-shadow: var(--shadow);
 }
-.con-card .badge-body {
+.con-head .badge-body {
   gap: 10px;
   padding-top: 16px;
 }
-.con-card h1 {
+.con-head h1 {
   font-size: 30px;
   line-height: 1.06;
   font-weight: 880;
@@ -1293,41 +1338,87 @@ button.ribbon:hover {
   letter-spacing: -0.01em;
   text-wrap: balance;
 }
-.con-card .sub {
+.con-head .sub {
   color: var(--ink-3);
   font-size: 15px;
   font-weight: 600;
+  margin-top: -4px;
 }
-.facts {
-  display: grid;
-  gap: 10px;
+.con-head .con-when {
+  font-size: 15px;
+  font-weight: 750;
   margin-top: 4px;
 }
-.fact {
-  display: grid;
-  grid-template-columns: 20px 1fr;
-  gap: 10px;
-  align-items: start;
-  font-size: 15px;
-  color: var(--ink-2);
-}
-.fact .icon {
-  margin-top: 1px;
+.last-line {
   color: var(--ink-3);
+  font-size: 15px;
+  margin-top: -4px;
 }
-.fact b {
-  display: block;
-  color: var(--ink);
-  font-weight: 650;
+/* the pass's valid days, boxed like the printed day strip on a multi-day badge */
+.day-strip {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.fact a {
+.day-strip li {
+  flex: 1;
+  max-width: 64px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  font-stretch: 104%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+  padding: 5px 0 4px;
+}
+/* Flag | venue and place (wrapping) | Map: the place keeps its flag beside it on a phone. */
+.con-head .con-where {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: start;
+  column-gap: 8px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.con-head .con-where .flag {
+  margin-top: 4px;
+}
+.con-head .con-where span {
+  white-space: normal;
+}
+.map-link {
   color: var(--ink-2);
+  font-size: 15px;
+}
+.faces-link {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 6px;
+  min-height: 0;
+}
+.faces-link .more small {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.faces-link:hover .more small {
+  color: var(--ink);
 }
 .actions {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 6px;
+}
+.con-more {
+  display: grid;
+  gap: 14px;
+}
+.con-more .actions {
+  margin-top: 0;
 }
 .blurb {
   font-size: 15px;
@@ -1337,18 +1428,17 @@ button.ribbon:hover {
 .checked {
   font-size: 12px;
   color: var(--ink-3);
-  border-top: 1px solid var(--line-2);
+  border-top: 1px solid var(--line);
   padding-top: 12px;
-  margin-top: 4px;
 }
 .checked a {
   color: inherit;
 }
-.con-card .ribbons {
+.con-head .ribbons {
   left: 22px;
 }
 .also {
-  margin-top: 58px;
+  margin-top: 8px;
   display: grid;
   gap: 8px;
 }
@@ -1529,8 +1619,15 @@ a.cred:hover {
   font-stretch: 120%;
   color: var(--ink-3);
 }
+.cred-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-bottom: 10px;
+}
+/* the attendee class, printed at the foot of the credential */
 .cred-band {
-  margin: 8px 0 0;
+  margin: 0;
   background: var(--ink);
   color: var(--on-ink);
   border-radius: 4px;
@@ -1562,7 +1659,7 @@ a.cred:hover {
 }
 .cred-more {
   margin-top: auto;
-  padding: 8px 2px 0;
+  padding: 6px 2px 0;
   font-size: 12px;
   font-weight: 650;
   color: var(--ink-2);
@@ -1841,20 +1938,62 @@ a.cred:hover {
   .controls .reset {
     display: none;
   }
+  /* The first badge has to land whole on a phone: art, name, date, faces and ribbons. */
   .ruler {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .rtoggle {
+    height: 38px;
   }
   .ruler button {
     min-width: 46px;
-    height: 42px;
+    height: 38px;
   }
   .results {
-    padding-top: 12px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    gap: 0;
     font-size: 15px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+  .results .r-desc,
+  .results .r-countries,
+  .results .r-wide,
+  .results .r-tba {
+    display: none;
+  }
+  /* One line on a phone: "499 upcoming conventions · 4,006 guests". */
+  .results .r-meta::before {
+    content: '\00a0·\00a0';
+  }
+  /* More room above a month heading than below it: it belongs to the badges it labels. */
   .month {
-    padding-top: 18px;
+    padding-top: 10px;
+  }
+  .month-head {
+    margin-bottom: 2px;
+  }
+  .badge {
+    padding-top: 22px;
+  }
+  .badge .art {
+    aspect-ratio: 2.2 / 1;
+  }
+  .badge-body {
+    gap: 4px;
+    padding-top: 10px;
+  }
+  .faces {
+    padding-top: 6px;
+  }
+  .controls {
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .filters-btn {
     display: inline-flex;
@@ -1866,7 +2005,7 @@ a.cred:hover {
     flex-wrap: nowrap;
     overflow-x: auto;
     margin: 0 calc(var(--gutter) * -1);
-    padding: 2px var(--gutter) 6px;
+    padding: 2px var(--gutter) 4px;
     scrollbar-width: none;
   }
   .ribbon-row::-webkit-scrollbar {
@@ -1878,20 +2017,38 @@ a.cred:hover {
   .grid {
     gap: 50px 16px;
   }
-  .con-page,
   .guest-page {
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
   }
-  .con-card,
   .guest-page .cred {
     position: static;
+  }
+  /* Phones: the badge, then straight to the guest wall; notes and extras come after. */
+  .con-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .con-side {
+    display: contents;
+  }
+  .con-head {
+    order: 1;
+    margin-bottom: 48px;
+  }
+  .wall-wrap {
+    order: 2;
+  }
+  .con-more {
+    order: 3;
+    margin-top: 32px;
   }
   .guest-page .cred {
     max-width: 280px;
     margin: 0 auto;
   }
-  .con-card h1 {
+  .con-head h1 {
     font-size: 24px;
   }
   .wall {

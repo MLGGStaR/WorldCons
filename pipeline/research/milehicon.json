@@ -1,0 +1,40 @@
+{
+  "id": "milehicon",
+  "name": "MileHiCon",
+  "short": "",
+  "url": "https://www.milehicon.org",
+  "organizer": "MileHiCon, Inc.",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "Denver's literary science fiction and fantasy convention, with author guests of honor, panels, an art show and masquerade.",
+  "cover": { "file": "pipeline/cache/extract/milehicon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Denver",
+      "region": "CO",
+      "country": "US",
+      "tickets": "https://milehicon.regfox.com/milehicon-58",
+      "guestsPage": "https://milehicon.org/who-to-see/guest-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/milehicon.guests.json",
+          "picks": [
+            [1, "Andy VanOverberghe", "Artist Guest of Honor", "other"],
+            [2, "John Scalzi", "Author Guest of Honor", "author"],
+            [3, "Stace Johnson", "Toastmaster", "other"],
+            [4, "T. Kingfisher", "Author Guest of Honor", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'CONVENTION DATES: OCT. 23-25, 2026' and 'Icon for MileHiCon 58'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is MileHiCon 58, running Oct 23-25, 2026 (confirmed, still upcoming as of this 2026-10-05 check). Venue name not found on the rendered pages (only a 'Hotel & Location' link, not followed); left blank rather than guessed. Guest cards gave only name + honorary title (no bio), so known-for uses the card's own title text; cat for 'Artist Guest of Honor' and 'Toastmaster' left as 'other' since neither maps cleanly to a listed category; Scalzi and T. Kingfisher are both marked 'author' since their cards say 'Author Guest of Honor' directly. Cover uses the site's wide wordmark logo (also the only hero image); no separate key-art banner was found."
+}

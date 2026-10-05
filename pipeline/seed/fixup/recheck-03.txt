@@ -1,0 +1,6 @@
+la-comic-con | 39 picks vs 151 person-sized images [pipeline/cache/extract/la-comic-con-2.guests.json]
+magnificon-expo | 18 picks vs 39 person-sized images [pipeline/cache/extract/magnificon-expo.guests.json]
+oafcon | 8 picks vs 42 person-sized images [pipeline/cache/extract/oafcon.guests.json]
+rhode-island-comic-con | 18 picks vs 110 person-sized images [pipeline/cache/extract/rhode-island-comic-con-2.guests.json]
+scream-diego | 7 picks vs 47 person-sized images [pipeline/cache/extract/scream-diego.guests.json]
+sin-city-anime | 11 picks vs 31 person-sized images [pipeline/cache/extract/sin-city-anime.guests.json]

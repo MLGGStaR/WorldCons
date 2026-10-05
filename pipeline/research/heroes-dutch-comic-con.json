@@ -1,0 +1,40 @@
+{
+  "id": "heroes-dutch-comic-con",
+  "name": "Heroes Dutch Comic Con",
+  "short": "HDCC",
+  "url": "https://www.dutchcomiccon.com/",
+  "organizer": "Easyfairs",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "The Netherlands' biggest comic con, held at Jaarbeurs Utrecht with film/TV actor guests, autographs, cosplay and gaming.",
+  "cover": { "file": "pipeline/cache/extract/heroes-dutch-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Jaarbeurs Utrecht",
+      "city": "Utrecht",
+      "region": "",
+      "country": "NL",
+      "tickets": "https://tickets.dutchcomiccon.com/c09c94a71c6c4b158b681f642871b74e",
+      "guestsPage": "https://www.dutchcomiccon.com/special-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/heroes-dutch-comic-con.guests.json",
+          "picks": [
+            [2, "Antonio Cipriano", "Ajax in Netflix's Wednesday", "actor"],
+            [3, "Ryan Eggold", "Tom Keen in The Blacklist", "actor"],
+            [4, "Shawn Ashmore", "Iceman in the X-Men films", "actor"],
+            [5, "Pom Klementieff", "Mantis in Guardians of the Galaxy", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Page title: 'Heroes Dutch Comic Con Winter - November 21 & 22, 2026'; page text: 'Mark your calendars for November 21 & 22, 2026'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md."
+}

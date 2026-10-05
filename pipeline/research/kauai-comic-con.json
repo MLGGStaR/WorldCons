@@ -1,0 +1,15 @@
+{
+  "id": "kauai-comic-con",
+  "name": "Kauai Comic Con",
+  "short": "",
+  "url": "https://www.kauaicomicconvention.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "cosplay", "pop"],
+  "blurb": "A one-day pop-culture convention on Kauai with comics, cosplay, anime, video games, art and live guests at the Lihue convention hall.",
+  "cover": { "file": "pipeline/cache/extract/kauai-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-18", "end": "2026-07-18", "city": "Lihue", "region": "HI", "country": "US", "venue": "Kaua'i War Memorial Convention Hall" },
+  "checked": "2026-10-05",
+  "notes": "The site's page title itself gives the venue/address: 'Kauai Comic Con | Kaua'i War Memorial Convention Hall, 4191 Hardy St, Lihue, HI, USA'. The most recent edition ran Saturday, July 18, 2026 ('Celebrate Pop Culture on Kauai! JULY 18, 2026' / 'SATURDAY 10 am - 5 pm'), which already ended before today (2026-10-05), so it is outside the research window and recorded as 'last'. The page thanks attendees ('SEE YOU NEXT YEAR! 2027') but gives no specific 2027 date anywhere, and there is no JSON-LD event data, so editions is left empty rather than guessed. Guests shown on the page (Ming Chen, Gavin Arucan, Debbie Viguie, Jon J. Murakami and several artists) were the July 2026 lineup and are not recorded since there is no upcoming edition to attach them to. No organizer company name is stated; a 'Night Darling' cosplay logo and a Maui Comic Con logo both appear in a friends/supporters section, suggesting a shared organizer or cross-promotion with that event, but nothing on-page names an organizing entity outright, so it is left blank rather than guessed."
+}

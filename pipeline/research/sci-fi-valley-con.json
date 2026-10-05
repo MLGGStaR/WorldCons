@@ -1,0 +1,70 @@
+{
+  "id": "sci-fi-valley-con",
+  "name": "Sci-Fi Valley Con",
+  "short": "",
+  "url": "https://scifivalleycon.com",
+  "organizer": "Assett Promotions Ltd",
+  "status": "active",
+  "types": ["scifi", "tabletop", "pop"],
+  "blurb": "A twice-yearly sci-fi and pop-culture convention at the Blair County Convention Center in Altoona, with celebrity guests, cosplay and tabletop gaming.",
+  "cover": { "file": "pipeline/cache/extract/sci-fi-valley-con.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Blair County Convention Center",
+      "city": "Altoona",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://scifivalleycon.com/tickets",
+      "guestsPage": "https://scifivalleycon.com/celebrity-guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/sci-fi-valley-con.guests.json",
+          "picks": [
+            [3, "David Giuntoli", "Grimm, A Million Little Things", "actor"],
+            [4, "Silas Weir Mitchell", "Grimm, Prison Break", "actor"],
+            [5, "Bree Turner", "Grimm", "actor"],
+            [6, "Reggie Lee", "Grimm, Prison Break", "actor"],
+            [7, "Claire Coffee", "Grimm", "actor"],
+            [8, "Judith Hoag", "Halloweentown, Teenage Mutant Ninja Turtles", "actor"],
+            [9, "Kimberly J Brown", "Halloweentown", "actor"],
+            [10, "Daniel Kountz", "Halloweentown II: Kalabar's Revenge", "actor"],
+            [11, "David Mazouz", "Gotham", "actor"],
+            [12, "Robin Lord Taylor", "Gotham, The Walking Dead", "actor"],
+            [13, "Donal Logue", "Gotham, Sons of Anarchy", "actor"],
+            [14, "Chris Chalk", "Gotham, Perry Mason", "actor"],
+            [15, "Mike Vogel", "Under the Dome, Bates Motel", "actor"],
+            [16, "Haley Fitzgerald", "Horror film Obsession", "actor"],
+            [17, "Eddie Cahill", "CSI: NY, Friends", "actor"],
+            [18, "Samantha Mathis", "Under the Dome, American Psycho", "actor"],
+            [19, "Malcolm Kelner", "Horror film Obsession", "actor"],
+            [22, "Wildefell Wolves", "Wildlife education ambassadors", "other"],
+            [23, "Samurai Jill", "Pittsburgh cosplayer", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage slide text and page title: 'SCI-FI VALLEY CON October 16-18, 2026 BLAIR COUNTY CONVENTION CENTER ALTOONA, PENNSYLVANIA'."
+    },
+    {
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Blair County Convention Center",
+      "city": "Altoona",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://scifivalleycon.com/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'MEET OUR SPRING CONVENTION COMING UP NEXT ON JUNE 11-13, 2027 TWO SHOWS A YEAR FOR TWICE THE FUN!'. No separate venue is named for this show, so the convention's regular home (Blair County Convention Center) is assumed; no guests are listed for it yet."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Runs two shows a year (confirmed on-site: 'TWO SHOWS A YEAR FOR TWICE THE FUN!'); the fall show (Oct 16-18, 2026) has a full celebrity lineup heavy with Grimm, Gotham, Halloweentown and Under the Dome cast members, while the next spring show (June 11-13, 2027) has only its dates announced so far. Site footer reads 'Sci-Fi Valley Con 2011-2026 © by Assett Promotions Ltd' (batch note said 'Assett Conventions'; used the official site's own company name). Skipped two guests marked 'Cancelled:' on the celebrity-guests page (Sasha Roiz, Rachelle Lefevre) per the research rules. 'Wildefell Wolves' (wildlife/animal ambassadors) and 'Samurai Jill' (a cosplayer) are also real booked guests on that page, not sponsors, so they were picked too."
+}

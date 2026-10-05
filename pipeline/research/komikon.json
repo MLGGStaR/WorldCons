@@ -9,6 +9,14 @@
   "blurb": "The Philippines' first and longest-running annual comic-book convention, celebrating Filipino comics creators since 2005.",
   "cover": { "file": "pipeline/cache/extract/komikon-fb.home.json", "key": "og" },
   "editions": [],
+  "last": {
+    "start": "2026-08-14",
+    "end": "2026-08-16",
+    "city": "Quezon City",
+    "region": "",
+    "country": "PH",
+    "venue": "NBS Building, Araneta City"
+  },
   "checked": "2026-10-05",
-  "notes": "Official site komikon.org returns a site-wide fatal WordPress error ('There has been a critical error on this website') on both the homepage and an indexed category page, tried once fresh and once with --channel msedge; using the verified Facebook page as url instead, as RESEARCH.md allows when no official site is reachable. The most recent confirmed activity is the 2026 edition, which ran August 14-16, 2026 as a guest-speaker program inside the Philippine Readers & Writers Festival (PRWF) at the NBS Building, Araneta City, Cubao ('PRWF x Komikon 2026, Aug 14-16'; FB post Aug 16: 'Thank you National Book Store for inviting Komikon to be part of the #philippinereadersandwritersfestival2026') rather than Komikon's own standalone con floor/Artist Alley — that edition is already over and no 2027 date or venue has been announced, so no edition is recorded. Not marked inactive since the page is still actively posting as of August 2026 and nothing confirms the brand itself has ended, but its format may now be a partnered program rather than a standalone convention."
+  "notes": "Official site komikon.org returns a site-wide fatal WordPress error ('There has been a critical error on this website') on both the homepage and an indexed category page, tried once fresh and once with --channel msedge; using the verified Facebook page as url instead, as RESEARCH.md allows when no official site is reachable. The most recent confirmed activity is the 2026 edition, which ran August 14-16, 2026 as a guest-speaker program inside the Philippine Readers & Writers Festival (PRWF) at the NBS Building, Araneta City, Cubao ('PRWF x Komikon 2026, Aug 14-16'; FB post Aug 16: 'Thank you National Book Store for inviting Komikon to be part of the #philippinereadersandwritersfestival2026') rather than Komikon's own standalone con floor/Artist Alley — that edition is already over and no 2027 date or venue has been announced, so no edition is recorded. Not marked inactive since the page is still actively posting as of August 2026 and nothing confirms the brand itself has ended, but its format may now be a partnered program rather than a standalone convention. 2026-10-05 fixup pass: komikon.org still down (503) and the Facebook page has no post newer than 16 Aug 2026. Recorded the PRWF x Komikon 2026 (14-16 Aug 2026, NBS Building, Araneta City) activity as \"last\" since it is the most recent confirmed Komikon-branded date."
 }

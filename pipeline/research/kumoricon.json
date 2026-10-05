@@ -1,0 +1,91 @@
+{
+  "id": "kumoricon",
+  "name": "Kumoricon",
+  "short": "",
+  "url": "https://www.kumoricon.org/",
+  "organizer": "Altonimbus Entertainment",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Portland, Oregon's annual anime convention since 2003, with voice actor, musical, cosplay, cultural and industry guests of honor.",
+  "cover": { "file": "pipeline/cache/extract/kumoricon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Oregon Convention Center",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "tickets": "https://www.kumoricon.org/registration",
+      "guestsPage": "https://www.kumoricon.org/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/kumoricon-2.guests.json",
+          "picks": [
+            [5, "SungWon Cho", "Delicious in Dungeon, KPop Demon Hunters", "voice"],
+            [6, "Stephen Fu", "", "voice"],
+            [7, "Saori Goto", "Moeka Kiryuu in Steins;Gate", "voice"],
+            [8, "Ricco Fajardo", "Actor and voice-over performer", "voice"],
+            [9, "Patrick Seitz", "Prolific anime voice actor since 2000", "voice"],
+            [10, "Lisa Reimold", "Falin Touden in Delicious in Dungeon", "voice"],
+            [11, "Laura Stahl", "Female Alear in Fire Emblem Engage", "voice"],
+            [12, "Landon McDonald", "Hoshina in Kaiju No. 8", "voice"],
+            [13, "Kira Buckland", "Jolyne Cujoh in JoJo's Bizarre Adventure", "voice"],
+            [14, "Khoi Dao", "Albedo in Genshin Impact", "voice"],
+            [15, "Erica Mendez", "Ryuko in Kill la Kill", "voice"],
+            [16, "Emi Lo", "Lucy in Cyberpunk: Edgerunners", "voice"],
+            [17, "Damien Haas", "Laios in Delicious in Dungeon", "voice"],
+            [18, "Casey Mongillo", "Shinji Ikari in Evangelion (2019 dub)", "voice"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/kumoricon-3.guests.json",
+          "picks": [
+            [5, "Phoebe Chan", "VTuber singer, Densetsu.EXE", "music"],
+            [6, "Maozon", "Japanese DJ and music producer", "music"],
+            [7, "DJ Mitomoro", "Portland-based DJ/producer", "music"],
+            [8, "DJ Khek", "Battle DJ from Milwaukee", "music"],
+            [9, "DJ Jimni Cricket", "Portland DJ, mega-mix battle winner", "music"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/kumoricon-4.guests.json",
+          "picks": [
+            [5, "Oriana Perón", "Drag performer, cosplayer since 2006", "other"],
+            [6, "Lolita Collective", "North America's largest J-fashion store", "other"],
+            [7, "Lilia & Lace", "Inclusive-sized J-fashion brand", "other"],
+            [8, "Forest Girl Clothing", "Mori kei J-fashion clothing brand", "other"],
+            [9, "Emily Temple Cute & Melody BasKet", "Japanese Lolita fashion brand since 1999", "other"],
+            [10, "Egglien", "Decora-style J-fashion clothing brand", "other"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/kumoricon-5.guests.json",
+          "picks": [
+            [5, "Zach Davisson", "Writer/translator of Japanese folklore", "author"],
+            [6, "Victoria Lovecraft", "Shibari rope-bondage performer", "other"],
+            [7, "Team Sakuraka", "Seattle wotagei (lightstick dance) team", "other"],
+            [8, "Noble Manqué", "Shibari artist and instructor", "other"],
+            [9, "Alisa Freedman", "Professor of Japanese cultural studies", "author"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/kumoricon-6.guests.json",
+          "picks": [
+            [5, "Tacocat Cosplay", "Award-winning costume craftsmanship", "cosplay"],
+            [6, "May Jean Cosplay", "Award-winning costume/prop maker", "cosplay"],
+            [7, "Colleen Cosplay", "Disabled cosplay YouTuber", "cosplay"],
+            [8, "Chrissy Plays Dressup", "Magical-girl cosplayer and digital artist", "cosplay"],
+            [9, "AlpacaAsh", "3D artist and competitive cosplayer", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 'Kumoricon' 2026-11-13 -> 2026-11-15 @ Oregon Convention Center; homepage: 'Nov 13–15, 2026 Oregon Convention Center' and 'Enjoy an energizing convention weekend in Portland, Oregon at the Oregon Convention Center November 13–15, 2026.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests span 5 category pages (voice actor 14, musical 5, industry 6, cultural 5, cosplay 5 = 35 total); a 6th 'content creator' category page exists but currently lists none announced. Picks cite the clean thumbnail list (#5 and up on each category page); the larger per-guest bio images further down each page occasionally show mismatched alt text against the wrong photo (a lazy-load glitch on kumoricon.org), so those bio images were used only to read known-for text, never to resolve a pick's photo. Stephen Fu's bio paragraph did not render any text, so his known-for is left blank."
+}

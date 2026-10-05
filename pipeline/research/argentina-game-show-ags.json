@@ -1,0 +1,22 @@
+{
+  "id": "argentina-game-show-ags",
+  "name": "Argentina Game Show",
+  "short": "AGS",
+  "url": "https://ags.show/",
+  "organizer": "AGS Producciones Group",
+  "status": "active",
+  "types": ["games"],
+  "blurb": "Latin America's largest video-game expo, combining esports, streaming and live music in Buenos Aires.",
+  "cover": { "file": "pipeline/cache/extract/argentina-game-show-ags.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2025-10-11",
+    "end": "2025-10-13",
+    "city": "Buenos Aires",
+    "region": "",
+    "country": "AR",
+    "venue": "Costa Salguero"
+  },
+  "checked": "2026-10-05",
+  "notes": "Official site shows no dates at all, only a repeating '#AGS2026 ¡MUY PRONTO!' (coming soon) banner and the description 'AGS VISA 2026 es la edicion numero 12' - no day/month given, so no edition is listed for the window. A web search indicates AGS had planned Dec 10-12, 2026 at Costa Salguero but postponed it, with organizers now saying the show returns in April 2027 (per a Facebook announcement reported by titulares.ar, which I could not load directly - 403); that single secondhand mention isn't firm enough to record as a dated edition, so it's left out rather than guessed. 'last' uses the most recent edition I could confirm actually happened (Oct 11-13, 2025, Costa Salguero, Buenos Aires), per search results (exact day span moderately confident, year/month corroborated by multiple sources). Organizer confirmed on-site: footer text 'Es una producción de AGS Producciones Group' and a footer logo alt 'AGS Producciones Group'."
+}

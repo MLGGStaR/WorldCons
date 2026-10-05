@@ -1,0 +1,22 @@
+{
+  "id": "puerto-rico-comic-con",
+  "name": "Puerto Rico Comic Con",
+  "short": "PRCC",
+  "url": "https://prcomiccon.com/",
+  "organizer": "El Tercer Hombre Inc.",
+  "status": "active",
+  "types": ["comics", "pop", "scifi"],
+  "blurb": "The biggest pop-culture and cosplay convention in the Caribbean, three days of comics, anime, games and media guests in San Juan.",
+  "cover": { "file": "pipeline/cache/extract/puerto-rico-comic-con.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2025-04-18",
+    "end": "2025-04-20",
+    "city": "San Juan",
+    "region": "",
+    "country": "PR",
+    "venue": "Puerto Rico Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "The homepage and every page still brand the con '#PRCOMICCON2026 #PRCC2026', so a 2026 edition is clearly planned, but no date has been published anywhere on the official site: the SPA homepage has no date text, 'About Us' and the nav's 'Event Info' link give no dates either, and the site's own WordPress Events Calendar API (wp-json/tribe/events/v1/events) returns zero events for all of 2026 (and none at all after April 20, 2025 — Elijah Wood, Tyler Hoechlin and Christopher Sabat were the last confirmed guests, at that April 2025 edition). Third-party aggregators (fancons.com, 10times, discover.events) report conflicting unconfirmed dates for 2026 (April 3-5 and August 29-30), neither of which the official site or its API corroborates, and both of which the brief excludes as sources, so no 2026 edition is listed; recorded the last confirmed (April 2025) edition as 'last' instead. Venue name is PRCC's well-known home, the Puerto Rico Convention Center in San Juan; the event API's own room list (Ballroom A/B, Salón 104, Salón 103B) matches that venue's layout but the API left the venue's address/city fields blank, so the venue is from general knowledge rather than the API itself."
+}

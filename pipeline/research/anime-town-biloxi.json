@@ -1,0 +1,15 @@
+{
+  "id": "anime-town-biloxi",
+  "name": "Anime Town Biloxi",
+  "short": "",
+  "url": "https://www.animetowncons.com/biloxi",
+  "organizer": "Anime Town LLC",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A stop of the Anime Town multi-city tour at the Mississippi Coast Coliseum and Convention Center in Biloxi, with anime voice actors and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/anime-town-biloxi.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-08-28", "end": "2026-08-30", "city": "Biloxi", "region": "MS", "country": "US", "venue": "Mississippi Coast Coliseum and Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Own page ('Anime Town Biloxi 2026 will be the biggest anime convention to ever come to Biloxi! Year two!... August 28, 3:00 PM-8:00 PM August 29... August 30...') shows the 'year two' 2026 edition already concluded well before this check (2026-10-05); the brand's main animetowncons.com homepage lists Biloxi's next date as 'TBD', so no 2027 edition has been announced yet. Part of the multi-city Anime Town tour — see the Greenville, Huntsville, Louisiana/Bossier City and Pensacola files for the other stops. Note: hero:1/hero:2 image alt text on this page's own extract misleadingly reads 'Anime Town Pensacola' (a copy/paste leftover on the organizer's site), so the cover uses the untitled hero:0 photo instead."
+}

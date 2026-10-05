@@ -1,0 +1,22 @@
+{
+  "id": "spielefest-wien",
+  "name": "Spielefest Wien",
+  "short": "",
+  "url": "https://spielefest.wien/",
+  "organizer": "Skilled Events and New Media GmbH",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "A board and card game festival at Austria Center Vienna, with a free game library, tabletop tournaments and a co-located Esports Festival.",
+  "cover": { "file": "pipeline/cache/extract/spielefest-wien.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-11",
+    "end": "2026-07-12",
+    "city": "Vienna",
+    "region": "",
+    "country": "AT",
+    "venue": "Austria Center Vienna"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage is a post-event recap ('SPIELEFEST WIEN 11. - 12. Juli 2026 ... Vielen Dank an 28.700 Besucher:innen') with no next date announced, so editions is empty and that July 2026 show is 'last'. Organizer confirmed via the site's own Impressum: 'Spielefest Wien wird durch Skilled Events and New Media GmbH veranstaltet' (refines the batch note's 'skilled New Media GmbH'). Co-located with an Esports Festival at the same venue/dates, per the homepage text, as the batch note said. No og:image is set on this page; cover uses the official Spielefest Wien logo instead."
+}

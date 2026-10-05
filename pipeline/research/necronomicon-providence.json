@@ -1,0 +1,15 @@
+{
+  "id": "necronomicon-providence",
+  "name": "NecronomiCon Providence",
+  "short": "",
+  "url": "https://necronomicon-providence.com",
+  "organizer": "Lovecraft Arts & Sciences Council",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "A biennial international conference and festival of weird fiction, art and academia centered on H.P. Lovecraft, held in Providence, Rhode Island.",
+  "cover": { "file": "pipeline/cache/extract/necon-goh.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-13", "end": "2026-08-16", "city": "Providence", "region": "RI", "country": "US", "venue": "Graduate Providence Hotel & Omni Providence" },
+  "checked": "2026-10-05",
+  "notes": "Biennial, confirming the batch note; the 'next edition Aug 2026' it referred to already happened (Aug 13-16, 2026, per the Guests of Honor 2026 page: 'August 13-16, 2026 #NecronomiConPVD Brought to you by the Lovecraft Arts & Sciences Council'), and that is before today (2026-10-05), so it is recorded as 'last' rather than an upcoming edition. No 2028 dates (the expected next biennial edition) have been announced anywhere on the site yet. Registration/venue per the Passes and Tickets page: 'Registration during the convention will take place at the GRADUATE Hotel' with nearby events at the Omni and 'surrounding venues'. The homepage itself (necronomicon-providence.com) redirects to a minimal '/enter/' splash page, so dated content was read from the site's current (non-year-suffixed) Guests of Honor page instead; its many archive links (2013/2015/2017/2019/2024) are past editions, not this one."
+}

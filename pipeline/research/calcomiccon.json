@@ -1,0 +1,30 @@
+{
+  "id": "calcomiccon",
+  "name": "CalComicCon",
+  "short": "CCC",
+  "url": "https://www.calcomiccon.com/",
+  "organizer": "Terry O'Neill / Old School Comics",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A comic book convention (also called the California Comic Convention) at the Hotel Fera in Orange, California, now in its 18th year.",
+  "cover": { "file": "pipeline/cache/extract/calcomiccon.home.json", "key": "logo:2" },
+  "editions": [
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "dates": "confirmed",
+      "venue": "Hotel Fera Anaheim, a DoubleTree by Hilton",
+      "city": "Orange",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.calcomiccon.com/Guests_2026.aspx",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Thank you to all the Guests, Dealers, Attendees... for making CalComicCon2026 one of the best Shows we ever had. Our next show is Saturday, February 6th - Sunday, February 7, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage confirms the next show is Feb 6-7, 2027 at the Hotel Fera (a DoubleTree by Hilton), 100 The City Drive S, Orange, CA 92868, matching the seed note. The only guest list on the site (Guests_2026.aspx: Scott Shaw!, David Mack, Howard Chaykin, Tone Rodriguez, Matt Cossin, Al Milgrom, plus 'Just Added' Lee Kohse and Tim Vigil) is explicitly captioned 'Special Guests for CalComicCon 2026' and sits right under a past-tense thank-you for 'CalComicCon2026' as a show that already happened -- i.e. it is last year's lineup, not an announced 2027 one, so guests=none-yet per the research rules. The site itself states the full/alternate name 'California Comic Convention'. No og/twitter image exists; cover uses logo:2, the current (2026-cycle) CalComicCon logo graphic, the clearest and highest-resolution brand image on the page."
+}

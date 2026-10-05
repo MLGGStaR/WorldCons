@@ -1,0 +1,22 @@
+{
+  "id": "istanbul-comics-and-art-festival",
+  "name": "Istanbul Comics and Art Festival",
+  "short": "ICAF",
+  "url": "https://www.icaf.com.tr/english",
+  "organizer": "PUHU Creative",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Istanbul's independent comics, illustration and street-art festival, combining comics, caricature, animation, publishing and graffiti programming.",
+  "cover": { "file": "pipeline/cache/extract/istanbul-comics-and-art-festival-tr.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-06-13",
+    "end": "2026-06-14",
+    "city": "Istanbul",
+    "region": "",
+    "country": "TR",
+    "venue": "Paribu Art, Kadıköy"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official site (both the English and Turkish homepages) only carries general 'about the festival' copy and a stale '© 2023 PUHU Creative' footer, with no edition-specific date text found and no 2027 announcement anywhere. The most recent edition is independently confirmed by a dated preview article (feridundemir.org, published 2026-06-09): 'The 9th edition of the Istanbul Comics & Art Festival (ICAF) will take place on June 13–14, 2026, at Paribu Art in Kadıköy' — already ended before the research window, so it is recorded as 'last' rather than an edition, and no guests were pulled. Organizer taken from the site footer credit ('Powered by PUHU Creative'). Not to be confused with 'Comikon Istanbul' or 'Istanbul Comic Con', two differently-branded Istanbul conventions encountered during this batch's research."
+}

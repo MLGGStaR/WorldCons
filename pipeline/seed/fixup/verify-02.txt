@@ -1,0 +1,12 @@
+pensacon | 2027-02-19 | https://www.pensacon.com/guests/ | 38
+alaska-comicon | 2027-02-20 | https://www.alaskacomicon.com/2027-exhibitors/ | 6
+mysticon | 2027-02-26 | https://app.mysticonva.com/guests | 121
+animecon-manchester | 2027-02-27 | https://animeconmanchester.com/guests/ | 1
+anime-milwaukee | 2027-03-05 | https://animemilwaukee.org/guests | 3
+budapest-comic-con | 2027-03-06 | https://budapestcomiccon.hu/szineszek | 65
+fanboy-expo-knoxville | 2027-03-12 | https://fanboyexpo.com/anime/celebrity-guests/ | 2
+naka-kon | 2027-03-12 | https://naka-kon.com/guests/all | 54
+oz-comic-con-adelaide | 2027-03-13 | https://ozcomiccon.com/adelaide-guests/ | 23
+galaxycon-richmond | 2027-03-18 | https://galaxycon.com/pages/galaxycon-richmond-guests | 44
+creation-washington-dc-area | 2027-03-19 | https://creationent.com/events/ce-dc27/ | 20
+midsouthcon | 2027-03-19 | https://www.midsouthcon.org/guests-of-honor/ | 5

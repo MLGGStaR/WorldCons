@@ -1,0 +1,30 @@
+{
+  "id": "coastal-comic-con",
+  "name": "Coastal Comic Con",
+  "short": "",
+  "url": "https://coastalcomiccon.com",
+  "organizer": "Soda City Comic Con, LLC",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A comic and pop-culture convention at the Wilmington Convention Center in Wilmington, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/coastal-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-06",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Wilmington Convention Center",
+      "city": "Wilmington",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://coastalcomiccon.com/tickets.php",
+      "guestsPage": "https://coastalcomiccon.com/guests.php",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'COASTAL COMIC CON 2027 Wilmington Convention Center, Wilmington NC March 6-7, 2027' and 'MARCH 6-7, 2027 Wilmington Convention Center 10 Convention Center Dr, Wilmington,...'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer confirmed as Soda City Comic Con, LLC (matches the batch note; the Coastal site's own header logo image is literally alt-tagged 'Soda City Comic Con', showing the shared company behind both brands). The dedicated guests.php page (and its #voice anchor, which is the same page) rendered only the site logo and a decorative 'SPECIAL GUEST STARS' banner image, with no actual guest photo cards, so guests is 'none-yet' for the 2027 edition rather than guessed from last year's lineup."
+}

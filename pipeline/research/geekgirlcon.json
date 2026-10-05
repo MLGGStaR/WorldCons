@@ -1,0 +1,45 @@
+{
+  "id": "geekgirlcon",
+  "name": "GeekGirlCon",
+  "short": "GGC",
+  "url": "https://geekgirlcon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics", "games"],
+  "blurb": "A Seattle convention celebrating women and non-binary people in geek culture, with panels, indie game exhibitors, cosplay and community programming.",
+  "cover": { "file": "pipeline/cache/extract/geekgirlcon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Seattle Convention Center",
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://geekgirlcon.com/passes/",
+      "guestsPage": "https://geekgirlcon.com/featured-contributors-join-the-ggc-magic/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/geekgirlcon.guests.json",
+          "picks": [
+            [1, "Carly Jackson", "", "other"],
+            [2, "Lexi LaFleur Brown", "", "other"],
+            [3, "Ava Wood", "365 Hockey Girl", "creator"],
+            [4, "Alison Cochran", "", "other"],
+            [5, "Michelle Jing Chan", "", "other"],
+            [6, "Kate Welch", "", "other"],
+            [7, "Gabriela Rodriguez Epstein", "", "other"],
+            [8, "Alina Pete", "", "other"],
+            [9, "Dungeons and Drag Queens", "Live Dungeons & Dragons drag show", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'OCTOBER 24 & 25, 2026 ◆ SEATTLE, WA' and 'Join us for GeekGirlCon '26 - October 24 & 25, 2026 - at the Seattle Convention Center.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "GeekGirlCon has no separate 'Guests' page; its nav has no such link. Its 2026 guest-equivalent lineup is a dated blog post, 'Featured Contributors Join the GGC Magic' (Sept 28, 2026), which pairs headshots with a programming schedule rather than bio cards. Most headshot alt text only describes the photo (hair color, outfit) with no credit, so known-for is left blank and cat defaults to 'other' per the no-guessing rule; Ava Wood's alt text names her own brand ('365 Hockey Girl') and the group photo explicitly says 'three Drag Queens playing Dungeons and Dragons Live!', so those two got real known-for text. A second photo of the same drag-queen trio performing (candidate #10) was skipped as a repeat of guest #9. No organizer name distinct from 'GeekGirlCon' itself was found on the site."
+}

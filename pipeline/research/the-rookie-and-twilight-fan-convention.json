@@ -1,0 +1,46 @@
+{
+  "id": "the-rookie-and-twilight-fan-convention",
+  "name": "The Rookie & Twilight Fan Convention",
+  "short": "",
+  "url": "https://ozcomiccon.com/rookie-fan-convention/",
+  "organizer": "Oz Comic-Con & Armageddon Expo",
+  "status": "active",
+  "types": ["pop", "cosplay"],
+  "blurb": "A dual-fandom weekend from Oz Comic-Con and Armageddon Expo, pairing a The Rookie fan convention with a Twilight fan convention at one Geelong venue.",
+  "cover": { "file": "pipeline/cache/extract/the-rookie-and-twilight-fan-convention.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-03",
+      "end": "2027-04-04",
+      "dates": "confirmed",
+      "venue": "Nyaal Banyul Geelong Convention and Event Centre",
+      "city": "Geelong",
+      "region": "VIC",
+      "country": "AU",
+      "tickets": "https://ozcomiccon.com/rookie-fan-convention/",
+      "guestsPage": "https://ozcomiccon.com/rookie-fan-convention/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/the-rookie-and-twilight-fan-convention.guests.json",
+          "picks": [
+            [2, "Deric Augustine", "Wesley Evers, The Rookie", "actor"],
+            [3, "Lisseth Chavez", "Celina Juarez, The Rookie", "actor"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/the-rookie-and-twilight-fan-convention-2.guests.json",
+          "picks": [
+            [2, "Ashley Greene", "Alice Cullen, Twilight", "actor"],
+            [3, "Jackson Rathbone", "Jasper Hale, Twilight", "actor"],
+            [4, "Kellan Lutz", "Emmett Cullen, Twilight", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Both event pages: '📅 3–4 April 2027 📍 Nyaal Banyul Geelong Convention and Event Centre, Geelong'; both also state 'Tickets and tokens go on sale 29th October!' (October 29, 2026)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Two separate, simultaneously-ticketed fan conventions sharing one venue/weekend, both presented by Oz Comic-Con & Armageddon Expo: The Rookie Fan Convention (ozcomiccon.com/rookie-fan-convention/) and Twilight Fan Convention (ozcomiccon.com/twilight-fan-convention/) — kept as one file per the given id since they share dates, venue and presenter; each has its own general-admission ticket ('entry to [this convention] only'). Guest teaser photos on both pages carry no name text in the page's HTML (blank alt attributes, opaque filenames like 'Deric-1...jpg'); the 5 names above were read directly off each promotional graphic, which prints the guest's name and the character/show underneath (Oz Comic-Con & Armageddon Expo's own announcement art) — not a guess. Cover uses the Rookie page's key art; the Twilight page's own key art (file the-rookie-and-twilight-fan-convention-2.home.json, key 'og') is an equally valid alternative. Both pages say 'Guest announcements begin 24th September!', so more guests likely exist by now but were not yet posted as of this pass. Verify-03 pass (2026-10-05): confirmed current -- both pages still banner '3-4 April 2027' directly above the guest photos, and the underlying image uploads are dated September-October 2026 (Kellan Lutz's photo, 'Kellan-2-819x1024.jpg', was uploaded this month), consistent with an active rollout for this edition rather than a leftover from a past show. REFUTE-pass (2026-10-05): upheld, all 5 proven -- fresh re-extraction reconfirms the Sept/Oct 2026 upload dates on all 5 photos (Deric-1, Lisseth-1, Ashley-1, Jackson-1 uploaded 2026/09; Kellan-2 uploaded 2026/10), matching the pages' own stated 'Guest announcements begin 24th September!' rollout; RosterCon's dedicated 2027-tagged pages (the-rookie-fan-convention-2027, twilight-fan-convention-2027) independently list Deric Augustine/Lisseth Chavez and Ashley Greene/Jackson Rathbone respectively, and no earlier edition of either named fan convention could be found, consistent with this being a first-ever edition."
+}

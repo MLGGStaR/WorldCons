@@ -1,0 +1,39 @@
+{
+  "id": "fndm-dubai",
+  "name": "FNDM Dubai",
+  "short": "",
+  "url": "https://www.mefcc.com/fndm-dubai/",
+  "organizer": "MEFCC",
+  "status": "active",
+  "types": ["anime", "comics", "cosplay", "games"],
+  "blurb": "Dubai pop-culture weekend from the MEFCC team with anime voice talent, comic creators, cosplay and gaming.",
+  "cover": { "file": "pipeline/cache/extract/fndm-dubai.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Concourse Convention Center, Dubai Outlet Mall",
+      "city": "Dubai",
+      "region": "",
+      "country": "AE",
+      "tickets": "https://www.mefcc.com/FNDM-DUBAI/tickets/",
+      "guestsPage": "https://www.mefcc.com/fndm-dubai/comic-creators/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fndm-dubai-2.guests.json",
+          "picks": [
+            [5, "Dexter Soy", "Captain Marvel, Batman and the Outsiders", "comics"],
+            [6, "Jane Pica", "Warriors and a Wee Wonder", "comics"],
+            [7, "Paolo Pantalena", "Captain Marvel, Darkhawk, Teen Titans", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: '31 OCT - 1 NOV 2026|CONCOURSE CONVENTION CENTER, DUBAI OUTLET MALL, UAE'; JSON-LD Event 2026-10-31 to 2026-11-01"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's 'Meet the Iconic Guests' (anime voice actors: Makoto Tamura, Isshin Chiba) and 'Pro-Cosplayers' (Kalypso, Vin, Erim Cosplay, Mars Cosplay) pages are explicitly labelled as the 1st edition / 'LINEUP 2025' recap from October 2025 and say the cosplayer roster is still 'stay tuned' for this edition, so those are not counted as 2026 guests. Only the Comic Creators page (Dexter Soy, Jane Pica, Paolo Pantalena) carries no stale-year marker and has live commission booking, so it is treated as the current lineup."
+}

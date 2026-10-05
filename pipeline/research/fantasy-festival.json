@@ -1,0 +1,22 @@
+{
+  "id": "fantasy-festival",
+  "name": "Fantasy Festival",
+  "short": "",
+  "url": "https://fantasyfestival.gr/",
+  "organizer": "Rising Star Promotions",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "A Peristeri fantasy and sci-fi festival with tabletop and card-game tournaments, LARP and a cosplay parade.",
+  "cover": { "file": "pipeline/cache/extract/fantasy-festival.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-02",
+    "end": "2026-10-04",
+    "city": "Peristeri",
+    "region": "",
+    "country": "GR",
+    "venue": "Peristeri Exhibition Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage countdown and text read '02,03 & 04 OCT 2026 PERISTERI EXHIBITION CENTER' for the edition that ended the day before today (2026-10-05); the countdown has reset to zero and no 2027 dates are published, so editions is empty and this run is recorded as 'last'. City recorded as Peristeri (the actual municipality where the venue sits, inside the greater Athens area) rather than 'Athens' from the discovery batch, since the venue itself is named for it. Types adjusted from the batch's pop/scifi to scifi/tabletop/cosplay: the site's own activity list is 'ALL TRADING CARD GAMES, INTERACTIVE TABLETOP, MINIATURE WARGAMES' plus a 'Cosplayers, LARPer, Reenactor Pass' and cosplay parade; no evidence of general celebrity/pop guests was found (the pictured 2026 guests — Anne Stokes, Frank Kock, Iron Wolves, Williamson, Vagelos Petikas — read as fantasy artists/performers, consistent with scifi/fantasy rather than broad pop culture). Organizer from the footer credit 'POWERED BY RISING STAR PROMOTIONS'. Guests for the just-ended 2026 edition are visible on the homepage but are not recorded since there is no current/upcoming edition to attach them to."
+}

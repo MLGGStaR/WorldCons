@@ -1,0 +1,15 @@
+{
+  "id": "lakes-international-comic-art-festival",
+  "name": "Lakes International Comic Art Festival",
+  "short": "LICAF",
+  "url": "https://licaf.co.uk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "A boutique comic-art festival held across multiple venues in Kendal, celebrating all forms and styles of comic art.",
+  "cover": { "file": "pipeline/cache/extract/lakes-international-comic-art-festival.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Kendal", "region": "", "country": "GB", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "LICAF 2026 (featuring Bill Sienkiewicz, Colleen Doran and Gemma Correll as headline guests) ran 2-4 Oct 2026 in Kendal, ending the day before this research date, so it falls outside the upcoming window and is recorded under 'last' rather than 'editions'. No 2027 dates are announced yet on the site, so that edition's guests are not recorded here; venue is left blank since the festival spans multiple Kendal venues rather than one site."
+}

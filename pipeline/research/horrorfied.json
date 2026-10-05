@@ -1,0 +1,30 @@
+{
+  "id": "horrorfied",
+  "name": "Horrorfied",
+  "short": "",
+  "url": "https://horrorfied.co.uk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A horror convention at K2 Crawley with celebrity guests, cosplay and horror merch.",
+  "cover": { "file": "pipeline/cache/extract/horrorfied.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "K2 Crawley",
+      "city": "Crawley",
+      "region": "",
+      "country": "GB",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Due to unforeseen circumstances Horrorfied 3 will now take place on new dates of 13th and 14th March 2027... announcing our first guests very soon!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Horrorfied 3 was originally set for 28-29 March 2026 (per the page's own meta description) but has been postponed to 13-14 March 2027; the site says guests and tickets are still to be announced."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "anime-nyc",
+  "name": "Anime NYC",
+  "short": "",
+  "url": "https://www.animenyc.com",
+  "organizer": "LeftField Media",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "The East Coast's largest anime convention, held every August at the Javits Center in New York City.",
+  "cover": { "file": "pipeline/cache/extract/anime-nyc-wiki.home.json", "key": "logo:3" },
+  "editions": [],
+  "last": { "start": "2026-08-20", "end": "2026-08-23", "city": "New York", "region": "NY", "country": "US", "venue": "Jacob K. Javits Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "animenyc.com returns a persistent Cloudflare 'Just a moment...' bot check to this tool (tried the default channel and --channel msedge) and to WebFetch (plain 403); a Wayback Machine snapshot from Oct 2, 2026 only captured that same Cloudflare challenge page, so no official 2027 date could be confirmed from the con's own site. Wikipedia's event-history table ('August 20-23, 2026 Jacob K. Javits Convention Center New York, New York') and a news search independently agree on the already-completed 2026 edition, which is recorded as 'last'. Third-party sites project an August 26-29, 2027 edition by extrapolating the con's August pattern (it moved from November to August starting in 2024, per the seed note), but that is not an official announcement, so editions is left empty. The cover uses Anime NYC's own logo via its Wikipedia infobox (Wikimedia Commons) since the official site is unreachable. Re-check animenyc.com directly once its bot wall lifts."
+}

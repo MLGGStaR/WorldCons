@@ -32,6 +32,17 @@ instantly from that cache (same URL, under a day old); add `--fresh` to force a 
 If a page shows a bot wall or comes back empty, retry once with `--channel msedge`.
 WebSearch and WebFetch are fine for finding the official site, dates and the guest page.
 
+**Picks are numbers inside one saved file.** A saved extraction that a research file
+already cites is never overwritten: a new render of it is saved as `<id>-v2` (then -v3 …)
+and a `NOTE` line says so. Always pick from the numbers of the file on the `SAVED` line and
+point the lineup's `file` at that same file. Each pick must be the person's own photo or
+promo tile: never a flag, a social icon or an SVG, never the artwork shown next to them.
+When a card's text does not name the guest (the name is printed inside the image, or the
+file name is a hash), check it with
+`node pipeline/tools/card-shot.mjs <saved file> <n,n,...>` and Read the PNGs (the pick is
+outlined in magenta). `node pipeline/tools/audit-picks.mjs --only <id>` reports picks
+whose card carries another name.
+
 Budget: about 10 tool calls per convention. Do not rabbit-hole; when something cannot
 be confirmed, record what you know, explain in `notes`, and move on. WebSearch is shared
 by every research agent in this run, so use at most 2 searches per convention; prefer
@@ -91,8 +102,15 @@ Special cases:
    - A guest who appears in two sections is picked once.
    - If guests are listed only as names with no photos, put them in `textOnlyGuests`
      as `["Name", "Known for", "cat"]` (the build step finds their photos elsewhere).
-   - Only the current edition's guests. A page still showing last year's lineup is
-     `"guests": "none-yet"`.
+   - Only the current edition's guests. **Cons leave last year's lineup on their guest
+     page for months.** A page still showing last year's lineup is `"guests": "none-yet"`.
+     Treat a lineup as stale when the page, URL or heading names an earlier year, when
+     it has a "Cancellations"/"Canceled" section or autograph schedules for dates that
+     have passed, when the homepage says the last show is "complete" / "see you next
+     year", or when the previous edition ended recently and nothing announces guests for
+     the next one. Keep a lineup only with positive evidence it is for this edition (its
+     year or dates on the page, or an announcement made after the last show). When
+     unsure: `none-yet`. Quote the evidence in `notes`.
 5. **Cover image:** from the homepage summary pick the key that best represents the
    event (`og`, `twitter`, `hero:N` or `logo:N`). Best: official key art or a branded
    banner for this edition (file names with keyart, key-art, banner, header, hero,

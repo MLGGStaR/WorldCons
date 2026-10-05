@@ -1,0 +1,30 @@
+{
+  "id": "anthro-northwest",
+  "name": "Anthro Northwest",
+  "short": "ANW",
+  "url": "https://www.anthronw.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A PG-rated anthropomorphic arts convention combining furry fandom, costume design, cosplay and performance, held each January in Seattle.",
+  "cover": { "file": "pipeline/cache/extract/anthro-northwest.home.json", "key": "hero:6" },
+  "editions": [
+    {
+      "start": "2027-01-07",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Seattle",
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://www.anthronw.com/anw9/register/index.html",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official anw9 microsite homepage: 'Anthro Northwest 9 \"Beauty\" January 7–10, 2027 Hyatt Regency Seattle'; About page: 'ANW 9 January 7, 2027 to January 10, 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The root domain's homepage (anthronw.com) is a near-empty placeholder with no working nav links; the live convention content is at /anw9/ (found via web search). Corrected the seed note's venue/city: the official site confirms Hyatt Regency Seattle, in Seattle, WA, not SeaTac. No Guests-of-Honor page or 2027 announcement was found (the About page shows staff/mascot fursona art, not guest bios); WikiFur records a guest-of-honor tradition for past years, so guests is none-yet rather than none."
+}

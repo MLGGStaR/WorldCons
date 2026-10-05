@@ -194,13 +194,17 @@ function credHTML(id, opts = {}) {
     ? `<img src="${esc(g.p)}" alt="${esc(g.n)}" width="240" height="300" loading="${opts.eager ? 'eager' : 'lazy'}" decoding="async">`
     : `<span class="initials" aria-hidden="true">${esc(initials(g.n))}</span>`;
   const NameTag = opts.h1 ? 'h1' : 'b';
+  // The role prints at the foot of the credential, like the class strip on a real badge,
+  // and is left off inside sections whose heading already names the role.
   return `<${tag} class="cred"${href}>
   <span class="cred-photo">${photo}</span>
-  <span class="cred-band">${esc(M.CATS[g.c] || 'Guest')}</span>
-  <${NameTag} class="cred-name">${esc(g.n)}</${NameTag}>
-  ${known ? `<span class="cred-known">${esc(known)}</span>` : ''}
-  ${more ? `<span class="cred-more">${more}</span>` : ''}
-  ${opts.extra || ''}
+  <span class="cred-text">
+    <${NameTag} class="cred-name">${esc(g.n)}</${NameTag}>
+    ${known ? `<span class="cred-known">${esc(known)}</span>` : ''}
+    ${more ? `<span class="cred-more">${more}</span>` : ''}
+    ${opts.extra || ''}
+  </span>
+  ${opts.noBand ? '' : `<span class="cred-band">${esc(M.CATS[g.c] || 'Guest')}</span>`}
 </${tag}>`;
 }
 
@@ -290,7 +294,7 @@ function renderRibbonRow(fx) {
         (t) =>
           `<button type="button" class="rtoggle r-${t.value}" data-k="type-${t.value}" data-type-toggle="${t.value}" aria-pressed="${set.has(t.value)}"${
             !t.n && !set.has(t.value) ? ' disabled' : ''
-          } title="${esc(t.label)}"><span class="swatch"></span>${esc(SHORT_TYPE[t.value])}<span class="n">${num(t.n)}</span></button>`,
+          } title="${esc(t.label)}">${esc(SHORT_TYPE[t.value])}<span class="n">${num(t.n)}</span></button>`,
       )
       .join('');
   });
@@ -333,13 +337,15 @@ function renderResults(list) {
   const desc = M.describeFilters(S.f);
   const what = S.f.when === 'upcoming' ? 'upcoming conventions' : 'conventions';
   const tbaN = M.showsTBA(S.f) ? M.filterTBA(S.tba, S.guests, S.f).length : 0;
-  const tbaPart = tbaN ? ` · <a href="#m-tba" data-jump="m-tba">${plural(tbaN, 'more con')} waiting on dates</a>` : '';
+  const tbaPart = tbaN ? `<span class="r-tba"> · <a href="#m-tba" data-jump="m-tba">${plural(tbaN, 'more con')} waiting on dates</a></span>` : '';
+  // Phones keep one short line ("497 upcoming · 4,410 guests"); the rest is for wide screens.
   $('#results').innerHTML = list.length
-    ? `<strong>${num(list.length)} ${list.length === 1 ? what.replace(/s$/, '') : what}</strong>${desc ? `<span>${esc(desc)}</span>` : ''}<span>${plural(
-        countries.size,
-        'country',
-        'countries',
-      )} · ${plural(guests.size, 'guest')} announced${tbaPart}</span>`
+    ? `<strong>${num(list.length)} ${list.length === 1 ? what.replace(/s$/, '') : what}</strong>${
+        desc ? `<span class="r-desc">${esc(desc)}</span>` : ''
+      }<span class="r-meta"><span class="r-countries">${plural(countries.size, 'country', 'countries')} · </span>${plural(
+        guests.size,
+        'guest',
+      )}<span class="r-wide"> announced</span>${tbaPart}</span>`
     : tbaN
       ? `<strong>No dated conventions match</strong><span>${plural(tbaN, 'con')} waiting on dates</span>`
       : '';
@@ -504,45 +510,62 @@ function renderCon(id) {
   const mapQ = encodeURIComponent([c.venue, c.city, regionName(c.country, c.region), countryName(c.country)].filter(Boolean).join(', '));
   const saved = S.saved.has(c.id);
   const sub = [c.short, c.organizer].filter(Boolean).join(' · ');
+  // The badge prints its own fields: a tabular date line with the day count, the pass's
+  // day boxes, the flag-and-venue line and the face strip that opens the guest wall.
+  const dateLine = c.tba
+    ? `<p class="con-when"><span>Dates TBA</span><span class="days">Returning</span></p>${
+        c.last ? `<p class="last-line">Last held ${esc(M.formatLong(c.last.start, c.last.end))}</p>` : ''
+      }`
+    : `<p class="con-when"><span>${esc(M.formatLong(c.start, c.end, c.dp))}</span><span class="days">${c.dp === 'm' ? 'TBA' : plural(days, 'day')}</span></p>${
+        c.dp === 'd' && days > 1 && days <= 7
+          ? `<ol class="day-strip" aria-hidden="true">${Array.from({ length: days }, (_, i) => `<li>${M.weekday(M.addDays(c.start, i))}</li>`).join('')}</ol>`
+          : ''
+      }`;
+  const ids = c.g || [];
+  const strip = ids.length
+    ? `<a class="faces faces-link" href="#wall-title" data-jump="wall-title"><ul aria-hidden="true">${ids
+        .filter((g) => S.guests[g] && S.guests[g].s)
+        .slice(0, 5)
+        .map((g) => `<li><img src="${esc(S.guests[g].s)}" alt="" width="30" height="38"></li>`)
+        .join('')}</ul><span class="more">${plural(ids.length, 'guest')}<small>See every guest</small></span></a>`
+    : '';
   page.innerHTML = `<a class="back" href="${listHref()}">${icon('arrow-left')}All conventions</a>
   <div class="con-page">
-    <aside class="con-card">
-      <article class="badge" data-id="${esc(c.id)}">
-        ${clipButton(c)}
-        ${artHTML(c, true)}
-        <div class="badge-body">
-          <h1>${esc(c.name)}</h1>
-          ${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
-          <div class="facts">
-            <div class="fact">${icon('calendar-days')}<div>${
-              c.tba
-                ? `<b>Next dates not announced yet</b>${c.last ? `Last held ${esc(M.formatLong(c.last.start, c.last.end))}` : 'Check the official site for news'}`
-                : `<b>${esc(M.formatLong(c.start, c.end, c.dp))}</b>${
-                    c.dp === 'm' ? 'Exact dates not announced yet' : `${plural(days, 'day')} · ${esc(M.countdown(c, S.today))}`
-                  }`
-            }</div></div>
-            <div class="fact">${icon('map-pin')}<div>${c.venue ? `<b>${esc(c.venue)}</b>` : ''}${esc(placeText(c, true))} · <a href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">Map</a></div></div>
-            ${(c.g || []).length ? `<div class="fact">${icon('users')}<div><b>${plural(c.g.length, 'guest')} announced</b><a href="#wall-title" data-jump="wall-title">See every guest</a></div></div>` : ''}
+    <aside class="con-side">
+      <div class="con-head">
+        <article class="badge" data-id="${esc(c.id)}">
+          ${clipButton(c)}
+          ${artHTML(c, true)}
+          <div class="badge-body">
+            <h1>${esc(c.name)}</h1>
+            ${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
+            ${dateLine}
+            <p class="con-where">${flagImg(c.country)}<span>${c.venue ? `${esc(c.venue)} · ` : ''}${esc(placeText(c, true))}</span><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">Map</a></p>
+            ${strip}
+            <div class="actions">
+              <a class="btn" href="${safeHref(c.url)}" target="_blank" rel="noopener">Official site${icon('arrow-up-right')}</a>
+              <button type="button" class="btn ghost" data-clip="${esc(c.id)}" aria-pressed="${saved}">${icon('lanyard')}<span>${saved ? 'On your lanyard' : 'Clip to lanyard'}</span></button>
+            </div>
           </div>
-          ${c.blurb ? `<p class="blurb">${esc(c.blurb)}</p>` : ''}
-          <div class="actions">
-            <a class="btn" href="${safeHref(c.url)}" target="_blank" rel="noopener">Official site${icon('arrow-up-right')}</a>
-            ${c.tickets ? `<a class="btn ghost" href="${safeHref(c.tickets)}" target="_blank" rel="noopener">${icon('ticket')}Tickets</a>` : ''}
-            <button type="button" class="btn ghost" data-clip="${esc(c.id)}" aria-pressed="${saved}">${icon('lanyard')}<span>${saved ? 'On your lanyard' : 'Clip to lanyard'}</span></button>
-            ${c.dp === 'd' ? `<button type="button" class="btn ghost" data-ics="${esc(c.id)}">${icon('calendar-days')}Add to calendar</button>` : ''}
-            <button type="button" class="btn ghost" data-share="${esc(c.id)}">${icon('share-2')}Share</button>
-          </div>
-          <p class="checked">${checkedLine(c)}</p>
+          ${ribbonsHTML(c, true)}
+        </article>
+      </div>
+      <div class="con-more">
+        ${c.blurb ? `<p class="blurb">${esc(c.blurb)}</p>` : ''}
+        <div class="actions">
+          ${c.tickets ? `<a class="btn ghost" href="${safeHref(c.tickets)}" target="_blank" rel="noopener">${icon('ticket')}Tickets</a>` : ''}
+          ${c.dp === 'd' ? `<button type="button" class="btn ghost" data-ics="${esc(c.id)}">${icon('calendar-days')}Add to calendar</button>` : ''}
+          <button type="button" class="btn ghost" data-share="${esc(c.id)}">${icon('share-2')}Share</button>
         </div>
-        ${ribbonsHTML(c, true)}
-      </article>
-      ${
-        others.length
-          ? `<div class="also"><h2>Other dates</h2>${others
-              .map((o) => `<a href="${conHref(o)}">${esc(M.formatRange(o.start, o.end, o.dp))}<span>${esc(o.city)}</span></a>`)
-              .join('')}</div>`
-          : ''
-      }
+        <p class="checked">${checkedLine(c)}</p>
+        ${
+          others.length
+            ? `<div class="also"><h2>Other dates</h2>${others
+                .map((o) => `<a href="${conHref(o)}">${esc(M.formatRange(o.start, o.end, o.dp))}<span>${esc(o.city)}</span></a>`)
+                .join('')}</div>`
+            : ''
+        }
+      </div>
     </aside>
     <section class="wall-wrap" aria-labelledby="wall-title">${wallFrame(c)}</section>
   </div>`;
@@ -620,7 +643,9 @@ function renderWall(c) {
     wall.innerHTML = cats
       .map((k) => {
         const inCat = shown.filter((id) => ((S.guests[id] || {}).c || 'other') === k);
-        return inCat.length ? `<h3 class="wall-section">${CAT_PLURAL[k]}<span>${num(inCat.length)}</span></h3>${inCat.map(cred).join('')}` : '';
+        return inCat.length
+          ? `<h3 class="wall-section">${CAT_PLURAL[k]}<span>${num(inCat.length)}</span></h3>${inCat.map((id) => credHTML(id, { known: known[id], exclude: c.id, noBand: true })).join('')}`
+          : '';
       })
       .join('');
   } else {

@@ -29,5 +29,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Memorial Guest of Honor not yet named (\"To be announced\" on site), so excluded. The guests page is Cloudflare-protected (needed --channel msedge to render) and shows no guest photos, only the site logo, so the two confirmed Guests of Honor are recorded as textOnlyGuests. The homepage's only image is a small transparent logo, used as the cover."
+  "notes": "Memorial Guest of Honor not yet named (\"To be announced\" on site), so excluded. The guests page is Cloudflare-protected (needed --channel msedge to render) and shows no guest photos, only the site logo, so the two confirmed Guests of Honor are recorded as textOnlyGuests. The homepage's only image is a small transparent logo, used as the cover. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — a fresh render of /guests is titled 'Readercon 36 Guests of Honor' and its own page text still reads 'July 8 – 11, 2027 ... Neil Clarke' together live on the page, with no older-edition banner. Refute-03 recheck (2026-10-05): tried to refute, upheld -- unchanged on a fresh fetch, and a web search found Readercon 35 (2026)'s actual Guests of Honor were P. Djèlí Clark and David Gerrold, entirely different people, which rules out a stale carryover from the recently-ended prior edition."
 }

@@ -9,6 +9,7 @@
   "blurb": "The premier showcase for independent and small-press graphic novels, comics and cartooning in the DC area; hosts the Ignatz Awards.",
   "cover": { "file": "pipeline/cache/extract/small-press-expo.home.json", "key": "hero:0" },
   "editions": [],
+  "last": { "start": "2026-09-12", "end": "2026-09-13", "city": "Rockville", "region": "MD", "country": "US", "venue": "Bethesda North Marriott Hotel & Conference Center" },
   "checked": "2026-10-05",
-  "notes": "SPX 2026 (September 12-13, 2026, Bethesda North Marriott Hotel & Conference Center, Rockville, MD) already concluded before today's cutoff (2026-10-05) and the 2026 Ignatz Award winners are already posted on the homepage. No 2027 dates are announced yet on the official site."
+  "notes": "SPX 2026 (September 12-13, 2026, Bethesda North Marriott Hotel & Conference Center, Rockville, MD) already concluded before today's cutoff (2026-10-05) and the 2026 Ignatz Award winners are already posted on the homepage, so it is recorded as \"last\". No 2027 dates are announced yet on the official site (re-checked fresh 2026-10-05, unchanged)."
 }

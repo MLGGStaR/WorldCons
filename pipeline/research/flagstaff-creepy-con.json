@@ -1,0 +1,54 @@
+{
+  "id": "flagstaff-creepy-con",
+  "name": "Flagstaff Creepy Con",
+  "short": "",
+  "url": "https://flagstaffcreepycon.com",
+  "organizer": "Creepy Coffees",
+  "status": "active",
+  "types": ["horror", "cosplay"],
+  "blurb": "Northern Arizona's one-day gathering for horror, paranormal, true crime and cosplay fans, run by the Creepy Coffees team.",
+  "cover": { "file": "pipeline/cache/extract/flagstaff-creepy-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "dates": "confirmed",
+      "venue": "Little America Flagstaff",
+      "city": "Flagstaff",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "https://www.strideevents.com/events/flagstaff-creepy-con/2026/tickets",
+      "guestsPage": "https://flagstaffcreepycon.com/celebrities",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/flagstaff-creepy-con.guests.json",
+          "picks": [
+            [0, "Sean Kanan", "", "actor"],
+            [1, "Uncle Creepy", "", "other"],
+            [2, "Charlie Schlatter", "", "actor"],
+            [3, "Scott Butler", "", "other"],
+            [4, "Dominique Swain", "", "actor"],
+            [5, "Amy O'Neill", "", "actor"],
+            [6, "Heather Mortis", "", "other"],
+            [7, "The Planton Twins", "", "other"],
+            [8, "Ron Sloan", "", "other"],
+            [9, "Danielle Nicole", "", "other"],
+            [10, "Andrey Ivchenko", "", "other"],
+            [11, "Dr Bill Slevin", "", "other"],
+            [12, "Brendan Mitchell", "", "other"],
+            [13, "Marc Price", "", "actor"],
+            [14, "Melanie Kohn", "", "other"],
+            [15, "Shawn C Phillips", "", "other"],
+            [16, "Dr Aaron Ozee", "", "other"],
+            [18, "Stevi", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown and heading: 'FLAGSTAFF CREEPY CON SATURDAY OCTOBER 10TH, 2026'; venue text 'OUR NEW HOME ... LITTLE AMERICA FLAGSTAFF 2515 E Butler Ave, Flagstaff, AZ 86004'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The celebrities page shows only stylized names with decorative emoji and no bio text for any guest, so 'known for' is left blank for all 18 picks as instructed. Categories are best-effort from general knowledge of the names (actor for Sean Kanan, Charlie Schlatter, Dominique Swain, Amy O'Neill and Marc Price); the rest default to 'other' since their work could not be confirmed. Skipped two 'caution tape' placeholder tiles (#17, #19) and a plain banner image (#20), none of which name a person."
+}

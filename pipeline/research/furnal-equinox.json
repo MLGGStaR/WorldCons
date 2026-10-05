@@ -22,7 +22,7 @@
       "guests": "announced",
       "lineup": [
         {
-          "file": "pipeline/cache/extract/furnal-equinox.guests.json",
+          "file": "pipeline/cache/extract/furnal-equinox-v2.guests.json",
           "picks": [
             [1, "Chise", "Vaccine researcher & science communicator", "other"],
             [5, "Amyte", "Music producer and DJ", "music"]
@@ -34,5 +34,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Each Guest of Honour (Chise, Amyte) has a multi-photo gallery on the guests page (4 and 3 images respectively); one representative photo per person was picked rather than every image. Venue change to the Sheraton Centre Toronto for 2027 confirmed on-site."
+  "notes": "Each Guest of Honour (Chise, Amyte) has a multi-photo gallery on the guests page (4 and 3 images respectively); one representative photo per person was picked rather than every image. Venue change to the Sheraton Centre Toronto for 2027 confirmed on-site. Verify pass (2026-10-05): confirmed current -- every Chise and Amyte photo on the guests page is individually titled 'GoH 2027' (e.g. 'Chise GoH 2027 #1', 'Amyte GoH 2027 #1') and the page's own logo asset is titled '2027 Logo'. Refute pass (2026-10-05): fresh re-extraction (-v2) is unchanged -- same 7 images, titles still read 'Chise GoH 2027 #1-4' and 'Amyte GoH 2027 #1-3'; upheld, not stale."
 }

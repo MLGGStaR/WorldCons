@@ -9,6 +9,14 @@
   "blurb": "A Star Wars fan fair in Gothenburg for collectors, with toy vendors, costume groups, lightsaber dueling and special guests.",
   "cover": { "file": "pipeline/cache/extract/echo-base-live-scandinavia.home.json", "key": "og" },
   "editions": [],
+  "last": {
+    "start": "2026-08-29",
+    "end": "2026-08-29",
+    "city": "Gothenburg",
+    "region": "",
+    "country": "SE",
+    "venue": "St Jörgen Park Racketsport Arena (Gothia Tennishall)"
+  },
   "checked": "2026-10-05",
-  "notes": "Only announced edition is Episode VII, which already happened 2026-08-29 (confirmed by the page's own JSON-LD and text, and by WebSearch/allevents.in) — before this window starts (2026-10-05), so it is not listed. The site has not yet posted a date for the next (8th) edition, expected around August 2027 given the yearly pattern (2025 Episode VI in August, 2026 Episode VII in August), but nothing is confirmed, so editions is left empty rather than guessed. Special guests for the past VII edition (hero images named Admiral Ackbar, Grand Moff Tarkin, Lonni Jung, Rabé — actors who played/voiced these Star Wars characters) were not picked since there is no in-window edition to attach them to."
+  "notes": "Re-checked echolivescandinavia.se fresh (--fresh): same content as before, still only Episode VII (2026-08-29, per the page's own JSON-LD and text) with no 8th-edition date posted yet, expected around August 2027 given the yearly pattern (2025 Episode VI, 2026 Episode VII both in August), but nothing is confirmed, so editions stays empty rather than guessed. Added 'last': Episode VII, 2026-08-29, at St Jörgen Park Racketsport Arena (Gothia Tennishall) in Gothenburg — confirmed by the page's own JSON-LD and text, and by WebSearch/allevents.in — already over before this window starts (2026-10-05). Special guests for that past VII edition (hero images named Admiral Ackbar, Grand Moff Tarkin, Lonni Jung, Rabé — actors who played/voiced these Star Wars characters) are not picked since there is no in-window edition to attach them to."
 }

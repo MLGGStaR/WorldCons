@@ -1,0 +1,40 @@
+{
+  "id": "boskone",
+  "name": "Boskone",
+  "short": "",
+  "url": "https://boskone.org",
+  "organizer": "New England Science Fiction Association (NESFA)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The longest-running science fiction and fantasy convention in New England, with an author Guest of Honor, an official artist, and musical guests.",
+  "cover": { "file": "pipeline/cache/extract/boskone.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-14",
+      "dates": "confirmed",
+      "venue": "The Westin Boston Seaport District",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://boskone.org/registration/buy-a-membership/",
+      "guestsPage": "https://boskone.org/guests/featured-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/boskone.guests.json",
+          "picks": [
+            [1, "Catherine Asaro", "Science fiction, thriller & fantasy author", "author"],
+            [2, "Mark Zug", "Official Artist", "other"],
+            [3, "The Blibbering Humdingers", "Acoustic nerd rock band", "music"],
+            [4, "Edie Stern & Joe Siclari", "Fan historians, Fan History Project", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/title: 'Boskone 64 – February 12-14, 2027 — Westin Boston Seaport District'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Used the 'Featured Guests' page (4 named honorees, matching the homepage exactly) rather than 'Program Participants', which is the convention's full program-panelist sign-up list rather than specially invited guests. Mark Zug's card was cut off mid-sentence by the renderer ('long been most inspired by the art of N.') so known-for is left at his stated role (Official Artist) rather than guessing the rest. Verify pass (2026-10-05): confirmed current -- the Featured Guests page itself carries the banner text 'BOSKONE 64 FEBRUARY 12-14, 2027' and all four guest photos were uploaded in March/May 2026, ahead of this edition. Refute pass (2026-10-05): confirmed current again -- a fresh re-extract of /guests/featured-guests/ still shows all four guest sections directly under that same 'BOSKONE 64 FEBRUARY 12-14, 2027' banner (page title 'Featured Guests – Boskone 64'), and all four picked images are still hosted under /wp-content/uploads/2026/03/ and /2026/05/, after Boskone 63."
+}

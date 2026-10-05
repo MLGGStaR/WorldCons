@@ -1,0 +1,28 @@
+{
+  "id": "bewhiskered",
+  "name": "Bewhiskered",
+  "short": "BWS",
+  "url": "https://bewhiskeredcon.org",
+  "organizer": "NCAS",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A furry convention in Durham, North Carolina, hosted by the North Carolina Anthropomorphic Society.",
+  "cover": { "file": "pipeline/cache/extract/bewhiskered.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-25",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Durham",
+      "region": "NC",
+      "country": "US",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Durham NC Mar. 25-28 2027' and 'Bewhiskered 2027 (BWS) is a furry convention hosted by NCAS in Durham North Carolina.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer is NCAS (North Carolina Anthropomorphic Society, Inc., per the site footer copyright line). No venue name is given on the homepage yet. The dedicated 'Guest of Honor' page states 'This page is under construction. Please check back soon', so guests is 'none-yet' for the 2027 edition."
+}

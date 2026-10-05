@@ -1,0 +1,15 @@
+{
+  "id": "for-the-love-of-sci-fi",
+  "name": "For The Love Of Sci-Fi",
+  "short": "FTLOSF",
+  "url": "https://www.fortheloveofsci-fi.com/",
+  "organizer": "Monopoly Events",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "A Manchester sci-fi and pop-culture convention from Monopoly Events, with past guests such as Karl Urban and Mads Mikkelsen.",
+  "cover": { "file": "pipeline/cache/extract/for-the-love-of-sci-fi.home.json", "key": "twitter" },
+  "editions": [],
+  "last": { "start": "2023-12-02", "end": "2023-12-03", "city": "Manchester", "region": "", "country": "GB", "venue": "Bowlers Exhibition Centre" },
+  "checked": "2026-10-05",
+  "notes": "Monopoly Events put For the Love of Sci-Fi 'on hold indefinitely' after its 2-3 Dec 2023 edition at Bowlers Exhibition Centre (per Wikipedia, citing a Nov 2023 Monopoly Events statement). The live site is now rebuilding toward a revival at a new venue, BEC Arena, Trafford Park, Manchester ('TBC BEC Arena, Manchester' banner; Guests page shows only a 'tbc.png' placeholder), but as of 2026-10-05 no date has been announced, so editions is empty and the last confirmed edition (2023) is recorded above."
+}

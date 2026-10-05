@@ -75,6 +75,12 @@
             [31, "Otoon", "", "cosplay"],
             [32, "Hokaie", "", "cosplay"]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/heroes-world-v2c.guests.json",
+          "picks": [
+            [3, "Sgauth", "Game-dev video essays: Left 4 Dead, For Honor", "creator"]
+          ]
         }
       ],
       "textOnlyGuests": [],
@@ -82,5 +88,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "New-for-2026 merged brand (Easyfairs combined Heroes Comic Con, GameForce and Made in Asia's autumn show into one event called Heroes World); see this batch's separate 'made-in-asia' file for that brand's now-independent Spring edition, not duplicated here. Several guest cards on the actor/Game-Island row (James Lafferty) carry pricing text only and no bio, so known-for is left blank per the name-only-card rule. Ralph Fiennes' card is also bio-less; his known-for ('Voldemort in Harry Potter') instead comes from this site's own homepage image file name (Ralph-Fiennes-Voldemort.png), not from the guest card text. A second combined guest-list page (madeinasia.be) repeats the actor/comics names with no bios but adds ~22 Made-in-Asia-zone names (mangaka, a dance troupe, likely French-dub voice actors and cosplayers) with no bio text and, mostly, no clear role signal — cat is a best-effort guess from the handle style (cosplay-style handles vs. plain real names → 'other') per the never-guess-known-for/do-your-best-on-cat rule; known-for left blank for all of them. One ~38-card 'ALL GUESTS' photo grid on heroes-world.be/guests/ rendered with no name or alt text at all for all but 2 photos (Odoriko, Gastronogeek, both picked) — the rest could not be identified and were left out rather than guessed."
+  "notes": "New-for-2026 merged brand (Easyfairs combined Heroes Comic Con, GameForce and Made in Asia's autumn show into one event called Heroes World); see this batch's separate 'made-in-asia' file for that brand's now-independent Spring edition, not duplicated here. Several guest cards on the actor/Game-Island row (James Lafferty) carry pricing text only and no bio, so known-for is left blank per the name-only-card rule. Ralph Fiennes' card is also bio-less; his known-for ('Voldemort in Harry Potter') instead comes from this site's own homepage image file name (Ralph-Fiennes-Voldemort.png), not from the guest card text. A second combined guest-list page (madeinasia.be) repeats the actor/comics names with no bios but adds ~22 Made-in-Asia-zone names (mangaka, a dance troupe, likely French-dub voice actors and cosplayers) with no bio text and, mostly, no clear role signal — cat is a best-effort guess from the handle style (cosplay-style handles vs. plain real names → 'other') per the never-guess-known-for/do-your-best-on-cat rule; known-for left blank for all of them. One ~38-card 'ALL GUESTS' photo grid on heroes-world.be/guests/ rendered with no name or alt text at all for all but 2 photos (Odoriko, Gastronogeek, both picked) — the rest could not be identified and were left out rather than guessed. Recheck 2026-10-05: the combined madeinasia.be guest-list page dedups/omits a few names present on its own per-category sub-pages; re-rendering those sub-pages (youplay-guests/, guests-made-in-asia/) surfaced one real guest missing from every prior capture, Sgauth (a game-development video essayist, Left 4 Dead/For Honor), now added. Those same two sub-pages confirmed every other name already picked and added no one else; Hokaie's own card there reads 'the YouTube pro when it comes to narrative gameplay' (a creator, not cosplay as guessed), but per this recheck's scope existing cat/known-for values were left as-is for guests that stay."
 }

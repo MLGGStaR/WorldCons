@@ -1,0 +1,6 @@
+gameacon | 6 picks vs 38 person-sized images [pipeline/cache/extract/gameacon.guests.json]
+german-film-and-comic-con | 36 picks vs 78 person-sized images [pipeline/cache/extract/german-film-and-comic-con.guests.json]
+heroes-world | 23 picks vs 52 person-sized images [pipeline/cache/extract/heroes-world.guests.json]
+iberanime | 12 picks vs 56 person-sized images [pipeline/cache/extract/iberanime.guests.json]
+ichibancon | 1 picks vs 25 person-sized images [pipeline/cache/extract/ichibancon-home.guests.json]
+kumoricon | 14 picks vs 32 person-sized images [pipeline/cache/extract/kumoricon-2.guests.json] || 5 picks vs 15 person-sized images [pipeline/cache/extract/kumoricon-3.guests.json] || 6 picks vs 17 person-sized images [pipeline/cache/extract/kumoricon-4.guests.json] || 5 picks vs 15 person-sized images [pipeline/cache/extract/kumoricon-5.guests.json] || 5 picks vs 15 person-sized images [pipeline/cache/extract/kumoricon-6.guests.json]

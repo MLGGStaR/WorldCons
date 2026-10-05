@@ -1,0 +1,1043 @@
+{
+  "id": "rhode-island-comic-con",
+  "name": "Rhode Island Comic Con",
+  "short": "RICC",
+  "url": "https://www.ricomiccon.com",
+  "organizer": "Altered Reality Entertainment",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop"
+  ],
+  "blurb": "New England's largest pop-culture convention, a November weekend of film/TV celebrities, wrestlers, comic artists and cosplay in Providence.",
+  "cover": {
+    "file": "pipeline/cache/extract/rhode-island-comic-con.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Rhode Island Convention Center & Amica Mutual Pavilion",
+      "city": "Providence",
+      "region": "RI",
+      "country": "US",
+      "tickets": "https://www.ticketmaster.com/rhode-island-comic-con-tickets/artist/1743904",
+      "guestsPage": "https://www.ricomiccon.com/celebrities",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/rhode-island-comic-con.guests.json",
+          "picks": [
+            [
+              2,
+              "Adam Rodriguez",
+              "Criminal Minds",
+              "actor"
+            ],
+            [
+              3,
+              "Adam Savage",
+              "MythBusters",
+              "other"
+            ],
+            [
+              4,
+              "Alec Baldwin",
+              "Beetlejuice",
+              "actor"
+            ],
+            [
+              5,
+              "Alex Brightman",
+              "Helluva Boss, Hazbin Hotel",
+              "voice"
+            ],
+            [
+              6,
+              "Amir Talai",
+              "Hazbin Hotel, Kung Fu Panda: Legends of Awesomeness",
+              "voice"
+            ],
+            [
+              7,
+              "Andrew Lewis Caldwell",
+              "Spider-Noir",
+              "voice"
+            ],
+            [
+              8,
+              "Andrew Keegan",
+              "10 Things I Hate About You, 7th Heaven",
+              "actor"
+            ],
+            [
+              9,
+              "Andy Black",
+              "Black Veil Brides",
+              "music"
+            ],
+            [
+              10,
+              "Andy Field",
+              "Five Nights at Freddy's",
+              "voice"
+            ],
+            [
+              11,
+              "Angela Sant'Albano",
+              "Resident Evil: Requiem",
+              "voice"
+            ],
+            [
+              12,
+              "Anson Williams",
+              "Happy Days",
+              "actor"
+            ],
+            [
+              13,
+              "Arden Cho",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              14,
+              "Ari Millen",
+              "Ice Cream Man",
+              "actor"
+            ],
+            [
+              15,
+              "Ben Starr",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              16,
+              "Billy Dee Williams",
+              "Star Wars",
+              "actor"
+            ],
+            [
+              17,
+              "Billy Gunn",
+              "New Age Outlaws, D-Generation X",
+              "sports"
+            ],
+            [
+              18,
+              "Blake Foster",
+              "Power Rangers Turbo",
+              "actor"
+            ],
+            [
+              19,
+              "Blake Roman",
+              "Hazbin Hotel, Helluva Boss",
+              "voice"
+            ],
+            [
+              20,
+              "Bob Gale",
+              "Back to the Future co-writer",
+              "other"
+            ],
+            [
+              21,
+              "Brandon Rogers",
+              "Helluva Boss, Hazbin Hotel",
+              "voice"
+            ],
+            [
+              22,
+              "Braxton Quinney",
+              "Stranger Things: Tales from '85",
+              "voice"
+            ],
+            [
+              23,
+              "Brooklyn Davey",
+              "Stranger Things: Tales from '85",
+              "voice"
+            ],
+            [
+              24,
+              "Bryce Pinkham",
+              "Helluva Boss, Mercy Street",
+              "voice"
+            ],
+            [
+              25,
+              "C. Thomas Howell",
+              "The Outsiders, Red Dawn, The Hitcher",
+              "actor"
+            ],
+            [
+              26,
+              "Cara Buono",
+              "Stranger Things",
+              "actor"
+            ],
+            [
+              27,
+              "Carl Lumbly",
+              "Supergirl",
+              "actor"
+            ],
+            [
+              28,
+              "Catherine Bell",
+              "Good Witch, JAG",
+              "actor"
+            ],
+            [
+              29,
+              "Charles Fleischer",
+              "Voice of Roger Rabbit",
+              "voice"
+            ],
+            [
+              30,
+              "Charlie (fka Dakota Kai)",
+              "WWE, NXT",
+              "sports"
+            ],
+            [
+              31,
+              "Chris Bartlett",
+              "The Mandalorian",
+              "actor"
+            ],
+            [
+              32,
+              "Christina Ricci",
+              "The Addams Family",
+              "actor"
+            ],
+            [
+              33,
+              "Christopher Lloyd",
+              "Who Framed Roger Rabbit, Back to the Future",
+              "actor"
+            ],
+            [
+              34,
+              "Cote de Pablo",
+              "NCIS",
+              "actor"
+            ],
+            [
+              35,
+              "Dallas Liu",
+              "Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              36,
+              "Daniela Ruah",
+              "NCIS: Los Angeles",
+              "actor"
+            ],
+            [
+              37,
+              "Daphne Rubin-Vega",
+              "Hazbin Hotel, In the Heights",
+              "voice"
+            ],
+            [
+              38,
+              "Dascha Polanco",
+              "Orange Is the New Black",
+              "actor"
+            ],
+            [
+              39,
+              "David Acord",
+              "Star Wars sound/voice designer",
+              "voice"
+            ],
+            [
+              40,
+              "David Humphrey",
+              "Voice of Shadow in Sonic games",
+              "voice"
+            ],
+            [
+              41,
+              "David James Elliott",
+              "JAG, NCIS: Los Angeles",
+              "actor"
+            ],
+            [
+              42,
+              "David Ramsey",
+              "Arrow",
+              "actor"
+            ],
+            [
+              43,
+              "Demolition",
+              "WWE tag team",
+              "sports"
+            ],
+            [
+              44,
+              "Don Bluth",
+              "An American Tail director",
+              "animation"
+            ],
+            [
+              45,
+              "Don Most",
+              "Happy Days",
+              "actor"
+            ],
+            [
+              46,
+              "Elizabeth Yu",
+              "Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              47,
+              "Eric Christian Olsen",
+              "NCIS: Los Angeles",
+              "actor"
+            ],
+            [
+              48,
+              "Erica Lindbeck",
+              "Helluva Boss",
+              "voice"
+            ],
+            [
+              49,
+              "Erika Henningsen",
+              "Hazbin Hotel, Helluva Boss",
+              "voice"
+            ],
+            [
+              50,
+              "Ernest Lee Thomas",
+              "What's Happening!!",
+              "actor"
+            ],
+            [
+              51,
+              "Gordon Cormier",
+              "Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              52,
+              "Grace Van Dien",
+              "Stranger Things",
+              "actor"
+            ],
+            [
+              53,
+              "Greg Cipes",
+              "Teen Titans, TMNT, Ben 10",
+              "voice"
+            ],
+            [
+              54,
+              "Hamish Linklater",
+              "Gen V",
+              "actor"
+            ],
+            [
+              55,
+              "Haywood Nelson",
+              "What's Happening!!",
+              "actor"
+            ],
+            [
+              56,
+              "Heather Graham",
+              "Austin Powers: The Spy Who Shagged Me",
+              "actor"
+            ],
+            [
+              57,
+              "Henry Winkler",
+              "Happy Days",
+              "actor"
+            ],
+            [
+              58,
+              "Huey Lewis",
+              "Huey Lewis and the News, Back to the Future",
+              "music"
+            ],
+            [
+              59,
+              "Ian Ousley",
+              "Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              60,
+              "Jack DeSena",
+              "Avatar: The Last Airbender",
+              "voice"
+            ],
+            [
+              61,
+              "Jack Quaid",
+              "The Boys",
+              "actor"
+            ],
+            [
+              62,
+              "Jaimie Alexander",
+              "Thor, Blindspot",
+              "actor"
+            ],
+            [
+              63,
+              "Jake Connelly",
+              "Stranger Things",
+              "actor"
+            ],
+            [
+              64,
+              "Janie Haddad Tompkins",
+              "Regular Show",
+              "voice"
+            ],
+            [
+              65,
+              "Jason Faunt",
+              "Power Rangers Time Force",
+              "actor"
+            ],
+            [
+              66,
+              "Jeff Bergman",
+              "Looney Tunes, Toy Story",
+              "voice"
+            ],
+            [
+              67,
+              "Jeremy Jordan",
+              "Hazbin Hotel",
+              "voice"
+            ],
+            [
+              68,
+              "Jerry Trainor",
+              "iCarly",
+              "actor"
+            ],
+            [
+              69,
+              "Jim Beaver",
+              "The Boys",
+              "actor"
+            ],
+            [
+              70,
+              "Jimmy Hart",
+              "WWE, WCW",
+              "sports"
+            ],
+            [
+              71,
+              "Joanna Cassidy",
+              "Who Framed Roger Rabbit",
+              "actor"
+            ],
+            [
+              72,
+              "John DiMaggio",
+              "Chowder, Futurama",
+              "voice"
+            ],
+            [
+              73,
+              "John Morris",
+              "Toy Story",
+              "voice"
+            ],
+            [
+              74,
+              "Josh Duhamel",
+              "Transformers",
+              "actor"
+            ],
+            [
+              75,
+              "Justin Bartha",
+              "The Hangover, National Treasure",
+              "actor"
+            ],
+            [
+              76,
+              "Karen Fukuhara",
+              "The Boys",
+              "actor"
+            ],
+            [
+              77,
+              "Karl Urban",
+              "The Boys",
+              "actor"
+            ],
+            [
+              78,
+              "Kathleen Turner",
+              "Romancing the Stone",
+              "actor"
+            ],
+            [
+              79,
+              "Katrina Law",
+              "NCIS",
+              "actor"
+            ],
+            [
+              80,
+              "Keith Silverstein",
+              "Genshin Impact",
+              "voice"
+            ],
+            [
+              81,
+              "Kelli Berglund",
+              "Heels",
+              "actor"
+            ],
+            [
+              82,
+              "Kelly Collins Lintz",
+              "Stranger Things",
+              "actor"
+            ],
+            [
+              83,
+              "Ken Jeong",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              84,
+              "Kevin Durand",
+              "Lost, The Strain",
+              "actor"
+            ],
+            [
+              85,
+              "Kimiko Glenn",
+              "Hazbin Hotel, Kiff",
+              "voice"
+            ],
+            [
+              86,
+              "Kirsten Vangsness",
+              "Criminal Minds",
+              "actor"
+            ],
+            [
+              87,
+              "Lauren Holly",
+              "NCIS",
+              "actor"
+            ],
+            [
+              88,
+              "Laz Alonso",
+              "The Boys",
+              "actor"
+            ],
+            [
+              89,
+              "Lisa Ortiz",
+              "Sonic the Hedgehog",
+              "voice"
+            ],
+            [
+              90,
+              "Lou Hirsch",
+              "Who Framed Roger Rabbit",
+              "voice"
+            ],
+            [
+              91,
+              "Madison Lintz",
+              "Bosch",
+              "actor"
+            ],
+            [
+              92,
+              "Mae Whitman",
+              "Avatar: The Last Airbender",
+              "voice"
+            ],
+            [
+              93,
+              "Maggie Grace",
+              "Lost",
+              "actor"
+            ],
+            [
+              94,
+              "Malakai Black",
+              "WWE, AEW",
+              "sports"
+            ],
+            [
+              95,
+              "Mallorie Rodak",
+              "Fairy Tail",
+              "voice"
+            ],
+            [
+              96,
+              "Maria Zhang",
+              "Avatar: The Last Airbender (plays Suki)",
+              "actor"
+            ],
+            [
+              97,
+              "Matt Ryan",
+              "Arrowverse (Constantine)",
+              "actor"
+            ],
+            [
+              98,
+              "Matthew Wood",
+              "Voice of General Grievous, Star Wars sound editor",
+              "voice"
+            ],
+            [
+              99,
+              "May Hong",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              100,
+              "Melissa Fahn",
+              "Invader Zim",
+              "voice"
+            ],
+            [
+              101,
+              "Melissa Gilbert",
+              "Little House on the Prairie",
+              "actor"
+            ],
+            [
+              102,
+              "Michael Douglas",
+              "Ant-Man, Wall Street",
+              "actor"
+            ],
+            [
+              103,
+              "Michael Weatherly",
+              "NCIS, Bull",
+              "actor"
+            ],
+            [
+              104,
+              "Michaela Jill Murphy",
+              "Avatar: The Last Airbender",
+              "actor"
+            ],
+            [
+              105,
+              "Mick Foley",
+              "WWE Hall of Fame wrestler",
+              "sports"
+            ],
+            [
+              106,
+              "Mickie James",
+              "WWE, TNA Wrestling",
+              "sports"
+            ],
+            [
+              107,
+              "Mimi Rogers",
+              "Bosch",
+              "actor"
+            ],
+            [
+              108,
+              "Minty Lewis",
+              "Regular Show",
+              "voice"
+            ],
+            [
+              109,
+              "Natasha Liu Bordizzo",
+              "Ahsoka",
+              "actor"
+            ],
+            [
+              110,
+              "Nick Apostolides",
+              "Resident Evil: Requiem (Leon Kennedy)",
+              "voice"
+            ],
+            [
+              111,
+              "Nicky Jones",
+              "Chowder",
+              "voice"
+            ],
+            [
+              112,
+              "Nolan North",
+              "Assassin's Creed",
+              "voice"
+            ],
+            [
+              113,
+              "Patricia Patts",
+              "Voice of Peppermint Patty in Peanuts",
+              "voice"
+            ],
+            [
+              114,
+              "Patina Miller",
+              "Hazbin Hotel, The Hunger Games",
+              "voice"
+            ],
+            [
+              115,
+              "Patrick Labyorteaux",
+              "JAG, Little House on the Prairie",
+              "actor"
+            ],
+            [
+              116,
+              "Paul Blake",
+              "Star Wars (Greedo)",
+              "actor"
+            ],
+            [
+              117,
+              "Paul Sun-Hyung Lee",
+              "Star Wars Universe",
+              "actor"
+            ],
+            [
+              118,
+              "Ralph Macchio",
+              "Karate Kid, Cobra Kai",
+              "actor"
+            ],
+            [
+              119,
+              "Rich Keeble",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              120,
+              "Richard Horvitz",
+              "Hazbin Hotel, Helluva Boss, Invader Zim, Psychonauts",
+              "voice"
+            ],
+            [
+              121,
+              "Rider Strong",
+              "Boy Meets World",
+              "actor"
+            ],
+            [
+              122,
+              "Rikki Simons",
+              "Invader Zim (GIR)",
+              "voice"
+            ],
+            [
+              123,
+              "R.L. Stine",
+              "Goosebumps",
+              "author"
+            ],
+            [
+              124,
+              "Robert John Burke",
+              "Law & Order: SVU, RoboCop",
+              "actor"
+            ],
+            [
+              125,
+              "Road Dogg",
+              "New Age Outlaws, D-Generation X",
+              "sports"
+            ],
+            [
+              126,
+              "Ross Marquand",
+              "X-Men '97, Invincible",
+              "voice"
+            ],
+            [
+              127,
+              "Ryan Drummond",
+              "Sonic the Hedgehog",
+              "voice"
+            ],
+            [
+              128,
+              "Sam Haft",
+              "Helluva Boss, Hazbin Hotel",
+              "voice"
+            ],
+            [
+              129,
+              "Sam Marin",
+              "Regular Show",
+              "voice"
+            ],
+            [
+              130,
+              "Sam Witwer",
+              "Star Wars (Darth Maul), Being Human",
+              "voice"
+            ],
+            [
+              131,
+              "Saraya (Paige)",
+              "Professional wrestler",
+              "sports"
+            ],
+            [
+              132,
+              "Scott Dreier",
+              "Sonic the Hedgehog",
+              "voice"
+            ],
+            [
+              133,
+              "Shala Nyx",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              134,
+              "Simon J. Williamson",
+              "Return of the Jedi puppeteer",
+              "actor"
+            ],
+            [
+              135,
+              "Stephen Amell",
+              "Arrow",
+              "actor"
+            ],
+            [
+              136,
+              "Steve Cardenas",
+              "Mighty Morphin Power Rangers",
+              "actor"
+            ],
+            [
+              137,
+              "Temuera Morrison",
+              "Star Wars",
+              "actor"
+            ],
+            [
+              138,
+              "Terry Farrell",
+              "Star Trek: Deep Space Nine",
+              "actor"
+            ],
+            [
+              139,
+              "Thea Trinidad",
+              "WWE, TNA Wrestling",
+              "sports"
+            ],
+            [
+              140,
+              "Titus Welliver",
+              "Bosch",
+              "actor"
+            ],
+            [
+              141,
+              "Tomer Capone",
+              "The Boys",
+              "actor"
+            ],
+            [
+              142,
+              "Tracy Lynn Cruz",
+              "Power Rangers Turbo",
+              "actor"
+            ],
+            [
+              143,
+              "Vanessa Marshall",
+              "Star Wars Rebels (Hera Syndulla)",
+              "voice"
+            ],
+            [
+              144,
+              "Vivian Nixon Williams",
+              "Helluva Boss, Grey's Anatomy",
+              "voice"
+            ],
+            [
+              145,
+              "Vivienne Medrano",
+              "Creator of Hazbin Hotel, Helluva Boss",
+              "animation"
+            ],
+            [
+              146,
+              "Will Friedle",
+              "Boy Meets World",
+              "actor"
+            ],
+            [
+              147,
+              "William Salyers",
+              "Regular Show",
+              "voice"
+            ],
+            [
+              148,
+              "William Zabka",
+              "Karate Kid franchise",
+              "actor"
+            ],
+            [
+              149,
+              "Zach Tyler Eisen",
+              "Avatar: The Last Airbender",
+              "voice"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/rhode-island-comic-con-2.guests.json",
+          "picks": [
+            [
+              1,
+              "Ariel Diaz",
+              "Witchblade, Vampirella",
+              "comics"
+            ],
+            [
+              2,
+              "Ben Bishop",
+              "TMNT: The Last Ronin",
+              "comics"
+            ],
+            [
+              3,
+              "Bill Morrison",
+              "The Simpsons comics",
+              "comics"
+            ],
+            [
+              4,
+              "Camron Johnson",
+              "TMNT: The Last Ronin, DC, Marvel",
+              "comics"
+            ],
+            [
+              5,
+              "Danny Fingeroth",
+              "Spider-Man, former Marvel editor",
+              "comics"
+            ],
+            [
+              6,
+              "Darryl Petrucci",
+              "Fantasy art & illustration",
+              "comics"
+            ],
+            [
+              7,
+              "David Silverman",
+              "The Simpsons animation director",
+              "animation"
+            ],
+            [
+              8,
+              "David Thorn Wenzel",
+              "The Hobbit graphic novel",
+              "comics"
+            ],
+            [
+              9,
+              "Drew Moss",
+              "Thundercats",
+              "comics"
+            ],
+            [
+              10,
+              "James Mulligan",
+              "Disney art",
+              "comics"
+            ],
+            [
+              11,
+              "John Giang",
+              "Spider-Man",
+              "comics"
+            ],
+            [
+              12,
+              "Keith Williams",
+              "The Phantom",
+              "comics"
+            ],
+            [
+              13,
+              "Mico Suayan",
+              "Moon Knight",
+              "comics"
+            ],
+            [
+              14,
+              "Peter Raymundo",
+              "Lilo & Stitch, Tarzan",
+              "animation"
+            ],
+            [
+              15,
+              "Peter Smith",
+              "Thundercats, Gargoyles",
+              "comics"
+            ],
+            [
+              17,
+              "Sam de la Rosa",
+              "Venom",
+              "comics"
+            ],
+            [
+              18,
+              "Scott Hanna",
+              "Detective Comics",
+              "comics"
+            ],
+            [
+              19,
+              "Steven Ahola",
+              "Transformers, Thundercats",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'NOVEMBER 6 - 8, 2026' and 'RHODE ISLAND CONVENTION CENTER & AMICA MUTUAL PAVILION 1 SABIN STREET PROVIDENCE, RI 02903'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Celebrities page and Artists (comics creators) page are two separate lineup files; R.L. Stine appears on both and is picked once (as author, from the celebrities page). Artist Alley tables (plain photo grid, no names) and an 'Unable to Attend' section (incl. Bob McLeod) were skipped per the skip rules. One card's 'known for' field reads 'Mick Foley ... KNOWN FOR: AVATAR: THE LAST AIRBENDER', which is clearly a copy/paste templating error on the site (he is a WWE Hall of Fame wrestler with no connection to that franchise); corrected here rather than repeated."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dreamation",
+  "name": "Dreamation",
+  "short": "",
+  "url": "https://www.dexposure.com",
+  "organizer": "Double Exposure, Inc.",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A tabletop and live-action role-playing convention run by Double Exposure at the Hyatt Regency Morristown, focused on structured-play RPG sessions.",
+  "cover": { "file": "pipeline/cache/extract/dreamation.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-02-19",
+    "end": "2026-02-22",
+    "city": "Morristown",
+    "region": "NJ",
+    "country": "US",
+    "venue": "Hyatt Regency Morristown & Conference Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "dexposure.com (redirects to /home.html) is a sparse, mostly-archival site. Its newest dated announcement (9-21-25) gives Dreamation 2026 as Feb 19-22, 2026 — already in the past relative to the research window — and no 2027 Dreamation date is posted anywhere on the site, so editions is empty and the 2026 dates are recorded as 'last' instead. No og/twitter image or logo exists on the page; cover falls back to the site's generic 'tempheader.jpg' header graphic since the only other branded image found (m2026black.jpg) is for METATOPIA, a different convention by the same organizer, not Dreamation. The batch note that this convention 'shifted to late May in 2026 only due to the World Cup' and is a 'successor to the long-running DexCon' actually describes a sibling convention: the site's own text says 'DEXLITE will shift dates for 2026 (ONLY)! ... it will move to late May' because of World Cup hotel contracts — Dreamation itself stayed in its normal February slot and is presented on the site as a separate, unrelated convention from DexCon/DexLite."
+}

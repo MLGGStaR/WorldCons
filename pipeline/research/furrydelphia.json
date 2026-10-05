@@ -1,0 +1,30 @@
+{
+  "id": "furrydelphia",
+  "name": "Furrydelphia",
+  "short": "FD",
+  "url": "https://furrydelphia.org",
+  "organizer": "Furrydelphia, Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Philadelphia's furry fandom convention: a charity-focused weekend of panels, art and community each August at the Sheraton Downtown Philadelphia.",
+  "cover": { "file": "pipeline/cache/extract/furrydelphia.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-08-05",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Sheraton Downtown Philadelphia",
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner text: 'August 5-8, 2027'; page title 'Furrydelphia 2027: In Debt to a Raccoon'; text: 'Join us at the Sheraton Downtown Philadelphia Philadelphia, PA'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Furrydelphia, Inc. is a 501(c)(3) running an annual 3-day (Thu-Sun) furry convention in Philadelphia. The 2027 theme is 'In Debt to a Raccoon', Aug 5-8, 2027, at the Sheraton Downtown Philadelphia (201 North 17th Street). No Guest of Honor, ticket price or guest page has been announced yet (confirmed via web search: 'the 2027 ticket price, charity, and Guest of Honor have not been published'), so guests is 'none-yet'. The homepage 'About' page lists photos of people, but they are the convention's Board of Directors/staff (Chairman, Vice-Chairman, etc.), not guests, so they were skipped per the research rules. Nav items Home/About/Applications/Convention are client-side routed with no crawlable hrefs besides Hotel, so only Home and About could be checked directly."
+}

@@ -51,7 +51,17 @@ Guest lineups change every week, so the data is a dated snapshot. To refresh:
 4. `node pipeline/tools/audit-guests.mjs --reextract` flags lineups that may be incomplete;
    `pipeline/workflows/fixup.js` rechecks them, backfills last-held dates, finds missing
    photos (written to `pipeline/overrides/photos-*.json`) and researches leftovers.
-5. `npm run build:data`, `npm test`, `node pipeline/tools/interact.mjs`,
+5. Stale lineups: cons leave last year's guests up for months, so every lineup for a
+   show more than a few months out goes through the fix-up `verify` and then `refute`
+   kinds (a skeptic that keeps a guest only with per-guest proof for this edition).
+   `node pipeline/tools/stale-scan.mjs --before <date>` flags nearer shows whose guest
+   page or photo uploads carry an earlier year.
+6. Wrong faces: `node pipeline/tools/audit-picks.mjs` checks every pick's card names that
+   guest (`--fix` re-points picks to the card clearly labelled with the name). Cards whose
+   name is only inside the image go through the fix-up `picks` kind, which screenshots
+   them with `pipeline/tools/card-shot.mjs`; checked ones are listed in
+   `pipeline/overrides/picks-verified.json`.
+7. `npm run build:data`, `npm test`, `node pipeline/tools/interact.mjs`,
    `node pipeline/tools/build-og.mjs`, `node pipeline/stamp.mjs`, then commit and push.
 
 `pipeline/cache/` (rendered pages and downloaded originals) stays on the machine that ran

@@ -1,0 +1,15 @@
+{
+  "id": "saboten-con",
+  "name": "Saboten Con",
+  "short": "",
+  "url": "https://www.sabotencon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Arizona's largest and longest-running anime convention, held over Labor Day weekend in downtown Phoenix.",
+  "cover": { "file": "pipeline/cache/extract/saboten-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-04", "end": "2026-09-07", "city": "Phoenix", "region": "AZ", "country": "US", "venue": "Sheraton Phoenix Downtown" },
+  "checked": "2026-10-05",
+  "notes": "2026 edition (Sept 4-7) already ended before the research window. Homepage and a WebSearch turned up no announced 2027 dates yet; the con is annually held over Labor Day weekend so a 2027 edition is expected but unconfirmed."
+}

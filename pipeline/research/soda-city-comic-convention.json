@@ -1,0 +1,15 @@
+{
+  "id": "soda-city-comic-convention",
+  "name": "Soda City Comic Convention",
+  "short": "",
+  "url": "https://www.sodacitycomiccon.com",
+  "organizer": "Soda City Comic Con, LLC",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "The premier comic and pop-culture convention of South Carolina's Midlands, held each summer at the Columbia Metropolitan Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/soda-city-comic-convention.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-22", "end": "2026-08-23", "city": "Columbia", "region": "SC", "country": "US", "venue": "Columbia Metropolitan Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Homepage still displays 'SODA CITY COMIC CON 2026 ... August 22-23, 2026' (with its countdown timer at zero), which is before today (2026-10-05), so that was its most recent edition and is recorded as 'last'. No 2027 date is announced on the site (it only invites contact 'for vendor/artist registration information for future events') or anywhere else found via search, so editions is empty. Organizer confirmed via its Eventbrite organizer page: 'Soda City Comic Con, LLC'."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "artists-assemble-horror-fest",
+  "name": "Artists Assemble Horror Fest",
+  "short": "",
+  "url": "https://artistsassembleproductions.com",
+  "organizer": "Artists Assemble Productions",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Annual Halloween-season horror convention in Mesa with celebrity guests, a costume contest and trick-or-treating.",
+  "cover": { "file": "pipeline/cache/extract/artists-assemble-horror-fest.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Mesa", "region": "AZ", "country": "US", "venue": "DoubleTree Hilton - Mesa" },
+  "checked": "2026-10-05",
+  "notes": "The 5th annual Horror Fest (Oct 2-4, 2026) ended the day before the research window opens (2026-10-05), so it is recorded as 'last' rather than an upcoming edition. The site keeps a yearly archive (Horror Fest 2022-2026) but has not yet posted a 2027 page/link, so next-year dates are not announced."
+}

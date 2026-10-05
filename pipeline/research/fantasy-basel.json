@@ -1,0 +1,30 @@
+{
+  "id": "fantasy-basel",
+  "name": "Fantasy Basel",
+  "short": "",
+  "url": "https://www.fantasybasel.ch/en/",
+  "organizer": "FantasyCon AG",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Switzerland's largest pop-culture festival, 'The Swiss Comic Con' in Basel, with film/TV stars, cosplay, artist alley, gaming and comics; drew 103,000 visitors in 2026.",
+  "cover": { "file": "pipeline/cache/extract/fantasy-basel.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-05-15",
+      "end": "2027-05-17",
+      "dates": "confirmed",
+      "venue": "Messe Basel",
+      "city": "Basel",
+      "region": "",
+      "country": "CH",
+      "tickets": "https://www.fantasybasel.ch/en/tickets",
+      "guestsPage": "https://www.fantasybasel.ch/en/stars-actors",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner and news posts: '15. - 17.05.2027', 'JUL 1 2026 Save the NEW Date: The next festival will take place from May 15 to 17, 2027', and 'SEP 1 2026 Advance ticket sales are now open ... for FANTASY BASEL – The Swiss Comic Con 2027'. Venue (Messe Basel) confirmed via Wikipedia."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Tickets for 2027 are already on sale, but the guest page's own <title> is still 'Stars & Actors 2026' (every other program page is likewise still suffixed '2026': Cosplay Village 2026, Artist Alley 2026, Creators Lounge 2026, etc.) and the news feed's most recent items are retrospective on the 2026 show (aftermovie, photo gallery) rather than new 2027 announcements, so the ~44 names currently pictured there (Ivana Baquero, Sophie Skelton, Adelaide Kane, Tim Downie, Samantha Béart, several DC/Marvel comic artists, YouTubers, etc.) are being treated as last year's lineup, not yet confirmed for 2027; guests is 'none-yet'. Organizer 'FantasyCon AG' came from the copyright line on the site's soft-404 page. Used the dedicated '...2027-header-facebook' banner image as cover since it is the only image explicitly made for this edition; the og:image is just the white wordmark logo."
+}

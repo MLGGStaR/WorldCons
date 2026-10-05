@@ -1,0 +1,22 @@
+{
+  "id": "manga-comic-con-vietnam",
+  "name": "Manga Comic Con Vietnam",
+  "short": "",
+  "url": "https://mangacomiccon.vn",
+  "organizer": "VIETFEST / DTS GROUP / FM STUDIO",
+  "status": "inactive",
+  "types": ["comics", "anime", "cosplay"],
+  "blurb": "A Ho Chi Minh City manga, comics and cosplay convention last held in July 2023, with no new edition announced since.",
+  "cover": { "file": "pipeline/cache/extract/manga-comic-con-vietnam.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2023-07-29",
+    "end": "2023-07-30",
+    "city": "Ho Chi Minh City",
+    "region": "",
+    "country": "VN",
+    "venue": "Sky Expo Exhibition Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "Official homepage (mangacomiccon.vn) currently shows only 'coming soon... Contact Us: toanpham@vietfest.vn' with a link to the archived 2023 microsite (2023.mangacomiccon.vn); the page's <title> still reads '...2024' but that is stale metadata, not an announced edition. No JSON-LD, date text, hero images or guest page exist on the live site; the only usable image is the MCCV logo (used as cover). WebSearch (2) found a Facebook page (facebook.com/mccvnn) and press coverage of the 2023 edition but no announcement of a 2024, 2025 or 2026 edition. Last confirmed edition per the con's own archived 2023 site: dates '29/7 - 30/7/2023', venue 'Trung tam Trien lam Sky Expo (Quan 12)' = Sky Expo Exhibition Center, District 12, Ho Chi Minh City. Marked inactive given 3+ years of 'coming soon' with no new dates announced; re-check mangacomiccon.vn or the Facebook page for a revival. No guests recorded (no edition in the tracked window). Kept the given id/name."
+}

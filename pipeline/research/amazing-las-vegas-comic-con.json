@@ -1,0 +1,15 @@
+{
+  "id": "amazing-las-vegas-comic-con",
+  "name": "Amazing Las Vegas Comic Con",
+  "short": "",
+  "url": "https://www.amazingcomiccon.com",
+  "organizer": "Amazing Comic Conventions",
+  "status": "active",
+  "types": ["comics", "pop", "anime"],
+  "blurb": "Las Vegas's long-running comic and pop-culture convention at The Orleans Hotel, with guest signings, exhibitors and panels.",
+  "cover": { "file": "pipeline/cache/extract/amazing-las-vegas-comic-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-05-29", "end": "2026-05-31", "city": "Las Vegas", "region": "NV", "country": "US", "venue": "The Orleans Hotel" },
+  "checked": "2026-10-05",
+  "notes": "Homepage still shows only the already-past edition ('AMAZING LAS VEGAS COMIC CON May 29-30-31, 2026 The Orleans Hotel'); no 2027 dates are posted on the site and a search found only a third-party aggregator guessing 'likely May 2027' with no official confirmation, so editions is empty and the last confirmed edition is recorded instead. The same homepage also promotes a separate 'Amazing Comic Con Aloha' show in Hawaii ('More info coming soon!'); that is a different city under the same organizer/brand and is out of scope for this file."
+}

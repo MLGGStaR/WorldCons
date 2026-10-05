@@ -19,30 +19,10 @@
       "country": "CA",
       "tickets": "https://aikon.tix123.com/",
       "guestsPage": "https://ai-kon.org/programming/guests/",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/ai-kon.guests.json",
-          "picks": [
-            [1, "Alejandro Saab", "Voice actor and content creator", "voice"],
-            [2, "The 404s", "Improv comedy troupe (geekprov)", "other"],
-            [3, "Hayden Daviau", "Voice actor, vtuber Sylla Aria", "voice"],
-            [4, "Blake Roman", "Angel Dust in Hazbin Hotel", "voice"],
-            [5, "Emi Lo", "Lucy in Cyberpunk: Edgerunners", "voice"],
-            [6, "Greg Ayres", "Anime voice actor, 25+ years", "voice"],
-            [7, "Erika Henningsen", "Charlie in Hazbin Hotel", "voice"],
-            [8, "Amir Talai", "Alastor in Hazbin Hotel", "voice"],
-            [9, "Kristen McGuire", "Voice actor, 400+ anime/game credits", "voice"],
-            [11, "Clifford Chapin", "Voice actor in animation and games", "voice"],
-            [12, "Rock M Sakura", "RuPaul's Drag Race Season 12", "other"],
-            [13, "Joshua Waters", "Voice actor, Pikmin super-fan", "voice"]
-          ]
-        }
-      ],
-      "textOnlyGuests": [],
+      "guests": "none-yet",
       "evidence": "Homepage hero text: 'For the love of anime! July 16-18 2027 RBC Convention Centre Winnipeg, MB Canada'"
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Skipped candidate #10 'GHOST GiRL GOODS': confirmed via its guest page to be a Toronto clothing/vendor brand, not a person. The homepage headlines July 2027 dates and tickets while also linking an older 'Ai-Kon 2026 schedule'; the single Guests page has no year label, so it is treated as the 2027 lineup since 2027 is the only edition being promoted site-wide. Organizer name not confirmed on-site."
+  "notes": "Skipped candidate #10 'GHOST GiRL GOODS': confirmed via its guest page to be a Toronto clothing/vendor brand, not a person. The homepage headlines July 2027 dates and tickets while also linking an older 'Ai-Kon 2026 schedule'; the single Guests page has no year label, so it is treated as the 2027 lineup since 2027 is the only edition being promoted site-wide. Organizer name not confirmed on-site. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — the live July 16-18 2027 homepage links each of the 12 picked guests to its own current guest-profile page, and the only '2026' reference on-site is that archived schedule link, not a competing guest list. REFUTED (refute-04, 2026-10-05): each guest's own profile page lists 'Guest Signing Times' with explicit dates -- e.g. Alejandro Saab 'Saturday July 18th ... Sunday July 19th' and Rock M Sakura 'Friday July 17th ... Saturday July 18th'. Those weekday/date pairs (Fri 17/Sat 18/Sun 19) match 2026, not the 2027 edition (where July 16/17/18 are Fri/Sat/Sun) -- i.e. July 16-18, 2027 would be Fri/Sat/Sun, one day earlier than these schedules. Web search confirms Ai-Kon 2026 ran July 17-19, 2026 at the RBC Convention Centre (ended 3 months ago) with this exact roster (Alejandro Saab, Greg Ayres, Clifford Chapin, Hayden Daviau, Erika Henningsen, Emi Lo, Kristen McGuire, Blake Roman, Rock M. Sakura, Amir Talai, Joshua Waters). The homepage's 2027 date is template-level only; the guest grid and every guest's own signing schedule are unrefreshed leftovers from the July 2026 show. Guests reset to none-yet; lineup and textOnlyGuests removed until a genuine 2027 announcement appears."
 }

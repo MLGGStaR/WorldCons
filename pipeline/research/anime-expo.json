@@ -1,0 +1,30 @@
+{
+  "id": "anime-expo",
+  "name": "Anime Expo",
+  "short": "AX",
+  "url": "https://www.anime-expo.org/",
+  "organizer": "Society for the Promotion of Japanese Animation (SPJA)",
+  "status": "active",
+  "types": ["anime", "games", "pop"],
+  "blurb": "The largest celebration of Japanese pop culture in North America, held over July 4th weekend at the LA Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/anime-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-02",
+      "end": "2027-07-05",
+      "dates": "confirmed",
+      "venue": "Los Angeles Convention Center",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.anime-expo.org/ax/register/",
+      "guestsPage": "https://www.anime-expo.org/category/guest/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner and meta description: 'Anime Expo July 2-5, 2027 Los Angeles Convention Center Coming Soon!' / 'Join us in downtown Los Angeles on July 2-5, 2027!'. The page's JSON-LD event is stale (still dated 'Anime Expo 2026'); the visible text and a July 10, 2026 press release confirming AX 2026 'wraps its 35th edition' were trusted instead."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No dedicated 'all guests' roster page exists yet; the site's Guest blog category's newest post is from June 18, 2026 (about the 2026 show) with nothing posted yet for 2027, so guests is 'none-yet' rather than 'announced'."
+}

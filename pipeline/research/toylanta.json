@@ -1,0 +1,30 @@
+{
+  "id": "toylanta",
+  "name": "Toylanta",
+  "short": "",
+  "url": "https://www.toylanta.net",
+  "organizer": "A Good Journey LLC",
+  "status": "active",
+  "types": ["toys", "comics", "pop"],
+  "blurb": "A toy and collectibles convention at the Gas South Convention Center in Duluth, GA, with vintage toys, indie creators, comics and celebrity guests each April.",
+  "cover": { "file": "pipeline/cache/extract/toylanta.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Gas South Convention Center",
+      "city": "Duluth",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://www.toylanta.net/tickets",
+      "guestsPage": "https://www.toylanta.net/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'APRIL16-18, 2027 GAS SOUTH CONVENTION CENTER DULUTH, GA 30097'; guests page: 'GUEST INFO COMING SOON'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page itself says 'GUEST INFO COMING SOON' for the 2027 edition, so guests is 'none-yet' rather than guessed. Organizer taken from the footer copyright ('A Good Journey LLC'), which is dated 'Toylanta 2025' even though the event itself is dated April 2027 - a stale copyright year, not a different edition."
+}

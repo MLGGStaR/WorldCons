@@ -1,0 +1,6 @@
+clockwork-alchemy | 10 picks vs 24 person-sized images [pipeline/cache/extract/clockwork-alchemy.guests.json]
+comic-con-colombia-medellin | 1 picks vs 30 person-sized images [pipeline/cache/extract/comic-con-colombia-medellin.guests.json]
+comic-con-russia | 4 picks vs 21 person-sized images [pipeline/cache/extract/comic-con-russia.guests.json]
+creation-entertainment-salt-lake-city | 4 picks vs 26 person-sized images [pipeline/cache/extract/creation-entertainment-salt-lake-city.guests.json]
+dreamhack-stockholm | 2 picks vs 28 person-sized images [pipeline/cache/extract/dreamhack-stockholm.guests.json]
+facts | 5 picks vs 14 person-sized images [pipeline/cache/extract/facts.guests.json] || 10 picks vs 44 person-sized images [pipeline/cache/extract/facts-2.guests.json]

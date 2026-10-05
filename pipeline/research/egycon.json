@@ -1,0 +1,30 @@
+{
+  "id": "egycon",
+  "name": "EgyCon",
+  "short": "",
+  "url": "https://egycon.events/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "Egypt's anime and gaming festival in New Cairo, with cosplay contests, gaming tournaments, an artist bazaar and esports brackets.",
+  "cover": { "file": "pipeline/cache/extract/egycon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "dates": "confirmed",
+      "venue": "Family Park",
+      "city": "New Cairo",
+      "region": "",
+      "country": "EG",
+      "tickets": "https://tickets.egycon.events/halloween-iii",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Upcoming Event ... Scheduled for Friday, October 30, 2026 At Family Park, New Cairo, Egypt'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed cited 'EGYCON 13 set for April 10 2026', but that date is now in the past relative to this 2026-10-05 research window; the site's own homepage instead advertises its next event for 2026-10-30 at Family Park, New Cairo (ticket link slug 'halloween-iii', and the gallery references 'EGYCON 8 Highlights' and a Spacetoon concert from past events), which is the edition recorded here. The homepage describes cosplay, gaming tournaments/esports, an artist & merch area and a bazaar, but never mentions a celebrity/VIP guest program the way the other researched cons do, and no guest or lineup page/link could be found on the site (its nav appears to be JS-routed with no plain links beyond the ticket countdown), so guests is left as 'none-yet' rather than assumed. Seed types (anime, scifi, comics, cosplay) were narrowed to anime/games/cosplay to match what the live site actually describes (its own meta description calls it 'Egypt's ultimate anime & gaming convention'); no scifi or comics content was evidenced for this edition. No organizer entity name was given on the page."
+}

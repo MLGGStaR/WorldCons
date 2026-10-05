@@ -1,0 +1,30 @@
+{
+  "id": "penguicon",
+  "name": "Penguicon",
+  "short": "",
+  "url": "https://www.penguicon.org/",
+  "organizer": "Penguicon Inc",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A volunteer-run Michigan convention blending science fiction fandom with open-source software, maker culture, gaming and tech panels.",
+  "cover": { "file": "pipeline/cache/extract/penguicon-nl.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-08",
+      "end": "2027-04-11",
+      "dates": "confirmed",
+      "venue": "The Westin Southfield Detroit",
+      "city": "Southfield",
+      "region": "MI",
+      "country": "US",
+      "tickets": "https://penguicon2027.netlify.app/badges/",
+      "guestsPage": "https://penguicon2027.netlify.app/presenters/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD on the live site mirror: Event 'Penguicon 2027' 2027-04-08T00:00:00-04:00 to 2027-04-11T23:59:59-04:00 @ The Westin Southfield Detroit; homepage text 'APRIL 8-11, 2027 THE WESTIN SOUTHFIELD DETROIT'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "www.penguicon.org (and the 2027.penguicon.org subdomain the og:image points at) returns a Cloudflare bot challenge to headless rendering even via the msedge channel, so dates/venue/guests were confirmed from penguicon2027.netlify.app, which serves the same site content (same og:image on the 2027.penguicon.org domain, same JSON-LD) and is reachable. Its Presenters page is empty and its Schedule page says 'The 2027 schedule is still forming. There isn't a 2027 Sched yet', so guests is none-yet. The site's News feed has several 'Guest of Honor' posts with photos (Jim Butcher, Eric S Raymond, David Weber, Jennifer Blackstream, Tracy Barnett, Ryan Rose, and a cancelled Tanuki Dan), but all are dated Oct 2025-Mar 2026 and explicitly announce guests 'for Penguicon 2026' (one post, dated Mar 29 2026, is titled 'Penguicon 2026 feedback is open' and says 'Penguicon 2026 is wrapping up') — i.e. they describe the convention's already-completed prior edition, not the April 2027 edition, so they were not used as this edition's lineup. Organizer confirmed via the convention's Givebutter donation page ('Organized by Penguicon Inc', EIN 47-3977319)."
+}

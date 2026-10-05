@@ -1,0 +1,15 @@
+{
+  "id": "colorado-festival-of-horror",
+  "name": "Colorado Festival of Horror",
+  "short": "COFOH",
+  "url": "https://cofestivalofhorror.com",
+  "organizer": "COFOH Entertainment",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A home-grown, fan-run horror convention and film festival in Denver, Colorado, with a different theme each year.",
+  "cover": { "file": "pipeline/cache/extract/colorado-festival-of-horror.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": { "start": "2026-09-18", "end": "2026-09-20", "city": "Denver", "region": "CO", "country": "US", "venue": "Denver Marriott Tech Center" },
+  "checked": "2026-10-05",
+  "notes": "The homepage now speaks of 2026 in the past tense ('A huge thank you to all of our amazing guests... for making 2026 such a great success'; 'was back for its sixth terrifying year'), confirming the Sept 18-20, 2026 run at the Denver Marriott Tech Center already happened; no 2027 date has been announced, so editions is empty and that run is recorded as 'last'. No og/twitter image exists; the cover uses the site's own logo rather than the homepage's attendee/crowd photos. Guests were not extracted since there is no current or upcoming edition to attach them to."
+}

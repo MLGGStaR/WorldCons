@@ -1,0 +1,41 @@
+{
+  "id": "gameacon",
+  "name": "GameAcon",
+  "short": "GAC",
+  "url": "https://www.gameacon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "pop", "anime"],
+  "blurb": "Coachella Valley's gaming, anime and pop culture convention at The Shops at Palm Desert, with esports, cosplay and artist spaces every October.",
+  "cover": { "file": "pipeline/cache/extract/gameacon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "The Shops at Palm Desert",
+      "city": "Palm Desert",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/1978651479840?aff=oddtdtcreator",
+      "guestsPage": "https://www.gameacon.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/gameacon.guests.json",
+          "picks": [
+            [8, "Madison Brunoehler", "Voice actor: Happy Frog, Archer, Maychelle", "voice"],
+            [11, "Erik Kimerer", "Voice actor and indie wrestler", "voice"],
+            [24, "Alina Masquerade", "Cosplayer; retro and anime characters", "cosplay"],
+            [31, "Ray", "Cosplayer and professional aerialist", "cosplay"],
+            [35, "Shawn Cosplays", "Cosplayer, 3D printing and photography", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [["Janeshia Adams-Ginyard", "Stuntwoman, Black Panther; former bobsledder", "actor"], ["Beau Marie", "Actor/director; Gorr the God Butcher, Marvel Rivals", "actor"]],
+      "evidence": "Overview page: 'Coachella Valley October 17-18 2026 The Shops at Palm Desert Address: 72-840 CA-111, Palm Desert, CA'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page is a Wix photo-gallery widget and most image cards carry only a raw Facebook-CDN filename as alt text, not a name, so several otherwise-real guests could not be confidently identified and were left out rather than guessed. Four of the 'press to zoom' cards (#3,6,7,8,9) are different promo photos for the same voice actor, Madison Brunoehler (credits per the page include Happy Frog in Five Nights at Freddy's, Archer in Clash of Clans, and Maychelle in Farlight 84); only one is cited. The 'Star Trek the fleet' section groups several photos each for three individual cosplayers (Alina Masquerade, Ray, Shawn Cosplays), each appearing once here though cited by their first candidate number; the 'Star Trek: The Fleet' club itself (a Riverside/San Bernardino charity costuming group) is an exhibiting organization, not an individual guest, and was not added. Janeshia Adams-Ginyard (Emmy-nominated stuntwoman/actor, Black Panther, former US bobsled team) has a real bio paragraph on the page but it was not attached to any numbered image candidate by the extractor, so she is recorded in textOnlyGuests rather than the photo lineup. One further bio ('actor/director, Santaman (2022), video game voice roles') could not be matched to a name at all and was left out entirely. Picture-check pass (2026-10-05): candidate #11 is captioned 'ERIK KIMERER' directly on the promo image, with the bio text beside it ('voice actor for anime and video games, an indie wrestler... from Seattle, WA... Iguro Obanai (Demon Slayer), Gowther (Seven Deadly Sins), Speed-o'-Sound Sonic (One Punch Man), Ryuuji Takasu (Toradora)') matching the real voice actor/wrestler Erik Scott Kimerer, not Erik Braa (a different, older voice actor known for League of Legends' Draven/Jax/Vel'Koz, not a wrestler) -- the #11 pick's name corrected from 'Erik Braa' to 'Erik Kimerer', same card, same known-for. 'Beau Marie' (#13) was re-examined: that candidate's image (and the other 'BEAU MARIE'-sectioned candidates #15,17-23) are misfiled Star-Trek-the-Fleet cosplay/group photos and logo, not a photo of him, so no candidate on the page is actually his picture; moved from the photo lineup to textOnlyGuests. His own bio paragraph (sourced via card-shot of #11, printed directly beside/below the Erik Kimerer card) reads 'An actor, director, and crew member with over 100 credits... Santaman (2022)... Credits: Gorr the God Butcher — Marvel Rivals (2026 Season 10), Carnage — Marvel Snap' -- this is the same bio the original pass saw but could not attach to a name ('one further bio... could not be matched to a name at all'); it is Beau Marie's own bio (he is male, not 'her' as previously guessed), so known-for and cat ('actor', not 'cosplay') are now filled in from it instead of left blank."
+}

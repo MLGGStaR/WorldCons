@@ -1,0 +1,41 @@
+{
+  "id": "lvl-up-expo",
+  "name": "LVL UP Expo",
+  "short": "",
+  "url": "https://lvlupexpo.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "pop"],
+  "blurb": "A three-day gaming and pop-culture convention at the Las Vegas Convention Center with esports tournaments, cosplay and special guests.",
+  "cover": { "file": "pipeline/cache/extract/lvl-up-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Las Vegas Convention Center",
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://www.tixr.com/groups/lvlupexpo/events/lvl-up-expo-2027-194467",
+      "guestsPage": "https://lvlupexpo.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/lvl-up-expo.guests.json",
+          "picks": [
+            [1, "Cody Christian", "", "actor"],
+            [2, "Tyler Hoechlin", "", "actor"],
+            [3, "Britt Baron", "", "actor"],
+            [4, "Briana White", "", "voice"],
+            [5, "Suzie Yeung", "", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'GET YOUR BADGE April 23—25, 2027 Las Vegas, NV'; hotels page: 'Hotels near LVL UP EXPO 2027 Friday, April 23 to Sunday, April 25, 2027 | Las Vegas Convention Center'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on /guests/ give only a name, role and which days they're appearing (no specific show credits), so Known for is left blank. Cody Christian, Tyler Hoechlin and Britt Baron are filed under 'actor' since their cards list 'ACTOR, VOICE ACTOR' and they're primarily known for live-action roles; Briana White and Suzie Yeung say 'VOICE ACTOR' (+streamer). The site advertises '300+ Special Guests & Influencers' overall but only these five were posted on the guest page at research time. 2026-10-05 re-verify: trimmed 10 -> 5. The guest grid mixed two cohorts -- Cody Christian/Tyler Hoechlin/Britt Baron/Briana White/Suzie Yeung have card images uploaded to wp-content/uploads/2026/09 (last month, after the 2026 show's 'the ULTIMATE... 150,000+ Attendees in 2026' already reads past-tense on the homepage) and are reported in press coverage as the 2027 Final Fantasy VII voice cast; Adam McArthur, Abigail Blythe, Katelyn Barr, Mallorie Rodak and Jordan Dash Cruz have card images uploaded to wp-content/uploads/2025/09 (13+ months old, dating to the 2026 edition's own announcement cycle) with no 2027-specific evidence, so they are stale holdovers and were dropped."
+}

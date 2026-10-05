@@ -1,0 +1,30 @@
+{
+  "id": "cartoon-crossroads-columbus",
+  "name": "Cartoon Crossroads Columbus",
+  "short": "CXC",
+  "url": "https://cartooncrossroadscolumbus.org/",
+  "organizer": "Cartoon Crossroads Columbus (501(c)(3) nonprofit)",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Free annual festival of comics, animation and cartoon arts in Columbus, Ohio, presented by a coalition of local arts and educational institutions.",
+  "cover": { "file": "pipeline/cache/extract/cartoon-crossroads-columbus.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-04-15",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Columbus",
+      "region": "OH",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Next CXC Festival April 15–18, 2027. A free festival celebrating comics, animation, and cartoon arts in Columbus, Ohio.' and 'CXC Returns Spring 2027 Join us April 15–18, 2027—same festival, new season.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed URL cartooncrossroadscolumbus.com redirects to the .org domain, used here. CXC is a 501(c)(3) coalition of Columbus arts/education institutions (Billy Ireland Cartoon Library & Museum, Wexner Center for the Arts, CCAD, Columbus Museum of Art, etc.), founded 2015 by Jeff Smith and others (per web search; not stated on the homepage itself). No 2027 guest list is posted yet - the only guests link on the homepage is 'Past Guests & Award-Winners' (prior years), and exhibitor applications are still listed as 'Opening Soon', so guests is not-yet-announced for the April 2027 edition."
+}

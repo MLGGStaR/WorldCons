@@ -1,0 +1,30 @@
+{
+  "id": "fantastic-reads",
+  "name": "Fantastic Reads",
+  "short": "",
+  "url": "https://lochal.nl/fantasy",
+  "organizer": "Bibliotheek Midden-Brabant / Anderwereld",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The Netherlands' largest fantasy and sci-fi book fair, a free one-day event at the LocHal library in Tilburg.",
+  "cover": { "file": "pipeline/cache/extract/fantastic-reads-alt.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "dates": "confirmed",
+      "venue": "LocHal",
+      "city": "Tilburg",
+      "region": "",
+      "country": "NL",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "RosterCon event listing JSON-LD and text: 'Fantastic Reads (2026) ... November 7th 2026, LocHal, Burgemeester Brokxlaan, Tilburg, Netherlands'; corroborated by a second independent listing (dagjeweg.nl) for the same date/venue."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site (lochal.nl/fantasy, also tried as https://www.lochal.nl/fantasy and the bare domain https://lochal.nl/) could not be reached from here (net::ERR_CONNECTION_TIMED_OUT via extract.mjs with both the default and msedge channel, WebFetch, and a raw curl check all timed out), so this file is sourced from independent secondary listings instead: a RosterCon convention-listing page (which carries its own JSON-LD confirming Nov 7 2026 at LocHal) and a city event listing (dagjeweg.nl), which agree with each other. No specific 2026 author guests were named in any reachable source (only generic 'meet your favorite authors' marketing copy), so guests is 'none-yet'. The cover image is the most recent reachable key art, from the 2024 edition (via tilburg.com's event page for that year) — not 2026-specific artwork, since the official site's own current art could not be fetched; flagging this explicitly since it is a deviation from the normal 'current edition's own art' rule. Corrected types from the seed's ['scifi','tabletop'] to just ['scifi']: this is a book fair with author talks and workshops, with no tabletop-gaming content found anywhere."
+}

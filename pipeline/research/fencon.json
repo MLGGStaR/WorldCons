@@ -1,0 +1,30 @@
+{
+  "id": "fencon",
+  "name": "FenCon",
+  "short": "",
+  "url": "https://www.fencon.org/",
+  "organizer": "Dallas Future Society",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Fan-run literary and filk-focused science-fiction convention in the Dallas-Fort Worth area, with an art show.",
+  "cover": { "file": "pipeline/cache/extract/fencon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-12",
+      "end": "2027-03-14",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Dallas Market Center - Love Field",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.fencon.org/guests.aspx",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/title: 'FenCon XXII, March 12-14, 2027' and 'Crowne Plaza Dallas Market Center - Love Field, 7050 N. Stemmons Freeway, Dallas, TX'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Guests of Honor section currently just reads 'Watch this space for guest announcements!', so no 2027 lineup exists yet. The homepage text is internally inconsistent about the edition number, calling it 'FenCon XXII' in the page title/heading but 'FenCon XIII' in one later sentence; treated as XXII, which matches the page title and the batch note. No separate membership/registration link was found on the homepage (only Hotel and Guests), so tickets is left blank."
+}

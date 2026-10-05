@@ -1,0 +1,22 @@
+{
+  "id": "tantrumcon",
+  "name": "TantrumCon",
+  "short": "",
+  "url": "https://www.tantrumcon.com",
+  "organizer": "Tantrum House",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "An annual board-game convention in Charlotte, North Carolina, run by the Tantrum House board-game media company.",
+  "cover": { "file": "pipeline/cache/extract/tantrumcon.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-02-05",
+    "end": "2026-02-08",
+    "venue": "Le Méridien Charlotte",
+    "city": "Charlotte",
+    "region": "NC",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official site currently shows only 'TANTRUMCON 2027 INFO COMING SOON' with no dates, venue or links at all (a bare one-page placeholder), so no 2027 edition is recorded. A web search (news coverage) confirms TantrumCon has run annually in Charlotte every January/February, most recently Feb 5-8, 2026 at the Le Méridien Charlotte, which already ended well before the 2026-10-05 research window, so it is recorded as 'last'. Organizer Tantrum House confirmed via local news coverage ('TantrumCon, Tantrum House's annual board game convention, returns to the Queen City'). Guests/exhibitors were not researched since there is no upcoming edition to attach them to."
+}

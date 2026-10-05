@@ -1,0 +1,22 @@
+{
+  "id": "sandbox-swapmeet",
+  "name": "Sandbox Swapmeet",
+  "short": "",
+  "url": "https://sandboxswapmeet.me/events/dubai/",
+  "organizer": "",
+  "status": "active",
+  "types": ["toys", "anime", "comics", "cosplay"],
+  "blurb": "Dubai collectibles swapmeet with trading cards, comics, anime, K-pop and cosplay communities, now in its ninth volume.",
+  "cover": { "file": "pipeline/cache/extract/sandbox-swapmeet.home.json", "key": "hero:7" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-28",
+    "end": "2026-05-31",
+    "city": "Dubai",
+    "region": "",
+    "country": "AE",
+    "venue": "Dubai World Trade Centre"
+  },
+  "checked": "2026-10-05",
+  "notes": "Dubai page's own 'Upcoming Events' section says: 'Card Trade Show, Sticker Con and Sandbox Swapmeet Volume 9 is coming soon! Stay tuned at our Instagram account' - no date announced yet, matching the fixup note. Most recent confirmed Dubai edition is Volume 8, May 28-31 2026 at Dubai World Trade Centre. The brand also runs separate Abu Dhabi events (sandboxswapmeet.me/events/abu-dhabi) not covered by this Dubai-only id."
+}

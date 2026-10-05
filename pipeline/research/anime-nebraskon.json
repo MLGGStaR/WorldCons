@@ -1,0 +1,71 @@
+{
+  "id": "anime-nebraskon",
+  "name": "Anime NebrasKon",
+  "short": "AN",
+  "url": "https://animenebraskon.com/",
+  "organizer": "Nebraska Japanese Animation Society",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An anime convention serving the Omaha metro area at the Mid-America Center in Council Bluffs, Iowa, with voice actor, cosplay and DJ guests.",
+  "cover": { "file": "pipeline/cache/extract/anime-nebraskon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Mid-America Center",
+      "city": "Council Bluffs",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://animenebraskon.com/register/",
+      "guestsPage": "https://animenebraskon.com/industry-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-nebraskon.guests.json",
+          "picks": [
+            [1, "Keith Silverstein", "Zhongli in Genshin Impact", "voice"],
+            [2, "Alejandro Saab", "Voice actor, content creator (KaggyFilms)", "voice"],
+            [3, "Hayden Daviau", "Tribbie in Honkai: Star Rail", "voice"],
+            [4, "Bryce Papenbrook", "Voice actor across anime and games", "voice"],
+            [5, "Edward Bosco", "Alastor in Hazbin Hotel", "voice"],
+            [6, "Wendee Lee", "Faye Valentine in Cowboy Bebop", "voice"],
+            [7, "David Vincent", "Kento Nanami in Jujutsu Kaisen", "voice"],
+            [8, "Kyle Hebert", "Adult Gohan in Dragon Ball Z", "voice"],
+            [9, "Gaijin Goombah", "YouTuber, Japanese culture content", "creator"],
+            [10, "Robbie Daymond", "Tuxedo Mask in Sailor Moon", "voice"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-nebraskon-2.guests.json",
+          "picks": [
+            [1, "Casey Renee", "Award-winning cosplayer, author", "cosplay"],
+            [2, "Stay at Foam Dad Creations", "Foam armor fabricator", "cosplay"],
+            [3, "Folxy Cosplay", "Master-level cosplayer", "cosplay"],
+            [4, "Diana the Great", "Cosplayer, Kansas City metro", "cosplay"],
+            [5, "Cho Cosplay", "Cosplayer and costume designer", "cosplay"],
+            [6, "Hylian Cream Cosplay", "Sewing educator, cosplayer", "cosplay"],
+            [7, "Uptown Cosplay", "Master-level cosplayer, wig stylist", "cosplay"],
+            [8, "Pros and Cons Cosplay", "Twin Master-level cosplayers", "cosplay"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-nebraskon-3.guests.json",
+          "picks": [
+            [1, "Imyoonotyou", "K-pop DJ", "music"],
+            [2, "K!ll Screen", "Club, convention and rave DJ", "music"],
+            [3, "TsundereBoys", "Otaku/VGM-influenced producer, DJ", "music"],
+            [4, "DJ Sado_Naut", "Dark/alternative dancefloor DJ", "music"],
+            [5, "Hyddin", "Mystery-themed DJ", "music"],
+            [6, "Kent Vuong", "Anime/gaming-inspired DJ", "music"],
+            [7, "AphixSky and loophoof", "DJ duo, anime music", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'When is the convention? October 16 – 18, 2026 Where's the convention? Mid-America Center 1 Arena Way Council Bl[uffs]...'; the official key-art banner (og image) reads '2026 ANIME NEBRASKON FESTIVAL OF SPIRITS October 16-18, 2026'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests are split across three separate pages (Industry, Cosplay, DJ guests), each extracted and cited separately above. Two DJ stage names are stylised in all caps on the site (IMYOONOTYOU, K!LL SCREEN) and are written here in normal capitalisation per the naming rule. Several industry-guest bio cards were truncated by the extractor right before naming a specific character/show; where the card text was unambiguous up to the cut (e.g. Edward Bosco: '...lent his voice to the Alastor in th[e Hazbin Hotel]') the obvious, unique completion was used, and where the card gave no specific credit before the cutoff (Bryce Papenbrook, Gaijin Goombah, several DJs) a generic known-for drawn only from the visible card text was used instead of guessing a specific role. All guest cards under each section header were counted once (the extractor groups some cards under the preceding guest's name as 'section', which is just a layout artifact, not a second listing of that guest)."
+}

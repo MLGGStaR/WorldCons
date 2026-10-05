@@ -1,0 +1,22 @@
+{
+  "id": "cardzcon-riyadh",
+  "name": "CardzCon Trade Night Riyadh",
+  "short": "",
+  "url": "https://www.cardzcon.com/riyadh",
+  "organizer": "Art of Cardz",
+  "status": "active",
+  "types": ["toys"],
+  "blurb": "Riyadh trading-card trade night from the CardzCon brand, held as a preview ahead of its main Doha convention.",
+  "cover": { "file": "pipeline/cache/extract/cardzcon-riyadh.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-14",
+    "end": "2026-08-15",
+    "city": "Riyadh",
+    "region": "",
+    "country": "SA",
+    "venue": "Radisson Blu Hotel, Riyadh Convention & Exhibition Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "Found while researching the Gulf fixup list (not previously in series.json/pipeline/research). The official Riyadh page says the event 'has concluded' and 'CardzCon is heading to Doha next' (see cardzcon-doha), with no next Riyadh date announced, so this may have been a one-off preview rather than an annual Riyadh fixture; recorded separately from cardzcon-doha per the multi-city rule."
+}

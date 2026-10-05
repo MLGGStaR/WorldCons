@@ -1,0 +1,15 @@
+{
+  "id": "tacticon",
+  "name": "TactiCon",
+  "short": "",
+  "url": "https://gamergirlgames.com/",
+  "organizer": "Gamer Girl Games",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "Colorado tabletop gaming convention with 24-hour board, card and roleplaying game play at the Hyatt Regency Aurora-Denver.",
+  "cover": { "file": "pipeline/cache/extract/tacticon.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-08-27", "end": "2026-08-30", "city": "Aurora", "region": "CO", "country": "US", "venue": "Hyatt Regency Aurora-Denver Conference Center" },
+  "checked": "2026-10-05",
+  "notes": "The given url (tacticon.org) is now a dead HostGator parked page ('please configure your name servers') -- not TactiCon's site at all. tacticon.games is a different, unrelated 'TactiCon': a digital Steam convention for tactics video games hosted by Hooded Horse & Firesquid. The real Colorado tabletop/RPG TactiCon ('GenghisCon's younger sibling') is organized by Gamer Girl Games, the same company behind GenghisCon, both run at the Hyatt Regency Aurora-Denver Conference Center. gamergirlgames.com/tacticon-2026/ confirms the most recent edition ran August 27-30, 2026 (already past as of this 2026-10-05 check, so recorded as \"last\"); no 2027 TactiCon dates have been announced anywhere yet (not on gamergirlgames.com, tabletop.events, or Facebook facebook.com/tacticoncolorado), so editions is empty. Used the organizer's site root as url since the dated /tacticon-2026/ page will go stale. Id kept as given (matches the convention's own name) despite the url correction. Cover: TactiCon-specific logo from gamergirlgames.com/tacticon-2026/ (logo:0); no wide key-art banner was available. Guests: no guest/author list found on the organizer's TactiCon pages."
+}

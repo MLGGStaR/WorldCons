@@ -1,0 +1,30 @@
+{
+  "id": "c2e2",
+  "name": "C2E2",
+  "short": "",
+  "url": "https://www.c2e2.com/",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": ["comics", "pop", "anime"],
+  "blurb": "Chicago's downtown pop-culture convention for comics, cosplay, gaming, anime and literary authors at McCormick Place.",
+  "cover": { "file": "pipeline/cache/extract/c2e2.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "McCormick Place",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://www.c2e2.com/en-us/buy/tickets.html",
+      "guestsPage": "https://www.c2e2.com/en-us/guests.html",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'April 30 - May 2, 2027 McCormick Place.' (The page's own JSON-LD gives slightly different UTC timestamps for the same event; the visible banner text was trusted per instructions.)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page (and a retry at the ReedPop-pattern /guests/all-guests.html URL, which just redirected back to the same page) rendered with no real guest-card images -- only nav/footer chrome -- except one bare heading-level name, 'William Daniels', with no photo, bio or role text attached. Could not confirm a photo or credit for him, and did not want to guess his category, so the edition is recorded as guests: 'unavailable' rather than fabricating a pick. The guest grid likely needs further client-side interaction (a filter/category tab) that this renderer did not trigger."
+}

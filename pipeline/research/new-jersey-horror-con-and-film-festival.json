@@ -1,0 +1,30 @@
+{
+  "id": "new-jersey-horror-con-and-film-festival",
+  "name": "New Jersey Horror Con and Film Festival",
+  "short": "",
+  "url": "https://www.newjerseyhorrorcon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A semi-annual horror and pop-culture convention and film festival at Iron Peak in Hillsborough, NJ, with celebrity guests and a cosplay contest.",
+  "cover": { "file": "pipeline/cache/extract/new-jersey-horror-con-and-film-festival.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "dates": "confirmed",
+      "venue": "Iron Peak",
+      "city": "Hillsborough",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://www.newjerseyhorrorcon.com/",
+      "guestsPage": "https://www.newjerseyhorrorcon.com/guests-2/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'CONVENTION ADDRESS AND LOCATION: May 22nd and 23rd, 2027 Iron Peak in Hillsborough, NJ' / 'SHOW HOURS SATURDAY May 22nd 2027... SUNDAY May 23,2027'; Celebrities page repeats 'CELEBRATE OUR 21th NEW JERSEY HORROR CON AND FILM FESTIVAL! May 22nd and 23rd, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site is internally inconsistent about the year: the location/show-hours block repeats 'May 22nd and 23rd, 2027' three times across the homepage and the dedicated Celebrities page (which also calls this the '21th' edition), but one ticket-purchase line says 'GENERAL ADMISSION AND VIP TICKETS FOR MAY 22nd and 23rd, 2026' and its Buy-Tickets button links to a Simpletix event titled for 'september-25th-26th-and-27th-2026' — neither the year nor the month/venue matches the stated May weekend, so that line and link look like leftover/mismatched copy rather than the real date; the repeated, consistent 'May 22-23, 2027' text was treated as authoritative. The batch note says this con is semi-annual and also held in Edison, NJ; the only other show referenced on the current homepage is that same Sept 25-27, 2026 ticket link (already past the research window, location unclear, possibly the Edison show), so it is not recorded as a separate edition here. The Celebrities page exists but shows no guest photos yet, so guests is none-yet. No reliable tickets URL exists for the May 2027 show, so tickets falls back to the homepage; no organizer name was found on the page."
+}

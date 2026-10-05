@@ -1,0 +1,50 @@
+{
+  "id": "amadora-bd",
+  "name": "Amadora BD",
+  "short": "",
+  "url": "https://amadorabd.com",
+  "organizer": "Câmara Municipal da Amadora",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "One of Portugal's largest comics festivals, held across Amadora's Parque da Liberdade with international guest authors, contests and exhibitions.",
+  "cover": { "file": "pipeline/cache/extract/amadora-bd.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-15",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Parque da Liberdade",
+      "city": "Amadora",
+      "region": "",
+      "country": "PT",
+      "tickets": "https://amadorabd.com",
+      "guestsPage": "",
+      "guests": "announced",
+      "lineup": [],
+      "textOnlyGuests": [
+        ["João Mascarenhas", "Creator of comic strip O Menino Triste", "comics"],
+        ["Patrícia Costa", "", "comics"],
+        ["Mário Freitas", "", "comics"],
+        ["André Carrilho", "Illustrator & caricaturist", "comics"],
+        ["Thomas Gilbert", "", "comics"],
+        ["Mansoureh Kamari", "", "comics"],
+        ["Ryan North", "Dinosaur Comics, The Unbeatable Squirrel Girl", "comics"],
+        ["Iban Coello", "Marvel Comics artist", "comics"],
+        ["Manuel Monteiro", "", "comics"],
+        ["Pedro N.", "", "comics"],
+        ["Vasco Gargalo", "", "comics"],
+        ["Peter Van Dongen", "Rampokan graphic novels", "comics"],
+        ["Guy Delisle", "Pyongyang, Jerusalem travelogue graphic novels", "comics"],
+        ["Joseph Homs", "", "comics"],
+        ["Bruno Brindisi", "Dampyr comic artist", "comics"],
+        ["Joana Afonso", "", "comics"],
+        ["Craig Thompson", "Blankets, Habibi graphic novels", "comics"],
+        ["Andrea Artusi", "", "comics"],
+        ["Sidney Gusman", "Brazilian comics journalist", "comics"]
+      ],
+      "evidence": "Official municipal page title: 'Amadora BD'26 - 15 a 25 de outubro' (cm-amadora.pt); venue from the con's own homepage: 'Como chegar? Parque da Liberdade – Núcleo Central, Rua Carvalho Araújo, s/n 2720-087 Damaia, Amadora'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "amadorabd.com is a one-page WordPress site: nav items (Localização, Visitar, Autores) are in-page anchors, not real URLs — /localizacao/, /visitar/ and /autores/ all 404, and the homepage's own guest-mode scan turned up only contest banners and venue photos, no guest portraits. Dates were confirmed instead on the organizer's own city-hall page (cm-amadora.pt, Câmara Municipal da Amadora runs the festival per amadorabd.com's footer) rather than the batch's guessed '16-25 Oct' — the festival actually runs 2026-10-15 to 10-25, with most guest-author programming on the two weekends of Oct 16-18 and Oct 23-25. The 19 invited authors (per a centralcomics.com recap of the official announcement, since no photo gallery could be reached within budget) are recorded as textOnlyGuests; 'known for' is filled in only where I have confident, specific knowledge of the person's work and left blank otherwise rather than guessed — all are categorised 'comics' since the festival only invites comics writers/artists in this slot. 'Pedro N.' is exactly how the source credited that guest (likely a truncated byline)."
+}

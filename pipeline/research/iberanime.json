@@ -1,0 +1,48 @@
+{
+  "id": "iberanime",
+  "name": "Iberanime",
+  "short": "",
+  "url": "https://www.iberanime.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Portugal's biggest Japanese pop-culture gathering, with cosplay contests, J-pop/anime concerts, workshops and gaming, held in several cities each year.",
+  "cover": { "file": "pipeline/cache/extract/iberanime.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Exponor",
+      "city": "Porto",
+      "region": "",
+      "country": "PT",
+      "tickets": "https://www.iberanime.com",
+      "guestsPage": "https://www.iberanime.com/category/convidados/porto-2026/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/iberanime.guests.json",
+          "picks": [
+            [23, "Mário Bomba", "", "other"],
+            [24, "Archarom e Diogo Cidades", "", "creator"],
+            [25, "NoShelterGirl", "Content creator / streamer", "creator"],
+            [26, "Valori", "", "other"],
+            [27, "Luís Figueiredo", "", "other"],
+            [28, "AC Raps", "", "music"],
+            [29, "Super Senpais", "", "creator"],
+            [30, "Patrícia Costa", "", "other"],
+            [31, "Masatoshi Ono", "Performs anime theme songs", "music"],
+            [32, "Serra", "Portugal debut performer", "other"],
+            [33, "Anhyra Cosplay", "Cosplayer", "cosplay"],
+            [34, "Heart Gun", "", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "RFM news article: 'O Iberanime Matosinhos 2026 acontece nos dias 10 e 11 de outubro, na Exponor... abre sábado, 10 de outubro, de 10h00-20h00 e domingo, 11 de outubro, de 10h00-19h00.' The con's own site gave no homepage date text (Portuguese month names aren't matched by the tool's date regex), but confirms the same venue: 'Exponor – Feira Internacional do Porto, Av. Dr. António Macedo, 4454-515 Leça da Palmeira – Matosinhos'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Iberanime runs multiple branded city legs (this run only covers the id/place given: 'Porto', which the brand's own guest category URL also labels 'porto-2026' even though Exponor is technically in neighbouring Matosinhos/Leça da Palmeira — press universally calls this leg 'Iberanime Matosinhos 2026'). A separate 'Iberanime Santarém' leg also exists per the site's own edition archive but is outside this batch entry's scope. All 12 guest cards on the homepage and on the dedicated guests/porto-2026 category page carry only a name and a 'Saber Mais/Ler mais' (read more) link, no on-card bio, so per the brief most are picked with cat as my best confident guess (or 'other' when unsure) and known-for left blank rather than guessed; only Masatoshi Ono (confirmed by press as performing anime theme songs) and Anhyra Cosplay (name and a dedicated cosplay sub-page) had a confirmable credit. Picks cite the homepage's own guests-mode capture (iberanime.guests.json, #23-34), which has all 12 guests; the separate category-page capture (iberanime-porto26.guests.json) was redundant (10 of the 12, no extra bio text) and wasn't used for citations."
+}

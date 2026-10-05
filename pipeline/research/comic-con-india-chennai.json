@@ -16,6 +16,14 @@
     "key": "logo:0"
   },
   "editions": [],
+  "last": {
+    "start": "2026-02-14",
+    "end": "2026-02-15",
+    "city": "Chennai",
+    "region": "",
+    "country": "IN",
+    "venue": "Chennai Trade Centre"
+  },
   "checked": "2026-10-05",
-  "notes": "No live 2026-27 event page on comicconindia.com as of this check; only an old cosplay sub-page for Chennai is listed in the sitemap. Unverified third-party listings put the most recent Chennai edition around Feb 14-15, 2026, which is before this check date in any case. No confirmed next edition in the 2026-10-05 to 2027-12-31 window was found."
+  "notes": "Re-checked comicconindia.com fresh (--fresh); the live homepage city slider still only shows Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar, and the former city page (comicconindia.com/all-cities-main-page/chennai-comic-con, indexed by Google) now 404s, confirming no 2026-27 Chennai edition has been announced yet. Added 'last': Deccan Chronicle reports 'Chennai is set to host the 2026 edition of Comic Con India on February 14 and 15 at the Chennai Trade Centre, organisers announced' - this edition already happened before the research window (2026-10-05) opened."
 }

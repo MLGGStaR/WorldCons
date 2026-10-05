@@ -1,0 +1,15 @@
+{
+  "id": "lagos-comic-con",
+  "name": "Lagos Comic Con",
+  "short": "LCC",
+  "url": "https://lagoscomiccon.net/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "cosplay", "games", "pop"],
+  "blurb": "West Africa's longest-running comic con, held at Landmark Event Centre in Lagos with comics, animation, gaming and film programming.",
+  "cover": { "file": "pipeline/cache/extract/lagos-comic-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "last": { "start": "2026-09-12", "end": "2026-09-13", "city": "Lagos", "region": "", "country": "NG", "venue": "Landmark Event Centre" },
+  "notes": "Homepage only promotes the 15th edition ('RETURNS 12TH SEPTEMBER 2026... BUY TICKET'), which already ended before today (2026-10-05); no 2027 edition is announced anywhere on the site. A web search corroborates Sept 12-13, 2026 at Landmark Event Centre, Oniru, Victoria Island (matching the seed note and the site's own '7,000+ Attendees' stat), so that is recorded as the last edition. No organizer company name found on-site (footer only credits the web designer)."
+}

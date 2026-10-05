@@ -1,0 +1,22 @@
+{
+  "id": "ani-com-and-games-hong-kong",
+  "name": "Ani-Com & Games Hong Kong",
+  "short": "ACGHK",
+  "url": "https://ani-com.hk/en/",
+  "organizer": "Hong Kong Trade Development Council (HKTDC)",
+  "status": "active",
+  "types": ["anime", "comics", "games", "toys"],
+  "blurb": "Hong Kong's long-running anime, comics and games fair, run by the HKTDC, with an art-toys expo and doujin hall.",
+  "cover": { "file": "pipeline/cache/extract/ani-com-and-games-hong-kong.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-24",
+    "end": "2026-07-28",
+    "city": "Hong Kong",
+    "region": "",
+    "country": "HK",
+    "venue": "Hong Kong Convention and Exhibition Centre (Halls 1, 3 & 5)"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official homepage (ani-com.hk) still only brands the event as 'ANI-COM & GAMES HONG KONG 2026' with generic exhibitor/doujin-fair marketing copy and no explicit date text or JSON-LD on the page itself, so exact dates were confirmed via WebSearch against HKCEC's own event-preview page and press coverage (The Standard, 10times, saiganak.com), which consistently give the 27th ACGHK as 24-28 July 2026 — already ended before today. No 2027 edition is announced on the site yet, so editions is empty and the confirmed 2026 run is recorded as 'last'. Types expanded from the batch's anime/comics/games to add 'toys' for the site's own 'HK International Art Toys Expo' sub-section. Guests were not researched since there is no current/upcoming edition to attach a lineup to; cover uses the homepage's own 'Website banner' og image (2026 anime-collab key art)."
+}

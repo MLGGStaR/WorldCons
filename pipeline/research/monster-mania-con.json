@@ -1,0 +1,81 @@
+{
+  "id": "monster-mania-con",
+  "name": "Monster-Mania Con",
+  "short": "MMC",
+  "url": "https://monstermania.net/",
+  "organizer": "Monster-Mania LLC",
+  "status": "active",
+  "types": ["horror", "toys"],
+  "blurb": "A semi-annual horror film and memorabilia convention touring Mid-Atlantic hotels and expo centers, with celebrity guest autographs and photo ops.",
+  "cover": { "file": "pipeline/cache/extract/monster-mania-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Hilton Baltimore Inner Harbor",
+      "city": "Baltimore",
+      "region": "MD",
+      "country": "US",
+      "tickets": "https://checkout.conventions.leapevent.tech/eh/MONSTER_MANIA_BALTIMORE_OCT_2026",
+      "guestsPage": "https://monstermania.net/mmc-68-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/monster-mania-con.guests.json",
+          "picks": [
+            [5, "Alan Howarth", "", "music"],
+            [6, "Scott Jackson", "", "other"],
+            [12, "Cassandra Peterson", "", "actor"],
+            [13, "Nick Castle", "", "actor"],
+            [14, "Tommy Lee Wallace", "", "other"],
+            [15, "Don Shanks", "", "actor"],
+            [16, "James Jude Courtney", "", "actor"],
+            [17, "PJ Soles", "", "actor"],
+            [18, "Nancy Loomis", "", "actor"],
+            [19, "Sandy Johnson", "", "actor"],
+            [20, "John Michael Graham", "", "actor"],
+            [21, "Danielle Harris", "", "actor"],
+            [22, "Jackie Earle Haley", "", "actor"],
+            [23, "Melinda Clarke", "", "actor"],
+            [24, "David Howard Thornton", "", "actor"],
+            [25, "Lauren LaVera", "", "actor"],
+            [26, "Elliott Fulham", "", "actor"],
+            [27, "John Kassir", "", "voice"],
+            [28, "Jonathan Breck", "", "actor"],
+            [29, "Brian Pekinas", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MONSTER-MANIA 68 OCT. 30 – NOV. 1, 2026 BALTIMORE, MD'; guest page repeats 'OCT. 30 – NOV. 1, 2026' with hotel block 'BALTIMORE HARBOR HILTON 401 W. Pratt St. Baltimore, MD 21201'"
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Greater Philadelphia Expo Center",
+      "city": "Oaks",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://checkout.conventions.leapevent.tech/eh/MONSTER_MANIA_OAKS_PA_2026",
+      "guestsPage": "https://monstermania.net/mmc-69-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/monster-mania-con-2.guests.json",
+          "picks": [
+            [12, "Matthew Lillard", "", "actor"],
+            [13, "Skeet Ulrich", "", "actor"],
+            [14, "Cara Buono", "", "actor"],
+            [15, "Rory Culkin", "", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MONSTER-MANIA 69 NOV. 20 -22, 2026 OAKS, PA'; guest page repeats 'NOVEMBER 20 – 22, 2026' with venue block 'THE GREATER PHILADELPHIA EXPO CENTER 100 Station Avenue Oaks, Pennsylvania 19456'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Monster-Mania is one continuously-numbered convention series (MMC 67, 68, 69…) that tours a small set of Mid-Atlantic venues rather than running separate permanent per-city brands, so both upcoming numbered shows are recorded as editions of this one file; MMC 67 (Cherry Hill, NJ — the batch's suggested place — ran Aug 14-16, 2026, already before the research window). Neither guest page's image carousel exposes any caption text/alt in the rendered DOM (every candidate came back with blank text), so every guest name here was read from its photo's own filename instead (e.g. 'Cassandra-Peterson_2026.jpg', 'Matthew-Lillard_2026.jpg'), which is why Known For is left blank throughout per the name-only-card rule; categories are assigned from general knowledge of these public figures (mostly Halloween/Terrifier/Scream-franchise actors). Two entries are lower-confidence: 'Scott Jackson' (filename 'Scott-Jackson-Buz-2025.jpg' has an unexplained extra '-Buz-' token that was dropped) and 'Brian Pekinas' (role unknown). Venue names are my best resolution of the on-page hotel/venue address blocks (Hilton's Baltimore Inner Harbor property at 401 W. Pratt St.; the Greater Philadelphia Expo Center at 100 Station Avenue, Oaks, PA)."
+}

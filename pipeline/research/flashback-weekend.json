@@ -1,0 +1,22 @@
+{
+  "id": "flashback-weekend",
+  "name": "Flashback Weekend",
+  "short": "FBW",
+  "url": "https://flashbackweekend.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A Chicago-area horror-film convention held each year at the Hyatt Regency O'Hare in Rosemont, Illinois.",
+  "cover": { "file": "pipeline/cache/extract/flashback-weekend.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-07-31",
+    "end": "2026-08-02",
+    "city": "Rosemont",
+    "region": "IL",
+    "country": "US",
+    "venue": "Hyatt Regency O'Hare Chicago"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage still shows the just-finished 2026 edition ('Flashback Weekend Chicago Horror Con July 31-August 2, 2026 Hyatt Regency O'Hare Chicago Rosemont, IL') and says 'THANK YOU FOR ATTENDING FLASHBACK WEEKEND 2026. STAY TUNED FOR ANNOUNCEMENTS FOR ... 2027!' -- no 2027 dates are announced yet, confirmed by a web search turning up nothing newer than the 2026 dates. Recorded as 'last' rather than an edition since it ended before the 2026-10-05 research window."
+}

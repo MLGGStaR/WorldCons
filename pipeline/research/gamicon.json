@@ -1,0 +1,30 @@
+{
+  "id": "gamicon",
+  "name": "Gamicon",
+  "short": "",
+  "url": "https://gamicon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "An annual tabletop gaming convention in Eastern Iowa running for over 35 years, with board, card and roleplaying games.",
+  "cover": { "file": "pipeline/cache/extract/gamicon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-26",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Coralville Hotel and Conference Center",
+      "city": "Coralville",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/gamicon-krypton",
+      "guestsPage": "https://tabletop.events/conventions/gamicon-krypton/pages/guests12",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Tabletop.events listing text: 'Dates Fri, Feb 26 2027, 12:00pm - 12:00am Sat, Feb 27 2027, 8:00am - 12:00am Sun, Feb 28 2027, 8:00am - 3:00pm Time zone: America/Chicago'; venue via the site's 'Web Site' link to the Hyatt Regency Coralville Hotel and Conference Center page."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Hosted on tabletop.events (page title 'Gamicon Krypton'); the homepage also names future dates for 2028-2030 but those start after the 2027-12-31 research window so only the 2027 edition is listed. The dedicated Guests page (guests12) rendered with no guest cards, only site chrome/logo -- 'none-yet' rather than 'none' since the convention does have a guests concept/page, just not populated for this edition. Organizer name not stated anywhere on the rendered pages, left blank rather than guessed."
+}

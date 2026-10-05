@@ -1,0 +1,30 @@
+{
+  "id": "lisboa-games-week",
+  "name": "Lisboa Games Week",
+  "short": "LGW",
+  "url": "https://www.lisboagamesweek.pt",
+  "organizer": "FIL - Feira Internacional de Lisboa",
+  "status": "active",
+  "types": ["games", "cosplay"],
+  "blurb": "Portugal's biggest video-game expo, four days of esports, sim racing, VR, board games and a cosplay contest at FIL in Lisbon.",
+  "cover": { "file": "pipeline/cache/extract/lisboa-games-week.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "FIL - Feira Internacional de Lisboa",
+      "city": "Lisbon",
+      "region": "",
+      "country": "PT",
+      "tickets": "https://tickets.fil.pt/events/lgw26",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '4 DIAS DE EVENTO + 40 000 VISITANTES Horários 19 a 22 Novembro 2026 ... FIL- Parque das Nações' and 'Feira Internacional de Lisboa, Rua do Bojador, 1998-010 Lisboa, Portugal'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "LGW is primarily a gaming/esports trade expo (RETAKE | EAFC26 competitions, sim racing, VR/AR, board games) with an open-call cosplay contest rather than a celebrity-guest convention. The homepage teases a 'TALK SHOW EM DIRETO + 20 CONVIDADOS' (live talk show with 20 guests) on the main stage, but no names, photos or a lineup page were found: the 'Programa' nav link 404s (resolves to a dead 2015 image URL) and the Cosplay page is only an open application form for cosplayers to attend free, not a guest/judge list. Guests is therefore none-yet rather than assumed none."
+}

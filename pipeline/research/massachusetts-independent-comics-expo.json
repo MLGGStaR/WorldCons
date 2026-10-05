@@ -1,0 +1,30 @@
+{
+  "id": "massachusetts-independent-comics-expo",
+  "name": "Massachusetts Independent Comics Expo",
+  "short": "MICE",
+  "url": "https://www.micexpo.org",
+  "organizer": "Boston Comic Arts Foundation",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "New England's premiere free-entry expo for independent comics and graphic novels, with hundreds of small-press artists, panels and workshops.",
+  "cover": { "file": "pipeline/cache/extract/massachusetts-independent-comics-expo.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Fuller Building, Boston University",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://www.micexpo.org/events/mice-2026",
+      "guestsPage": "https://www.micexpo.org/blog/categories/special-guest",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'the massachusetts independent comics expo When December 5 - 6, 2026 ... where Fuller Building at Boston University'; Attending page confirms 'Saturday, December 5, 2026 ... Sunday, December 6, 2026' at '808 Commonwealth Avenue, Boston, MA'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "MICE has no 'All Guests' page; it occasionally names a single 'Special Guest' via blog posts. The only such post found ('Special Guest Update', dated Dec 4, 2025, naming Scott McCloud and a cancelled Raina Telgemeier) is about the already-finished Dec 2025 edition, not Dec 2026 - the 'Special Guest' blog category itself currently shows 'Posts Coming Soon', so guests is 'none-yet' for the 2026 show rather than reusing last year's names. Cover uses the image explicitly filed as 'MICE2026 Landing Cover.jpg'."
+}

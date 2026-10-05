@@ -1,0 +1,30 @@
+{
+  "id": "big-charlotte-anime",
+  "name": "Big Charlotte Anime",
+  "short": "",
+  "url": "https://bigcharlotteanime.com",
+  "organizer": "Big Texas Comicon, LLC",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "An anime convention with voice-actor guests at the Charlotte Convention Center in Charlotte, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/big-charlotte-anime.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-01-23",
+      "end": "2027-01-24",
+      "dates": "confirmed",
+      "venue": "Charlotte Convention Center",
+      "city": "Charlotte",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://www.tixr.com/groups/bigtexas/events/big-charlotte-anime-198055",
+      "guestsPage": "https://bigcharlotteanime.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Tickets page text: 'Saturday January 23rd' / 'Sunday January 24th' (confirmed as 2027 by weekday match and by a 'BIG-CHARLOTTE-ANIME-4X6-FLYER-2027' image); page title 'Big Charlotte Anime | Charlotte Convention Center'; web search corroborates Jan 23-24, 2027 at Charlotte Convention Center."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on the official /guests/ page show only a photo and name (alt text), no credits, so 'Known for' is left blank for all per RESEARCH.md; cat is 'voice' for all, confirmed by search results describing the lineup as 'voice over celebrities'. Skipped candidate #0 (site logo) and #8 ('Coming Soon' placeholder tile). The batch note's 'Jan 2026 edition was cancelled; summer edition still active' checks out but is moot for this file: that original Jan 24-25, 2026 date was weather-postponed to June 27-28, 2026, which already ended before the 2026-10-05 research window, so only the next confirmed edition (Jan 23-24, 2027) is listed. Organizer 'Big Texas Comicon, LLC' confirmed via the Tixr ticketing group URL (tixr.com/groups/bigtexas) and corroborated by a search result. Refute-pass (2026-10-05): refuted to none-yet -- neither the cached nor a fresh re-extraction (pipeline/cache/extract/big-charlotte-anime-v2.guests.json) shows any per-guest year/edition tag (cards carry only a name), and third-party coverage (rostercon.com's June-2026-dated listing) shows at least 3 of the 8 names (Christopher Wehkamp, Clifford Chapin, Kristen McGuire) already appeared at this con's last actual show, which ended June 28, 2026 (3 months ago); with no official announcement found naming any of the 8 for Jan 23-24, 2027 specifically, this reads as the still-posted prior lineup, not a new one."
+}

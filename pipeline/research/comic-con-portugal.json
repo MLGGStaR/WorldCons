@@ -1,0 +1,22 @@
+{
+  "id": "comic-con-portugal",
+  "name": "Comic Con Portugal",
+  "short": "CCP",
+  "url": "https://evento.comic-con-portugal.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics"],
+  "blurb": "The biggest pop-culture convention in Portugal, now a biennial event at Europarque covering film, TV, gaming, comics, anime and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/ccp-evento.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-04-23",
+    "end": "2026-04-26",
+    "city": "Santa Maria da Feira",
+    "region": "",
+    "country": "PT",
+    "venue": "Europarque"
+  },
+  "checked": "2026-10-05",
+  "notes": "The batch URL (www.comicconportugal.pt) and also www.comic-con-portugal.com and www.comicconportugal.com fail to resolve/connect; the real live site is evento.comic-con-portugal.com, which is a content-light teaser page (no dates, no links captured) rather than a full event site. Comic Con Portugal relocated from FIL Lisboa to Europarque in Santa Maria da Feira starting with its April 23-26, 2026 edition, and in doing so switched to a biennial schedule — press coverage (sapo.pt, geekinout.pt, otakupt.com) confirms the next edition is April 21-25, 2028 (its first 5-day edition, on a venue deal covering 2026/2028/2030), with no 2027 edition at all. Since 2028 starts after this run's window (2026-10-05 to 2027-12-31), editions is empty and the last confirmed (and now past) edition is recorded instead."
+}

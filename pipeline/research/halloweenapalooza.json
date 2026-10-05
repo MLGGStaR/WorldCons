@@ -1,0 +1,44 @@
+{
+  "id": "halloweenapalooza",
+  "name": "Halloweenapalooza",
+  "short": "",
+  "url": "https://www.halloweenapalooza.com/",
+  "organizer": "Prescribed Films",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "Ottumwa, Iowa's horror film festival and convention with a zombie walk, costume contest, celebrity guests and live entertainment.",
+  "cover": { "file": "pipeline/cache/extract/halloweenapalooza.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "dates": "confirmed",
+      "venue": "Bridge View Center",
+      "city": "Ottumwa",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://www.halloweenapalooza.com/event-details/halloweenapalooza-2026",
+      "guestsPage": "https://www.halloweenapalooza.com/guests2026",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/halloweenapalooza.guests.json",
+          "picks": [
+            [1, "Ken Foree", "Dawn of the Dead", "actor"],
+            [2, "Miguel Núñez", "Return of the Living Dead", "actor"],
+            [3, "Mark Donovan", "", "other"],
+            [4, "Jeremy Palko", "The Walking Dead", "actor"],
+            [5, "Gino Crognale", "", "other"],
+            [6, "Justin Beahm", "Shock Waves podcast host", "creator"],
+            [7, "Sam Rezz", "Sideshow and circus performer", "other"],
+            [8, "Cracktastic Plastic", "Action-figure collecting podcast", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Friday, October 9th & Saturday, October 10th of 2026 FRI 5-11pm, SAT noon-midnight'; venue via hotel page: 'the brand new hotel right outside Bridge View Center.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on the GUESTS 2026 page carry only a promotional photo and name, no written bio, so credits for Ken Foree, Miguel Núñez and Jeremy Palko come from general knowledge of well-known horror-film actors and a web search confirming this year's roster; that same search also surfaced Justin Beahm (Shock Waves podcast / horror-doc producer), Sam Rezz (sideshow/circus performer) and that 'Cracktastic Plastic' is a live action-figure-collecting podcast recording (hosted by Jason Bolinger and Mike Saunders of Prescribed Films, who the search describes as the event's organizers) rather than a single person -- picked as one guest per the groups/acts rule. Mark Donovan and Gino Crognale could not be identified with confidence from the site or the search, so their cat is 'other' and known-for is left blank rather than guessed, per instructions."
+}

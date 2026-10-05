@@ -1,0 +1,30 @@
+{
+  "id": "awesome-con",
+  "name": "Awesome Con",
+  "short": "",
+  "url": "https://awesome-con.com",
+  "organizer": "LeftField Media",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Washington DC's celebration of geek culture, with comic book, film and TV guests, artist alley, cosplay and panels.",
+  "cover": { "file": "pipeline/cache/extract/awesome-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Walter E. Washington Convention Center",
+      "city": "Washington",
+      "region": "DC",
+      "country": "US",
+      "tickets": "https://checkout.conventions.leapevent.tech/eh/Awesome_Con_2027",
+      "guestsPage": "",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Leap Event Technology ticketing page titled 'Awesome Con 2027 :: Leap Event Technology'; corroborated by costumary.com ('Awesome Con 2027: Apr 23-25, Washington, DC') and cardatlas.app ('Awesome Con DC — Washington, April 2027')"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "awesome-con.com returned a persistent Cloudflare bot-check (status 403) on every attempt: with and without www, with --channel msedge, and even on a Wayback Machine snapshot (archive.org's own crawler appears to have been blocked too, since the saved snapshot is itself the challenge page). Dates/venue could not be read from the official site directly; they are corroborated across three independent secondary sources (see evidence) including the con's own Leap Event Technology registration/ticketing page, which did render successfully. Guests could not be confirmed at all (no reachable guest page), so guests is 'unavailable'. Cover also had to come from the Leap ticketing page, which only offered 2027 merchandise product photos (lanyard, bag, t-shirt) rather than event key art; used the lanyard photo (hero:0) as the least merch-catalogue-looking option since no banner/logo image was reachable anywhere for this convention -- worth swapping for real key art once the main site is reachable again."
+}

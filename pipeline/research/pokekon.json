@@ -1,0 +1,30 @@
+{
+  "id": "pokekon",
+  "name": "PokeKon",
+  "short": "",
+  "url": "http://pokekon.com/Tulsa/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "toys"],
+  "blurb": "One-day Pokemon collectors' trade show in Tulsa, Oklahoma with vendors, TCG, retro Pokemon, and local artists.",
+  "cover": { "file": "pipeline/cache/extract/pokekon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "dates": "confirmed",
+      "venue": "Hilton DoubleTree Hotel - Warren Place",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/pokekon-fest-all-pokemon-show-tulsa-oklahoma-tickets-1988756437039",
+      "guestsPage": "http://pokekon.com/Tulsa/#5351402",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'POKEKON-FEST - ALL POKEMON SHOW - TULSA, OKLAHOMA SUNDAY OCTOBER 25, 2026 | 10:00AM - 5:00PM HILTON DOUBLETREE HOTEL WARREN PLACE'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed URL https://www.pokekon.com refuses connections entirely (tried default and msedge channels); the live page is the city-specific http://pokekon.com/Tulsa/ (no https). This is a 1-day Pokemon collectibles trade show (TCG, retro merch, local artists), and its own 'Guests & Attractions' section currently reads 'Guest Announcements Coming Soon', so guests is none-yet rather than none. Some third-party listings (Eventbrite) give the date as Saturday Oct 24; the official site's own text says 'SUNDAY OCTOBER 25, 2026', which is used here as the more authoritative source."
+}

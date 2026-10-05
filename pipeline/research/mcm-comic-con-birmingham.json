@@ -1,0 +1,22 @@
+{
+  "id": "mcm-comic-con-birmingham",
+  "name": "MCM Comic Con Birmingham",
+  "short": "MCM",
+  "url": "https://www.mcmcomiccon.com/birmingham/en-us.html",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "The Midlands leg of ReedPop's MCM Comic Con series at the NEC Birmingham, with anime, gaming, comics and celebrity guests.",
+  "cover": { "file": "pipeline/cache/extract/mcm-comic-con-birmingham.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-07",
+    "end": "2026-08-09",
+    "city": "Birmingham",
+    "region": "",
+    "country": "GB",
+    "venue": "NEC Birmingham"
+  },
+  "checked": "2026-10-05",
+  "notes": "No 2027 edition is announced yet: the site itself says 'MCM Birmingham will return in 2027! ... 2027 dates are coming soon' and lists 'Our Next Event Dates: Coming Soon' with only the venue (NEC Birmingham) confirmed. The most recent edition is recorded in \"last\": ReedPop's own blog post ('MCM Comic Con 2026 Dates As MCM Birmingham Event Moves to August', mcmcomiccon.com/global/en-us/blog/comics/mcm-comic-con-2026-dates.html, 4 Dec 2025) states '7 - 9 August 2026 at NEC Birmingham', noting this was Birmingham's first move from its usual November slot to summer. That edition had already concluded before this run's research window (which starts 2026-10-05), so it is not listed under editions. Guests not checked since there is no upcoming edition to attach them to."
+}

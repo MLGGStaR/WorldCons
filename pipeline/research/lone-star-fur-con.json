@@ -1,0 +1,30 @@
+{
+  "id": "lone-star-fur-con",
+  "name": "Lone Star Fur Con",
+  "short": "LSFC",
+  "url": "https://www.lonestarfurcon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Austin-area furry convention at the Hilton Austin Airport, with panels, dances and its own Queertopia charity.",
+  "cover": { "file": "pipeline/cache/extract/lone-star-fur-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-25",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Hilton Austin Airport",
+      "city": "Austin",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://reg.lonestarfurcon.com/kiosk/LSFC2027/",
+      "guestsPage": "https://www.lonestarfurcon.com/guest-of-honor",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'LSFC 2027 February 25-28, 2027 Hilton Austin Airport - Austin, TX'; registration page confirms 'Full access to Lone Star Fur Con 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's own /guest-of-honor page rendered with no names or photos (0 candidates), even though registration sells a 'Guest of Honor Dinner' add-on, so no GoH has been publicly announced yet. Homepage states 2026 attendance was 1,179 (+34% year over year) and that 2027 is the convention's 3rd year."
+}

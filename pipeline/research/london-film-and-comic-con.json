@@ -19,35 +19,10 @@
       "country": "GB",
       "tickets": "https://www.eventbrite.com/cc/london-film-comic-con-2026-4796872",
       "guestsPage": "https://londonfilmandcomiccon.com/guests-main/",
-      "guests": "announced",
-      "lineup": [],
-      "textOnlyGuests": [
-        ["Neve McIntosh", "Doctor Who (Madame Vastra)", "actor"],
-        ["Dan Starkey", "Doctor Who (Strax)", "actor"],
-        ["Jerry Wallace", "", "actor"],
-        ["Bronson Webb", "Game of Thrones", "actor"],
-        ["Catrin Stewart", "Doctor Who (Jenny Flint)", "actor"],
-        ["Montanna Thompson", "", "actor"],
-        ["Martine Beswick", "James Bond, Hammer horror films", "actor"],
-        ["Garrick Hagon", "Star Wars (Biggs Darklighter)", "actor"],
-        ["Colin Baker", "Doctor Who (Sixth Doctor)", "actor"],
-        ["Carl Parker", "", "actor"],
-        ["Eric MacLennan", "", "actor"],
-        ["Ant Williams", "", "comics"],
-        ["Colleen Douglas", "", "comics"],
-        ["Ellie Wright", "", "comics"],
-        ["Eren Angiolini", "", "comics"],
-        ["Glenn Fabry", "Preacher, Judge Dredd covers", "comics"],
-        ["Guillermo Ortego", "Judge Dredd artist", "comics"],
-        ["Jessica Martin", "Doctor Who, cartoonist", "comics"],
-        ["John McCrea", "Hitman (DC Comics)", "comics"],
-        ["Mike Collins", "Doctor Who Magazine artist", "comics"],
-        ["Roger Langridge", "The Muppet Show comic", "comics"],
-        ["Simon Furman", "Transformers comics writer", "comics"]
-      ],
+      "guests": "none-yet",
       "evidence": "Homepage: 'Showmasters London Film & Comic Con returns to Olympia in 2027! Taking place on Saturday 14th & Sunday 15th August 2027' and 'Opening times Saturday 14th August 2027 - 9am to 7pm Sunday 15th August 2027 - 9am to 6pm'."
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Guest names and roles came from the homepage's 'Film & TV Guests' and 'Comic Guests' lists, each name individually linked to its own /guest/<slug>/ detail page, which is strong confirmation of identity. The dedicated guest-grid pages (guests-main/, guests-film-tv/, guests-comic-creators/, guests-trading-cards/, guests-cosplay/) render each photo without alt text or a caption that extract.mjs can read, and the trading-cards/cosplay category pages returned the same generic placeholder-sized grid with no distinguishing content, so no photo could be safely matched to a name - recorded as textOnlyGuests (22 names: 11 film/TV, 11 comic creators) rather than risk pairing the wrong face with a name; the build step can look up photos by name instead. Known-for left blank for names with no credit I could confirm. Ticket link is the site's own current 'BUY TICKETS' Eventbrite collection, which is still labelled '...2026-4796872' even though the event itself is 2027. Verify pass (2026-10-05): current -- the homepage's own <title> is 'London Film And Comic Con - 14th & 15th August 2027' and its 'MEET THE STARS' name list sits in the same hero text block as the 'returns to Olympia in 2027!' line; an independent web search corroborates Neve McIntosh, Colin Baker and Dan Starkey as reported guests for the 2027 edition, so the textOnlyGuests list stands."
+  "notes": "Guest names and roles came from the homepage's 'Film & TV Guests' and 'Comic Guests' lists, each name individually linked to its own /guest/<slug>/ detail page, which is strong confirmation of identity. The dedicated guest-grid pages (guests-main/, guests-film-tv/, guests-comic-creators/, guests-trading-cards/, guests-cosplay/) render each photo without alt text or a caption that extract.mjs can read, and the trading-cards/cosplay category pages returned the same generic placeholder-sized grid with no distinguishing content, so no photo could be safely matched to a name - recorded as textOnlyGuests (22 names: 11 film/TV, 11 comic creators) rather than risk pairing the wrong face with a name; the build step can look up photos by name instead. Known-for left blank for names with no credit I could confirm. Ticket link is the site's own current 'BUY TICKETS' Eventbrite collection, which is still labelled '...2026-4796872' even though the event itself is 2027. Verify pass (2026-10-05): current -- the homepage's own <title> is 'London Film And Comic Con - 14th & 15th August 2027' and its 'MEET THE STARS' name list sits in the same hero text block as the 'returns to Olympia in 2027!' line; an independent web search corroborates Neve McIntosh, Colin Baker and Dan Starkey as reported guests for the 2027 edition, so the textOnlyGuests list stands. Refute attempt (2026-10-05): refuted -> none-yet -- that 'current' call was template-level text only; the site's own archived page at /guest-event/lfcc-26/, titled '2026 - London Film And Comic Con', lists the exact same 22 names in the exact same order (Ellie Wright, John McCrea, Eren Angiolini, ... Neve McIntosh, Colin Baker) with guest photos uploaded to /wp-content/uploads/2026/03/ and /2026/04/, and that archive page itself still carries a stale '...2025-3770493' Eventbrite link -- the same one-year-behind pattern our own 'current' edition's ticket link shows (2026-4796872) -- proving guests-main/ is simply still displaying the already-run 2026 lineup verbatim, not a new 2027 confirmation; no guest here has evidence specific to 2027, so guests is set to none-yet and lineup/textOnlyGuests are removed."
 }

@@ -9,6 +9,14 @@
   "blurb": "The largest comics event in Poland and Central/Eastern Europe, held annually in Łódź with a games zone, cosplay contest and comics awards.",
   "cover": { "file": "pipeline/cache/extract/international-festival-of-comics-and-games.home.json", "key": "hero:1" },
   "editions": [],
+  "last": {
+    "start": "2026-09-19",
+    "end": "2026-09-20",
+    "city": "Łódź",
+    "region": "",
+    "country": "PL",
+    "venue": "Atlas Arena"
+  },
   "checked": "2026-10-05",
-  "notes": "The 37th edition just concluded (ticket-booking link encodes date_termin=2026-09-19; a news post on the homepage announces that edition's award-gala winners), so it is already outside the window. A WebSearch (in Polish) confirms the 37th ran September 2026 but turned up no announced date yet for a 38th/2027 edition, so no edition is recorded. Venue is unclear for next time: historically tickets route through EC1 Łódź (bilety.ec1lodz.pl), but a search result also linked a '37. Międzynarodowy Festiwal Komiksu i Gier' page on atlasarena.pl, suggesting the festival may have used Atlas Arena in Łódź for 2026 — not confirmed, and moot until a next edition is announced. No organizer name found on the homepage."
+  "notes": "The 37th edition just concluded (ticket-booking link encodes date_termin=2026-09-19; a news post on the homepage announces that edition's award-gala winners), so it is already outside the window. A WebSearch (in Polish) confirms the 37th ran September 2026 but turned up no announced date yet for a 38th/2027 edition, so no edition is recorded. Venue is unclear for next time: historically tickets route through EC1 Łódź (bilety.ec1lodz.pl), but a search result also linked a '37. Międzynarodowy Festiwal Komiksu i Gier' page on atlasarena.pl, suggesting the festival may have used Atlas Arena in Łódź for 2026 — not confirmed, and moot until a next edition is announced. No organizer name found on the homepage. 2026-10-05 fixup pass: official site re-checked fresh, still no 38th-edition date. WebSearch (atlasarena.pl, ec1lodz.pl, lodz.travel, and the festival's own \"program-37\" post) corroborates the 37th edition ran 19-20 September 2026 at Atlas Arena, Łódź (resolving the venue ambiguity noted above); recorded as \"last\"."
 }

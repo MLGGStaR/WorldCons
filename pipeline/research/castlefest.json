@@ -1,0 +1,30 @@
+{
+  "id": "castlefest",
+  "name": "Castlefest",
+  "short": "",
+  "url": "https://castlefest.nl/en",
+  "organizer": "",
+  "status": "active",
+  "types": ["cosplay", "scifi"],
+  "blurb": "The Netherlands' fantasy festival at Castle Keukenhof in Lisse, with bands, workshops, markets and a large cosplay community.",
+  "cover": { "file": "pipeline/cache/extract/castlefest.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-05",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Castle Keukenhof",
+      "city": "Lisse",
+      "region": "",
+      "country": "NL",
+      "tickets": "https://tickets.castlefest.nl/",
+      "guestsPage": "https://castlefest.nl/en/line-up",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '5 - 8 August 2027 Castlefest' and 'The ticket sales for Castlefest 2027 will start on 1 October, at 12.00h (CEST)'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The line-up page still shows last year's acts ('Right now, you can still find the acts and information of 2026. We'll update the website in september.' / Koza Mostra, Stimmgewalt, Faun are 2026 acts), so per RESEARCH.md guests is 'none-yet' for the 2027 edition rather than announced."
+}

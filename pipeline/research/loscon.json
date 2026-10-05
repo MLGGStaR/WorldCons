@@ -1,0 +1,41 @@
+{
+  "id": "loscon",
+  "name": "Loscon",
+  "short": "",
+  "url": "https://loscon.org/",
+  "organizer": "Los Angeles Science Fantasy Society (LASFS)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A long-running literary science-fiction and fantasy convention held over Thanksgiving weekend in Los Angeles, presented by LASFS.",
+  "cover": { "file": "pipeline/cache/extract/loscon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "dates": "confirmed",
+      "venue": "Hilton Los Angeles Airport",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://loscon.org/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/loscon.guests.json",
+          "picks": [
+            [1, "Bill Wolkoff", "Strange New Worlds, Star Wars Rebels writer", "other"],
+            [2, "Selina Phanara", "Artist Guest of Honor", "other"],
+            [3, "Griff the Filker", "Filk musician", "music"],
+            [4, "Chris Marble", "Fan Guest of Honor", "other"],
+            [5, "G. David Nordley", "Science Guest of Honor", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Official dealers-room page: 'Set-up for the room will be November 26th & 27th, 2026' with Dealers Room hours 'Friday; ... Saturday; and ... Sunday' (loscon.org/dealers-room-lc-52/), matching LASFS's long-standing Thanksgiving-weekend tradition; third-party listings (10times, The Bookfest) independently give Nov 27-29, 2026."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage itself never states exact convention dates (only membership price-tier cutoffs), so dates were confirmed via the con's own Dealer's Room page plus corroborating third-party listings rather than a single explicit homepage sentence. Venue is called 'LAX Hilton Hotel' on-site; its formal name, Hilton Los Angeles Airport, is used here. The five Guests of Honor (Writer/Artist/Music/Fan/Science) are each a classic regional-SF-con honor role rather than a working-professional category, so most are filed as cat 'other' with their GoH role used as known-for since no further bio text appears on the page; Griff the Filker is filed as 'music' (filk is a folk-music subgenre)."
+}

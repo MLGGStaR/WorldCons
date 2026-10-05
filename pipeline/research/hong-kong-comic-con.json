@@ -1,0 +1,30 @@
+{
+  "id": "hong-kong-comic-con",
+  "name": "Hong Kong Comic Con",
+  "short": "",
+  "url": "https://www.hkcomiccon.com/",
+  "organizer": "Optics Ventures / One Cool Group",
+  "status": "active",
+  "types": ["pop", "comics", "cosplay"],
+  "blurb": "A new Western-style pop-culture and comics convention at the Hong Kong Convention and Exhibition Centre.",
+  "cover": { "file": "pipeline/cache/extract/hong-kong-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Hall 1, Hong Kong Convention and Exhibition Centre",
+      "city": "Hong Kong",
+      "region": "",
+      "country": "HK",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'WELCOME TO HONG KONG COMIC CON 2027 Date: 28 – 30 May 2027 Venue: Hall 1, Hong Kong Convention and Exhibition Centre' with hour-by-hour opening times given for each of the three days."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Page title is already 'Hong Kong Comic Con 2027' and the site's own countdown/date block gives 28-30 May 2027, so that is the edition recorded (the inaugural May-2026 edition the discovery batch noted has already happened and is outside this file's window). Guests are not announced yet: the only guest-related copy is generic ('we're bringing you guests from all across the pop culture universe'), nav has no guest listing page, and tickets are 'stay tuned', so guests is 'none-yet'. Nav includes a 'Cosplay' link, so 'cosplay' was added to types alongside the batch's pop/comics. Organizer kept from the discovery batch (Optics Ventures / One Cool Group) — not independently re-confirmed on the pages checked."
+}

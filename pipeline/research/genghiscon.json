@@ -1,0 +1,30 @@
+{
+  "id": "genghiscon",
+  "name": "GenghisCon",
+  "short": "",
+  "url": "https://genghiscon.org",
+  "organizer": "Gamer Girl Games",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "Colorado's long-running tabletop and roleplaying game convention, celebrating its 25th anniversary at the Hyatt Regency Aurora-Denver.",
+  "cover": { "file": "pipeline/cache/extract/genghiscon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-17",
+      "end": "2027-02-21",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Aurora-Denver Conference Center",
+      "city": "Aurora",
+      "region": "CO",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/genghiscon-2027/badgetypes",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Organizer site gamergirlgames.com/genghis-con-2027/attend/: 'OUR NEXT CONVENTION: FEBRUARY 17 - 21, 2027 ... Hyatt Regency Aurora-Denver Conference Center 13200 East 14th Place Aurora, CO 80011' and 'February 17, 2027: Genghis Con Kicks Off!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "genghiscon.org itself (reachable only via --channel msedge, otherwise Cloudflare-walled) currently shows conflicting, apparently stale text: 'GenghisCon 25th ANNIVERSARY is coming... JANUARY 2027' with no venue. The organizer's own operating site, gamergirlgames.com (Gamer Girl Games, which also runs sibling convention TactiCon at the same hotel), gives specific, internally-consistent February 17-21, 2027 dates plus a full address and a ticketing timeline, and matches the tabletop.events registration slug 'genghiscon-2027'; treated as authoritative over genghiscon.org's one-line placeholder per the rule to trust the con's own current news over stale text. Flagging the January/February discrepancy for human review. No guest/author list found yet for the 2027 edition (site has no guest page live); genghiscon.org gave no og/hero image so the cover uses its wide-ish wordmark logo."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "middle-east-film-and-comic-con-mefcc",
+  "name": "Middle East Film & Comic Con",
+  "short": "MEFCC",
+  "url": "https://www.mefcc.com/",
+  "organizer": "Informa Connect",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "scifi"],
+  "blurb": "The Middle East's pop-culture convention in Abu Dhabi, with Hollywood actors, comic creators, cosplay contests and gaming at ADNEC Centre.",
+  "cover": { "file": "pipeline/cache/extract/middle-east-film-and-comic-con-mefcc.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-02",
+      "end": "2027-04-04",
+      "dates": "confirmed",
+      "venue": "ADNEC Centre Abu Dhabi",
+      "city": "Abu Dhabi",
+      "region": "",
+      "country": "AE",
+      "tickets": "",
+      "guestsPage": "https://www.mefcc.com/home/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "JSON-LD Event 'Middle East Film & Comic Con (MEFCC)' 2027-04-02 to 2027-04-04 @ ADNEC Centre Abu Dhabi; homepage text 'Thank you for making MEFCC 2026 incredible. See you again next year from 2 - 4 April 2027!' and countdown banner '2 - 4 APRIL 2027 ADNEC CENTRE ABU DHABI'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Sept 11-13, 2026 edition (also in JSON-LD) already ended before today's window and is superseded by the announced April 2-4, 2027 edition. The /home/celebrities/ and /home/comic-creators/ pages are both titled 'MEFCC 2026' and their photo galleries are labelled 'GALLERY 2025!', so that full roster (John Cena, Simu Liu, Mackenyu, Pom Klementieff, Arden Cho, Jacob Romero, Charithra Chandran, Shameik Moore, Joonas Suotamo, Jim Cheung, Federico Vicentini, Brett Breeding, Dexter Soy, Ken Lashley, Francesco Mobili, Mike Choi, Jimbo Salgado, Frank Martin, Martin Simmonds and others) reflects the past Sept 2026 show, not the April 2027 edition; guests for 2027 are therefore not yet announced. Organizer: knect365.imgix.net asset domain and a footer link to informa.com/talent point to Informa Connect (parent brand Knect365), not confirmed by an explicit on-page 'organised by' line. No ticket link was found distinct from the general site."
+}

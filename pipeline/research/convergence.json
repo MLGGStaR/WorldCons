@@ -1,0 +1,15 @@
+{
+  "id": "convergence",
+  "name": "CONvergence",
+  "short": "CVG",
+  "url": "https://www.convergence-con.org/",
+  "organizer": "Convergence Events, Inc.",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "A 4-day multigenre fan convention for science fiction and fantasy in all media, and the premier event of its kind in the upper Midwest.",
+  "cover": { "file": "pipeline/cache/extract/convergence.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-02", "end": "2026-07-05", "city": "Minneapolis", "region": "MN", "country": "US", "venue": "Hyatt Regency Minneapolis" },
+  "checked": "2026-10-05",
+  "notes": "The official site is still entirely about the just-finished CONvergence 2026 (July 2-5, 2026, 'The Geek in the Machine') with no 2027 dates, hotel info, or guest page posted yet; its own hotel page says room info 'is typically available by early March of the convention year'. Aggregator listings (fancons.com/scificons.com/fantasycons.com, all one network) give July 1-4, 2027 at the Hyatt Regency Minneapolis, but per the research rules aggregators aren't used to confirm dates and the official site does not corroborate this yet, so editions is left empty with the 2026 run recorded as 'last'. Guests were not collected since the only lineup on the site is for the already-completed 2026 edition."
+}

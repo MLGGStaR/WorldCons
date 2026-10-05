@@ -1,0 +1,54 @@
+{
+  "id": "magnificon-expo",
+  "name": "Magnificon Expo",
+  "short": "",
+  "url": "https://www.magnificonexpo.com/en",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "anime", "cosplay"],
+  "blurb": "A Japanese and Korean pop-culture festival in Kraków, running since 2003, with cosplay, idol concerts, manga and gaming.",
+  "cover": { "file": "pipeline/cache/extract/magnificon-tixx.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "dates": "confirmed",
+      "venue": "EXPO Kraków",
+      "city": "Kraków",
+      "region": "",
+      "country": "PL",
+      "tickets": "https://miohi.tixx.pl/bilety/2948/magnificon-expo-winter-2026.html",
+      "guestsPage": "https://www.magnificonexpo.com/en/goscie",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/magnificon-expo.guests.json",
+          "picks": [
+            [21, "Cain Coscave", "Cosplayer", "cosplay"],
+            [34, "Tyna", "Cosplayer", "cosplay"],
+            [22, "Resha", "Cosplayer, textile techniques", "cosplay"],
+            [29, "Aesthmodeus", "Cosplayer", "cosplay"],
+            [35, "Mikomi Hokina", "Belgian cosplay & craft creator", "cosplay"],
+            [23, "Ted Park", "Vocalist", "music"],
+            [30, "Gun Boi Kaz", "Korean-American pop artist", "music"],
+            [36, "Maki Otsuki", "Sang One Piece ending theme 'Memories'", "music"],
+            [24, "Purin", "Cosplayer & photographer, Poland", "cosplay"],
+            [31, "Maf", "Stray Souls webtoon artist", "comics"],
+            [37, "Cathy Cat", "Harajuku fashion influencer", "creator"],
+            [25, "Taryn", "Cosplayer", "cosplay"],
+            [32, "Babybeard", "Singer", "music"],
+            [38, "Lotus Juice", "Persona series rapper", "music"],
+            [26, "Prince de Guzman", "Singer", "music"],
+            [33, "Margaret", "Singer", "music"],
+            [39, "Cinderys", "Cosplayer & 3D artist, Paris", "cosplay"],
+            [27, "Maul", "Vocalist", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Ticket page (miohi.tixx.pl) title and text: 'Magnificon EXPO Winter 2026, EXPO Kraków, 12 - 13 December 2026'; main site countdown confirms the same window."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Main site is a Wix SPA with no dated homepage copy; dates and the official poster came from the Winter 2026 edition's own ticket page on tixx.pl, which the main site's 'TICKETS' button links to. The /en/goscie guest page (current live roster, not an archived edition) renders two duplicate grids of the same 18 guests (one plain, one with a role tag and a repeated 'Cain Coscave' slide from carousel looping); picked each person once from the tagged grid. No year is printed on the guest page itself, so guests are attributed to the one announced upcoming edition (Winter 2026) as the site's current lineup. An 'event-details/magnificon-expo-winter-2026' URL guess instead resolved to an unrelated staff-registration event ('OBSŁUGA') from May 2026, which was discarded as not the public con."
+}

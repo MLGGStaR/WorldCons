@@ -1,0 +1,30 @@
+{
+  "id": "pacificon",
+  "name": "Pacificon",
+  "short": "",
+  "url": "https://www.pacificonquest.com/",
+  "organizer": "PacifiConQuest",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "A tabletop and board-game expo at the Santa Clara Marriott, run by PacifiConQuest alongside a prototype playtesting track called Pacificon Protospiel.",
+  "cover": { "file": "pipeline/cache/extract/pacificon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-06",
+      "dates": "confirmed",
+      "venue": "Santa Clara Marriott Hotel",
+      "city": "Santa Clara",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Pacificon Game Expo RuggieroCon - Pacificon Protospiel September 3-6, 2027 Santa Clara Marriott Hotel 2700 Mission College Blvd, Santa Clara, CA 95054'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "PacifiConQuest (the organizer/site) runs several separately branded grassroots tabletop gatherings — Barnstorm at a vineyard, South Pacificon Game Fest Winter and ConQuest Channel Islands at masonic lodges, and this Pacificon Game Expo — so this file covers only the Santa Clara Pacificon Game Expo / Protospiel edition per the batch id, not the others. The site is a Google Sites page with no crawlable nav links, no og/twitter image, no logo and no mention anywhere of a celebrity-guest program, so guests is 'none' rather than 'none-yet'; the cover uses the largest available photo on the page. No ticket link was found."
+}

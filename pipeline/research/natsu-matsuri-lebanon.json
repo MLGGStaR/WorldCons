@@ -1,0 +1,22 @@
+{
+  "id": "natsu-matsuri-lebanon",
+  "name": "Natsu Matsuri",
+  "short": "",
+  "url": "https://www.instagram.com/kaliko.friends/",
+  "organizer": "Kaliko Friends",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Lebanon's biggest anime festival in Beirut with cosplay competitions, game tournaments and a Japanese-culture district.",
+  "cover": null,
+  "editions": [],
+  "last": {
+    "start": "2026-09-12",
+    "end": "2026-09-13",
+    "city": "Beirut",
+    "region": "",
+    "country": "LB",
+    "venue": "Ava Venue, Achrafieh"
+  },
+  "checked": "2026-10-05",
+  "notes": "Found while researching the Gulf/Levant fixup task (not previously in series.json/pipeline/research). Organized by Kaliko Friends (anime store/events group); no independent website found, only Instagram (@kaliko.friends, bio: 'Next Event Natsu Matsuri 2026... Lebanon's Biggest Anime Festival, Cosplay - Games - Tournaments') and Facebook, so the Instagram page is used as url and cover is left null per the social-only rule. The 2026 edition's Sept 12-13 dates and Ava Venue/Achrafieh location are reported consistently by secondary coverage (Beirut.com-style event sites); the Instagram bio itself did not show the exact dates when fetched, so this is slightly less certain than a primary-source confirmation. No 2027 date is announced yet."
+}

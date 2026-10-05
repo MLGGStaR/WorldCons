@@ -1,0 +1,30 @@
+{
+  "id": "connecticon",
+  "name": "ConnectiCon",
+  "short": "",
+  "url": "https://connecticon.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "anime", "games", "comics"],
+  "blurb": "Connecticut's longest-running pop-culture convention, with anime, video and tabletop gaming, cosplay and celebrity guests in Hartford.",
+  "cover": { "file": "pipeline/cache/extract/connecticon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-15",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Hartford",
+      "region": "CT",
+      "country": "US",
+      "tickets": "https://connecticon.org/register",
+      "guestsPage": "https://connecticon.org/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'CONNECTICON XXIV JULY 15 - 18, 2027 HARTFORD, CT' with a live countdown (283 days remaining as measured on 2026-10-05, consistent with a July 15, 2027 start)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is ConnectiCon XXIV (the con's own text also says '23rd year' in a leftover sentence -- numbering inconsistency on their own site). The /guests page (261 image candidates) is explicitly headed 'Previous Guests' and every name sits under that one section, i.e. it is a historical talent wall covering many past years, not an announced XXIV lineup, so no names were picked from it; a follow-up check of the 'Guest Appearances' schedule view (/events#category/Guests) rendered only the generic site shell with no guest cards either. guests is therefore 'none-yet'. Venue not recorded: the rendered page only said 'Convention Center' / 'Marriott' without the full official venue name. Cover uses the widest current hero banner (hero:0, 1366x691); a narrower, explicitly-labeled '2027 Announcement' slide (hero:3, portrait) was the only image tying art directly to 2027 but didn't meet the wide-banner preference. Organizer company name not found on-site."
+}

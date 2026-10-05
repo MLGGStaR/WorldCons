@@ -15,6 +15,21 @@
   ]
  },
  {
+  "id": "anime-milwaukee",
+  "items": [
+   {
+    "id": "anime-milwaukee",
+    "file": "pipeline/cache/extract/anime-milwaukee-news.guests.json",
+    "url": "https://animemilwaukee.org/",
+    "picks": 3,
+    "candidates": 34,
+    "reasons": [
+     "3 picks vs 22 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
   "id": "arctic-comic-con",
   "items": [
    {
@@ -25,6 +40,36 @@
     "candidates": 75,
     "reasons": [
      "2 picks vs 70 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "clockwork-alchemy",
+  "items": [
+   {
+    "id": "clockwork-alchemy",
+    "file": "pipeline/cache/extract/clockwork-alchemy.guests.json",
+    "url": "https://www.clockworkalchemy.com/",
+    "picks": 10,
+    "candidates": 30,
+    "reasons": [
+     "10 picks vs 24 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "comic-con-colombia-medellin",
+  "items": [
+   {
+    "id": "comic-con-colombia-medellin",
+    "file": "pipeline/cache/extract/comic-con-colombia-medellin.guests.json",
+    "url": "https://toogeek.co/eventos/comic-con-medellin/invitados",
+    "picks": 1,
+    "candidates": 39,
+    "reasons": [
+     "1 picks vs 30 person-sized images"
     ]
    }
   ]
@@ -45,6 +90,81 @@
   ]
  },
  {
+  "id": "creation-boston",
+  "items": [
+   {
+    "id": "creation-boston",
+    "file": "pipeline/cache/extract/creation-boston.guests.json",
+    "url": "https://creationent.com/events/ce-boston27/",
+    "picks": 16,
+    "candidates": 54,
+    "reasons": [
+     "16 picks vs 49 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "creation-entertainment-salt-lake-city",
+  "items": [
+   {
+    "id": "creation-entertainment-salt-lake-city",
+    "file": "pipeline/cache/extract/creation-entertainment-salt-lake-city.guests.json",
+    "url": "https://creationent.com/events/ce-slc27/",
+    "picks": 4,
+    "candidates": 30,
+    "reasons": [
+     "4 picks vs 26 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "creation-pittsburgh",
+  "items": [
+   {
+    "id": "creation-pittsburgh",
+    "file": "pipeline/cache/extract/creation-pittsburgh.guests.json",
+    "url": "https://creationent.com/events/ce-pittsburgh27/",
+    "picks": 18,
+    "candidates": 58,
+    "reasons": [
+     "18 picks vs 52 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "creation-washington-dc-area",
+  "items": [
+   {
+    "id": "creation-washington-dc-area",
+    "file": "pipeline/cache/extract/creation-washington-dc-area.guests.json",
+    "url": "https://creationent.com/events/ce-dc27/",
+    "picks": 20,
+    "candidates": 62,
+    "reasons": [
+     "20 picks vs 56 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "creep-ie-con",
+  "items": [
+   {
+    "id": "creep-ie-con",
+    "file": "pipeline/cache/extract/creep-ie-con.guests.json",
+    "url": "https://www.creepiecon.com/guests",
+    "picks": 26,
+    "candidates": 67,
+    "reasons": [
+     "26 picks vs 62 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
   "id": "dreamhack-stockholm",
   "items": [
    {
@@ -55,6 +175,46 @@
     "candidates": 33,
     "reasons": [
      "2 picks vs 28 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "facts",
+  "items": [
+   {
+    "id": "facts",
+    "file": "pipeline/cache/extract/facts.guests.json",
+    "url": "https://www.facts.be/en/guests/actors/",
+    "picks": 5,
+    "candidates": 15,
+    "reasons": [
+     "5 picks vs 14 person-sized images"
+    ]
+   },
+   {
+    "id": "facts",
+    "file": "pipeline/cache/extract/facts-2.guests.json",
+    "url": "https://www.facts.be/en/guests/artist-alley/",
+    "picks": 10,
+    "candidates": 45,
+    "reasons": [
+     "10 picks vs 44 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gameacon",
+  "items": [
+   {
+    "id": "gameacon",
+    "file": "pipeline/cache/extract/gameacon.guests.json",
+    "url": "https://www.gameacon.com/guests",
+    "picks": 6,
+    "candidates": 42,
+    "reasons": [
+     "6 picks vs 38 person-sized images"
     ]
    }
   ]
@@ -75,6 +235,106 @@
   ]
  },
  {
+  "id": "heroes-world",
+  "items": [
+   {
+    "id": "heroes-world",
+    "file": "pipeline/cache/extract/heroes-world.guests.json",
+    "url": "https://www.heroes-world.be/guests/",
+    "picks": 23,
+    "candidates": 73,
+    "reasons": [
+     "23 picks vs 52 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "iberanime",
+  "items": [
+   {
+    "id": "iberanime",
+    "file": "pipeline/cache/extract/iberanime.guests.json",
+    "url": "https://www.iberanime.com",
+    "picks": 12,
+    "candidates": 100,
+    "reasons": [
+     "12 picks vs 56 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ichibancon",
+  "items": [
+   {
+    "id": "ichibancon",
+    "file": "pipeline/cache/extract/ichibancon-home.guests.json",
+    "url": "https://ichibancon.com",
+    "picks": 1,
+    "candidates": 30,
+    "reasons": [
+     "1 picks vs 25 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kumoricon",
+  "items": [
+   {
+    "id": "kumoricon",
+    "file": "pipeline/cache/extract/kumoricon-2.guests.json",
+    "url": "https://www.kumoricon.org/guests/voice-actor",
+    "picks": 14,
+    "candidates": 35,
+    "reasons": [
+     "14 picks vs 32 person-sized images"
+    ]
+   },
+   {
+    "id": "kumoricon",
+    "file": "pipeline/cache/extract/kumoricon-3.guests.json",
+    "url": "https://www.kumoricon.org/guests/musical",
+    "picks": 5,
+    "candidates": 17,
+    "reasons": [
+     "5 picks vs 15 person-sized images"
+    ]
+   },
+   {
+    "id": "kumoricon",
+    "file": "pipeline/cache/extract/kumoricon-4.guests.json",
+    "url": "https://www.kumoricon.org/guests/industry",
+    "picks": 6,
+    "candidates": 19,
+    "reasons": [
+     "6 picks vs 17 person-sized images"
+    ]
+   },
+   {
+    "id": "kumoricon",
+    "file": "pipeline/cache/extract/kumoricon-5.guests.json",
+    "url": "https://www.kumoricon.org/guests/cultural",
+    "picks": 5,
+    "candidates": 17,
+    "reasons": [
+     "5 picks vs 15 person-sized images"
+    ]
+   },
+   {
+    "id": "kumoricon",
+    "file": "pipeline/cache/extract/kumoricon-6.guests.json",
+    "url": "https://www.kumoricon.org/guests/cosplay",
+    "picks": 5,
+    "candidates": 17,
+    "reasons": [
+     "5 picks vs 15 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
   "id": "la-comic-con",
   "items": [
    {
@@ -85,6 +345,126 @@
     "candidates": 152,
     "reasons": [
      "39 picks vs 151 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "magnificon-expo",
+  "items": [
+   {
+    "id": "magnificon-expo",
+    "file": "pipeline/cache/extract/magnificon-expo.guests.json",
+    "url": "https://www.magnificonexpo.com/en/goscie",
+    "picks": 18,
+    "candidates": 40,
+    "reasons": [
+     "18 picks vs 39 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "oafcon",
+  "items": [
+   {
+    "id": "oafcon",
+    "file": "pipeline/cache/extract/oafcon.guests.json",
+    "url": "https://www.oafcomiccon.com/guests",
+    "picks": 8,
+    "candidates": 43,
+    "reasons": [
+     "8 picks vs 42 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rhode-island-comic-con",
+  "items": [
+   {
+    "id": "rhode-island-comic-con",
+    "file": "pipeline/cache/extract/rhode-island-comic-con-2.guests.json",
+    "url": "https://www.ricomiccon.com/artists",
+    "picks": 18,
+    "candidates": 121,
+    "reasons": [
+     "18 picks vs 110 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "scream-diego",
+  "items": [
+   {
+    "id": "scream-diego",
+    "file": "pipeline/cache/extract/scream-diego.guests.json",
+    "url": "https://screamdiego.com/special-guests/",
+    "picks": 7,
+    "candidates": 50,
+    "reasons": [
+     "7 picks vs 47 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "shore-leave",
+  "items": [
+   {
+    "id": "shore-leave",
+    "file": "pipeline/cache/extract/shore-leave.guests.json",
+    "url": "https://www.shore-leave.com/guests/celeb-guests/",
+    "picks": 2,
+    "candidates": 16,
+    "reasons": [
+     "2 picks vs 15 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sin-city-anime",
+  "items": [
+   {
+    "id": "sin-city-anime",
+    "file": "pipeline/cache/extract/sin-city-anime.guests.json",
+    "url": "https://www.sincityanime.com/guests",
+    "picks": 11,
+    "candidates": 36,
+    "reasons": [
+     "11 picks vs 31 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "youmacon",
+  "items": [
+   {
+    "id": "youmacon",
+    "file": "pipeline/cache/extract/youmacon.guests.json",
+    "url": "https://youmacon.com/guests/",
+    "picks": 29,
+    "candidates": 79,
+    "reasons": [
+     "29 picks vs 77 person-sized images"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "yunicon",
+  "items": [
+   {
+    "id": "yunicon",
+    "file": "pipeline/cache/extract/yunicon.guests.json",
+    "url": "https://www.yunicon.at/",
+    "picks": 19,
+    "candidates": 183,
+    "reasons": [
+     "19 picks vs 182 person-sized images"
     ]
    }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "horrorcon-uk",
+  "name": "HorrorCon UK",
+  "short": "",
+  "url": "https://horrorconuk.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "A horror convention at Magna in Rotherham with celebrity meet-and-greets, signings, cosplay and horror merch.",
+  "cover": { "file": "pipeline/cache/extract/horrorcon-uk.home.json", "key": "hero:4" },
+  "editions": [],
+  "last": { "start": "2026-06-06", "end": "2026-06-07", "city": "Rotherham", "region": "", "country": "GB", "venue": "Magna Science Adventure Centre" },
+  "checked": "2026-10-05",
+  "notes": "The most recent confirmed edition ran 6-7 June 2026 at Magna (already over by this research date; confirmed by the site's own June 2026 recap posts, e.g. a 12 June 2026 'Most Horrific Creation Award' post, and by a web search). No 2027 date has been announced yet: the Schedule page only lists past-year tabs plus an unfilled '2026' tab, and the Special Guests page currently shows booking-price tiles with no names or photos, so guests could not be read for a next edition."
+}

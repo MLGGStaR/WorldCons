@@ -5,9 +5,15 @@
   "url": "https://www.fedcon.de/",
   "organizer": "Space Contact Verlags- und Veranstaltungs-GmbH",
   "status": "active",
-  "types": ["scifi", "pop"],
+  "types": [
+    "scifi",
+    "pop"
+  ],
   "blurb": "Europe's largest Star Trek and science-fiction convention, three days of star guests, autographs and a cosplay catwalk at the Maritim Hotel Bonn.",
-  "cover": { "file": "pipeline/cache/extract/fedcon.home.json", "key": "logo:4" },
+  "cover": {
+    "file": "pipeline/cache/extract/fedcon.home.json",
+    "key": "logo:4"
+  },
   "editions": [
     {
       "start": "2027-05-14",
@@ -24,15 +30,60 @@
         {
           "file": "pipeline/cache/extract/fedcon.guests.json",
           "picks": [
-            [6, "Robert Picardo", "", "actor"],
-            [7, "Brent Spiner", "", "actor"],
-            [8, "Terry Farrell", "", "actor"],
-            [9, "Callum Keith Rennie", "", "actor"],
-            [10, "Kate Mulgrew", "", "actor"],
-            [11, "Jonathan Frakes", "", "actor"],
-            [12, "Marina Sirtis", "", "actor"],
-            [13, "Gates McFadden", "", "actor"],
-            [14, "Nicole de Boer", "", "actor"]
+            [
+              5,
+              "Robert Picardo",
+              "",
+              "actor"
+            ],
+            [
+              6,
+              "Brent Spiner",
+              "",
+              "actor"
+            ],
+            [
+              7,
+              "Terry Farrell",
+              "",
+              "actor"
+            ],
+            [
+              8,
+              "Callum Keith Rennie",
+              "",
+              "actor"
+            ],
+            [
+              9,
+              "Kate Mulgrew",
+              "",
+              "actor"
+            ],
+            [
+              10,
+              "Jonathan Frakes",
+              "",
+              "actor"
+            ],
+            [
+              11,
+              "Marina Sirtis",
+              "",
+              "actor"
+            ],
+            [
+              12,
+              "Gates McFadden",
+              "",
+              "actor"
+            ],
+            [
+              13,
+              "Nicole de Boer",
+              "",
+              "actor"
+            ]
           ]
         }
       ],
@@ -41,5 +92,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Guest cards on the homepage carry only each actor's name with no credit text rendered on the card itself, so known-for is left blank per the rules rather than filled from outside knowledge; cat is 'actor' for all nine since each is a known live-action film/TV performer (all are Star Trek alumni except Callum Keith Rennie, best known for Battlestar Galactica)."
+  "notes": "Guest cards on the homepage carry only each actor's name with no credit text rendered on the card itself, so known-for is left blank per the rules rather than filled from outside knowledge; cat is 'actor' for all nine since each is a known live-action film/TV performer (all are Star Trek alumni except Callum Keith Rennie, best known for Battlestar Galactica). 2026-10-05 re-verify: current, lineup unchanged -- fresh extraction still shows all nine under a 'Die Gaststars 2027' (Guest Stars 2027) heading with every image alt tagged 'FedCon 35 | <name>' (this edition's own number), and the page's 'Latest News' feed dates their own announcement posts to September 2026 (Robert Picardo Sept 25, Brent Spiner Sept 11, Terry Farrell Sept 5), i.e. within the last month, not leftover from a prior show. Refute attempt (2026-10-05): upheld (proof) -- fresh re-extraction confirms all nine image alt tags still read 'FedCon 35 | <name>' (this edition's own number, not 34) under 'Die Gaststars 2027', and three have their own Latest-News posts dated September 2026, after FedCon 34 (the prior, May-2026 edition) had already ended, so this is the 35th edition's own roster."
 }

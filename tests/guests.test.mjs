@@ -87,3 +87,29 @@ test('faceCrop keeps duos together and stays inside small images', async () => {
   const tiny = faceCrop(120, 100, [[40, 20, 30, 40, 0.9]], 0.42, 200);
   assert.ok(tiny.width <= 120 && tiny.height <= 100 && tiny.left >= 0 && tiny.top >= 0);
 });
+
+test('clearOfText frames a promo tile clear of the printed name', async () => {
+  const { faceCrop, clearOfText } = await import('../pipeline/lib/guests.mjs');
+  // 500x500 tile: face in the middle, the name printed below the chin, a logo top-left
+  const face = [190, 120, 120, 150, 0.95];
+  const crop = faceCrop(500, 500, [face], 0.42, 200);
+  const name = [120, 300, 260, 60];
+  const logo = [10, 10, 90, 30];
+  const out = clearOfText(500, 500, face.slice(0, 4), crop, [name, logo]);
+  assert.ok(out, 'a crop clear of the text exists');
+  const inside = (b) => b[0] < out.left + out.width && b[0] + b[2] > out.left && b[1] < out.top + out.height && b[1] + b[3] > out.top;
+  assert.ok(!inside(name) && !inside(logo));
+  // the face stays whole and the frame stays 4:5
+  assert.ok(out.left <= 190 && out.left + out.width >= 310 && out.top <= 120 && out.top + out.height >= 120 + 150 * 0.92);
+  assert.equal(Math.round((out.width / out.height) * 100) / 100, 0.8);
+});
+
+test('clearOfText ignores text over the face and gives up when text hugs it', async () => {
+  const { faceCrop, clearOfText } = await import('../pipeline/lib/guests.mjs');
+  const face = [190, 120, 120, 150, 0.95];
+  const crop = faceCrop(500, 500, [face], 0.42, 200);
+  // a T-shirt slogan or glasses glare inside the face box is not framed out
+  assert.deepEqual(clearOfText(500, 500, face.slice(0, 4), crop, [[220, 180, 60, 20]]), crop);
+  // text pressed against both cheeks leaves no room for the face: keep the first crop
+  assert.equal(clearOfText(500, 500, face.slice(0, 4), crop, [[60, 120, 125, 150], [315, 120, 125, 150]]), null);
+});

@@ -1,0 +1,37 @@
+{
+  "id": "palmetto-anthro-weekend",
+  "name": "Palmetto Anthro Weekend",
+  "short": "PAW",
+  "url": "https://www.palmettoanthroweekend.org",
+  "organizer": "Palmetto Anthro Collective",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "South Carolina's first dedicated furry convention: a Valentine's-themed weekend of fursuiting, art and panels at the Crowne Plaza Greenville.",
+  "cover": { "file": "pipeline/cache/extract/palmetto-anthro-weekend.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-04",
+      "end": "2027-02-08",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Greenville",
+      "city": "Greenville",
+      "region": "SC",
+      "country": "US",
+      "tickets": "https://reg.palmettoanthroweekend.org",
+      "guestsPage": "https://www.palmettoanthroweekend.org/about/guest-of-honor",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/palmetto-anthro-weekend-v2.guests.json",
+          "picks": [
+            [1, "Wyviryn", "Composer and furry artist", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Palmetto Anthro Weekend 2027 Theme: Fur In Love (Valentine's) February 4th-8th, 2027 - Crowne Plaza Greenville 851 Congaree Road, Greenville, South Carolina 29607'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Correction: the batch's given url (palmettoanthroweekend.com) is a different, parked Squarespace domain that really is just 'Coming Soon... under construction' as the batch note said; the convention's actual official site is the .org domain (palmettoanthroweekend.org), which is fully built out with venue, schedule, artist alley and guest-of-honor pages, confirming the Feb 4-8, 2027 debut at the Crowne Plaza Greenville. Organizer is the Palmetto Anthro Collective, a 501(c)(3) nonprofit. The lone Guest of Honor is Wyviryn, a South Carolina (Lexington) local; the guest page's photo card itself carries no caption, but the page's own body text names and introduces them directly beneath that exact photo ('Palmetto Anthro Weekend is honored to have Wyviryn from Lexington, South Carolina as our 2027 Guest of Honor!... First and foremost, I am a composer and a percussionist... I am also a furry artist... I am also a variety streamer!'), so the pick is confirmed rather than guessed. Verify pass (2026-10-05): confirmed current -- this is the convention's debut edition (no prior year exists to confuse it with) and the page names Wyviryn 'our 2027 Guest of Honor' outright. Refute pass (2026-10-05): fresh re-extraction (-v2) is unchanged -- the page's own meta description still reads 'Palmetto Anthro Weekend is honored to have Wyviryn from Lexington, South Carolina as our 2027 Guest of Honor!'; upheld, not stale (debut edition, no previous lineup to carry over)."
+}

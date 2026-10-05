@@ -1,7 +1,7 @@
 // WorldCons service worker. Network-first for the app and data (always fresh online,
 // still works offline); stale-while-revalidate for images. VERSION is stamped by
 // pipeline/stamp.mjs on every release.
-const VERSION = '2026.10.04-2347';
+const VERSION = '2026.10.05-0154';
 const SHELL = `wc-shell-${VERSION}`;
 const IMAGES = 'wc-img-v1';
 const PRECACHE = [

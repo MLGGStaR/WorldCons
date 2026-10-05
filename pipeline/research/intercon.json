@@ -1,0 +1,30 @@
+{
+  "id": "intercon",
+  "name": "Intercon",
+  "short": "",
+  "url": "https://y.interconlarp.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The 28th annual Intercon, New England's rotating live-action role-play (LARP) convention, themed 'Year and a Day' for its 2027 edition in Warwick, RI.",
+  "cover": { "file": "pipeline/cache/extract/intercon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-02-25",
+      "end": "2027-02-28",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Providence-Warwick",
+      "city": "Warwick",
+      "region": "RI",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Hotel page: 'The convention runs from Thursday 25-Feb-2027 to Sunday 28-Feb-2027' at the 'Crowne Plaza Providence-Warwick, 801 Greenwich Ave, Warwick, RI 02886'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Corrected the seed's given city: the site's own hotel page puts Intercon Y in Warwick, RI (Crowne Plaza Providence-Warwick), not Chelmsford, MA; the homepage text does call the series 'the twenty-eighth Intercon in the greater Boston area' as a general identity line, but the venue booked for this specific 2027 edition is in Warwick. The homepage's own meta description confusingly says the con runs 'to March 01, 2027', but the dedicated hotel page explicitly states the Thu 25-Feb to Sun 28-Feb range, which is used here. No guest program: 'guest' does not appear anywhere on the site; Intercon runs entirely on player-submitted/written games rather than invited guests, so guests is 'none'. Only a single, year-specific logo image exists (no banner/photo), used as cover."
+}

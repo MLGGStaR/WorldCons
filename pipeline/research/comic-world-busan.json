@@ -9,6 +9,14 @@
   "blurb": "Busan leg of Korea's touring Comic World doujinshi fair, held roughly every two months at BEXCO.",
   "cover": { "file": "pipeline/cache/extract/comic-world-seoul.home.json", "key": "logo:0" },
   "editions": [],
+  "last": {
+    "start": "2026-05-16",
+    "end": "2026-05-17",
+    "city": "Busan",
+    "region": "",
+    "country": "KR",
+    "venue": "BEXCO"
+  },
   "checked": "2026-10-05",
-  "notes": "comicw.co.kr (seed URL) redirects to comicw.net, the shared portal for every Comic World city (Suwon, Ilsan/KINTEX, Busan, Ulsan...). The last confirmed Busan edition was #333 on 2026-05-16~05-17 at BEXCO (per web search of the organizer's own announcements) - already over before the research window. As of 2026-10-05 the homepage's own event ticker (which lists every city's open-for-application/next events) shows only Suwon (#338, Oct 24-25), Ilsan (#339, Nov 7-8) and an Ilsan winter edition (Dec 12-13); no Busan date has been posted yet for the window, so editions is empty rather than guessed. Comic World does not run a guest-celebrity program (fan-made doujinshi/circle market), so guests would be 'none' once a date is announced. Cover reuses the shared portal's logo (comic-world-seoul.home.json, same site) since no Busan-specific artwork is currently live; see that file/id for the full site render."
+  "notes": "comicw.co.kr (seed URL) redirects to comicw.net, the shared portal for every Comic World city (Suwon, Ilsan/KINTEX, Busan, Ulsan...). Re-checked comicw.net fresh (--fresh): the homepage's own event ticker (which lists every city's open-for-application/next events) still shows only Suwon (#338, Oct 24-25), Ilsan (#339, Nov 7-8) and an Ilsan winter edition (Dec 12-13); no Busan date has been posted yet for the window, so editions stays empty rather than guessed. Added 'last': the most recent confirmed Busan edition was #333 on 2026-05-16~05-17 at BEXCO (confirmed independently via Furpic.net's event listing and a web search of the organizer's own announcements/numbering - #328 Busan Jan 10-11, #331 Busan Mar 28-29, #333 Busan May 16-17; no higher-numbered Busan edition appears between #333 and the current #337-339 range, which are Ulsan/Suwon/Ilsan) - already over before the research window. Comic World does not run a guest-celebrity program (fan-made doujinshi/circle market), so guests would be 'none' once a date is announced. Cover reuses the shared portal's logo (comic-world-seoul.home.json, same site) since no Busan-specific artwork is currently live; see that file/id for the full site render."
 }

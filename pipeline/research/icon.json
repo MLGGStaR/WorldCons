@@ -1,0 +1,39 @@
+{
+  "id": "icon",
+  "name": "ICON",
+  "short": "",
+  "url": "https://www.iowa-icon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "Iowa City-region science fiction, fantasy and speculative-fiction convention held annually since 1975.",
+  "cover": { "file": "pipeline/cache/extract/icon.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Coralville Hotel and Conference Center",
+      "city": "Coralville",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/icon-50",
+      "guestsPage": "https://tabletop.events/conventions/icon-50/pages/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/icon.guests.json",
+          "picks": [
+            [0, "Ben Wolf", "", "author"],
+            [1, "Daniel \"Stitch\" Mohr and Wolfie", "", "other"],
+            [2, "Peter Balestrieri", "", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Tabletop.events dates: 'Fri, Oct 23 2026, 5:00pm - 11:45pm Sat, Oct 24 2026, 9:00am - 11:45pm'; homepage text: 'all day Saturday, October 24, with some optional activities the night of Friday, October 23.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This edition is billed 'ICON 50' (50th edition); real URL iowa-icon.com redirects to the tabletop.events listing used for both extracts. Guests page sections only label each guest by their honor title (Ben Wolf = Author GOH, Daniel 'Stitch' Mohr and Wolfie = Toastmasters, Peter Balestrieri = Fan GOH) with no further bio text, so known-for is left blank per the same rule used for role-only guest cards; Mohr and his co-host Wolfie are picked as one Toastmaster duo. Venue inferred from the room-block hotel (same Hyatt Regency Coralville used by Gamicon, also in Coralville, IA) since the page itself names the hotel only via an outbound link, not in the visible venue text."
+}

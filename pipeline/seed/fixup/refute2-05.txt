@@ -1,0 +1,6 @@
+facts | 2026-10-31 | https://www.facts.be/en/guests/ | flagged by a scan: 17/32 dated photos look older than this edition (32 picks) | 32 guests
+unicon | 2027-01-08 | https://www.unicon.lv/guests | the research pass recorded this lineup as announced for this edition (see notes) | 15 guests
+capricon | 2027-01-28 | https://capricon.org/guests-of-honor/ | the research pass recorded this lineup as announced for this edition (see notes) | 2 guests
+boskone | 2027-02-12 | https://boskone.org/guests/featured-guests/ | the research pass recorded this lineup as announced for this edition (see notes) | 4 guests
+anime-milwaukee | 2027-03-05 | https://animemilwaukee.org/guests | the research pass recorded this lineup as announced for this edition (see notes) | 3 guests
+anime-detour | 2027-03-26 | https://www.animedetour.com/guest-voice-actors/ | the research pass recorded this lineup as announced for this edition (see notes) | 6 guests

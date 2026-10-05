@@ -1,0 +1,22 @@
+{
+  "id": "furry-takeover",
+  "name": "Furry Takeover",
+  "short": "FTO",
+  "url": "https://furrytakeover.com",
+  "organizer": "Furry Takeover LLC",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A furry convention with cabin, lodge and campsite lodging at Fontana Village Resort & Marina in Fontana Dam, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/furry-takeover.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-25",
+    "end": "2026-09-27",
+    "venue": "Fontana Village Resort & Marina",
+    "city": "Fontana Dam",
+    "region": "NC",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official site gives no explicit dates for the 2026 edition itself (only 'FTO 2026', 'REGISTRATION CLOSED', and a panel-submission deadline of June 29, 2026); a web search confirms Furry Takeover 2026 ran September 25-27, 2026 at Fontana Village Resort & Marina, Fontana Dam, NC, which already ended before the 2026-10-05 research window, so it is recorded as 'last'. No 2027 dates are announced anywhere on the site (schedule is now handled entirely through the ConTrack app, not a web page). Guests were not researched since there is no upcoming edition to attach them to; the site has no dedicated guest-of-honor program visible on its pages."
+}

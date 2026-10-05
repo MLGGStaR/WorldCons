@@ -1,0 +1,30 @@
+{
+  "id": "no-brand-con",
+  "name": "No Brand Con",
+  "short": "",
+  "url": "https://www.nobrandcon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Wisconsin's longest-running anime convention, held every spring at the Lismore Hotel in Eau Claire; founded by UW-Eau Claire's Anime Appreciation Society.",
+  "cover": { "file": "pipeline/cache/extract/no-brand-con.home.json", "key": "hero:3" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Lismore Hotel",
+      "city": "Eau Claire",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://www.nobrandcon.org/p/event-registration/",
+      "guestsPage": "https://www.nobrandcon.org/p/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/banner: 'No Brand Con – April 16-18, 2027 in Eau Claire, WI!'; news post: 'the twenty-second No Brand Con is going to take place April 16-18th 2027 at the Lismore Hotel.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated /guests/ (Guests of Honor) page is currently empty of any guest cards - the 2026 lineup (Princess Weekes, Laughing Rat, Eric Wile, Takoyaki Entertainment, Tappy Toe Claws) has been cleared out after that con concluded and no 2027 names have been posted yet. Organizer entity beyond the con's own name and a short/common abbreviation were not found on the site."
+}

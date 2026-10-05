@@ -6,6 +6,7 @@ import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { addPngText } from '../lib/png-text.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const data = JSON.parse(readFileSync(join(ROOT, 'data', 'cons.json'), 'utf8'));
@@ -69,5 +70,9 @@ writeFileSync(tmp, html);
 await page.goto(pathToFileURL(tmp).href, { waitUntil: 'load' });
 await page.evaluate(() => document.fonts.ready);
 await page.screenshot({ path: join(ROOT, 'icons', 'og.png') });
+addPngText(
+  join(ROOT, 'icons', 'og.png'),
+  `Origin: rendered by pipeline/tools/build-og.mjs from data/cons.json on ${today} (wordmark, counts and guest credentials from official con guest pages; per-photo sources in data/sources.json). No generated imagery.`,
+);
 await browser.close();
 console.log(`icons/og.png: ${upcoming.length} cons, ${countries} countries, ${guestIds.size} guests, ${picks.length} faces`);

@@ -1,0 +1,30 @@
+{
+  "id": "painted-desert-fur-con",
+  "name": "Painted Desert Fur Con",
+  "short": "PDFC",
+  "url": "https://painteddesertfc.org",
+  "organizer": "Anthro Events",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Arizona's furry convention, held New Year's weekend in downtown Phoenix with panels, dances and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/pdfc-bsky.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-01-01",
+      "end": "2027-01-03",
+      "dates": "confirmed",
+      "venue": "Sheraton Phoenix Downtown",
+      "city": "Phoenix",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "https://painteddesertfc.org/register/",
+      "guestsPage": "",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official Bluesky account bio (bsky.app/profile/painteddesertfc.com, linked from painteddesertfc.org): '📅 January 1-3, 2027 📍 Sheraton Phoenix Downtown, Phoenix, AZ'. Aggregators FurryCons.com and 10times.com independently list the same dates and venue."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "painteddesertfc.org is behind a Cloudflare JS challenge ('Just a moment...') that blocked every automated render attempt (default Chromium, --channel msedge, and a Wayback Machine snapshot all came back 403). Used the convention's own official Bluesky account for the confirmed dates/venue and cover image instead. The guest list could not be checked since the site itself could not be loaded, so guests is 'unavailable' rather than 'announced' or 'none-yet'."
+}

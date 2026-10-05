@@ -1,0 +1,30 @@
+{
+  "id": "armageddon-expo-christchurch",
+  "name": "Armageddon Expo Christchurch",
+  "short": "",
+  "url": "https://www.armageddonexpo.com/",
+  "organizer": "Beyond Reality Media Premier Event Management",
+  "status": "active",
+  "types": ["pop", "comics", "games", "cosplay"],
+  "blurb": "The Christchurch edition of New Zealand's Armageddon Expo pop-culture convention, held at Te Pae Christchurch Convention Centre.",
+  "cover": { "file": "pipeline/cache/extract/armageddon-expo-christchurch.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-04-10",
+      "end": "2027-04-11",
+      "dates": "confirmed",
+      "venue": "Te Pae Christchurch Convention Centre",
+      "city": "Christchurch",
+      "region": "",
+      "country": "NZ",
+      "tickets": "",
+      "guestsPage": "https://www.armageddonexpo.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Christchurch page: 'Christchurch (Ōtautahi) Armageddon 2027 in on 10/11th April at Te Pae Christchurch Convention Centre' with 'Saturday April 10 ... Sunday April 11'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "As with Wellington, the shared /guests/ page currently only tags guests for the nearer Auckland Spring (Oct 2026) show, so guests is none-yet for this edition. Christchurch's previous edition ran Mar 21-22, 2026 per the site's own update post; that has already passed, so the next confirmed edition (Apr 10-11, 2027) is listed instead."
+}

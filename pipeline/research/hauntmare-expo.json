@@ -1,0 +1,15 @@
+{
+  "id": "hauntmare-expo",
+  "name": "Hauntmare Expo",
+  "short": "",
+  "url": "https://www.hauntmareexpo.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A Halloween and horror convention in Fresno, California, with vendors, haunted houses, cosplay and horror-genre celebrity guests.",
+  "cover": { "file": "pipeline/cache/extract/hauntmare-expo.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-07-18", "end": "2026-07-19", "city": "Fresno", "region": "CA", "country": "US", "venue": "Fresno Fairgrounds" },
+  "checked": "2026-10-05",
+  "notes": "No 2027 (or later 2026) edition has been announced yet; the homepage still only shows the July 18-19, 2026 dates, which already ended before this window, so editions is empty and that confirmed date is recorded as 'last' instead. The site has a 'Celebrity Guests' grid of about a dozen named horror-convention guests (Audrey Lynn Marie, Eddie Deezen, Eileen Dietz, Kat Cressida, James Pax, Allan Trautman, Brett Wagner and others) plus several ad tiles with only cryptic first-name filenames, but that lineup is for the now-past July 2026 show, not an announced upcoming edition, so it is not recorded here. No ticket link or organizer entity was found on the page."
+}

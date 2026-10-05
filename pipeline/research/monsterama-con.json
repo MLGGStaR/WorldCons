@@ -1,0 +1,30 @@
+{
+  "id": "monsterama-con",
+  "name": "Monsterama Con",
+  "short": "",
+  "url": "https://monsteramacon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi", "toys"],
+  "blurb": "Atlanta's retro horror and sci-fi convention, celebrating classic monster movies and TV with film guests, vendors and fan panels.",
+  "cover": { "file": "pipeline/cache/extract/monsterama-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Atlanta Marriott NE/Emory",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://monsteramacon.com",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "The site's live homepage currently returns a 'COMING SOON' maintenance page (HTTP 503) at every URL tried, but it serves its own 2027 key-art banner (2027mramaheaderA-1024x511.png), which reads, viewed directly: 'August 6-8, 2027 Atlanta Marriott NE/Emory' with a 'SPECIAL CELEBRATION ?' teaser box. A web search confirms the prior edition ran August 7-9, 2026 at the 'Atlanta Marriott Northeast/Emory Area' (FOX5 Atlanta, Creative Loafing), matching the same venue name/short form used in the 2027 banner."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live site (root and every path tried, including /welcome/) 503s with only a 'COMING SOON' placeholder and this one banner image, so no page text, JSON-LD or guest page could be read; the 2027 dates and venue come from reading that banner image directly. The banner's 'SPECIAL CELEBRATION' box is a blanked-out question mark, i.e. a themed guest/announcement teaser with nothing revealed yet, so guests is 'none-yet' rather than guessed, and no ticket or guest-page URL is known. No organizer company name was found (search results describe only the convention's past theming, e.g. 2026's 'Mathesontennial: 100 Years of Richard Matheson' with guests Richard Christian Matheson, Alie Marie Matheson, Jim Storm, Kathryn Leigh Scott, Lloyd Kaufman, Clayton Landey, Tim Bradstreet and Jeff Thompson, but that was the 2026 lineup, already past, not 2027's)."
+}

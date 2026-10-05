@@ -1,0 +1,30 @@
+{
+  "id": "biggest-little-fur-con",
+  "name": "Biggest Little Fur Con",
+  "short": "BLFC",
+  "url": "https://goblfc.org",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A furry convention at the Grand Sierra Resort in Reno with dances, a dealers den, an art gallery and gaming.",
+  "cover": { "file": "pipeline/cache/extract/biggest-little-fur-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-12",
+      "end": "2026-10-15",
+      "dates": "confirmed",
+      "venue": "Grand Sierra Resort",
+      "city": "Reno",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://goblfc.org/registration/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'BLFC 2026 BLFC @ Sea! Oct. 12th - 15th' and 'DATES: October 12th to 15th, 2026 LOCATION: Reno, Nevada VENUE: Grand Sierra Resort'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "BLFC does not appear to run a traditional named celebrity guest program; there is no Guests/Guest-of-Honor nav link, the /about/ page (checked for a Guest of Honor section) has none, and a search for 'Biggest Little Fur Con 2026 guest of honor' confirmed none has been announced, so guests is 'none-yet'."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "abunai",
+  "name": "Abunai!",
+  "short": "",
+  "url": "https://abunaicon.nl/",
+  "organizer": "Stichting Abunai!",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "The Netherlands' cheekiest anime convention at NH Koningshof in Veldhoven, with matsuri, cosplay, music and gaming.",
+  "cover": { "file": "pipeline/cache/extract/abunai.home.json", "key": "hero:2" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "last": { "start": "2026-08-07", "end": "2026-08-09", "city": "Veldhoven", "region": "", "country": "NL", "venue": "NH Koningshof" },
+  "notes": "The homepage explicitly reads '2027 DATE TO BE ANNOUNCED' for the next (23rd) edition, 'Izakaya Nights', so editions is empty. The 22nd edition ('Case Closed', Aug 7-9 2026) already happened; its dates come from a web search (animecons.ca/fancons.com/rostercon.com listings) since the current homepage only shows post-event hotel/ticket announcement posts dated earlier in 2026, not the show dates themselves. Venue (NH Koningshof, Locht 117, Veldhoven) confirmed directly from the site's own schedule page."
+}

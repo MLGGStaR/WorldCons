@@ -1,0 +1,27 @@
+{
+  "id": "arkansas-card-show",
+  "name": "Arkansas Card Show",
+  "short": "",
+  "url": "https://www.vxvevents.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": [
+    "toys"
+  ],
+  "blurb": "A trading-card and collectibles show at the Statehouse Convention Center in Little Rock, run by VXV Events.",
+  "cover": {
+    "file": "pipeline/cache/extract/vxv-events.home.json",
+    "key": "logo:1"
+  },
+  "editions": [],
+  "last": {
+    "start": "2026-04-18",
+    "end": "2026-04-19",
+    "city": "Little Rock",
+    "region": "AR",
+    "country": "US",
+    "venue": "Statehouse Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "vxvevents.com/events keeps a combined '2026 Events' / '2027 Events' calendar in plain text (fetched and cross-checked twice); the 2027 section runs Central Carolina Comic Con through Illinois Comic Con and does not include Arkansas Card Show, so no 2026-10-05..2027-12-31 date is announced yet (editions: []). Its last confirmed run was April 18-19, 2026 at the Statehouse Convention Center, Little Rock. A trading-card/collectibles show with no celebrity guest program (VXV's site has no Guests/Celebrities page for any of its shows)."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scotland-loves-animation",
+  "name": "Scotland Loves Animation",
+  "short": "",
+  "url": "https://www.lovesanimation.com/",
+  "organizer": "Anime Limited (All the Anime)",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "A touring UK anime film festival with feature premieres and industry guests, run by distributor Anime Limited.",
+  "cover": { "file": "pipeline/cache/extract/scotland-loves-animation.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Glasgow Film Theatre",
+      "city": "Glasgow",
+      "region": "",
+      "country": "GB",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'SCOTLAND LOVES ANIME 2026 GLASGOW: 6TH - 8TH NOVEMBER EDINBURGH: 16TH - 22ND NOVEMBER LONDON: TBC'; the Glasgow Film Theatre sub-page confirms '6TH - 8TH NOVEMBER 2026' and the Edinburgh Filmhouse sub-page confirms '16TH - 22ND NOVEMBER 2026'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "One brand, one 2026 edition, run as legs in several cities: Glasgow Film Theatre 6-8 Nov 2026, then Edinburgh Filmhouse (88 Lothian Rd) 16-22 Nov 2026, plus a London leg announced only as 'TBC' (no date/venue yet, so not included in the start/end span above). The site's own /cinema/edinburgh sub-page is stale and still shows 2025 dates; the homepage and /cinema/edinburgh-filmhouse page were used instead. Guests/industry lineup not announced yet as of this research date (a late-Sept 2026 festival post said full line-up details were 'coming soon'). The site carries no event key art or og/twitter image, only partner logos (Filmhub, HMV, All the Anime); All the Anime (Anime Limited) is the festival's own organiser, so its logo is used as the cover rather than an unrelated sponsor mark."
+}

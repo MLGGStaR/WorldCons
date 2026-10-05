@@ -1,0 +1,41 @@
+{
+  "id": "big-apple-comic-con",
+  "name": "Big Apple Comic Con",
+  "short": "BACC",
+  "url": "https://bigapplecc.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop", "toys"],
+  "blurb": "A one-day comic convention at the Wyndham New Yorker Hotel focused on classic comic book writers, artists and collectibles.",
+  "cover": { "file": "pipeline/cache/extract/big-apple-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "dates": "confirmed",
+      "venue": "Wyndham New Yorker Hotel",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "tickets": "https://events.ticketleap.com/tickets/big-apple-comic-con/the-bacc-holiday-con-is-back-saturday-november-21",
+      "guestsPage": "https://bigapplecc.com/speakers/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/big-apple-comic-con-v2.guests.json",
+          "picks": [
+            [6, "Bob Sharen", "Comic colorist: Iron Man, X-Men", "comics"],
+            [8, "Dan Fogel", "Cherry's Jubilee, Hippy Comix", "comics"],
+            [10, "Jasper Kuther", "Publisher, Oddieties Press", "comics"],
+            [13, "Kyle Willis", "Adventures of Wyatt & Pouches", "comics"],
+            [16, "Mike DeCarlo", "Batman, Simpsons inker", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'SATURDAY, NOVEMBER 21, 2026 HOLIDAY CON'; footer: 'Wyndham New Yorker Hotel 481 8th Ave, New York, NY 10001'; schedule page repeats 'BACC HOLIDAY CON NOVEMBER 21, 2026'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only one event in the research window is listed on the site, the November 21, 2026 one-day 'BACC Holiday Con'; no separate spring/summer show was found, which is likely what the seed note's 'also holds a December edition' refers to (this year's edition is simply dated to November instead of December). Refute pass (2026-10-05): a fresh re-extraction (saved as -v2, same 17 candidates/order) shows only 5 of the 17 picked cards -- Bob Sharen, Dan Fogel, Jasper Kuther, Kyle Willis, Mike DeCarlo -- have images uploaded in wp-content/uploads/2026/09/ (Dan Fogel's file is even named 'BACC-2026-Guest-Dan-Fogel'), i.e. added after the prior Nov 22, 2025 Holiday Con; the other 12 (Dorman, Steranko, Lieber, Martinez, Chu, Kong, Igle, Williams, Gudsnuk, Hama, Welz, Virella) are images uploaded 2022-2025, and a web search for the actual Nov 22, 2025 show's guests independently confirms Steranko, Lieber, Chu and Williams already appeared at that prior edition -- so this is last year's grid with 5 new names layered in, not a freshly announced 2026 lineup; trimmed to the 5 with dated proof, the rest removed for lack of per-guest evidence tying them to the Nov 21, 2026 show specifically."
+}

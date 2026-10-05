@@ -1,0 +1,30 @@
+{
+  "id": "princecon",
+  "name": "PrinceCon",
+  "short": "",
+  "url": "https://www.princecon.org",
+  "organizer": "Simulation Games Union",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A 46-hour tabletop role-playing marathon convention on Princeton University's campus, running annually since 1976.",
+  "cover": { "file": "pipeline/cache/extract/princecon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Princeton University",
+      "city": "Princeton",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://tickets.princeton.edu/",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'PrinceCon 50 will be held on March 5-7th 2027. Registration is not yet open.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "PrinceCon is a student-run tabletop RPG marathon built around GM-written modules/scenarios rather than a media or celebrity guest program; the site has no 'guests' nav item or page of any kind, so guests is 'none' rather than 'none-yet'. PrinceCon 49 (March 6-8, 2026) already happened before the research window; PrinceCon 50 (March 5-7, 2027) is the next confirmed edition, with registration not yet open through the university's ticketing system. Organizer 'Simulation Games Union' is carried over from the batch note; nothing on the rendered homepage itself names an organizing body, so this is unverified."
+}

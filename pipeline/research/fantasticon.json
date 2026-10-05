@@ -1,0 +1,15 @@
+{
+  "id": "fantasticon",
+  "name": "Fantasticon",
+  "short": "",
+  "url": "https://fantasticon.dk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "Denmark's fan-run national convention for science fiction, fantasy and horror, held in Copenhagen and staffed entirely by volunteers.",
+  "cover": { "file": "pipeline/cache/extract/fantasticon.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-06-06", "end": "2026-06-07", "city": "Copenhagen", "region": "", "country": "DK", "venue": "Støberiet" },
+  "checked": "2026-10-05",
+  "notes": "Homepage states 'Fantasticon 2026 was held on June 6th to June 7th 2026 at Støberiet in Copenhagen. We'll be back in 2027.' -- that edition already ended before this research window (2026-10-05) and no specific 2027 dates have been announced yet (only the year), so editions is empty and the June 2026 run is recorded as 'last'. Guests were not captured since there is no announced upcoming edition to attach them to; the site does have a Guests page (fantasticon.dk/guests/) for a future pass once 2027 dates are confirmed. Matches the seed note: a fan-run Danish SFF/horror convention."
+}

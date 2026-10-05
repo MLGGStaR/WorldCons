@@ -1,0 +1,30 @@
+{
+  "id": "small-press-and-alternative-comics-expo",
+  "name": "Small Press and Alternative Comics Expo",
+  "short": "SPACE",
+  "url": "https://www.backporchcomics.com/space",
+  "organizer": "Back Porch Comics",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Free small-press and alternative comics expo near Columbus, Ohio, showcasing minicomics and webcomics creators since 2000.",
+  "cover": { "file": "pipeline/cache/extract/small-press-and-alternative-comics-expo.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "dates": "confirmed",
+      "venue": "The Makoy",
+      "city": "Hilliard",
+      "region": "OH",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'SPACE (Small Press & Alternative Comics Expo) Saturday, November 14, 2026 10AM to 6 PM The Makoy 5462 Center St. Hilliard OH 43026 Free Admission'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "SPACE is an exhibitor/table-based minicomics expo with no separate celebrity guest-of-honor program - the draw is the exhibiting cartoonists themselves (treated like artist-alley tables per the guest-picking rules), so guests is 'none'. The site also teases 'A Second SPACE Show this Year! Watch for more info coming Soon!' (a 'SPACE II' event) but gives no date, so only the confirmed November 14, 2026 show is recorded; re-check backporchcomics.com/space for the second show's date."
+}

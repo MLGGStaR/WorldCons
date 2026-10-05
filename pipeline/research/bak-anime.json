@@ -1,0 +1,22 @@
+{
+  "id": "bak-anime",
+  "name": "Bak-Anime",
+  "short": "",
+  "url": "https://www.bak-anime.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Bakersfield's anime convention, held annually over Memorial Day weekend at the Kern County Fairgrounds, with English-dub voice actor guests.",
+  "cover": { "file": "pipeline/cache/extract/bak-anime.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-30",
+    "end": "2026-05-31",
+    "city": "Bakersfield",
+    "region": "CA",
+    "country": "US",
+    "venue": "Kern County Fairgrounds"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official site has not been updated past its 2026 edition: the homepage still reads 'BAK-ANIME 2026 SPECIAL GUESTS' and the registration page is titled '2026 Advance Ticket - Registration/Info', with no 2027 date announced anywhere on bak-anime.com. The 2026 show dates are inferred from the official ticket page's own text ('Pre-Registration will closed on Thursday May 28th' plus Saturday/Sunday day-rate tiers) -- May 28, 2026 is in fact a Thursday, so the show ran the same weekend, Saturday-Sunday May 30-31, 2026; recorded as 'last' since that already ended before the research window. Venue (Kern County Fairgrounds) is corroborated by independent local press (KGET, Bakersfield.com) rather than stated verbatim on the official site, so it is a reasonable but not site-confirmed detail. Aggregator listings (Roster Con, allevents.in, 10times) claim a 2027 date of roughly May 29-30, but per the research rules aggregator sites are not used as the source for dates, and bak-anime.com itself does not confirm this, so no 2027 edition was added. Guests were not catalogued since the only confirmed edition is in the past; the 2026 guest page (17 candidates, mostly English-dub voice actors such as Veronica Taylor, Ryan Drummond, Ryan Bartley, Paul St. Peter) would need re-extraction once a 2027 lineup is posted."
+}

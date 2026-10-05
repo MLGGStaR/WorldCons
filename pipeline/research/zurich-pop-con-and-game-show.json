@@ -1,0 +1,30 @@
+{
+  "id": "zurich-pop-con-and-game-show",
+  "name": "Zurich Pop Con & Game Show",
+  "short": "",
+  "url": "https://www.zurichpopcon.ch/en",
+  "organizer": "Amazing Event AG",
+  "status": "active",
+  "types": ["pop", "games", "cosplay"],
+  "blurb": "Switzerland's autumn pop-culture and gaming festival at Messe Zürich, with film/TV stars, streamers, cosplay contests and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/zurich-pop-con-and-game-show.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-10-02",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "Messe Zürich",
+      "city": "Zurich",
+      "region": "ZH",
+      "country": "CH",
+      "tickets": "https://www.zurichpopcon.ch/en/tickets",
+      "guestsPage": "https://www.zurichpopcon.ch/en/stars",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner '2. - 3.10.2027' and text: '...we are already looking forward to seeing you again: on October 2nd & 3rd, 2027, ZURICH POP CON & Game Show will take place again, and we will be celebrating our 10th anniversary!' (directly after thanking everyone for '...Game Show 2026!'). Venue (Messe Zürich, Wallisellenstrasse 49) confirmed via web search."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed's cert-mismatch note did not reproduce this session; https://www.zurichpopcon.ch/en loaded cleanly. Organizer 'Amazing Event AG' confirmed verbatim from the site's own soft-404 footer ('© 2026 Amazing Event AG - all rights reserved'), matching the seed. The 'Stars & Guests' page (~18 names: René Dawn-Claude, Mecia Simson, Georgina Leonidas, Vincent Regan, Dave Jones, Julien Bam, Laura Braga, Ulrich Schröder, several streamers, etc.) is still the just-finished 2026 lineup — the site's own news feed only covers lead-up/wrap-up of the 2026 show (ticket sales, hall plan, trailer, 'Thank you for an unforgettable ZURICH POP CON & Game Show 2026!') with no 2027 announcements — so guests is 'none-yet' for the 2027 edition and that list was not picked. Same template/company family as Fantasy Basel (identical nav: Cosplay Village, Artist Alley, Creators Lounge, Stars & Guests, Games/Esports/VR, Asian Pop Culture, Urban Art, Tattoo Art, etc.)."
+}

@@ -1,0 +1,673 @@
+{
+  "id": "multiverse",
+  "name": "Multiverse",
+  "short": "",
+  "url": "https://www.multiversecon.org",
+  "organizer": "Multiverse Events",
+  "status": "active",
+  "types": [
+    "scifi",
+    "horror",
+    "tabletop"
+  ],
+  "blurb": "An all-ages geek-culture convention in Peachtree City, GA with a large roster of SFF/horror authors, artists, game designers and panelists.",
+  "cover": {
+    "file": "pipeline/cache/extract/multiverse.home.json",
+    "key": "og"
+  },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Hilton Peachtree City Conference Center",
+      "city": "Peachtree City",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://www.multiversecon.org/register",
+      "guestsPage": "https://www.multiversecon.org/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/multiverse.guests.json",
+          "picks": [
+            [
+              2,
+              "Martha Wells",
+              "The Murderbot Diaries",
+              "author"
+            ],
+            [
+              3,
+              "Jesse Holland",
+              "Black Panther novelist, journalist",
+              "author"
+            ],
+            [
+              4,
+              "A. W. Fleck",
+              "Speculative fiction, literary romance",
+              "author"
+            ],
+            [
+              5,
+              "A.M. Giddings",
+              "Speculative fiction author",
+              "author"
+            ],
+            [
+              6,
+              "Alex White",
+              "Alien: Rogue Incursion, Alien novels",
+              "author"
+            ],
+            [
+              7,
+              "Alison Tracy",
+              "Sci-fi/fantasy author",
+              "author"
+            ],
+            [
+              8,
+              "Alyssa Askani",
+              "Editor and author",
+              "author"
+            ],
+            [
+              9,
+              "Amber Hansford",
+              "The Emari Chronicles",
+              "author"
+            ],
+            [
+              10,
+              "Amy Brewer-Davenport",
+              "Fantasy artist",
+              "other"
+            ],
+            [
+              11,
+              "Angela Sasser",
+              "Angelic Visions art book",
+              "other"
+            ],
+            [
+              12,
+              "Annabelle Harris",
+              "",
+              "other"
+            ],
+            [
+              13,
+              "April Baker",
+              "Mixed-media artist",
+              "other"
+            ],
+            [
+              14,
+              "Ariel Burgess",
+              "Digital painter",
+              "other"
+            ],
+            [
+              15,
+              "Aubrey Spivey",
+              "Book publicist, indie author",
+              "author"
+            ],
+            [
+              16,
+              "Avalon Griffin",
+              "Unbound by Shadows",
+              "author"
+            ],
+            [
+              17,
+              "BellaNephilim",
+              "Cosplay artist",
+              "cosplay"
+            ],
+            [
+              18,
+              "Beth DeWeese",
+              "Paranormal romance author",
+              "author"
+            ],
+            [
+              19,
+              "Bill Bridges",
+              "World of Darkness, Fading Suns designer",
+              "gaming"
+            ],
+            [
+              20,
+              "Bob McGough",
+              "Author, tabletop game designer",
+              "author"
+            ],
+            [
+              21,
+              "Carman",
+              "Fantasy illustrator, Carmanda Arts",
+              "other"
+            ],
+            [
+              22,
+              "Carmen Loup",
+              "Tarot in Space comic series",
+              "comics"
+            ],
+            [
+              23,
+              "Cass Morris",
+              "The Aven Cycle",
+              "author"
+            ],
+            [
+              24,
+              "Catherine Barson Eastis",
+              "The Gluttonous Geek YouTube channel",
+              "creator"
+            ],
+            [
+              25,
+              "Cisca Small",
+              "",
+              "other"
+            ],
+            [
+              26,
+              "Cooper Blackwood",
+              "Broadcast television professional",
+              "other"
+            ],
+            [
+              27,
+              "Darin M. Bush",
+              "Sci-fi/fantasy short-story author",
+              "author"
+            ],
+            [
+              28,
+              "Darin Kennedy",
+              "Fugue & Fable trilogy",
+              "author"
+            ],
+            [
+              29,
+              "Denise N. Tapscott",
+              "Gypsy Kisses and Voodoo Wishes",
+              "author"
+            ],
+            [
+              30,
+              "DragonBeak",
+              "Ultima Online game developer",
+              "gaming"
+            ],
+            [
+              31,
+              "Drew Bailey",
+              "The Giftborn Chronicles",
+              "author"
+            ],
+            [
+              32,
+              "E. Marie Robertson",
+              "Speculative fiction author",
+              "author"
+            ],
+            [
+              33,
+              "Eric Holden",
+              "The Goblin's Corner co-host",
+              "creator"
+            ],
+            [
+              34,
+              "Ericka Michele",
+              "",
+              "author"
+            ],
+            [
+              35,
+              "Heather Truett",
+              "Kiss and Repeat",
+              "author"
+            ],
+            [
+              36,
+              "Hollis Jo McCollum",
+              "Fantasy author",
+              "author"
+            ],
+            [
+              37,
+              "Isabelle Hardesty",
+              "YA fantasy author",
+              "author"
+            ],
+            [
+              38,
+              "J.D. Blackrose",
+              "The Summoner's Mark series",
+              "author"
+            ],
+            [
+              39,
+              "J.E. Pittman",
+              "",
+              "author"
+            ],
+            [
+              40,
+              "Jason Gilbert",
+              "Coldstone Case Files series",
+              "author"
+            ],
+            [
+              41,
+              "Jay Peterson",
+              "The Piano Lesson, Red One",
+              "actor"
+            ],
+            [
+              42,
+              "Jay Requard",
+              "Epic fantasy author",
+              "author"
+            ],
+            [
+              43,
+              "Jenna Steigerwalt",
+              "English/Theatre professor",
+              "other"
+            ],
+            [
+              44,
+              "Jennifer Perry",
+              "Steampunk performer, science communicator",
+              "other"
+            ],
+            [
+              45,
+              "Jer Alford",
+              "Comics publisher (Stupid Comics)",
+              "comics"
+            ],
+            [
+              46,
+              "Jessi Ann York",
+              "Horror writer",
+              "author"
+            ],
+            [
+              47,
+              "Joe Compton",
+              "The Duality of Truth Crime Trilogy",
+              "author"
+            ],
+            [
+              48,
+              "Joel Ruiz",
+              "Podcast producer (Critical Bits)",
+              "creator"
+            ],
+            [
+              49,
+              "John G. Hartness",
+              "Quincy Harker, Demon Hunter series",
+              "author"
+            ],
+            [
+              50,
+              "Judy Black",
+              "Tabletop RPG writer",
+              "gaming"
+            ],
+            [
+              51,
+              "Julia Benson-Slaughter",
+              "",
+              "author"
+            ],
+            [
+              52,
+              "Katharine E. Wibell",
+              "The Incarn Saga",
+              "author"
+            ],
+            [
+              53,
+              "Keira Harbison",
+              "Personal trainer",
+              "other"
+            ],
+            [
+              54,
+              "Kelley M. Frank",
+              "Horror artist and author",
+              "author"
+            ],
+            [
+              55,
+              "Kevin A. Davis",
+              "DRC Files series",
+              "author"
+            ],
+            [
+              56,
+              "Kyoko M",
+              "The Black Parade series",
+              "author"
+            ],
+            [
+              57,
+              "Larry Brenner",
+              "Film/theatre professor, screenwriter",
+              "other"
+            ],
+            [
+              58,
+              "Lauren Brown",
+              "Illustrator at Wizards of the Coast",
+              "other"
+            ],
+            [
+              59,
+              "Lily Luchesi",
+              "Paranormal Detectives Series",
+              "author"
+            ],
+            [
+              60,
+              "LJ Daniel",
+              "Indie romance author",
+              "author"
+            ],
+            [
+              61,
+              "Lucille Yates",
+              "Paranormal romance author",
+              "author"
+            ],
+            [
+              62,
+              "Mab Morris",
+              "Fantasy author",
+              "author"
+            ],
+            [
+              63,
+              "Madaug Hishinuma",
+              "",
+              "author"
+            ],
+            [
+              64,
+              "Marc L. Abbott",
+              "Sinister Ascension",
+              "author"
+            ],
+            [
+              65,
+              "Marlena Frank",
+              "YA fantasy/horror author",
+              "author"
+            ],
+            [
+              66,
+              "Marshall J. Moore",
+              "The Henchperson's Guide to Unionizing",
+              "author"
+            ],
+            [
+              67,
+              "Melanie C. Duncan",
+              "Librarian, book reviewer",
+              "other"
+            ],
+            [
+              68,
+              "Milton J. Davis",
+              "Afrofuturism; MVmedia founder",
+              "author"
+            ],
+            [
+              69,
+              "Mina Edgerton",
+              "",
+              "other"
+            ],
+            [
+              70,
+              "Tiffany Faulkner",
+              "N3rdyTeacher",
+              "creator"
+            ],
+            [
+              71,
+              "Nancy E. Dunne",
+              "Fantasy author",
+              "author"
+            ],
+            [
+              72,
+              "Nate Walton",
+              "",
+              "author"
+            ],
+            [
+              73,
+              "Nikita Rowitz",
+              "Once Upon A Queer Publishing founder",
+              "author"
+            ],
+            [
+              74,
+              "Ojé Kendi",
+              "Southern Gothic Horror writer",
+              "author"
+            ],
+            [
+              75,
+              "Paige L. Christie",
+              "Legacies of Arnan series",
+              "author"
+            ],
+            [
+              76,
+              "Priya Sridhar",
+              "The Powered series",
+              "author"
+            ],
+            [
+              77,
+              "Randee Dawn",
+              "Tune-iverse books",
+              "author"
+            ],
+            [
+              78,
+              "Rebecca Wynick",
+              "",
+              "author"
+            ],
+            [
+              79,
+              "Rey Nichols",
+              "",
+              "other"
+            ],
+            [
+              80,
+              "Rita Woods",
+              "Remembrance, The Last Dreamwalker",
+              "author"
+            ],
+            [
+              81,
+              "Rob Gilmore",
+              "Writes as Rob Grimoire; screenwriter",
+              "author"
+            ],
+            [
+              82,
+              "Robyn Huss",
+              "Freelance editor",
+              "other"
+            ],
+            [
+              83,
+              "Rosemary Claire Smith",
+              "Saurotopia",
+              "author"
+            ],
+            [
+              84,
+              "Rosie J. Potter",
+              "The Tinsel Twist",
+              "author"
+            ],
+            [
+              85,
+              "Sara T. Bond",
+              "Gravity's Heir",
+              "author"
+            ],
+            [
+              86,
+              "Sara Glassman",
+              "Jewelry designer",
+              "other"
+            ],
+            [
+              87,
+              "Sarah Madsen",
+              "TTRPG and video game writer",
+              "gaming"
+            ],
+            [
+              88,
+              "Sarah J. Sover",
+              "Fractured Fae Series",
+              "author"
+            ],
+            [
+              89,
+              "Seth Tucker",
+              "The Winston & Baum Steampunk Adventures",
+              "author"
+            ],
+            [
+              90,
+              "Shakir Rashaan",
+              "",
+              "author"
+            ],
+            [
+              91,
+              "Shannon Strucci",
+              "Video essayist, podcast host",
+              "creator"
+            ],
+            [
+              92,
+              "Sherrilyn Kenyon",
+              "NYT bestselling author (Dark-Hunter)",
+              "author"
+            ],
+            [
+              93,
+              "Sonja Dewing",
+              "Fantasy novelist",
+              "author"
+            ],
+            [
+              94,
+              "Steven Van Patten",
+              "Brookwater's Curse trilogy",
+              "author"
+            ],
+            [
+              95,
+              "Stuart Grosse",
+              "GameLit/LitRPG writer",
+              "author"
+            ],
+            [
+              96,
+              "Tamsin Silver",
+              "Historical fantasy author",
+              "author"
+            ],
+            [
+              97,
+              "Tiara Janté",
+              "Zone Eleven & Other Dope Tales",
+              "author"
+            ],
+            [
+              98,
+              "Tiffany Vega",
+              "",
+              "author"
+            ],
+            [
+              99,
+              "Tyra Burton",
+              "Marketing professor, cozy fantasy author",
+              "author"
+            ],
+            [
+              100,
+              "Valencia Coleman",
+              "Game Design Professor; Owlchemy Labs",
+              "gaming"
+            ],
+            [
+              101,
+              "Vincent E.M. Thorn",
+              "Dreamscape Voyager series",
+              "author"
+            ],
+            [
+              102,
+              "Violette L. Meier",
+              "Folk artist and writer",
+              "author"
+            ],
+            [
+              103,
+              "William Sterling",
+              "PUNK goes HORROR anthology editor",
+              "author"
+            ],
+            [
+              104,
+              "Winnifred Tataw",
+              "The Gods' Scion",
+              "author"
+            ],
+            [
+              105,
+              "Woodrow Hill",
+              "Non-fiction writer",
+              "author"
+            ],
+            [
+              106,
+              "Yin Doll",
+              "Psychic/diviner and writer",
+              "author"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Join us October 16-18, 2026 at the Hilton Peachtree City Conference Center'; guest page section header '2026 GUESTS OF HONOR'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is a literary/fan-run SFF convention with a very large panelist roster (103 guests plus 2 Guests of Honor, Martha Wells and Jesse Holland). Guest-card bios had no photo alt text, so names were read from each image's filename (which encodes 'First Last 2026.png') and cross-checked against the start of each bio; a few people are credited under a pen name or handle in the bio (e.g. Carman / 'Carmanda', Rob Gilmore writing as 'Rob Grimoire', Tiffany Faulkner / 'N3rdyTeacher') and the real name from the bio text was used per the naming rule. Most guests are small-press/indie novelists; category is 'author' unless the bio clearly emphasizes visual art, game design, cosplay, comics or media work instead. Several very short bios (e.g. Nate Walton, J.E. Pittman) gave no concrete title to cite, so known-for is left blank rather than guessed. Bios were truncated by the extractor at roughly 250 characters, so facts beyond that point were not used."
+}

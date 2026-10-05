@@ -1,0 +1,15 @@
+{
+  "id": "nan-desu-kan",
+  "name": "Nan Desu Kan",
+  "short": "NDK",
+  "url": "https://www.nandesukan.org/",
+  "organizer": "Rocky Mountain Anime Association",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "A 3-day Japanese culture and anime convention in Aurora, Colorado, with cosplay, gaming, art, music and voice-actor guests, running since 1997.",
+  "cover": { "file": "pipeline/cache/extract/nan-desu-kan.home.json", "key": "hero:2" },
+  "editions": [],
+  "last": { "start": "2026-09-04", "end": "2026-09-06", "city": "Aurora", "region": "CO", "country": "US", "venue": "Gaylord Rockies Resort & Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The given ndkdenver.org URL redirects to the real official site, nandesukan.org. The homepage still headlines 'Nan Desu Kan 29 - September 4th-6th 2026' and its Instagram feed speaks of that edition in the past tense ('With another NDK in the books...', '2026 NDK AMV WINNERS', '2026 Charity Total'), so the 29th edition (Sept 4-6, 2026) already happened and no 2027 date is posted yet; editions is empty and that run is recorded as 'last'. Guests were not pulled since there is no current/upcoming edition to attach them to. The batch note's '7,500/day attendance cap since 2011' could not be independently confirmed from the pages checked this session, so it was left out of the blurb."
+}

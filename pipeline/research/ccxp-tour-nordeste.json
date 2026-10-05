@@ -1,0 +1,15 @@
+{
+  "id": "ccxp-tour-nordeste",
+  "name": "CCXP Tour Nordeste",
+  "short": "CCXP",
+  "url": "https://ccxp.com.br/",
+  "organizer": "CCXP Eventos Ltda.",
+  "status": "inactive",
+  "types": ["pop", "comics", "games"],
+  "blurb": "A one-off 2023 regional spinoff of CCXP held in Olinda, Pernambuco — the brand's first edition outside São Paulo; no further edition has followed.",
+  "cover": null,
+  "editions": [],
+  "last": { "start": "2023-04-13", "end": "2023-04-16", "city": "Olinda", "region": "", "country": "BR", "venue": "Centro de Convenções de Pernambuco" },
+  "checked": "2026-10-05",
+  "notes": "This was CCXP's first (and so far only) edition outside São Paulo, held Apr 13-16, 2023 at the Centro de Convenções de Pernambuco in Olinda, PE (per contemporary Brazilian press: Folha PE, Design Culture, and the Olinda city government's own announcement). No Nordeste-specific page exists on ccxp.com.br today — /nordeste, /tour-nordeste and /tour all return 404 — and the current ccxp.com.br homepage covers only CCXP26 in São Paulo (Dec 3-6, 2026) with no mention of a Nordeste edition, so this regional tour is treated as inactive/discontinued rather than merely between editions. No official announcement of a future Nordeste edition was found. Cover is null since no current official page or image exists for this one-off event (status is inactive, so a cover is not required)."
+}

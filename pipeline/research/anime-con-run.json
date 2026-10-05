@@ -1,0 +1,22 @@
+{
+  "id": "anime-con-run",
+  "name": "Anime Con: Run",
+  "short": "",
+  "url": "https://anime-con.gr/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A Thessaloniki convention for anime, manga and J-pop culture, with voice actor, mangaka and cosplayer guests.",
+  "cover": { "file": "pipeline/cache/extract/anime-con-run.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-03",
+    "end": "2026-10-04",
+    "city": "Thessaloniki",
+    "region": "",
+    "country": "GR",
+    "venue": "Ioannis Vellidis Conference Centre"
+  },
+  "checked": "2026-10-05",
+  "notes": "Page title is 'AnimeCon: Run Thessaloniki VIII' (8th edition) and the homepage states: 'ΣΑΒΒΑΤΟ & ΚΥΡΙΑΚΗ 3-4 ΟΚΤΩΒΡΙΟΥ 2026 στο συνεδριακό κέντρο ΙΩΑΝΝΗΣ ΒΕΛΛΙΔΗΣ' (Saturday & Sunday, 3-4 October 2026, at the Ioannis Vellidis conference centre). That run ended the day before today (2026-10-05), just outside the research window, and the 9th edition's dates are not announced yet, so editions is empty and VIII is recorded as 'last'. The 2026 (VIII) lineup — Vasilis Kailas, Spiros Bimpilas, ZD, Misa, Chantilly, Carlos Moreno, Lon, Daniele Rudoni, Nene, Nicolas Sauge, Manos Lagouvardos — is visible on the homepage but belongs to the edition that just concluded, not to any announced upcoming edition, so it is not recorded as a guest lineup. Organizer not confirmed on-site."
+}

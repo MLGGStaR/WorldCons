@@ -1,0 +1,30 @@
+{
+  "id": "socal-gaming-expo",
+  "name": "SoCal Gaming Expo",
+  "short": "",
+  "url": "https://socalgamingexpo.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "tabletop"],
+  "blurb": "An annual video game convention in Pasadena, California, with esports tournaments including the Classic Tetris World Championships, a free-play arcade and guest panels.",
+  "cover": { "file": "pipeline/cache/extract/socal-gaming-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "dates": "month",
+      "venue": "Pasadena Convention Center",
+      "city": "Pasadena",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://socalgamingexpo.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: '2027 DATES TBA ... SHOW HOURS FRIDAY JUNE 2027 TBA ... GENERAL PUBLIC HOURS SATURDAY JUNE 2027 TBA 11AM - 8PM SUNDAY JUNE 2027 TBA 11AM - 5PM' and 'LOCATION PASADENA CONVENTION CENTER 300 E Green St Pasadena, CA'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site confirms the next show returns to the Pasadena Convention Center in June 2027 but marks the exact days, tickets, vendor booths and schedule all 'TBA', so dates uses 'month' with the full month of June 2027. The Guests page still shows the '2026 GUEST ANNOUNCEMENTS' lineup (Cam Clarke, Rob Paulsen, Townsend Coleman and other voice/game-cast guests) from the now-past June 2026 show, not a 2027 lineup, so guests is 'none-yet'. The organizer also runs a separate sibling show, Retro World Expo, at the same venue — not covered here. No ticket link is live yet and no organizer entity beyond the expo's own name was found."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "herofest",
+  "name": "HeroFest",
+  "short": "",
+  "url": "https://www.herofest.ch/",
+  "organizer": "BERNEXPO",
+  "status": "active",
+  "types": ["pop", "games", "cosplay"],
+  "blurb": "Switzerland's pop-culture convention at BERNEXPO in Bern, with an artist village, creators, and cosplay contests powered by Müller.",
+  "cover": { "file": "pipeline/cache/extract/herofest.home.json", "key": "logo:1" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Bern", "region": "", "country": "CH", "venue": "BERNEXPO" },
+  "checked": "2026-10-05",
+  "notes": "HeroFest 2026 ran October 2-4, 2026 at BERNEXPO (homepage text '2. - 4. OKTOBER 2026 in BERN', and its own add-to-calendar links give the same dates/venue); that edition ended the day before this check (2026-10-05), and no 2027 date is announced yet on the site or anywhere in search results, so editions is empty and 2026 is recorded as 'last'. Guests were not collected since there is no upcoming edition to attach them to. Organizer inferred as 'BERNEXPO' from the site's own privacy-policy link pointing to bernexpo.ch and its 'Für Ausstellende'/ticketing setup, not from an explicit 'organized by' statement. No og/twitter image or wide key-art banner exists; used the HeroFest logo as cover."
+}

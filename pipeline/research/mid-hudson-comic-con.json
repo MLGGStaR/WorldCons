@@ -37,5 +37,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Verify pass (2026-10-05): current -- guest cards give explicit 'SIGNING 10AM-6PM'/'SIGNING 10AM-3PM' times on 8/7 and 8/8 matching the 2027-08-07/08 edition exactly, and image filenames are tagged '27' (e.g. 'MHCC CP 27.png'); the extract's only '2026' hit is the tool's own fetch timestamp, so the lineup stands."
+  "notes": "Verify pass (2026-10-05): current -- guest cards give explicit 'SIGNING 10AM-6PM'/'SIGNING 10AM-3PM' times on 8/7 and 8/8 matching the 2027-08-07/08 edition exactly, and image filenames are tagged '27' (e.g. 'MHCC CP 27.png'); the extract's only '2026' hit is the tool's own fetch timestamp, so the lineup stands. Refute attempt (2026-10-05): upheld -- fresh re-extract confirms the cached img URLs directly: 'MHCC CP 27.png', 'MHCC DK AD 27.png', 'MHCC KK 27.png' and 'MHCC DF 27.png' all carry the explicit '27' tag (none tagged '26' or any other year), Carl Paolino's card still gives per-date signing times for 8/7 and 8/8, and Jay Mooers' filename ('MHCC JM AD .png') follows the identical 'MHCC [initials] AD' pattern with no contrary-year tag, so no evidence of staleness was found; lineup of 5 kept."
 }

@@ -1,0 +1,22 @@
+{
+  "id": "concoction",
+  "name": "ConCoction",
+  "short": "",
+  "url": "https://www.clevelandconcoction.org/",
+  "organizer": "ConCoction (volunteer-run 501(c)(3) nonprofit)",
+  "status": "active",
+  "types": ["scifi", "tabletop", "comics"],
+  "blurb": "Volunteer-run fan convention near Cleveland, Ohio for sci-fi, tabletop and video gaming, comics and cosplay, with charity fundraising.",
+  "cover": { "file": "pipeline/cache/extract/concoction.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-03-06",
+    "end": "2026-03-08",
+    "city": "Aurora",
+    "region": "OH",
+    "country": "US",
+    "venue": "Bertram Inn & Conference Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "ConCoction 11 ('The Ragnarok of the Rings') ran March 6-8, 2026 at the Bertram Inn & Conference Center in Aurora, OH (the con brands itself 'Cleveland ConCoction' but its venue is actually in Aurora, a Cleveland-area suburb, per the venue's own address and 10times.com). The site is still showing the 2026 post-convention survey and has not posted 2027 dates; a convention recap blog (garydavidgillen.com) names a 2027 return themed 'A Star Noir' but gives no day-level dates, so no edition is recorded for the research window. Re-check clevelandconcoction.org for the 2027 date announcement."
+}

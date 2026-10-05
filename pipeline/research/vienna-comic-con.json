@@ -1,0 +1,56 @@
+{
+  "id": "vienna-comic-con",
+  "name": "Vienna Comic Con",
+  "short": "VIECC",
+  "url": "https://viecc.com/en/",
+  "organizer": "Austrian Exhibition Experts GmbH",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Austria's biggest pop-culture and gaming event, with film and TV actors, comic creators and cosplay competitions at Messe Wien.",
+  "cover": { "file": "pipeline/cache/extract/vienna-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Messe Wien",
+      "city": "Vienna",
+      "region": "",
+      "country": "AT",
+      "tickets": "https://viecc.com/en/tickets/",
+      "guestsPage": "https://viecc.com/en/guests-2026/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/vienna-comic-con.guests.json",
+          "picks": [
+            [2, "Katie Leung", "Bridgerton, Harry Potter", "actor"],
+            [3, "Vincent D'Onofrio", "Daredevil, Men In Black, Full Metal Jacket", "actor"],
+            [4, "Osric Chau", "Supernatural, Dirk Gently", "actor"],
+            [5, "Michael Cudlitz", "Superman & Lois, The Walking Dead, Band Of Brothers", "actor"],
+            [6, "Marina Sirtis", "Star Trek, The Orville", "actor"],
+            [7, "Ante Dekovic", "Star Trek, The Hunger Games", "actor"],
+            [8, "Nicole De Boer", "Star Trek, Cube, Matlock", "actor"],
+            [9, "Valerie Weiss", "Star Trek, Outer Banks, Monarch", "actor"],
+            [10, "Stylouz Cosplay", "", "cosplay"],
+            [11, "Andreas Gruber", "Austrian thriller and fantasy novelist", "author"],
+            [12, "Bernhard Hennen", "German fantasy novelist, Die Elfen series", "author"],
+            [13, "Chris Koch", "Comic artist", "comics"],
+            [14, "Dave Lung", "Comic inker: Batman, Silver Surfer, New Avengers", "comics"],
+            [15, "Jason Aaron", "Comics writer: Scalped, Thor, Star Wars", "comics"],
+            [16, "Mahmud Asrar", "Comic artist: X-Men, Superman", "comics"],
+            [17, "Mathias Kollros", "Austrian comic artist", "comics"],
+            [18, "Sam Feuerbach", "Artist", "comics"],
+            [19, "Stephanie Gladden", "Animation visual development artist", "animation"],
+            [20, "T.S. Organ", "Artist", "comics"],
+            [21, "Thierry Capezzone", "French comic artist", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown and date block: '21. - November 22, 2026 MESSE WIEN VIECC® 2026' and 'DATE 21. - November 22, 2026 Opening hours: Saturday: 10:00-20:00 Sunday: 10:00-18:00'; guests-2026 page titled 'Guests 2026 - VIECC® Vienna Comic Con'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer confirmed via the site's own Impressum: 'Austrian Exhibition Experts GmbH ... operates VIECC Vienna Comic Con under license from Wiener Messe und Congress GmbH' (the batch note's guess of ReedPop was wrong and dropped). Cards on /guests-2026/ show only names, no descriptor text, for everyone except the Entertainment Stars & Actors (whose franchise credits appear on the homepage itself). For the Artists And Writers row I filled in 'known for' from independent confirmation only where I was confident (Gruber, Hennen = established novelists; Koch, Aaron, Asrar, Capezzone = established comic creators; Dave Lung confirmed via his own VIECC portfolio page and DeviantArt as a Batman/Silver Surfer/New Avengers inker; Stephanie Gladden as a Disney-side animation visual-development artist). Mathias Kollros is listed as a comic artist on lower confidence, and Sam Feuerbach / T.S. Organ could not be identified beyond appearing in this same 'Artists and Writers' row, so they're categorised as comics on a section-based best guess, flagged here as uncertain rather than left out, since they are a confirmed real booked guest just not one I could research further within budget. Cover uses the official 'VIECC 2025 Entertainment' promo graphic (hero:0) instead of og:image, which is a generic, differently-dated contact-page photo."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "omgcon",
+  "name": "OMGcon",
+  "short": "OMG!con",
+  "url": "https://omgcon.com",
+  "organizer": "Tri-State Anime Promotional Society",
+  "status": "active",
+  "types": ["pop", "anime", "games"],
+  "blurb": "A nonprofit pop culture festival in Owensboro with voice actors, cosplay, panels, retro and tabletop gaming; started as an anime/gaming con in Paducah in 2006.",
+  "cover": { "file": "pipeline/cache/extract/omgcon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Owensboro Convention Center",
+      "city": "Owensboro",
+      "region": "KY",
+      "country": "US",
+      "tickets": "https://omgcon.ticketspice.com/omgcon-2027",
+      "guestsPage": "https://omgcon.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'We can't wait to see you June 11th-13th, 2027 at the Downtown Owensboro Convention Center'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No og/twitter image; used the white '2027' edition logo over the two generic stock stage/runway background photos. Guests page itself says 'Guest Announcements are coming soon to a social post near you!' so the 2027 lineup is not-yet-announced. About page confirms the con started anime/games-focused in Paducah, KY in 2006 and has broadened into general pop culture, hence types pop/anime/games."
+}

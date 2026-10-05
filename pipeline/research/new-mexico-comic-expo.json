@@ -1,0 +1,15 @@
+{
+  "id": "new-mexico-comic-expo",
+  "name": "New Mexico Comic Expo",
+  "short": "",
+  "url": "https://www.comicexponm.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A comic and pop-culture convention held at the Marriott Albuquerque with panels, vendors, a guest signing area and a press pass program.",
+  "cover": { "file": "pipeline/cache/extract/new-mexico-comic-expo-wayback.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-26", "end": "2026-09-27", "city": "Albuquerque", "region": "NM", "country": "US", "venue": "Marriott Albuquerque" },
+  "checked": "2026-10-05",
+  "notes": "comicexponm.com returns a persistent Cloudflare 'Just a moment...' bot check to this tool even after retrying with --channel msedge and --channel chrome, and WebFetch got an outright 403 on it too. A Wayback Machine snapshot taken on the day of the 2026 show (archived 2026-09-26) rendered the real homepage instead and is used for the cover and dates; it confirms 'September 26-27, 2026 Saturday & Sunday 10:00 am - 6:00 pm Marriott Albuquerque 2101 Louisiana Blvd NE', matching local news coverage (KOB4: 'The New Mexico Comic Expo is happening Sept. 26-27 at the Marriott hotel on Louisiana Boulevard in Albuquerque'). That edition already ended before the research window and no 2027 date is announced anywhere yet, so editions is empty and the last edition is recorded instead. Re-check comicexponm.com directly once its bot wall lifts; its own /guests-2026/ page was not reachable either."
+}

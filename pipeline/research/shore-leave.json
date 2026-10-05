@@ -1,0 +1,38 @@
+{
+  "id": "shore-leave",
+  "name": "Shore Leave",
+  "short": "",
+  "url": "https://www.shore-leave.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "pop"],
+  "blurb": "A fan-run, relaxed sci-fi convention built around up-close time with genre actors, authors and scientists, each summer at the Lancaster Wyndham Resort.",
+  "cover": { "file": "pipeline/cache/extract/shore-leave.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Lancaster Wyndham Resort and Convention Center",
+      "city": "Lancaster",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://www.shore-leave.com/shopping/registration/",
+      "guestsPage": "https://www.shore-leave.com/guests/celeb-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/shore-leave.guests.json",
+          "picks": [
+            [1, "Connor Trinneer", "Star Trek: Enterprise", "actor"],
+            [2, "Dominic Keating", "Star Trek: Enterprise", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Shore Leave Con 47 July 9-11, 2027 Lancaster Wyndham Resort and Convention Center'; celeb-guests page heading: 'Shore Leave is Proud to Present our 2027 Celebrity Guests! And More to be Announced!'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Historically based near Baltimore, MD; now run at the Lancaster Wyndham Resort and Convention Center in Lancaster, PA, confirming the batch note. Only 2 celebrity guests are actually confirmed for Shore Leave 47 (2027) so far -- Connor Trinneer and Dominic Keating, both of Star Trek: Enterprise (their card alt/caption text was blank, but each image's title attribute and filename, and the matching homepage countdown photos, name them) -- under a 'Proud to Present our 2027 Celebrity Guests! And More to be Announced!' heading. The rest of that page, and the entire Author Guests, Science Guests and Artists & Performers pages, are explicitly headed 'Thanks to all of our 2026 Shore Leave 46 Guests' / '... to be Announced for 2027', i.e. a retrospective thank-you list for last year's (already-passed) edition, not this one, so none of those were picked. No organizer company name is stated anywhere on the site (it only describes itself as 'a fan-run convention'), so organizer is left blank. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — a fresh render still shows only Trinneer and Keating under 'our 2027 Celebrity Guests!', with the twelve other names on the page still headed 'Thanks To All of Our 2026 Shore Leave 46 Guests' and correctly excluded. Re-verify (refute-04, 2026-10-05): UPHELD -- a fresh render still shows exactly 2 cards under the 'Shore Leave is Proud to Present our 2027 Celebrity Guests!' heading, each confirmed by its own image title attribute (Connor Trinneer, Dominic Keating) and its own guest-bio link; the other 12 names on the page remain under the separate retrospective 'Thanks To All of Our 2026 Shore Leave 46 Guests' heading and stay excluded."
+}

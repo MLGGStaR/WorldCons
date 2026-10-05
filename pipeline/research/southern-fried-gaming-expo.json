@@ -1,0 +1,28 @@
+{
+  "id": "southern-fried-gaming-expo",
+  "name": "Southern-Fried Gaming Expo",
+  "short": "SFGE",
+  "url": "https://gameatl.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["games", "tabletop"],
+  "blurb": "An arcade, pinball and tabletop gaming expo in Atlanta with 400+ machines, console systems, RPGs, wrestling and live music each July.",
+  "cover": { "file": "pipeline/cache/extract/southern-fried-gaming-expo.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-16",
+      "end": "2027-07-18",
+      "dates": "confirmed",
+      "venue": "Renaissance Atlanta Waverly Hotel & Convention Center",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://gameatl.com/registration/",
+      "guestsPage": "https://gameatl.com/2026-special-guests/",
+      "guests": "none-yet",
+      "evidence": "Homepage: 'JULY 16-18, 2027 Atlanta, GA - Marriott Renaissance Waverly' and 'the thirteenth-annual Southern-Fried Gaming Expo ... once again at the beautiful Renaissance Atlanta Waverly Hotel and Convention Center'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guest page's own URL/title says '2026 Special Guests' even though the site-wide banner and all date text say July 2027 (the organizer's edition label runs a year behind the calendar date); the page is clearly current for the upcoming show since it has a live 'Cancellations' section. Three cancelled guests (David Crane, Garry Kitchen, Ted DiBiase) were excluded per the skip-cancelled rule. This year's non-cancelled 'Special Guests' are all under the page's 'Music & Entertainment' heading (bands, a keytar musician, a comedy troupe, and a wrestling promotion) rather than classic arcade/game-industry guests. Two stylised all-caps band names (Y'ALL'RE, LGHTRS) were normalised to title case per the naming rule. No organizer legal name was found on the homepage. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current despite the '2026-special-guests' URL slug — /2027-special-guests/ 404s (no newer page exists to supersede it), the page still carries a live Cancellations section and the same 14 Music & Entertainment acts, and the homepage still counts toward 'JULY 16–18, 2027' ('thirteenth-annual'). REFUTED (refute-04, 2026-10-05): a fresh render shows the page's own <title> reads '2026 Special Guests - Southern-Fried Gaming Expo | July 16-18, 2027' -- i.e. the guest content itself is explicitly dated 2026 even as the site chrome shows next year's countdown. Web search confirms SFGE 2026 actually ran July 31-August 2, 2026 at this same venue, ending just 2 months ago -- squarely the 'previous edition ended in the last 6 months' staleness case, and a live Cancellations section on a show still 9+ months out is itself a staleness sign, not a freshness one. No guest or act has any filename, alt text or date tying them to the 2027 show specifically. Guests reset to none-yet; lineup and textOnlyGuests removed until a genuine 2027 announcement appears (the 404ing /2027-special-guests/ URL means none exists yet)."
+}

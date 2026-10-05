@@ -1,0 +1,22 @@
+{
+  "id": "archon",
+  "name": "Archon",
+  "short": "",
+  "url": "http://www.archonstl.org/",
+  "organizer": "St. Louis Science Fiction, Ltd.",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "St. Louis's long-running science fiction and fantasy convention in Collinsville, Illinois, with an art show, gaming and filk.",
+  "cover": { "file": "pipeline/cache/extract/archon.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-02",
+    "end": "2026-10-04",
+    "city": "Collinsville",
+    "region": "IL",
+    "country": "US",
+    "venue": "Gateway Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "Archon 49 ran October 2-4, 2026, which ended the day before this research window opens (2026-10-05), so it is recorded as 'last' rather than an edition; its guest photos on the homepage (Larry Niven, Fran Wilde, Joy Alyssa Day, David Mack, Tim Griffin, Wyatt Weed, Kevin Dulle) are that past edition's lineup and are not carried into editions/guests. No Archon 50 (2027) dates have been announced yet -- the site still only shows 'Archon 49' branding and a web search for 2027 dates/news turned up nothing beyond the fact that Archon began in 1977 (so 'Archon 50' would logically fall in 2027). Organizer confirmed as St. Louis Science Fiction, Ltd. via search results (en.wikipedia.org/Archon_(convention) and the convention's own history); not stated in the rendered homepage text itself."
+}

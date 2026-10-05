@@ -1,0 +1,482 @@
+{
+  "id": "supanova-brisbane",
+  "name": "Supanova Comic Con & Gaming – Brisbane",
+  "short": "",
+  "url": "https://www.supanova.com.au/events/brisbane-2026/event-home/",
+  "organizer": "Supanova Expo Pty Ltd",
+  "status": "active",
+  "types": [
+    "comics",
+    "pop",
+    "games",
+    "cosplay"
+  ],
+  "blurb": "Brisbane leg of Australia's multi-city Supanova tour, with film/TV, anime and gaming guests, comic creators and cosplay at the Brisbane Convention & Exhibition Centre.",
+  "cover": {
+    "file": "pipeline/cache/extract/supanova-brisbane.home.json",
+    "key": "hero:5"
+  },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "Brisbane Convention & Exhibition Centre",
+      "city": "Brisbane",
+      "region": "QLD",
+      "country": "AU",
+      "tickets": "https://www.supanova.com.au/events/brisbane-2026/ticket-info/",
+      "guestsPage": "https://www.supanova.com.au/events/brisbane-2026/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/supanova-brisbane.guests.json",
+          "picks": [
+            [
+              5,
+              "Sean Astin",
+              "The Lord of the Rings, The Goonies, Stranger Things",
+              "actor"
+            ],
+            [
+              6,
+              "Christopher Lambert",
+              "Highlander, Greystoke, Mortal Kombat",
+              "actor"
+            ],
+            [
+              7,
+              "Alan Tudyk",
+              "Firefly, Star Wars, Superman",
+              "actor"
+            ],
+            [
+              8,
+              "Sara Tomko",
+              "Resident Alien, Once Upon a Time",
+              "actor"
+            ],
+            [
+              9,
+              "Anson Mount",
+              "Star Trek: Strange New Worlds, Inhumans",
+              "actor"
+            ],
+            [
+              10,
+              "Rena Owen",
+              "Moana, The Orville, Star Wars",
+              "actor"
+            ],
+            [
+              11,
+              "Kiran Shah",
+              "The Lord of the Rings trilogy, Star Wars, The Chronicles of Narnia",
+              "actor"
+            ],
+            [
+              12,
+              "Mitchell Hope",
+              "Descendants, Let It Snow",
+              "actor"
+            ],
+            [
+              13,
+              "Bob Morley",
+              "The 100, Love Me, In Limbo",
+              "actor"
+            ],
+            [
+              14,
+              "Michael Dudikoff",
+              "American Ninja, Platoon Leader",
+              "actor"
+            ],
+            [
+              15,
+              "Mark Rolston",
+              "Aliens, Supernatural, Star Trek",
+              "actor"
+            ],
+            [
+              16,
+              "Jenette Goldstein",
+              "Aliens, Terminator 2: Judgment Day",
+              "actor"
+            ],
+            [
+              17,
+              "Daniel Kash",
+              "Aliens, Star Trek: Discovery, Orphan Black",
+              "actor"
+            ],
+            [
+              18,
+              "Ricco Ross",
+              "Aliens, Doctor Who, Highlander",
+              "actor"
+            ],
+            [
+              19,
+              "Cynthia Dale Scott",
+              "Aliens, Night of the Demons",
+              "actor"
+            ],
+            [
+              20,
+              "Carl Toop",
+              "Aliens",
+              "actor"
+            ],
+            [
+              21,
+              "Matt Doran",
+              "The Matrix, Star Wars: Episode II",
+              "actor"
+            ],
+            [
+              22,
+              "Nathan Jones",
+              "Furiosa: A Mad Max Saga, Mortal Kombat",
+              "actor"
+            ],
+            [
+              23,
+              "John Jarratt",
+              "Wolf Creek, What About Sal?",
+              "actor"
+            ],
+            [
+              24,
+              "Lincoln Lewis",
+              "Getaway, Home and Away",
+              "actor"
+            ],
+            [
+              25,
+              "Graham McTavish",
+              "Outlander, The Hobbit trilogy, The Witcher",
+              "actor"
+            ],
+            [
+              26,
+              "Jed Brophy",
+              "The Lord of the Rings trilogy, The Hobbit trilogy",
+              "actor"
+            ],
+            [
+              27,
+              "Stephen Hunter",
+              "The Hobbit Trilogy, Thor: Love and Thunder",
+              "actor"
+            ],
+            [
+              28,
+              "Bruce Hopkins",
+              "The Lord of the Rings, Xena: Warrior Princess",
+              "actor"
+            ],
+            [
+              29,
+              "Shane Rangi",
+              "The Lord of the Rings trilogy, The Chronicles of Narnia",
+              "actor"
+            ],
+            [
+              30,
+              "Lenore Zann",
+              "X-Men: The Animated Series, X-Men '97 (voice of Rogue)",
+              "voice"
+            ],
+            [
+              31,
+              "Amanda Hufford",
+              "The Amazing Digital Circus, Genshin Impact",
+              "voice"
+            ],
+            [
+              32,
+              "Sean Chiplock",
+              "RE:Zero, The Amazing Digital Circus, Genshin Impact",
+              "voice"
+            ],
+            [
+              33,
+              "Faye Mata",
+              "KonoSuba, Fate/Apocrypha, Miraculous",
+              "voice"
+            ],
+            [
+              34,
+              "David Bateson",
+              "Voice of Agent 47, Hitman series",
+              "voice"
+            ],
+            [
+              35,
+              "The Scoundrolls",
+              "Live-play D&D experience",
+              "creator"
+            ],
+            [
+              36,
+              "Tommy Gofton",
+              "The Scoundrolls, The Deadliest Dungeon",
+              "creator"
+            ],
+            [
+              37,
+              "Andrew Wincott",
+              "Baldur's Gate 3, The Witcher",
+              "voice"
+            ],
+            [
+              38,
+              "Carolina Ravassa",
+              "Overwatch, X-Men '97",
+              "voice"
+            ],
+            [
+              39,
+              "Lucie Pohl",
+              "Overwatch, Red Dwarf XI",
+              "voice"
+            ],
+            [
+              40,
+              "Jason Spisak",
+              "Arcane, Young Justice",
+              "voice"
+            ],
+            [
+              41,
+              "Mela Lee",
+              "Apex Legends, Mortal Kombat 11",
+              "voice"
+            ],
+            [
+              42,
+              "Neil Fanning",
+              "Voice of Scooby-Doo in the live-action films",
+              "voice"
+            ],
+            [
+              43,
+              "Scott Brewer",
+              "Garrison7, Dangerman, The Matrix",
+              "actor"
+            ],
+            [
+              44,
+              "Garrison7",
+              "Stunt performance showcase",
+              "other"
+            ],
+            [
+              45,
+              "Stacey McEwan",
+              "The Artisan Trilogy, The Glacian Trilogy",
+              "author"
+            ],
+            [
+              46,
+              "Kevin Eastman",
+              "Co-creator of Teenage Mutant Ninja Turtles",
+              "comics"
+            ],
+            [
+              47,
+              "Freddie Williams II",
+              "Batman/TMNT, He-Man/ThunderCats",
+              "comics"
+            ],
+            [
+              48,
+              "Arthur Suydam",
+              "Marvel Zombies, Conan the Barbarian",
+              "comics"
+            ],
+            [
+              49,
+              "Renee Witterstaetter",
+              "The Sensational She-Hulk, Silver Surfer",
+              "comics"
+            ],
+            [
+              50,
+              "Redcode",
+              "X-Venture Dinosaur Explorers",
+              "comics"
+            ],
+            [
+              51,
+              "Lipwei Chang",
+              "X-Venture Unexplained Files",
+              "comics"
+            ],
+            [
+              52,
+              "Shi Min",
+              "Cover artist",
+              "comics"
+            ],
+            [
+              53,
+              "Kang 'KJ' Jing",
+              "Mighty Morphin Power Rangers, Star Wars",
+              "comics"
+            ],
+            [
+              54,
+              "Jon Sommariva",
+              "Neverlanders, Harley Quinn",
+              "comics"
+            ],
+            [
+              55,
+              "David Yardin",
+              "Fantastic Four, Wolverine",
+              "comics"
+            ],
+            [
+              56,
+              "Mark Raats",
+              "The Mandalorian, Star Wars, Indiana Jones art",
+              "comics"
+            ],
+            [
+              57,
+              "Daniel Picciotto",
+              "What If...?, Ghost Rider, Miles Morales: Spider-Man",
+              "comics"
+            ],
+            [
+              58,
+              "Scott Wilson",
+              "Dark Heart, Indigiverse",
+              "comics"
+            ],
+            [
+              59,
+              "Wolfgang Bylsma",
+              "Comics on Country, Gestalt Publishing",
+              "comics"
+            ],
+            [
+              60,
+              "Levi Cleeman",
+              "Death Roll, Dungeon Crawler Carl",
+              "comics"
+            ],
+            [
+              61,
+              "Lauren Marshall",
+              "Teenage Mutant Ninja Turtles, The Phantom",
+              "comics"
+            ],
+            [
+              62,
+              "Alex Trpcevski",
+              "Trip Design Studio, The Phantom",
+              "comics"
+            ],
+            [
+              63,
+              "Anthony Christou",
+              "Luminous Lore Setting Guide, Path of Exile",
+              "comics"
+            ],
+            [
+              64,
+              "Austen Mengler",
+              "Execution, My Shadows",
+              "comics"
+            ],
+            [
+              65,
+              "Camillo Di Pietrantonio",
+              "Teenage Mutant Ninja Turtles, Primordial",
+              "comics"
+            ],
+            [
+              66,
+              "Shaun Keenan",
+              "COMICS2MOVIES",
+              "comics"
+            ],
+            [
+              67,
+              "Darren Koziol",
+              "Dark Oz Publishing, Decay",
+              "comics"
+            ],
+            [
+              68,
+              "Ben Bradi",
+              "Upper Deck Marvel Platinum, Warhammer 40,000",
+              "comics"
+            ],
+            [
+              69,
+              "Jenny Mackintosh",
+              "Independent horror artist",
+              "comics"
+            ],
+            [
+              70,
+              "Mike Krome",
+              "Cover artist",
+              "comics"
+            ],
+            [
+              71,
+              "Silver Fox Comics",
+              "Bazza the Bogan Barbarian",
+              "comics"
+            ],
+            [
+              72,
+              "Duncan Cunningham",
+              "Killer Comics, Destroyers",
+              "comics"
+            ],
+            [
+              73,
+              "HeidzDee",
+              "Supanova Cosplay Ambassador",
+              "cosplay"
+            ],
+            [
+              74,
+              "Toonibug",
+              "Supanova Cosplay Ambassador",
+              "cosplay"
+            ],
+            [
+              75,
+              "Gina Torres",
+              "Firefly, Suits, The Legend of Vox Machina",
+              "actor"
+            ],
+            [
+              76,
+              "Elijah Wood",
+              "The Lord of the Rings, Yellowjackets, Sin City",
+              "actor"
+            ],
+            [
+              77,
+              "Jamison Newlander",
+              "The Lost Boys, The Blob",
+              "actor"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Event-home page text: 'Supanova 2026 - Brisbane ... 6-8 November 2026 ... Brisbane Convention & Exhibition Centre Merivale St, South Brisbane Queensland 4101'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Supanova is one brand across six Australian cities sharing a guest database (most guests here are also tagged for Adelaide 2026). The /events/brisbane-2026/guests/ page lists the full confirmed Brisbane lineup in one grid. Guest cat follows this schema's definitions over the site's own category tags (e.g. 'Gaming'-tagged voice actors like David Bateson are filed as voice). 'The Scoundrolls' and 'Garrison7' are acts/groups rather than individuals, picked once each per the groups-as-one-guest rule. Refute pass (2026-10-05): upheld for all 73 -- a fresh re-check (pipeline/cache/extract/supanova-brisbane-v2.guests.json) shows the page's own heading reads 'Confirmed Guests Brisbane 2026' and every single one of the 73 picked guest cards carries an explicit 'Brisbane 2026' tag in its own text (often alongside other 2026/2027 tour-city tags for guests doing multiple Supanova stops), which is exactly the per-card, this-edition label RESEARCH.md counts as proof. An automated scan flagged 44/73 picked photos as having older upload-folder dates, but that is an artifact of Supanova's shared cross-city photo library (the same guest image is reused for whichever cities book that guest), not evidence the guests themselves are stale -- there is no earlier 'Brisbane 2026' edition this could be left over from."
+}

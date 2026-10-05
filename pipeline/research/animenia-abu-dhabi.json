@@ -1,0 +1,22 @@
+{
+  "id": "animenia-abu-dhabi",
+  "name": "Animenia Abu Dhabi",
+  "short": "",
+  "url": "https://www.animeniaabudhabi.com/en/home",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Five-day immersive anime festival in Abu Dhabi with cosplay competitions, meet & greets, J-pop shows and a gaming zone.",
+  "cover": { "file": "pipeline/cache/extract/animenia-abu-dhabi.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-02-11",
+    "end": "2026-02-15",
+    "city": "Abu Dhabi",
+    "region": "",
+    "country": "AE",
+    "venue": "Manarat Al Saadiyat"
+  },
+  "checked": "2026-10-05",
+  "notes": "Official site still presents the Feb 11-15, 2026 edition as the current/latest one ('Animenia is back from February 11 to February 15, 2026'); no 2027 dates are announced yet, matching the fixup note. Guests ('Anime Icon Talks', meet & greets) were part of the Feb 2026 edition only, so none are recorded here since there is no upcoming edition to attach them to."
+}

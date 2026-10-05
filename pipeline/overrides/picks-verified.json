@@ -1,0 +1,58 @@
+{
+  "_about": "Picks checked by eye (card-shot screenshots, 2026-10-05) whose cards carry the name only inside the image, so audit-picks cannot read it. Keyed by research id, then extraction file#number: the name that card shows.",
+  "anime-town-greenville": {
+    "pipeline/cache/extract/anime-town-greenville.guests.json#2": "Maggie Robertson (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#3": "Delanie Nicole Gill (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#4": "Nicole Tompkins (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#5": "Eric Stuart (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#6": "Dan Green (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#7": "Felecia Angelle (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#8": "Jad Saxton (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#9": "Neil Kaplan (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#10": "Jason Douglas (name printed on the promo graphic)",
+    "pipeline/cache/extract/anime-town-greenville.guests.json#11": "Peter Lurie (name printed on the promo graphic)"
+  },
+  "anime-washington": {
+    "pipeline/cache/extract/anime-washington.guests.json#2": "Nick Apostolides (name printed on the nameplate graphic)"
+  },
+  "creation-pittsburgh": {
+    "pipeline/cache/extract/creation-pittsburgh.guests.json#32": "David Haydn-Jones (caption DAVID HAYDN-JONES under the photo)"
+  },
+  "creation-washington-dc-area": {
+    "pipeline/cache/extract/creation-washington-dc-area.guests.json#36": "David Haydn-Jones (caption DAVID HAYDN-JONES under the photo)",
+    "pipeline/cache/extract/creation-washington-dc-area-v2.guests.json#36": "David Haydn-Jones (same 2027-spn-dhj.jpg card, re-rendered; caption DAVID HAYDN-JONES under the photo)"
+  },
+  "creation-boston": {
+    "pipeline/cache/extract/creation-boston.guests.json#26": "David Haydn-Jones (same 2027-spn-dhj.jpg card as the other Creation SPN shows, captioned DAVID HAYDN-JONES)"
+  },
+  "farpoint-convention": {
+    "pipeline/cache/extract/farpoint-convention.guests.json#6": "Refashioned Hippie (card reads 2027 GUEST REFASHIONED HIPPIE)"
+  },
+  "gameacon": {
+    "pipeline/cache/extract/gameacon.guests.json#11": "Erik Kimerer (name printed on the photo)"
+  },
+  "little-rock-anime-fest": {
+    "pipeline/cache/extract/little-rock-anime-fest.guests.json#0": "J Michael Tatum (name printed on the card graphic)"
+  },
+  "nwa-comic-con": {
+    "pipeline/cache/extract/nwa-comic-con.guests.json#0": "Dee Bradley Baker (name printed on the card graphic)"
+  },
+  "oafcon": {
+    "pipeline/cache/extract/oafcon.guests.json#14": "Sam de la Rosa (name heading beside the photo)",
+    "pipeline/cache/extract/oafcon.guests.json#34": "Anthony Tollin (name heading beside the photo)"
+  },
+  "palmetto-anthro-weekend": {
+    "pipeline/cache/extract/palmetto-anthro-weekend.guests.json#1": "Wyviryn (fursona art beside the Guest of Honor paragraph naming Wyviryn)",
+    "pipeline/cache/extract/palmetto-anthro-weekend-v2.guests.json#1": "Wyviryn (same 168x181 first image as the earlier render; fursona art beside the Guest of Honor paragraph naming Wyviryn)"
+  },
+  "sin-city-anime": {
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#4": "Babybeard (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#6": "Ghost Girl Goods (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#16": "Aicosu (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#18": "Draxxisa (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#20": "Kaychan (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#22": "Jez Roth (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#28": "Pixel Baka (name heading directly under the photo)",
+    "pipeline/cache/extract/sin-city-anime-v2.guests.json#30": "SPPWalker (name heading directly under the photo)"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "furry-migration",
+  "name": "Furry Migration",
+  "short": "FM",
+  "url": "https://www.furrymigration.org/",
+  "organizer": "Minnesota Furs (MNFurs)",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "An annual furry convention in downtown Minneapolis run by the Minnesota Furs community, with Guests of Honor, dealers, artists alley and a consuite.",
+  "cover": { "file": "pipeline/cache/extract/furry-migration.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-11", "end": "2026-09-13", "city": "Minneapolis", "region": "MN", "country": "US", "venue": "Hyatt Regency Minneapolis" },
+  "checked": "2026-10-05",
+  "notes": "The site is currently in its post-convention state ('THANK YOU FOR AN INCREDIBLE FM2026', Sept 14, 2026; 'The con may be over now...'), with no 2027 dates, venue or guest page posted yet. A web search turned up an unsourced claim of Sept 10-12, 2027, but the official site does not corroborate it yet, so editions is left empty with FM2026 recorded as 'last'. MNFurs.org (the parent club's own site, which might carry the announcement) returned a Cloudflare bot challenge and could not be checked."
+}

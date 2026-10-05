@@ -1,0 +1,15 @@
+{
+  "id": "pop-con-yxe",
+  "name": "Pop Con YXE",
+  "short": "",
+  "url": "https://www.popconyxe.com/",
+  "organizer": "Prairieland Park",
+  "status": "active",
+  "types": ["pop", "comics", "cosplay"],
+  "blurb": "Saskatoon's pop-culture convention at Prairieland Park, with exhibitors, autographs, a cosplay red carpet and guest panels; rebranded from the Saskatchewan Entertainment Expo.",
+  "cover": { "file": "pipeline/cache/extract/pop-con-yxe.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-05-02", "end": "2026-05-03", "city": "Saskatoon", "region": "SK", "country": "CA", "venue": "Prairieland Park" },
+  "checked": "2026-10-05",
+  "notes": "Homepage still reads 'Event Dates May 2 & 3, 2026', which has already passed as of this check (2026-10-05); no 2027 date is posted on the site or found via search (coverage confirms 2027 is 'to be announced'), so editions is empty and the May 2026 show is recorded as 'last'. Guests were not collected since no upcoming edition is confirmed to attach them to; the nav 'GUESTS' link only anchors to a same-page section, not a separate page. Organizer 'Prairieland Park' and venue match the homepage's 'Produced By Prairieland' / 'Venue Prairieland' text. Rebrand history (from Saskatchewan Entertainment Expo/SaskExpo) confirmed by the site's own news post 'Expo finds new home: Prairieland purchases the Saskatoon portion of the Saskatchewan Entertainment Expo' (May 7, 2024)."
+}

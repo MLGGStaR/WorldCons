@@ -1,0 +1,30 @@
+{
+  "id": "sferakon",
+  "name": "SFeraKon",
+  "short": "",
+  "url": "https://sferakon.org/",
+  "organizer": "SFera",
+  "status": "active",
+  "types": ["scifi", "tabletop", "cosplay"],
+  "blurb": "The oldest Croatian science-fiction convention and one of Central Europe's largest, held each spring in Zagreb.",
+  "cover": { "file": "pipeline/cache/extract/sferakon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-07",
+      "end": "2027-05-09",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Zagreb",
+      "region": "",
+      "country": "HR",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage social feed: '49. SFeraKon in the making, 7. - 9. 5. 2027. #sferakon #sfera #sferakon2027 Announcement coming soon!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage still headlines 'SFeraKon 2026' (8-10 May 2026, the 48th edition, already ended before today), but its own embedded social-post feed already teases the 49th edition's dates, 7-9 May 2027, with the theme/program 'announcement coming soon' — so the dates are recorded as confirmed but guests as 'none-yet' (the 2026 lineup — Stanislav Yanevski, Josh Herdman, Jill Bearup, Purin, Ari, Ken Liu — belongs to the already-finished 48th edition and is not carried over). Organizer inferred from the nav link to 'Sfera.hr', the Zagreb SF association that runs the convention; not independently re-confirmed beyond that link. Venue not yet stated for 2027."
+}

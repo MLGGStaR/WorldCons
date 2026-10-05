@@ -1,0 +1,30 @@
+{
+  "id": "dragonmeet",
+  "name": "Dragonmeet",
+  "short": "",
+  "url": "https://dragonmeet.co.uk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A one-day tabletop gaming convention at London's ExCeL with RPGs, board games, organised play and a large trade hall.",
+  "cover": { "file": "pipeline/cache/extract/dragonmeet.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "dates": "confirmed",
+      "venue": "ExCeL London",
+      "city": "London",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://dragonmeet.co.uk/tickets",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'DRAGONMEET LONDON EXCEL SATURDAY 28TH NOVEMBER 2026 SHOW OPENING TIMES 09:00 - 22:00'; meta description: 'Dragonmeet RPG convention which takes place on Saturday 28th November 2026 at London Excel'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "A trade/hobbyist tabletop gaming show (RPGs, board games, organised play, 200+ exhibitors) with no celebrity guest programme; the full site navigation (tickets, live events, gaming, awards, exhibitors, policies) has no guests or guest-of-honour page anywhere, so guests is 'none'."
+}

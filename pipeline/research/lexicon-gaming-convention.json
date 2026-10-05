@@ -1,0 +1,30 @@
+{
+  "id": "lexicon-gaming-convention",
+  "name": "LexiCon Gaming Convention",
+  "short": "LexiCon",
+  "url": "https://lexicongaming.com",
+  "organizer": "LexiCon Gaming LLC",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "Lexington's player-run tabletop convention with a 1,000+ title game library, board game tournaments and tabletop RPG sessions all weekend.",
+  "cover": { "file": "pipeline/cache/extract/lexicon-gaming-convention.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "Clarion Hotel",
+      "city": "Lexington",
+      "region": "KY",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/lexicon-2027-tabletop-gaming-convention/badgetypes",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'LexiCon 2027 ... Apr 30 – May 2, 2027 | Clarion Hotel, Lexington, KY' with a live countdown to that date."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No guest program found on the homepage or Events page: the convention is organized entirely around a shared game library, player-run tournaments (Tiny Towns, Take 5, Ticket to Ride, Splendor...) and RPG sessions (Pathfinder, D&D 5e, Starfinder, Blood on the Clocktower), with no mention of invited guests/designers anywhere on the site, so guests is set to 'none' rather than 'none-yet'."
+}

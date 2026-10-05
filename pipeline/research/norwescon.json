@@ -1,0 +1,41 @@
+{
+  "id": "norwescon",
+  "name": "Norwescon",
+  "short": "",
+  "url": "https://www.norwescon.org/",
+  "organizer": "Northwest Science Fiction Society",
+  "status": "active",
+  "types": ["scifi", "anime", "games"],
+  "blurb": "A literary science-fiction and fantasy convention held each spring in SeaTac, WA, with author guests of honor, art, anime and gaming programming.",
+  "cover": { "file": "pipeline/cache/extract/norwescon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-25",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "DoubleTree by Hilton Seattle Airport",
+      "city": "SeaTac",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://www.norwescon.org/con/memberships/",
+      "guestsPage": "https://www.norwescon.org/con/guests-of-honor/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/norwescon.guests.json",
+          "picks": [
+            [1, "Seanan McGuire", "Speculative fiction author", "author"],
+            [2, "Todd Lockwood", "Dungeons & Dragons, Magic: The Gathering art", "other"],
+            [3, "Erin Macdonald", "Astrophysicist, Star Trek science advisor", "other"],
+            [5, "Betsy Wollheim", "DAW Books publisher", "other"],
+            [6, "Matt Dinniman", "Dungeon Crawler Carl series", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and Guests of Honor page: 'Norwescon 49 will be held March 25–28, 2027 at the DoubleTree by Hilton Seattle Airport in SeaTac, WA.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "DAW Books' own logo card (candidate #4) was skipped in favor of candidate #5, the actual Spotlight Publisher Representative pictured and named in the page text, Betsy Wollheim (the page's alt text misspells it 'Wolheim'; the section heading and standard spelling are 'Wollheim'). Verify-03 pass (2026-10-05): confirmed current -- a fresh re-extraction is unchanged, and the Guests of Honor page's own text still reads 'Norwescon 49 will be... March 25-28, 2027', matching this edition exactly with no earlier-year wording anywhere on the page. Refute-pass (2026-10-05): found the con's own announcement post norwescon.org/2026/04/04/announcing-our-norwescon-49-guests-of-honor/, published 2026 shortly after Norwescon 48 (Apr 2-5, 2026) closed, naming all 5 of these exact guests for Norwescon 49 by name; Norwescon 48's own GoHs (Ursula Vernon, Geneva Bowers, Summer Ash, Dutch Bihary, per search) share no names with this lineup, ruling out carryover. Lineup upheld in full."
+}

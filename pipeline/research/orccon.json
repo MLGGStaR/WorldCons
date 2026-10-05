@@ -1,0 +1,30 @@
+{
+  "id": "orccon",
+  "name": "OrcCon",
+  "short": "",
+  "url": "https://www.strategicon.net/",
+  "organizer": "Strategicon",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "One of Strategicon's three annual tabletop and gaming conventions at the Hilton Los Angeles Airport, held the weekend before Presidents' Day.",
+  "cover": { "file": "pipeline/cache/extract/orccon.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-02-05",
+      "end": "2027-02-08",
+      "dates": "confirmed",
+      "venue": "Hilton Los Angeles Airport",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.strategicon.net/?order",
+      "guestsPage": "https://www.strategicon.net/?guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'ORCCON 2027 THE WEEKEND BEFORE PRESIDENTS DAY WEEKEND FEBRUARY 5-8, 2027' and 'LOCATION HILTON LOS ANGELES AIRPORT 5711 W Century Blvd., Los Angeles, California 90045'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Strategicon runs three badge-swapping shows a year at the same Hilton LAX venue (OrcCon in February, Gamex in May, Gateway in September); this file covers only OrcCon per the batch id. The site's one guests page currently lists four 'GATEWAY 2026 SPECIAL GUESTS' (Scott DeBoard, Tuck Davion, Aric Lorton, Frank Todaro) — that lineup is for the September 2026 Gateway show, not OrcCon 2027, so they were not picked here and OrcCon's guests are 'none-yet'. The page has no og/twitter image or dedicated key art; the cover uses one of the homepage's wide board-gaming slider photos rather than the small horizontal text logo or the Gateway guest headshots."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "anime-wonder-washington",
+  "name": "Anime Wonder Washington",
+  "short": "",
+  "url": "https://animewonderfest.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "The Ridgefield, Washington stop of the multi-city Anime Wonder festival, held at the Clark County Event Center.",
+  "cover": { "file": "pipeline/cache/extract/anime-wonder-washington.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Clark County Event Center",
+      "city": "Ridgefield",
+      "region": "WA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official site's 'Coming soon' landing page, 2026 Schedule block: 'CLARK COUNTY EVENT CENTER Ridgefield, WA Dec 5-6, 2026 ** NEW DATE'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The official site is currently a 'Coming soon' placeholder (HTTP 503, 'WEBSITE RE-LAUNCH SOON'). Its own schedule block shows the Ridgefield, WA date moved to Dec 5-6, 2026 (marked '** NEW DATE'), which supersedes the Oct 17-18, 2026 date in the original seed note; third-party aggregators (fancons.com, animecons.com) still show that older Oct date and one marks it 'Postponed', but the con's own site is preferred per instructions. Anime Wonder is a multi-city brand also running a Waco, TX stop (Nov 21-22, 2026); this file covers only the Ridgefield, WA edition. No guest page or ticket link is live on the placeholder site, so guestsPage/tickets are left blank. Organizer name could not be confirmed from the official site; an aggregator attributes it to 'Fueled By X, LLC' but that was not independently verified, so it is omitted."
+}

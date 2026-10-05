@@ -1,0 +1,30 @@
+{
+  "id": "rose-city-comic-con",
+  "name": "Rose City Comic Con",
+  "short": "RCCC",
+  "url": "https://rosecitycomiccon.com/",
+  "organizer": "LeftField Media",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Portland, Oregon comic con at the Oregon Convention Center with a large celebrity, comic-creator and author guest lineup each September.",
+  "cover": { "file": "pipeline/cache/extract/rose-city-comic-con-wiki.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-09-10",
+      "end": "2027-09-12",
+      "dates": "confirmed",
+      "venue": "Oregon Convention Center",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "rosecitycomiccon.com itself returned a Cloudflare bot-check page on every attempt (home and FAQ pages, default and msedge channels, and a direct fetch), so dates are corroborated instead by the Oregon Convention Center's own events calendar (oregoncc.org/attend/events/2027/09/rose-city-comic-con-2027) plus Rostercon/FantasyCons/SciFiCons aggregator listings, which agree on September 10-12, 2027."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Could not render rosecitycomiccon.com (Cloudflare 'Just a moment...' wall on every attempt including a direct WebFetch, which got HTTP 403), so this file leans on secondary sources: Wikipedia for history/organizer/logo, and the convention center's own calendar plus aggregators for the 2027 dates. The 2026 edition (Sept 11-13, 2026, with a guest lineup reported to include Alan Tudyk, Antony Starr, Michael Rooker, several Stargate and Star Trek: Strange New Worlds cast members, and authors Terry Brooks, TJ Klune and Sarah Gailey, per search results) had already ended before the research window and its lineup could not be verified on-site, so it is not recorded here; no 2027 guests are announced yet this far out. Re-check rosecitycomiccon.com directly once it's reachable."
+}

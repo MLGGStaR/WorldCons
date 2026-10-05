@@ -1,0 +1,39 @@
+{
+  "id": "midwest-furfest",
+  "name": "Midwest FurFest",
+  "short": "MFF",
+  "url": "https://www.furfest.org/",
+  "organizer": "Midwest Furry Fandom, Inc.",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "One of the largest furry conventions in the world, held every December at the Donald E. Stephens Convention Center in Rosemont.",
+  "cover": { "file": "pipeline/cache/extract/midwest-furfest.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Donald E. Stephens Convention Center",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://www.furfest.org/attend/register",
+      "guestsPage": "https://www.furfest.org/events/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/midwest-furfest.guests.json",
+          "picks": [
+            [1, "Betamonkey", "DJ and dance performer", "music"],
+            [2, "Snuffles", "Artist, musician and animator", "music"],
+            [3, "Zesty", "Illustrator and comics artist", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'From December 3-6, join us in Rosemont, Illinois, for FurFest 2026: Bark to the Future!' and footer 'DECEMBER 3 - 6, 2026 - ROSEMONT, IL.' Venue confirmed on the registration page: 'Hall F of the Donald E. Stephens Convention Center in Rosemont, IL.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The three 2026 Guests of Honor (Betamonkey, Snuffles, Zesty) each have a full bio paragraph and photo on the Guests of Honor page; known-for is condensed from that bio text rather than the con's single-word GoH labels."
+}

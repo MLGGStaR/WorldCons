@@ -1,0 +1,14 @@
+{
+  "id": "yorkshire-cosplay-con",
+  "name": "Yorkshire Cosplay Con",
+  "short": "",
+  "url": "https://www.yorkshirecosplaycon.co.uk/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["cosplay"],
+  "blurb": "A Yorkshire cosplay, anime and gaming community event that announced a temporary hiatus in 2026.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The URL given in the batch (yorkshirecosplaycon.com) does not resolve (net::ERR_NAME_NOT_RESOLVED). WebSearch found the real site at yorkshirecosplaycon.co.uk (also .co.uk variants with/without www 404; the working one is https://www.yorkshirecosplaycon.co.uk/, a Site.pro-builder page). Its homepage, checked 2026-10-05, reads in full: 'Important Update — Temporary Hiatus ... We are currently on a temporary hiatus due to personal medical and family reasons. We truly appreciate your passion, support and understanding during this time. We're looking forward to returning with everyone once we're in a position to do so.' No archive or past-edition dates are published on the current site, so status is set to inactive with hiatus as the reason, and no 'last' edition is recorded rather than guessing one (a search turned up a past 'Yorkshire Cosplay Con 8' near Sheffield, but with no confirmed date from a primary source). Cover left null since the only image on the placeholder site is the Site.pro builder's own logo, not the con's."
+}

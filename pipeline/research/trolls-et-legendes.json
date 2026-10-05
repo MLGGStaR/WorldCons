@@ -1,0 +1,30 @@
+{
+  "id": "trolls-et-legendes",
+  "name": "Trolls & Légendes",
+  "short": "",
+  "url": "https://trollsetlegendes.be/en/",
+  "organizer": "Trolls & Légendes ASBL",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "Fantasy literature and costume festival in Mons, Belgium, blending books, comics, manga, games and epic music.",
+  "cover": { "file": "pipeline/cache/extract/trolls-et-legendes.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Lotto Mons Expo",
+      "city": "Mons",
+      "region": "",
+      "country": "BE",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Trolls & Légendes in Mons on March 26, 27 and 28, 2027'; corroborated by the Lotto Mons Expo venue listing and L'Agenda Geek, both giving 26–28 March 2027 at Lotto Mons Expo, Mons."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's /en/guests/ path (and every other sub-path tried) serves the same homepage shell rather than distinct content, so no guest list could be found yet — the homepage itself says booth applications for the market/publishing/games area only just opened, consistent with guests not being announced yet this far out. Previous (Summer/August 2026) edition is already over as of this 2026-10-05 check. The batch note's location for a different con in this run (Made in Asia) wrongly cited 'Lotto Mons Expo' — that venue actually belongs to this convention, confirmed here via the venue's own listing."
+}

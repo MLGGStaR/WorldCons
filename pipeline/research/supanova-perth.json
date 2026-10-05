@@ -1,0 +1,38 @@
+{
+  "id": "supanova-perth",
+  "name": "Supanova Comic Con & Gaming – Perth",
+  "short": "",
+  "url": "https://www.supanova.com.au/",
+  "organizer": "Supanova Expo Pty Ltd",
+  "status": "active",
+  "types": [
+    "comics",
+    "anime",
+    "games",
+    "cosplay"
+  ],
+  "blurb": "Perth leg of Australia's multi-city Supanova tour, bringing film/TV, anime and gaming guests, comic creators and cosplay to the Perth Convention & Exhibition Centre.",
+  "cover": {
+    "file": "pipeline/cache/extract/supanova-perth.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Perth Convention & Exhibition Centre",
+      "city": "Perth",
+      "region": "WA",
+      "country": "AU",
+      "tickets": "https://www.supanova.com.au/events/",
+      "guestsPage": "https://www.supanova.com.au/events/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Supanova's own site footer promo ticker (seen on supanova.com.au guest pages) lists 'Perth June 25-27, 2027' at the Perth Convention & Exhibition Centre."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Today is 2026-10-05; this city's 2026 Supanova show already happened (its dedicated /events/perth-2026/ pages are a passed-event archive, confirmed guests shown there are explicitly '... 2026' and so stale). The next edition's own event-home/guests pages (…-2027/) are not live yet (404), so the exact dates above come from the cross-promotional date ticker Supanova runs on its other live city pages (e.g. the Brisbane guests page footer), not yet from a dedicated page for this city. Guests for that edition are therefore none-yet and url points to the main Supanova site rather than a page that would otherwise show last cycle's lineup."
+}

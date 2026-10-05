@@ -1,0 +1,35 @@
+{
+  "id": "mississippi-card-show",
+  "name": "Mississippi Card Show",
+  "short": "",
+  "url": "https://www.vxvevents.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": [
+    "toys"
+  ],
+  "blurb": "A trading-card and collectibles show at the Mississippi Trademart in Jackson, run by VXV Events.",
+  "cover": {
+    "file": "pipeline/cache/extract/vxv-events.home.json",
+    "key": "hero:4"
+  },
+  "editions": [
+    {
+      "start": "2027-08-21",
+      "end": "2027-08-22",
+      "dates": "confirmed",
+      "venue": "Mississippi Trademart",
+      "city": "Jackson",
+      "region": "MS",
+      "country": "US",
+      "tickets": "https://www.vxvevents.com/events",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "vxvevents.com/events '2027 Events' list: 'Mississippi Card Show August 21 & 22 2027 Mississippi Trademart Jackson, MS' (its 2026-08-22/23 edition has already passed)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Same VXV Events combined calendar as its sister shows (see central-carolina-comic-con/arkansas-card-show notes). A trading-card/collectibles show with no celebrity guest program."
+}

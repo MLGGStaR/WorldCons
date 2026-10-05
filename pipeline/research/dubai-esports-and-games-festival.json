@@ -1,0 +1,30 @@
+{
+  "id": "dubai-esports-and-games-festival",
+  "name": "Dubai Esports & Games Festival (GameExpo)",
+  "short": "DEF",
+  "url": "https://www.dubaiesportsfestival.com/",
+  "organizer": "Dubai Department of Economy and Tourism (Dubai DET)",
+  "status": "active",
+  "types": ["games", "anime", "cosplay"],
+  "blurb": "Dubai's citywide gaming festival; GameExpo at Dubai World Trade Centre is its flagship exhibition with esports tournaments and cosplay competitions.",
+  "cover": { "file": "pipeline/cache/extract/dubai-esports-and-games-festival.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Dubai World Trade Centre",
+      "city": "Dubai",
+      "region": "",
+      "country": "AE",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official homepage live text: 'Dubai Esports and Games Festival (DEF) returns to Dubai from 9-25 April, 2027' / 'See you in 2027' (the page's own meta description is stale, still citing May-June 2026). GameExpo's specific Apr 23-25, 2027 sub-dates within that 9-25 April window are reported consistently by mid-east.info, IndexBox and gdnonline.com; no dedicated GameExpo sub-page with those exact dates was reachable directly on the official site to confirm firsthand."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "DEF is a ~17-day citywide festival (Apr 9-25, 2027); GameExpo is its flagship 3-day public exhibition at DWTC, which is what this entry tracks. The prior edition's GameExpo ran Jun 5-7, 2026 per the fixup note. No guest/talent lineup is announced yet for 2027."
+}

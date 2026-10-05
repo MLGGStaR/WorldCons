@@ -1,0 +1,30 @@
+{
+  "id": "armageddon-expo-wellington",
+  "name": "Armageddon Expo Wellington",
+  "short": "",
+  "url": "https://www.armageddonexpo.com/",
+  "organizer": "Beyond Reality Media Premier Event Management",
+  "status": "active",
+  "types": ["pop", "comics", "games", "cosplay"],
+  "blurb": "The Wellington edition of New Zealand's Armageddon Expo pop-culture convention, held at Sky Stadium over Easter weekend.",
+  "cover": { "file": "pipeline/cache/extract/armageddon-expo-wellington.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Sky Stadium",
+      "city": "Wellington",
+      "region": "",
+      "country": "NZ",
+      "tickets": "",
+      "guestsPage": "https://www.armageddonexpo.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wellington page: 'Wellington (Pōneke) Armageddon 2027 is back on easter at Wellington [...] Stadium, 105 Waterloo Quay' with 'Friday March 26 ... Saturday March 27 ... Sunday March 28'. 105 Waterloo Quay is Sky Stadium's address (confirmed by web search), though the page's own venue text oddly reads 'Hnry Stadium' — likely a typo on the organizer's site, quoted as-is above."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The live /guests/ page currently lists only guests tagged 'Appearing in person at Auckland Spring' (the nearer October 2026 show); none are tagged for Wellington yet, hence guests: none-yet. Wellington's previous edition ran Easter weekend, Apr 3-5, 2026, per the site's own 'Armageddon Updates' news post — that edition has already passed, so this file reports the next confirmed one (Mar 26-28, 2027) instead."
+}

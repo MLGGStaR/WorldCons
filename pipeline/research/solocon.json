@@ -1,0 +1,38 @@
+{
+  "id": "solocon",
+  "name": "SoloCon",
+  "short": "",
+  "url": "https://www.solocon.ch/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics", "cosplay", "games"],
+  "blurb": "The Solothurner Convention: a Halloween-weekend comic con at the Enter Technikwelt museum in Derendingen, covering comics, film, series, anime and gaming, with voice-actor guests and cosplay contests.",
+  "cover": { "file": "pipeline/cache/extract/solocon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Enter Technikwelt",
+      "city": "Derendingen",
+      "region": "SO",
+      "country": "CH",
+      "tickets": "https://www.solocon.ch/tickets/",
+      "guestsPage": "https://www.solocon.ch/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/solocon-home.guests.json",
+          "picks": [
+            [1, "Marcel Collé", "German dub voice of Ashton Kutcher, Aaron Paul", "voice"],
+            [2, "Gabrielle Pietermann", "German dub voice of Emma Watson, Emilia Clarke", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'SoloCon – Solothurner Convention 31. Oktober – 1. November 2026 (Halloween)', with a live Ticketino shop link for '.../SoloCon-Solothurner-Convention-2026/205193' and a museum-combo-ticket note ('In dem Ticket ist nicht nur die SoloCon, sondern die komplette Enter Technikwelt inklusive')."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Seed types ('tabletop, games') don't match the site's own self-description: 'Die SoloCon ... ist eine Comic Con im Kanton Solothurn ... alles, was mit Comics, Filmen, Serien, Games, Anime, Gaming, Fantasy etc zu tun hat' (no tabletop/board-game focus at all) — corrected to a general pop-culture/comic-con mix. The homepage's own 'Stargäste an der SoloCon' section has exactly 2 guest photos with no readable alt/caption text (names only surface via on-click JS), so they were identified from the image filenames ('Marcel-Cole', 'Gabrielle-Pietermann-1', both uploaded mid-2026) and confirmed/spelled correctly ('Marcel Collé') plus their known-for via web search (German synchro/dub voice-actor databases). The separate '/stargaeste/' subpage is NOT this edition — it still shows Tim Schwarzmaier and Gerrit Schmidt-Foß, who web search confirms were SoloCon's April 2025 guests, so that page/those two names were deliberately excluded as stale. Organizer not found on the rendered pages."
+}

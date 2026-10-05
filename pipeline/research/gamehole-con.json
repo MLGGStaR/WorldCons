@@ -1,0 +1,539 @@
+{
+  "id": "gamehole-con",
+  "name": "Gamehole Con",
+  "short": "GHC",
+  "url": "https://www.gameholecon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "tabletop"
+  ],
+  "blurb": "A large fall tabletop gaming convention in Madison, Wisconsin, covering RPGs, board games, miniatures and card games with a huge industry guest list.",
+  "cover": {
+    "file": "pipeline/cache/extract/gamehole-con.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2026-10-15",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Alliant Energy Center, Exhibition Hall",
+      "city": "Madison",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://www.gameholecon.com/registration/buyBadge",
+      "guestsPage": "https://www.gameholecon.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/gamehole-con.guests.json",
+          "picks": [
+            [
+              1,
+              "Teos Abadia",
+              "",
+              "gaming"
+            ],
+            [
+              2,
+              "Keith Ammann",
+              "",
+              "gaming"
+            ],
+            [
+              3,
+              "Justice Arman",
+              "",
+              "other"
+            ],
+            [
+              4,
+              "Dan Ayoub",
+              "",
+              "gaming"
+            ],
+            [
+              5,
+              "Sarah Babe",
+              "",
+              "other"
+            ],
+            [
+              6,
+              "Keith Baker",
+              "",
+              "gaming"
+            ],
+            [
+              7,
+              "Rich Baker",
+              "",
+              "gaming"
+            ],
+            [
+              8,
+              "Shawn Banerjee",
+              "",
+              "other"
+            ],
+            [
+              9,
+              "Bill Benham",
+              "",
+              "gaming"
+            ],
+            [
+              10,
+              "Adam Bradford",
+              "",
+              "gaming"
+            ],
+            [
+              11,
+              "Stan! Brown",
+              "",
+              "gaming"
+            ],
+            [
+              12,
+              "Monte Cook",
+              "",
+              "gaming"
+            ],
+            [
+              13,
+              "Zeb Cook",
+              "",
+              "gaming"
+            ],
+            [
+              14,
+              "Bruce Cordell",
+              "",
+              "gaming"
+            ],
+            [
+              15,
+              "Michael Croitoriu",
+              "",
+              "other"
+            ],
+            [
+              16,
+              "Bunni Daniel",
+              "",
+              "other"
+            ],
+            [
+              17,
+              "Xane Daniel",
+              "",
+              "other"
+            ],
+            [
+              18,
+              "Jenn Ellis",
+              "",
+              "other"
+            ],
+            [
+              19,
+              "Alyssa Faden",
+              "",
+              "other"
+            ],
+            [
+              20,
+              "Matt Forbeck",
+              "",
+              "gaming"
+            ],
+            [
+              21,
+              "Andrew Gaska",
+              "",
+              "gaming"
+            ],
+            [
+              22,
+              "Shanna Germain",
+              "",
+              "gaming"
+            ],
+            [
+              23,
+              "Tommy Gofton",
+              "",
+              "gaming"
+            ],
+            [
+              24,
+              "Joseph Goodman",
+              "",
+              "gaming"
+            ],
+            [
+              25,
+              "Ed Greenwood",
+              "",
+              "gaming"
+            ],
+            [
+              26,
+              "Luke Gygax",
+              "",
+              "gaming"
+            ],
+            [
+              27,
+              "Allen Hammack",
+              "",
+              "gaming"
+            ],
+            [
+              28,
+              "Amanda Hamon",
+              "",
+              "gaming"
+            ],
+            [
+              29,
+              "Bennett Heisler",
+              "",
+              "other"
+            ],
+            [
+              30,
+              "Genna Hibbs",
+              "",
+              "other"
+            ],
+            [
+              31,
+              "Thurston Hillman",
+              "",
+              "gaming"
+            ],
+            [
+              32,
+              "Kenneth Hite",
+              "",
+              "gaming"
+            ],
+            [
+              33,
+              "Doug Hopkins",
+              "",
+              "other"
+            ],
+            [
+              34,
+              "Savannah Houston-McIntyre",
+              "",
+              "other"
+            ],
+            [
+              35,
+              "James Introcaso",
+              "",
+              "gaming"
+            ],
+            [
+              36,
+              "Steve Jackson",
+              "",
+              "gaming"
+            ],
+            [
+              37,
+              "LaTia Jacquise",
+              "",
+              "other"
+            ],
+            [
+              38,
+              "Stacy King",
+              "",
+              "gaming"
+            ],
+            [
+              39,
+              "John Kovalic",
+              "",
+              "comics"
+            ],
+            [
+              40,
+              "Brendan LaSalle",
+              "",
+              "gaming"
+            ],
+            [
+              41,
+              "Paige Leitman",
+              "",
+              "gaming"
+            ],
+            [
+              42,
+              "Chris Lindsay",
+              "",
+              "gaming"
+            ],
+            [
+              43,
+              "Ginny Loveday",
+              "",
+              "other"
+            ],
+            [
+              44,
+              "James Lowder",
+              "",
+              "author"
+            ],
+            [
+              45,
+              "Greg Marks",
+              "",
+              "other"
+            ],
+            [
+              46,
+              "Crystal Mazur",
+              "",
+              "other"
+            ],
+            [
+              47,
+              "Mike Mearls",
+              "",
+              "gaming"
+            ],
+            [
+              48,
+              "Rick Meints",
+              "",
+              "gaming"
+            ],
+            [
+              49,
+              "Eric Menge",
+              "",
+              "other"
+            ],
+            [
+              50,
+              "Anna Meyer",
+              "",
+              "other"
+            ],
+            [
+              51,
+              "Jason Charles Miller",
+              "",
+              "music"
+            ],
+            [
+              52,
+              "Erik Mona",
+              "",
+              "gaming"
+            ],
+            [
+              53,
+              "Anais Morgan",
+              "",
+              "other"
+            ],
+            [
+              54,
+              "Doug Niles",
+              "",
+              "author"
+            ],
+            [
+              55,
+              "Alan Patrick",
+              "",
+              "other"
+            ],
+            [
+              56,
+              "Christopher Perkins",
+              "",
+              "gaming"
+            ],
+            [
+              57,
+              "Jon Peterson",
+              "",
+              "author"
+            ],
+            [
+              58,
+              "Stefan Pokorny",
+              "",
+              "other"
+            ],
+            [
+              59,
+              "James Pozenel",
+              "",
+              "other"
+            ],
+            [
+              60,
+              "Chris Pramas",
+              "",
+              "gaming"
+            ],
+            [
+              61,
+              "Merle Rasmussen",
+              "",
+              "gaming"
+            ],
+            [
+              62,
+              "Victor Raymond",
+              "",
+              "gaming"
+            ],
+            [
+              63,
+              "Sean Reynolds",
+              "",
+              "gaming"
+            ],
+            [
+              64,
+              "Jeff Richard",
+              "",
+              "gaming"
+            ],
+            [
+              65,
+              "Ben Riggs",
+              "",
+              "author"
+            ],
+            [
+              66,
+              "Charles Ryan",
+              "",
+              "gaming"
+            ],
+            [
+              67,
+              "Jonathan Connor Self-Gonzalez",
+              "",
+              "other"
+            ],
+            [
+              68,
+              "Michael Shea",
+              "",
+              "gaming"
+            ],
+            [
+              69,
+              "Bill Slavicsek",
+              "",
+              "gaming"
+            ],
+            [
+              70,
+              "Alexander Stangroom",
+              "",
+              "other"
+            ],
+            [
+              71,
+              "Ed Stark",
+              "",
+              "gaming"
+            ],
+            [
+              72,
+              "Bryan CP Steele",
+              "",
+              "other"
+            ],
+            [
+              73,
+              "Luke Stratton",
+              "",
+              "other"
+            ],
+            [
+              74,
+              "Dan Taylor",
+              "",
+              "other"
+            ],
+            [
+              75,
+              "Elisa Teague",
+              "",
+              "other"
+            ],
+            [
+              76,
+              "Monica Valentinelli",
+              "",
+              "gaming"
+            ],
+            [
+              77,
+              "Craig Van Ness",
+              "",
+              "gaming"
+            ],
+            [
+              78,
+              "John Watson",
+              "",
+              "other"
+            ],
+            [
+              79,
+              "Toni Winslow-Brill",
+              "",
+              "gaming"
+            ],
+            [
+              80,
+              "Steven Winter",
+              "",
+              "gaming"
+            ],
+            [
+              81,
+              "Ronin Wong",
+              "",
+              "other"
+            ],
+            [
+              82,
+              "Travis Woodall",
+              "",
+              "other"
+            ],
+            [
+              83,
+              "Jim Zub",
+              "",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'October 15th - 18th, 2026 Alliant Energy Center, Exhibition Hall Madison, WI'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Special Guests page lists 83 names as plain photo cards with no bio/known-for text and no per-guest link, so known-for is left \"\" for all per the name-only-card rule. cat is set from well-established industry knowledge for guests I could confidently identify (mostly tabletop RPG designers/writers from WotC, Paizo, Chaosium, Green Ronin, Goodman Games, TSR alumni, etc., plus 2 comics creators and 1 musician); every other name defaults to \"other\" rather than guessing. Re-check gameholecon.com/guests directly for bios if richer known-for text is wanted. Organizer entity not found on the site."
+}

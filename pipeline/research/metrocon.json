@@ -1,0 +1,30 @@
+{
+  "id": "metrocon",
+  "name": "Metrocon",
+  "short": "",
+  "url": "https://metroconventions.com",
+  "organizer": "Team Dynamite Productions",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Florida's largest anime convention, held in Tampa with celebrity guests, gaming, cosplay contests and a maid cafe.",
+  "cover": { "file": "pipeline/cache/extract/metrocon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-07-23",
+      "end": "2027-07-25",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Tampa",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://metroconventions.com/get-tickets/",
+      "guestsPage": "https://metroconventions.com/special-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Wayback Machine snapshot (captured 2026-08-03) of metroconventions.com footer: 'Upcoming METROCON Dates! July 31 – August 2, 2026 July 23 – 25, 2027 July 7 – 9, 2028'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "metroconventions.com returned a persistent Cloudflare bot-check (status 403) on every direct attempt, with and without www, with --channel msedge, and on a guests subpage -- never rendered live. A Wayback Machine snapshot from 2026-08-03 did render cleanly (archive.org was not blocked) and explicitly lists the next three years of dates, confirming July 23-25, 2027 as the upcoming edition; that snapshot captured the (now-past) July 31-Aug 2, 2026 edition's own guest page content, which does not apply to 2027, so guests is 'none-yet' rather than carrying over stale names. No specific venue name was found in the rendered text (only 'Tampa, FL'), so it is left blank. Cover uses the site's own logo via the archive.org image proxy (.../im_/https://metroconventions.com/...) specifically because that copy loads independently of metroconventions.com's Cloudflare, unlike several other direct image URLs on the same cached page."
+}

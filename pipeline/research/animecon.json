@@ -1,0 +1,30 @@
+{
+  "id": "animecon",
+  "name": "AnimeCon",
+  "short": "",
+  "url": "https://animecon.nl/en/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "The Netherlands' longest-running anime convention, held at De Broodfabriek in Rijswijk with cosplay, gaming and Japanese arcades.",
+  "cover": { "file": "pipeline/cache/extract/animecon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "De Broodfabriek",
+      "city": "Rijswijk",
+      "region": "",
+      "country": "NL",
+      "tickets": "https://animecon.nl/en/join-us/tickets",
+      "guestsPage": "https://animecon.nl/en/program/special-guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'AnimeCon 2027 will take place from April 16th until April 18th, 2027!' with a live countdown reading 'AnimeCon 2027 will start on April 16th at 14:00 CEST ... And will end on April 18th at 20:00 CEST' (193 days from today, 2026-10-05, matching exactly)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Corrected venue/city from the seed's 'Rotterdam' (Ahoy): the site's own Venue & Directions page names De Broodfabriek, Volmerlaan 12, Rijswijk as the 2027 venue. That same venue page's separate 'Opening Times' widget confusingly still reads 'Date: April 17 - 19' (stale, not updated); the homepage's live countdown/headline (April 16-18, 2027) was trusted instead since it matches exactly and is clearly the current authoritative value, per RESEARCH.md's rule to trust visible page text/countdowns over stale fragments. The Special Guests page has no guest cards yet (only nav/partner logos), so guests is 'none-yet'."
+}

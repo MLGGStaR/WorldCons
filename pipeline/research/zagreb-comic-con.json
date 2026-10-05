@@ -1,0 +1,22 @@
+{
+  "id": "zagreb-comic-con",
+  "name": "Zagreb Comic Con",
+  "short": "",
+  "url": "https://zagrebcomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Croatia's biggest regional comics festival, also known as Crtani Romani Šou, held each spring in Zagreb.",
+  "cover": { "file": "pipeline/cache/extract/zagreb-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-04-17",
+    "end": "2026-04-19",
+    "city": "Zagreb",
+    "region": "",
+    "country": "HR",
+    "venue": "Akademija likovnih umjetnosti, Ilica 85, Zagreb"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage text: 'Kada? 17. – 19. travnja 2026. Gdje? Akademija likovnih umjetnosti Ilica 85, Zagreb' for the '29. Međunarodni festival stripa Crtani romani šou' — the 29th edition, which already ended before today. No 2027 (30th) dates are posted yet, so editions is empty and April 2026 is recorded as 'last'. Organizer/producing body not named on the homepage checked."
+}

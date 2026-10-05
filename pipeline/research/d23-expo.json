@@ -1,0 +1,15 @@
+{
+  "id": "d23-expo",
+  "name": "D23 Expo",
+  "short": "D23",
+  "url": "https://d23.com/d23-expo/",
+  "organizer": "The Walt Disney Company / D23",
+  "status": "active",
+  "types": ["pop", "cosplay"],
+  "blurb": "The Walt Disney Company's biennial official fan convention in Anaheim, with panels, exhibits and Disney stars across a sprawling show floor.",
+  "cover": { "file": "pipeline/cache/extract/d23-expo.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-14", "end": "2026-08-16", "city": "Anaheim", "region": "CA", "country": "US", "venue": "Anaheim Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "D23: The Ultimate Disney Fan Event ran Aug 14-16, 2026 at the Anaheim Convention Center (plus the nearby Honda Center) — confirmed via WebSearch (Hoodline, Disney Tourist Blog, MiceChat) since the official site's recap page (d23.com/ultimatefanevent2026/) doesn't spell out the exact dates in its rendered text. D23 Expo is biennial and no US date beyond 2026 is announced yet. The site does announce a separate new event, 'D23 Asia', debuting at Marina Bay Sands/Sands Expo & Convention Centre, Singapore in 2027 — that is a different event/location from this Anaheim convention and was left out of this file."
+}

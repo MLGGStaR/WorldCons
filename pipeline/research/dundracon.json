@@ -1,0 +1,30 @@
+{
+  "id": "dundracon",
+  "name": "DunDraCon",
+  "short": "DDC",
+  "url": "https://www.dundracon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "A long-running tabletop and board game convention over Presidents' Day weekend, self-described as the West Coast's premier game convention.",
+  "cover": { "file": "pipeline/cache/extract/dundracon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-11",
+      "end": "2027-02-16",
+      "dates": "confirmed",
+      "venue": "Santa Clara Marriott",
+      "city": "Santa Clara",
+      "region": "CA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Hotel page: 'Santa Clara Marriott, 2700 Mission College Boulevard, Santa Clara, California 95054... Earliest Arrival Date: Thursday, February 11, 2027 Latest Departure Date: Tuesday, February 16, 2027'; homepage: 'Welcome to DunDraCon 50!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed's city (San Ramon) is stale/wrong: the official hotel page gives the venue as the Santa Clara Marriott, 2700 Mission College Boulevard, Santa Clara, CA 95054 (the same hotel used by BayCon/Westercon 79 at a different time of year), so city/region were corrected to Santa Clara, CA. This is DunDraCon's 50th year ('Welcome to DunDraCon 50!'). The con runs on volunteer Game Masters, seminar leaders and dealers rather than a booked celebrity guest program -- no 'Guests of Honor' page or section exists on the site -- so guests is set to 'none'. The site is a plain, old-style multi-page (non-JS) site; only one link rendered outside of what is likely a left-hand frame/menu not captured by the renderer. No og/twitter image; cover uses the homepage's own title banner graphic (hero:0, 1250x300)."
+}

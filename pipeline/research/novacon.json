@@ -1,0 +1,39 @@
+{
+  "id": "novacon",
+  "name": "Novacon",
+  "short": "",
+  "url": "https://novacon.uk/",
+  "organizer": "Birmingham Science Fiction Group",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The UK's longest-established science fiction convention, run by the Birmingham SF Group each November.",
+  "cover": { "file": "pipeline/cache/extract/novacon.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "The Palace Hotel",
+      "city": "Buxton",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://novacon.uk/",
+      "guestsPage": "https://novacon.uk/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/novacon.guests.json",
+          "picks": [
+            [1, "Una McCormack", "Author; Star Trek, Doctor Who novels", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [
+        ["Christine Davidson", "Science Guest of Honour, geochemist", "other"]
+      ],
+      "evidence": "Homepage text: 'NOVACON 55 6 – 8 November 2026 The Palace Hotel, Buxton, Derbyshire'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given url (novacon.org.uk) is a parked/for-sale domain unrelated to the convention; the real site is novacon.uk. Venue/city rotates yearly (this year Buxton, Derbyshire, not Birmingham). Author Guest of Honour Una McCormack has a photo on the homepage; Science Guest of Honour Christine Davidson is named in site text/progress reports but has no photo there, so she is listed as text-only."
+}

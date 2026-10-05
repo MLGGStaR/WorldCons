@@ -1,0 +1,15 @@
+{
+  "id": "denfur",
+  "name": "DenFur",
+  "short": "",
+  "url": "https://denfur.org",
+  "organizer": "AEI 501(c)(3)",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Colorado's largest furry fandom convention, held in Denver with panels, dances, an art show and a dealers den.",
+  "cover": { "file": "pipeline/cache/extract/denfur.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-28", "end": "2026-08-30", "city": "Denver", "region": "CO", "country": "US", "venue": "Sheraton Denver Downtown Hotel" },
+  "checked": "2026-10-05",
+  "notes": "denfur.org itself returned a persistent Cloudflare bot-check (status 403) on every attempt (direct, --channel msedge, and a Wayback Machine snapshot all showed the same 'Just a moment...' challenge, so even archive.org's crawler appears to have been blocked), so the homepage could never be rendered directly. Dates/venue/cover sourced instead from DenFur's own Eventeny listing (explicitly tagged 'Event from https://denfur.org'), which carries JSON-LD confirming 2026-08-28 to 2026-08-30 at the Sheraton Denver Downtown Hotel, Denver CO -- corroborated by fancons.com, 10times.com and a fursuitcommissions.com recap. That edition ended before the research window (2026-10-05), so it is recorded as \"last\" only. DenFur 2027 is confirmed (via search; official site unreachable) for August 2027 with a 'Video Games' theme, but no specific dates have been announced yet, so editions is empty. Organizer taken from the Eventeny listing ('Organized by AEI 501(c)(3)'); not independently confirmed on the (unreachable) official site. Re-check once denfur.org is reachable again."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "spacon",
+  "name": "SpaCon",
+  "short": "",
+  "url": "https://www.vxvevents.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": [
+    "pop",
+    "comics"
+  ],
+  "blurb": "A pop-culture and comic show at the Hot Springs Convention Center, run by VXV Events.",
+  "cover": {
+    "file": "pipeline/cache/extract/vxv-events.home.json",
+    "key": "hero:2"
+  },
+  "editions": [],
+  "last": {
+    "start": "2026-05-16",
+    "end": "2026-05-17",
+    "city": "Hot Springs",
+    "region": "AR",
+    "country": "US",
+    "venue": "Hot Springs Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "vxvevents.com/events combined calendar's '2027 Events' section (Central Carolina Comic Con through Illinois Comic Con, verbatim-checked) does not include SpaCon, so no 2026-10-05..2027-12-31 date is announced yet (editions: []). Last confirmed run was May 16-17, 2026 at the Hot Springs Convention Center. No celebrity guest program found on VXV's site."
+}

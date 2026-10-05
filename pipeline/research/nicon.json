@@ -1,0 +1,15 @@
+{
+  "id": "nicon",
+  "name": "Nicon",
+  "short": "",
+  "url": "https://niconvention.info/",
+  "organizer": "NiCon e.V.",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Hannover's autumn anime and manga convention, with German voice-actor guests, a cosplay competition and a dedicated games room.",
+  "cover": { "file": "pipeline/cache/extract/nicon.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-10-02", "end": "2026-10-04", "city": "Hannover", "region": "", "country": "DE", "venue": "" },
+  "checked": "2026-10-05",
+  "notes": "The site's own homepage confirms NiCon 2026 ran 2026-10-02 to 2026-10-04 in Hannover ('wir sehen uns vom 02.10.2026 bis 04.10.2026 wie gewohnt in Hannover wieder'), but that edition ended the day before this research window opens (2026-10-05), so it is recorded as 'last' rather than as an upcoming edition; no 2027 date has been announced yet. Its 8 Ehrengäste (German anime voice actors Vera Schulze, Scarlett Lubowski, Toni Michael Sattler, Marc Rosenberg, Katharina von Daake, Frank Schröder, Daniela Reidies and Benjamin Stolz, from pipeline/cache/extract/nicon.guests.json #1-8) were that just-finished edition's lineup, not an upcoming one, so per the schema (guests only attach to an edition in 'editions') they are not carried into this file; re-run guest capture once NiCon announces 2027 dates. Seed listed types as just 'pop', but the site's own title is 'Nicon Hannover | Anime- & Manga Convention', all 8 guests are anime voice actors, and there is a prominent Cosplay Anmeldung nav item plus a project/gamesroom page in the sitemap, so types were corrected to anime/cosplay/games. Guest page was found via wp-sitemap.xml (project/ehrengaeste-2), not linked from the homepage nav. No explicit venue name found on the homepage; left blank rather than guessed. Organizer 'NiCon e.V.' from the footer copyright line."
+}

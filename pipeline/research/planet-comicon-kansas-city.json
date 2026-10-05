@@ -1,0 +1,30 @@
+{
+  "id": "planet-comicon-kansas-city",
+  "name": "Planet Comicon Kansas City",
+  "short": "PCKC",
+  "url": "https://planetcomicon.com/",
+  "organizer": "Planet Promotions",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "The Midwest's largest pop-culture and comic book event, held at the Kansas City Convention Center with celebrity, cosplay and creator guests.",
+  "cover": { "file": "pipeline/cache/extract/planet-comicon-kansas-city.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-02",
+      "end": "2027-04-04",
+      "dates": "confirmed",
+      "venue": "Kansas City Convention Center (Bartle Hall)",
+      "city": "Kansas City",
+      "region": "MO",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://planetcomicon.com/guest-2026/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage visible text: 'April 2-4, 2027 Kansas City Convention Center (Bartle Hall) 301 West 13th Street, Kansas City, MO 64105' (the page's meta description is stale and still references 'March 27-29, 2026')"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage says 'Planet Anime Guest List 2027 – Coming Soon!' and both the Celebrities and Creators 'See Complete Guest List' links on the homepage, as well as the dedicated Celebrity & Photo Opportunities page, show no named 2027 guests yet (only sponsor logos and show-info text), so guests is none-yet. Tickets link says 'Tickets Coming Soon!' with no live URL yet, so tickets is left blank."
+}

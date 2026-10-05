@@ -1,0 +1,30 @@
+{
+  "id": "furry-fiesta",
+  "name": "Furry Fiesta",
+  "short": "TFF",
+  "url": "https://www.furryfiesta.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Dallas furry convention at the Sheraton Dallas Hotel, with panels, dances, an artist alley and a dealers den.",
+  "cover": { "file": "pipeline/cache/extract/furry-fiesta.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "dates": "confirmed",
+      "venue": "Sheraton Dallas Hotel",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://www.furryfiesta.org/attend/registration/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'TEXAS FURRY FIESTA MARCH 19 - 21, 2027' and 'A NIGHTMARE ON OLIVE STREET MARCH 19 - 21, 2027 DALLAS, TX'; hotel page: 'Furry Fiesta is held at the Sheraton Dallas Hotel in downtown Dallas, TX... 400 North Olive Street Dallas, TX 75201'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The nav's EVENTS dropdown links to '/events/guest-of-honor/', which 404s, and no other guest-program page could be found, so no 2027 guest/GoH announcement exists yet. Short 'TFF' comes from the site's own 'REGISTER FOR TFF' button text."
+}

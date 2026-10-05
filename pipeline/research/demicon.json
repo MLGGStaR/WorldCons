@@ -1,0 +1,40 @@
+{
+  "id": "demicon",
+  "name": "DemiCon",
+  "short": "",
+  "url": "https://www.demicon.org/",
+  "organizer": "Des Moines Science Fiction & Fantasy Society",
+  "status": "active",
+  "types": ["scifi", "tabletop"],
+  "blurb": "A fan-run, not-for-profit science fiction, fantasy and gaming convention held annually in the Des Moines, Iowa metro area.",
+  "cover": { "file": "pipeline/cache/extract/demicon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "Holiday Inn & Suites Des Moines-Northwest",
+      "city": "Des Moines",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://demicon.org/38/register.html",
+      "guestsPage": "https://demicon.org/38/guests.html",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/demicon.guests.json",
+          "picks": [
+            [0, "Wesley Chu", "Author of the Tao series", "author"],
+            [1, "Melissa Gay", "Sci-fi and fantasy illustrator", "other"],
+            [2, "Jessie Pridemore", "Cosplayer (Rufflebutt, AnimeAngel)", "cosplay"],
+            [6, "Tadao Tomomatsu", "Actor; roles in Heroes, Inspector Gadget", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/guests page: 'Des Moines' 38th Annual Science Fiction, Fantasy, and Gaming Convention Holiday Inn & Suites Des Moines–Northwest, Iowa April 30-May 2, 2027'; official key-art banner (og image) reads 'DemiCon 38-bit ... April 30-May 2, 2027'; homepage: 'put on by the Des Moines Science Fiction & Fantasy Society'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page also lists a 'DemiCon Hall of Fame' section (Rusty Hevelin, Joe and Gay Haldeman, Glen Cook, Carol and Karen Eis) — these are historical lifetime-achievement honorees from past years ('At DemiCon 15, Rusty Hevelin was our first inductee...'), not people attending the 2027 edition, so per RESEARCH.md ('only the current edition's guests') they were excluded. Toastmaster Tadao Tomomatsu's card repeats his photo/name four times (#3-6) with the bio only present on one copy (#6); he is picked once. His card itself doesn't summarize a single best-known credit, so his known-for is built from its own list of his roles/credits (Actor, MC, Entertainer; 'roles in the TV show HEROES and Inspector Gadget'). Melissa Gay is a sci-fi/fantasy/wildlife illustrator rather than a comics artist, so she is filed as cat 'other' rather than 'comics', matching how other non-comics illustrators are categorized in this dataset. A nav link to 'Professional Guests' (#pros) exists but no additional named individuals appear under it beyond the four Featured Guests already captured, which the homepage itself lists as the complete current lineup ('Featured Guests Wesley Chu ... Melissa Gay ... Jessie Pridemore ... Tadao Tomomatsu'). 2026-10-05 re-verify: current, lineup unchanged -- the guest page URL/title are edition-specific ('demicon.org/38/guests.html', 'Special Guests - DemiCon 38') with dates 'April 30-May 2, 2027' and the same four featured guests plus the same unchanged Hall of Fame history section. REFUTE-pass (2026-10-05): upheld, all 4 proven -- all 4 photos are hosted at static.demicon.org/38/... (an edition-scoped asset path, not a /37/ leftover); checking DemiCon 37 ('Outpost 37', May 1-3, 2026, now already completed) via the site's own past-conventions list shows a totally different Author/Artist/Fan (Mur Lafferty, Alyssa Winans, Eric Larson), ruling out wholesale carryover. Toastmaster Tadao Tomomatsu repeats from DemiCon 37, but the same history list shows him also serving as Toastmaster for DemiCon 33 (2022) -- a recurring, non-consecutive host for this con, not a stale accident."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "arisia",
+  "name": "Arisia",
+  "short": "",
+  "url": "https://www.arisia.org",
+  "organizer": "Arisia Corporation",
+  "status": "inactive",
+  "types": ["scifi"],
+  "blurb": "A fan-run Boston-area science fiction and fantasy convention with guests of honor, an art show and masquerade, currently on a one-year hiatus.",
+  "cover": { "file": "pipeline/cache/extract/arisia.home.json", "key": "hero:2" },
+  "editions": [],
+  "last": {
+    "start": "2026-01-16",
+    "end": "2026-01-19",
+    "city": "Boston",
+    "region": "MA",
+    "country": "US",
+    "venue": "Hyatt Regency Boston/Cambridge"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage banner: 'Arisia is taking a hiatus for 2027. We'll be back in 2028.' (next window, 2028, falls outside this research window of 2026-10-05 to 2027-12-31), so marked inactive/on hiatus with editions empty. The site itself still headlines the already-finished Arisia 2026 ('January 16 - 19, 2026 at the Hyatt Regency Boston/Cambridge'), recorded as 'last'."
+}

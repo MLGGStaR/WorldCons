@@ -1,0 +1,22 @@
+{
+  "id": "triangle-terror-con",
+  "name": "Triangle Terror Con",
+  "short": "",
+  "url": "https://triangleterrorcon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A locally owned, family-run horror and pop-culture convention at the Millennium Hotel in Durham, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/triangle-terror-con.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-26",
+    "end": "2026-09-26",
+    "venue": "The Millennium Hotel",
+    "city": "Durham",
+    "region": "NC",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "Both the homepage and About Us page confirm a single-day event on September 26, 2026 at the Millennium Hotel, Durham, NC ('Join us at the Millennium Hotel Durham on September 26th, 2026...'); a web search corroborates the venue address (2800 Campus Walk Ave, Durham). That date is before the 2026-10-05 research window, and the site is now in post-event mode ('DID YOU ATTEND THIS YEAR'S EVENT? WE WANT TO HEAR FROM YOU'), so it is recorded as 'last' with no 2027 edition announced yet. No organizer/company name is given anywhere on the site beyond 'locally owned and family-operated', so organizer is left blank. Guests were not researched since there is no upcoming edition; the site's nav has no dedicated guests page (only Cosplay, About Us, Sponsorship, Previous Events)."
+}

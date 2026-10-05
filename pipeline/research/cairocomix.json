@@ -1,0 +1,30 @@
+{
+  "id": "cairocomix",
+  "name": "CairoComix",
+  "short": "",
+  "url": "https://www.facebook.com/CairoComix/",
+  "organizer": "Twins Cartoon (Mohamed & Haitham El-Sheikh)",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Egypt's biggest independent comics festival, held annually at the Mahmoud Mokhtar Museum in Zamalek, Cairo, with juried awards since 2015.",
+  "cover": null,
+  "editions": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Mahmoud Mokhtar Museum",
+      "city": "Cairo",
+      "region": "",
+      "country": "EG",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "CairoComix Festival's own Facebook page, cover-photo post dated September 15, 2026: 'كايروكوميكس ١١ من ١٣ - ١٥ نوفمبر ٢٠٢٦' (CairoComix 11, from 13-15 November 2026)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Matches the seed note exactly: Egypt's biggest indie-comics festival since 2015, run by Twins Cartoon (Mohamed & Haitham El-Sheikh), normally at the Mahmoud Mokhtar Museum in Zamalek. No independent website exists -- cairocomix.com (listed as the contact website in the Facebook page's own About panel) resolves to a disconnected/placeholder Wix page ('This domain isn't connected to a site'), confirming the seed note -- so the Facebook page is used as url per the no-standalone-site rule. The page's own cover-photo post (Sept 15, 2026) is a direct, dated organizer announcement giving this year's dates as 13-15 November 2026 (the 11th edition); an older cairo360.com article surfaced by search describes a 1-3 November date, but that piece is explicitly about the festival's 5th edition (per its own text) and years out of date, so it was disregarded in favor of the festival's own current post. Venue/city are carried over from the seed note (not independently re-confirmed for this exact edition, since Facebook's own text only restated the dates); per the research procedure's rule for social-only cons, guests and the cover image were not researched (cover left null, guests left as not-yet-captured)."
+}

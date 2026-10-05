@@ -1,0 +1,30 @@
+{
+  "id": "fantasporto",
+  "name": "Fantasporto",
+  "short": "",
+  "url": "https://www.fantasporto.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "Porto's long-running international fantastic-film festival, screening horror, sci-fi and fantasy cinema with competitive juried awards.",
+  "cover": { "file": "pipeline/cache/extract/fantasporto.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-26",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Batalha Centro de Cinema",
+      "city": "Porto",
+      "region": "",
+      "country": "PT",
+      "tickets": "https://www.fantasporto.com",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title/text: 'Fantasporto 2027— Call for Entries | 47ª edição • 26 de Fevereiro a 7 de Março 2027 • Batalha Centro de Cinema'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Fantasporto is a juried film festival, not an autograph-style convention; its site is currently in the 'Call for Entries' phase for the 47th edition and names no jury or visiting-filmmaker guests yet (only links found are past-winner portfolio pages by award category, e.g. 'Prémio Especial do Júri'), so guests is none-yet rather than none — past editions (the homepage's own archive images) have featured guests such as Guillermo del Toro and Wes Anderson."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wonderfest",
+  "name": "Wonderfest",
+  "short": "",
+  "url": "https://www.wonderfest.com",
+  "organizer": "WonderFest USA, Inc.",
+  "status": "active",
+  "types": ["toys", "horror", "scifi"],
+  "blurb": "A scale-model and hobby expo in Louisville with a model contest, the Rondo Hatton Classic Horror Awards, and sci-fi/horror guests, running since 1992.",
+  "cover": { "file": "pipeline/cache/extract/wonderfest.home.json", "key": "hero:5" },
+  "editions": [
+    {
+      "start": "2027-06-05",
+      "end": "2027-06-06",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Louisville Hotel",
+      "city": "Louisville",
+      "region": "KY",
+      "country": "US",
+      "tickets": "https://www.wonderfest.com/upcoming-show/tickets-hotel/",
+      "guestsPage": "https://www.wonderfest.com/upcoming-show/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown and text: 'Next ‘Fest: June 5-6, 2027 | Crowne Plaza Louisville Hotel'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page (and homepage 'MEET THE 2026 GUESTS' heading) still shows the lineup for the already-passed 2026 show (Ve Neill, Barbara Luna, Greg Nicotero, etc.); a separate nav link points to '/speaker/guests-tba/' for the 2027 show, so 2027 guests are not yet announced. No official og/twitter image; used the wide 2027 slider banner (file name '2027-wide-slider2.png') as cover instead of the generic 2015 background photos."
+}

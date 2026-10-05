@@ -79,17 +79,13 @@ export function mergeTypos(guests, cons) {
 
 // A 4:5 crop around the detected face(s) (YuNet boxes [x, y, w, h, score] in oriented
 // pixels). Faces of similar size are framed together (duos, bands); the face sits a little
-// above the middle, like an ID photo. faceFrac = face width / crop width.
-export function faceCrop(W, H, faces, faceFrac, minW) {
-  const main = faces[0];
-  let peers = faces.filter((f) => f[2] * f[3] >= 0.5 * main[2] * main[3]).slice(0, 4);
-  // A group that cannot fit in one 4:5 frame would be cut through; frame the main face.
-  const span = Math.max(...peers.map((f) => f[0] + f[2])) - Math.min(...peers.map((f) => f[0]));
-  if (peers.length > 1 && span / 0.8 > Math.min(W, H * 0.8)) peers = [main];
-  const x0 = Math.min(...peers.map((f) => f[0]));
-  const y0 = Math.min(...peers.map((f) => f[1]));
-  const x1 = Math.max(...peers.map((f) => f[0] + f[2]));
-  const y1 = Math.max(...peers.map((f) => f[1] + f[3]));
+// above the middle, like an ID photo. faceFrac = face width / crop width; anchor = where the
+// face centre sits, as a share of the crop height from the top.
+export function faceCrop(W, H, faces, faceFrac, minW, anchor = 0.42) {
+  const peers = framedFaces(W, H, faces);
+  const [x0, y0, sw, sh] = subjectBox(peers);
+  const x1 = x0 + sw;
+  const y1 = y0 + sh;
   let cw = peers.length > 1 ? (x1 - x0) / 0.8 : (x1 - x0) / faceFrac;
   cw = Math.max(cw, Math.min(minW, W, H * 0.8));
   let ch = cw / 0.8;
@@ -106,6 +102,78 @@ export function faceCrop(W, H, faces, faceFrac, minW) {
   const cx = (x0 + x1) / 2;
   const cy = (y0 + y1) / 2;
   const left = Math.round(Math.min(Math.max(cx - width / 2, 0), W - width));
-  const top = Math.round(Math.min(Math.max(cy - height * 0.42, 0), H - height));
+  const top = Math.round(Math.min(Math.max(cy - height * anchor, 0), H - height));
   return { left, top, width, height };
+}
+
+// The faces a crop frames: the main one plus faces of similar size (duos, bands), unless the
+// group is too wide for one 4:5 frame.
+export function framedFaces(W, H, faces) {
+  const main = faces[0];
+  const peers = faces.filter((f) => f[2] * f[3] >= 0.5 * main[2] * main[3]).slice(0, 4);
+  const span = Math.max(...peers.map((f) => f[0] + f[2])) - Math.min(...peers.map((f) => f[0]));
+  return peers.length > 1 && span / 0.8 > Math.min(W, H * 0.8) ? [main] : peers;
+}
+
+/** [x, y, w, h] around the framed faces. */
+export function subjectBox(peers) {
+  const x0 = Math.min(...peers.map((f) => f[0]));
+  const y0 = Math.min(...peers.map((f) => f[1]));
+  const x1 = Math.max(...peers.map((f) => f[0] + f[2]));
+  const y1 = Math.max(...peers.map((f) => f[1] + f[3]));
+  return [x0, y0, x1 - x0, y1 - y0];
+}
+
+const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), Math.max(lo, hi));
+
+// Shrink and shift a 4:5 crop until it holds no printed text (a con promo tile's name,
+// caption or logo) while still holding the face. Text boxes [x, y, w, h] that touch the face
+// itself are ignored. Returns the new crop, or null when the text sits too close to the face
+// to frame it out (the caller keeps its first crop).
+export function clearOfText(W, H, subject, crop, boxes, anchor = 0.42, minWidth = 72) {
+  const [fx, fy, fw, fh] = subject;
+  // A face box stops at the brows and the chin: keep some forehead and jaw in the frame.
+  const fL = Math.max(0, fx - fw * 0.06);
+  const fR = Math.min(W, fx + fw * 1.06);
+  const fT = Math.max(0, fy - fh * 0.22);
+  const fB = Math.min(H, fy + fh * 1.04);
+  // Text over the face itself cannot be framed out; a name printed just under the chin only
+  // grazes the face box and can.
+  const touchesFace = (b) => {
+    const ox = Math.min(b[0] + b[2], fx + fw) - Math.max(b[0], fx);
+    const oy = Math.min(b[1] + b[3], fy + fh) - Math.max(b[1], fy);
+    return ox > 0 && oy > 0 && ox * oy > 0.2 * b[2] * b[3];
+  };
+  const inside = (b, c) => b[0] < c.left + c.width && b[0] + b[2] > c.left && b[1] < c.top + c.height && b[1] + b[3] > c.top;
+  const text = boxes.filter((b) => !touchesFace(b));
+  const lim = { L: 0, R: W, T: 0, B: H };
+  let c = crop;
+  for (let round = 0; round < 8; round++) {
+    const hits = text.filter((b) => inside(b, c));
+    if (!hits.length) return c;
+    for (const [bx, by, bw, bh] of hits) {
+      // Fence the text off on the side of the face where it clearly sits.
+      const gaps = [
+        ['B', by - fB],
+        ['T', fT - (by + bh)],
+        ['R', bx - fR],
+        ['L', fL - (bx + bw)],
+      ].sort((p, q) => q[1] - p[1]);
+      const side = gaps[0][0];
+      if (side === 'B') lim.B = Math.min(lim.B, by);
+      else if (side === 'T') lim.T = Math.max(lim.T, by + bh);
+      else if (side === 'R') lim.R = Math.min(lim.R, bx);
+      else lim.L = Math.max(lim.L, bx + bw);
+    }
+    if (lim.R - lim.L < fw || lim.B - lim.T < fh * 0.92) return null;
+    const width = Math.floor(Math.min(lim.R - lim.L, (lim.B - lim.T) * 0.8, c.width));
+    if (width < minWidth || width < fw / 0.92) return null;
+    const height = Math.floor(width / 0.8);
+    const left = Math.round(clamp(fx + fw / 2 - width / 2, lim.L, lim.R - width));
+    const top = Math.round(clamp(fy + fh / 2 - height * anchor, lim.T, lim.B - height));
+    // The frame may shave the bottom of the chin box (up to 8%), never the face itself.
+    if (fx < left - 0.5 || fx + fw > left + width + 0.5 || fy < top - 0.5 || fy + fh * 0.92 > top + height + 0.5) return null;
+    c = { left, top, width, height };
+  }
+  return text.some((b) => inside(b, c)) ? null : c;
 }

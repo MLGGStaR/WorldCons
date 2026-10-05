@@ -9,6 +9,7 @@
   "blurb": "The Southwest's premier horror convention in the Dallas-Fort Worth area, hosting genre icons annually since 2006.",
   "cover": { "file": "pipeline/cache/extract/texas-frightmare-weekend.home.json", "key": "hero:0" },
   "editions": [],
+  "last": { "start": "2026-05-22", "end": "2026-05-24", "city": "Irving", "region": "TX", "country": "US", "venue": "Irving Convention Center" },
   "checked": "2026-10-05",
-  "notes": "The 20th-anniversary (2026) edition has already run. The homepage's only forward-looking text is '2027 Event Launch First guests, tickets and hotel reservations open October 19th! www.tfw.rip Coming soon...' -- no 2027 dates, venue or guests have actually been announced yet (launch is still pending as of today, 2026-10-05), so editions is left empty. Re-check after the stated October 19, 2026 launch."
+  "notes": "The 20th-anniversary (2026) edition ran May 22-24, 2026 at the Irving Convention Center, Irving, TX (confirmed by the con's own /venue/ page address '500 West Las Colinas Boulevard, Irving, TX 75039' plus press coverage of the 20th-anniversary show; recorded as \"last\"). The homepage (re-checked fresh 2026-10-05) still only has forward-looking text '2027 Event Launch First guests, tickets and hotel reservations open October 19th! www.tfw.rip Coming soon...' -- no 2027 dates, venue or guests have actually been announced yet (launch is still pending as of today, 2026-10-05), so editions is left empty. Re-check after the stated October 19, 2026 launch."
 }

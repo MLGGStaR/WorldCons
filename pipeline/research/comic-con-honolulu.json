@@ -1,0 +1,15 @@
+{
+  "id": "comic-con-honolulu",
+  "name": "Comic Con Honolulu",
+  "short": "CCH",
+  "url": "https://comicconhnl.com/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["comics", "pop"],
+  "blurb": "Honolulu's comic, sci-fi and gaming convention at the Hawaii Convention Center; postponed indefinitely, with no dates confirmed since 2024.",
+  "cover": { "file": "pipeline/cache/extract/comic-con-honolulu.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": { "start": "2024-09-06", "end": "2024-09-08", "city": "Honolulu", "region": "HI", "country": "US", "venue": "Hawaii Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The live site's top banner still reads only 'Comic Con Honolulu Postponed to 2026! Dates TBA', with no update since — and today is already 2026-10-05, ten months into the year it was postponed to, with still no announced dates. A web search confirms the postponement was due to Hawaii Convention Center renovations (the same construction also affecting Kawaii Kon's 2027 edition at the same venue) and found no official confirmation that any 2026 edition actually happened; a '10times' aggregator guess of 'May 17, 2026' is not corroborated by the official site or any primary source and is disregarded per RESEARCH.md. The most recent edition the site text itself confirms is 'September 6-8, 2024 at the Hawaii Convention Center' (an older 'August 7-9, 2020' mention is even more stale), so that is recorded as 'last'. Given the postponement has now stretched across multiple years with no return date in sight, this is treated as inactive/on-hiatus rather than active-with-empty-editions, consistent with how other multi-year indefinite postponements are recorded in this dataset. No organizer name was found on the page text sampled. Guests were not researched since there is no upcoming edition."
+}

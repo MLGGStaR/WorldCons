@@ -1,0 +1,15 @@
+{
+  "id": "lfg-con",
+  "name": "LFG Con",
+  "short": "",
+  "url": "https://lfg-con.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop", "games"],
+  "blurb": "A tabletop gaming convention in Burbank, California, with open gaming, tournaments and panels at the Marriott Burbank Airport Hotel.",
+  "cover": { "file": "pipeline/cache/extract/lfg-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-14", "end": "2026-08-16", "city": "Burbank", "region": "CA", "country": "US", "venue": "Marriott Burbank Airport Hotel & Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The homepage now reads 'Thank you for coming to LFG Con 2026 ... See you next year!' with no 2027 dates announced yet, so editions is empty and the just-finished Aug 14-16, 2026 run is recorded as 'last'. A conventioninfo?tab=guests page exists but was not pulled since there is no current/upcoming edition to attach a guest lineup to. No organizer entity was named on the page."
+}

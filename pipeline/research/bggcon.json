@@ -1,0 +1,30 @@
+{
+  "id": "bggcon",
+  "name": "BGG.CON",
+  "short": "",
+  "url": "https://boardgamegeek.com/bggcon",
+  "organizer": "BoardGameGeek",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "BoardGameGeek's own attendee-run tabletop convention: a week of open gaming, tournaments and new-release previews.",
+  "cover": { "file": "pipeline/cache/extract/bggcon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-18",
+      "end": "2026-11-22",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Dallas",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/bgg.con-2026",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "BGG Events page: 'November 18-22, 2026 BGG.CON 2026 Hyatt Regency Dallas (Downtown) Registration opens mid-March'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "boardgamegeek.com returns a Cloudflare bot-check ('Just a moment...') to the renderer on both the default and msedge channels, so the official BGG Events page was read from a Wayback Machine snapshot of that same boardgamegeek.com/bggcon URL instead of a live render. BGG.CON is an attendee-run open-gaming convention with no celebrity-guest program, hence guests: 'none'. Cover image is the con's own 'BGG.CON 2026' artwork tile from that events page (alt text confirms it)."
+}

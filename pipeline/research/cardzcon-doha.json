@@ -1,0 +1,30 @@
+{
+  "id": "cardzcon-doha",
+  "name": "CardzCon",
+  "short": "",
+  "url": "https://www.cardzcon.com/",
+  "organizer": "Art of Cardz",
+  "status": "active",
+  "types": ["toys"],
+  "blurb": "Qatar's trading-card and collectibles convention at Sheraton Grand Doha with vendors, rare finds and special guests.",
+  "cover": { "file": "pipeline/cache/extract/cardzcon-doha.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "dates": "confirmed",
+      "venue": "Sheraton Grand Doha",
+      "city": "Doha",
+      "region": "",
+      "country": "QA",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Official homepage (cardzcon.com): 'CardzCon 2026 - Qatar's Premier Trading Card & Collectibles Convention' / '9-10 Oct 2026 Two-Day Event Sheraton Grand Doha, Doha, Qatar'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Found while researching the Gulf fixup list: not previously in series.json/pipeline/research. Homepage repeatedly promises 'Special Guests' (invited creators, collectors, industry personalities) but names none publicly, and tickets/registrations are already sold out/closed for this edition, so guests is recorded as none-yet rather than announced. The same brand also runs 'CardzCon Trade Night' in Riyadh, Saudi Arabia, recorded separately as cardzcon-riyadh."
+}

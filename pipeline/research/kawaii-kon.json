@@ -1,0 +1,30 @@
+{
+  "id": "kawaii-kon",
+  "name": "Kawaii Kon",
+  "short": "",
+  "url": "https://www.kawaiikon.com/",
+  "organizer": "Dyad LLC",
+  "status": "active",
+  "types": ["anime", "pop"],
+  "blurb": "Hawaii's anime convention at the Hawai'i Convention Center in Honolulu over Memorial Day weekend, with panels, concerts, cosplay and esports.",
+  "cover": { "file": "pipeline/cache/extract/kawaii-kon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-31",
+      "dates": "confirmed",
+      "venue": "Hawai'i Convention Center",
+      "city": "Honolulu",
+      "region": "HI",
+      "country": "US",
+      "tickets": "https://www.eventeny.com/events/kawaii-kon-2027-28807/",
+      "guestsPage": "https://kawaiikon.com/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Kawaii Kon Hawai‘i Convention Center Memorial Day Weekend 2027'. The official registration page (kawaiikon.com's own 'Register Now!' link, on Eventeny) gives 'Dates May 28, 2027 · 5:00 PM - May 31, 2027 · 5:00 PM(GMT-10:00) Hawaii' with a note that it 'will either be Friday evening to Sunday evening or Saturday morning to Monday afternoon depending on what the building is able to allow', since the Hawaii Convention Center is under construction through all of 2027."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Guests page (kawaiikon.com/guests/) is headed 'Kawaii Kon 2026 Guests' and a 'That's a Wrap for Kawaii Kon 2026!' update post confirms that lineup is for the already-finished 2026 show, so per RESEARCH.md a page still showing last year's lineup is guests: 'none-yet' rather than picking those (now past) guests for the 2027 edition. The Eventeny listing's JSON-LD mislabels the venue name as 'Made in Hawai'i Festival' (an apparent reused/mislinked location record), but its own address (1801 Kalakaua Ave, Honolulu, HI 96815) and Google-calendar link match the Hawai'i Convention Center, which the con's own homepage and meta description both name directly, so that is used as venue instead. Organizer 'Dyad LLC' is carried over from the seed note; it was not independently re-confirmed in the page text sampled during this pass."
+}

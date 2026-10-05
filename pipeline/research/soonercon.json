@@ -1,0 +1,30 @@
+{
+  "id": "soonercon",
+  "name": "Soonercon",
+  "short": "",
+  "url": "https://soonercon.com/",
+  "organizer": "Future Society of Oklahoma",
+  "status": "active",
+  "types": ["scifi", "games", "tabletop", "cosplay"],
+  "blurb": "Norman, Oklahoma fan convention for sci-fi, tabletop and video gaming, and costuming, run by the Future Society of Oklahoma.",
+  "cover": { "file": "pipeline/cache/extract/soonercon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Norman",
+      "region": "OK",
+      "country": "US",
+      "tickets": "https://soonercon.com/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Future Society of Oklahoma Presents JUNE 11-13, 2027 NORMAN, OK' with a live countdown timer"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage explicitly states 'Programming and Guest Updates Coming Soon!', so no guests are announced yet for this edition (SC35, June 2027). Venue not yet named on the site."
+}

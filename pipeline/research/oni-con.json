@@ -1,0 +1,30 @@
+{
+  "id": "oni-con",
+  "name": "Oni-Con",
+  "short": "",
+  "url": "https://oni-con.net/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Houston's annual Japanese pop-culture and multi-genre fan expo, held at the Houston Marriott Westchase.",
+  "cover": { "file": "pipeline/cache/extract/oni-con.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "dates": "confirmed",
+      "venue": "Houston Marriott Westchase",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Oni Con 2027 October 1st - 3rd Houston, TX' and 'Where Houston Marriott Westchase 2900 Briarpark Dr Houston, TX 77042'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This edition is about a year out: the nav has no 'Guests' link at all yet (only General/Cosplay/Accessibility/Press/Volunteer/Vendor), and a direct /guests URL 404s, so no lineup has been announced. Despite the batch note's hiatus history, the site shows an open, actively-promoted 2027 date with registration and vendor/artist applications already live, so it is treated as active. Organizer name isn't stated on-site; the con describes itself only as an 'Annual Japanese Pop Culture & Multi-Genre Fan Expo' based in Houston. No og/twitter image is set, and the homepage's two sizeable images have no filename or alt text to confirm which is key art versus a logo; the wider, non-square one (hero:1) was picked as the more banner-like candidate."
+}

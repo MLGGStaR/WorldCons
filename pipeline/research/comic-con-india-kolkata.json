@@ -16,6 +16,14 @@
     "key": "logo:0"
   },
   "editions": [],
+  "last": {
+    "start": "2026-04-11",
+    "end": "2026-04-12",
+    "city": "Kolkata",
+    "region": "",
+    "country": "IN",
+    "venue": "Biswa Bangla Exhibition Centre"
+  },
   "checked": "2026-10-05",
-  "notes": "No live 2026-27 event page on comicconindia.com as of this check; only an old cosplay sub-page for Kolkata is listed in the sitemap. Unverified third-party listings put the most recent Kolkata edition around Apr 11-12, 2026, which is before this check date in any case. No confirmed next edition in the 2026-10-05 to 2027-12-31 window was found."
+  "notes": "Re-checked comicconindia.com fresh (--fresh); the live homepage city slider still only shows Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar, confirming no 2026-27 Kolkata edition has been announced yet. Added 'last': itvoice.in and thebengal.in ('Comic Con strengthens its footprint in Kolkata: set to return in April 2026') both confirm the most recent Kolkata edition ran April 11-12, 2026 at Biswa Bangla Exhibition Centre - already over before the research window (2026-10-05) opened."
 }

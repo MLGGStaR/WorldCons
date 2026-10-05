@@ -1,0 +1,12 @@
+nwa-comic-con | 2027-03-20 | https://www.nwacomiccon.com/guests | 1
+fastaval | 2027-03-24 | https://www.fastaval.dk/en/aeres-gaester/ | 1
+minicon | 2027-03-25 | https://mnstf.org/minicon60/ | 4
+norwescon | 2027-03-25 | https://www.norwescon.org/con/guests-of-honor/ | 5
+anime-detour | 2027-03-26 | https://www.animedetour.com/guest-voice-actors/ | 6
+eastercon | 2027-03-26 | https://easterconglasgow.org/who-is-coming/guests-of-honour/ | 4
+popcon-indy | 2027-03-26 | https://popcon.us/popcon-indy/special-guests/ | 48
+sakura-con | 2027-03-26 | https://sakuracon.org/guests/ | 3
+arctic-lights-comic-con | 2027-04-03 | https://arcticlightscomiccon.messukeskus.com/en/star-guests/ | 12
+the-rookie-and-twilight-fan-convention | 2027-04-03 | https://ozcomiccon.com/rookie-fan-convention/ | 5
+comic-con-prague | 2027-04-16 | https://www.comiccon.cz/guests | 4
+jordancon | 2027-04-16 | https://www.jordancon.org/2026/08/16/its-tiiiiimme-jordancon-2027-memberships-now-available/ | 3

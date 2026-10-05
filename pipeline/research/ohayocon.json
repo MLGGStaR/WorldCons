@@ -19,36 +19,12 @@
       "country": "US",
       "tickets": "https://www.tickettailor.com/events/ohayocon/2340905",
       "guestsPage": "https://ohayocon.online/guest-list/",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/ohayocon.guests.json",
-          "picks": [
-            [1, "Brittney Karbowski", "", "voice"],
-            [2, "Analesa Fisher", "", "voice"],
-            [3, "Tavisha Wolfgarth-Simons", "", "voice"],
-            [4, "Michael Sinterniklaas", "", "voice"],
-            [5, "Mela Lee", "", "voice"],
-            [6, "Knightmage", "", "cosplay"],
-            [7, "Valeria Rodriguez", "", "cosplay"],
-            [8, "Grey DeLisle", "", "voice"],
-            [9, "Greg Eagles", "", "voice"],
-            [10, "Melissa Fahn", "", "voice"],
-            [11, "Andi Serpenti", "", "cosplay"],
-            [12, "Dorothy Fahn", "", "cosplay"],
-            [13, "Tom Fahn", "", "voice"],
-            [14, "David Errigo Jr.", "", "voice"],
-            [15, "Emi Lo", "", "voice"],
-            [16, "Rob Mungle", "", "voice"],
-            [17, "Rikki Simons", "", "voice"],
-            [18, "Richard Horvitz", "", "voice"]
-          ]
-        }
-      ],
+      "guests": "none-yet",
+      "lineup": [],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'Ohayocon 2027 at The Plaza Hotel at Capital Square in Columbus, Ohio, January 29–31, 2027!'"
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Every guest card on the Guest List page says only 'Guest of Honor' or 'Cosplay Guest of Honor' with no specific credits, so Known for is left blank for all 18 rather than guessed; cat is 'cosplay' for the four explicitly labeled Cosplay Guest of Honor (Knightmage, Valeria Rodriguez, Andi Serpenti, Dorothy Fahn) and 'voice' for the rest, matching an anime con's usual Guest of Honor program."
+  "notes": "Every guest card on the Guest List page says only 'Guest of Honor' or 'Cosplay Guest of Honor' with no specific credits. Refute pass (2026-10-05): the prior 'announced' lineup was wrong -- the same 18 names (Brittney Karbowski, Analesa Fisher, Tavisha Wolfgarth-Simons, Michael Sinterniklaas, Mela Lee, Knightmage, Valeria Rodriguez, Grey DeLisle, Greg Eagles, Melissa Fahn, Andi Serpenti, Dorothy Fahn, Tom Fahn, David Errigo Jr., Emi Lo, Rob Mungle, Rikki Simons, Richard Horvitz) exactly match the already-concluded Ohayocon 2026 (Dayton, OH, Jan 30-Feb 1 2026) guest-of-honor lineup per web search, and that same URL (ohayocon.online/guest-list/) was indexed as 'Guest List - OHAYOCON 26' -- i.e. only the page's year label was bumped to '27' while the guest grid itself was never refreshed for this edition (the 2027 show has even moved venues, to Columbus, which the stale grid doesn't reflect). No positive evidence ties any of the 18 to the 2027 edition specifically, so guests is reset to none-yet per RESEARCH.md."
 }

@@ -1,0 +1,37 @@
+{
+  "id": "imagine-film-festival",
+  "name": "Imagine Film Festival",
+  "short": "",
+  "url": "https://www.imaginefilmfestival.nl/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "scifi"],
+  "blurb": "Amsterdam's genre film festival for horror, sci-fi and fantasy cinema, with a Guest of Honour and a Career Achievement Award.",
+  "cover": { "file": "pipeline/cache/extract/imagine-film-festival.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-29",
+      "end": "2026-11-08",
+      "dates": "confirmed",
+      "venue": "",
+      "city": "Amsterdam",
+      "region": "",
+      "country": "NL",
+      "tickets": "https://www.imaginefilmfestival.nl/tickets/",
+      "guestsPage": "https://www.imaginefilmfestival.nl/guest-of-honour/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/imagine-film-festival.guests.json",
+          "picks": [
+            [2, "Kiyoshi Kurosawa", "Japanese film director (Pulse, Cure)", "other"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'IMAGINE 2026 VINDT PLAATS VAN 29 OKT T/M 8 NOV' ('Imagine 2026 takes place from Oct 29 to Nov 8')."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is a film festival rather than a fan-guest convention, so the only announced guest is the single Guest of Honour (Kiyoshi Kurosawa, receiving a Career Achievement Award and giving a Career Talk), cat 'other' since he is a live-action director, not anime/animation. Venue is multiple Amsterdam cinemas; no single venue name is given on the homepage, so left blank."
+}

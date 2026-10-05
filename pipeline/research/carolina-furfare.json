@@ -1,0 +1,22 @@
+{
+  "id": "carolina-furfare",
+  "name": "Carolina Furfare",
+  "short": "CFF",
+  "url": "https://www.carolinafurfare.org",
+  "organizer": "NCAS",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A family-friendly furry convention in Hickory, in the North Carolina foothills, run by the North Carolina Anthropomorphic Society.",
+  "cover": { "file": "pipeline/cache/extract/carolina-furfare.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-01",
+    "end": "2026-10-04",
+    "venue": "Hickory Metro Convention Center",
+    "city": "Hickory",
+    "region": "NC",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "Carolina Furfare 2026 ('CFF26') ran Oct. 1st-4th, 2026 in Hickory, NC, per the homepage banner ('Carolina Furfare 2026 Oct. 1st - 4th Hickory NC'); that edition ended 2026-10-04, one day before the research window opens (2026-10-05), so it is recorded as 'last' rather than an upcoming edition. The homepage's own meta description says 'Check our social media accounts for information on our next event', confirming no 2027 dates are announced yet on the official site. Venue is inferred from the hotel page's walking-distance note ('5-8 minute walk to HMCC') next to Hickory, NC hotel addresses -- HMCC is the Hickory Metro Convention Center; the hotel page does not spell out the full venue name. Organizer NCAS (North Carolina Anthropomorphic Society, Inc.) confirmed via the site footer, same organizer as Bewhiskered. Guests were not researched since there is no upcoming edition to attach them to."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "oz-comic-con-perth",
+  "name": "Oz Comic-Con Perth",
+  "short": "",
+  "url": "https://ozcomiccon.com/perth/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Perth's stop on the Oz Comic-Con circuit, a pop-culture weekend of comics, cosplay and gaming at the Perth Convention & Exhibition Centre.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-perth.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-01",
+      "end": "2027-05-02",
+      "dates": "confirmed",
+      "venue": "Perth Convention & Exhibition Centre",
+      "city": "Perth",
+      "region": "WA",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/perth-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "City page text: 'Oz Comic-Con will return to Perth in 2027! May 1 & 2 | PCEC'; the page's hours text calls the first day 'saturday', which matches 1 May 2027 falling on a Saturday."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated guest page (ozcomiccon.com/perth-guests/) has no guest cards yet - it renders only the site's shared header/footer - so guests is 'none-yet' for this 2027 edition. 'PCEC' = Perth Convention & Exhibition Centre, confirmed from the hub site's own venue list."
+}

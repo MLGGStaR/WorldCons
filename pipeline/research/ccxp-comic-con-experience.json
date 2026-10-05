@@ -1,0 +1,69 @@
+{
+  "id": "ccxp-comic-con-experience",
+  "name": "CCXP (Comic Con Experience)",
+  "short": "CCXP",
+  "url": "https://ccxp.com.br/",
+  "organizer": "CCXP Eventos Ltda.",
+  "status": "active",
+  "types": ["pop", "comics", "games", "scifi"],
+  "blurb": "Brazil's major pop-culture convention at São Paulo Expo, covering comics, movies, games and sci-fi, with a large Artists' Valley for comic creators.",
+  "cover": { "file": "pipeline/cache/extract/ccxp-comic-con-experience.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "São Paulo Expo",
+      "city": "São Paulo",
+      "region": "",
+      "country": "BR",
+      "tickets": "https://mundo-ticket.com/events/ccxp26",
+      "guestsPage": "https://ccxp.com.br/lineup",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/ccxp-comic-con-experience.guests.json",
+          "picks": [
+            [5, "Marcio Menyz", "", "comics"],
+            [6, "Javier Rodríguez", "", "comics"],
+            [7, "John Romita Jr", "", "comics"],
+            [8, "Marcelo Maiolo", "", "comics"],
+            [9, "Chang Sheng", "", "comics"],
+            [10, "Enrique Breccia", "", "comics"],
+            [11, "Rafa Sandoval", "", "comics"],
+            [12, "Juan Ferreyra", "", "comics"],
+            [13, "Ram V", "", "comics"],
+            [14, "Brian Michael Bendis", "", "comics"],
+            [15, "Frank Martin", "", "comics"],
+            [16, "Paolo Mottura", "", "comics"],
+            [17, "Gerardo Zaffino", "", "comics"],
+            [18, "RB Silva", "", "comics"],
+            [19, "Zidrou", "", "comics"],
+            [20, "Elijah Wood", "", "actor"],
+            [21, "Rafael Albuquerque", "", "comics"],
+            [22, "Dominic Monaghan", "", "actor"],
+            [23, "Diego Olortegui", "", "comics"],
+            [24, "Shintaro Kago", "", "animation"],
+            [25, "Ben Bishop", "", "comics"],
+            [26, "Felipe Sobreiro", "", "comics"],
+            [27, "Scott Hanna", "", "comics"],
+            [28, "Mateus Manhanini", "", "comics"],
+            [29, "Evan Cagle", "", "comics"],
+            [30, "Jock", "", "comics"],
+            [31, "Miguel Paiva", "", "comics"],
+            [32, "Howard Chaykin", "", "comics"],
+            [33, "Liniers", "", "comics"],
+            [34, "Carmine Di Giandomenico", "", "comics"],
+            [35, "Mark Waid", "", "comics"],
+            [36, "Fabio Celoni", "", "comics"],
+            [37, "Mark Brooks", "", "comics"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'A CCXP26 acontece de 3 a 6 de dezembro de 2026, no São Paulo Expo.' (title: 'CCXP26: De 3 a 6 de dezembro em São Paulo')."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer is CCXP Eventos Ltda., per the trademark footer already verified for the sibling ccxp-mx.json file (same brand, different research pass); not independently re-verified on the .com.br footer in this pass. The /lineup page's default view (33 artists/creators picked above) is browsable further by an A-Z letter filter that this pass did not fully walk given the per-convention tool budget; more guests likely exist beyond these 33. Cards on /lineup show names only (no bio text), so known-for is left blank throughout and cat is assigned from general knowledge of each named creator/actor. CCXP also runs a 'Fellowship Forever', an Artists' Valley and a Cosplay Universe track as part of the same event."
+}

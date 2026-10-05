@@ -1,0 +1,30 @@
+{
+  "id": "oz-comic-con-canberra",
+  "name": "Oz Comic-Con Canberra",
+  "short": "",
+  "url": "https://ozcomiccon.com/canberra/",
+  "organizer": "Expertise Events",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay", "games"],
+  "blurb": "Canberra's stop on the Oz Comic-Con circuit, a pop-culture weekend of comics, cosplay and gaming at EPIC.",
+  "cover": { "file": "pipeline/cache/extract/oz-comic-con-canberra.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-08-14",
+      "end": "2027-08-15",
+      "dates": "confirmed",
+      "venue": "Exhibition Park in Canberra (EPIC)",
+      "city": "Canberra",
+      "region": "ACT",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "https://ozcomiccon.com/canberra-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "City page countdown text: 'countdown to oz comic-con Canberra 2027 August 14 & 15, 2027 | EPIC'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated guest page (ozcomiccon.com/canberra-guests/) has no guest cards yet - it renders only the site's shared header/footer - so guests is 'none-yet' for this 2027 edition. 'EPIC' = Exhibition Park in Canberra, confirmed from the hub site's own venue list."
+}

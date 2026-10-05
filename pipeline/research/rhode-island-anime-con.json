@@ -1,0 +1,35 @@
+{
+  "id": "rhode-island-anime-con",
+  "name": "Rhode Island Anime Con",
+  "short": "",
+  "url": "https://rianimecon.com",
+  "organizer": "Altered Reality Entertainment",
+  "status": "active",
+  "types": [
+    "anime"
+  ],
+  "blurb": "An anime, voice-actor and cosplay weekend at the Rhode Island Convention Center from the Rhode Island Comic Con organizers.",
+  "cover": {
+    "file": "pipeline/cache/extract/rhode-island-anime-con.home.json",
+    "key": "hero:0"
+  },
+  "editions": [
+    {
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "dates": "confirmed",
+      "venue": "Rhode Island Convention Center",
+      "city": "Providence",
+      "region": "RI",
+      "country": "US",
+      "tickets": "https://rianimecon.com/ticket-info/",
+      "guestsPage": "https://rianimecon.com/celebrities/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'June 12-13, 2027 * RI Convention Center'; countdown widget targets June 12. Footer: '(c) 2026 Rhode Island Anime Con - Altered Reality Entertainment'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Sister event to Rhode Island Comic Con, same organizer (Altered Reality Entertainment) and venue, but its own site/domain (rianimecon.com) rather than ricomiccon.com. The 2027-06-12/13 edition is the next one listed; the celebrities page explicitly says 'Celebrity guest announcements coming soon', so guests is none-yet. The site's photo grids on the guests/celebrities pages are all sponsor logos, not guest photos."
+}

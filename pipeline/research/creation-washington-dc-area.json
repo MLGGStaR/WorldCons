@@ -22,7 +22,7 @@
       "guests": "announced",
       "lineup": [
         {
-          "file": "pipeline/cache/extract/creation-washington-dc-area.guests.json",
+          "file": "pipeline/cache/extract/creation-washington-dc-area-v2.guests.json",
           "picks": [
             [4, "Jensen Ackles", "Dean Winchester, Supernatural", "actor"],
             [5, "Jared Padalecki", "Sam Winchester, Supernatural", "actor"],
@@ -52,5 +52,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Despite the 'Washington DC Area' name the venue/city is Arlington, VA (seed note confirmed). Same touring Supernatural-cast brand as Pittsburgh/Boston/Austin/Salt Lake City. Guest photos are duplicated at two sizes; picks cite the larger image of each pair, confirmed by filename (e.g. #40 is loudenSwain.jpg). Verify pass (2026-10-05): confirmed current -- the event page itself still reads 'WASHINGTON, D.C. • MARCH 19-21, 2027' and 'Next stop on the 2027 tour is Arlington, VA, on March 19-21', with the Jensen Ackles/Jared Padalecki/Misha Collins cards directly beneath, so this edition-specific URL (ce-dc27) is this edition's own page."
+  "notes": "Despite the 'Washington DC Area' name the venue/city is Arlington, VA (seed note confirmed). Same touring Supernatural-cast brand as Pittsburgh/Boston/Austin/Salt Lake City. Guest photos are duplicated at two sizes; picks cite the larger image of each pair, confirmed by filename (e.g. #40 is loudenSwain.jpg). Verify pass (2026-10-05): confirmed current -- the event page itself still reads 'WASHINGTON, D.C. • MARCH 19-21, 2027' and 'Next stop on the 2027 tour is Arlington, VA, on March 19-21', with the Jensen Ackles/Jared Padalecki/Misha Collins cards directly beneath, so this edition-specific URL (ce-dc27) is this edition's own page. Refute pass (2026-10-05): fresh re-extraction (-v2) is unchanged, and the per-guest image paths back it further -- 13 of the 20 (Ackles, Padalecki, Collins, Sheppard, Ruth Connell, Richard Speight Jr., Briana Buckmaster, Kim Rhodes, Matt Cohen, Adam Fergus, Osric Chau, David Haydn-Jones, Jason Manns) are literally named '2027-...' or 'spn2027-...', the rest (Rob Benedict, Alexander Calvert, Samantha Smith, DJ Qualls, Julie McNiven, Gil McKinney) are from the same textless-card batch uploaded April-Sept 2026; only Louden Swain's photo predates 2026 (house band, reused stock photo). The previous DC-area Creation stop was September 2024 (per web search), over two years before this one, so there is no recent prior lineup for any of this to be carried over from; an independent Eventbrite listing for 'The Road So Far...The Road Ahead Washington D.C. 2027' (Mar 19-21, 2027) names the same core cast. Upheld in full."
 }

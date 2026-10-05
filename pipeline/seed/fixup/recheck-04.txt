@@ -1,0 +1,2 @@
+youmacon | 29 picks vs 77 person-sized images [pipeline/cache/extract/youmacon.guests.json]
+yunicon | 19 picks vs 182 person-sized images [pipeline/cache/extract/yunicon.guests.json]

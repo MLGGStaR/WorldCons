@@ -16,6 +16,14 @@
     "key": "logo:0"
   },
   "editions": [],
+  "last": {
+    "start": "2025-03-22",
+    "end": "2025-03-23",
+    "city": "Ahmedabad",
+    "region": "",
+    "country": "IN",
+    "venue": "Mahatma Mandir Convention and Exhibition Centre, Gandhinagar"
+  },
   "checked": "2026-10-05",
-  "notes": "No live 2026-27 event page on comicconindia.com as of this check, and no third-party source with a specific 2026 or 2027 date was found either. The work-list's 'exact 2026 date not yet confirmed' matches what was found; the site's only current, confirmed city pages are Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar."
+  "notes": "Re-checked comicconindia.com fresh (--fresh) and probed /ahmedabad, /comic-con-ahmedabad and /all-cities-main-page/ahmedabad-comic-con, all 404; the live homepage city slider still only shows Visakhapatnam, Navi Mumbai, Delhi, Hyderabad and Jalandhar, confirming no 2026-27 Ahmedabad edition has been announced yet. Added 'last': Rolling Stone India and a second outlet both report the only Ahmedabad (Comic Con India) edition ran March 22-23, 2025, and a hotel/listing source (ummedhotels.com, corroborated by allevents.in) names the venue as Mahatma Mandir Convention and Exhibition Centre in Gandhinagar (the venue used for this Ahmedabad-branded edition)."
 }

@@ -1,0 +1,30 @@
+{
+  "id": "j-popcon",
+  "name": "J-Popcon",
+  "short": "",
+  "url": "https://j-popcon.dk/",
+  "organizer": "J-Popkai",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "Denmark's largest Japanese pop-culture festival, held in Copenhagen with anime, manga, cosplay championships and gaming, run by volunteers.",
+  "cover": { "file": "pipeline/cache/extract/j-popcon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-02-19",
+      "end": "2027-02-21",
+      "dates": "confirmed",
+      "venue": "DGI Byen",
+      "city": "Copenhagen",
+      "region": "",
+      "country": "DK",
+      "tickets": "https://j-popcon.dk/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'J-Popcon 2027 Feb. 19-21, 2027 DGI Byen, Copenhagen'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer per the homepage description: 'Festivalen arrangeres af den frivillige forening J-Popkai' (organized by the volunteer association J-Popkai). The site's nav only lists VIP guest pages through vip-guests-2025 (2024, 2023, 2021 also exist); guessing a 2026 or 2027 URL (vip-guests-2026) just renders the generic homepage rather than a real guest page, so no lineup has been published yet for the Feb 2027 edition -- guests is 'none-yet'. A news item about 'J-Popcon 2026' ticket sales (dated Jan 31, 2026) refers to an edition that already happened before this research window and is not the one recorded here. Cover uses the dedicated og:image (seo-default-j-popcon.webp) rather than the Facebook-hosted hero banner, since that one is hosted off-site and may expire."
+}

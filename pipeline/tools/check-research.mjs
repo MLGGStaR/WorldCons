@@ -13,8 +13,12 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const TYPES = ['comics', 'anime', 'games', 'tabletop', 'scifi', 'horror', 'pop', 'toys', 'cosplay', 'furry'];
 export const CATS = ['actor', 'voice', 'comics', 'animation', 'author', 'cosplay', 'creator', 'gaming', 'music', 'sports', 'other'];
 const GUEST_STATES = ['announced', 'none-yet', 'none', 'unavailable'];
-const WINDOW_START = '2026-10-05';
-const WINDOW_END = '2027-12-31';
+// The research window is relative to when a file was researched (its checked date):
+// editions ending on or after that day and starting by the end of the following year.
+const windowFor = (checked) => {
+  const start = /^\d{4}-\d{2}-\d{2}$/.test(checked || '') ? checked : new Date().toISOString().slice(0, 10);
+  return { WINDOW_START: start, WINDOW_END: `${Number(start.slice(0, 4)) + 1}-12-31` };
+};
 
 const extractCache = new Map();
 function loadExtract(file) {
@@ -49,6 +53,7 @@ export function checkFile(path) {
   }
   const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '') && !Number.isNaN(Date.parse(s));
   const id = basename(path, '.json');
+  const { WINDOW_START, WINDOW_END } = windowFor(d.checked);
   if (d.id !== id) errors.push(`id "${d.id}" must match the file name "${id}"`);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(d.id || '')) errors.push('id must be lowercase kebab-case');
   if (!d.name) errors.push('name is required');
@@ -124,6 +129,10 @@ export function checkFile(path) {
       }
     }
     if (e.guests === 'announced' && !count) errors.push(`${at}: guests is "announced" but no guests were picked`);
+    const lead = (Date.parse(e.start) - Date.parse(WINDOW_START)) / 864e5;
+    if (count && lead > 120) {
+      warn.push(`${at}: a lineup ${Math.round(lead)} days ahead of the show; make sure it is not last year's (see RESEARCH.md)`);
+    }
     if (e.guests !== 'announced' && count) errors.push(`${at}: guests were picked but guests is "${e.guests}"`);
   }
   if (d.status === 'active' && (!d.editions || !d.editions.length) && !d.notes) {

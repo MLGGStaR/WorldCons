@@ -1,0 +1,6 @@
+anime-town-greenville | pipeline/cache/extract/anime-town-greenville.guests.json | 2 Maggie Robertson ; 3 Delanie Nicole Gill ; 4 Nicole Tompkins ; 5 Eric Stuart ; 6 Dan Green ; 7 Felecia Angelle ; 8 Jad Saxton ; 9 Neil Kaplan ; 10 Jason Douglas ; 11 Peter Lurie
+anime-washington | pipeline/cache/extract/anime-washington.guests.json | 2 Nick Apostolides
+creation-pittsburgh | pipeline/cache/extract/creation-pittsburgh.guests.json | 32 David Haydn-Jones
+creation-washington-dc-area | pipeline/cache/extract/creation-washington-dc-area.guests.json | 36 David Haydn-Jones
+farpoint-convention | pipeline/cache/extract/farpoint-convention.guests.json | 6 Refashioned Hippie
+gameacon | pipeline/cache/extract/gameacon.guests.json | 11 Erik Braa ; 13 Beau Marie

@@ -1,0 +1,30 @@
+{
+  "id": "capital-city-gaming-con",
+  "name": "Capital City Gaming Con",
+  "short": "CCGC",
+  "url": "https://www.capitalcitygamingcon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The Des Moines area's board gaming convention, a volunteer-run weekend of tabletop games, local vendors and open play.",
+  "cover": { "file": "pipeline/cache/extract/capital-city-gaming-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Holiday Inn - Airport",
+      "city": "Des Moines",
+      "region": "IA",
+      "country": "US",
+      "tickets": "https://tabletop.events/conventions/capital-city-gaming-con-2026",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Come Connect with the Des Moines Board Game Community! October 16th-18th, 2026'. Venue page: 'Holiday Inn - Airport 6111 Fleur Drive, Des Moines, Iowa ... We're in a new location this year!'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is a community/volunteer-organized board-gaming convention with no celebrity-guest program: the site's nav has no Guests page, and the About Us page only introduces the four volunteer organizers (Cody, Matt, Erin, Aaron) who run the event alongside their day jobs, not booked guests, so guests is 'none' rather than 'none-yet'. No organizer company or nonprofit name is given beyond 'a group of gamers from the Des Moines, Iowa metro area', so organizer is left blank."
+}

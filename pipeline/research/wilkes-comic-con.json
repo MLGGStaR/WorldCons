@@ -1,0 +1,30 @@
+{
+  "id": "wilkes-comic-con",
+  "name": "Wilkes Comic Con",
+  "short": "",
+  "url": "https://wilkescomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "cosplay"],
+  "blurb": "An annual comic and pop-culture convention at The Stone Center in North Wilkesboro, North Carolina, with a cosplay contest and gaming room.",
+  "cover": { "file": "pipeline/cache/extract/wilkes-comic-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "dates": "confirmed",
+      "venue": "The Stone Center",
+      "city": "North Wilkesboro",
+      "region": "NC",
+      "country": "US",
+      "tickets": "https://wilkescomiccon.com/tickets",
+      "guestsPage": "https://wilkescomiccon.com/special-guests-february-2027/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage banner: 'Wilkes Comic Con Returns Feb. 20, 2027 at The Stone Center in North Wilkesboro, NC'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Only a single date (Feb. 20, 2027) is given anywhere on the site, with no second day stated, so this is recorded as a one-day event; nav items reference past multi-day photo galleries ('Photo Gallery – February 2026') so the con may historically run longer, but no second 2027 date is announced. The special-guests page for Feb 2027 shows only a 'Special Guest TBA' placeholder card, so guests is none-yet. Cover falls back to the site's generic 'comics.jpg' background since no edition-specific key art or og:image exists; the other large homepage images are a press-release screenshot, a small ad, and an unrelated Sonic the Hedgehog wallpaper/figure (apparently tied to an unrelated blog post), none usable as con key art."
+}

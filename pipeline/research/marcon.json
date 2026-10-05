@@ -1,0 +1,14 @@
+{
+  "id": "marcon",
+  "name": "Marcon",
+  "short": "",
+  "url": "https://www.marcon.org/",
+  "organizer": "SOLAE",
+  "status": "inactive",
+  "types": ["scifi"],
+  "blurb": "Long-running Columbus, Ohio science-fiction and fantasy convention (1966-2023), suspended since 2024 while organizers address finances.",
+  "cover": { "file": "pipeline/cache/extract/marcon.home.json", "key": "og" },
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "The con's own homepage (checked today) reads: 'Marcon has had a difficult few years and we are suspending Marcon for a year or two while we sort out our finances... This does not mean the end of Marcon... We are gonna start tabling cons again, charity streams, podcasting and whatever fun things we can do to get Marcon back off the ground.' That is the most recent, authoritative statement, so this is recorded as on-hiatus/inactive rather than permanently closed, matching the seed note. A web search also turned up a conflicting March 2025 report (SOLAE chair Dale Mazzola quoted as saying Marcon 'is closing') and that the planned Marcon 59 (2024) was announced but not held; the last edition confirmed to have actually run appears to be in 2023 (Marcon 58), but exact 2023 dates could not be confirmed from an official source, so no 'last' edition is recorded here. Re-check marcon.org for a comeback announcement."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pasadena-comic-con",
+  "name": "Pasadena Comic Con",
+  "short": "PCC",
+  "url": "https://pasadenacomiccon.com/",
+  "organizer": "MorphiCon Events",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "An annual one-day comic book and toy show at the Pasadena Convention Center with a large celebrity autograph-signing roster.",
+  "cover": { "file": "pipeline/cache/extract/pasadena-comic-con-tix.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-01-25", "end": "2026-01-25", "city": "Pasadena", "region": "CA", "country": "US", "venue": "Pasadena Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "The site is a shared WordPress blog for several MorphiCon Events shows (this Pasadena Comic Con at the Pasadena Convention Center each January, plus the separate Toon Con at the Burbank Convention Center and Robo Toy Fest); this file covers only the Pasadena show per the batch id. The most recent confirmed date is Sunday, January 25, 2026 (now past); no 2027 date has been posted yet on the homepage or tickets page, so editions is empty and that January 2026 run is recorded as 'last'. The '2026 GUESTS' page still lists a long roster (Tara Reid, Bai Ling, RJ Cyler, William Daniels as Guest of Honor, and dozens more) but that lineup belongs to the now-past January 2026 show, not an announced upcoming edition, so it was not extracted or recorded here."
+}

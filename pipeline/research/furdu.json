@@ -1,0 +1,30 @@
+{
+  "id": "furdu",
+  "name": "FurDU",
+  "short": "",
+  "url": "https://furdu.com.au/",
+  "organizer": "Furry Down Under",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "Australia's largest furry convention, a beachside weekend of fursuiting, art and performances at Surfers Paradise on the Gold Coast.",
+  "cover": { "file": "pipeline/cache/extract/furdu.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Surfers Paradise",
+      "city": "Gold Coast",
+      "region": "QLD",
+      "country": "AU",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown 'COUNTDOWN TO FURDU 2027' and banner 'FurDU Presents: Enchanted Forest. April 16-18 2027', plus 'See you at Crowne Plaza Surfers Paradise on the 16th of April!'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage art only shows the mascots (DuRoo, Sheila) as forest fairies for the 'Enchanted Forest' theme, no guest-of-honour names; a web search confirms FurDU 2027's guest(s) of honour have not been announced yet. No ticket/registration link distinct from the general site was found. Organizer written on-site as 'Furry Down Under' (copyright line and acknowledgement-of-country text); the legal entity is 'Furry Down Under Inc.' per the trademark line, but the plain trading name is used here to match the site's own usage."
+}

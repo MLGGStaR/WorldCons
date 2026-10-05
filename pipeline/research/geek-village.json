@@ -1,0 +1,30 @@
+{
+  "id": "geek-village",
+  "name": "Geek Village",
+  "short": "",
+  "url": "https://www.geekvillage.be/the-con",
+  "organizer": "Geek Village",
+  "status": "active",
+  "types": ["games", "comics", "cosplay", "anime"],
+  "blurb": "Indoor geek convention at Trixxo Arena in Hasselt with tabletop games, comics, anime, an artist alley and the Belgian Nordic Cosplay Championship qualifier.",
+  "cover": { "file": "pipeline/cache/extract/geek-village.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Trixxo Arena",
+      "city": "Hasselt",
+      "region": "",
+      "country": "BE",
+      "tickets": "https://www.geekvillage.be/events/geek-village-the-con-2",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page text: 'Geek Village The Con 14 & 15 November 2026 ... Trixxo Arena Hasselt [Belgium]'; 'Date: 14–15 November 2026 ... Address Trixxo Arena Hasselt 70 Gouverneur Verwilghensingel 3500 Hasselt Belgium'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Geek Village also runs a summer open-air edition at Kasteeldomein Hex in Heers (per the batch note); the only trace of it found is a stale JSON-LD block giving 'Geek Village: Open Air Fair', 15–16 August 2026 — already over as of this 2026-10-05 check, with no 2027 Open Air date announced on any page found (no distinct Open Air page is currently live; the site's root domain and /the-con both show only the November Trixxo Arena show right now). Per the two-shows-a-year rule this stays one file, but only the one upcoming, confirmed edition (The Con, Nov 2026) is listed; the Open Air side is left for a future check once it reappears. The page promises 'special guests' as a feature but names none and no guests/guest-list page could be found (several plausible URLs 404), so guests is \"none-yet\"."
+}

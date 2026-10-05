@@ -1,0 +1,52 @@
+{
+  "id": "anime-detour",
+  "name": "Anime Detour",
+  "short": "AD",
+  "url": "https://www.animedetour.com/",
+  "organizer": "Anime Twin Cities, Inc.",
+  "status": "active",
+  "types": ["anime"],
+  "blurb": "Minnesota's largest and longest-running anime convention, a 3-day non-profit celebration of Japanese culture, anime and manga at the Hyatt Regency in Minneapolis.",
+  "cover": { "file": "pipeline/cache/extract/anime-detour.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Hyatt Regency Hotel",
+      "city": "Minneapolis",
+      "region": "MN",
+      "country": "US",
+      "tickets": "https://www.animedetour.com/register/",
+      "guestsPage": "https://www.animedetour.com/guest-voice-actors/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-detour.guests.json",
+          "picks": [
+            [1, "Joshua Waters", "Voice actor", "voice"],
+            [2, "Abby Trott", "Voice of Nico Robin in One Piece", "voice"],
+            [3, "The Unexpectables", "", "voice"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-detour-4.guests.json",
+          "picks": [
+            [1, "Chihiro Fujioka", "Video game designer, director and composer", "gaming"],
+            [2, "Kazuyuki Kurashima", "Game artist and character designer", "gaming"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-detour-5.guests.json",
+          "picks": [
+            [1, "Animo (Anemone Mournian)", "Japanese game music vocalist and lyricist", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'MARCH 26TH – 28TH, 2027 HYATT REGENCY HOTEL 1300 NICOLLET MALL, MINNEAPOLIS, MN 55403'; guest posts explicitly say 'coming to Detour for 2027' (Abby Trott) and 'joining us again for 2027' (The Unexpectables)"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Cosplay Artists and DJs guest pages exist but have no guests posted yet (logo-only placeholder). Known-for text for Joshua Waters and The Unexpectables was cut off by a 'Read More' link on the card; Abby Trott's and the two industry guests' known-for come from general knowledge/the visible card text since the full bio was likewise truncated. The Unexpectables is a returning duo act listed on the Voice Actors page with no bio visible before the cutoff, so known-for is left blank. Verify-03 pass (2026-10-05): confirmed current -- fresh re-extraction of all three guest pages (voice actors, industry, other) is unchanged from the prior pass, and the Abby Trott and Unexpectables posts still explicitly say 'for 2027'. Refute pass (2026-10-05): confirmed current again, now with evidence for all six individually -- Chihiro Fujioka/Kazuyuki Kurashima/Animo's card images are filed as 'AD2027-Guest-Announcement-<name>', and Joshua Waters' own announcement page (https://www.animedetour.com/joshua-waters/, whose card text alone doesn't name a year) carries a '2027' post tag in its page metadata, so every one of the six now has individual, edition-tagged evidence rather than relying on the two quoted in the original evidence line."
+}

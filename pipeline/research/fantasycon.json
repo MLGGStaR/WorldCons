@@ -1,0 +1,47 @@
+{
+  "id": "fantasycon",
+  "name": "Fantasycon",
+  "short": "",
+  "url": "https://britishfantasysociety.org/events-2/fantasycon/",
+  "organizer": "British Fantasy Society",
+  "status": "active",
+  "types": ["scifi", "horror"],
+  "blurb": "The British Fantasy Society's annual convention, with panels, the British Fantasy Awards and a rotating host city.",
+  "cover": { "file": "pipeline/cache/extract/fantasycon-sub.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Hotel",
+      "city": "Glasgow",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://britishfantasysociety.org/events-2/fantasycon/fantasycon-2026/",
+      "guestsPage": "https://britishfantasysociety.org/events-2/fantasycon/fantasycon-2026/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/fantasycon-chrisbaker.guests.json",
+          "picks": [[1, "Chris Baker", "Fantasy illustrator, aka Fangorn", "other"]]
+        },
+        {
+          "file": "pipeline/cache/extract/fantasycon-barbini.guests.json",
+          "picks": [[1, "Francesca T. Barbini", "Founder, Luna Press Publishing", "other"]]
+        },
+        {
+          "file": "pipeline/cache/extract/fantasycon-hamilton.guests.json",
+          "picks": [[1, "Peter F. Hamilton", "British science fiction author", "author"]]
+        },
+        {
+          "file": "pipeline/cache/extract/fantasycon-castro.guests.json",
+          "picks": [[1, "V. Castro", "Horror and fantasy author", "author"]]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "BFS site text: 'Fantasycon 2026 will be organised by the BFS. It will take place in Glasgow from 9th to 11th October 2026' and 'The event is taking place on the ground and first floors of the Crowne Plaza Hotel, Glasgow.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Fantasycon has no separate domain of its own; it is run by, and lives on, the British Fantasy Society site. The 2026 Guests-of-Honour grid on the event page shows 4 photos with no captured names/alt text, so each of the 4 announced GoH (Chris Baker aka Fangorn, Francesca T Barbini, Peter F Hamilton, V. Castro) was instead confirmed and photographed from their own individual 'Meet Our Fantasycon 2026 Guests of Honour' interview post, each page unambiguously about that one named person."
+}

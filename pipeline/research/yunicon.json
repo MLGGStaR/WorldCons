@@ -1,0 +1,55 @@
+{
+  "id": "yunicon",
+  "name": "Yunicon",
+  "short": "",
+  "url": "https://www.yunicon.at/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay", "pop"],
+  "blurb": "An anime, manga and gaming convention at Multiversum Schwechat, with voice actors, bands and cosplay contests over Halloween weekend.",
+  "cover": { "file": "pipeline/cache/extract/yunicon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Multiversum Schwechat",
+      "city": "Schwechat",
+      "region": "",
+      "country": "AT",
+      "tickets": "https://www.yunicon.at/tickets/",
+      "guestsPage": "https://www.yunicon.at/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/yunicon.guests.json",
+          "picks": [
+            [4, "Saki Fujita", "Voice of Hatsune Miku (Vocaloid)", "voice"],
+            [5, "Tommy Morgenstern", "German voice of Goku in Dragon Ball", "voice"],
+            [6, "Nicolás Artajo", "Voice of Muichiro Tokito in Demon Slayer", "voice"],
+            [7, "Gerrit Schmidt-Foß", "German voice of Seto Kaiba in Yu-Gi-Oh!", "voice"],
+            [32, "Eralia", "", "cosplay"],
+            [33, "Beverly Downen", "", "cosplay"],
+            [34, "Miss Twisted", "", "cosplay"],
+            [35, "Myriad Cosplay", "", "cosplay"],
+            [36, "Tsuki Costume Creations", "", "cosplay"],
+            [37, "Jenny Desu", "", "cosplay"],
+            [38, "Wynter Phoenix", "", "cosplay"],
+            [39, "Hermione", "", "cosplay"],
+            [40, "Annelune", "", "cosplay"],
+            [41, "Ferus", "", "creator"],
+            [46, "Spyair", "Japanese rock band", "music"],
+            [47, "Kontrollverlust", "", "music"],
+            [48, "Nanowar of Steel", "", "music"],
+            [71, "DJ Shen", "", "music"],
+            [73, "DJ Shiru", "", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title 'Anime Convention - YuniCon - 30.10-01.11.26 - Multiversum Schwechat' and header text '30.10.2026 BIS 01.11.2026 MULTIVERSUM SCHWECHAT'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This site is a single page (no separate guests URL), so guestsPage points at the homepage itself. Voice-actor bios came from the prose next to their portraits ('Stimme von Hatsune Miku', 'Stimme von Son Goku', 'Stimme von Muichiro Tokito aus Demon Slayer', 'Stimme von Seto Kaiba aus Yu-Gi-Oh!'); each also has a second, smaller thumbnail under 'Voice Actor' (candidates #42-45) which I skipped as a duplicate of the same person. Cosplay guest cards carry no descriptor text, so Known For is blank for all of them; 'Hermione' and 'Annelune' are two separate image candidates (#39, #40) so I treated them as two different cosplay guests rather than one two-word name. 'Spyair' is written in normal capitalisation (site stylises it SPYAIR) to pass name-casing; I know it's a Japanese rock band (My Hero Academia/Attack on Titan anime themes) from general knowledge even though the card itself only showed the name, so I kept that one factual tag but left Known For blank for the other bands/DJs since their cards gave no text and I'm not certain. I skipped #8-26 (TOC Finalisten, a fan cosplay-contest leaderboard), #27-30 (Con Parties flyers), the 18+ panel/workshop/contest tiles, Presse accreditation tiles, and 'Nerds at Raves' (reads as a party/rave brand, not a guest) and the two 'Fotografen'/'Showacts' entries (event photographers and show segments, not booked guests)."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "marscon-bloomington",
+  "name": "MarsCon",
+  "short": "",
+  "url": "https://www.marscon.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi", "pop", "anime"],
+  "blurb": "A fan-run, family-friendly Twin Cities convention covering sci-fi, fantasy, anime, art, cosplay, gaming and music every spring.",
+  "cover": { "file": "pipeline/cache/extract/marscon-bloomington.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "dates": "confirmed",
+      "venue": "Hilton Minneapolis-St. Paul Airport",
+      "city": "Bloomington",
+      "region": "MN",
+      "country": "US",
+      "tickets": "https://www.marscon.org/registration/",
+      "guestsPage": "https://marscon.org/guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'ABOUT US MarsCon 2027: Sci-Fi? What a Joke! March 5-7 2027'; hotel page: 'Convention Location Hilton Minneapolis-St. Paul Airport 3800 American Blvd. E. Bloomington, Minnesota 55425', reservation link dated arrivalDate=2027-03-04&departureDate=2027-03-07"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The homepage itself says 'Our 2027 guests will be announced soon' (linking to a media-GoH page). The /guests/ page does show cards headed '2027 Guests of Honor' (David Gerrold) and '2027 Featured Guests' (Adrian Lee, Heather Morris), but a web search found Adrian Lee and Heather Morris described as guests for MarsCon 2026's 'Sci-Fi of Yesteryear' theme, and the site's own /updates/ page (last edited '2/15/26') is still talking about load-in volunteers for the prior cycle under the same 2027-branded header/nav. Since several pages on this site clearly carry over unrefreshed prior-year content under the new year's banner, and the homepage's own current messaging says 2027 guests aren't announced yet, guests is recorded as none-yet rather than trusting the possibly-stale guests page. A 'Past Notable Presenters' card for C. M. Alongi on that same page is explicitly labelled as a past presenter, not a current guest, and was excluded either way."
+}

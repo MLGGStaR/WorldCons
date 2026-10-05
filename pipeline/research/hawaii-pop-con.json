@@ -1,0 +1,30 @@
+{
+  "id": "hawaii-pop-con",
+  "name": "Hawaii Pop Con",
+  "short": "HPC",
+  "url": "https://hawaiipopcon.com/",
+  "organizer": "Aloha Card Shop / Aloha Card Show Events",
+  "status": "active",
+  "types": ["comics", "toys", "cosplay"],
+  "blurb": "Hawaii's pop-culture convention at the Blaisdell Exhibition Hall in Honolulu, with comics, trading and sports cards, and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/hawaii-pop-con.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-01-09",
+      "end": "2027-01-10",
+      "dates": "confirmed",
+      "venue": "Blaisdell Exhibition Hall",
+      "city": "Honolulu",
+      "region": "HI",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage hero text: 'JANUARY 9-10, 2027 ... A weekend of island vibes and collectibles at the Blaisdell Exhibition Hall, Honolulu'; meta description: 'Hawaii Pop Con returns in 2027 at the Neal S. Blaisdell Center, Honolulu.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The seed note said exact dates were not yet posted, but the live site now clearly shows January 9-10, 2027. The 'CELEBRITY GUESTS' section explicitly reads '(lineup announced soon)' and a 'STAY TUNED' section says 'Guests, schedule, ticketing, and floor plan announced soon', so guests is 'none-yet' and no ticket link exists yet. Organizer and contact info come straight from the footer: 'PRESENTED BY ALOHA CARD SHOP ... Organized by Aloha Card Shop / Aloha Card Show Events', contact kailani@alohacardshop.com. The extractor's 'og' image resolved to the page's own URL rather than a real image file, so the cover instead uses the site's square sticker-style logo (hawaii-pop-con-logo-0tXK1bjy.jpg)."
+}

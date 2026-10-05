@@ -1,0 +1,22 @@
+{
+  "id": "geekend-qatar",
+  "name": "Geekend",
+  "short": "",
+  "url": "https://www.dohafilm.com/en/watch-discover/geekdom/geekend",
+  "organizer": "Doha Film Institute (DFI)",
+  "status": "active",
+  "types": ["games", "cosplay", "tabletop"],
+  "blurb": "Qatar's recurring pop-culture weekend at the Geekdom Building in Lusail with gaming, cosplay, art and tabletop activities.",
+  "cover": { "file": "pipeline/cache/extract/geekend-qatar.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-10-01",
+    "end": "2026-10-03",
+    "city": "Doha",
+    "region": "",
+    "country": "QA",
+    "venue": "Geekdom Building, Lusail Boulevard"
+  },
+  "checked": "2026-10-05",
+  "notes": "Found while researching the Gulf fixup list (not previously in series.json/pipeline/research); runs under Doha Film Institute's 'Geekdom' hub. Official page confirms 'Join us from 1-3 October 2026... at the Geekdom Building on Lusail Boulevard'; this edition already ran this month, and no next date is announced yet. Qatar events account @wgoqatar described this edition as 'gaming cosplay art workshops competitions karaoke'. DFI has also run earlier 2026 Geekend editions (e.g. one from June) at the same venue, suggesting it recurs multiple times a year; only the most recent is recorded here."
+}

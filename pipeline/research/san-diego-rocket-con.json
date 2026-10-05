@@ -1,0 +1,15 @@
+{
+  "id": "san-diego-rocket-con",
+  "name": "San Diego Rocket Con",
+  "short": "",
+  "url": "https://sdrocketcon.com/",
+  "organizer": "TCS Rockets",
+  "status": "active",
+  "types": ["comics", "toys", "pop"],
+  "blurb": "An annual two-day comic, toy and pop-culture convention at the Del Mar Fairgrounds near San Diego, with voice actors, artists and a cosplay contest.",
+  "cover": { "file": "pipeline/cache/extract/san-diego-rocket-con.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-03-14", "end": "2026-03-15", "city": "Del Mar", "region": "CA", "country": "US", "venue": "Del Mar Fairgrounds Exhibit Hall" },
+  "checked": "2026-10-05",
+  "notes": "The homepage's countdown timer has expired and reads 'Mar 14-15, 2026 ... its 6th Annual show'; that run already ended before this window and no 2027 date has been posted yet, so editions is empty and the March 2026 run is recorded as 'last'. Venue confirmed via the site's own Info page: 'Del Mar Fairgrounds Exhibit Hall, 2260 Jimmy Durante Blvd, Del Mar, CA 92014' (that page's body text still says '2025' in one sentence, which is a stale leftover — the homepage's 2026/6th-Annual framing and countdown are the current source). The homepage lists a 2026 guest roster (Greg Cipes, William Daniels, Taylor Gray, Greg Chun, Sarah Natochenny, Kenny James, Lucien Dodge, Samantha Kelly and others via Instagram posts) but it belongs to the now-past March 2026 show, not an announced upcoming edition, so it was not extracted or recorded here. Organizer taken from the site footer copyright line."
+}

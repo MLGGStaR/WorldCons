@@ -1,0 +1,22 @@
+{
+  "id": "comicdom-con-athens",
+  "name": "Comicdom Con Athens",
+  "short": "",
+  "url": "https://www.comicdom-con.gr/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics"],
+  "blurb": "Greece's longest-running international comics festival, held with free entry in Athens each spring.",
+  "cover": { "file": "pipeline/cache/extract/comicdom-con-athens.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-15",
+    "end": "2026-05-17",
+    "city": "Athens",
+    "region": "",
+    "country": "GR",
+    "venue": "Technopolis City of Athens"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage text confirms the most recent edition already ran and ended: 'Comicdom CON Athens 2026 – 15 με 17 Μαΐου @Τεχνόπολη Δήμου Αθηναίων – ΕΙΣΟΔΟΣ ΕΛΕΥΘΕΡΗ' (free entry) alongside 'See You Next Year!' with no 2027 dates announced yet, so editions is empty and May 2026 is recorded as 'last'. 2026 was billed as the 20th anniversary ('20 Χρόνια Comicdom CON Athens'). Guests for the 2026 edition included David Lloyd and Arianna Turturro per homepage banners, but since that edition is already over and no 2027 guest page exists yet, no lineup is recorded. Organizer not confirmed on the pages checked."
+}

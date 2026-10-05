@@ -1,0 +1,12 @@
+mid-valley-comic-art-expo | 2027-04-17 | https://mvcae.com/guests-and-attractions | 21
+pax-east | 2027-04-22 | https://east.paxsite.com/en-us/guests.html | 150
+lvl-up-expo | 2027-04-23 | https://lvlupexpo.com/guests/ | 10
+arctic-comic-con | 2027-04-24 | https://arcticcomiccon.com/guests/ | 2
+castle-point-anime-convention | 2027-04-24 | https://www.castlepointanime.com/events/guests/ | 47
+demicon | 2027-04-30 | https://demicon.org/38/guests.html | 4
+anime-central | 2027-05-14 | https://www.acen.org/guests/ | 15
+fedcon | 2027-05-14 | https://www.fedcon.de/de/ | 9
+gem-state-comic-con | 2027-05-14 | https://www.gemstatecomiccon.com/guests | 1
+copenhagen-comics | 2027-05-15 | https://copenhagencomics.dk/en/creators/ | 62
+keycon | 2027-05-21 | https://keycon.org/43/ | 5
+comic-con-revolution | 2027-05-22 | https://www.comicconrevolution.com/ontario/guests/ | 9

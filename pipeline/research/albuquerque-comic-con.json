@@ -1,0 +1,58 @@
+{
+  "id": "albuquerque-comic-con",
+  "name": "Albuquerque Comic Con",
+  "short": "ACC",
+  "url": "https://albuquerquecomiccon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A pop-culture and comic convention at Expo New Mexico in Albuquerque, with a large slate of film, TV and voice-acting guests.",
+  "cover": { "file": "pipeline/cache/extract/albuquerque-comic-con.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Expo New Mexico",
+      "city": "Albuquerque",
+      "region": "NM",
+      "country": "US",
+      "tickets": "https://dirtroadtickets.com/events/2026-albuquerque-comic-con-registration/",
+      "guestsPage": "https://albuquerquecomiccon.com/guest/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/albuquerque-comic-con-home.guests.json",
+          "picks": [
+            [3, "Adam McArthur", "", "actor"],
+            [4, "Brett Wagner", "", "other"],
+            [5, "Casper Van Dien", "", "actor"],
+            [6, "Christine Marie Cabanos", "", "voice"],
+            [7, "Cristina Vee", "", "voice"],
+            [8, "Debi Derryberry", "", "voice"],
+            [9, "Dina Meyer", "", "actor"],
+            [11, "Grace Van Dien", "", "actor"],
+            [12, "Jake Busey", "", "actor"],
+            [13, "Julie Benz", "", "actor"],
+            [14, "Lauren Landa", "", "voice"],
+            [15, "Manu Bennett", "", "actor"],
+            [16, "May Hong", "", "actor"],
+            [17, "Michael Copon", "", "actor"],
+            [18, "Michael Ironside", "", "actor"],
+            [19, "Pom Klementieff", "", "actor"],
+            [20, "Robbie Daymond", "", "voice"],
+            [21, "Roger Craig Smith", "", "voice"],
+            [22, "Ross Marquand", "", "actor"],
+            [23, "Seth Gilliam", "", "actor"],
+            [24, "Thomas Jane", "", "actor"],
+            [25, "Tom Welling", "", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Expo New Mexico 15-17 January 2027' / '15 - 17TH JANUARY 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The dedicated /guest/ page's photo grid didn't render any usable candidates (likely a JS carousel our renderer doesn't trigger), so guests mode was instead run against the homepage, which shows the same 'GUEST' grid with working image candidates. None of the guest cards carry caption text in the DOM; every name here was read from its photo's own filename (e.g. 'Casper-Van-Dien.jpg'), so Known For is left blank for all per the name-only-card rule, and categories are assigned from general knowledge of each person's main public role. One image in the grid (#10, 'dogpool.jpg') was excluded as a mascot/pet photo, not a person. A 'Cancelled Guests' section exists on the page but holds no actual photos (just the site logo), so no guests were excluded as cancelled. No organizer name was found on the site. Refute pass (2026-10-05): trimmed 23 -> 22 -- a fresh re-extract shows all 22 kept guests' photos were bulk-uploaded to /wp-content/uploads/2026/07/ or /2026/08/, i.e. after the prior Jan 16-18, 2026 show wrapped (press: KRQE 'Sun sets on 2026 Albuquerque Comic Con'), consistent with fresh prep for Jan 2027; the dropped guest, John Romita Jr. (ex-#26, filename 'John-Romita-Jr-banners.jpg', a broken 0x0 render), is dated /2025/12/ -- before even the 2026 show -- and was in fact that 2026 show's own confirmed comics guest per the Albuquerque Journal's 2026 preview, so his card is a stale holdover, not a 2027 confirmation."
+}

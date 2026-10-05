@@ -1,0 +1,30 @@
+{
+  "id": "qc-anime-zing",
+  "name": "Anime-zing!",
+  "short": "",
+  "url": "https://qcanimezing.com/",
+  "organizer": "AnimeCon.org",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Three-day anime convention in the Quad Cities with cosplay, concerts, karaoke, tabletop and arcade gaming, and panels.",
+  "cover": { "file": "pipeline/cache/extract/qc-anime-zing.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-08",
+      "dates": "confirmed",
+      "venue": "Holiday Inn",
+      "city": "Rock Island",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://qcanimezing.com/register",
+      "guestsPage": "https://qcanimezing.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Anime Convention in Rock Island, IL August 6 - 8, 2027'; location page: 'Anime-zing! will be held at the Holiday Inn in Rock Island, Illinois.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Corrected place from the batch note's 'Davenport, IA' guess: the con's own site states the venue is the Holiday Inn in Rock Island, Illinois (across the river in the same Quad Cities area, but IL not IA). The /guests and /location pages only show partner-con logos (Anime-ZAP!, AniMinneapolis, 'Midwest' series logos), no actual guest photos for the 2027 edition, so guests is 'none-yet'. Organizer taken as AnimeCon.org, the shared parent brand confirmed on sibling convention Anime Midwest's footer, which lists 'Anime-zing!' among its own family of events."
+}

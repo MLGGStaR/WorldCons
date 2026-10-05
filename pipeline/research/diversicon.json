@@ -1,0 +1,15 @@
+{
+  "id": "diversicon",
+  "name": "Diversicon",
+  "short": "",
+  "url": "https://www.diversicon.org/",
+  "organizer": "Minnesota Science Fiction Society (MNSTF)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A diversity-focused, volunteer-run Minnesota science fiction convention with local Guests of Honor, panels and an auction.",
+  "cover": { "file": "pipeline/cache/extract/diversicon.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2026-07-24", "end": "2026-07-26", "city": "Plymouth", "region": "MN", "country": "US", "venue": "Crowne Plaza Minneapolis West" },
+  "checked": "2026-10-05",
+  "notes": "diversicon.org auto-redirects to the current edition's own subdomain. As of this check it redirects to diversicon33.mnstf.org (Diversicon 33, already held July 24-26, 2026 in Plymouth, MN, not Saint Paul as in the batch note - venue rotates). The next edition's subdomain, diversicon34.mnstf.org, resolves but is an empty, not-yet-uploaded DreamHost placeholder, so no 2027 date/venue is announced yet; editions is left empty with Diversicon 33 recorded as 'last'. Guests were not collected since that lineup (Peg Kerr, Adam Stemple) belongs to the already-completed 2026 edition."
+}

@@ -19,29 +19,10 @@
       "country": "US",
       "tickets": "https://animeiowa.com/registration/",
       "guestsPage": "https://animeiowa.com/guests/",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/animeiowa.guests.json",
-          "picks": [
-            [2, "Carrie Savage", "Hakufu in Ikki Tousen", "voice"],
-            [3, "Patrick Pedraza", "Scaramouche in Genshin Impact", "voice"],
-            [4, "Brian Beacock", "Voice actor, Acting Dead creator", "voice"],
-            [5, "Chris Tergliafera", "Capitano in Genshin Impact", "voice"],
-            [6, "Semetary Cosplay", "", "cosplay"],
-            [7, "Steve Bennett", "Manga artist, Iron Cat Studios", "animation"],
-            [8, "Kamikaze Snowmen", "Convention emcees", "other"],
-            [9, "Werkforce", "Cosplay drag performance group", "cosplay"],
-            [10, "Samurai Dan", "Samurai martial arts educator", "other"],
-            [11, "Incendiary NPCs", "", "other"],
-            [18, "DJ Dark Inq", "DJ, electro/bass/anime remixes", "music"]
-          ]
-        }
-      ],
-      "textOnlyGuests": [],
+      "guests": "none-yet",
       "evidence": "JSON-LD Event on the homepage/guests page: 'Convention Time – Anime Iowa: Anime Valley' 2027-07-30 to 2027-08-01 @ Hyatt Regency Coralville; page text: '2027 July 30th – August 1st'; the Hotel & Rooms page gives the full venue address: 'Hyatt Regency Coralville Hotel & Conference Center 300 E 9th Street Coralville, IA., 52241'."
     }
   ],
   "checked": "2026-10-05",
-  "notes": "The seed location (Des Moines, IA) is wrong: the con's own Hotel & Rooms page gives its address as 300 E 9th Street, Coralville, IA 52241 (Hyatt Regency Coralville), so city/region were corrected to Coralville, IA. On the Guests page, four people (Carrie Savage, Patrick Pedraza, Brian Beacock, Chris Tergliafera) and the Artist Guest (Steve Bennett) had photo cards with no bio text at all, so their known-for came from reading each one's own individual bio subpage (e.g. animeiowa.com/guests/carrie-savage/) instead. 'Incendiary NPCs' is a named section with 7 photos (#11-17) and no bio text anywhere (its guessed bio-page URL 404s); since groups are one guest per RESEARCH.md, this is recorded as a single guest using the largest photo (#11), with known-for left blank since nothing describes what they do. Semetary Cosplay's card likewise carries only the 'Cosplay Guest' label with no further text, so known-for is blank for them too. Werkforce (a drag/cosplay performance crew) and Samurai Dan (a touring samurai-sword martial-arts educator, founder of the Akita-Ken Dojo) had full card text but don't map cleanly onto a single cat; Werkforce is filed as 'cosplay' since their own text calls it 'cosplay drag', and Samurai Dan and Kamikaze Snowmen (described only as the ceremony emcees) are filed as 'other'. No organizer company/nonprofit name was found on the pages sampled. Verify pass (2026-10-05): current -- the guests page itself carries JSON-LD Event data for 'Convention Time – Anime Iowa: Anime Valley' 2027-07-30 to 2027-08-01 plus calendar entries like 'Set up For Anime Iowa 2027!', with no stale-year, 'coming soon' or cancellation wording found, so the lineup stands."
+  "notes": "The seed location (Des Moines, IA) is wrong: the con's own Hotel & Rooms page gives its address as 300 E 9th Street, Coralville, IA 52241 (Hyatt Regency Coralville), so city/region were corrected to Coralville, IA. No organizer company/nonprofit name was found on the pages sampled. Verify pass (2026-10-05): current -- the guests page itself carries JSON-LD Event data for 'Convention Time – Anime Iowa: Anime Valley' 2027-07-30 to 2027-08-01 plus calendar entries like 'Set up For Anime Iowa 2027!', with no stale-year, 'coming soon' or cancellation wording found, so the lineup stands. REFUTED (refute-04, 2026-10-05): that JSON-LD/calendar widget is a sitewide 'Upcoming Events' block that appears identically on every page (including each individual guest's own bio subpage), so it is template-level, not per-guest, proof. The guest cards themselves carry no 2027 tie; worse, Steve Bennett's own bio text reads 'Celebrating our 30th anniversary, please give a warm welcome home to Steve Bennett!' -- and a web search confirms AnimeIowa's 30th-anniversary edition ('Anime Iowa: Isaki') already ran July 31-August 2, 2026 at this same Hyatt Regency Coralville, ending 2 months ago, with this exact roster (Brian Beacock, Carrie Savage, Chris Tergliafera, Patrick Pedraza, Steve Bennett, Samurai Dan, The Kamikaze Snowmen). So every picked guest belongs to the 30th-anniversary (2026) show, not the 2027 'Anime Valley' edition being tracked here. Guests reset to none-yet; lineup and textOnlyGuests removed until a genuine 2027 lineup is announced."
 }

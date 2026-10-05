@@ -1,0 +1,15 @@
+{
+  "id": "weekend-of-hell",
+  "name": "Weekend of Hell",
+  "short": "",
+  "url": "https://weekend-of-hell.com/en/home-2/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "Europe's horror-movie celebrity convention at the Crowne Plaza Düsseldorf-Neuss, with star autographs, photo ops and a horror dealer hall.",
+  "cover": { "file": "pipeline/cache/extract/weekend-of-hell.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": { "start": "2026-09-26", "end": "2026-09-27", "city": "Neuss", "region": "", "country": "DE", "venue": "Crowne Plaza Düsseldorf - Neuss" },
+  "checked": "2026-10-05",
+  "notes": "Billed as Europe's biggest horror-themed celebrity convention, matching the seed note. The current homepage (English, last modified 2026-09-27 per the site's own sitemap, i.e. right after the event) still shows 'COMING SOON' placeholders for guests, vendors and cosplayers and no date text at all -- it appears to be unrefreshed leftover content rather than an announcement of a new edition. Multiple independent listings (happeningnext.com, rostercon.com, allevents.in, conmap.de, stayhappening.com), each citing the same Eventbrite listing linked from this homepage, agree the most recent edition ran 2026-09-26 to 2026-09-27 at Crowne Plaza Düsseldorf - Neuss -- which already ended before the 2026-10-05 research window, so it is recorded as 'last' rather than as an edition. No 2027 (or later-2026) date has been announced on the site itself, so editions is empty. Guests were not captured since no edition in the window has an announced lineup (the on-site 'coming soon' guest tiles were for the now-past Sept 2026 show); recheck closer to a 2027 announcement."
+}

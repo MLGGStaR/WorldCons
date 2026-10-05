@@ -1,0 +1,28 @@
+{
+  "id": "castle-point-anime-convention",
+  "name": "Castle Point Anime Convention",
+  "short": "CPAC",
+  "url": "https://www.castlepointanime.com/",
+  "organizer": "Anime Critics United",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A student-run Japanese animation and media convention at the Meadowlands Expo Center in Secaucus, NJ, with a large roster of voice actors and musicians.",
+  "cover": { "file": "pipeline/cache/extract/castle-point-anime-convention.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-04-24",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Meadowlands Expo Center",
+      "city": "Secaucus",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://www.castlepointanime.com/",
+      "guestsPage": "https://www.castlepointanime.com/events/guests/",
+      "guests": "none-yet",
+      "evidence": "Homepage & guests page banner: 'Castle Point Anime Convention Meadowlands Expo Center | April 24 - April 25, 2027' / 'Saturday, April 24, 2027 - Sunday, April 25, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Organizer 'Anime Critics United' is carried over from the batch note; nothing on the live site itself names an organizing body (only 'student-run... in Secaucus, NJ'), so this is unverified. 2026-10-05 re-verify: STALE -> none-yet, reversing the prior call. CPAC 2026 actually ran April 25-26, 2026 (confirmed via web search of outside event listings/recap posts) and is already over, so the homepage's own 'Our Guests for 2026!' teaser widget -- which names the exact same first six people (Ricco Fajardo, Shu Uchida, Yuina, Kira Buckland, Zeno Robinson, Lotus Juice) that top the /events/guests/ list -- is last cycle's copy, and the same homepage still advertises 'Pre-Registration Opening Soon! (Pre-Registration Ends April 1, 2026)', a deadline already 6+ months in the past, confirming the site has not been refreshed for 2027 beyond the top-level date banner. The remaining 41 names on /events/guests/ sit in that same undifferentiated list with no '2027'-specific heading, dated announcement, or any marker distinguishing them from the confirmed-stale six (an individual guest page checked via WebFetch only repeats the site-wide '...April 24-25, 2027' header chrome, not a guest-specific announcement date), so per RESEARCH.md ('keep a lineup only with positive evidence it is for this edition; when unsure, none-yet') the whole 47-person list is dropped as last edition's leftover roster."
+}

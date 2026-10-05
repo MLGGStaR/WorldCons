@@ -1,0 +1,30 @@
+{
+  "id": "world-boardgaming-championships",
+  "name": "World Boardgaming Championships",
+  "short": "WBC",
+  "url": "https://www.boardgamers.org/wbcindex.html",
+  "organizer": "Boardgame Players Association",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "The Boardgame Players Association's annual tournament convention crowning champions across 160+ boardgames at Seven Springs Mountain Resort.",
+  "cover": { "file": "pipeline/cache/extract/wbc-root.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-24",
+      "end": "2027-08-01",
+      "dates": "confirmed",
+      "venue": "Seven Springs Mountain Resort",
+      "city": "Seven Springs",
+      "region": "PA",
+      "country": "US",
+      "tickets": "https://www.boardgamers.org/joinindex.html",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "wbcindex.html text: 'WBC 2027 will run from July 24 to August 1, 2027'; BPA homepage: 'Take a virtual tour of Seven Springs Mountain Resort.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Corrected the url from the given 'https://www.boardgamers.org/#wbc' (a dead fragment on the homepage) to the site's actual WBC page, wbcindex.html, reached via the homepage's 'wbcindex.html' link. Confirms the batch note: organizer is the Boardgame Players Association, and WBC replaced Avaloncon in 1999 (site text: the BPA's 'largest event is the annual World Boardgaming Championships® (WBC)'). This is a tournament/competition convention (160+ boardgame competitions, an auction, vendors) with no celebrity-guest or Guest-of-Honor program; the word 'guest' does not appear anywhere on the WBC or attending pages, so guests is 'none'. Site is a very old-style HTML site with no og/twitter image and no dedicated key art, so cover uses its plain masthead banner image (shared across its pages)."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jpex-entertainment-exhibition",
+  "name": "JPEX Entertainment Exhibition",
+  "short": "JPEX",
+  "url": "https://jpex.me/",
+  "organizer": "Meas Events",
+  "status": "active",
+  "types": ["anime", "games", "cosplay", "toys"],
+  "blurb": "Dubai exhibition celebrating Japanese pop culture with anime, voice actor appearances, cosplay and collectibles.",
+  "cover": { "file": "pipeline/cache/extract/jpex-entertainment-exhibition.home.json", "key": "hero:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-20",
+    "end": "2026-08-23",
+    "city": "Dubai",
+    "region": "",
+    "country": "AE",
+    "venue": "Dubai World Trade Centre, Hall 6"
+  },
+  "checked": "2026-10-05",
+  "notes": "2nd edition ran Aug 20-23, 2026 at DWTC Hall 6, audience public, organised by Meas Events (confirmed via the DWTC event listing's JSON-LD and page text). The official site jpex.me now shows a post-event 'JPEX 2026 Thank You! / Share Your Feedback' banner alongside leftover pre-event '2025 Event Highlights... going bigger for JPEX 2026, stay tuned' gallery copy; no 2027 (or later 2026) dates are announced anywhere, so no upcoming edition is listed. Not to be confused with jpex.com (a crypto exchange) or JPEX surveys."
+}

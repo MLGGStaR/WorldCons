@@ -1,0 +1,15 @@
+{
+  "id": "wild-wild-west-con",
+  "name": "Wild Wild West Con",
+  "short": "WWWC",
+  "url": "https://www.wildwestcon.com",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["scifi", "cosplay"],
+  "blurb": "Steampunk convention held at the Westward Look Resort in Tucson; its 14th edition in March 2026 was announced as the grand finale.",
+  "cover": { "file": "pipeline/cache/extract/wild-wild-west-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-03-19", "end": "2026-03-22", "city": "Tucson", "region": "AZ", "country": "US", "venue": "Westward Look Wyndham Grand Resort and Spa" },
+  "checked": "2026-10-05",
+  "notes": "Defunct: WWWC14 (March 19-22, 2026) was announced as the convention's final year. KGUN9 news: 'The Wild Wild West Steampunk Convention marks its 14th and final year at the Westward Look Resort'; Steampunk Explorer also covered it as a 'Grand Finale'. The organizers said they plan smaller-scale events (dinners, workshops, a steampunk ball) instead of continuing the annual convention. The batch note calling WWWC14 'the first 4-day edition' appears to predate this finale announcement."
+}

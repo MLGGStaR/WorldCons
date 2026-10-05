@@ -1,0 +1,30 @@
+{
+  "id": "washington-state-summer-con",
+  "name": "Washington State Summer Con",
+  "short": "",
+  "url": "https://www.wasummercon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "A four-day pop-culture convention in Puyallup spanning movies, TV, comic books, anime, collectibles, gaming and music.",
+  "cover": { "file": "pipeline/cache/extract/washington-state-summer-con.home.json", "key": "hero:2" },
+  "editions": [
+    {
+      "start": "2027-06-17",
+      "end": "2027-06-20",
+      "dates": "confirmed",
+      "venue": "Washington State Fair and Events Center",
+      "city": "Puyallup",
+      "region": "WA",
+      "country": "US",
+      "tickets": "https://www.wasummercon.com/admission-tickets/",
+      "guestsPage": "https://www.wasummercon.com/2027-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Celebrate Year 10 of Summer Con with us — June 17–20, 2027' and 'JUNE 17-20, 2027 ● PUYALLUP, WA'; 'Event Info: The next Washington State Summer Con will be in June 2027 ... held at the Washington State Fair and Events Center in Puyallup, WA.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The /2027-guests/ page's only content under the 'Summer Con Featured Guests – June 2027' heading is a 'Years of Memories at Summer Con' photo gallery recycling old convention and guest photos from 2023-2025 (including one of the late Jason David Frank, filename 'jdf.jpg'), not a live 2027 roster, so guests are none-yet. A separate 'Featured Guests – see who is coming!' link on the homepage still points to /2026-guests/, the prior (already finished) edition."
+}

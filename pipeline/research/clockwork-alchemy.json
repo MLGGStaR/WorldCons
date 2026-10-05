@@ -1,0 +1,46 @@
+{
+  "id": "clockwork-alchemy",
+  "name": "Clockwork Alchemy",
+  "short": "CA",
+  "url": "https://www.clockworkalchemy.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["cosplay", "scifi"],
+  "blurb": "The San Francisco Bay Area's steampunk convention, with an author and fashion guest of honor, a maker track, lectures and live music.",
+  "cover": { "file": "pipeline/cache/extract/clockwork-alchemy.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "dates": "confirmed",
+      "venue": "Grand Bay Hotel SF",
+      "city": "Redwood City",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://clockworkalchemy.ticketspice.com/clockwork-alchemy-2026",
+      "guestsPage": "https://www.clockworkalchemy.com/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/clockwork-alchemy.guests.json",
+          "picks": [
+            [3, "David L. Drake & Katherine L. Morse", "Authors, The Adventures of Drake and McTrowell", "author"],
+            [4, "Kathe and Philip Gust", "2026 Fashion Guests of Honor", "cosplay"],
+            [6, "Liz McComb", "2026 Bazaar Featured Artist", "other"],
+            [7, "Jaime Jessup", "", "other"],
+            [8, "Field of Embers", "", "music"],
+            [9, "Doctor R. Snick (Andrei Pischalnikoff)", "2026 Featured Lecturer", "other"],
+            [10, "Unwoman", "Cello-based musician", "music"],
+            [11, "Forgetmenauts", "", "music"],
+            [12, "Gail Carriger", "Author, The Parasol Protectorate", "author"],
+            [13, "Avalon Rising", "", "music"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [["Shelley Adina", "2026 Author Guest of Honor", "author"]],
+      "evidence": "Homepage: 'This year's convention will be held Friday through Sunday, October 16-18, 2026. We will be returning to the awesome Grand Bay Hotel SF in Redwood City, CA.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage image cards under 'Guests of Honor' and 'Featured Guests' carry no alt/caption text (WordPress lazy-image cards with only an <img> and a link to a dedicated blog post per guest), so names were read from each image's file name and cross-checked against the con's own blog via search: archives/4376 confirms 'David L. Drake and Katherine L. Morse' as the authors of the serialized story 'The Adventures of Drake and McTrowell' (the photo file name names the story, not the authors, so the real author names are used); archives/4418 confirms 'Doctor R. Snick' is the stage name of 2026 Featured Lecturer Andrei Pischalnikoff; Kathe and Philip Gust are independently confirmed as the 2026 Fashion Guests of Honor; Liz McComb (Elizabeth McComb) is the 2026 Bazaar Featured Artist; Gail Carriger is the well-known 'Parasol Protectorate' author. For the remaining four (Jaime Jessup, Field of Embers, Forgetmenauts, Avalon Rising) only the file name could be confirmed -- no bio text was reachable in the tool budget for this convention, so known-for is left blank for all but Unwoman (an independently known musician); Field of Embers, Forgetmenauts and Avalon Rising are filed as 'music' only because they sit in the same 'Featured Guests' photo row as the con's other musical performers, not from a confirmed bio, and Jaime Jessup is left as 'other' since her role could not be confirmed either way. A 3rd Guest-of-Honor photo slot is a placeholder ('Square-Filler.jpeg', skipped); search results independently name Shelley Adina as a 2026 Author Guest of Honor with no photo yet on the page, so she is recorded in textOnlyGuests. The 'Attractions and Events' row (other candidates on the homepage) are show activities, not people, and were skipped. No og/twitter image exists; cover uses hero:0, the site's own 2026 website banner background."
+}

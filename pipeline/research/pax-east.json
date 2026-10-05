@@ -1,0 +1,942 @@
+{
+  "id": "pax-east",
+  "name": "PAX East",
+  "short": "",
+  "url": "https://east.paxsite.com",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": [
+    "games",
+    "tabletop"
+  ],
+  "blurb": "ReedPop's Boston gaming expo with video game and tabletop exhibit halls, esports and speedrunning stages, concerts, cosplay, and a large guest/panelist lineup.",
+  "cover": {
+    "file": "pipeline/cache/extract/pax-east.home.json",
+    "key": "hero:3"
+  },
+  "editions": [
+    {
+      "start": "2027-04-22",
+      "end": "2027-04-25",
+      "dates": "confirmed",
+      "venue": "Thomas M. Menino Convention & Exhibition Center",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "tickets": "https://east.paxsite.com/en-us/registration.html",
+      "guestsPage": "https://east.paxsite.com/en-us/guests.html",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/pax-east.guests.json",
+          "picks": [
+            [
+              1,
+              "Anjali Bhimani",
+              "Symmetra (Overwatch), Rampart (Apex Legends)",
+              "voice"
+            ],
+            [
+              2,
+              "Anna Prosser",
+              "Acquisitions Incorporated, StonesThrowRPG",
+              "actor"
+            ],
+            [
+              3,
+              "Bob Wulff",
+              "Wulff Den games reporting",
+              "creator"
+            ],
+            [
+              4,
+              "Button Masher",
+              "Musician",
+              "music"
+            ],
+            [
+              5,
+              "Chris Perkins",
+              "Dungeons & Dragons",
+              "gaming"
+            ],
+            [
+              6,
+              "Cissy Jones",
+              "Firewatch, The Walking Dead, Life Is Strange",
+              "voice"
+            ],
+            [
+              7,
+              "Claire Lim",
+              "Host/comedian",
+              "other"
+            ],
+            [
+              8,
+              "Heather Gonzalez",
+              "Legend of Zelda: ToTK, Persona 3 Reload",
+              "voice"
+            ],
+            [
+              9,
+              "Ify Nwadiwe",
+              "Um, Actually",
+              "creator"
+            ],
+            [
+              10,
+              "James Mortellaro",
+              "Legend of Zelda, Horizon: Zero Dawn",
+              "voice"
+            ],
+            [
+              11,
+              "Jasmine \"ThatBronzeGirl\" Bhullar",
+              "Geek & Sundry, Acquisitions Incorporated",
+              "creator"
+            ],
+            [
+              12,
+              "Jerry Holkins",
+              "Penny Arcade, Acq Inc",
+              "comics"
+            ],
+            [
+              13,
+              "Jesse Cox",
+              "YouTube gaming, comedian",
+              "creator"
+            ],
+            [
+              14,
+              "Joe Hernandez",
+              "Legend of Zelda BotW & ToTK",
+              "voice"
+            ],
+            [
+              15,
+              "Masaru Saito",
+              "Producer, Brigandine Abyss",
+              "gaming"
+            ],
+            [
+              16,
+              "Matthew Mercer",
+              "Critical Role, JoJo's Bizarre Adventure",
+              "voice"
+            ],
+            [
+              17,
+              "Mike Krahulik",
+              "Penny Arcade, Acq Inc",
+              "comics"
+            ],
+            [
+              18,
+              "mxmtoon",
+              "Singer-songwriter",
+              "music"
+            ],
+            [
+              19,
+              "Samantha Béart",
+              "Baldur's Gate 3, Star Wars: The Old Republic",
+              "voice"
+            ],
+            [
+              20,
+              "Sean Chiplock",
+              "Legend of Zelda, Genshin Impact",
+              "voice"
+            ],
+            [
+              21,
+              "Sixth Station Trio",
+              "Musical group",
+              "music"
+            ],
+            [
+              22,
+              "VGM Collective",
+              "Musical group",
+              "music"
+            ],
+            [
+              23,
+              "Vinny Vinesauce",
+              "Streamer/YouTuber",
+              "creator"
+            ],
+            [
+              24,
+              "Xalavier Nelson Jr.",
+              "Founder, Strange Scaffold Games",
+              "gaming"
+            ],
+            [
+              25,
+              "3llebelle",
+              "Twitch Partner, accessibility advocate",
+              "creator"
+            ],
+            [
+              26,
+              "8bitDee",
+              "Twitch Partner, content creator",
+              "creator"
+            ],
+            [
+              27,
+              "Abdallah Smash",
+              "Streamer",
+              "creator"
+            ],
+            [
+              28,
+              "Alex Coccia",
+              "Streamer",
+              "creator"
+            ],
+            [
+              29,
+              "Aliface",
+              "Streamer",
+              "creator"
+            ],
+            [
+              30,
+              "Amazonian",
+              "Twitch streamer",
+              "creator"
+            ],
+            [
+              31,
+              "Anica Cihla",
+              "Game designer",
+              "gaming"
+            ],
+            [
+              32,
+              "Anoriand",
+              "Content creator",
+              "creator"
+            ],
+            [
+              33,
+              "Anya Combs",
+              "Games consultant, musician",
+              "music"
+            ],
+            [
+              34,
+              "Ashlinaa",
+              "Twitch Partner, community manager",
+              "creator"
+            ],
+            [
+              35,
+              "AshSaidHi",
+              "Twitch ambassador, content creator",
+              "creator"
+            ],
+            [
+              36,
+              "Baddie",
+              "Content creator",
+              "creator"
+            ],
+            [
+              37,
+              "BigGaming64",
+              "Horror game content creator",
+              "creator"
+            ],
+            [
+              38,
+              "Bill Amend",
+              "FoxTrot",
+              "comics"
+            ],
+            [
+              39,
+              "BioShop Infinite",
+              "Performer",
+              "cosplay"
+            ],
+            [
+              40,
+              "Blizz",
+              "Content creator",
+              "creator"
+            ],
+            [
+              41,
+              "Cape And Coil",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              42,
+              "Celia Schilling",
+              "Spawncast, industry professional",
+              "creator"
+            ],
+            [
+              43,
+              "Chaos Bria",
+              "Content creator",
+              "creator"
+            ],
+            [
+              44,
+              "Chris Edgerly",
+              "Apex Legends, The Simpsons",
+              "voice"
+            ],
+            [
+              45,
+              "Conner Marx",
+              "Twenty Sided Tavern",
+              "creator"
+            ],
+            [
+              46,
+              "CtrlAltQuin",
+              "Streamer",
+              "creator"
+            ],
+            [
+              47,
+              "Dan Olson",
+              "Folding Ideas",
+              "creator"
+            ],
+            [
+              48,
+              "Dan Ryckert",
+              "Giant Bomb",
+              "creator"
+            ],
+            [
+              49,
+              "Dekkster",
+              "Streamer",
+              "creator"
+            ],
+            [
+              50,
+              "Dennis Brännvall",
+              "Creative Director, Wayfinder Studios",
+              "gaming"
+            ],
+            [
+              51,
+              "Diana Fay",
+              "Twitch Partner, short form creator",
+              "creator"
+            ],
+            [
+              52,
+              "Elizabeth Kilmer, PhD",
+              "Take This",
+              "other"
+            ],
+            [
+              53,
+              "Erin Bower",
+              "Marketing Director, Wayfinder Studios",
+              "gaming"
+            ],
+            [
+              54,
+              "fearl3ssferret",
+              "Cosplay",
+              "cosplay"
+            ],
+            [
+              55,
+              "Fia Tjernberg",
+              "CEO/Co-Founder, Wayfinder Studios",
+              "gaming"
+            ],
+            [
+              56,
+              "Friskk",
+              "Streamer",
+              "creator"
+            ],
+            [
+              57,
+              "Games Done Quick",
+              "Speedrunning marathon",
+              "creator"
+            ],
+            [
+              58,
+              "Garrett Hunter",
+              "Mega64",
+              "creator"
+            ],
+            [
+              59,
+              "Geek Girl Strong",
+              "Health educator & founder",
+              "other"
+            ],
+            [
+              60,
+              "Geoffrey Zatkin",
+              "Studio Director, Extra Credits",
+              "creator"
+            ],
+            [
+              61,
+              "Gina Darling",
+              "G4, Logitech",
+              "creator"
+            ],
+            [
+              62,
+              "Graecie",
+              "Streamer",
+              "creator"
+            ],
+            [
+              63,
+              "Jackbox Games",
+              "Jackbox Party Packs, Drawful",
+              "gaming"
+            ],
+            [
+              64,
+              "Jacob McCourt",
+              "Video game trivia host",
+              "creator"
+            ],
+            [
+              65,
+              "Jan Ochoa",
+              "Giant Bomb",
+              "creator"
+            ],
+            [
+              66,
+              "Jared Gerritzen",
+              "Chief Creative Officer, IllFonic",
+              "gaming"
+            ],
+            [
+              67,
+              "Jasper Cartwright",
+              "Dimension 20, Not Another D&D Podcast",
+              "creator"
+            ],
+            [
+              68,
+              "Jay Foster",
+              "Oops! All Himbos!, Level 20 Training",
+              "creator"
+            ],
+            [
+              69,
+              "Jeff Bakalar",
+              "Giant Bomb",
+              "creator"
+            ],
+            [
+              70,
+              "Jeff Grubb",
+              "Giant Bomb",
+              "creator"
+            ],
+            [
+              71,
+              "Jenna Stoeber",
+              "Content creator",
+              "creator"
+            ],
+            [
+              72,
+              "JM8",
+              "Host/creator, Design Delve",
+              "creator"
+            ],
+            [
+              73,
+              "Johnny Stanton",
+              "NFL",
+              "sports"
+            ],
+            [
+              74,
+              "Jonathan Perez",
+              "LatinosAgainstSpookyShit",
+              "creator"
+            ],
+            [
+              75,
+              "Jordan Mathewson",
+              "Design Director, IllFonic",
+              "gaming"
+            ],
+            [
+              76,
+              "Kate Welch",
+              "Acquisitions Incorporated, StonesThrowRPG",
+              "actor"
+            ],
+            [
+              77,
+              "Kelsey Remige",
+              "Content creator",
+              "creator"
+            ],
+            [
+              78,
+              "Kevin Eastman",
+              "Co-Creator, Teenage Mutant Ninja Turtles",
+              "comics"
+            ],
+            [
+              79,
+              "Kris Straub",
+              "Acq Inc, Broodhollow",
+              "comics"
+            ],
+            [
+              80,
+              "Kyle Shire",
+              "Critical Role",
+              "creator"
+            ],
+            [
+              81,
+              "LadyLuck34",
+              "Twitch Affiliate",
+              "creator"
+            ],
+            [
+              82,
+              "Lanah Kane",
+              "Cosplayer, content creator",
+              "cosplay"
+            ],
+            [
+              83,
+              "Laura Stringer",
+              "Penny Arcade",
+              "other"
+            ],
+            [
+              84,
+              "Magitek Dad",
+              "SGDC host",
+              "creator"
+            ],
+            [
+              85,
+              "Maisie Lynnie",
+              "Streamer, content creator",
+              "creator"
+            ],
+            [
+              86,
+              "Malek Akkad",
+              "President, Compass International Pictures",
+              "other"
+            ],
+            [
+              87,
+              "Matthew Krol",
+              "Showrunner/Narrator, Extra Credits",
+              "creator"
+            ],
+            [
+              88,
+              "Matthew Parham",
+              "Stargate: Timekeepers",
+              "voice"
+            ],
+            [
+              89,
+              "Michael Mairs (Smirky)",
+              "Streamer",
+              "creator"
+            ],
+            [
+              90,
+              "Mike Minotti",
+              "Giant Bomb",
+              "creator"
+            ],
+            [
+              91,
+              "Min's Meadow",
+              "Content creator",
+              "creator"
+            ],
+            [
+              92,
+              "Ms. Ash Rocks",
+              "Streamer",
+              "creator"
+            ],
+            [
+              93,
+              "Natalie Fuinha",
+              "The Storyteller Squad",
+              "creator"
+            ],
+            [
+              94,
+              "National Association of Voice Actors",
+              "Voice actor advocacy org (NAVA)",
+              "other"
+            ],
+            [
+              95,
+              "Nesstheghostt",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              96,
+              "Nick Apostolides",
+              "Resident Evil, Life is Strange",
+              "voice"
+            ],
+            [
+              97,
+              "Nigel Deakin",
+              "Cast Party",
+              "other"
+            ],
+            [
+              98,
+              "Nintentalk",
+              "Content creator",
+              "creator"
+            ],
+            [
+              99,
+              "Nioshireami",
+              "Cosplayer, content creator",
+              "cosplay"
+            ],
+            [
+              100,
+              "noteasybeinwheezy",
+              "Streamer",
+              "creator"
+            ],
+            [
+              101,
+              "Omega \"CritBard\" Jones",
+              "Actor/Streamer, Oops! All Himbos!",
+              "actor"
+            ],
+            [
+              102,
+              "PAX Pokémon League",
+              "Pokémon League",
+              "gaming"
+            ],
+            [
+              103,
+              "Payton's Corner",
+              "Content creator",
+              "creator"
+            ],
+            [
+              104,
+              "Peachia",
+              "Content creator",
+              "creator"
+            ],
+            [
+              105,
+              "Pierce Courchaine",
+              "",
+              "other"
+            ],
+            [
+              106,
+              "Rocco Botte",
+              "Mega64",
+              "creator"
+            ],
+            [
+              107,
+              "Ryan Freimann",
+              "SVP, Compass International Pictures",
+              "other"
+            ],
+            [
+              108,
+              "Ryan McManus",
+              "Cast Party",
+              "other"
+            ],
+            [
+              109,
+              "SailorxGarnet",
+              "Cosplayer, content creator",
+              "cosplay"
+            ],
+            [
+              110,
+              "Sam Winkler",
+              "Borderlands 3, Tiny Tina's Wonderlands",
+              "voice"
+            ],
+            [
+              111,
+              "Sean Velasco",
+              "Co-Founder, Yacht Club Games",
+              "gaming"
+            ],
+            [
+              112,
+              "Shawn Chatfield",
+              "Mega64",
+              "creator"
+            ],
+            [
+              113,
+              "Spidey Army",
+              "Streamer",
+              "creator"
+            ],
+            [
+              114,
+              "StarsOfCassiopeia",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              115,
+              "Steve Saylor",
+              "Accessibility consultant, content creator",
+              "creator"
+            ],
+            [
+              116,
+              "Stream For A Cause",
+              "Charity streaming nonprofit",
+              "creator"
+            ],
+            [
+              117,
+              "The Storyteller Squad",
+              "Actual play podcast",
+              "creator"
+            ],
+            [
+              118,
+              "Thormungandr",
+              "Twitch Partner",
+              "creator"
+            ],
+            [
+              119,
+              "TofuElliot",
+              "PAX Arena host",
+              "creator"
+            ],
+            [
+              120,
+              "Tyler Jacobson",
+              "",
+              "other"
+            ],
+            [
+              121,
+              "Vinny Caravella",
+              "Nextlander",
+              "creator"
+            ],
+            [
+              122,
+              "Wordfangirl",
+              "Content creator",
+              "creator"
+            ],
+            [
+              123,
+              "Adam Gumbert",
+              "Respawn Aim Fire",
+              "creator"
+            ],
+            [
+              124,
+              "Animated Ginger",
+              "Content creator",
+              "creator"
+            ],
+            [
+              125,
+              "Asa Greenriver",
+              "Writer/Creator, Borderline Entertainment",
+              "other"
+            ],
+            [
+              126,
+              "Ash Paulsen",
+              "GVG panelist",
+              "other"
+            ],
+            [
+              127,
+              "Ayaanic Bond",
+              "Content creator",
+              "creator"
+            ],
+            [
+              128,
+              "Azran127",
+              "Streamer, composer",
+              "music"
+            ],
+            [
+              129,
+              "Cameron Hawkins",
+              "Freelance video game writer",
+              "other"
+            ],
+            [
+              130,
+              "Charlotte Landale",
+              "Castle Bravo",
+              "creator"
+            ],
+            [
+              131,
+              "Claire Haupt",
+              "Date With Us podcast",
+              "creator"
+            ],
+            [
+              132,
+              "Darien D. Hester",
+              "Photographer, DM/GM",
+              "other"
+            ],
+            [
+              133,
+              "Derek Van Dyke",
+              "Pixel Spectrum, Castle Bravo",
+              "creator"
+            ],
+            [
+              134,
+              "DoobDoob",
+              "Content creator",
+              "creator"
+            ],
+            [
+              135,
+              "Eddie_TheGameOrb",
+              "YouTube/Twitch creator",
+              "creator"
+            ],
+            [
+              136,
+              "Emily Merritt",
+              "No Small Games",
+              "creator"
+            ],
+            [
+              137,
+              "Joseph Moran",
+              "The Trophy Room Podcast",
+              "creator"
+            ],
+            [
+              138,
+              "Kate Hunter",
+              "No Small Games",
+              "creator"
+            ],
+            [
+              139,
+              "Kyle Gaymer",
+              "Content creator",
+              "creator"
+            ],
+            [
+              140,
+              "Matt Storm",
+              "Host/Producer, Fun & Games/Reignite",
+              "creator"
+            ],
+            [
+              141,
+              "Matthew Finneman",
+              "Super Deluxe GamesCast",
+              "creator"
+            ],
+            [
+              142,
+              "Moises Taveras",
+              "Freelance writer, GameSpot, Kotaku",
+              "other"
+            ],
+            [
+              143,
+              "Nala J. Wu",
+              "Art Director",
+              "gaming"
+            ],
+            [
+              144,
+              "NovaTheArtist97",
+              "Voice actor",
+              "voice"
+            ],
+            [
+              145,
+              "Radiant G",
+              "Press SPACE to Jump",
+              "creator"
+            ],
+            [
+              146,
+              "Rym DeCoster",
+              "GeekNights",
+              "creator"
+            ],
+            [
+              147,
+              "Scott Rubin",
+              "GeekNights",
+              "creator"
+            ],
+            [
+              148,
+              "ShellshockPrime",
+              "Switch & PlayNYC",
+              "creator"
+            ],
+            [
+              149,
+              "Sylverstone Khandr",
+              "Creator",
+              "creator"
+            ],
+            [
+              150,
+              "Vince Perrino",
+              "Cast Party",
+              "other"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Apr 22 - 25, 2027 Thomas M. Menino Convention & Exhibition Center'; Show Dates & Hours section lists Thursday April 22 through Sunday April 25."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Large guest roster split across a 'GUESTS' section (#1-122) and a 'PANELISTS' section (#123-150) on one Guests page; both sections picked, two guests under 'CANCELED' (Amelia Tyler, Persephone Valentine) skipped. A few org/collective entries with no single named person (Games Done Quick, Jackbox Games, National Association of Voice Actors, Stream For A Cause, PAX Pokemon League) are kept as single guest entries because the site itself gives each its own guest card/bio page like any individual. Pierce Courchaine and Tyler Jacobson have no known-for text on their cards at all (only venue/day), so known-for is left blank for both rather than guessed. JSON-LD gave slightly different UTC timestamps (Apr 21 22:00 - Apr 25 06:00); used the page's own visible 'Show Dates & Hours' (Thu Apr 22 - Sun Apr 25) instead. Cover: picked the 2026/backgrounds 'enforcer' split-background key art over a crowd photo from a past Omegathon and a plain gradient; no og/twitter image, just the dateless logo. 2026-10-05 re-verify: current -- fresh extraction of the guests page itself (not just the homepage) leads with 'Apr 22 - 25, 2027 Thomas M. Menino Convention & Exhibition Center' and every card carries this edition's day-specific schedule tags (Panels/Autographing Thu-Sun); the same CANCELED section with only Amelia Tyler and Persephone Valentine still appears and all 150 picks still match exactly, so the lineup is unchanged. REFUTE-pass (2026-10-05): upheld, all 150 proven -- a further independent --fresh re-extraction again leads with 'Apr 22 - 25, 2027 Thomas M. Menino Convention & Exhibition Center' and confirms every guest card still carries a specific Thu/Fri/Sat/Sun-style schedule tag matching this edition's own Thu-Sun calendar (e.g. #150 Vince Perrino still 'Panels Thu'); the CANCELED section is still exactly Amelia Tyler and Persephone Valentine, unchanged."
+}

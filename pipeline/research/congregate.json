@@ -1,0 +1,37 @@
+{
+  "id": "congregate",
+  "name": "ConGregate",
+  "short": "",
+  "url": "https://con-gregate.com",
+  "organizer": "ConGregate Productions, Inc.",
+  "status": "active",
+  "types": ["scifi", "cosplay"],
+  "blurb": "An all-volunteer, interactive science-fiction convention held each July in the Triad region of North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/congregate.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Greensboro Marriott Airport",
+      "city": "Greensboro",
+      "region": "NC",
+      "country": "US",
+      "guestsPage": "https://con-gregate.com/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/congregate.guests.json",
+          "picks": [
+            [1, "Michael A. Stackpole", "", "author"],
+            [2, "Timothy Zahn", "", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'When & Where July 9-11, 2027 Greensboro Marriott Airport' and 'Guests of Honor Michael A. Stackpole Timothy Zahn ... 2027 Featured Guests include: Michael A. Stackpole and Timothy Zahn'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "There is no separate guest-listing page (the nav's 'Guests' item and a direct /guests URL 404; the only guest content is the 'Guests of Honor' section on the homepage itself), so the homepage was re-extracted in --mode guests to get numbered candidates. Skipped #3 'Greg 8' (the con's mascot/alien character, not a real person) and #5 'Outworld Fleet Radio' (listed under the Sponsors section, not Guests of Honor). The two Guest of Honor cards (#1, #2) carry only a photo and name, no credit text, so 'Known for' is left blank for both per RESEARCH.md; cat 'author' is used because Stackpole and Zahn are known science-fiction novelists, which the homepage text itself corroborates in context (Star Wars-themed con, 'Celebrating 50 years of Star Wars'). Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — the homepage's Guests of Honor section still shows only the Stackpole/Zahn cards tied to the same July 9-11, 2027 date block, with no separate or older guest listing anywhere on the site. Refute-03 recheck (2026-10-05): tried to refute, upheld -- unchanged on a fresh fetch, and a web search found ConGregate 2026's actual featured guests were Richard Kadrey, John Scalzi and Sherrilyn Kenyon, entirely different people; since this con has only one undated homepage (no archive), that mismatch is the strongest available evidence that the current Stackpole/Zahn grid is not a leftover from the recently-ended prior edition, and it sits beside the '50 years of Star Wars' anniversary theme that can only apply to 2027."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "florida-supercon",
+  "name": "Florida Supercon",
+  "short": "",
+  "url": "https://www.floridasupercon.com",
+  "organizer": "ReedPop",
+  "status": "active",
+  "types": ["comics", "pop", "anime", "games"],
+  "blurb": "Miami Beach's large multi-genre convention spanning comics, anime, gaming and celebrity guests, part of the ReedPop/Popverse network.",
+  "cover": { "file": "pipeline/cache/extract/florida-supercon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "dates": "confirmed",
+      "venue": "Miami Beach Convention Center",
+      "city": "Miami Beach",
+      "region": "FL",
+      "country": "US",
+      "tickets": "https://www.floridasupercon.com/en-us/buy/tickets.html",
+      "guestsPage": "https://www.floridasupercon.com/en-us/guests.html",
+      "guests": "none-yet",
+      "evidence": "JSON-LD Event 'Florida Supercon' 2027-07-09 -> 2027-07-11 @ Miami Beach Convention Center; homepage: 'July 09 - 11, 2027 Miami Beach Convention Center' and 'Join us at Supercon, July 9–11, 2027'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Skipped 3 candidates explicitly under a 'Canceled' section (Christy Carlson Romano, Shaun Barrowes, Wil Quintana) per the skip-cancelled-guests rule, and one duplicate (Rosario Dawson reappears in a footer autograph-schedule block, already picked under Guests of Honor). 'IS*A Works' and 'HoraTora Studios' are studio/brand-style guest credits (treated like a group, one guest). Known-for trimmed to the first one or two credits from each card's (sometimes long, comma-separated) alt text. Organizer confirmed via the shared ReedPop/Popverse branding (Emerald City Comic Con and C2E2 logos appear on this site) matching the seed note. Guest-freshness recheck (verify-06, 2026-10-05): confirmed current — the page still runs a live forward countdown ('Join us at Supercon, July 9–11, 2027, 277 days…') and every Guests Of Honor/Featured Guests card still matches this edition, with the same three Canceled guests correctly excluded. REFUTED (refute-04, 2026-10-05): the countdown is template-level only. Florida Supercon's actual most recent edition ran July 10-12, 2026 (confirmed by web search, 20th-anniversary show) and ended 3 months ago; web search confirms Charlie Cox, Rosario Dawson, Hayden Christensen, Krysten Ritter, Deborah Ann Woll, Wilson Bethel and Rachael Leigh Cook all appeared at that July 2026 show (Daredevil: Born Again cast panel, Josie and the Pussycats panel) — i.e. this entire 75-guest grid, including the live 'Canceled' section (itself a staleness sign for a show still 277 days out), is the 2026 lineup still live on the page, not a 2027 announcement. No guest card, filename or alt text ties any name to 2027 specifically. Guests reset to none-yet; lineup and textOnlyGuests removed until a genuine 2027 announcement appears."
+}

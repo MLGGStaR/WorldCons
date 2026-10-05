@@ -1,0 +1,15 @@
+{
+  "id": "abertoir",
+  "name": "Abertoir",
+  "short": "",
+  "url": "https://abertoir.co.uk/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror"],
+  "blurb": "The International Horror Festival of Wales: horror film screenings, special guests and events at Aberystwyth Arts Centre.",
+  "cover": { "file": "pipeline/cache/extract/abertoir.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": { "start": "2025-11-12", "end": "2025-11-16", "city": "Aberystwyth", "region": "", "country": "GB", "venue": "Aberystwyth Arts Centre" },
+  "checked": "2026-10-05",
+  "notes": "Abertoir skipped its usual 5-day November festival in 2026: a 19 Aug 2026 site post ('Abertoir's not-so-fallow year revealed!') says there 'won't be a big, 5-day festival this year', running one-off standalone screenings through autumn 2026 instead and promising 'a full event in 2027' with no dates yet announced. The last full edition was the 20th-anniversary festival, 12-16 Nov 2025 in Aberystwyth (confirmed via web search)."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "global-games-show-abu-dhabi",
+  "name": "Global Games Show Abu Dhabi",
+  "short": "GGS",
+  "url": "https://www.globalgamesshow.com/abu-dhabi/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["games"],
+  "blurb": "B2B gaming industry conference and exhibition in Abu Dhabi for executives, investors and publishers, not open to the general public.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Trade-only: the site itself describes it as 'Your Gateway To The World Of B2B Gaming' aimed at senior executives, investors, publishers and decision-makers, with VIP/Business passes from $999 and no general-public fan program (no cosplay/guest-signing content). Marked inactive for this fan-convention tracker rather than tracked as an upcoming edition. Next edition is Jan 27-28, 2027 in Abu Dhabi per the live homepage text (the page's own JSON-LD is stale, still showing a Nov 23-24, 2026 date); exact venue not stated on the site, so not recorded (fixup note's 'Space42 Arena, Nov 10-11' guess does not match the live site and was not used)."
+}

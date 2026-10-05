@@ -1,0 +1,30 @@
+{
+  "id": "anime-midwest",
+  "name": "Anime Midwest",
+  "short": "",
+  "url": "https://animemidwest.com/",
+  "organizer": "AnimeCon.org",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "A three-day anime convention at the Donald E. Stephens Convention Center in Rosemont, Illinois, with cosplay and concerts.",
+  "cover": { "file": "pipeline/cache/extract/anime-midwest.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-07-02",
+      "end": "2027-07-04",
+      "dates": "confirmed",
+      "venue": "Donald E. Stephens Convention Center",
+      "city": "Rosemont",
+      "region": "IL",
+      "country": "US",
+      "tickets": "https://animemidwest.com/register",
+      "guestsPage": "https://animemidwest.com/guests",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Ready for Anime Midwest? July 2 - 4, 2027'; location page: 'Anime Midwest will be held at the Donald E. Stephens Convention Center in Rosemont, Illinois' and 'July 2 - 4, 2027 Rosemont, Illinois.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page ('Guests for Chicago Anime Con') rendered only partner/sibling-convention logos and sponsor logos, no guest photos for the 2027 edition yet, hence 'none-yet'. Organizer AnimeCon.org confirmed via the footer, which lists Anime Midwest alongside its sibling events (AniMinneapolis, Anime-zing!, M.A.G.E., Anime-ZAP!)."
+}

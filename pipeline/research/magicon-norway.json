@@ -9,6 +9,14 @@
   "blurb": "Norway's largest cosplay convention, held at Nova Spektrum in Lillestrøm with guests, panels, workshops and competitions.",
   "cover": { "file": "pipeline/cache/extract/magicon-norway.home.json", "key": "hero:0" },
   "editions": [],
+  "last": {
+    "start": "2026-06-20",
+    "end": "2026-06-21",
+    "city": "Oslo",
+    "region": "",
+    "country": "NO",
+    "venue": "Oslo Konserthus"
+  },
   "checked": "2026-10-05",
-  "notes": "Each edition has its own theme name (2024 Evolution, 2025 Unchained, 2026 Vanguard); the next is 'MagiCon Catalyst' at Nova Spektrum, Lillestrøm. The homepage (rendered fresh 2026-10-04) only shows a live countdown ('257 DAYS 9 HOURS...') toward it with guests/panels/competitions all marked 'COMING SOON', and the ticket-info page says tickets are 'not available yet' — no explicit start date has been published in text, so no edition is recorded rather than back-computing a date from the countdown widget. The countdown points to roughly mid/late June 2027. Cover image is the 'Magicon-Catalyst-theme-background' art already published for this next edition. No explicit organizer/company name found on the pages checked (home, ticket-info, reports-updates)."
+  "notes": "Each edition has its own theme name (2024 Evolution, 2025 Unchained, 2026 Vanguard); the next is 'MagiCon Catalyst' at Nova Spektrum, Lillestrøm. The homepage (rendered fresh 2026-10-04) only shows a live countdown ('257 DAYS 9 HOURS...') toward it with guests/panels/competitions all marked 'COMING SOON', and the ticket-info page says tickets are 'not available yet' — no explicit start date has been published in text, so no edition is recorded rather than back-computing a date from the countdown widget. The countdown points to roughly mid/late June 2027. Cover image is the 'Magicon-Catalyst-theme-background' art already published for this next edition. No explicit organizer/company name found on the pages checked (home, ticket-info, reports-updates). 2026-10-05 fixup pass: homepage re-checked fresh, still only a countdown toward Catalyst with no explicit date. WebSearch (oslokonserthus.no's own program page, a ticketing listing, and the site's own \"Experience Survey 2026: Vanguard\" post) confirms the prior edition, MagiCon Vanguard, ran 20-21 June 2026 at Oslo Konserthus (its last year at that venue before the move to Nova Spektrum); recorded as \"last\"."
 }

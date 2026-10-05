@@ -1,0 +1,30 @@
+{
+  "id": "garden-state-comic-fest",
+  "name": "Garden State Comic Fest",
+  "short": "",
+  "url": "https://www.gardenstatecomicfest.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "A comic and pop-culture convention at the Richard J. Codey Arena in West Orange, NJ, part of a family of Garden State events across New Jersey.",
+  "cover": { "file": "pipeline/cache/extract/garden-state-comic-fest.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-06-26",
+      "end": "2027-06-27",
+      "dates": "confirmed",
+      "venue": "Richard J. Codey Arena",
+      "city": "West Orange",
+      "region": "NJ",
+      "country": "US",
+      "tickets": "https://www.gardenstatecomicfest.com/",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage countdown block: 'Sat, June 26 · 10am–5pm | Sun, June 27 · 10am–3pm Richard J. Codey Arena · 560 Northfield Ave, West Orange, NJ'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "This is the flagship West Orange show at gardenstatecomicfest.com; the same organizer runs sister events 'Garden State Comic Fest Vineland' (Nov 2027, gscfvineland.com), 'Garden State Winter Fest' and 'Garden State Anime Fest' (both in Augusta, NJ, gscfwinterfest.com) as separate sites/brands, out of scope for this id/name. The homepage's key-art banner's own alt text reads '...June 27 & 28, 2027', one day later than the on-page schedule/countdown text ('Sat, June 26... Sun, June 27'); the schedule text was treated as authoritative since it states exact hours, and the banner alt looks like an earlier draft date that wasn't updated — worth a human double-check. No guest page or ticket-vendor link appears anywhere in the rendered navigation, so guests is none-yet and tickets falls back to the homepage. No organizer name was found on the page."
+}

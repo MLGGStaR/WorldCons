@@ -1,0 +1,15 @@
+{
+  "id": "megamoosecon",
+  "name": "MegaMooseCon",
+  "short": "",
+  "url": "https://www.megamoosecon.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["tabletop"],
+  "blurb": "A tabletop gaming convention with open board gaming, RPGs, war games and demos, now held at Gibson Mill Market in Concord, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/megamoosecon.home.json", "key": "hero:2" },
+  "editions": [],
+  "last": { "start": "2026-09-25", "end": "2026-09-27", "city": "Concord", "region": "NC", "country": "US", "venue": "Gibson Mill Market" },
+  "checked": "2026-10-05",
+  "notes": "Correction: the batch gave Richburg, SC, which matches only the page's stale <meta description> ('A Board Game Convention located in Richburg, SC'); the site's actual, current body text marks its 'Convention Location' as 'NEW!' and gives it as 'Gibson Mill Market 305 McGill Ave. NW Concord, NC 28027' -- i.e. the convention has moved to Concord, North Carolina (confirmed independently via web search: 'MegaMooseCon 2026 was held September 25-27, 2026 at Gibson Mill Market in Concord, NC'). That 2026 edition (Sept 25-27) is already over as of today (2026-10-05), and no 2027 dates are announced yet on the site or anywhere else found, so it is recorded as 'last'. This is a hobbyist tabletop-gaming convention (board games, RPGs, war games, demos) with no mention of 'guest' anywhere on the homepage, so guests would be 'none' if an edition were listed."
+}

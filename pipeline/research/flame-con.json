@@ -1,0 +1,15 @@
+{
+  "id": "flame-con",
+  "name": "Flame Con",
+  "short": "",
+  "url": "https://www.flamecon.org",
+  "organizer": "Geeks OUT",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "The world's largest LGBTQ+ comics and pop-culture convention, run by the nonprofit Geeks OUT at the Marriott Marquis Times Square.",
+  "cover": { "file": "pipeline/cache/extract/flame-con.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-08-15", "end": "2026-08-16", "city": "New York", "region": "NY", "country": "US", "venue": "New York Marriott Marquis" },
+  "checked": "2026-10-05",
+  "notes": "The site's homepage still reflects the just-completed 2026 edition ('The 2026 Flame Con Schedule is LIVE!', ticket link path 'flame-con-2026') with no 2027 date posted yet. Its own Ticketleap listing confirms the 2026 edition ran 'Sat, Aug 15th, 2026 ... Sun, Aug 16th, 2026' at the 'Mariott Marquis NYC' (flamecon.org/location/ separately confirms 'Flame Con is Moving to the Marriott Marquis Times Square, 1535 Broadway'). That edition already ended before the research window, so editions is empty and the last confirmed edition is recorded instead."
+}

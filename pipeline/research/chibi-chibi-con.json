@@ -1,0 +1,22 @@
+{
+  "id": "chibi-chibi-con",
+  "name": "Chibi Chibi Con",
+  "short": "CCC",
+  "url": "https://chibichibiconvention.com/",
+  "organizer": "Chibi Chibi Con Committee (The Evergreen State College RSO)",
+  "status": "active",
+  "types": ["anime", "games", "cosplay"],
+  "blurb": "A free, student-run one-day anime and gaming convention at The Evergreen State College in Olympia, running since 2001.",
+  "cover": { "file": "pipeline/cache/extract/chibi-chibi-con.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-16",
+    "end": "2026-05-16",
+    "venue": "The Evergreen State College",
+    "city": "Olympia",
+    "region": "WA",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The site's own title tag and header still read 'Chibi Chibi Con – May 16th 2026 | The Evergreen State College in Olympia, WA | Since 2001' with no mention of 2027 anywhere on the homepage or About text, so no next edition has been announced yet; the May 16, 2026 one-day event (already past) is recorded as 'last'. No Guests page or guest program exists on the site (nav covers schedule, contests, artist alley and volunteering only); this is a small, free, student-run convention without a celebrity-guest model."
+}

@@ -1,0 +1,480 @@
+{
+  "id": "thought-bubble",
+  "name": "Thought Bubble",
+  "short": "",
+  "url": "https://www.thoughtbubblefestival.com/",
+  "organizer": "",
+  "status": "active",
+  "types": [
+    "comics",
+    "cosplay"
+  ],
+  "blurb": "Yorkshire's comic art festival; its ticketed weekend convention fills Harrogate Convention Centre with comic creators.",
+  "cover": {
+    "file": "pipeline/cache/extract/thought-bubble.home.json",
+    "key": "hero:2"
+  },
+  "editions": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "dates": "confirmed",
+      "venue": "Harrogate Convention Centre",
+      "city": "Harrogate",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://www.thoughtbubblefestival.com/tickets",
+      "guestsPage": "https://www.thoughtbubblefestival.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/thought-bubble.guests.json",
+          "picks": [
+            [
+              0,
+              "Charlie Adlard",
+              "",
+              "comics"
+            ],
+            [
+              1,
+              "Kate Beaton",
+              "",
+              "comics"
+            ],
+            [
+              2,
+              "Simon Bisley",
+              "",
+              "comics"
+            ],
+            [
+              3,
+              "Jeffrey Brown",
+              "Saturday only",
+              "comics"
+            ],
+            [
+              4,
+              "Becky Cloonan",
+              "",
+              "comics"
+            ],
+            [
+              5,
+              "Erica D'Urso",
+              "",
+              "comics"
+            ],
+            [
+              6,
+              "Al Ewing",
+              "",
+              "comics"
+            ],
+            [
+              7,
+              "Matt Fraction",
+              "",
+              "comics"
+            ],
+            [
+              8,
+              "Lee Garbett",
+              "",
+              "comics"
+            ],
+            [
+              9,
+              "Kieron Gillen",
+              "",
+              "comics"
+            ],
+            [
+              10,
+              "Jock",
+              "",
+              "comics"
+            ],
+            [
+              11,
+              "Jahnoy Lindsay",
+              "",
+              "comics"
+            ],
+            [
+              12,
+              "Tula Lotay",
+              "",
+              "comics"
+            ],
+            [
+              13,
+              "Jamie McKelvie",
+              "",
+              "comics"
+            ],
+            [
+              14,
+              "Alice Oseman",
+              "Sunday only",
+              "comics"
+            ],
+            [
+              15,
+              "Emma Rios",
+              "",
+              "comics"
+            ],
+            [
+              16,
+              "Rubyetc",
+              "",
+              "comics"
+            ],
+            [
+              17,
+              "Simon Spurrier",
+              "",
+              "comics"
+            ],
+            [
+              18,
+              "Christian Ward",
+              "",
+              "comics"
+            ],
+            [
+              19,
+              "Caspar Wijngaard",
+              "",
+              "comics"
+            ],
+            [
+              20,
+              "Yudori",
+              "",
+              "comics"
+            ],
+            [
+              21,
+              "John Allison",
+              "",
+              "comics"
+            ],
+            [
+              22,
+              "Mohsen Ashraf",
+              "",
+              "comics"
+            ],
+            [
+              23,
+              "Philip Bond",
+              "",
+              "comics"
+            ],
+            [
+              24,
+              "Shelly Bond",
+              "",
+              "comics"
+            ],
+            [
+              25,
+              "Carola Borelli",
+              "",
+              "comics"
+            ],
+            [
+              26,
+              "Aaron Campbell",
+              "",
+              "comics"
+            ],
+            [
+              27,
+              "Katriona Chapman",
+              "",
+              "comics"
+            ],
+            [
+              28,
+              "Boo Cook",
+              "",
+              "comics"
+            ],
+            [
+              29,
+              "Dave Cook",
+              "",
+              "comics"
+            ],
+            [
+              30,
+              "Michael Conrad",
+              "",
+              "comics"
+            ],
+            [
+              31,
+              "Erin Connally",
+              "",
+              "comics"
+            ],
+            [
+              32,
+              "Paul Cornell",
+              "",
+              "comics"
+            ],
+            [
+              33,
+              "Adam De Souza",
+              "",
+              "comics"
+            ],
+            [
+              34,
+              "Colleen Douglas",
+              "",
+              "comics"
+            ],
+            [
+              35,
+              "Vincenzo Federici",
+              "",
+              "comics"
+            ],
+            [
+              36,
+              "Tana Ford",
+              "",
+              "comics"
+            ],
+            [
+              37,
+              "Al Davison",
+              "",
+              "comics"
+            ],
+            [
+              38,
+              "Doaly",
+              "",
+              "comics"
+            ],
+            [
+              39,
+              "Tim Fish",
+              "",
+              "comics"
+            ],
+            [
+              40,
+              "Jessica Fong",
+              "",
+              "comics"
+            ],
+            [
+              41,
+              "Antonio Fuso",
+              "",
+              "comics"
+            ],
+            [
+              42,
+              "Sarah Graley",
+              "",
+              "comics"
+            ],
+            [
+              43,
+              "Abigail Harding",
+              "",
+              "comics"
+            ],
+            [
+              44,
+              "Luke Healy",
+              "",
+              "comics"
+            ],
+            [
+              45,
+              "Michael D. Kennedy",
+              "",
+              "comics"
+            ],
+            [
+              46,
+              "Shazleen Khan",
+              "",
+              "comics"
+            ],
+            [
+              47,
+              "Marc Laming",
+              "",
+              "comics"
+            ],
+            [
+              48,
+              "John Lees",
+              "",
+              "comics"
+            ],
+            [
+              49,
+              "Mahdi Khene",
+              "",
+              "comics"
+            ],
+            [
+              50,
+              "Kim-Joy",
+              "",
+              "comics"
+            ],
+            [
+              51,
+              "Lauren Knight",
+              "",
+              "comics"
+            ],
+            [
+              52,
+              "Patricia Martín",
+              "",
+              "comics"
+            ],
+            [
+              53,
+              "Dan McDaid",
+              "",
+              "comics"
+            ],
+            [
+              54,
+              "Mick McMahon",
+              "",
+              "comics"
+            ],
+            [
+              55,
+              "Ian McQue",
+              "",
+              "comics"
+            ],
+            [
+              56,
+              "David Messina",
+              "",
+              "comics"
+            ],
+            [
+              57,
+              "Renée Nault",
+              "",
+              "comics"
+            ],
+            [
+              58,
+              "Bex Ollerton",
+              "",
+              "comics"
+            ],
+            [
+              59,
+              "John J. Pearson",
+              "",
+              "comics"
+            ],
+            [
+              60,
+              "Jacob Phillips",
+              "",
+              "comics"
+            ],
+            [
+              61,
+              "Sean Phillips",
+              "",
+              "comics"
+            ],
+            [
+              62,
+              "Ahmed Raafat",
+              "",
+              "comics"
+            ],
+            [
+              63,
+              "Ramzee",
+              "",
+              "comics"
+            ],
+            [
+              64,
+              "Alison Sampson",
+              "",
+              "comics"
+            ],
+            [
+              65,
+              "Martin Simmonds",
+              "",
+              "comics"
+            ],
+            [
+              66,
+              "Cam Smith",
+              "",
+              "comics"
+            ],
+            [
+              67,
+              "Rachael Smith",
+              "",
+              "comics"
+            ],
+            [
+              68,
+              "Richard Starkings",
+              "",
+              "comics"
+            ],
+            [
+              69,
+              "Hamish Steele",
+              "",
+              "comics"
+            ],
+            [
+              70,
+              "Nina Vakueva",
+              "",
+              "comics"
+            ],
+            [
+              71,
+              "Chrissy Williams",
+              "",
+              "comics"
+            ],
+            [
+              72,
+              "Rob Williams",
+              "",
+              "comics"
+            ]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage/guests page text: 'Comic Convention | 14 & 15 November 2026 | Harrogate Convention Centre, England' and 'Guests will be at Thought Bubble Comic Convention Saturday 14 & Sunday 15 November 2026 at Harrogate Convention Centre.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The wider 'festival' runs 9-15 Nov 2026 across Yorkshire venues, but the ticketed comic convention itself (the entry recorded here) is the 14-15 Nov weekend at Harrogate Convention Centre. The guests page shows 73 named creators as plain photo cards with no known-for text (only two carry a day restriction, 'Saturday Only' / 'Sunday Only'); all are comics creators per the festival's own focus, so cat is 'comics' for all and Known-for is left blank except those two day notes. Candidates #73-85 on that page are sponsor/exhibitor banner ads, not guests, and were skipped."
+}

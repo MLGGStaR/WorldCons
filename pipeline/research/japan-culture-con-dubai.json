@@ -1,0 +1,22 @@
+{
+  "id": "japan-culture-con-dubai",
+  "name": "Japan Culture Con",
+  "short": "JCC",
+  "url": "https://japanculturecon.ae/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Three-day Japanese culture festival in Dubai's Burj Park with taiko, samurai shows, J-pop concerts, kimono fashion and cosplay.",
+  "cover": { "file": "pipeline/cache/extract/japan-culture-con-dubai.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2025-12-12",
+    "end": "2025-12-14",
+    "city": "Dubai",
+    "region": "",
+    "country": "AE",
+    "venue": "Burj Park, Downtown Dubai"
+  },
+  "checked": "2026-10-05",
+  "notes": "Season 2 ran Dec 12-14, 2025 at Burj Park. The official site's Events page is empty and the homepage still only carries the 2025 season banner, with no Season 3 dates announced anywhere, matching the fixup note."
+}

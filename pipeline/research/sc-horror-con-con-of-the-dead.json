@@ -1,0 +1,15 @@
+{
+  "id": "sc-horror-con-con-of-the-dead",
+  "name": "SC Horror Convention",
+  "short": "Con of the Dead",
+  "url": "https://schorror.ticketsauce.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "toys", "cosplay"],
+  "blurb": "Columbia, South Carolina's family-friendly horror convention at the Columbia Metropolitan Convention Center, with celebrity guests, vendors and a live haunt.",
+  "cover": { "file": "pipeline/cache/extract/sc-horror-con-con-of-the-dead.home.json", "key": "og" },
+  "editions": [],
+  "last": { "start": "2026-09-19", "end": "2026-09-20", "city": "Columbia", "region": "SC", "country": "US", "venue": "Columbia Metropolitan Convention Center" },
+  "checked": "2026-10-05",
+  "notes": "Confirms the batch note: no independent domain exists, only this Ticketsauce portal (schorror.ticketsauce.com), whose own 'Upcoming Events' list says 'Check Back Soon!' with nothing listed. Its 2026 event page confirms the most recent ('fourth annual') edition already happened and has passed: JSON-LD 2026-09-19T10:00-04:00 to 2026-09-20T17:00-04:00 at the Columbia Metropolitan Convention Center, and the page itself states 'This event has already passed.' (also corroborated by a Daily Gamecock article dated 2026-09-17, 'Con of the Dead: South Carolina Horror Convention turns 4'). That is before today (2026-10-05), so it is recorded as 'last' rather than an upcoming edition; no 2027 date has been announced anywhere (site, Eventbrite mirror, or the venue's own listing)."
+}

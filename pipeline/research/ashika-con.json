@@ -1,0 +1,22 @@
+{
+  "id": "ashika-con",
+  "name": "Chiisana-Ryu Con",
+  "short": "",
+  "url": "https://chiisanaryu.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay", "games", "comics"],
+  "blurb": "Formerly Ashika-Con, this Southwest Washington anime and pop-culture convention has relaunched as Chiisana-Ryu Con, now based in Battle Ground.",
+  "cover": { "file": "pipeline/cache/extract/ashika-con.home.json", "key": "hero:6" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-01",
+    "end": "2026-05-02",
+    "venue": "Clark College (Gaiser Student Center & Penguin Student Lounge)",
+    "city": "Vancouver",
+    "region": "WA",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "The given URL (ashikacon.com) is now a parked/expired GoDaddy domain with no content. The organization has relaunched at chiisanaryu.com, which states outright: 'We're excited to welcome you to Chiisana Ryū Con, the next chapter of Ashika-Con!' (its Facebook page, 'Chiisana Ryū Fandom Celebration', lists contact director@ashikacon.com, confirming it's the same organizers) and now appears based in Battle Ground, WA (partnered with 'Battle Ground Community Education') rather than the old Vancouver, WA/Clark College venue. No confirmed next-edition date was recorded: the new site shows only a live countdown timer (no literal calendar date anywhere) and its own volunteer page contains leftover unedited template text referencing an unrelated convention ('Meadowlark Comic Con'), so the countdown and any 2026/2027 edition labels on the page were judged unreliable rather than treated as an announced date. The site's '/ourguests' page does show one real, named guest for the next show: voice actor Brian Beacock (known for Monokuma in Danganronpa, Akutagawa in Bungo Stray Dogs, Krillin in Dragon Ball Super, and other roles) via a gallery of the characters he's voiced, but with no edition to attach it to this was left out of the structured guest list rather than guessed into one. The 'last' edition recorded (May 1-2, 2026, Clark College, Vancouver, WA) is the final confirmed Ashika-Con edition before the rebrand, per contemporaneous coverage (The Columbian). Re-check chiisanaryu.com once it publishes real dates/venue; no cover art exists yet beyond a 'Little Dragon' mascot placeholder card still marked 'TBA', which is used here since nothing better is available."
+}

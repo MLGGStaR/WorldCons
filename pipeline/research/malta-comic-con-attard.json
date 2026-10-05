@@ -1,0 +1,14 @@
+{
+  "id": "malta-comic-con-attard",
+  "name": "Malta Comic Con",
+  "short": "",
+  "url": "https://www.maltacomiccon.com/",
+  "organizer": "Comics Society of Malta",
+  "status": "inactive",
+  "types": ["comics", "pop", "cosplay", "anime"],
+  "blurb": "Duplicate discovery entry for Malta Comic Con; see malta-comic-con-ta-qali for the active record.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Duplicate of malta-comic-con-ta-qali, not a distinct show. Both batch entries share the exact same URL (https://www.maltacomiccon.com/) and, confirmed by extracting the homepage, the exact same content: 'Join us on the 10th & 11th October 2026 at the MFCC, Ta' Qali...'. There is no separate Attard-held edition; the con's own site names the venue as 'the MFCC, Ta' Qali', so the full research (dates, cover, guests) was written under malta-comic-con-ta-qali instead, and this id is kept inactive per the given id/instructions so the convention isn't double-listed."
+}

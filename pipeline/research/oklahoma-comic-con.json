@@ -1,0 +1,22 @@
+{
+  "id": "oklahoma-comic-con",
+  "name": "Oklahoma Comic Con",
+  "short": "",
+  "url": "https://www.oklahomacomiccon.com/",
+  "organizer": "VXV Events, LLC",
+  "status": "active",
+  "types": ["comics", "pop", "cosplay"],
+  "blurb": "Tulsa, Oklahoma comic convention at the Arvest Convention Center with celebrity, creator and cosplay guests.",
+  "cover": { "file": "pipeline/cache/extract/oklahoma-comic-con.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-08",
+    "end": "2026-08-09",
+    "city": "Tulsa",
+    "region": "OK",
+    "country": "US",
+    "venue": "Arvest Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "The official site (run by VXV Events, LLC) shows no date text anywhere on the homepage or the guests page as of 2026-10-05. The most recent confirmed edition was August 8-9, 2026 at the Arvest Convention Center in Tulsa (per the venue's own listing and local TV news coverage), which has already ended, and no 2027 date has been posted yet. The /guests page currently shows only a handful of placeholder cards plus one stray 'Jeff Hardy' mention inside generic FAQ-style copy, with no clear current lineup - consistent with no new edition being announced yet. Re-check oklahomacomiccon.com for the next date."
+}

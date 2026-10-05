@@ -1,0 +1,43 @@
+{
+  "id": "scream-diego",
+  "name": "Scream Diego",
+  "short": "",
+  "url": "https://screamdiego.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "San Diego's Halloween and horror convention, a one-day event with horror vendors, panels, short-film screenings and guest actors.",
+  "cover": { "file": "pipeline/cache/extract/scream-diego.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "dates": "confirmed",
+      "venue": "Doubletree by Hilton San Diego - Mission Valley (Hazard Center)",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://screamdiego.com/tickets/",
+      "guestsPage": "https://screamdiego.com/special-guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/scream-diego.guests.json",
+          "picks": [
+            [2, "Dustin Ferguson", "Independent filmmaker, 150+ films", "other"],
+            [9, "Jed Rowen", "Actor, Amazing Bulk, Brute 1976", "actor"],
+            [15, "Jeff Farley", "Emmy-nominated FX makeup designer", "other"],
+            [22, "Mark Torgl", "Melvin in The Toxic Avenger", "actor"],
+            [29, "Michael Kenworthy", "Return of the Living Dead Part II", "actor"],
+            [36, "Mike Caravella", "Actor/filmmaker, It's Always Sunny", "actor"],
+            [42, "Vincent M Ward", "Oscar in The Walking Dead", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Scream Diego is coming back this October 17, 2026, to a new venue, the Doubletree by Hilton San Diego in Mission Valley' and 'The venue is located at 7450 Hazard Center Dr, San Diego, CA 92108.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The Special Guests page shows each guest as a photo gallery (one bio card followed by several extra stills/poster images of that same person with no further names), so only the first, bio-bearing card per person was picked; the rest are repeat photos, not additional guests. A separate 'Monster Prom' blog post names two club DJs (Robin Roth and 'Kaerie') for a dance-party night, but they are not on the Special Guests roster and have no bios, so they were left out rather than guessed at. No organizer entity was found on the page."
+}

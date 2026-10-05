@@ -1,0 +1,22 @@
+{
+  "id": "aninite",
+  "name": "AniNite",
+  "short": "",
+  "url": "https://www.aninite.at/",
+  "organizer": "AniManga Austria",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Austria's largest anime and manga convention, held at Austria Center Vienna with cosplay contests including a World Cosplay Summit heat.",
+  "cover": { "file": "pipeline/cache/extract/aninite.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-07",
+    "end": "2026-08-09",
+    "city": "Vienna",
+    "region": "",
+    "country": "AT",
+    "venue": "Austria Center Vienna"
+  },
+  "checked": "2026-10-05",
+  "notes": "Homepage still only shows the Aug 7-9, 2026 dates ('Oeffnungszeiten 07.08.2026 - 09.08.2026') that already ran, with no next date announced yet, so editions is empty and that show is recorded as 'last'. Organizer confirmed on-site in the privacy text: 'Wir, AniManga Austria - Arbeitskreis japanische Jugendkultur (Vereinssitz: Oesterreich)...'. Cover uses the site's 'Banner_2026_FL.jpg' hero image (the most recent official banner) rather than og:image, which is an older 'Banner_2025_v1.jpg'."
+}

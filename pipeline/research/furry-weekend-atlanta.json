@@ -1,0 +1,30 @@
+{
+  "id": "furry-weekend-atlanta",
+  "name": "Furry Weekend Atlanta",
+  "short": "FWA",
+  "url": "https://furryweekend.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "One of the world's largest furry conventions, held each May across a block of downtown Atlanta hotels.",
+  "cover": { "file": "pipeline/cache/extract/furry-weekend-atlanta.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-06",
+      "end": "2027-05-09",
+      "dates": "confirmed",
+      "venue": "Marriott Marquis Atlanta & downtown Atlanta hotel block",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "tickets": "https://furryweekend.com/register",
+      "guestsPage": "https://furryweekend.com/",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'May 6th-9th, 2027 REGISTRATION IS OPEN!'; hotels page: 'FWA 2027 Hotels' listing Marriott Marquis, Hyatt Regency, Hilton, Courtland Grand and Westin Atlanta"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site is a freshly rebuilt Astro site; nav items About/Events and the guests-of-honor page (/dealers-and-artists/guests-of-honor/, found via WebSearch) all 404 live, so guestsPage falls back to the homepage. A WebSearch found that 'Faru of Big Lion's Den' has been announced as the 2027 Guest of Honor under a 'Grand Prix' theme (matching the homepage's racing-themed hero art), but with no working guest page to read or a sourceable photo, guests is marked 'unavailable' rather than guessed from the search snippet alone. The hotels page lists FWA's 2027 downtown-Atlanta hotel block but does not label a single headquarters hotel; the first-listed (Marriott Marquis Atlanta) is used as venue. No organizer legal name is stated on the site (described only as a 'community-driven, volunteer-led organization')."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "son-of-monsterpalooza",
+  "name": "Son of Monsterpalooza",
+  "short": "",
+  "url": "https://www.monsterpalooza.com/",
+  "organizer": "The Rubber Room",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "The smaller autumn spinoff of Monsterpalooza, a makeup-effects and horror show at a Burbank hotel convention center.",
+  "cover": { "file": "pipeline/cache/extract/son-of-monsterpalooza.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "The Marriott Burbank Convention Center & Hotel",
+      "city": "Burbank",
+      "region": "CA",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/son-of-monsterpalooza-burbank-2026-tickets-1991030516873",
+      "guestsPage": "https://www.monsterpalooza.com/guests",
+      "guests": "unavailable",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Eventbrite JSON-LD BusinessEvent \"SON OF MONSTERPALOOZA - Burbank - 2026\" 2026-10-09 -> 2026-10-11 at The Marriott Burbank Convention Center & Hotel; page text 'Friday, October 9-Sunday, October 11'; homepage ticket art is titled 'Tix - SoM26 - v3.jpg'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "monsterpalooza.com/guests is a Squarespace page built from gallery blocks with no alt text or readable name strings - the extractor (even retried fresh with --channel msedge) only returns raw CSS block-id placeholders (e.g. '#block-c4f01e16...'), not the guest photos/names that are visually on the page. Guests is therefore 'unavailable' rather than guessed at. Dates/venue instead came from the linked Eventbrite listing, which has clean JSON-LD. No further edition beyond this Oct 2026 Burbank show is announced."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "wasteland-weekend",
+  "name": "Wasteland Weekend",
+  "short": "WW",
+  "url": "https://www.wastelandweekend.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["cosplay", "scifi"],
+  "blurb": "A post-apocalyptic, Mad Max-inspired costuming and camping festival in the Mojave Desert, held every autumn near North Edwards.",
+  "cover": { "file": "pipeline/cache/extract/wasteland-weekend.home.json", "key": "hero:1" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-30",
+    "end": "2026-10-04",
+    "city": "North Edwards",
+    "region": "CA",
+    "country": "US",
+    "venue": ""
+  },
+  "checked": "2026-10-05",
+  "notes": "The site's own news post ('Wasteland Weekend Year 16 (2026)') confirms its 16th edition ran September 30 - October 4, 2026, which ended the day before today (2026-10-05), so it falls just outside the research window and is recorded as 'last' rather than as an upcoming edition. No Year 17 / 2027 dates are announced anywhere on the site yet (its news list only goes 2024 -> 2025 -> 2026); re-check closer to spring 2027, when past years' ticket announcements have historically landed. Exact festival-ground venue name was not stated on the pages checked, so venue is left blank. No og/twitter image or logo was found; cover uses hero:1, the site's own 'Wasteland Weekend' header banner graphic."
+}

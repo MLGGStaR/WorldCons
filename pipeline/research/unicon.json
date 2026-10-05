@@ -5,9 +5,17 @@
   "url": "https://www.unicon.lv/",
   "organizer": "",
   "status": "active",
-  "types": ["cosplay", "anime", "games", "comics"],
+  "types": [
+    "cosplay",
+    "anime",
+    "games",
+    "comics"
+  ],
   "blurb": "Latvia's own Comic Con in Riga since 2013, covering cosplay, anime, gaming, comics, esports and tabletop RPGs across two annual festivals.",
-  "cover": { "file": "pipeline/cache/extract/unicon.home.json", "key": "hero:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/unicon.home.json",
+    "key": "hero:0"
+  },
   "editions": [
     {
       "start": "2027-01-08",
@@ -19,33 +27,10 @@
       "country": "LV",
       "tickets": "https://www.unicon.lv/#tickets",
       "guestsPage": "https://www.unicon.lv/guests",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/unicon.guests.json",
-          "picks": [
-            [1, "Mion", "J-Pop singer-songwriter", "music"],
-            [2, "Amedoll", "Australian V-Tuber", "creator"],
-            [3, "Zachibee", "Danish V-Tuber", "creator"],
-            [5, "Penumbra", "Costume designer and cosplayer", "cosplay"],
-            [10, "Wynter", "Cosplayer and content creator", "cosplay"],
-            [15, "Machudraw", "Cosplayer and artist", "cosplay"],
-            [20, "Brianna Berens", "K-pop group BLIX performer", "music"],
-            [22, "Sendy", "Dancer and choreographer", "music"],
-            [24, "Steph", "Cosplay performer and dancer", "cosplay"],
-            [25, "Ashen Photography", "Cosplay photographer", "cosplay"],
-            [27, "N8e", "Photographer", "cosplay"],
-            [29, "MerryAllNighter", "Cosplayer and photographer", "cosplay"],
-            [35, "Mmagurro", "Digital illustrator and merch artist", "other"],
-            [36, "J_Amatus", "Applied graphics artist", "other"],
-            [41, "Kitkatdrawws", "Digital artist", "other"]
-          ]
-        }
-      ],
-      "textOnlyGuests": [],
+      "guests": "none-yet",
       "evidence": "Homepage key visual and hero text: 'UNICON WINTER ... INTERNATIONAL EXHIBITION CENTER RIGA, KIPSALA 8 - 10 JANUARY 2027', with a live countdown (95d as of 2026-10-05, landing on 2027-01-08)."
     }
   ],
   "checked": "2026-10-05",
-  "notes": "UniCon runs 'two big annual festivals' per its own FAQ (About section: 'from our two big annual festivals to monthly community events'): the long-running summer UniCon (the 2026 edition ran 14-16 August 2026, per WebSearch — already before today's window, so not listed) and a new UniCon Winter, first held January 2027, which is the edition on the current homepage. No August/summer 2027 date is announced yet, so only Winter 2027 is listed; a future pass should add the next summer edition once it appears. Guests are listed by their stage/cosplay handles (Mion, Amedoll, Zachibee, Penumbra, Wynter, Machudraw, etc.) rather than full legal names because that is how the convention itself bills and bios them (V-Tubers, cosplayers and a K-pop group member). Three guest-card image candidates (picks' #5, #10, #15, #20, #22, #25, #27, #29, #36, #41) measured 0x0 at scrape time (lazy-loaded thumbnails) but carry a real CDN image URL and the matching name/bio caption, so they were used; #24 (Steph) and #35 (Mmagurro) had no bio-caption candidate, so their 'known for' text comes from the guest-page nav links instead ('Steph — Cosplay Performer / Dancer', 'Mmagurro — Digital illustrator / Merch Artist'). Could not confirm a separate organizing-company legal name within budget, so organizer is left blank."
+  "notes": "UniCon runs 'two big annual festivals' per its own FAQ (About section: 'from our two big annual festivals to monthly community events'): the long-running summer/main UniCon (UniCon 2026, its 14th edition, ran 14-16 August 2026 per WebSearch — already before today's window, so not listed) and UniCon Winter, which has the 2027-01-08 edition on the current homepage. No August/summer 2027 date is announced yet, so only Winter 2027 is listed; a future pass should add the next summer edition once it appears. Could not confirm a separate organizing-company legal name within budget, so organizer is left blank. Refute pass (2026-10-05): dropped the whole 15-name lineup. A fresh re-extract of /guests shows the page's own <title> is still 'Unicon 2026 Guests', and the lead card's full bio text reads 'J-Pop music artist MION will be returning to Latvia and appearing at UniCon 2026!' -- a WebSearch confirms 'UniCon 2026' is the con's 14th edition, 14-16 August 2026, i.e. the un-suffixed main show that already happened, not 'UniCon Winter 2027'. No other guest card names either year; none say 'Winter' or '2027'. The Winter-2027-titled homepage (confirmed via a fresh render: title 'UniCon Winter 2027', correct Jan 8-10 2027 countdown) still deep-links into this same unrefreshed /guests page, and one of its own hero images is literally named 'guest-coming-soon-image.avif' -- this is the carried-over August 2026 lineup under new template dates, not an announced Winter 2027 booking, so guests reverts to none-yet pending a page that actually names 2027 or Winter."
 }

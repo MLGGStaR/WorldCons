@@ -1,0 +1,30 @@
+{
+  "id": "wiscon",
+  "name": "WisCon",
+  "short": "",
+  "url": "https://www.wiscon.net/",
+  "organizer": "SF3 (Society for the Furtherance and Study of Fantasy and Science Fiction)",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "A feminist, inclusive science fiction and fantasy convention held over Memorial Day weekend in Madison, Wisconsin; hybrid online and in-person for 2027.",
+  "cover": { "file": "pipeline/cache/extract/wiscon.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-05-27",
+      "end": "2027-05-31",
+      "dates": "confirmed",
+      "venue": "Concourse Hotel",
+      "city": "Madison",
+      "region": "WI",
+      "country": "US",
+      "tickets": "https://reg.wiscon.net/",
+      "guestsPage": "https://wiscon.net/2026/09/30/expanded-slate-four-guests-of-honor-for-2027/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'WISCON 2027 May 27 to May 31, 2027 (U.S. Memorial Day Weekend)' and 'we will be online and in-person at the Concourse Hotel.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The only guest-related post so far ('Expanded Slate - Four Guests of Honor for 2027', Sept 30 2026) confirms there will be four GoH but explicitly defers naming them: 'Look forward to an announcement of the full slate soon.' No names or photos exist yet, so guests is none-yet. Organizer SF3 inferred from the post's mention of 'the annual SF3 general meeting' (WisCon's long-standing parent nonprofit)."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "monsterpalooza",
+  "name": "Monsterpalooza",
+  "short": "",
+  "url": "https://www.monsterpalooza.com/",
+  "organizer": "The Rubber Room",
+  "status": "active",
+  "types": ["horror", "pop"],
+  "blurb": "A makeup-effects and horror convention at the Pasadena Convention Center, with special-effects demos, panels, vendors and horror guests.",
+  "cover": { "file": "pipeline/cache/extract/monsterpalooza.home.json", "key": "logo:0" },
+  "editions": [],
+  "last": {
+    "start": "2026-05-29",
+    "end": "2026-05-31",
+    "city": "Pasadena",
+    "region": "CA",
+    "country": "US",
+    "venue": "Pasadena Convention Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "monsterpalooza.com's nav, homepage, tickets, showtimes and events pages are all currently branded for the Oct 2026 Son of Monsterpalooza / Burbank show (see son-of-monsterpalooza.json) - none mention a 2027 date for the main spring Pasadena edition. A web search (query: \"Monsterpalooza 2027 Pasadena dates\") found the most recent confirmed Monsterpalooza ran 29-31 May 2026 at the Pasadena Convention Center, already concluded before this run's window; no 2027 dates were found anywhere, so editions is empty and that show is recorded in \"last\" instead. Cover falls back to the generic brand logo (alt=\"Monsterpalooza\") since the homepage's own key art is all for the Son of Monsterpalooza edition. Guests not checked since there is no upcoming edition to attach them to."
+}

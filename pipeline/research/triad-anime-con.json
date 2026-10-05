@@ -1,0 +1,29 @@
+{
+  "id": "triad-anime-con",
+  "name": "Triad Anime Con",
+  "short": "",
+  "url": "https://triadanimecon.com",
+  "organizer": "Carolinas Anime Cons",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "An anime convention with cosplay contests at the Winston-Salem Marriott in Winston-Salem, North Carolina.",
+  "cover": { "file": "pipeline/cache/extract/triad-anime-con.home.json", "key": "hero:0" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Winston-Salem Marriott",
+      "city": "Winston-Salem",
+      "region": "NC",
+      "country": "US",
+      "guestsPage": "https://triadanimecon.com/all-guests/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Page title 'Triad Anime Con – March 26th-28th 2027 – Winston-Salem, NC'; location page: 'Winston-Salem Marriott 425 North Cherry Street Winston-Salem, North Carolina'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Run by the same Carolinas Anime Cons organizer/network as Ichibancon and Colossalcon Virginia -- the homepage promotes a shared 'Southern Season Pass' covering all three 2027 events, and the site reuses Ichibancon-branded logo files. The /all-guests/ page shows only small sponsor/partner-pass graphics (no guest photo cards and no dated 'Guest Announcement' post like Ichibancon had), so guests is 'none-yet' for the 2027 edition."
+}

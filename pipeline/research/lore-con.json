@@ -1,0 +1,22 @@
+{
+  "id": "lore-con",
+  "name": "Lore Con",
+  "short": "",
+  "url": "https://loreconvention.com",
+  "organizer": "Lorehous, LLC",
+  "status": "active",
+  "types": ["comics", "anime", "games"],
+  "blurb": "Durham's inaugural fan convention for creator culture, anime, gaming and comics, held at the Durham Convention Center.",
+  "cover": { "file": "pipeline/cache/extract/lore-con.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-26",
+    "end": "2026-09-27",
+    "venue": "Durham Convention Center",
+    "city": "Durham",
+    "region": "NC",
+    "country": "US"
+  },
+  "checked": "2026-10-05",
+  "notes": "Lore Con's inaugural edition ran Sept 26-27, 2026 at the Durham Convention Center ('Two days. September 26-27, 2026. Durham Convention Center.'; a post-event homepage banner reads 'Lore Con 2026: Year 1, over 1500 attendees. Did it for the...'). That ended 8 days before the 2026-10-05 research window opens, so it is recorded as 'last'; no Year 2 / 2027 dates are announced anywhere on the site yet. Organizer is Lorehous, LLC (site footer copyright). Guests are not attached to an edition since there is none in the window, but for when Lore Con 2027 is confirmed: the Year 1 roster (all with photos at https://loreconvention.com/guests/, candidates #1-16) was Brittany Coates ('Storyteller'), Danny Quick ('Lore Renegade'), Ezra Fae ('Cosplay Vanguard'), Kikicheea ('Fashion Oracle'), 16bitsami ('Cosplay Vanguard'), Lexa-Chan ('Content Creator'), Jeremy Whitley ('Author & Creator'), Ogyein ('Cosplay Vanguard'), Jack Harris ('Lore Architect'), Lil Chaos ('Content Creator'), Black Fae Day ('Lore Faeries'), Blerd Without Fear ('Comic Lorekeeper'), Cosplayer._.0w0 ('Cosplay Vanguard'), The 5th Yonko ('Cosplay Vanguard'), That Tall Black Superman ('Cosplay Vanguard'), and DJ Stream Reem ('Sound Sentinel'). Those quoted titles are the con's own flavor/branding labels ('Lore'-themed nicknames), not real-world credits, so they were not usable as a factual 'Known for' line for any of them."
+}

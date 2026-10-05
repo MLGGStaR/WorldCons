@@ -1,0 +1,14 @@
+{
+  "id": "istanbul-comic-con",
+  "name": "Istanbul Comic Con",
+  "short": "",
+  "url": "https://www.istanbulcomiccon.com/",
+  "organizer": "",
+  "status": "inactive",
+  "types": ["pop", "cosplay", "comics"],
+  "blurb": "A former Istanbul pop-culture convention; its official domain is now parked and no live site or announced edition could be found.",
+  "cover": null,
+  "editions": [],
+  "checked": "2026-10-05",
+  "notes": "Could not confirm this convention is still running. The given URL, istanbulcomiccon.com, fails every access method tried: default Chromium render returns HTTP 403 with an empty body ('The content of the page cannot be displayed'), a retry with --channel msedge gets net::ERR_CONNECTION_CLOSED, a plain `curl -I` returns 'HTTP/1.1 405 Method Not Allowed' with header 'Server: Parking/1.0', and WebFetch gets a socket hang up — the Parking/1.0 server header indicates the domain itself is parked (not hosting a real site), not merely bot-blocked. Two web searches both returned only a generic, near-identical boilerplate ('every March at Haliç Congress Center, 50,000+ visitors over three days') that could not be traced to any specific dated source, so it was not trusted as independent confirmation — it reads as an echo of this batch's own seed note rather than a verified fact. I also checked for a same-brand social account: the obvious @istanbulcomiccon Instagram handle exists but is private with 0 posts/0 followers (not a real active account), and a same-named 'Comikon Istanbul' Facebook page (comikonistanbul.com, ~1.9K followers, last post Aug 2023, intro text still referencing a 2019 festival) together with an İstanbul hotel blog post about a 2019 'Comikon Istanbul' + 'ICAF' event confirm those are a smaller, different, and apparently also dormant pair of conventions — not this one, and not used as a source here. With no reachable official source and no trustworthy independent confirmation of any specific edition, this is recorded as inactive with no editions and no 'last' (no date could be verified well enough to cite)."
+}

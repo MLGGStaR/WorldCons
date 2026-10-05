@@ -1,0 +1,22 @@
+{
+  "id": "crack-bang-boom",
+  "name": "Crack Bang Boom",
+  "short": "",
+  "url": "https://crackbangboom.com.ar/",
+  "organizer": "",
+  "status": "active",
+  "types": ["comics", "cosplay"],
+  "blurb": "An annual international comics festival in Rosario since 2010, awarding the Trillo Prize to Argentine comic creators alongside a cosplay contest.",
+  "cover": { "file": "pipeline/cache/extract/crack-bang-boom.home.json", "key": "og" },
+  "editions": [],
+  "last": {
+    "start": "2026-08-13",
+    "end": "2026-08-16",
+    "city": "Rosario",
+    "region": "",
+    "country": "AR",
+    "venue": "Centro de Expresiones Contemporáneas (CEC)"
+  },
+  "checked": "2026-10-05",
+  "notes": "The 15th edition (XV) already ran Aug 13-16, 2026 (confirmed by the site's own text - Premios Trillo eligibility 'ediciones anteriores de 2010 a 2025' plus matching news coverage: rosariotimes.com and conclusion.com.ar both report Crack Bang Boom 2026 ran Aug 13-16 at the CEC/Galpon 11/Puerto Joven/Tecnoteca in Rosario, with the Trillo Prize ceremony Aug 15 and the cosplay contest Aug 16). That's before this window (ends 2026-10-05), and the live site still shows that edition's registration copy without having posted a 2027 date yet, so editions is empty and the Aug 2026 show is recorded as 'last'. No distinct organizer company name is stated on-site (only 'la organizacion de Crack Bang Boom')."
+}

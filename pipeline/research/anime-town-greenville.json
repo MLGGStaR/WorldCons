@@ -1,0 +1,46 @@
+{
+  "id": "anime-town-greenville",
+  "name": "Anime Town Greenville",
+  "short": "",
+  "url": "https://www.animetowncons.com/greenville-sc",
+  "organizer": "Anime Town LLC",
+  "status": "active",
+  "types": ["anime", "cosplay", "games"],
+  "blurb": "A Halloween-themed ('Spooky Matsuri') stop of the Anime Town multi-city tour, with anime voice actors, cosplay and gaming in Greenville, SC.",
+  "cover": { "file": "pipeline/cache/extract/anime-town-greenville.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "dates": "confirmed",
+      "venue": "Greenville Convention Center",
+      "city": "Greenville",
+      "region": "SC",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.animetowncons.com/greenville-sc",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-town-greenville.guests.json",
+          "picks": [
+            [2, "Maggie Robertson", "Lady Dimitrescu, Resident Evil Village", "voice"],
+            [3, "Delanie Nicole Gill", "Daniela Dimitrescu, Resident Evil Village", "voice"],
+            [4, "Nicole Tompkins", "Jill Valentine, Resident Evil", "voice"],
+            [5, "Eric Stuart", "Pokémon and Yu-Gi-Oh! voice actor", "voice"],
+            [6, "Dan Green", "Yami Yugi, Yu-Gi-Oh!", "voice"],
+            [7, "Felecia Angelle", "", "voice"],
+            [8, "Jad Saxton", "Momo Yaoyorozu, My Hero Academia", "voice"],
+            [9, "Neil Kaplan", "Madara Uchiha, Naruto", "voice"],
+            [10, "Jason Douglas", "Beerus, Dragon Ball Super", "voice"],
+            [11, "Peter Lurie", "Kakashi Hatake, Naruto", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Own page: 'ANIME TOWN LOCATIONS OCTOBER 30TH-NOVEMBER 1ST,2026 The Greenville Convention Center' and 'OCT 30TH, 3:00 PM 2026 – NOV 01, 4:00 PM, 2026 Greenville Convention Center HALL ONE, 1 Exposition Dr, Greenville, SC 29607'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The FEATURED GUESTS/FEATURED REUNIONS cards carry no name or alt text in the page markup (opaque Wix image hashes only) — each guest's name and character are printed directly on their promo graphic, so the 10 real guests (#2-11) were read off the card images themselves, not guessed. #12-14 ('FEATURED REUNIONS') are theme re-groupings of the same 10 people (Resident Evil trio Robertson/Gill/Tompkins; Eric Stuart + Dan Green shown again for both Pokémon and Yu-Gi-Oh!) so were not picked twice. Felecia Angelle's specific role could not be confidently identified from her card's artwork, so known-for is left blank for her. Anime Town is a multi-city tour; Huntsville, Biloxi, Bossier City/Louisiana and Pensacola are separate files — this is the only one of the five with a confirmed edition still ahead of 2026-10-05."
+}

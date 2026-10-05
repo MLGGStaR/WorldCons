@@ -1,0 +1,37 @@
+{
+  "id": "gem-state-comic-con",
+  "name": "Gem State Comic Con",
+  "short": "GSCC",
+  "url": "https://www.gemstatecomiccon.com",
+  "organizer": "Colossus Girl Entertainment",
+  "status": "active",
+  "types": ["comics", "pop"],
+  "blurb": "Idaho's largest pop-culture and comic convention, held at Expo Idaho in Boise with celebrity guests, artists and vendors.",
+  "cover": { "file": "pipeline/cache/extract/gem-state-comic-con.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "dates": "confirmed",
+      "venue": "Expo Idaho",
+      "city": "Boise",
+      "region": "ID",
+      "country": "US",
+      "tickets": "https://www.gemstatecomiccon.com/tickets",
+      "guestsPage": "https://www.gemstatecomiccon.com/guests",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/gem-state-comic-con.guests.json",
+          "picks": [
+            [2, "Alan Tudyk", "Firefly and Rogue One actor", "actor"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'MAY 14-16, 2027 | EXPO IDAHO | BOISE, ID' and 'Gem State Comic Con 2027 May 14-16, 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guests page says the full 2027 guest announcement 'will start in November 2026'; the only guest confirmed so far is Alan Tudyk, carried over from 2026 ('Rescheduled to 2027 due a filming schedule conflict'). guests is 'announced' since that one real guest is captured, but more are expected later. 2026-10-05 re-verify: current, unchanged -- fresh extraction confirms the same 'GSCC 2027 Special Guest announcement will start in November 2026' notice and the same Alan Tudyk 'Rescheduled to 2027' card, whose image filename is itself now 'gscc_alan tudyk_2027.png' (explicit 2027 tag), so this one guest is genuinely booked for this edition rather than a leftover 2026 card. Refute attempt (2026-10-05): upheld (proof) -- fresh re-extraction confirms the card and its image filename ('gscc_alan tudyk_2027.png') are both still explicitly tagged 2027, and the page's own text ('GSCC 2027 Special Guest announcement will start in November 2026') shows the page has itself been edited forward for this edition, not left over from the 2026 show."
+}

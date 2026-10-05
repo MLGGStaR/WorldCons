@@ -1,0 +1,27 @@
+{
+  "id": "terror-con-massachusetts",
+  "name": "Terror Con",
+  "short": "",
+  "url": "https://www.instagram.com/theterrorcon/",
+  "organizer": "Altered Reality Entertainment",
+  "status": "active",
+  "types": [
+    "horror"
+  ],
+  "blurb": "New England's horror convention at the Royal Plaza Trade Center in Marlborough, with horror celebrities, artists, rock acts and pro wrestlers.",
+  "cover": {
+    "file": "pipeline/cache/extract/terror-con-massachusetts.home.json",
+    "key": "og"
+  },
+  "editions": [],
+  "last": {
+    "start": "2024-09-27",
+    "end": "2024-09-29",
+    "city": "Marlborough",
+    "region": "MA",
+    "country": "US",
+    "venue": "Royal Plaza Trade Center"
+  },
+  "checked": "2026-10-05",
+  "notes": "No dedicated convention website; it is run by Altered Reality Entertainment (same organizer as Rhode Island Comic Con/Anime Con) and only has a venue placeholder on ricomiccon.com/upcoming-events ('TERROR CON MASSACHUSETTS DATES TBA / ROYAL PLAZA TRADE CENTER / 181 ROYAL PLAZA DRIVE-WEST / MARLBOROUGH, MASSACHUSETTS 01752'), so the Instagram page (bio link routes to linktr.ee/alteredrealityentertainment) is used as url per the no-website special case. That Instagram bio says the show 'returns in 2027', confirming it skipped 2025/2026 and has no 2026-10-05..2027-12-31 dates announced yet, hence editions: []. Last confirmed run found (via HorrorCons.com) was Terror Con 2024, Sept 27-29, 2024 at the same venue; no evidence of a 2025 edition. Guests and a 2027 lineup are not yet announced anywhere official."
+}

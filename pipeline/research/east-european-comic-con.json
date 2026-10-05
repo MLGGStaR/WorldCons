@@ -1,0 +1,22 @@
+{
+  "id": "east-european-comic-con",
+  "name": "East European Comic Con",
+  "short": "EECC",
+  "url": "https://comic-con.ro/",
+  "organizer": "Yuzu Events",
+  "status": "active",
+  "types": ["comics", "pop", "games"],
+  "blurb": "The largest pop-culture festival in Eastern Europe, held in Bucharest with international celebrity guests, cosplay, gaming and K-pop.",
+  "cover": { "file": "pipeline/cache/extract/east-european-comic-con.home.json", "key": "twitter" },
+  "editions": [],
+  "last": {
+    "start": "2026-09-11",
+    "end": "2026-09-13",
+    "city": "Bucharest",
+    "region": "",
+    "country": "RO",
+    "venue": "National Arena"
+  },
+  "checked": "2026-10-05",
+  "notes": "EECC runs two editions a year (a spring leg and a bigger autumn one); both 2026 editions have already happened — spring was April 24-26, 2026 and autumn (the one still in the page's own JSON-LD) was September 11-13, 2026 at National Arena, Bucharest. The live homepage itself already shows 'TBD TBD TBD' placeholders where the next edition's date/time/venue normally appear, and a web search for 2027 dates (spring or autumn) found none announced yet, so editions is empty and the more recent of the two 2026 editions (September) is recorded as 'last'. Ticketing/legal entity on the site is 'COMIC CON S.R.L.' (VAT RO15335810); kept organizer as Yuzu Events per the batch note since that's the event's own production-company branding."
+}

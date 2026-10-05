@@ -1,0 +1,30 @@
+{
+  "id": "las-vegas-fur-con",
+  "name": "Las Vegas Fur Con",
+  "short": "LVFC",
+  "url": "https://lasvegasfurcon.org",
+  "organizer": "Southern Nevada Anthropomorphic Events",
+  "status": "active",
+  "types": ["furry"],
+  "blurb": "A 21-and-up furry convention at the Alexis Park Resort in Las Vegas, run by the nonprofit Southern Nevada Anthropomorphic Events.",
+  "cover": { "file": "pipeline/cache/extract/las-vegas-fur-con.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-03-25",
+      "end": "2027-03-28",
+      "dates": "confirmed",
+      "venue": "Alexis Park Resort",
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "US",
+      "tickets": "https://lasvegasfurcon.org/registration/",
+      "guestsPage": "https://lasvegasfurcon.org/guests-of-honor/",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage: 'Las Vegas Fur Con March 25—28, 2027' and 'LVFC 2027: Just Like Clockwork will be held March 25—28, 2027.'"
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The site's 2026 Guests-of-Honor page (/guests-of-honor/) now 404s and a search for 'Las Vegas Fur Con 2027 guest of honor' turned up only confirmation that none has been announced yet, so guests is 'none-yet'. The venue (Alexis Park Resort) is confirmed by that search since the homepage itself only names it in an unrelated photo's alt text ('Attendees congregate around pool 1 at Alexis Park'); the site has no og:image, so the cover uses its small site logo instead of a crowd photo."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mosticon",
+  "name": "MostiCon",
+  "short": "Mosti",
+  "url": "https://www.mosticon.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["pop", "comics", "anime", "games"],
+  "blurb": "A family-friendly pop-culture convention in the Mostviertel region, covering comics, anime, manga, K-pop and gaming at Messehalle Wieselburg.",
+  "cover": { "file": "pipeline/cache/extract/mosticon.home.json", "key": "logo:2" },
+  "editions": [
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "dates": "confirmed",
+      "venue": "Messehalle Wieselburg",
+      "city": "Wieselburg",
+      "region": "",
+      "country": "AT",
+      "tickets": "https://www.mosticon.com/convention/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Mosti26 ... Von 05 - 06 Dezember 2026' and 'Die Mosti26 startet in 61 Tagen' (countdown matching Dec 5-6, 2026, measured from the Oct 4, 2026 render), at 'Location Messehalle Wieselburg Eingang: Halle 9'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Homepage explicitly says 'Programm Coming soon', so guests/lineup are not yet announced. No organizer company name is shown (only '...designed with heart by the MostiCon Team')."
+}

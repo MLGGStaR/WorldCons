@@ -1,0 +1,35 @@
+{
+  "id": "central-carolina-comic-con",
+  "name": "Central Carolina Comic Con",
+  "short": "",
+  "url": "https://www.vxvevents.com",
+  "organizer": "VXV Events",
+  "status": "active",
+  "types": [
+    "comics"
+  ],
+  "blurb": "A regional comic convention at the S.C. State Fairgrounds in Columbia, part of VXV Events' touring circuit of small comic and anime shows.",
+  "cover": {
+    "file": "pipeline/cache/extract/vxv-events.home.json",
+    "key": "logo:0"
+  },
+  "editions": [
+    {
+      "start": "2027-01-16",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "S.C. State Fairgrounds",
+      "city": "Columbia",
+      "region": "SC",
+      "country": "US",
+      "tickets": "https://www.vxvevents.com/events",
+      "guestsPage": "",
+      "guests": "none",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "vxvevents.com/events '2027 Events' list: 'Central Carolina Comic Con January 16 & 17 2027 S.C. State Fairgrounds Columbia, SC' (its 2026-01-10/11 edition has already passed)."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "VXV Events runs ~20 small regional comic/anime shows under one umbrella site with no per-show pages; vxvevents.com/events is a single combined 2026/2027 calendar (its own text, not an aggregator) used as evidence here and cross-checked by fetching it twice. The site has no Celebrities/Guests nav item; its only guest-adjacent pages (Artists, Cosplayers) are generic sign-up/apply pages listing every VXV show's logo, not an announced lineup for this show, so guests is 'none'. Cover uses the shared VXV Events logo since no Central-Carolina-specific art could be confirmed (unlike Arkansas Card Show, SpaCon and Mississippi Card Show, whose own logo files are identifiable by filename on that same page)."
+}

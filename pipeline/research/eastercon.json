@@ -1,0 +1,40 @@
+{
+  "id": "eastercon",
+  "name": "Eastercon",
+  "short": "",
+  "url": "https://easterconglasgow.org/",
+  "organizer": "",
+  "status": "active",
+  "types": ["scifi"],
+  "blurb": "The UK National Science Fiction Convention, held every Easter weekend at a city chosen by yearly bid committee.",
+  "cover": { "file": "pipeline/cache/extract/eastercon.home.json", "key": "og" },
+  "editions": [
+    {
+      "start": "2027-03-26",
+      "end": "2027-03-29",
+      "dates": "confirmed",
+      "venue": "Crowne Plaza Hotel",
+      "city": "Glasgow",
+      "region": "",
+      "country": "GB",
+      "tickets": "https://easterconglasgow.org/",
+      "guestsPage": "https://easterconglasgow.org/who-is-coming/guests-of-honour/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/eastercon.guests.json",
+          "picks": [
+            [1, "P. Djèlí Clark", "Author, A Master of Djinn", "author"],
+            [2, "L R Lam", "USA Today bestselling author", "author"],
+            [3, "Mark Meenan", "First convention: Albacon II, 1983", "other"],
+            [4, "Tamsyn Muir", "NYT bestselling SFF writer", "author"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'The 78th Annual UK National Science Fiction Convention 26 —29 March 2027 Crowne Plaza Hotel, Glasgow'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The given url (eastercon.org) now redirects to a bot-walled eastercon.fandom.com wiki page, so it was replaced with the current year's official committee site, 'Unconfined' (easterconglasgow.org) for the 2027 Glasgow edition; Eastercon rotates to a new bid-committee site most years. Mark Meenan is a Fan Guest of Honour (long-time convention volunteer since 1983), not an author, hence cat 'other'. Verify-03 pass (2026-10-05): confirmed current -- a fresh re-extraction shows the Guests of Honour page's own <title> as 'Guests of Honour - Unconfined - Eastercon 2027 in Glasgow', directly naming this edition's year, with the same four guests. Refute pass (2026-10-05): upheld on stronger grounds -- the page title alone is template-level, but the guest-page images are all uploaded /2025/04/ (right when the Glasgow 'Unconfined' bid won at Eastercon 2025) and an independent dated announcement, Starburst Magazine's 'Eastercon 2026 & 2027 Announced' (published 2025-04-20), names P. Djeli Clark, L R Lam and Tamsyn Muir as Unconfined/Eastercon 2027 Glasgow's Guests of Honour specifically; critically, that same article shows the immediately-preceding edition (Iridescence, Birmingham, 3-6 April 2026) had a completely different, non-overlapping lineup (RJ Barker, Emma Newman, Karen Lord), ruling out the leftover-grid concern the image-date scan flagged. Mark Meenan's confirmation rests on the official site alone (the press piece covered only the headline author GoHs) but follows the same non-overlapping pattern."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hanamicon",
+  "name": "HanamiCon",
+  "short": "",
+  "url": "https://www.hanamicon.at/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Styria's largest anime and manga convention, a three-day event in Graz with stage programming, contests and a cosplay ball.",
+  "cover": { "file": "pipeline/cache/extract/hanamicon.home.json", "key": "hero:4" },
+  "editions": [
+    {
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "dates": "confirmed",
+      "venue": "Seifenfabrik Graz",
+      "city": "Graz",
+      "region": "",
+      "country": "AT",
+      "tickets": "https://www.hanamicon.at/mein-konto/tickets",
+      "guestsPage": "",
+      "guests": "none-yet",
+      "lineup": [],
+      "textOnlyGuests": [],
+      "evidence": "Homepage title 'Anime Convention - Hanamicon - 28.-30.05.27 - Seifenfabrik Graz' and header text '28. BIS 30.05.2027 SEIFENFABRIK GRAZ'; page also says 'DAS WAR DIE HANAMICON 2026 ... wir freuen uns auf naechstes Jahr!' (thanking visitors for 2026 and looking to next year), confirming 2027 is the next edition."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No guests/lineup page found in the site nav (Hauptmenue only lists Shop, Galerien, Gewinner, Contests) and the 2026 recap video is the newest content, so guests for 2027 are not yet announced. No organizer company name appears on the homepage."
+}
