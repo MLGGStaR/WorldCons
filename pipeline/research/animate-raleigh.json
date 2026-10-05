@@ -22,7 +22,7 @@
       "guests": "announced",
       "lineup": [
         {
-          "file": "pipeline/cache/extract/animate-raleigh.guests.json",
+          "file": "pipeline/cache/extract/refute2-animate-raleigh.guests.json",
           "picks": [
             [1, "Erica Schroeder", "", "voice"],
             [2, "Brandon Rogers", "", "creator"],
@@ -32,32 +32,7 @@
             [6, "Justin Cook", "", "voice"],
             [7, "Ian Sinclair", "", "voice"],
             [8, "Erica Lindbeck", "", "voice"],
-            [9, "Christopher Sabat", "", "voice"],
-            [10, "Mervyn McKoy", "", "comics"],
-            [11, "Jeff Brennan", "", "comics"],
-            [12, "Frederick L. Jones", "", "comics"],
-            [13, "JR De Bard", "", "comics"],
-            [14, "Joe Wos", "", "comics"],
-            [15, "Guy Hutchinson", "", "comics"],
-            [16, "Elgin David", "", "cosplay"],
-            [17, "Patty Hawkins", "", "cosplay"],
-            [18, "DJ Awesomus Prime", "", "music"],
-            [19, "Tyler Wood", "", "comics"],
-            [20, "Matt Hardy", "", "sports"],
-            [21, "Leva Bates", "", "sports"],
-            [22, "AstraVoid", "", "cosplay"],
-            [23, "Silverheart Cosplay", "", "cosplay"],
-            [24, "Sarelcon", "", "other"],
-            [25, "Merkuma", "", "cosplay"],
-            [26, "USS Kitty Hawk", "", "cosplay"],
-            [27, "Spyderstang", "", "cosplay"],
-            [28, "Shadow Peeker", "", "cosplay"],
-            [29, "The Return Of The Barricade", "", "other"],
-            [32, "Jessica Simmons", "", "other"],
-            [33, "Morgan Strong", "", "other"],
-            [34, "Jaime Escanellas", "", "other"],
-            [36, "Monolith Costumes", "", "cosplay"],
-            [37, "Xa'Mona", "", "cosplay"]
+            [9, "Christopher Sabat", "", "voice"]
           ]
         }
       ],
@@ -66,5 +41,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name (mostly touring tattoo artists and fan-club/show-car entries) could not be confidently placed in a specific category. Skipped a 'Gaming Guests Coming Soon' placeholder, a tattoo-business vendor card (Galaxie Ink) and an authentication-partner card (JSA)."
+  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name (mostly touring tattoo artists and fan-club/show-car entries) could not be confidently placed in a specific category. Skipped a 'Gaming Guests Coming Soon' placeholder, a tattoo-business vendor card (Galaxie Ink) and an authentication-partner card (JSA). Refute2 pass (2026-10-05): trimmed 34 -> 9 -- only the 9 Voice Actors carry per-guest proof for this edition (filenames prefixed '2027-A!-...', uploaded to Shopify Aug-Oct 2026, weeks before today); the other 25 candidates (#10-29,32-34,36-37) use generic 'Animate!-Website-500x500-x' or '26-Animate!-...' filenames with no 2027 marker, uploaded 2024-02/2026, and a WebSearch confirms three of them by name (AstraVoid, Spyderstang, Leva Bates) already appeared at Animate! Raleigh's prior edition (originally Jan 2026, postponed to March 2026 after a venue fire), so the rest of the grid reads as that edition's carried-over lineup, not a new 2027 booking; dropped per 'no proof' and kept only the 9 with positive evidence."
 }

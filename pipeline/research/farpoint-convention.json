@@ -35,5 +35,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "Venue/city updated from the seed's \"Hunt Valley\" to \"Towson, MD\" per the official 2027 homepage. Literary/author guest program page (departments/programming/author-guests/) shows 4 \"Guest TBA\" placeholders, not yet announced. A recent news post teases a possible author guest (\"Meet Mary Fan!\", Oct 1 2026) but doesn't clearly confirm her as a booked 2027 guest, so she was left out."
+  "notes": "Venue/city updated from the seed's \"Hunt Valley\" to \"Towson, MD\" per the official 2027 homepage. Literary/author guest program page (departments/programming/author-guests/) shows 4 \"Guest TBA\" placeholders, not yet announced. A recent news post teases a possible author guest (\"Meet Mary Fan!\", Oct 1 2026) but doesn't clearly confirm her as a booked 2027 guest, so she was left out. Verify pass (2026-10-05): confirmed current -- the three guest images are uploaded as '2027-Guest-Stashwick/Blair/RH-Weber', matching the page's own 'Our 2027 Headline Guests' heading. Refute2 pass (2026-10-05): upheld -- re-fetched fresh; same 3 guests, filenames still '2027-Guest-Stashwick-...', '2027-Guest-Blair-...' and '2027-Guest-RH-Weber-...', uploaded 2026-05/2026-07 (after Farpoint's prior, ~Feb 2026 edition), so not a leftover lineup."
 }
