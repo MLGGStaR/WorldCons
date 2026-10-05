@@ -1,0 +1,42 @@
+{
+  "id": "anime-oklahoma",
+  "name": "Anime Oklahoma",
+  "short": "",
+  "url": "https://www.animeoklahoma.com",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "cosplay"],
+  "blurb": "Midwest City, Oklahoma anime convention with voice actor and cosplay guests, a cosplay contest, and an artist alley.",
+  "cover": { "file": "pipeline/cache/extract/anime-oklahoma.home.json", "key": "hero:1" },
+  "editions": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "dates": "confirmed",
+      "venue": "Reed Conference Center (Marriott Midwest City)",
+      "city": "Midwest City",
+      "region": "OK",
+      "country": "US",
+      "tickets": "https://www.eventbrite.com/e/anime-oklahoma-2026-tickets-1988139472682",
+      "guestsPage": "https://www.animeoklahoma.com/guests2025",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-oklahoma.guests.json",
+          "picks": [
+            [1, "Branden Loera", "Voice actor at Crunchyroll", "voice"],
+            [2, "Veronica Laux", "Panzy in Dragon Ball Daima", "voice"],
+            [3, "Van Barr Jr", "Shidou Ryusei in Blue Lock", "voice"],
+            [4, "Yussef Benelbar", "Kota Izumi in My Hero Academia", "voice"],
+            [5, "OkieViking", "", "cosplay"],
+            [6, "The Toasty Cat Studios", "", "cosplay"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "The site's own ticket link (Eventbrite) is titled 'Anime Oklahoma 2026 Tickets, Friday, October 9-Sunday, October 11'; venue address from the homepage: '5800 Will Rogers Rd, Midwest City, OK 73110'. The homepage itself shows no date text directly."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "The guests page URL still carries an old '/guests2025' slug but its six 'See More' cards link to individual guest bio pages confirmed (via fetch) to be for the 2026 show: four voice actors (Branden Loera, Veronica Laux, Van Barr Jr, Yussef Benelbar) and two cosplay guests (OkieViking, The Toasty Cat Studios) whose cards only show a 'Cosplay Guest' image label with no further known-for text. Organizer name could not be confirmed from the site or a search. Verify pass (2026-10-05): confirmed current -- every guest card sits in a page section literally labelled '2026 GUESTS!' (pipeline/cache/extract/anime-oklahoma.guests.json), so the lineup matches the Oct 9-11, 2026 edition despite the page's leftover '/guests2025' URL slug. Refute pass (2026-10-05): fresh re-fetch is unchanged -- still 6 cards under a '2026 GUESTS!' heading, each linking to that guest's own bio page (pipeline/cache/extract/anime-oklahoma-v2.guests.json, #1-6); upheld."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "anime-washington",
+  "name": "Anime Washington",
+  "short": "",
+  "url": "https://www.animewashington.com/",
+  "organizer": "",
+  "status": "active",
+  "types": ["anime", "games"],
+  "blurb": "A combined weekend with the Washington State Gaming Expo celebrating anime, manga, Asian pop culture and video games in Puyallup under one ticket.",
+  "cover": { "file": "pipeline/cache/extract/anime-washington.home.json", "key": "logo:1" },
+  "editions": [
+    {
+      "start": "2027-02-19",
+      "end": "2027-02-21",
+      "dates": "confirmed",
+      "venue": "Washington State Fair and Events Center",
+      "city": "Puyallup",
+      "region": "WA",
+      "country": "US",
+      "tickets": "",
+      "guestsPage": "https://www.animewashington.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/anime-washington.guests.json",
+          "picks": [
+            [2, "Nick Apostolides", "Leon S. Kennedy in Resident Evil", "voice"],
+            [3, "Neil Newbon", "Astarion in Baldur's Gate 3", "voice"],
+            [4, "Amelia Tyler", "Narrator in Baldur's Gate 3, Hades 2", "voice"],
+            [5, "Erika Henningsen", "Charlie Morningstar in Hazbin Hotel", "voice"],
+            [6, "Amir Talai", "Hazbin Hotel, Kung Fu Panda: Legends of Awesomeness", "voice"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage and Show Info page: 'February 19-21, 2027' and 'Anime Washington and the Washington State Gaming Expo will be held at the Washington State Fair and Events Center February 19-21, 2027'; Guests page is titled 'Featured Guests 2027'."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "Guest cards on the official Guests page show only 'Days Appearing' text with no visible name/known-for text in the rendered DOM; the image filenames (e.g. 'N-Apolstolides_Anime27_NamePlate') are branded nameplate graphics, so the 5 nameplate images were downloaded and read directly to get each guest's real name and credits. No organizer company name or ticket-purchase link was found on the site; tickets left blank rather than guessed. Verify pass (2026-10-05): confirmed current -- the guests page's own title is 'Featured Guests 2027' and all five nameplate images sit under a '2027 Featured Guests' section, uploaded September 2026. Refute pass (2026-10-05): fresh re-fetch is unchanged -- the 5 nameplate images are still under /wp-content/uploads/2026/09/ with filenames containing 'Anime27' (e.g. N-Apolstolides_Anime27_NamePlate), under a '2027 Featured Guests' heading (pipeline/cache/extract/anime-washington-v2.guests.json, #2-6); upheld."
+}

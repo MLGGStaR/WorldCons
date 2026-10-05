@@ -1,0 +1,54 @@
+{
+  "id": "game-on-expo",
+  "name": "Game On Expo",
+  "short": "",
+  "url": "https://gameonexpo.com",
+  "organizer": "Game On Entertainment",
+  "status": "active",
+  "types": ["games", "anime", "pop"],
+  "blurb": "The Southwest's gaming, anime and pop culture expo in Phoenix, with esports, cosplay and tabletop gaming.",
+  "cover": { "file": "pipeline/cache/extract/game-on-expo.home.json", "key": "logo:0" },
+  "editions": [
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "dates": "confirmed",
+      "venue": "Phoenix Convention Center",
+      "city": "Phoenix",
+      "region": "AZ",
+      "country": "US",
+      "tickets": "https://captureticketing.com/events/261",
+      "guestsPage": "https://gameonexpo.com/guests/",
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/game-on-expo.guests.json",
+          "picks": [
+            [1, "Nick Apostolides", "Leon Kennedy in Resident Evil", "voice"],
+            [2, "Angela Sant'Albano", "Voice of Grace Ashcroft", "voice"],
+            [3, "Jane Perry", "Diana Burnwood in Hitman, Mystra in BG3", "voice"],
+            [4, "Eden Riegel", "Sherry Birkin in Resident Evil", "voice"],
+            [5, "Delanie Nicole Gill", "'The Girl' in Resident Evil Requiem", "voice"],
+            [6, "Emma Rose Creaner", "Emily in Resident Evil: Requiem", "voice"],
+            [7, "Samuel Roukin", "Simon 'Ghost' Riley in Call of Duty", "voice"],
+            [8, "Steve Blum", "Voice of Spike Spiegel, Wolverine", "voice"],
+            [9, "Lizzie Freeman", "Pomni in The Amazing Digital Circus", "voice"],
+            [10, "Marissa Lenti", "Gangle in The Amazing Digital Circus", "voice"],
+            [11, "Michael Kovach", "Voice of Jax, Angel Dust", "voice"],
+            [12, "Amanda Hufford", "Voice of Ragatha, NIKKE", "voice"],
+            [13, "Ali Hillis", "Liara T'Soni in Mass Effect", "voice"],
+            [14, "Mary Elizabeth McGlynn", "Voice director and anime voice actor", "voice"],
+            [15, "Hunter McCoy", "Fox McCloud, Deuce Spade", "voice"],
+            [16, "Tom McKay", "Henry in Kingdom Come: Deliverance", "voice"],
+            [17, "Luke Dale", "Hans Capon in Kingdom Come: Deliverance", "voice"],
+            [18, "Scott the Woz", "Content creator", "creator"]
+          ]
+        }
+      ],
+      "textOnlyGuests": [],
+      "evidence": "Homepage text: 'Returning January 15-17, 2027 at the Phoenix Convention Center'; guests page repeats the same dates."
+    }
+  ],
+  "checked": "2026-10-05",
+  "notes": "No og:image or twitter:image on the homepage and no clear key-art banner among the hero images (several are unlabeled square photos); used the site logo as the cover. Refute pass (2026-10-05): fresh re-fetch confirms all 18 cards unchanged, each still reading 'Appearing: Friday, Saturday, Sunday' against the same page's own Jan 15-17, 2027 schedule table, with photos uploaded 2026/07-2026/09 (pipeline/cache/extract/game-on-expo-v2.guests.json, #1-18); a search shows Game On Expo's most recent past edition ran Mar 13-15, 2026 with a completely different ~30-name roster (Cody Christian, Tyler Hoechlin, Doug Cockle, Jennifer English, etc., per phoenixnewtimes.com), so this is not that lineup carried over stale; upheld."
+}
