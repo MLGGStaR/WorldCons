@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T02:19:32.243Z",
+  "title": "Design System: WorldCons",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Badge Ink",
+        "canonical": "#121418",
+        "tonalRamp": [
+          "oklch(15% 0.009 264.3)",
+          "oklch(26% 0.009 264.3)",
+          "oklch(37% 0.009 264.3)",
+          "oklch(48% 0.009 264.3)",
+          "oklch(59% 0.009 264.3)",
+          "oklch(70% 0.009 264.3)",
+          "oklch(82% 0.009 264.3)",
+          "oklch(95% 0.009 264.3)"
+        ]
+      },
+      "on-ink": {
+        "role": "primary",
+        "displayName": "On Ink",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(26% 0.000 0)",
+          "oklch(37% 0.000 0)",
+          "oklch(48% 0.000 0)",
+          "oklch(59% 0.000 0)",
+          "oklch(70% 0.000 0)",
+          "oklch(82% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Hall Grey",
+        "canonical": "#e6e9ee",
+        "tonalRamp": [
+          "oklch(15% 0.007 260.7)",
+          "oklch(26% 0.007 260.7)",
+          "oklch(37% 0.007 260.7)",
+          "oklch(48% 0.007 260.7)",
+          "oklch(59% 0.007 260.7)",
+          "oklch(70% 0.007 260.7)",
+          "oklch(82% 0.007 260.7)",
+          "oklch(95% 0.007 260.7)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Laminate White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(26% 0.000 0)",
+          "oklch(37% 0.000 0)",
+          "oklch(48% 0.000 0)",
+          "oklch(59% 0.000 0)",
+          "oklch(70% 0.000 0)",
+          "oklch(82% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "card-2": {
+        "role": "neutral",
+        "displayName": "Laminate Tint",
+        "canonical": "#f4f6f8",
+        "tonalRamp": [
+          "oklch(15% 0.003 247.9)",
+          "oklch(26% 0.003 247.9)",
+          "oklch(37% 0.003 247.9)",
+          "oklch(48% 0.003 247.9)",
+          "oklch(59% 0.003 247.9)",
+          "oklch(70% 0.003 247.9)",
+          "oklch(82% 0.003 247.9)",
+          "oklch(95% 0.003 247.9)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "#353a43",
+        "tonalRamp": [
+          "oklch(15% 0.017 262.3)",
+          "oklch(26% 0.017 262.3)",
+          "oklch(37% 0.017 262.3)",
+          "oklch(48% 0.017 262.3)",
+          "oklch(59% 0.017 262.3)",
+          "oklch(70% 0.017 262.3)",
+          "oklch(82% 0.017 262.3)",
+          "oklch(95% 0.017 262.3)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "#5a616c",
+        "tonalRamp": [
+          "oklch(15% 0.020 259.4)",
+          "oklch(26% 0.020 259.4)",
+          "oklch(37% 0.020 259.4)",
+          "oklch(48% 0.020 259.4)",
+          "oklch(59% 0.020 259.4)",
+          "oklch(70% 0.020 259.4)",
+          "oklch(82% 0.020 259.4)",
+          "oklch(95% 0.020 259.4)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d2d7de",
+        "tonalRamp": [
+          "oklch(15% 0.011 256.7)",
+          "oklch(26% 0.011 256.7)",
+          "oklch(37% 0.011 256.7)",
+          "oklch(48% 0.011 256.7)",
+          "oklch(59% 0.011 256.7)",
+          "oklch(70% 0.011 256.7)",
+          "oklch(82% 0.011 256.7)",
+          "oklch(95% 0.011 256.7)"
+        ]
+      },
+      "skeleton": {
+        "role": "neutral",
+        "displayName": "Skeleton Grey",
+        "canonical": "#edf0f3",
+        "tonalRamp": [
+          "oklch(15% 0.005 247.9)",
+          "oklch(26% 0.005 247.9)",
+          "oklch(37% 0.005 247.9)",
+          "oklch(48% 0.005 247.9)",
+          "oklch(59% 0.005 247.9)",
+          "oklch(70% 0.005 247.9)",
+          "oklch(82% 0.005 247.9)",
+          "oklch(95% 0.005 247.9)"
+        ]
+      },
+      "strap": {
+        "role": "neutral",
+        "displayName": "Strap Black",
+        "canonical": "#121418",
+        "tonalRamp": [
+          "oklch(15% 0.009 264.3)",
+          "oklch(26% 0.009 264.3)",
+          "oklch(37% 0.009 264.3)",
+          "oklch(48% 0.009 264.3)",
+          "oklch(59% 0.009 264.3)",
+          "oklch(70% 0.009 264.3)",
+          "oklch(82% 0.009 264.3)",
+          "oklch(95% 0.009 264.3)"
+        ]
+      },
+      "strap-ink": {
+        "role": "neutral",
+        "displayName": "Strap Ink",
+        "canonical": "#f4f5f7",
+        "tonalRamp": [
+          "oklch(15% 0.003 264.5)",
+          "oklch(26% 0.003 264.5)",
+          "oklch(37% 0.003 264.5)",
+          "oklch(48% 0.003 264.5)",
+          "oklch(59% 0.003 264.5)",
+          "oklch(70% 0.003 264.5)",
+          "oklch(82% 0.003 264.5)",
+          "oklch(95% 0.003 264.5)"
+        ]
+      },
+      "strap-2": {
+        "role": "neutral",
+        "displayName": "Strap Raised",
+        "canonical": "#2a2e35",
+        "tonalRamp": [
+          "oklch(15% 0.014 261.7)",
+          "oklch(26% 0.014 261.7)",
+          "oklch(37% 0.014 261.7)",
+          "oklch(48% 0.014 261.7)",
+          "oklch(59% 0.014 261.7)",
+          "oklch(70% 0.014 261.7)",
+          "oklch(82% 0.014 261.7)",
+          "oklch(95% 0.014 261.7)"
+        ]
+      },
+      "live-green": {
+        "role": "tertiary",
+        "displayName": "Live Green",
+        "canonical": "#0f7a45",
+        "tonalRamp": [
+          "oklch(15% 0.123 154.5)",
+          "oklch(26% 0.123 154.5)",
+          "oklch(37% 0.123 154.5)",
+          "oklch(48% 0.123 154.5)",
+          "oklch(59% 0.123 154.5)",
+          "oklch(70% 0.123 154.5)",
+          "oklch(82% 0.123 154.5)",
+          "oklch(95% 0.123 154.5)"
+        ]
+      },
+      "r-comics": {
+        "role": "secondary",
+        "displayName": "Comics Red",
+        "canonical": "#b8232b",
+        "tonalRamp": [
+          "oklch(15% 0.184 24.5)",
+          "oklch(26% 0.184 24.5)",
+          "oklch(37% 0.184 24.5)",
+          "oklch(48% 0.184 24.5)",
+          "oklch(59% 0.184 24.5)",
+          "oklch(70% 0.184 24.5)",
+          "oklch(82% 0.184 24.5)",
+          "oklch(95% 0.184 24.5)"
+        ]
+      },
+      "r-anime": {
+        "role": "secondary",
+        "displayName": "Anime Magenta",
+        "canonical": "#b51a5c",
+        "tonalRamp": [
+          "oklch(15% 0.191 2.6)",
+          "oklch(26% 0.191 2.6)",
+          "oklch(37% 0.191 2.6)",
+          "oklch(48% 0.191 2.6)",
+          "oklch(59% 0.191 2.6)",
+          "oklch(70% 0.191 2.6)",
+          "oklch(82% 0.191 2.6)",
+          "oklch(95% 0.191 2.6)"
+        ]
+      },
+      "r-games": {
+        "role": "secondary",
+        "displayName": "Games Green",
+        "canonical": "#157046",
+        "tonalRamp": [
+          "oklch(15% 0.106 157.4)",
+          "oklch(26% 0.106 157.4)",
+          "oklch(37% 0.106 157.4)",
+          "oklch(48% 0.106 157.4)",
+          "oklch(59% 0.106 157.4)",
+          "oklch(70% 0.106 157.4)",
+          "oklch(82% 0.106 157.4)",
+          "oklch(95% 0.106 157.4)"
+        ]
+      },
+      "r-tabletop": {
+        "role": "secondary",
+        "displayName": "Tabletop Rust",
+        "canonical": "#9a4706",
+        "tonalRamp": [
+          "oklch(15% 0.129 49.7)",
+          "oklch(26% 0.129 49.7)",
+          "oklch(37% 0.129 49.7)",
+          "oklch(48% 0.129 49.7)",
+          "oklch(59% 0.129 49.7)",
+          "oklch(70% 0.129 49.7)",
+          "oklch(82% 0.129 49.7)",
+          "oklch(95% 0.129 49.7)"
+        ]
+      },
+      "r-scifi": {
+        "role": "secondary",
+        "displayName": "Sci-Fi Blue",
+        "canonical": "#2a3d9c",
+        "tonalRamp": [
+          "oklch(15% 0.156 269.5)",
+          "oklch(26% 0.156 269.5)",
+          "oklch(37% 0.156 269.5)",
+          "oklch(48% 0.156 269.5)",
+          "oklch(59% 0.156 269.5)",
+          "oklch(70% 0.156 269.5)",
+          "oklch(82% 0.156 269.5)",
+          "oklch(95% 0.156 269.5)"
+        ]
+      },
+      "r-horror": {
+        "role": "secondary",
+        "displayName": "Horror Black",
+        "canonical": "#1f1b24",
+        "tonalRamp": [
+          "oklch(15% 0.018 305.2)",
+          "oklch(26% 0.018 305.2)",
+          "oklch(37% 0.018 305.2)",
+          "oklch(48% 0.018 305.2)",
+          "oklch(59% 0.018 305.2)",
+          "oklch(70% 0.018 305.2)",
+          "oklch(82% 0.018 305.2)",
+          "oklch(95% 0.018 305.2)"
+        ]
+      },
+      "r-pop": {
+        "role": "secondary",
+        "displayName": "Pop Gold",
+        "canonical": "#d9ab32",
+        "tonalRamp": [
+          "oklch(15% 0.141 86.6)",
+          "oklch(26% 0.141 86.6)",
+          "oklch(37% 0.141 86.6)",
+          "oklch(48% 0.141 86.6)",
+          "oklch(59% 0.141 86.6)",
+          "oklch(70% 0.141 86.6)",
+          "oklch(82% 0.141 86.6)",
+          "oklch(95% 0.141 86.6)"
+        ]
+      },
+      "r-toys": {
+        "role": "secondary",
+        "displayName": "Toys Teal",
+        "canonical": "#0b6e77",
+        "tonalRamp": [
+          "oklch(15% 0.082 205)",
+          "oklch(26% 0.082 205)",
+          "oklch(37% 0.082 205)",
+          "oklch(48% 0.082 205)",
+          "oklch(59% 0.082 205)",
+          "oklch(70% 0.082 205)",
+          "oklch(82% 0.082 205)",
+          "oklch(95% 0.082 205)"
+        ]
+      },
+      "r-cosplay": {
+        "role": "secondary",
+        "displayName": "Cosplay Violet",
+        "canonical": "#7239aa",
+        "tonalRamp": [
+          "oklch(15% 0.174 303.6)",
+          "oklch(26% 0.174 303.6)",
+          "oklch(37% 0.174 303.6)",
+          "oklch(48% 0.174 303.6)",
+          "oklch(59% 0.174 303.6)",
+          "oklch(70% 0.174 303.6)",
+          "oklch(82% 0.174 303.6)",
+          "oklch(95% 0.174 303.6)"
+        ]
+      },
+      "r-furry": {
+        "role": "secondary",
+        "displayName": "Furry Brown",
+        "canonical": "#7e5228",
+        "tonalRamp": [
+          "oklch(15% 0.082 62.3)",
+          "oklch(26% 0.082 62.3)",
+          "oklch(37% 0.082 62.3)",
+          "oklch(48% 0.082 62.3)",
+          "oklch(59% 0.082 62.3)",
+          "oklch(70% 0.082 62.3)",
+          "oklch(82% 0.082 62.3)",
+          "oklch(95% 0.082 62.3)"
+        ]
+      },
+      "r-ink": {
+        "role": "secondary",
+        "displayName": "Ribbon White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(26% 0.000 0)",
+          "oklch(37% 0.000 0)",
+          "oklch(48% 0.000 0)",
+          "oklch(59% 0.000 0)",
+          "oklch(70% 0.000 0)",
+          "oklch(82% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "r-ink-pop": {
+        "role": "secondary",
+        "displayName": "Pop Ink",
+        "canonical": "#1d1500",
+        "tonalRamp": [
+          "oklch(15% 0.041 90.8)",
+          "oklch(26% 0.041 90.8)",
+          "oklch(37% 0.041 90.8)",
+          "oklch(48% 0.041 90.8)",
+          "oklch(59% 0.041 90.8)",
+          "oklch(70% 0.041 90.8)",
+          "oklch(82% 0.041 90.8)",
+          "oklch(95% 0.041 90.8)"
+        ]
+      },
+      "r-ink-horror": {
+        "role": "secondary",
+        "displayName": "Horror Parchment",
+        "canonical": "#e8d39c",
+        "tonalRamp": [
+          "oklch(15% 0.075 89.6)",
+          "oklch(26% 0.075 89.6)",
+          "oklch(37% 0.075 89.6)",
+          "oklch(48% 0.075 89.6)",
+          "oklch(59% 0.075 89.6)",
+          "oklch(70% 0.075 89.6)",
+          "oklch(82% 0.075 89.6)",
+          "oklch(95% 0.075 89.6)"
+        ]
+      },
+      "ground-dark": {
+        "role": "neutral",
+        "displayName": "Charcoal Hall",
+        "canonical": "#17181a",
+        "tonalRamp": [
+          "oklch(15% 0.004 264.5)",
+          "oklch(26% 0.004 264.5)",
+          "oklch(37% 0.004 264.5)",
+          "oklch(48% 0.004 264.5)",
+          "oklch(59% 0.004 264.5)",
+          "oklch(70% 0.004 264.5)",
+          "oklch(82% 0.004 264.5)",
+          "oklch(95% 0.004 264.5)"
+        ]
+      },
+      "card-dark": {
+        "role": "neutral",
+        "displayName": "Charcoal Card",
+        "canonical": "#232427",
+        "tonalRamp": [
+          "oklch(15% 0.006 271.2)",
+          "oklch(26% 0.006 271.2)",
+          "oklch(37% 0.006 271.2)",
+          "oklch(48% 0.006 271.2)",
+          "oklch(59% 0.006 271.2)",
+          "oklch(70% 0.006 271.2)",
+          "oklch(82% 0.006 271.2)",
+          "oklch(95% 0.006 271.2)"
+        ]
+      },
+      "card-2-dark": {
+        "role": "neutral",
+        "displayName": "Charcoal Card Tint",
+        "canonical": "#2c2d31",
+        "tonalRamp": [
+          "oklch(15% 0.007 274.7)",
+          "oklch(26% 0.007 274.7)",
+          "oklch(37% 0.007 274.7)",
+          "oklch(48% 0.007 274.7)",
+          "oklch(59% 0.007 274.7)",
+          "oklch(70% 0.007 274.7)",
+          "oklch(82% 0.007 274.7)",
+          "oklch(95% 0.007 274.7)"
+        ]
+      },
+      "ink-dark": {
+        "role": "primary",
+        "displayName": "Hall Light",
+        "canonical": "#f2f3f5",
+        "tonalRamp": [
+          "oklch(15% 0.003 264.5)",
+          "oklch(26% 0.003 264.5)",
+          "oklch(37% 0.003 264.5)",
+          "oklch(48% 0.003 264.5)",
+          "oklch(59% 0.003 264.5)",
+          "oklch(70% 0.003 264.5)",
+          "oklch(82% 0.003 264.5)",
+          "oklch(95% 0.003 264.5)"
+        ]
+      },
+      "on-ink-dark": {
+        "role": "primary",
+        "displayName": "On Ink (dark)",
+        "canonical": "#121418",
+        "tonalRamp": [
+          "oklch(15% 0.009 264.3)",
+          "oklch(26% 0.009 264.3)",
+          "oklch(37% 0.009 264.3)",
+          "oklch(48% 0.009 264.3)",
+          "oklch(59% 0.009 264.3)",
+          "oklch(70% 0.009 264.3)",
+          "oklch(82% 0.009 264.3)",
+          "oklch(95% 0.009 264.3)"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Slate Ink (dark)",
+        "canonical": "#cdd0d5",
+        "tonalRamp": [
+          "oklch(15% 0.008 260.7)",
+          "oklch(26% 0.008 260.7)",
+          "oklch(37% 0.008 260.7)",
+          "oklch(48% 0.008 260.7)",
+          "oklch(59% 0.008 260.7)",
+          "oklch(70% 0.008 260.7)",
+          "oklch(82% 0.008 260.7)",
+          "oklch(95% 0.008 260.7)"
+        ]
+      },
+      "ink-3-dark": {
+        "role": "neutral",
+        "displayName": "Pencil Grey (dark)",
+        "canonical": "#a2a6ad",
+        "tonalRamp": [
+          "oklch(15% 0.011 261.8)",
+          "oklch(26% 0.011 261.8)",
+          "oklch(37% 0.011 261.8)",
+          "oklch(48% 0.011 261.8)",
+          "oklch(59% 0.011 261.8)",
+          "oklch(70% 0.011 261.8)",
+          "oklch(82% 0.011 261.8)",
+          "oklch(95% 0.011 261.8)"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "canonical": "#36383d",
+        "tonalRamp": [
+          "oklch(15% 0.009 268.4)",
+          "oklch(26% 0.009 268.4)",
+          "oklch(37% 0.009 268.4)",
+          "oklch(48% 0.009 268.4)",
+          "oklch(59% 0.009 268.4)",
+          "oklch(70% 0.009 268.4)",
+          "oklch(82% 0.009 268.4)",
+          "oklch(95% 0.009 268.4)"
+        ]
+      },
+      "skeleton-dark": {
+        "role": "neutral",
+        "displayName": "Skeleton Grey (dark)",
+        "canonical": "#22262c",
+        "tonalRamp": [
+          "oklch(15% 0.013 258.4)",
+          "oklch(26% 0.013 258.4)",
+          "oklch(37% 0.013 258.4)",
+          "oklch(48% 0.013 258.4)",
+          "oklch(59% 0.013 258.4)",
+          "oklch(70% 0.013 258.4)",
+          "oklch(82% 0.013 258.4)",
+          "oklch(95% 0.013 258.4)"
+        ]
+      },
+      "strap-dark": {
+        "role": "neutral",
+        "displayName": "Strap Black (dark)",
+        "canonical": "#0b0b0c",
+        "tonalRamp": [
+          "oklch(15% 0.002 286.1)",
+          "oklch(26% 0.002 286.1)",
+          "oklch(37% 0.002 286.1)",
+          "oklch(48% 0.002 286.1)",
+          "oklch(59% 0.002 286.1)",
+          "oklch(70% 0.002 286.1)",
+          "oklch(82% 0.002 286.1)",
+          "oklch(95% 0.002 286.1)"
+        ]
+      },
+      "strap-ink-dark": {
+        "role": "neutral",
+        "displayName": "Strap Ink (dark)",
+        "canonical": "#f2f3f5",
+        "tonalRamp": [
+          "oklch(15% 0.003 264.5)",
+          "oklch(26% 0.003 264.5)",
+          "oklch(37% 0.003 264.5)",
+          "oklch(48% 0.003 264.5)",
+          "oklch(59% 0.003 264.5)",
+          "oklch(70% 0.003 264.5)",
+          "oklch(82% 0.003 264.5)",
+          "oklch(95% 0.003 264.5)"
+        ]
+      },
+      "strap-2-dark": {
+        "role": "neutral",
+        "displayName": "Strap Raised (dark)",
+        "canonical": "#232427",
+        "tonalRamp": [
+          "oklch(15% 0.006 271.2)",
+          "oklch(26% 0.006 271.2)",
+          "oklch(37% 0.006 271.2)",
+          "oklch(48% 0.006 271.2)",
+          "oklch(59% 0.006 271.2)",
+          "oklch(70% 0.006 271.2)",
+          "oklch(82% 0.006 271.2)",
+          "oklch(95% 0.006 271.2)"
+        ]
+      },
+      "r-horror-dark": {
+        "role": "secondary",
+        "displayName": "Horror Dusk",
+        "canonical": "#463c52",
+        "tonalRamp": [
+          "oklch(15% 0.039 305.3)",
+          "oklch(26% 0.039 305.3)",
+          "oklch(37% 0.039 305.3)",
+          "oklch(48% 0.039 305.3)",
+          "oklch(59% 0.039 305.3)",
+          "oklch(70% 0.039 305.3)",
+          "oklch(82% 0.039 305.3)",
+          "oklch(95% 0.039 305.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "WORLDCONS on the strap; the same voice sets a con's short name on its no-image art plate (24px, uppercase)."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Con page title, the Guests wall heading and page titles; 24px on phones."
+      },
+      "display-month": {
+        "displayName": "Display Month",
+        "purpose": "Month headings over the badge grid, with the con count beside them; 24px on phones."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "A guest's name on their own credential, and empty-state headings (800-850)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Con names on badges, clamped to three balanced lines."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Credential names, wall section heads, result counts; ruler months in uppercase at 112% width."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and place lines; tabular numerals inherit everywhere from here."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Every control label; buttons and badge date lines run at 650."
+      },
+      "label-ribbon": {
+        "displayName": "Ribbon Label",
+        "purpose": "Satin ribbons, type toggles and day boxes, uppercase."
+      },
+      "label-band": {
+        "displayName": "Band Label",
+        "purpose": "The ink role band at the foot of a credential, uppercase."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Day counts, face-strip captions, other-con counts, known-for lines and countdown chips."
+      }
+    },
+    "shadows": [
+      {
+        "name": "laminate-rest",
+        "value": "0 1px 1px rgb(18 20 24 / 0.05), 0 10px 24px -14px rgb(18 20 24 / 0.32)",
+        "purpose": "Badges, credentials, Other-dates links and the empty-wall card at rest (light theme)."
+      },
+      {
+        "name": "laminate-rest-dark",
+        "value": "0 1px 1px rgb(0 0 0 / 0.3), 0 12px 26px -14px rgb(0 0 0 / 0.7)",
+        "purpose": "Laminate rest on the charcoal hall."
+      },
+      {
+        "name": "laminate-lift",
+        "value": "0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38)",
+        "purpose": "Hovered badge or credential (with a 3px rise), the suggestion panel and the toast (light theme)."
+      },
+      {
+        "name": "laminate-lift-dark",
+        "value": "0 2px 3px rgb(0 0 0 / 0.35), 0 20px 36px -16px rgb(0 0 0 / 0.8)",
+        "purpose": "Laminate lift on the charcoal hall."
+      },
+      {
+        "name": "punch",
+        "value": "inset 0 1px 2px rgb(0 0 0 / 0.22)",
+        "purpose": "The lanyard slot cut through to the hall; 0.25 for the corner punch on an ended con."
+      },
+      {
+        "name": "ribbon-fold",
+        "value": "inset 0 6px 5px -4px rgb(0 0 0 / 0.38)",
+        "purpose": "Top edge of a hanging ribbon where it tucks under the badge; 0.35 on a pressed type toggle."
+      },
+      {
+        "name": "art-hairline",
+        "value": "inset 0 0 0 1px rgb(18 20 24 / 0.08)",
+        "purpose": "Edge on the key-art window so pale logo plates do not melt into the white badge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing curve for every transition and keyframe."
+      },
+      {
+        "name": "lift",
+        "value": "0.25s (badge) / 0.2s (credential) transform + box-shadow",
+        "purpose": "Hover rise of 3px into the lift shadow."
+      },
+      {
+        "name": "press",
+        "value": "0.15s transform",
+        "purpose": "Buttons rise 1px on hover and settle on press."
+      },
+      {
+        "name": "tint",
+        "value": "0.2s background / opacity",
+        "purpose": "Search field fill, type-toggle tint, clip icon fade."
+      },
+      {
+        "name": "swing",
+        "value": "0.9s: rotate(-4deg) at 18%, 2.6deg at 42%, -1.2deg at 66%, origin 50% 12px",
+        "purpose": "A badge swings from its slot when clipped to the lanyard."
+      },
+      {
+        "name": "bump",
+        "value": "0.5s ease-out: scale(1.35) at 30%",
+        "purpose": "The lanyard count disc on the strap whenever a con is clipped or removed (including undo)."
+      },
+      {
+        "name": "sheet-in",
+        "value": "0.32s from translateY(40px), opacity 0",
+        "purpose": "The phone filter sheet rising into thumb reach."
+      },
+      {
+        "name": "toast",
+        "value": "0.3s transform from +20px, 0.2s opacity",
+        "purpose": "Toast rising into place at the bottom centre."
+      },
+      {
+        "name": "shimmer",
+        "value": "1.4s ease-in-out infinite, opacity 0.55 at 50%",
+        "purpose": "Skeleton art and text bars while the list loads."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations 0.01ms, one iteration",
+        "purpose": "prefers-reduced-motion collapses every animation and transition."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wall-two-up",
+        "value": "420px"
+      },
+      {
+        "name": "phone",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-desktop",
+        "value": "1080px"
+      },
+      {
+        "name": "touch",
+        "value": "(hover: none)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one ink action: Official site, Show N conventions, Clear all filters. A full pill that rises 1px on hover.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Official site<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 18px;border-radius:22px;border:1px solid var(--ink,#121418);background:var(--ink,#121418);color:var(--on-ink,#ffffff);font:650 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:transform .15s cubic-bezier(0.16, 1, 0.3, 1),background .2s}.ds-btn-primary:hover{transform:translateY(-1px)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-primary:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}.ds-btn-primary svg{width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions (Clip to lanyard, Tickets, Add to calendar, Share): hairline pill; pressed fills Laminate White with an ink border.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\" aria-pressed=\"false\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 2.5 12 10l7-7.5\"/><circle cx=\"12\" cy=\"11.5\" r=\"1.5\"/><rect x=\"7\" y=\"14\" width=\"10\" height=\"7.5\" rx=\"1.5\"/><path d=\"M10 17.5h4\"/></svg><span>Clip to lanyard</span></button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 18px;border-radius:22px;border:1px solid var(--line,#d2d7de);background:transparent;color:var(--ink,#121418);font:650 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);white-space:nowrap;cursor:pointer;transition:transform .15s cubic-bezier(0.16, 1, 0.3, 1),background .2s}.ds-btn-ghost:hover{transform:translateY(-1px);border-color:var(--ink-3,#5a616c)}.ds-btn-ghost:active{transform:translateY(0)}.ds-btn-ghost[aria-pressed=\"true\"]{background:var(--card,#ffffff);border-color:var(--ink,#121418)}.ds-btn-ghost:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}.ds-btn-ghost svg{width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Find-a-guest field on walls and the guest directory: a hairline pill whose focus is a flush 2px ink outline.",
+      "html": "<label class=\"ds-input-search\"><input type=\"search\" placeholder=\"Find a guest at this con\" aria-label=\"Find a guest at this con\" autocomplete=\"off\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg></label>",
+      "css": ".ds-input-search{position:relative;display:block;width:min(100%,280px)}.ds-input-search input{box-sizing:border-box;width:100%;height:40px;border-radius:20px;border:1px solid var(--line,#d2d7de);background:var(--card,#ffffff);color:var(--ink,#121418);padding:0 14px 0 38px;font:400 15px/1.5 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);-webkit-appearance:none;appearance:none}.ds-input-search input:focus{outline:2px solid var(--focus,#121418);outline-offset:0;border-color:transparent}.ds-input-search svg{position:absolute;left:12px;top:11px;width:17px;height:17px;color:var(--ink-3,#5a616c);pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "Strap",
+      "kind": "nav",
+      "refersTo": "strap",
+      "description": "The black lanyard strap: wordmark (CONS in Pop Gold), centred search that turns into a white laminate on focus, Guests and Lanyard pills with the count disc that bumps whenever the lanyard changes; focus rings on the strap are drawn in Strap Ink.",
+      "html": "<header class=\"ds-strap\"><a class=\"ds-strap-brand\" href=\"#\"><svg class=\"ds-strap-mark\" viewBox=\"0 0 26 30\" aria-hidden=\"true\"><path d=\"M4 1.5 13 11l9-9.5\"/><circle cx=\"13\" cy=\"12.6\" r=\"1.6\"/><rect x=\"5\" y=\"15.5\" width=\"16\" height=\"13\" rx=\"2.4\"/><path d=\"M9.5 21h7M9.5 24.5h4.5\"/></svg><span>WORLD<b>CONS</b></span></a><label class=\"ds-strap-search\"><input type=\"search\" placeholder=\"Search cons, cities, guests\" aria-label=\"Search conventions, cities or guests\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg></label><nav class=\"ds-strap-nav\" aria-label=\"Sections\"><a class=\"ds-strap-pill\" href=\"#\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>Guests</a><a class=\"ds-strap-pill\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 2.5 12 10l7-7.5\"/><circle cx=\"12\" cy=\"11.5\" r=\"1.5\"/><rect x=\"7\" y=\"14\" width=\"10\" height=\"7.5\" rx=\"1.5\"/><path d=\"M10 17.5h4\"/></svg>Lanyard<span class=\"ds-strap-count\">3</span></a></nav></header>",
+      "css": ".ds-strap{--focus:var(--strap-ink,#f4f5f7);display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:20px;height:64px;padding:0 clamp(16px,3vw,32px);background:var(--strap,#121418);color:var(--strap-ink,#f4f5f7);font-family:var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif)}.ds-strap-brand:focus-visible,.ds-strap-pill:focus-visible{outline:2px solid var(--focus);outline-offset:2px}.ds-strap-pill.ds-bump .ds-strap-count{animation:ds-strap-bump .5s cubic-bezier(0.16, 1, 0.3, 1)}@keyframes ds-strap-bump{30%{transform:scale(1.35)}}.ds-strap svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.ds-strap-brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none;font-weight:900;font-stretch:125%;font-size:19px;letter-spacing:.01em;white-space:nowrap}.ds-strap-brand b{font-weight:900;color:var(--r-pop,#d9ab32)}.ds-strap .ds-strap-mark{width:26px;height:30px;stroke-width:2.2}.ds-strap-search{position:relative;justify-self:center;width:100%;max-width:560px}.ds-strap-search input{box-sizing:border-box;width:100%;height:42px;border-radius:21px;border:1px solid var(--strap-2,#2a2e35);background:var(--strap-2,#2a2e35);color:var(--strap-ink,#f4f5f7);padding:0 40px 0 42px;font:400 15px/1.5 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);outline:none;transition:background .2s,border-color .2s;-webkit-appearance:none;appearance:none}.ds-strap-search input::placeholder{color:color-mix(in srgb,var(--strap-ink,#f4f5f7) 62%,transparent)}.ds-strap-search input:focus{background:#ffffff;color:#121418;border-color:#ffffff}.ds-strap-search input:focus::placeholder{color:#5a616c}.ds-strap-search svg{position:absolute;left:14px;top:12px;color:color-mix(in srgb,var(--strap-ink,#f4f5f7) 70%,transparent);pointer-events:none}.ds-strap-search input:focus~svg{color:#5a616c}.ds-strap-nav{display:flex;gap:8px;align-items:center}.ds-strap-pill{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 12px;border-radius:20px;border:1px solid var(--strap-2,#2a2e35);color:inherit;text-decoration:none;font-weight:600;font-size:15px}.ds-strap-pill:hover,.ds-strap-pill[aria-current=\"page\"]{background:var(--strap-2,#2a2e35)}.ds-strap-count{min-width:22px;height:22px;padding:0 6px;border-radius:11px;background:var(--strap-ink,#f4f5f7);color:var(--strap,#121418);font-size:12px;font-weight:800;display:grid;place-items:center}"
+    },
+    {
+      "name": "Guest-type Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Role filters over a guest wall or the directory: hairline pills with a quiet count; pressed fills ink.",
+      "html": "<div class=\"ds-chips\" role=\"group\" aria-label=\"Guest type\"><button type=\"button\" aria-pressed=\"true\">All<span>455</span></button><button type=\"button\" aria-pressed=\"false\">Actors<span>52</span></button><button type=\"button\" aria-pressed=\"false\">Voice actors<span>41</span></button><button type=\"button\" aria-pressed=\"false\">Comics<span>209</span></button></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:6px;font-variant-numeric:tabular-nums}.ds-chips button{height:34px;padding:0 12px;border-radius:17px;border:1px solid var(--line,#d2d7de);background:var(--card,#ffffff);color:var(--ink-2,#353a43);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);cursor:pointer}.ds-chips button span{margin-left:4px;color:var(--ink-3,#5a616c);font-weight:500}.ds-chips button:hover{border-color:var(--ink-3,#5a616c)}.ds-chips button[aria-pressed=\"true\"]{background:var(--ink,#121418);border-color:var(--ink,#121418);color:var(--on-ink,#ffffff)}.ds-chips button[aria-pressed=\"true\"] span{color:inherit;opacity:.75}.ds-chips button:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}"
+    },
+    {
+      "name": "When Segments",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "The When control: a Laminate White pill track with an inset hairline ring; the pressed segment fills ink.",
+      "html": "<div class=\"ds-seg\" role=\"group\" aria-label=\"When\"><button type=\"button\" aria-pressed=\"true\">Upcoming</button><button type=\"button\" aria-pressed=\"false\">2026</button><button type=\"button\" aria-pressed=\"false\">2027</button><button type=\"button\" aria-pressed=\"false\">All</button></div>",
+      "css": ".ds-seg{display:inline-flex;padding:3px;border-radius:21px;background:var(--card,#ffffff);box-shadow:inset 0 0 0 1px var(--line,#d2d7de)}.ds-seg button{height:34px;padding:0 14px;border:0;border-radius:17px;background:transparent;color:var(--ink-2,#353a43);font:600 15px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);font-variant-numeric:tabular-nums;white-space:nowrap;cursor:pointer}.ds-seg button:hover{color:var(--ink,#121418)}.ds-seg button[aria-pressed=\"true\"]{background:var(--ink,#121418);color:var(--on-ink,#ffffff)}.ds-seg button:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}"
+    },
+    {
+      "name": "Con Badge",
+      "kind": "card",
+      "refersTo": "badge",
+      "description": "The signature laminate: punched slot with the clip, key-art window with the countdown chip, wide heavy name, tabular date line, flag and place, face strip, and satin ribbons hanging below. Stays white in dark mode.",
+      "html": "<div class=\"ds-badge-stage\"><article class=\"ds-badge\"><button class=\"ds-badge-clip\" type=\"button\" aria-pressed=\"false\" aria-label=\"Clip New York Comic Con to your lanyard\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"4.5\" r=\"2.5\"/><path d=\"M12 7v2.5\"/><path d=\"M8.5 9.5h7v6.25a3.5 3.5 0 0 1-7 0z\"/><path d=\"M12 13v4\"/></svg></button><figure class=\"ds-badge-art\"><div class=\"ds-badge-noimg\">NYCC</div><span class=\"ds-badge-chip\">In 3 days</span></figure><div class=\"ds-badge-body\"><h3 class=\"ds-badge-name\">New York Comic Con</h3><p class=\"ds-badge-when\"><span>Oct 8–11, 2026</span><span class=\"ds-badge-days\">4 days</span></p><p class=\"ds-badge-where\"><span class=\"ds-badge-flag\" aria-hidden=\"true\"></span><span>New York, NY · Jacob K. Javits Convention Center</span></p><div class=\"ds-badge-faces\"><ul aria-hidden=\"true\"><li></li><li></li><li></li><li></li><li></li></ul><span class=\"ds-badge-more\">455 guests<small>Hayden Christensen &amp; more</small></span></div></div><div class=\"ds-badge-ribbons\"><span class=\"ds-badge-r-comics\">Comics</span><span class=\"ds-badge-r-pop\">Pop</span><span class=\"ds-badge-r-anime\">Anime</span></div></article></div>",
+      "css": ".ds-badge-stage{max-width:320px;padding:8px 4px 46px;font-family:var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);font-variant-numeric:tabular-nums}.ds-badge{--card:#ffffff;--ink:#121418;--ink-2:#353a43;--ink-3:#5a616c;--line:#d2d7de;--skeleton:#edf0f3;--on-ink:#ffffff;--focus:#121418;position:relative;display:flex;flex-direction:column;padding:24px 12px 14px;border-radius:14px;background:var(--card);color:var(--ink);box-shadow:var(--shadow, 0 1px 1px rgb(18 20 24 / 0.05), 0 10px 24px -14px rgb(18 20 24 / 0.32));transition:transform .25s cubic-bezier(0.16, 1, 0.3, 1),box-shadow .25s cubic-bezier(0.16, 1, 0.3, 1);transform-origin:50% 12px}.ds-badge:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift, 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38))}.ds-badge::before{content:'';position:absolute;top:9px;left:50%;width:40px;height:7px;margin-left:-20px;border-radius:4px;background:var(--ground,#e6e9ee);box-shadow:inset 0 1px 2px rgb(0 0 0 / 0.22)}.ds-badge-clip{position:absolute;z-index:3;top:0;left:50%;width:64px;height:26px;margin-left:-32px;border:0;background:transparent;display:grid;place-items:center;color:var(--ink);cursor:pointer}.ds-badge-clip svg{width:22px;height:22px;margin-top:-8px;opacity:0;transform:translateY(-6px);transition:opacity .2s,transform .25s cubic-bezier(0.16, 1, 0.3, 1);filter:drop-shadow(0 1px 1px rgb(0 0 0 / 0.25));fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.ds-badge:hover .ds-badge-clip svg,.ds-badge-clip:focus-visible svg{opacity:.45;transform:none}.ds-badge-clip[aria-pressed=\"true\"] svg{opacity:1;transform:none}.ds-badge-clip:focus-visible{outline:2px solid var(--focus);outline-offset:2px}@media (hover:none){.ds-badge-clip svg{opacity:.4;transform:none}}.ds-badge-art{position:relative;margin:0;aspect-ratio:1.91/1;border-radius:8px;overflow:hidden;background:var(--tint,#080808)}.ds-badge-art::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgb(18 20 24 / 0.08);pointer-events:none}.ds-badge-noimg{position:absolute;inset:0;display:grid;place-items:center;padding:16px;text-align:center;color:#ffffff;font-weight:900;font-stretch:125%;font-size:24px;line-height:1.05;letter-spacing:.01em;text-transform:uppercase}.ds-badge-chip{position:absolute;z-index:2;left:8px;top:8px;display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 9px;border-radius:12px;background:rgb(18 20 24 / 0.82);color:#ffffff;font-size:12px;font-weight:650}.ds-badge-body{display:flex;flex-direction:column;gap:6px;flex:1;padding:12px 4px 0}.ds-badge-name{margin:0;font-size:19px;line-height:1.12;font-weight:820;font-stretch:116%;letter-spacing:-.005em;text-wrap:balance;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.ds-badge-when{margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:15px;font-weight:650}.ds-badge-days{color:var(--ink-3);font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}.ds-badge-where{margin:0;display:flex;align-items:center;gap:7px;min-width:0;color:var(--ink-2);font-size:15px}.ds-badge-where span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-badge-flag{flex:none;width:18px;height:13.5px;border-radius:2px;box-shadow:0 0 0 1px rgb(0 0 0 / 0.08);background:linear-gradient(#3c3b6e,#3c3b6e) 0 0/45% 54% no-repeat,repeating-linear-gradient(#b22234 0 1.04px,#ffffff 1.04px 2.08px)}.ds-badge-faces{margin-top:auto;padding-top:10px;display:flex;align-items:center;gap:10px;min-height:50px}.ds-badge-faces ul{display:flex;gap:3px;margin:0;padding:0;list-style:none}.ds-badge-faces li{width:30px;height:38px;border-radius:4px;background:var(--skeleton)}.ds-badge-more{font-size:12px;font-weight:650;line-height:1.2;color:var(--ink-2)}.ds-badge-more small{display:block;font-size:12px;font-weight:500;color:var(--ink-3)}.ds-badge-ribbons{position:absolute;top:100%;left:18px;right:18px;display:flex;gap:5px;overflow:hidden}.ds-badge-ribbons span{flex:none;height:32px;padding:8px 8px 0;background:var(--rc);color:var(--rc-ink,#ffffff);font-size:12px;font-weight:800;font-stretch:104%;letter-spacing:.04em;line-height:1;text-transform:uppercase;white-space:nowrap;clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 7px),0 100%);box-shadow:inset 0 6px 5px -4px rgb(0 0 0 / 0.38)}.ds-badge-r-comics{--rc:var(--r-comics,#b8232b);}.ds-badge-r-anime{--rc:var(--r-anime,#b51a5c);}.ds-badge-r-games{--rc:var(--r-games,#157046);}.ds-badge-r-tabletop{--rc:var(--r-tabletop,#9a4706);}.ds-badge-r-scifi{--rc:var(--r-scifi,#2a3d9c);}.ds-badge-r-horror{--rc:var(--r-horror,#1f1b24);--rc-ink:var(--r-ink-horror,#e8d39c);}.ds-badge-r-pop{--rc:var(--r-pop,#d9ab32);--rc-ink:var(--r-ink-pop,#1d1500);}.ds-badge-r-toys{--rc:var(--r-toys,#0b6e77);}.ds-badge-r-cosplay{--rc:var(--r-cosplay,#7239aa);}.ds-badge-r-furry{--rc:var(--r-furry,#7e5228);}"
+    },
+    {
+      "name": "Satin Ribbons",
+      "kind": "custom",
+      "refersTo": "ribbon",
+      "description": "The ten con-type ribbons: flat satin colour, notched 7px tail, fold shadow at the top, 12px/800 uppercase label at 4.5:1 or better. Keyboard focus is an inset 2px ring in the label ink, because the notch clips anything outside the shape.",
+      "html": "<div class=\"ds-ribbons\"><button type=\"button\" class=\"ds-ribbon ds-ribbon-comics\">Comics</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-anime\">Anime</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-games\">Games</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-tabletop\">Tabletop</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-scifi\">Sci-Fi</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-horror\">Horror</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-pop\">Pop</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-toys\">Toys</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-cosplay\">Cosplay</button><button type=\"button\" class=\"ds-ribbon ds-ribbon-furry\">Furry</button></div>",
+      "css": ".ds-ribbons{display:flex;flex-wrap:wrap;gap:5px;font-family:var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif)}.ds-ribbon{--rc:var(--r-comics,#b8232b);flex:none;height:32px;padding:8px 8px 0;border:0;background:var(--rc);color:var(--rc-ink,var(--r-ink,#ffffff));font-family:inherit;font-size:12px;font-weight:800;font-stretch:104%;letter-spacing:.04em;line-height:1;text-transform:uppercase;white-space:nowrap;cursor:pointer;clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 7px),0 100%);box-shadow:inset 0 6px 5px -4px rgb(0 0 0 / 0.38)}.ds-ribbon:hover{filter:brightness(1.08)}.ds-ribbon:focus-visible{outline:none;box-shadow:inset 0 0 0 2px var(--rc-ink,var(--r-ink,#ffffff)),inset 0 6px 5px -4px rgb(0 0 0 / 0.38)}.ds-ribbon-comics{--rc:var(--r-comics,#b8232b);}.ds-ribbon-anime{--rc:var(--r-anime,#b51a5c);}.ds-ribbon-games{--rc:var(--r-games,#157046);}.ds-ribbon-tabletop{--rc:var(--r-tabletop,#9a4706);}.ds-ribbon-scifi{--rc:var(--r-scifi,#2a3d9c);}.ds-ribbon-horror{--rc:var(--r-horror,#1f1b24);--rc-ink:var(--r-ink-horror,#e8d39c);}.ds-ribbon-pop{--rc:var(--r-pop,#d9ab32);--rc-ink:var(--r-ink-pop,#1d1500);}.ds-ribbon-toys{--rc:var(--r-toys,#0b6e77);}.ds-ribbon-cosplay{--rc:var(--r-cosplay,#7239aa);}.ds-ribbon-furry{--rc:var(--r-furry,#7e5228);}"
+    },
+    {
+      "name": "Type Ribbon Toggles",
+      "kind": "chip",
+      "refersTo": "type-toggle",
+      "description": "Con-type filters drawn as the badge ribbon: 15% tint with a 3px satin top band at rest, 26% and a 1px drop on hover, full satin colour with the fold shadow when pressed.",
+      "html": "<div class=\"ds-rtoggles\" role=\"group\" aria-label=\"Convention types\"><button type=\"button\" class=\"ds-rtoggle ds-rt-comics\" aria-pressed=\"true\">Comics<span>192</span></button><button type=\"button\" class=\"ds-rtoggle ds-rt-anime\" aria-pressed=\"false\">Anime<span>168</span></button><button type=\"button\" class=\"ds-rtoggle ds-rt-horror\" aria-pressed=\"false\">Horror<span>50</span></button><button type=\"button\" class=\"ds-rtoggle ds-rt-pop\" aria-pressed=\"false\">Pop<span>186</span></button></div>",
+      "css": ".ds-rtoggles{display:flex;flex-wrap:wrap;gap:8px;font-variant-numeric:tabular-nums}.ds-rtoggle{--rc:var(--ink,#121418);position:relative;isolation:isolate;display:inline-flex;align-items:center;gap:7px;height:42px;padding:0 14px 7px;border:0;background:transparent;color:var(--ink,#121418);font:800 12px/1 var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);font-stretch:104%;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:transform .2s cubic-bezier(0.16, 1, 0.3, 1)}.ds-rtoggle::before{content:'';position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--rc) 15%,var(--card,#ffffff));box-shadow:inset 0 3px 0 var(--rc);clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%);transition:background .2s}.ds-rtoggle span{color:var(--ink-3,#5a616c);font-weight:600;letter-spacing:0}.ds-rtoggle:hover{transform:translateY(1px)}.ds-rtoggle:hover::before{background:color-mix(in srgb,var(--rc) 26%,var(--card,#ffffff))}.ds-rtoggle[aria-pressed=\"true\"]{color:var(--rc-ink,#ffffff)}.ds-rtoggle[aria-pressed=\"true\"]::before{background:var(--rc);box-shadow:inset 0 6px 5px -4px rgb(0 0 0 / 0.35)}.ds-rtoggle[aria-pressed=\"true\"] span{color:inherit;opacity:.85}.ds-rtoggle:focus-visible{outline:2px solid var(--focus,#121418);outline-offset:2px}.ds-rt-comics{--rc:var(--r-comics,#b8232b);}.ds-rt-anime{--rc:var(--r-anime,#b51a5c);}.ds-rt-games{--rc:var(--r-games,#157046);}.ds-rt-tabletop{--rc:var(--r-tabletop,#9a4706);}.ds-rt-scifi{--rc:var(--r-scifi,#2a3d9c);}.ds-rt-horror{--rc:var(--r-horror,#1f1b24);--rc-ink:var(--r-ink-horror,#e8d39c);}.ds-rt-pop{--rc:var(--r-pop,#d9ab32);--rc-ink:var(--r-ink-pop,#1d1500);}.ds-rt-toys{--rc:var(--r-toys,#0b6e77);}.ds-rt-cosplay{--rc:var(--r-cosplay,#7239aa);}.ds-rt-furry{--rc:var(--r-furry,#7e5228);}"
+    },
+    {
+      "name": "Guest Credential",
+      "kind": "card",
+      "refersTo": "credential",
+      "description": "A 4:5 photo ID in the badge laminate: small punched slot, photo (or initials on skeleton), balanced name, known-for, other-cons count, ink role band at the foot.",
+      "html": "<div class=\"ds-cred-stage\"><a class=\"ds-cred\" href=\"#\"><span class=\"ds-cred-photo\"><span class=\"ds-cred-initials\" aria-hidden=\"true\">HC</span></span><span class=\"ds-cred-text\"><b class=\"ds-cred-name\">Hayden Christensen</b><span class=\"ds-cred-known\">Star Wars</span><span class=\"ds-cred-more\">+1 more con</span></span><span class=\"ds-cred-band\">Actor</span></a></div>",
+      "css": ".ds-cred-stage{width:180px;padding:8px;font-family:var(--font, 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif)}.ds-cred{--card:#ffffff;--ink:#121418;--ink-2:#353a43;--ink-3:#5a616c;--line:#d2d7de;--skeleton:#edf0f3;--on-ink:#ffffff;--focus:#121418;position:relative;display:flex;flex-direction:column;padding:18px 8px 10px;border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;box-shadow:var(--shadow, 0 1px 1px rgb(18 20 24 / 0.05), 0 10px 24px -14px rgb(18 20 24 / 0.32));transition:transform .2s cubic-bezier(0.16, 1, 0.3, 1),box-shadow .2s cubic-bezier(0.16, 1, 0.3, 1)}.ds-cred::before{content:'';position:absolute;top:7px;left:50%;width:26px;height:5px;margin-left:-13px;border-radius:3px;background:var(--ground,#e6e9ee);box-shadow:inset 0 1px 2px rgb(0 0 0 / 0.22)}.ds-cred:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift, 0 2px 3px rgb(18 20 24 / 0.06), 0 18px 34px -16px rgb(18 20 24 / 0.38))}.ds-cred:focus-visible{outline:2px solid var(--focus);outline-offset:2px}.ds-cred-photo{position:relative;display:block;aspect-ratio:4/5;border-radius:6px;overflow:hidden;background:var(--skeleton)}.ds-cred-initials{position:absolute;inset:0;display:grid;place-items:center;font-size:30px;font-weight:850;font-stretch:120%;color:var(--ink-3)}.ds-cred-text{display:flex;flex-direction:column;flex:1;padding-bottom:10px}.ds-cred-name{display:block;margin-top:8px;padding:0 2px;font-size:15px;font-weight:750;line-height:1.2;text-wrap:balance}.ds-cred-known{padding:2px 2px 0;font-size:12px;line-height:1.3;color:var(--ink-3);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.ds-cred-more{margin-top:auto;padding:6px 2px 0;font-size:12px;font-weight:650;color:var(--ink-2)}.ds-cred-band{display:block;margin:0;padding:4px 4px 3px;border-radius:4px;background:var(--ink);color:var(--on-ink);font-size:12px;font-weight:800;font-stretch:112%;letter-spacing:.09em;text-transform:uppercase;text-align:center}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Credential Hall",
+    "overview": "WorldCons is a convention hall seen from the badge-pickup desk. A cool grey ground, a black strap across the top that carries the wordmark, and every convention hanging in the hall as a white laminated badge: a punched lanyard slot, inset key art, a heavy wide-set name, a tabular date line, a strip of guest faces. Con types are satin ribbons hanging from each badge's bottom edge. Guests wear 4:5 photo credentials in the same laminate, with their role printed in an ink band at the foot. Clipping a con to your lanyard is the one personal act, and the badge swings on its slot when you do it.\n\nThe hierarchy works like a type specimen: one family (Archivo), one ink, and every level separated by size, weight and the width axis, never by colour. Colour lives in exactly two places: the photographs and key art (faces are the headline, so a guest is never a bare name) and the ten flat satin ribbon colours. Ink is the only action colour, and pressing anything fills it with ink. Density is generous for a directory: four badges across at desktop width, roomy rows so the ribbons can hang, and names that never overflow.\n\nConfirmed rejections: the Eventbrite card with a pin icon and a filter sidebar; the dark gamer-neon default and the glassy, holographic neon-dark look the owner has already turned down; the kraft-paper, rubber-stamp, condensed-type costume. Dark mode is a neutral charcoal hall, and the laminates in it stay white.",
+    "keyCharacteristics": [
+      "A cool hall-grey ground under a black strap; white laminated badges and credentials that stay white in both themes.",
+      "A punched lanyard slot on every laminate, and a punched corner on every ended con.",
+      "One variable family, Archivo, set wide (100–125% width) and heavy for names, with tabular numerals everywhere.",
+      "Ten flat satin ribbon colours for con types, and they appear only on ribbons.",
+      "Ink is the only action colour, and it flips with the theme so it is always the hall's opposite.",
+      "Faces on every badge: a strip of photo thumbnails, or dashed empty slots with a plain sentence.",
+      "Soft ambient shadows on laminates; flat, hairline-edged pill controls."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Ink is the only action colour. Every pressed, selected or primary state is a solid ink fill with on-ink text; the one exception is a type ribbon toggle, which presses into its own satin colour. There is no brand accent and no blue link colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ribbon-Only Rule",
+        "body": "A con-type colour appears only on a satin ribbon or a type ribbon toggle, never as text, icon, border or background anywhere else. The wordmark's CONS in Pop Gold is the single standing exception.",
+        "section": "colors"
+      },
+      {
+        "name": "The Laminate Rule",
+        "body": "Badges and credentials keep their printed palette in every theme: Laminate White, Badge Ink at #121418, the light Hairline and Skeleton Grey. Dark mode darkens the hall, the strap and the controls, never a laminate.",
+        "section": "colors"
+      },
+      {
+        "name": "The Specimen Rule",
+        "body": "Hierarchy comes from size, weight and width, never from colour: headings print in ink, and the ramp is fixed at five sizes (12, 15, 19, 24, 30px) on a 1.25 ratio. The phone search field's 16px exists only to stop iOS from zooming.",
+        "section": "typography"
+      },
+      {
+        "name": "The Wide Rule",
+        "body": "Archivo never runs narrower than 100%. Printed labels sit at 104%, small heads at 112%, names at 116%, month heads at 118%, the wordmark at 125%.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Line Rule",
+        "body": "Numerals are tabular everywhere (the body sets them). A date line prints the range on the left and the day count right-aligned in 12px uppercase Pencil Grey, so counts line up down a grid.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hanging Room Rule",
+        "body": "Badge grids keep a 54px row gap (50px on phones), because up to three 32px ribbons hang below every badge. Any surface that shows badges leaves that room under them.",
+        "section": "layout"
+      },
+      {
+        "name": "The Registered Badge Rule",
+        "body": "Every badge prints the same fields in the same order (art window, name, date line, place line, face strip), with the face strip pinned to the foot, so badges in a row register edge to edge and line for line.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Sidebar Rule",
+        "body": "Filters live in a wrapping row above the content on wide screens and in a bottom sheet on phones, never in a sidebar.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Controls Rule",
+        "body": "Pills, segments, chips and selects never cast a drop shadow; they are edged with a 1px line (Hairline on the hall, Strap Raised on the strap, an inset 1px ring on the When track). Elevation belongs to laminates and the two popovers, the suggestion panel and the toast.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Punch Rule",
+        "body": "A punch is a hole through the laminate to the hall: it takes the ground colour of the current theme and an inset shadow, never a fill of its own.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do print every con as a badge with its fields in the registered order (art window, name, date line, place line, face strip), with up to three satin ribbons hanging from the bottom edge.",
+      "Do give every guest a 4:5 photo credential; when a photo is missing, set their initials on Skeleton Grey. A guest is never a bare name.",
+      "Do keep badges and credentials Laminate White with #121418 ink in both themes, and let only the hall, the strap and the controls change with the theme.",
+      "Do fill every pressed, selected or primary state with ink and On Ink text; a type ribbon toggle presses into its own satin colour instead.",
+      "Do set ribbon labels at 12px, 800, uppercase, in Ribbon White, except Pop (#1d1500) and Horror (#e8d39c), so every label clears 4.5:1.",
+      "Do clamp con names at three balanced lines, ellipsise place lines on one line and clamp known-for lines at two, so nothing overflows a laminate.",
+      "Do mark an ended con with 72% opacity and the corner punch.",
+      "Do show an unannounced lineup as dashed empty photo slots with a plain sentence, never as an empty area.",
+      "Do keep a visible 2px focus outline at a 2px offset on everything focusable: ink on the hall and the laminates, Strap Ink on the strap. A hanging ribbon takes an inset 2px ring in its label ink instead, because its notched shape clips anything outside it.",
+      "Do collapse every transition and animation to an instant under reduced motion."
+    ],
+    "donts": [
+      "Don't add a brand accent, a coloured link or a coloured primary button: ink is the only action colour.",
+      "Don't use a ribbon colour for text, icons, borders or backgrounds outside a ribbon or a type toggle; the wordmark's CONS in Pop Gold is the only exception.",
+      "Don't mark a place with a map-pin icon; print its country flag (18×13.5px, 2px radius, with a faint hairline ring).",
+      "Don't put filters in a sidebar; use the wrapping controls row, and on phones the bottom sheet.",
+      "Don't turn dark mode into gamer neon: no glows, no neon tint on the hall or the strap, and never a dark badge or credential.",
+      "Don't set Archivo narrower than 100% width or add a second family; condensed type, kraft paper and rubber stamps are rejected looks.",
+      "Don't tighten a badge grid's row gap below 54px (50px on phones); the ribbons need that room to hang.",
+      "Don't give pills, segments, chips or selects a drop shadow.",
+      "Don't add font sizes off the 12/15/19/24/30px ramp; the 16px phone search field is the only exception."
+    ]
+  }
+}

@@ -680,7 +680,7 @@ function renderGuest(id) {
           : `${esc(g.n)} isn’t on any upcoming lineup we track right now.`
       }</p>
       <div class="grid">${upcoming.map(badgeHTML).join('')}</div>
-      ${past.length ? `<h2 class="page-title" style="margin-top:56px;font-size:22px">Earlier this season</h2><div class="grid" style="margin-top:18px">${past.map(badgeHTML).join('')}</div>` : ''}
+      ${past.length ? `<h2 class="page-title past-title">Earlier this season</h2><div class="grid past-grid">${past.map(badgeHTML).join('')}</div>` : ''}
     </section>
   </div>`;
   document.title = `${g.n} · WorldCons`;
@@ -849,7 +849,7 @@ function updateLanyardCount(bump = false) {
   el.textContent = n;
   el.dataset.n = String(n);
   if (bump) {
-    const link = $('.lanyard-link');
+    const link = $('.lanyard-link:not(.nav-guests)');
     link.classList.remove('bump');
     void link.offsetWidth;
     link.classList.add('bump');
