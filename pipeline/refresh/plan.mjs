@@ -4,7 +4,7 @@
 // homepages of cons waiting on dates. Compare with the extraction the research picked from
 // and with everything earlier runs saw, then write task files for the agents. Research files
 // are never edited here.
-//   node pipeline/refresh/plan.mjs [--date YYYY-MM-DD] [--concurrency 8] [--max-lines 48]
+//   node pipeline/refresh/plan.mjs [--date YYYY-MM-DD] [--concurrency 8] [--max-lines 48] [--reuse-renders]
 // Writes pipeline/seed/refresh/<date>/<kind>-NN.txt and plan.json.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join, dirname, basename } from 'node:path';
@@ -61,8 +61,16 @@ function keyOf(url) {
     .toLowerCase();
 }
 const isIcon = (c) => /\.svg(\?|#|$)/i.test(c.img || '');
-const labelOf = (c) => String(c.text || c.alt || '').replace(/\s+/g, ' ').trim();
+// A camera or upload file name is not a label.
+const labelOf = (c) => {
+  const s = String(c.text || c.alt || '').replace(/\s+/g, ' ').trim();
+  return /^(img|dsc|dscf|pxl|screenshot|whatsapp image|fb_img|image)[\s_-]?[\w-]*(\.\w{3,4})?$/i.test(s) || /\.(jpe?g|png|webp|gif|avif)$/i.test(s) ? '' : s;
+};
 const bigEnough = (c) => c.w >= 120 && c.h >= 120;
+// Google-hosted images (Google Sites) get a new URL on every load: compare them by label and size.
+const cardKey = (c) => (/googleusercontent\.com/.test(c.img || '') ? `g:${fold(labelOf(c))}:${c.w}x${c.h}` : keyOf(c.img));
+// Cards that are never guests, whatever the page: partner strips, shop items, carousel chrome.
+const NOT_A_GUEST = /^(true|false|null|undefined|logo|banner|carousel image|image|photo|slide \d+)$|\b(partner|partners|sponsor|sponsors|sponsored|exhibitor|vendor|logo|tickets?|merch|shop|store|newsletter)\b|\(\d+\)\s*$/i;
 const hayOf = (c) => fold(`${c.text || ''} ${c.alt || ''} ${decode(c.link)} ${decode((c.img || '').split('/').pop())}`);
 const tokensOf = (name) => fold(name).split(' ').filter((t) => t.length >= 3 || /[^\x00-\x7f]/.test(t));
 const named = (name, hay) => {
@@ -118,6 +126,20 @@ async function worker() {
   while (next < urls.length) {
     const u = urls[next++];
     let x = null;
+    // --reuse-renders: today's earlier render of this page, when there is one.
+    const saved = join(STATE, 'fresh', `${sha(u.url)}.${u.mode}.json`);
+    if (argv.includes('--reuse-renders') && existsSync(saved)) {
+      try {
+        const old = JSON.parse(readFileSync(saved, 'utf8'));
+        if (String(old.extractedAt || '').slice(0, 10) === TODAY) {
+          fresh.set(`${u.mode} ${u.url}`, old);
+          done++;
+          continue;
+        }
+      } catch {
+        /* render it again */
+      }
+    }
     try {
       x = await Promise.race([
         extractWith(browser, u.url, { mode: u.mode }),
@@ -142,7 +164,7 @@ const tasks = { update: [], announce: [], dates: [] };
 const oldKeysByUrl = new Map();
 for (const j of jobs.filter((x) => x.kind === 'update')) {
   const set = oldKeysByUrl.get(j.url) || new Set();
-  for (const c of j.old.candidates || []) set.add(keyOf(c.img));
+  for (const c of j.old.candidates || []) set.add(cardKey(c));
   oldKeysByUrl.set(j.url, set);
 }
 let unreachable = 0;
@@ -184,7 +206,7 @@ for (const j of jobs) {
     continue;
   }
   const cands = x.candidates || [];
-  const keys = cands.map((c) => keyOf(c.img));
+  const keys = cands.map(cardKey);
   const seenKey = `guests ${j.url}`;
   const known = new Set([...(seen[seenKey] || []), ...(oldKeysByUrl.get(j.url) || [])]);
   if (j.kind === 'announce' && !seen[seenKey]) {
@@ -195,17 +217,19 @@ for (const j of jobs) {
   }
   const newCards = cands
     .map((c, i) => [i, c])
-    .filter(([, c]) => !known.has(keyOf(c.img)) && !isIcon(c) && (labelOf(c) || bigEnough(c)));
+    .filter(([, c]) => !known.has(cardKey(c)) && !isIcon(c) && !NOT_A_GUEST.test(labelOf(c)) && (labelOf(c) || bigEnough(c)));
   let missing = [];
   if (j.kind === 'update') {
     const hay = cands.map(hayOf).join(' | ');
     const freshKeys = new Set(keys);
     missing = j.picks.filter(([n, name]) => {
       const oc = (j.old.candidates || [])[n];
-      return !(oc && freshKeys.has(keyOf(oc.img))) && !named(name, hay);
+      return !(oc && freshKeys.has(cardKey(oc))) && !named(name, hay);
     });
   }
-  const worth = j.kind === 'announce' ? newCards.some(([, c]) => labelOf(c)) || newCards.length >= 2 : newCards.length > 0 || missing.length > 0;
+  // One new picture with no name is usually decoration; a named card or several pictures is news.
+  const named2 = newCards.filter(([, c]) => labelOf(c)).length;
+  const worth = named2 > 0 || newCards.length >= 2 || missing.length > 0;
   if (!worth) {
     seen[seenKey] = [...new Set([...(seen[seenKey] || []), ...keys])];
     continue;
