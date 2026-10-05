@@ -5,9 +5,15 @@
   "url": "https://dreamhack.com/stockholm/",
   "organizer": "DreamHack AB",
   "status": "active",
-  "types": ["games", "cosplay"],
+  "types": [
+    "games",
+    "cosplay"
+  ],
   "blurb": "Sweden's major gaming festival at Stockholmsmassan, with esports tournaments, an expo, artist alley, tabletop and cosplay competitions.",
-  "cover": { "file": "pipeline/cache/extract/dreamhack-stockholm.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/dreamhack-stockholm.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-11-27",
@@ -24,8 +30,730 @@
         {
           "file": "pipeline/cache/extract/dreamhack-stockholm.guests.json",
           "picks": [
-            [4, "bbno$", "Rapper; live concert at DreamHack Stockholm", "music"],
-            [5, "hololive", "Virtual idol livestreams and meet-and-greets", "creator"]
+            [
+              4,
+              "bbno$",
+              "Rapper; live concert at DreamHack Stockholm",
+              "music"
+            ],
+            [
+              5,
+              "hololive",
+              "Virtual idol livestreams and meet-and-greets",
+              "creator"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/dreamhack-stockholm-v2c.guests.json",
+          "picks": [
+            [
+              1,
+              "Maxa_lottle",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              2,
+              "Trucker Cassie",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              3,
+              "TheFitnessGamer",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              4,
+              "ChilledLuck",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              5,
+              "Toppaa10",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              6,
+              "Miaah",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              7,
+              "benj0708",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              8,
+              "Yung",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              9,
+              "ASecretToEverybody",
+              "Twitch/YouTube creator",
+              "creator"
+            ],
+            [
+              10,
+              "xFrostyWalker",
+              "Twitch/TikTok creator",
+              "creator"
+            ],
+            [
+              11,
+              "Tinituzzz",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              12,
+              "ElinaJasmin",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              13,
+              "Stealthygolem",
+              "Twitch/YouTube/X creator",
+              "creator"
+            ],
+            [
+              14,
+              "GouMiHo",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              15,
+              "Honeycake_pinkbrigade",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              16,
+              "Hermanoerkano",
+              "Content creator",
+              "creator"
+            ],
+            [
+              17,
+              "Baskeh",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              18,
+              "Alix",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              19,
+              "thornleya",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              20,
+              "Moty201",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              21,
+              "CMaddie",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              22,
+              "Freak 22",
+              "YouTube creator",
+              "creator"
+            ],
+            [
+              23,
+              "TicanUK",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              24,
+              "Mirya",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              25,
+              "Neneko",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              26,
+              "Human_Siri",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              27,
+              "b0bbaTV",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              28,
+              "allykitti",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              29,
+              "xJameh",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              30,
+              "CyborgAngel",
+              "Twitch/YouTube/X creator",
+              "creator"
+            ],
+            [
+              31,
+              "PogiePaw",
+              "Instagram creator",
+              "creator"
+            ],
+            [
+              32,
+              "knubbisssss",
+              "Twitch/TikTok/X creator",
+              "creator"
+            ],
+            [
+              33,
+              "Kixyxox",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              34,
+              "Swirft",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              35,
+              "proxyfox",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              36,
+              "emilio",
+              "Twitch/Instagram/X creator",
+              "creator"
+            ],
+            [
+              37,
+              "Matinbum",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              38,
+              "perringx",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              39,
+              "Melou",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              40,
+              "x_dura",
+              "Twitch/TikTok/X creator",
+              "creator"
+            ],
+            [
+              41,
+              "Intilla",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              42,
+              "Malnoxx",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/dreamhack-stockholm-v2e.guests.json",
+          "picks": [
+            [
+              9,
+              "Nukleara",
+              "Cosplay Judge",
+              "cosplay"
+            ],
+            [
+              10,
+              "Keksballs",
+              "Cosplay Judge",
+              "cosplay"
+            ],
+            [
+              11,
+              "Kuroru",
+              "Cosplay Judge",
+              "cosplay"
+            ],
+            [
+              12,
+              "AbbeWeg",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              13,
+              "Strawbz",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              14,
+              "JoJoy",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              16,
+              "drawtea",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              17,
+              "silkton",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              18,
+              "Bino",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              20,
+              "MaseTheMoose",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              21,
+              "kitearc",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              22,
+              "Melviva",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              23,
+              "AnyaByss",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              24,
+              "Rox",
+              "YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              26,
+              "LaylaWa",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              27,
+              "Cile Laak",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              28,
+              "xJessicia",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              29,
+              "Linzor",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              30,
+              "Akiana",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              31,
+              "Dinzia",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              32,
+              "Yikeso_o",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              33,
+              "ThePinkSlayr",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              34,
+              "Elina",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              35,
+              "soleastella",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              36,
+              "Thevenussh0w0",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              37,
+              "pikkujanica",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              38,
+              "ch0cooo",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              39,
+              "eskea",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              40,
+              "j0se_fin",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              41,
+              "mkaybecca",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              42,
+              "Heroic_Dummy",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              43,
+              "AzureBay",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              44,
+              "LinneaTheCake",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              45,
+              "Minitankpr",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              47,
+              "juliamiumiu",
+              "TikTok creator",
+              "creator"
+            ],
+            [
+              48,
+              "ArloVZN",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              50,
+              "AureliaaSol",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              51,
+              "benjaminsyrsacos",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              52,
+              "AuroraLlunae",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              53,
+              "lunapumai",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              54,
+              "Yumidun",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              55,
+              "Mie Rose",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              56,
+              "LittleSwedish",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              57,
+              "SpectralSybil",
+              "Twitch/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              59,
+              "elderitched",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              60,
+              "Rawarhii",
+              "Twitch/Instagram/X creator",
+              "creator"
+            ],
+            [
+              61,
+              "kazemaru",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              62,
+              "Drpg",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              63,
+              "Littletrixi3",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              64,
+              "JaxRomero",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              65,
+              "Pixelette",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              66,
+              "Oldeforce",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              67,
+              "Elvea",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              68,
+              "Mythraplays",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              69,
+              "Big Yellow",
+              "Twitch/YouTube/X creator",
+              "creator"
+            ],
+            [
+              70,
+              "QueenBushCamp",
+              "Twitch/Instagram/X creator",
+              "creator"
+            ],
+            [
+              71,
+              "JustLaurxn",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              72,
+              "S J Jinxx",
+              "Twitch/Instagram creator",
+              "creator"
+            ],
+            [
+              74,
+              "Th3_Fastest",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              75,
+              "OnyxGraves",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              76,
+              "Wraith Woof",
+              "Twitch/Instagram/X creator",
+              "creator"
+            ],
+            [
+              77,
+              "This Is Geeky",
+              "TikTok/YouTube/Instagram creator",
+              "creator"
+            ],
+            [
+              78,
+              "EllenViking",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              79,
+              "bubel_tee",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              80,
+              "MeeshVS",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              81,
+              "hotcrossbuntv",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              82,
+              "VintagePotato",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              83,
+              "fuyuderpilz",
+              "Twitch/TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              84,
+              "Eldfursten",
+              "TikTok/Instagram creator",
+              "creator"
+            ],
+            [
+              85,
+              "wahibah",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              86,
+              "Shagarita",
+              "Twitch/Instagram creator",
+              "creator"
+            ],
+            [
+              87,
+              "Yami",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              88,
+              "BlameVita",
+              "Twitch creator",
+              "creator"
+            ],
+            [
+              89,
+              "Malini9",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ],
+            [
+              90,
+              "gentlebites",
+              "Twitch/TikTok/YouTube creator",
+              "creator"
+            ]
           ]
         }
       ],
@@ -34,5 +762,5 @@
     }
   ],
   "checked": "2026-10-05",
-  "notes": "DreamHack Stockholm is a gaming/esports festival rather than a classic guest-signing convention, so only the two headline acts called out on the homepage (bbno$ performing live; hololive hosting livestreams/meet-and-greets) were picked as guests; the Creator Hub likely lists further invited streamers/creators not enumerated here."
+  "notes": "DreamHack Stockholm is a gaming/esports festival rather than a classic guest-signing convention; the homepage itself only calls out two headline acts (bbno$ performing live; hololive hosting livestreams/meet-and-greets). Recheck pass (2026-10-05): the site's own 'Creators' nav tab leads to a dedicated Creator Hub page (dreamhack.com/stockholm/creator-hub/) naming 42 individual streamers/influencers accepted into the 2026 Creator Program (each card tagged '_2026', with Twitch/TikTok/YouTube/Instagram/X handles) -- these were missing from the original pass entirely. The Cosplay page (.../cosplay/) separately names 3 Cosplay Judges (Nukleara, Keksballs, Kuroru) and a 'Presented By' roster of 79 more creator-program streamers skewed toward cosplay content, 7 of whom also appear on the Creator Hub page (picked once, from the Creator Hub file, per the one-guest-one-pick rule) -- the other 72 plus the 3 judges are picked from the cosplay file. All ~117 added guests are cat 'creator' (or 'cosplay' for the judges); none have a fuller bio on these cards beyond their handle and platform icons, so known-for records the platforms shown. The separate Artist Alley page (.../artist-alley/) was also checked and correctly excluded: its ~83 tiles are vendor booths with Booth-ID tags (independent merch/craft sellers), which RESEARCH.md's rule explicitly skips as 'vendors'/'artist-alley tables', not announced guests -- confirmed by zero name overlap with the Creator Hub / Cosplay rosters. The Creator Program application page itself (.../creator-program/) is a generic 'apply here' page (applications closed Sept 30) with no additional names."
 }
