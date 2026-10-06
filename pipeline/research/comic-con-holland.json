@@ -51,6 +51,6 @@
       "evidence": "Page title: 'Comic Con Holland - 10-11 October 2026'; page text: 'Saturday 10th Of October 2026 10:00-19:00h Sunday 11th Of October 2026 10:00-17:00h'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Venue address on the guests page (Stelling 1, 2141 SB Vijfhuizen) matches Expo Haarlemmermeer; corrected city from the seed's 'Amsterdam' to Vijfhuizen, the actual town (consistent with the seed's own note 'Held in Vijfhuizen near Amsterdam'). Skipped candidates #0 and #11 (site/event logos, not guests); #1-10 and #12-21 are all real guest photos confirmed by name text on the same dated (Oct 2026) guest page."
+  "checked": "2026-10-06",
+  "notes": "Venue address on the guests page (Stelling 1, 2141 SB Vijfhuizen) matches Expo Haarlemmermeer; corrected city from the seed's 'Amsterdam' to Vijfhuizen, the actual town (consistent with the seed's own note 'Held in Vijfhuizen near Amsterdam'). Skipped candidates #0 and #11 (site/event logos, not guests); #1-10 and #12-21 are all real guest photos confirmed by name text on the same dated (Oct 2026) guest page. 2026-10-06 refresh: unchanged; today's render lost the second guest page to a pagination error, but a fresh render of /en/guests/ walked both pages and shows all 20 picked guests again."
 }

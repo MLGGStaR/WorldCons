@@ -5,9 +5,15 @@
   "url": "https://animelosangeles.org/",
   "organizer": "California Anime Foundation",
   "status": "active",
-  "types": ["anime", "cosplay"],
+  "types": [
+    "anime",
+    "cosplay"
+  ],
   "blurb": "Long-running January anime convention at the Long Beach Convention Center, with a cosplay masquerade, concerts, an idol showcase and artist alley.",
-  "cover": { "file": "pipeline/cache/extract/anime-los-angeles.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/anime-los-angeles.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2027-01-07",
@@ -25,6 +31,6 @@
       "evidence": "Homepage and guests-page text: 'Animé Los Angeles 22 🕒 January 7-10, 2027 Long Beach Convention Center'; guests page: 'STAY TUNED FOR ALA 22 GUEST ANNOUNCEM[ENTS]'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The batch seed's venue/city (Ontario, CA) is stale: the live site shows ALA has moved to the Long Beach Convention Center ('Animal Los Angeles 22 ... January 7-10, 2027 Long Beach Convention Center'), confirmed on both the homepage and the guests page; using Long Beach, not Ontario. The guests page shows zero guest photo candidates and says 'STAY TUNED FOR ALA 22 GUEST ANNOUNCEMENTS', so guests is 'none-yet'. Organizer confirmed from the site's own policies blurb: 'Animé Los Angeles is sponsored by the California Anime Foundation, a registered 501(c)3 Non-profit corporation'. Cover falls back to the current wide color logo (uploaded 2025-05) rather than the og:image, which is dated artwork for 'ALA-20' (two editions stale) or the generic crowd/venue photos among the hero images."
+  "checked": "2026-10-06",
+  "notes": "The batch seed's venue/city (Ontario, CA) is stale: the live site shows ALA has moved to the Long Beach Convention Center ('Animal Los Angeles 22 ... January 7-10, 2027 Long Beach Convention Center'), confirmed on both the homepage and the guests page; using Long Beach, not Ontario. The guests page shows zero guest photo candidates and says 'STAY TUNED FOR ALA 22 GUEST ANNOUNCEMENTS', so guests is 'none-yet'. Organizer confirmed from the site's own policies blurb: 'Animé Los Angeles is sponsored by the California Anime Foundation, a registered 501(c)3 Non-profit corporation'. Cover falls back to the current wide color logo (uploaded 2025-05) rather than the og:image, which is dated artwork for 'ALA-20' (two editions stale) or the generic crowd/venue photos among the hero images. 2026-10-06 refresh: still not yet -- the guest page's only new card (#3) is the ALA chat widget, and the page text says 'STAY TUNED FOR ALA 22 GUEST ANNOUNCEMENTS' for January 7-10, 2027."
 }

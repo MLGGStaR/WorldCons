@@ -429,12 +429,40 @@
               "cosplay"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-2-r20261006.guests.json",
+          "picks": [
+            [
+              28,
+              "Mark Bloodworth",
+              "",
+              "comics"
+            ],
+            [
+              29,
+              "Jose Marzan Jr",
+              "",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-3-r20261006.guests.json",
+          "picks": [
+            [
+              5,
+              "Evan Heuker",
+              "",
+              "author"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: \"Save the Date! November 13-15, 2026 The DeVos Place 303 Monroe Ave NW, Grand Rapids, MI 49503\" and video caption \"Grand Rapids Comic-Con | November 13-15, 2026!\" (the page's own meta description says Nov 14-16, but the visible on-page text agrees twice on Nov 13-15, so that was used)."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guests are split across 5 category pages (media/comic/literary/streaming/cosplay guests); each is cited as its own lineup entry. Company/exhibitor booths shown among the comic guests (Kapow School, Caliber Comics, Drawing Blood Comics, CGC, MAS Authentication) and streaming guests (Channel Awesome) were excluded as not individual people. All-caps names were converted to normal capitalisation; most cards show only a name and photo with no bio, so known-for is left blank for guests not confidently identifiable from public knowledge."
+  "checked": "2026-10-06",
+  "notes": "Guests are split across 5 category pages (media/comic/literary/streaming/cosplay guests); each is cited as its own lineup entry. Company/exhibitor booths shown among the comic guests (Kapow School, Caliber Comics, Drawing Blood Comics, CGC, MAS Authentication) and streaming guests (Channel Awesome) were excluded as not individual people. All-caps names were converted to normal capitalisation; most cards show only a name and photo with no bio, so known-for is left blank for guests not confidently identifiable from public knowledge. 2026-10-06 refresh: added Mark Bloodworth and Jose Marzan Jr (comic guests page) and Evan Heuker (literary guests page, Friday only); names only on cards, known-for left blank."
 }

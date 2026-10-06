@@ -5,9 +5,14 @@
   "url": "https://ohayocon.online/",
   "organizer": "",
   "status": "active",
-  "types": ["anime"],
+  "types": [
+    "anime"
+  ],
   "blurb": "A winter anime convention in Columbus, Ohio, held at The Plaza Hotel at Capital Square.",
-  "cover": { "file": "pipeline/cache/extract/ohayocon.home.json", "key": "hero:2" },
+  "cover": {
+    "file": "pipeline/cache/extract/ohayocon.home.json",
+    "key": "hero:2"
+  },
   "editions": [
     {
       "start": "2027-01-29",
@@ -25,6 +30,6 @@
       "evidence": "Homepage text: 'Ohayocon 2027 at The Plaza Hotel at Capital Square in Columbus, Ohio, January 29–31, 2027!'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Every guest card on the Guest List page says only 'Guest of Honor' or 'Cosplay Guest of Honor' with no specific credits. Refute pass (2026-10-05): the prior 'announced' lineup was wrong -- the same 18 names (Brittney Karbowski, Analesa Fisher, Tavisha Wolfgarth-Simons, Michael Sinterniklaas, Mela Lee, Knightmage, Valeria Rodriguez, Grey DeLisle, Greg Eagles, Melissa Fahn, Andi Serpenti, Dorothy Fahn, Tom Fahn, David Errigo Jr., Emi Lo, Rob Mungle, Rikki Simons, Richard Horvitz) exactly match the already-concluded Ohayocon 2026 (Dayton, OH, Jan 30-Feb 1 2026) guest-of-honor lineup per web search, and that same URL (ohayocon.online/guest-list/) was indexed as 'Guest List - OHAYOCON 26' -- i.e. only the page's year label was bumped to '27' while the guest grid itself was never refreshed for this edition (the 2027 show has even moved venues, to Columbus, which the stale grid doesn't reflect). No positive evidence ties any of the 18 to the 2027 edition specifically, so guests is reset to none-yet per RESEARCH.md."
+  "checked": "2026-10-06",
+  "notes": "Every guest card on the Guest List page says only 'Guest of Honor' or 'Cosplay Guest of Honor' with no specific credits. Refute pass (2026-10-05): the prior 'announced' lineup was wrong -- the same 18 names (Brittney Karbowski, Analesa Fisher, Tavisha Wolfgarth-Simons, Michael Sinterniklaas, Mela Lee, Knightmage, Valeria Rodriguez, Grey DeLisle, Greg Eagles, Melissa Fahn, Andi Serpenti, Dorothy Fahn, Tom Fahn, David Errigo Jr., Emi Lo, Rob Mungle, Rikki Simons, Richard Horvitz) exactly match the already-concluded Ohayocon 2026 (Dayton, OH, Jan 30-Feb 1 2026) guest-of-honor lineup per web search, and that same URL (ohayocon.online/guest-list/) was indexed as 'Guest List - OHAYOCON 26' -- i.e. only the page's year label was bumped to '27' while the guest grid itself was never refreshed for this edition (the 2027 show has even moved venues, to Columbus, which the stale grid doesn't reflect). No positive evidence ties any of the 18 to the 2027 edition specifically, so guests is reset to none-yet per RESEARCH.md. 2026-10-06 refresh: still none-yet -- the page lists the same Guest of Honor grid as before plus a 'New Guest of Honor Alert' (Analesa Fisher) that explicitly says 'Ohayocon 2026 in Dayton, Ohio from January 30th to February 1st', i.e. the past show, so nothing ties any card to the 2027 edition."
 }

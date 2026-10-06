@@ -5,9 +5,16 @@
   "url": "https://www.dutchcomiccon.com/",
   "organizer": "Easyfairs",
   "status": "active",
-  "types": ["comics", "pop", "cosplay"],
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
   "blurb": "The Netherlands' biggest comic con, held at Jaarbeurs Utrecht with film/TV actor guests, autographs, cosplay and gaming.",
-  "cover": { "file": "pipeline/cache/extract/heroes-dutch-comic-con.home.json", "key": "hero:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/heroes-dutch-comic-con.home.json",
+    "key": "hero:0"
+  },
   "editions": [
     {
       "start": "2026-11-21",
@@ -24,10 +31,41 @@
         {
           "file": "pipeline/cache/extract/heroes-dutch-comic-con.guests.json",
           "picks": [
-            [2, "Antonio Cipriano", "Ajax in Netflix's Wednesday", "actor"],
-            [3, "Ryan Eggold", "Tom Keen in The Blacklist", "actor"],
-            [4, "Shawn Ashmore", "Iceman in the X-Men films", "actor"],
-            [5, "Pom Klementieff", "Mantis in Guardians of the Galaxy", "actor"]
+            [
+              2,
+              "Antonio Cipriano",
+              "Ajax in Netflix's Wednesday",
+              "actor"
+            ],
+            [
+              3,
+              "Ryan Eggold",
+              "Tom Keen in The Blacklist",
+              "actor"
+            ],
+            [
+              4,
+              "Shawn Ashmore",
+              "Iceman in the X-Men films",
+              "actor"
+            ],
+            [
+              5,
+              "Pom Klementieff",
+              "Mantis in Guardians of the Galaxy",
+              "actor"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/heroes-dutch-comic-con-r20261006.guests.json",
+          "picks": [
+            [
+              6,
+              "Kenneth Choi",
+              "Chimney in 9-1-1",
+              "actor"
+            ]
           ]
         }
       ],
@@ -35,6 +73,6 @@
       "evidence": "Page title: 'Heroes Dutch Comic Con Winter - November 21 & 22, 2026'; page text: 'Mark your calendars for November 21 & 22, 2026'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md."
+  "checked": "2026-10-06",
+  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md. Refresh 2026-10-06: added Kenneth Choi, newly listed under OUR LINE-UP on the special-guests page (card: best known as Captain and firefighter Howard 'Chimney' Han in the hit series)."
 }

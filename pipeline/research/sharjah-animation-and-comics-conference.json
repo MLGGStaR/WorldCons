@@ -46,9 +46,14 @@
             [22, "Alex Rodrigues", "Head of Creative AI, Saatchi & Saatchi", "other"],
             [23, "Mounia Aram", "Founder & CEO, Mounia Aram Company", "animation"],
             [24, "Minasie Terefe", "Director, Behagerlij Studio", "animation"],
-            [25, "Abdulrahman Khedr", "Co-Founder, giraffics studio", "animation"],
-            [26, "Lee Bradley", "Comic Book Illustrator", "comics"],
-            [27, "Nathalie Habib", "Co-Owner / Executive Producer, Blink Studios", "animation"]
+            [25, "Abdulrahman Khedr", "Co-Founder, giraffics studio", "animation"]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261006.guests.json",
+          "picks": [
+            [11,"Jehan Al Nasser","Professor of Voice, Higher Institute of Arabic Music","other"],
+            [27,"Essam Al Sayed","Play Director, National Theatre of Egypt","other"]
           ]
         }
       ],
@@ -56,6 +61,6 @@
       "evidence": "Homepage: '22 – 25 October 2026' at Aljada, Sharjah; JSON-LD Event 2026-10-22 to 2026-10-25"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah."
+  "checked": "2026-10-06",
+  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them)."
 }

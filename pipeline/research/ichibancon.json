@@ -5,9 +5,15 @@
   "url": "https://ichibancon.com",
   "organizer": "Carolinas Anime Cons",
   "status": "active",
-  "types": ["anime", "cosplay"],
+  "types": [
+    "anime",
+    "cosplay"
+  ],
   "blurb": "An anime convention at the Embassy Suites Hotel in Concord, North Carolina, with cosplay contests and voice-actor guests.",
-  "cover": { "file": "pipeline/cache/extract/ichibancon.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/ichibancon.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2027-01-07",
@@ -23,7 +29,23 @@
         {
           "file": "pipeline/cache/extract/ichibancon-home.guests.json",
           "picks": [
-            [0, "Todd Haberkorn", "Natsu Dragneel in Fairy Tail", "voice"]
+            [
+              0,
+              "Todd Haberkorn",
+              "Natsu Dragneel in Fairy Tail",
+              "voice"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/ichibancon-home-r20261006.guests.json",
+          "picks": [
+            [
+              0,
+              "Andrew Choi",
+              "Singing voice of Jinu in KPop Demon Hunters",
+              "music"
+            ]
           ]
         }
       ],
@@ -31,6 +53,6 @@
       "evidence": "Page title 'Ichibancon – January 7th-10th, 2027 – Concord, NC'; location page: 'Ichibancon will be held at: Embassy Suites Hotel Concord 5400 John Q Hammons Dr NW Concord NC, 28027'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The dedicated /all-guests/ roster page is still a placeholder ('We're busy finalizing an exciting roster of voice actors, cosplayers, performers, DJs, panelists...'), but the homepage carries a dated news post, 'Guest Announcement: Todd Haberkorn' (Oct 3, 2026), with his own photo and bio, so he is picked from a guests-mode re-extraction of the homepage (candidate #0) rather than from the empty roster page. All other homepage image candidates (#1-29) are blog/news thumbnails (VIP passes, season pass, room booking, a car meetup) and nav images, not guests. Known-for is quoted from his bio text, which calls out 'the lead Natsu Dragneel in Fairy Tail' among many other roles. Organizer inferred as 'Carolinas Anime Cons' from the Ticket Tailor account URL used for ticket sales (tickettailor.com/events/carolinasanimecons/...); no explicit organizer/company name was found in the rendered page text itself. Refute pass (2026-10-05): fresh re-fetch of /all-guests/ still shows only the 'finalizing roster' placeholder (pipeline/cache/extract/ichibancon.guests.json, #0); the homepage's own dated news post, 'Guest Announcement: Todd Haberkorn, October 3, 2026' (pipeline/cache/extract/ichibancon-home-v2.guests.json, #0), remains the only and still-current guest evidence; upheld."
+  "checked": "2026-10-06",
+  "notes": "The dedicated /all-guests/ roster page is still a placeholder ('We're busy finalizing an exciting roster of voice actors, cosplayers, performers, DJs, panelists...'), but the homepage carries a dated news post, 'Guest Announcement: Todd Haberkorn' (Oct 3, 2026), with his own photo and bio, so he is picked from a guests-mode re-extraction of the homepage (candidate #0) rather than from the empty roster page. All other homepage image candidates (#1-29) are blog/news thumbnails (VIP passes, season pass, room booking, a car meetup) and nav images, not guests. Known-for is quoted from his bio text, which calls out 'the lead Natsu Dragneel in Fairy Tail' among many other roles. Organizer inferred as 'Carolinas Anime Cons' from the Ticket Tailor account URL used for ticket sales (tickettailor.com/events/carolinasanimecons/...); no explicit organizer/company name was found in the rendered page text itself. Refute pass (2026-10-05): fresh re-fetch of /all-guests/ still shows only the 'finalizing roster' placeholder (pipeline/cache/extract/ichibancon.guests.json, #0); the homepage's own dated news post, 'Guest Announcement: Todd Haberkorn, October 3, 2026' (pipeline/cache/extract/ichibancon-home-v2.guests.json, #0), remains the only and still-current guest evidence; upheld. Refresh 2026-10-06: added Andrew Choi from the homepage news post 'Guest Announcement: Andrew Choi' dated October 5, 2026."
 }
