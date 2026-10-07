@@ -5,9 +5,15 @@
   "url": "https://spookyempire.com",
   "organizer": "",
   "status": "active",
-  "types": ["horror", "pop"],
+  "types": [
+    "horror",
+    "pop"
+  ],
   "blurb": "A Halloween-weekend horror convention in Orlando with genre actors, special-effects legends, musicians and wrestlers for autographs and photo ops.",
-  "cover": { "file": "pipeline/cache/extract/spooky-empire.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/spooky-empire.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2026-10-30",
@@ -24,44 +30,257 @@
         {
           "file": "pipeline/cache/extract/spooky-empire.guests.json",
           "picks": [
-            [8, "Doug Bradley", "Hellraiser", "actor"],
-            [11, "Juliette Lewis", "Natural Born Killers, Cape Fear", "actor"],
-            [12, "Jena Malone", "The Hunger Games", "actor"],
-            [13, "Gina Gershon", "Bound, Showgirls", "actor"],
-            [14, "Steve-O", "Jackass", "other"],
-            [15, "Andy Black", "Black Veil Brides", "music"],
-            [16, "Danny Trejo", "Machete, From Dusk Till Dawn", "actor"],
-            [17, "Tom Savini", "Friday the 13th FX, Dawn of the Dead", "other"],
-            [18, "Robert Kurtzman", "KNB EFX Group co-founder", "other"],
-            [20, "The Chiodo Brothers", "Killer Klowns from Outer Space", "other"],
-            [22, "Harrod Blank", "", "other"],
-            [24, "Mike Martinez", "", "other"],
-            [25, "Bill Johnson", "The Texas Chainsaw Massacre 2 (Leatherface)", "actor"],
-            [26, "Tyler Mane", "Halloween (Michael Myers), X-Men", "actor"],
-            [27, "Billy Zane", "Titanic, Demon Knight", "actor"],
-            [28, "Simon Bamford", "Hellraiser", "actor"],
-            [29, "Alex Vincent", "Child's Play", "actor"],
-            [30, "Jerry Wallace", "", "other"],
-            [31, "Dick Warlock", "Halloween II (Michael Myers)", "actor"],
-            [33, "Lance Guest", "Halloween II, The Last Starfighter", "actor"],
-            [34, "Gloria Gifford", "", "actor"],
-            [35, "Leo Rossi", "", "actor"],
-            [36, "Rhonda Shear", "USA Up All Night host", "other"],
-            [37, "Kevin Foster", "", "other"],
-            [39, "Jade Kindar-Martin", "Stunt performer", "other"],
-            [40, "Lisa Zane", "Bad Dreams, Femme Fatale", "actor"],
-            [41, "Michael Cudlitz", "The Walking Dead", "actor"],
-            [43, "Erick Redbeard", "WWE", "sports"],
-            [45, "Joe Sawyer", "", "other"],
-            [46, "Jenna Jameson", "", "other"],
-            [47, "Amelie McLain", "", "other"],
-            [48, "Samantha Scaffidi", "3 From Hell", "actor"],
-            [50, "Bennie Taylor", "", "other"],
-            [51, "Cedwan Hooks", "", "other"],
-            [52, "Rachel Bolan", "Skid Row bassist", "music"],
-            [53, "Dave \"Snake\" Sabo", "Skid Row guitarist", "music"],
-            [54, "Chris Fehn", "Slipknot", "music"],
-            [55, "Sharni Vinson", "You're Next", "actor"]
+            [
+              8,
+              "Doug Bradley",
+              "Hellraiser",
+              "actor"
+            ],
+            [
+              11,
+              "Juliette Lewis",
+              "Natural Born Killers, Cape Fear",
+              "actor"
+            ],
+            [
+              12,
+              "Jena Malone",
+              "The Hunger Games",
+              "actor"
+            ],
+            [
+              13,
+              "Gina Gershon",
+              "Bound, Showgirls",
+              "actor"
+            ],
+            [
+              14,
+              "Steve-O",
+              "Jackass",
+              "other"
+            ],
+            [
+              15,
+              "Andy Black",
+              "Black Veil Brides",
+              "music"
+            ],
+            [
+              16,
+              "Danny Trejo",
+              "Machete, From Dusk Till Dawn",
+              "actor"
+            ],
+            [
+              17,
+              "Tom Savini",
+              "Friday the 13th FX, Dawn of the Dead",
+              "other"
+            ],
+            [
+              18,
+              "Robert Kurtzman",
+              "KNB EFX Group co-founder",
+              "other"
+            ],
+            [
+              20,
+              "The Chiodo Brothers",
+              "Killer Klowns from Outer Space",
+              "other"
+            ],
+            [
+              22,
+              "Harrod Blank",
+              "",
+              "other"
+            ],
+            [
+              24,
+              "Mike Martinez",
+              "",
+              "other"
+            ],
+            [
+              25,
+              "Bill Johnson",
+              "The Texas Chainsaw Massacre 2 (Leatherface)",
+              "actor"
+            ],
+            [
+              26,
+              "Tyler Mane",
+              "Halloween (Michael Myers), X-Men",
+              "actor"
+            ],
+            [
+              27,
+              "Billy Zane",
+              "Titanic, Demon Knight",
+              "actor"
+            ],
+            [
+              28,
+              "Simon Bamford",
+              "Hellraiser",
+              "actor"
+            ],
+            [
+              29,
+              "Alex Vincent",
+              "Child's Play",
+              "actor"
+            ],
+            [
+              30,
+              "Jerry Wallace",
+              "",
+              "other"
+            ],
+            [
+              31,
+              "Dick Warlock",
+              "Halloween II (Michael Myers)",
+              "actor"
+            ],
+            [
+              33,
+              "Lance Guest",
+              "Halloween II, The Last Starfighter",
+              "actor"
+            ],
+            [
+              34,
+              "Gloria Gifford",
+              "",
+              "actor"
+            ],
+            [
+              35,
+              "Leo Rossi",
+              "",
+              "actor"
+            ],
+            [
+              36,
+              "Rhonda Shear",
+              "USA Up All Night host",
+              "other"
+            ],
+            [
+              37,
+              "Kevin Foster",
+              "",
+              "other"
+            ],
+            [
+              39,
+              "Jade Kindar-Martin",
+              "Stunt performer",
+              "other"
+            ],
+            [
+              40,
+              "Lisa Zane",
+              "Bad Dreams, Femme Fatale",
+              "actor"
+            ],
+            [
+              41,
+              "Michael Cudlitz",
+              "The Walking Dead",
+              "actor"
+            ],
+            [
+              43,
+              "Erick Redbeard",
+              "WWE",
+              "sports"
+            ],
+            [
+              45,
+              "Joe Sawyer",
+              "",
+              "other"
+            ],
+            [
+              46,
+              "Jenna Jameson",
+              "",
+              "other"
+            ],
+            [
+              47,
+              "Amelie McLain",
+              "",
+              "other"
+            ],
+            [
+              48,
+              "Samantha Scaffidi",
+              "3 From Hell",
+              "actor"
+            ],
+            [
+              50,
+              "Bennie Taylor",
+              "",
+              "other"
+            ],
+            [
+              51,
+              "Cedwan Hooks",
+              "",
+              "other"
+            ],
+            [
+              52,
+              "Rachel Bolan",
+              "Skid Row bassist",
+              "music"
+            ],
+            [
+              53,
+              "Dave \"Snake\" Sabo",
+              "Skid Row guitarist",
+              "music"
+            ],
+            [
+              54,
+              "Chris Fehn",
+              "Slipknot",
+              "music"
+            ],
+            [
+              55,
+              "Sharni Vinson",
+              "You're Next",
+              "actor"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/spooky-empire-r20261007.guests.json",
+          "picks": [
+            [
+              37,
+              "Clint Howard",
+              "Actor, Ice Cream Man, Rock 'n' Roll High School",
+              "actor"
+            ],
+            [
+              58,
+              "Paul Mazurkiewicz",
+              "Cannibal Corpse drummer",
+              "music"
+            ],
+            [
+              59,
+              "Andrea Subissati",
+              "Rue Morgue editor-in-chief",
+              "other"
+            ]
           ]
         }
       ],
@@ -69,6 +288,6 @@
       "evidence": "Homepage: 'NEXT EVENT! Oct 30-Nov 1, 2026 Orlando, FL' / 'Oct 30- Nov 1, 2026 Hyatt Regency Orlando'; confirmed via WebSearch (Hyatt Regency Orlando, 9801 International Drive)"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "No og/twitter image on the homepage; cover uses the current (2026-05) pirate-themed site logo. Guest cards show only first names baked into the photo (e.g. 'GEENA', 'SUSAN', 'GRANT', 'SUZANNE', 'GENO', 'PAMELA', 'AUDREY', 'NIKKI', 'SAMUEL', 'SERGEY', plus one 'JAMIE' card and two unlabelled sponsor/vendor tiles) with no recoverable last name, so they were left out per the no-guessing rule. Full names were read from image filenames and cross-checked against press coverage (Attractions Magazine / Orlando Weekly) where possible; a handful (Harrod Blank, Mike Martinez, Jerry Wallace, Kevin Foster, Joe Sawyer, Jenna Jameson, Amelie McLain, Bennie Taylor, Cedwan Hooks, Gloria Gifford, Leo Rossi) have a confirmed full name but no verifiable bio, so 'known for' is left blank. 'IT: Welcome to Derry' cast members mentioned in press coverage (Emma Leigh Cullum, Chris Chalk, etc.) were not found as candidates on the rendered guest page, so they were not added."
+  "checked": "2026-10-07",
+  "notes": "No og/twitter image on the homepage; cover uses the current (2026-05) pirate-themed site logo. Guest cards show only first names baked into the photo (e.g. 'GEENA', 'SUSAN', 'GRANT', 'SUZANNE', 'GENO', 'PAMELA', 'AUDREY', 'NIKKI', 'SAMUEL', 'SERGEY', plus one 'JAMIE' card and two unlabelled sponsor/vendor tiles) with no recoverable last name, so they were left out per the no-guessing rule. Full names were read from image filenames and cross-checked against press coverage (Attractions Magazine / Orlando Weekly) where possible; a handful (Harrod Blank, Mike Martinez, Jerry Wallace, Kevin Foster, Joe Sawyer, Jenna Jameson, Amelie McLain, Bennie Taylor, Cedwan Hooks, Gloria Gifford, Leo Rossi) have a confirmed full name but no verifiable bio, so 'known for' is left blank. 'IT: Welcome to Derry' cast members mentioned in press coverage (Emma Leigh Cullum, Chris Chalk, etc.) were not found as candidates on the rendered guest page, so they were not added. 2026-10-07 refresh: added Clint Howard, Paul Mazurkiewicz and Andrea Subissati, whose cards (#37, #58, #59 of the 2026-10-07 render) name them and show the Oct 30-Nov 1, 2026 Hyatt Regency Orlando banner; no picked guest was missing."
 }

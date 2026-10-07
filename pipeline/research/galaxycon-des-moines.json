@@ -5,9 +5,15 @@
   "url": "https://galaxycon.com/pages/galaxycon-des-moines",
   "organizer": "GalaxyCon",
   "status": "active",
-  "types": ["pop", "comics"],
+  "types": [
+    "pop",
+    "comics"
+  ],
   "blurb": "A three-day Des Moines festival of fandom from GalaxyCon, with celebrities, voice actors, comic creators, wrestlers and fan groups at the Iowa Events Center.",
-  "cover": { "file": "pipeline/cache/extract/galaxycon-des-moines.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/galaxycon-des-moines.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2027-09-10",
@@ -19,10 +25,29 @@
       "country": "US",
       "tickets": "https://www.eventeny.com/events/ticket/?id=34325",
       "guestsPage": "https://galaxycon.com/pages/galaxycon-des-moines-guests",
-      "guests": "none-yet",
-      "evidence": "Homepage text: 'GALAXYCON DES MOINES ... SEPTEMBER 10-12, 2027 ... We look forward to seeing you September 10-12, 2027 at the Iowa Events Center'"
+      "guests": "announced",
+      "evidence": "Homepage text: 'GALAXYCON DES MOINES ... SEPTEMBER 10-12, 2027 ... We look forward to seeing you September 10-12, 2027 at the Iowa Events Center'",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/galaxycon-des-moines-r20261007.guests.json",
+          "picks": [
+            [
+              0,
+              "Nolan North",
+              "",
+              "voice"
+            ],
+            [
+              1,
+              "Ross Marquand",
+              "",
+              "actor"
+            ]
+          ]
+        }
+      ]
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner. VERIFY-08 recheck (2026-10-05): stale — GalaxyCon Des Moines 2026 just ran Sept 11-13, 2026 (WebSearch), the live guests page's own 'Cancellations' section names the exact 9 people this file had picked as 'announced' (Brandon Rogers, Lou Diamond Phillips, Marisha Ray, Liam O'Brien, Sam Riegel, Matthew Mercer, Kerry Gammill, Jim Starlin, Kevin Smith), nearly every other photo is filename-tagged 2026-GC- (that show's program guide), and the only 2027-GC- tagged card sits in a 'Coming Soon' placeholder section — no guest has positive evidence of being booked for Sept 2027, so cleared to none-yet."
+  "checked": "2026-10-07",
+  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner. VERIFY-08 recheck (2026-10-05): stale — GalaxyCon Des Moines 2026 just ran Sept 11-13, 2026 (WebSearch), the live guests page's own 'Cancellations' section names the exact 9 people this file had picked as 'announced' (Brandon Rogers, Lou Diamond Phillips, Marisha Ray, Liam O'Brien, Sam Riegel, Matthew Mercer, Kerry Gammill, Jim Starlin, Kevin Smith), nearly every other photo is filename-tagged 2026-GC- (that show's program guide), and the only 2027-GC- tagged card sits in a 'Coming Soon' placeholder section — no guest has positive evidence of being booked for Sept 2027, so cleared to none-yet. 2026-10-07 refresh: the guests page (headed GalaxyCon Des Moines September 10-12, 2027) now carries a new Ross Marquand card whose image is tagged 2027-GC- alongside Nolan North's 2027-GC- card, so those two are picked as announced for 2027; every other photo is tagged 2026-GC- (last show) and stays excluded, as does the Cancellations section. Cards show only name and days, so known-for is blank."
 }

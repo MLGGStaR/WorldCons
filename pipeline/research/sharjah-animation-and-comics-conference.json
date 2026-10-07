@@ -5,9 +5,17 @@
   "url": "https://www.sharjahanimation.com/",
   "organizer": "",
   "status": "active",
-  "types": ["anime", "comics", "cosplay", "games"],
+  "types": [
+    "anime",
+    "comics",
+    "cosplay",
+    "games"
+  ],
   "blurb": "Four-day animation and comics conference in Sharjah with international speakers, cosplay, gaming tournaments and concerts.",
-  "cover": { "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-22",
@@ -24,36 +32,166 @@
         {
           "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference.guests.json",
           "picks": [
-            [3, "Terry Notary", "Actor & Movement Coach", "actor"],
-            [4, "Doug Sweetland", "Director & Animator", "animation"],
-            [5, "Andrew Gordon", "Chief of Storytelling, EyeTell", "other"],
-            [6, "Shuzo Shiota", "CEO, Polygon Pictures", "animation"],
-            [7, "Lauren Mary Kim", "Stunt Performer / Actor", "actor"],
-            [8, "Bernard Chang", "Artist", "comics"],
-            [9, "Ken Lashley", "Comic Book Artist / Illustrator", "comics"],
-            [10, "Robb Pratt", "Animator", "animation"],
-            [11, "Usman Riaz", "Director of The Glassworker", "animation"],
-            [12, "Mehdi Aouichaoui", "2D Animator / Director, AZ Animation", "animation"],
-            [13, "Erica D'Urso", "Artist", "comics"],
-            [14, "Shannon Eric Denton", "Artist / Writer / Director / Producer", "comics"],
-            [15, "Gus Vazquez", "Artist", "comics"],
-            [16, "Olfa Sakakibara", "Producer, Toei Animation Europe", "animation"],
-            [17, "Abdullah Moatasem", "Chief Creative Officer, Sinai Studios", "animation"],
-            [18, "Ashish Thapar", "CEO, HiTech Animation Studios", "animation"],
-            [19, "Ammar Sabban", "Director of Attractions Creation, SEVEN", "other"],
-            [20, "Saud Boksmati", "Chief Creative Officer, ForgeVision Technologies", "animation"],
-            [21, "Aya Hammad", "Marketing & PR Manager, Warner Bros. Discovery", "other"],
-            [22, "Alex Rodrigues", "Head of Creative AI, Saatchi & Saatchi", "other"],
-            [23, "Mounia Aram", "Founder & CEO, Mounia Aram Company", "animation"],
-            [24, "Minasie Terefe", "Director, Behagerlij Studio", "animation"],
-            [25, "Abdulrahman Khedr", "Co-Founder, giraffics studio", "animation"]
+            [
+              3,
+              "Terry Notary",
+              "Actor & Movement Coach",
+              "actor"
+            ],
+            [
+              4,
+              "Doug Sweetland",
+              "Director & Animator",
+              "animation"
+            ],
+            [
+              5,
+              "Andrew Gordon",
+              "Chief of Storytelling, EyeTell",
+              "other"
+            ],
+            [
+              6,
+              "Shuzo Shiota",
+              "CEO, Polygon Pictures",
+              "animation"
+            ],
+            [
+              7,
+              "Lauren Mary Kim",
+              "Stunt Performer / Actor",
+              "actor"
+            ],
+            [
+              8,
+              "Bernard Chang",
+              "Artist",
+              "comics"
+            ],
+            [
+              9,
+              "Ken Lashley",
+              "Comic Book Artist / Illustrator",
+              "comics"
+            ],
+            [
+              10,
+              "Robb Pratt",
+              "Animator",
+              "animation"
+            ],
+            [
+              11,
+              "Usman Riaz",
+              "Director of The Glassworker",
+              "animation"
+            ],
+            [
+              12,
+              "Mehdi Aouichaoui",
+              "2D Animator / Director, AZ Animation",
+              "animation"
+            ],
+            [
+              13,
+              "Erica D'Urso",
+              "Artist",
+              "comics"
+            ],
+            [
+              14,
+              "Shannon Eric Denton",
+              "Artist / Writer / Director / Producer",
+              "comics"
+            ],
+            [
+              15,
+              "Gus Vazquez",
+              "Artist",
+              "comics"
+            ],
+            [
+              16,
+              "Olfa Sakakibara",
+              "Producer, Toei Animation Europe",
+              "animation"
+            ],
+            [
+              17,
+              "Abdullah Moatasem",
+              "Chief Creative Officer, Sinai Studios",
+              "animation"
+            ],
+            [
+              18,
+              "Ashish Thapar",
+              "CEO, HiTech Animation Studios",
+              "animation"
+            ],
+            [
+              19,
+              "Ammar Sabban",
+              "Director of Attractions Creation, SEVEN",
+              "other"
+            ],
+            [
+              20,
+              "Saud Boksmati",
+              "Chief Creative Officer, ForgeVision Technologies",
+              "animation"
+            ],
+            [
+              21,
+              "Aya Hammad",
+              "Marketing & PR Manager, Warner Bros. Discovery",
+              "other"
+            ],
+            [
+              22,
+              "Alex Rodrigues",
+              "Head of Creative AI, Saatchi & Saatchi",
+              "other"
+            ],
+            [
+              23,
+              "Mounia Aram",
+              "Founder & CEO, Mounia Aram Company",
+              "animation"
+            ],
+            [
+              24,
+              "Minasie Terefe",
+              "Director, Behagerlij Studio",
+              "animation"
+            ],
+            [
+              25,
+              "Abdulrahman Khedr",
+              "Co-Founder, giraffics studio",
+              "animation"
+            ]
           ]
         },
         {
           "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261006.guests.json",
           "picks": [
-            [11,"Jehan Al Nasser","Professor of Voice, Higher Institute of Arabic Music","other"],
-            [27,"Essam Al Sayed","Play Director, National Theatre of Egypt","other"]
+            [
+              11,
+              "Jehan Al Nasser",
+              "Professor of Voice, Higher Institute of Arabic Music",
+              "other"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261007.guests.json",
+          "picks": [
+            [
+              18,
+              "Zumrut Pakoy",
+              "Programming & Presentation Director MENA, Warner Bros. Discovery",
+              "other"
+            ]
           ]
         }
       ],
@@ -61,6 +199,6 @@
       "evidence": "Homepage: '22 – 25 October 2026' at Aljada, Sharjah; JSON-LD Event 2026-10-22 to 2026-10-25"
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them)."
+  "checked": "2026-10-07",
+  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page."
 }

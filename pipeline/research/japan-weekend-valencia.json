@@ -5,9 +5,15 @@
   "url": "https://www.japanweekend.com/valencia/",
   "organizer": "Jointo Entertainment",
   "status": "active",
-  "types": ["anime", "pop"],
+  "types": [
+    "anime",
+    "pop"
+  ],
   "blurb": "The Valencia leg of Spain's biggest Japanese pop-culture event, with anime guests, musicians and a cosplay competition.",
-  "cover": { "file": "pipeline/cache/extract/japan-weekend-valencia.home.json", "key": "logo:2" },
+  "cover": {
+    "file": "pipeline/cache/extract/japan-weekend-valencia.home.json",
+    "key": "logo:2"
+  },
   "editions": [
     {
       "start": "2026-11-21",
@@ -19,12 +25,24 @@
       "country": "ES",
       "tickets": "",
       "guestsPage": "https://www.japanweekend.com/valencia/",
-      "guests": "none-yet",
-      "lineup": [],
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/japan-weekend-valencia-r20261007.guests.json",
+          "picks": [
+            [
+              1,
+              "Arisa Komiya",
+              "Voice actress and DJ",
+              "voice"
+            ]
+          ]
+        }
+      ],
       "textOnlyGuests": [],
       "evidence": "Valencia page: 'JAPAN WEEKEND VALENCIA 21-22 NOVIEMBRE 2026' and 'su próxima edición valenciana se celebrará los días 21 y 22 de noviembre de 2026'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Dates and venue are confirmed, but the page's own guests section currently says only 'don't miss the announcements on our social media' with no names yet, and ticket sales and the poster ('CARTEL') are both still marked 'coming soon', so guests is 'none-yet' and tickets is left blank rather than guessed."
+  "checked": "2026-10-07",
+  "notes": "Dates and venue are confirmed, but the page's own guests section currently says only 'don't miss the announcements on our social media' with no names yet, and ticket sales and the poster ('CARTEL') are both still marked 'coming soon', so guests is 'none-yet' and tickets is left blank rather than guessed. 2026-10-07 refresh: the guests section on the page titled for the 21-22 Nov 2026 edition now shows its first guest card, Arisa Komiya (seiyu and DJ), so guests is announced with that one pick; the card carries no show credit, so known-for is generic."
 }

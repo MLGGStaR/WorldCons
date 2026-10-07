@@ -5,9 +5,16 @@
   "url": "https://fantasymagiccon.eu/",
   "organizer": "",
   "status": "active",
-  "types": ["pop", "games", "scifi"],
+  "types": [
+    "pop",
+    "games",
+    "scifi"
+  ],
   "blurb": "A Warsaw pop-culture weekend of fantasy and sci-fi media guests, with many film, TV and video-game voice actors plus cosplay contests.",
-  "cover": { "file": "pipeline/cache/extract/fantasy-and-magic-con.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/fantasy-and-magic-con.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2027-08-06",
@@ -24,26 +31,143 @@
         {
           "file": "pipeline/cache/extract/fantasy-and-magic-con.guests.json",
           "picks": [
-            [1, "D.C. Douglas", "Resident Evil, Mass Effect, Genshin Impact", "voice"],
-            [2, "Nika Futterman", "Marvel Rivals, Star Wars: The Clone Wars", "voice"],
-            [3, "Salóme Gunnarsdóttir", "Silent Hill 2, The Lazarus Project, Pennyworth", "actor"],
-            [4, "Ali Hillis", "Final Fantasy, X-Men, Mass Effect", "voice"],
-            [5, "Peter Jessop", "Mass Effect, Resident Evil, Skyrim", "voice"],
-            [6, "Mark Meer", "Mass Effect franchise", "voice"],
-            [7, "Bill Millsap", "Marvel Rivals, Crisis Core: Final Fantasy", "voice"],
-            [8, "Luke Roberts", "Silent Hill 2, Game of Thrones, The Batman", "actor"],
-            [9, "William Salyers", "Regular Show, Mass Effect, Spider-Man", "voice"],
-            [10, "Philip Shahbaz", "Assassin's Creed", "voice"],
-            [11, "Roger Craig Smith", "Assassin's Creed, Sonic the Hedgehog, Resident Evil", "voice"],
-            [12, "Patricia Summersett", "The Legend of Zelda, Assassin's Creed, Rainbow Six Siege", "voice"],
-            [13, "Ash Sroka", "Mass Effect franchise", "voice"],
-            [14, "Courtenay Taylor", "Mass Effect, Resident Evil 6, X-Men '97", "voice"],
-            [15, "Alix Wilton Regan", "Tomb Raider, Cyberpunk 2077, Mass Effect", "voice"],
-            [17, "André Peña", "Main Stage host", "creator"],
-            [18, "Troy Beaumont", "Main Stage host", "creator"],
-            [19, "Krzysztof Ruszkowski", "Stage B host", "creator"],
-            [21, "Wiktor Lewandowski", "Comic book stage host", "creator"],
-            [22, "Antoni Strojny", "Comic book stage host", "creator"]
+            [
+              1,
+              "D.C. Douglas",
+              "Resident Evil, Mass Effect, Genshin Impact",
+              "voice"
+            ],
+            [
+              2,
+              "Nika Futterman",
+              "Marvel Rivals, Star Wars: The Clone Wars",
+              "voice"
+            ],
+            [
+              3,
+              "Salóme Gunnarsdóttir",
+              "Silent Hill 2, The Lazarus Project, Pennyworth",
+              "actor"
+            ],
+            [
+              4,
+              "Ali Hillis",
+              "Final Fantasy, X-Men, Mass Effect",
+              "voice"
+            ],
+            [
+              5,
+              "Peter Jessop",
+              "Mass Effect, Resident Evil, Skyrim",
+              "voice"
+            ],
+            [
+              6,
+              "Mark Meer",
+              "Mass Effect franchise",
+              "voice"
+            ],
+            [
+              7,
+              "Bill Millsap",
+              "Marvel Rivals, Crisis Core: Final Fantasy",
+              "voice"
+            ],
+            [
+              8,
+              "Luke Roberts",
+              "Silent Hill 2, Game of Thrones, The Batman",
+              "actor"
+            ],
+            [
+              9,
+              "William Salyers",
+              "Regular Show, Mass Effect, Spider-Man",
+              "voice"
+            ],
+            [
+              10,
+              "Philip Shahbaz",
+              "Assassin's Creed",
+              "voice"
+            ],
+            [
+              11,
+              "Roger Craig Smith",
+              "Assassin's Creed, Sonic the Hedgehog, Resident Evil",
+              "voice"
+            ],
+            [
+              12,
+              "Patricia Summersett",
+              "The Legend of Zelda, Assassin's Creed, Rainbow Six Siege",
+              "voice"
+            ],
+            [
+              13,
+              "Ash Sroka",
+              "Mass Effect franchise",
+              "voice"
+            ],
+            [
+              14,
+              "Courtenay Taylor",
+              "Mass Effect, Resident Evil 6, X-Men '97",
+              "voice"
+            ],
+            [
+              15,
+              "Alix Wilton Regan",
+              "Tomb Raider, Cyberpunk 2077, Mass Effect",
+              "voice"
+            ],
+            [
+              17,
+              "André Peña",
+              "Main Stage host",
+              "creator"
+            ],
+            [
+              18,
+              "Troy Beaumont",
+              "Main Stage host",
+              "creator"
+            ],
+            [
+              19,
+              "Krzysztof Ruszkowski",
+              "Stage B host",
+              "creator"
+            ],
+            [
+              21,
+              "Wiktor Lewandowski",
+              "Comic book stage host",
+              "creator"
+            ],
+            [
+              22,
+              "Antoni Strojny",
+              "Comic book stage host",
+              "creator"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/fantasy-and-magic-con-r20261007.guests.json",
+          "picks": [
+            [
+              2,
+              "Stephen Fu",
+              "Marvel Rivals, Demon Slayer, Street Fighter 6",
+              "voice"
+            ],
+            [
+              9,
+              "Bryce Papenbrook",
+              "Attack on Titan, Demon Slayer, Danganronpa",
+              "voice"
+            ]
           ]
         }
       ],
@@ -51,6 +175,6 @@
       "evidence": "Homepage banner: 'FANTASY & MAGIC CON WILL RETURN AUGUST 6-8 2027!'; guest page heading 'FMC 2027 Guests'; confirmed by the con's own X post: 'Join @Mark_Meer and other Mass Effect cast members on August 6-8 2027 in Warsaw, Poland for the second edition of Fantasy & Magic Con'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The .eu homepage is the current site (uploads still sometimes resolve to the legacy fantasymagiccon.pl domain). 2027 is the con's second edition; the first was held in July 2026 at Tor Służewiec, Warsaw. One homepage news headline misnames it 'Fantasy & Magic Con 2026 guest lineup' when adding Luke Roberts/Salóme Gunnarsdóttir, but the guest page itself is titled 'FMC 2027 Guests' and the countdown banner, the guest page heading and the con's own social post all agree on August 6-8, 2027 — treated the headline's '2026' as a copy error. The 2027 venue has not been announced yet (last used Tor Służewiec, Puławska 266, Warsaw, for the 2026 edition). Picked 15 named guests plus 5 stage hosts (André Peña, Troy Beaumont, Krzysztof Ruszkowski, Wiktor Lewandowski, Antoni Strojny) who have their own photo cards under 'Hosts of FMC 2027' with Twitch/YouTube/Instagram/Facebook icons, categorised as creator; skipped candidate #16 ('Coming Soon') and #20 ('To be announced') as unannounced slots, and #0 as the nav logo. Verify pass (2026-10-05): current -- the page's own meta description reads 'FMC 2027 Guests' and several guest photos are filenamed with '-2027' (DC-2027.png, Nika-2027.png, Salome-2027.png); its '2026' hits are only WordPress upload-folder paths (/uploads/2026/08/, /uploads/2026/10/), not an edition year, so the lineup stands. Re-verify (refute-04, 2026-10-05): UPHELD, most strongly of any file checked this pass -- a fresh render shows every one of the 15 guest cards and all 5 host cards sitting under a section literally headed 'FMC 2027 Guests' / 'Hosts of FMC 2027', and every single one of those 20 images is individually filenamed with a '-2027' suffix (e.g. DC-2027.png, Nika-2027.png, Mark-2027-300x300-1.png, Andre-host-2027-300x300-1.png), uploaded only in 2026/09-2026/10 (last 1-2 months) -- i.e. freshly prepared for the 2027 show, not carried over from the 2026 first edition."
+  "checked": "2026-10-07",
+  "notes": "The .eu homepage is the current site (uploads still sometimes resolve to the legacy fantasymagiccon.pl domain). 2027 is the con's second edition; the first was held in July 2026 at Tor Służewiec, Warsaw. One homepage news headline misnames it 'Fantasy & Magic Con 2026 guest lineup' when adding Luke Roberts/Salóme Gunnarsdóttir, but the guest page itself is titled 'FMC 2027 Guests' and the countdown banner, the guest page heading and the con's own social post all agree on August 6-8, 2027 — treated the headline's '2026' as a copy error. The 2027 venue has not been announced yet (last used Tor Służewiec, Puławska 266, Warsaw, for the 2026 edition). Picked 15 named guests plus 5 stage hosts (André Peña, Troy Beaumont, Krzysztof Ruszkowski, Wiktor Lewandowski, Antoni Strojny) who have their own photo cards under 'Hosts of FMC 2027' with Twitch/YouTube/Instagram/Facebook icons, categorised as creator; skipped candidate #16 ('Coming Soon') and #20 ('To be announced') as unannounced slots, and #0 as the nav logo. Verify pass (2026-10-05): current -- the page's own meta description reads 'FMC 2027 Guests' and several guest photos are filenamed with '-2027' (DC-2027.png, Nika-2027.png, Salome-2027.png); its '2026' hits are only WordPress upload-folder paths (/uploads/2026/08/, /uploads/2026/10/), not an edition year, so the lineup stands. Re-verify (refute-04, 2026-10-05): UPHELD, most strongly of any file checked this pass -- a fresh render shows every one of the 15 guest cards and all 5 host cards sitting under a section literally headed 'FMC 2027 Guests' / 'Hosts of FMC 2027', and every single one of those 20 images is individually filenamed with a '-2027' suffix (e.g. DC-2027.png, Nika-2027.png, Mark-2027-300x300-1.png, Andre-host-2027-300x300-1.png), uploaded only in 2026/09-2026/10 (last 1-2 months) -- i.e. freshly prepared for the 2027 show, not carried over from the 2026 first edition. Refresh 2026-10-07: added Stephen Fu and Bryce Papenbrook, new cards under the \"FMC 2027 Guests\" heading on a fresh render of the guest page; the other new-card number (#5 Ali Hillis) was already picked from the earlier render, and no picked guest is missing."
 }

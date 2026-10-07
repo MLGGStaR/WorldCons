@@ -5,9 +5,17 @@
   "url": "https://sccomicon.com",
   "organizer": "",
   "status": "active",
-  "types": ["comics", "toys", "pop", "cosplay"],
+  "types": [
+    "comics",
+    "toys",
+    "pop",
+    "cosplay"
+  ],
   "blurb": "South Carolina's largest comic and pop-culture convention in Greenville, with a full spring weekend and a one-day fall edition each year.",
-  "cover": { "file": "pipeline/cache/extract/sc-comicon.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/sc-comicon.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2027-04-10",
@@ -39,18 +47,89 @@
         {
           "file": "pipeline/cache/extract/sc-comicon-fall.guests.json",
           "picks": [
-            [2, "Nick Aldis", "WWE SmackDown General Manager", "sports"],
-            [3, "Dan Fraga", "Youngblood, Bloodstrike artist", "comics"],
-            [4, "Bill Golliher", "Archie Comics artist/writer", "comics"],
-            [5, "Ian James Corlett", "Dinosaur Train, Johnny Test", "voice"],
-            [6, "Michael Bailey Smith", "A Nightmare on Elm Street 5", "actor"],
-            [7, "Sarah Murdaugh", "Graphic novel Monster Trail", "comics"],
-            [8, "Oliver Robins", "Robbie Freeling in Poltergeist", "actor"],
-            [9, "Budd Root", "Creator of Cavewoman", "comics"],
-            [10, "Andy Smith", "Comic artist, Drawing Dynamic Comics", "comics"],
-            [11, "Thom Mathews", "Friday the 13th Part VI, Return of the Living Dead", "actor"],
-            [12, "Michael Watkins", "Sonic the Hedgehog, Transformers artist", "comics"],
-            [13, "Kelly Yates", "Doctor Who comic artist", "comics"]
+            [
+              2,
+              "Nick Aldis",
+              "WWE SmackDown General Manager",
+              "sports"
+            ],
+            [
+              3,
+              "Dan Fraga",
+              "Youngblood, Bloodstrike artist",
+              "comics"
+            ],
+            [
+              4,
+              "Bill Golliher",
+              "Archie Comics artist/writer",
+              "comics"
+            ],
+            [
+              5,
+              "Ian James Corlett",
+              "Dinosaur Train, Johnny Test",
+              "voice"
+            ],
+            [
+              6,
+              "Michael Bailey Smith",
+              "A Nightmare on Elm Street 5",
+              "actor"
+            ],
+            [
+              7,
+              "Sarah Murdaugh",
+              "Graphic novel Monster Trail",
+              "comics"
+            ],
+            [
+              8,
+              "Oliver Robins",
+              "Robbie Freeling in Poltergeist",
+              "actor"
+            ],
+            [
+              9,
+              "Budd Root",
+              "Creator of Cavewoman",
+              "comics"
+            ],
+            [
+              10,
+              "Andy Smith",
+              "Comic artist, Drawing Dynamic Comics",
+              "comics"
+            ],
+            [
+              11,
+              "Thom Mathews",
+              "Friday the 13th Part VI, Return of the Living Dead",
+              "actor"
+            ],
+            [
+              12,
+              "Michael Watkins",
+              "Sonic the Hedgehog, Transformers artist",
+              "comics"
+            ],
+            [
+              13,
+              "Kelly Yates",
+              "Doctor Who comic artist",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/sc-comicon-fall-r20261007.guests.json",
+          "picks": [
+            [
+              10,
+              "Ron Simmons",
+              "Hall of Fame wrestler, first African American WCW Heavyweight Champion",
+              "sports"
+            ]
           ]
         }
       ],
@@ -58,6 +137,6 @@
       "evidence": "Fall Edition page: 'THE ONE-DAY VERSION OF THE STATE'S LARGEST COMIC AND POP-CULTURE CONVENTION, SC COMICON. GET TICKETS OCTOBER 25, 2026'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Same brand/city, two shows a year: the full SC Comicon 2027 weekend (Apr 10-11, 2027) has no guests announced yet ('GUESTS FOR SC COMICON 2027 WILL BE ADDED TO THIS PAGE AS THEY ARE ANNOUNCED'), while the one-day Fall Edition (Oct 25, 2026, venue not yet stated on the site) already has 12 guests confirmed. Guest cards on the Fall Edition guest grid carry only a name (alt text, no bio blurb), so known-for/cat for each was confirmed from that guest's own dedicated bio page on sccomicon.com (e.g. /fall-media-guest/nick-aldis/, /fall-edition-guest/dan-fraga/) rather than guessed. No organizer company is named anywhere on the site (only the 'SC Comicon' brand itself, contact sccomicon@gmail.com), so organizer is left blank. Cover uses the main SCComicon logo since the available hero photos are a cosplay crowd shot or individual past-guest photos. Refute2 pass (2026-10-05): upheld -- 6 of the 12 guest photos sit in /wp-content/uploads/2025/05/ (older than the rest), but a fresh fetch of /fall-edition/ shows all 12 (both the 2025/05- and 2026-uploaded ones) in its own hero carousel directly under the live text 'Additional comic artists, writers, and media guests for SC COMICON FALL EDITION 2026 will be announced as the date draws closer' with an accurate 20-day countdown to Oct 25, 2026, so the older upload folder is just early prep, not a leftover lineup."
+  "checked": "2026-10-07",
+  "notes": "Same brand/city, two shows a year: the full SC Comicon 2027 weekend (Apr 10-11, 2027) has no guests announced yet ('GUESTS FOR SC COMICON 2027 WILL BE ADDED TO THIS PAGE AS THEY ARE ANNOUNCED'), while the one-day Fall Edition (Oct 25, 2026, venue not yet stated on the site) already has 12 guests confirmed. Guest cards on the Fall Edition guest grid carry only a name (alt text, no bio blurb), so known-for/cat for each was confirmed from that guest's own dedicated bio page on sccomicon.com (e.g. /fall-media-guest/nick-aldis/, /fall-edition-guest/dan-fraga/) rather than guessed. No organizer company is named anywhere on the site (only the 'SC Comicon' brand itself, contact sccomicon@gmail.com), so organizer is left blank. Cover uses the main SCComicon logo since the available hero photos are a cosplay crowd shot or individual past-guest photos. Refute2 pass (2026-10-05): upheld -- 6 of the 12 guest photos sit in /wp-content/uploads/2025/05/ (older than the rest), but a fresh fetch of /fall-edition/ shows all 12 (both the 2025/05- and 2026-uploaded ones) in its own hero carousel directly under the live text 'Additional comic artists, writers, and media guests for SC COMICON FALL EDITION 2026 will be announced as the date draws closer' with an accurate 20-day countdown to Oct 25, 2026, so the older upload folder is just early prep, not a leftover lineup. 2026-10-07 refresh: added Ron Simmons (new card on the Fall Edition guests page; his bio page sccomicon.com/fall-media-guest/ron-simmons/ gives the known-for); no picked guest was missing today."
 }

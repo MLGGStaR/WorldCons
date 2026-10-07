@@ -85,12 +85,6 @@
               "voice"
             ],
             [
-              11,
-              "Angela Sant'Albano",
-              "Resident Evil: Requiem",
-              "voice"
-            ],
-            [
               12,
               "Anson Williams",
               "Happy Days",
@@ -281,12 +275,6 @@
               "Demolition",
               "WWE tag team",
               "sports"
-            ],
-            [
-              44,
-              "Don Bluth",
-              "An American Tail director",
-              "animation"
             ],
             [
               45,
@@ -1038,6 +1026,6 @@
       "evidence": "Homepage text: 'NOVEMBER 6 - 8, 2026' and 'RHODE ISLAND CONVENTION CENTER & AMICA MUTUAL PAVILION 1 SABIN STREET PROVIDENCE, RI 02903'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Celebrities page and Artists (comics creators) page are two separate lineup files; R.L. Stine appears on both and is picked once (as author, from the celebrities page). Artist Alley tables (plain photo grid, no names) and an 'Unable to Attend' section (incl. Bob McLeod) were skipped per the skip rules. One card's 'known for' field reads 'Mick Foley ... KNOWN FOR: AVATAR: THE LAST AIRBENDER', which is clearly a copy/paste templating error on the site (he is a WWE Hall of Fame wrestler with no connection to that franchise); corrected here rather than repeated."
+  "checked": "2026-10-07",
+  "notes": "Celebrities page and Artists (comics creators) page are two separate lineup files; R.L. Stine appears on both and is picked once (as author, from the celebrities page). Artist Alley tables (plain photo grid, no names) and an 'Unable to Attend' section (incl. Bob McLeod) were skipped per the skip rules. One card's 'known for' field reads 'Mick Foley ... KNOWN FOR: AVATAR: THE LAST AIRBENDER', which is clearly a copy/paste templating error on the site (he is a WWE Hall of Fame wrestler with no connection to that franchise); corrected here rather than repeated. 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who are no longer in the celebrity grid and now appear as image-only cards (#148 Resident Evil: Requiem, #151 An American Tail artwork) in the page's UNABLE TO ATTEND section; no guests added (the two new cards are those unable-to-attend tiles). 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who now appear in the \"Unable to Attend\" section of the 2026-10-07 render (#148–155), indicating cancellation; no new guests were added."
 }

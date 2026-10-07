@@ -5,9 +5,15 @@
   "url": "https://galaxycon.com/pages/galaxycon-st-louis",
   "organizer": "GalaxyCon",
   "status": "active",
-  "types": ["pop", "comics"],
+  "types": [
+    "pop",
+    "comics"
+  ],
   "blurb": "A three-day pop culture and comic convention in St. Louis with celebrity guests, voice actors, comic creators, cosplay and wrestling guests.",
-  "cover": { "file": "pipeline/cache/extract/galaxycon-st-louis.home.json", "key": "hero:2" },
+  "cover": {
+    "file": "pipeline/cache/extract/galaxycon-st-louis.home.json",
+    "key": "hero:2"
+  },
   "editions": [
     {
       "start": "2026-10-23",
@@ -24,114 +30,677 @@
         {
           "file": "pipeline/cache/extract/galaxycon-st-louis.guests.json",
           "picks": [
-            [0, "George Takei", "", "actor"],
-            [1, "Bobcat Goldthwait", "", "actor"],
-            [2, "Cassandra Peterson", "", "actor"],
-            [3, "Jackson Rathbone", "", "actor"],
-            [4, "Peter Facinelli", "", "actor"],
-            [5, "Kellan Lutz", "", "actor"],
-            [6, "Ashley Greene", "", "actor"],
-            [7, "Brian Austin Green", "", "actor"],
-            [8, "Kevin Sussman", "", "actor"],
-            [9, "Lauren Lapkus", "", "actor"],
-            [10, "Brian Posehn", "", "actor"],
-            [11, "John Ross Bowie", "", "actor"],
-            [12, "Austin St. John", "", "actor"],
-            [13, "Walter Jones", "", "actor"],
-            [14, "Devon Werkheiser", "", "actor"],
-            [15, "Lindsey Shaw", "", "actor"],
-            [16, "Daniel Curtis Lee", "", "actor"],
-            [17, "Tyler Posey", "", "actor"],
-            [18, "Nick Swardson", "", "actor"],
-            [19, "Jerry Trainor", "", "actor"],
-            [20, "Nathan Kress", "", "actor"],
-            [21, "Jeff Anderson", "", "actor"],
-            [22, "Brian O'Halloran", "", "actor"],
-            [23, "Ross Marquand", "", "actor"],
-            [24, "Steve Whitmire", "", "voice"],
-            [25, "Kevin Clash", "", "voice"],
-            [26, "Brandon Rogers", "", "creator"],
-            [27, "Sam Witwer", "", "voice"],
-            [28, "Matthew Wood", "", "voice"],
-            [29, "David W. Collins", "", "voice"],
-            [30, "Vanessa Marshall", "", "voice"],
-            [31, "Josh Keaton", "", "voice"],
-            [32, "Janet Varney", "", "voice"],
-            [33, "Jamie Marchi", "", "voice"],
-            [34, "Alex Rochon", "", "voice"],
-            [35, "Amanda Hufford", "", "voice"],
-            [36, "Sean Chiplock", "", "voice"],
-            [37, "Michaela Laws", "", "voice"],
-            [38, "Neil Ellice", "", "voice"],
-            [39, "Zelda Khan Black", "", "voice"],
-            [40, "Chris Guerrero", "", "voice"],
-            [41, "Brittney Karbowski", "", "voice"],
-            [42, "Alejandro Saab/Cy Yu", "", "voice"],
-            [43, "Mike Pollock", "", "voice"],
-            [44, "Tara Sands", "", "voice"],
-            [45, "Alejandra Reynoso", "", "voice"],
-            [46, "Kristen McGuire", "", "voice"],
-            [47, "Michael Haigney", "", "voice"],
-            [48, "Deven Mack", "", "voice"],
-            [49, "Megan Hollingshead", "", "voice"],
-            [50, "Kirk Thornton", "", "voice"],
-            [51, "Eric Vale", "", "voice"],
-            [52, "Steve Englehart", "", "comics"],
-            [53, "Cory Smith", "", "comics"],
-            [54, "Brett Breeding", "", "comics"],
-            [55, "Heather Antos", "", "comics"],
-            [56, "Drew Moss", "", "comics"],
-            [57, "Craig Rousseau", "", "comics"],
-            [58, "Greg Land", "", "comics"],
-            [59, "Gavin Guidry", "", "comics"],
-            [60, "Megan Levens", "", "comics"],
-            [61, "Kerry Gammill", "", "comics"],
-            [62, "Trevor Von Eeden", "", "comics"],
-            [63, "Cullen Bunn", "", "comics"],
-            [64, "Phil Hester", "", "comics"],
-            [65, "John Jackson Miller", "", "comics"],
-            [66, "Michael Kingston", "", "comics"],
-            [67, "Howard Chaykin", "", "comics"],
-            [68, "Mervyn McKoy", "", "comics"],
-            [69, "Ande Parks", "", "comics"],
-            [70, "Erica Schultz", "", "comics"],
-            [71, "Timothy Zahn", "", "author"],
-            [72, "Joseph Schmalke", "", "comics"],
-            [73, "Keith Pollard", "", "comics"],
-            [74, "Marc Deering", "", "comics"],
-            [75, "Bobby Breed", "", "comics"],
-            [77, "Guy Hutchinson", "", "comics"],
-            [78, "Joe Wos", "", "comics"],
-            [79, "Tyler Wood", "", "comics"],
-            [80, "Elgin David", "", "cosplay"],
-            [81, "Witchy Brew", "", "cosplay"],
-            [82, "Patty Hawkins", "", "cosplay"],
-            [83, "Chère Noble", "", "cosplay"],
-            [84, "Tré Da Marc", "", "cosplay"],
-            [85, "Ginger Oh Snap", "", "cosplay"],
-            [86, "Guns Ahimbo", "", "cosplay"],
-            [87, "RedRum", "", "cosplay"],
-            [88, "Kofi", "", "sports"],
-            [89, "Kane", "", "sports"],
-            [90, "Arn Anderson", "", "sports"],
-            [91, "Lex Luger", "", "sports"],
-            [92, "Gangrel", "", "sports"],
-            [93, "Akakioga", "", "cosplay"],
-            [94, "Eve Talisman Cosplay", "", "cosplay"],
-            [95, "Glitchy Rogue", "", "cosplay"],
-            [96, "Odfel", "", "cosplay"],
-            [97, "Ruby Rose/Uzi", "", "cosplay"],
-            [101, "William Shatner", "", "actor"],
-            [102, "Maggie Lawson", "", "actor"],
-            [103, "Timothy Omundson", "", "actor"],
-            [104, "Tim Kazurinsky", "", "actor"],
-            [105, "Ron Simmons", "", "sports"],
-            [106, "Austin Creed", "", "creator"],
-            [107, "Thomas Lennon", "", "actor"],
-            [108, "Michael Kovach", "", "other"],
-            [109, "Tia Ballard", "", "voice"],
-            [110, "Cynthia Eve", "", "cosplay"],
-            [111, "Stephane Roux", "", "comics"]
+            [
+              0,
+              "George Takei",
+              "",
+              "actor"
+            ],
+            [
+              1,
+              "Bobcat Goldthwait",
+              "",
+              "actor"
+            ],
+            [
+              2,
+              "Cassandra Peterson",
+              "",
+              "actor"
+            ],
+            [
+              3,
+              "Jackson Rathbone",
+              "",
+              "actor"
+            ],
+            [
+              4,
+              "Peter Facinelli",
+              "",
+              "actor"
+            ],
+            [
+              5,
+              "Kellan Lutz",
+              "",
+              "actor"
+            ],
+            [
+              6,
+              "Ashley Greene",
+              "",
+              "actor"
+            ],
+            [
+              7,
+              "Brian Austin Green",
+              "",
+              "actor"
+            ],
+            [
+              8,
+              "Kevin Sussman",
+              "",
+              "actor"
+            ],
+            [
+              9,
+              "Lauren Lapkus",
+              "",
+              "actor"
+            ],
+            [
+              10,
+              "Brian Posehn",
+              "",
+              "actor"
+            ],
+            [
+              11,
+              "John Ross Bowie",
+              "",
+              "actor"
+            ],
+            [
+              12,
+              "Austin St. John",
+              "",
+              "actor"
+            ],
+            [
+              13,
+              "Walter Jones",
+              "",
+              "actor"
+            ],
+            [
+              14,
+              "Devon Werkheiser",
+              "",
+              "actor"
+            ],
+            [
+              15,
+              "Lindsey Shaw",
+              "",
+              "actor"
+            ],
+            [
+              16,
+              "Daniel Curtis Lee",
+              "",
+              "actor"
+            ],
+            [
+              17,
+              "Tyler Posey",
+              "",
+              "actor"
+            ],
+            [
+              18,
+              "Nick Swardson",
+              "",
+              "actor"
+            ],
+            [
+              19,
+              "Jerry Trainor",
+              "",
+              "actor"
+            ],
+            [
+              20,
+              "Nathan Kress",
+              "",
+              "actor"
+            ],
+            [
+              21,
+              "Jeff Anderson",
+              "",
+              "actor"
+            ],
+            [
+              22,
+              "Brian O'Halloran",
+              "",
+              "actor"
+            ],
+            [
+              23,
+              "Ross Marquand",
+              "",
+              "actor"
+            ],
+            [
+              24,
+              "Steve Whitmire",
+              "",
+              "voice"
+            ],
+            [
+              25,
+              "Kevin Clash",
+              "",
+              "voice"
+            ],
+            [
+              26,
+              "Brandon Rogers",
+              "",
+              "creator"
+            ],
+            [
+              27,
+              "Sam Witwer",
+              "",
+              "voice"
+            ],
+            [
+              28,
+              "Matthew Wood",
+              "",
+              "voice"
+            ],
+            [
+              29,
+              "David W. Collins",
+              "",
+              "voice"
+            ],
+            [
+              30,
+              "Vanessa Marshall",
+              "",
+              "voice"
+            ],
+            [
+              31,
+              "Josh Keaton",
+              "",
+              "voice"
+            ],
+            [
+              32,
+              "Janet Varney",
+              "",
+              "voice"
+            ],
+            [
+              33,
+              "Jamie Marchi",
+              "",
+              "voice"
+            ],
+            [
+              34,
+              "Alex Rochon",
+              "",
+              "voice"
+            ],
+            [
+              35,
+              "Amanda Hufford",
+              "",
+              "voice"
+            ],
+            [
+              36,
+              "Sean Chiplock",
+              "",
+              "voice"
+            ],
+            [
+              37,
+              "Michaela Laws",
+              "",
+              "voice"
+            ],
+            [
+              38,
+              "Neil Ellice",
+              "",
+              "voice"
+            ],
+            [
+              39,
+              "Zelda Khan Black",
+              "",
+              "voice"
+            ],
+            [
+              40,
+              "Chris Guerrero",
+              "",
+              "voice"
+            ],
+            [
+              41,
+              "Brittney Karbowski",
+              "",
+              "voice"
+            ],
+            [
+              42,
+              "Alejandro Saab/Cy Yu",
+              "",
+              "voice"
+            ],
+            [
+              43,
+              "Mike Pollock",
+              "",
+              "voice"
+            ],
+            [
+              44,
+              "Tara Sands",
+              "",
+              "voice"
+            ],
+            [
+              45,
+              "Alejandra Reynoso",
+              "",
+              "voice"
+            ],
+            [
+              46,
+              "Kristen McGuire",
+              "",
+              "voice"
+            ],
+            [
+              47,
+              "Michael Haigney",
+              "",
+              "voice"
+            ],
+            [
+              48,
+              "Deven Mack",
+              "",
+              "voice"
+            ],
+            [
+              49,
+              "Megan Hollingshead",
+              "",
+              "voice"
+            ],
+            [
+              50,
+              "Kirk Thornton",
+              "",
+              "voice"
+            ],
+            [
+              51,
+              "Eric Vale",
+              "",
+              "voice"
+            ],
+            [
+              52,
+              "Steve Englehart",
+              "",
+              "comics"
+            ],
+            [
+              53,
+              "Cory Smith",
+              "",
+              "comics"
+            ],
+            [
+              54,
+              "Brett Breeding",
+              "",
+              "comics"
+            ],
+            [
+              55,
+              "Heather Antos",
+              "",
+              "comics"
+            ],
+            [
+              56,
+              "Drew Moss",
+              "",
+              "comics"
+            ],
+            [
+              57,
+              "Craig Rousseau",
+              "",
+              "comics"
+            ],
+            [
+              58,
+              "Greg Land",
+              "",
+              "comics"
+            ],
+            [
+              59,
+              "Gavin Guidry",
+              "",
+              "comics"
+            ],
+            [
+              60,
+              "Megan Levens",
+              "",
+              "comics"
+            ],
+            [
+              61,
+              "Kerry Gammill",
+              "",
+              "comics"
+            ],
+            [
+              62,
+              "Trevor Von Eeden",
+              "",
+              "comics"
+            ],
+            [
+              63,
+              "Cullen Bunn",
+              "",
+              "comics"
+            ],
+            [
+              64,
+              "Phil Hester",
+              "",
+              "comics"
+            ],
+            [
+              65,
+              "John Jackson Miller",
+              "",
+              "comics"
+            ],
+            [
+              66,
+              "Michael Kingston",
+              "",
+              "comics"
+            ],
+            [
+              67,
+              "Howard Chaykin",
+              "",
+              "comics"
+            ],
+            [
+              68,
+              "Mervyn McKoy",
+              "",
+              "comics"
+            ],
+            [
+              69,
+              "Ande Parks",
+              "",
+              "comics"
+            ],
+            [
+              70,
+              "Erica Schultz",
+              "",
+              "comics"
+            ],
+            [
+              71,
+              "Timothy Zahn",
+              "",
+              "author"
+            ],
+            [
+              72,
+              "Joseph Schmalke",
+              "",
+              "comics"
+            ],
+            [
+              73,
+              "Keith Pollard",
+              "",
+              "comics"
+            ],
+            [
+              74,
+              "Marc Deering",
+              "",
+              "comics"
+            ],
+            [
+              75,
+              "Bobby Breed",
+              "",
+              "comics"
+            ],
+            [
+              77,
+              "Guy Hutchinson",
+              "",
+              "comics"
+            ],
+            [
+              78,
+              "Joe Wos",
+              "",
+              "comics"
+            ],
+            [
+              79,
+              "Tyler Wood",
+              "",
+              "comics"
+            ],
+            [
+              80,
+              "Elgin David",
+              "",
+              "cosplay"
+            ],
+            [
+              81,
+              "Witchy Brew",
+              "",
+              "cosplay"
+            ],
+            [
+              82,
+              "Patty Hawkins",
+              "",
+              "cosplay"
+            ],
+            [
+              83,
+              "Chère Noble",
+              "",
+              "cosplay"
+            ],
+            [
+              84,
+              "Tré Da Marc",
+              "",
+              "cosplay"
+            ],
+            [
+              85,
+              "Ginger Oh Snap",
+              "",
+              "cosplay"
+            ],
+            [
+              86,
+              "Guns Ahimbo",
+              "",
+              "cosplay"
+            ],
+            [
+              87,
+              "RedRum",
+              "",
+              "cosplay"
+            ],
+            [
+              88,
+              "Kofi",
+              "",
+              "sports"
+            ],
+            [
+              89,
+              "Kane",
+              "",
+              "sports"
+            ],
+            [
+              90,
+              "Arn Anderson",
+              "",
+              "sports"
+            ],
+            [
+              91,
+              "Lex Luger",
+              "",
+              "sports"
+            ],
+            [
+              92,
+              "Gangrel",
+              "",
+              "sports"
+            ],
+            [
+              93,
+              "Akakioga",
+              "",
+              "cosplay"
+            ],
+            [
+              94,
+              "Eve Talisman Cosplay",
+              "",
+              "cosplay"
+            ],
+            [
+              95,
+              "Glitchy Rogue",
+              "",
+              "cosplay"
+            ],
+            [
+              96,
+              "Odfel",
+              "",
+              "cosplay"
+            ],
+            [
+              97,
+              "Ruby Rose/Uzi",
+              "",
+              "cosplay"
+            ],
+            [
+              101,
+              "William Shatner",
+              "",
+              "actor"
+            ],
+            [
+              102,
+              "Maggie Lawson",
+              "",
+              "actor"
+            ],
+            [
+              103,
+              "Timothy Omundson",
+              "",
+              "actor"
+            ],
+            [
+              104,
+              "Tim Kazurinsky",
+              "",
+              "actor"
+            ],
+            [
+              105,
+              "Ron Simmons",
+              "",
+              "sports"
+            ],
+            [
+              106,
+              "Austin Creed",
+              "",
+              "creator"
+            ],
+            [
+              107,
+              "Thomas Lennon",
+              "",
+              "actor"
+            ],
+            [
+              108,
+              "Michael Kovach",
+              "",
+              "other"
+            ],
+            [
+              109,
+              "Tia Ballard",
+              "",
+              "voice"
+            ],
+            [
+              110,
+              "Cynthia Eve",
+              "",
+              "cosplay"
+            ],
+            [
+              111,
+              "Stephane Roux",
+              "",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/galaxycon-st-louis-r20261007.guests.json",
+          "picks": [
+            [
+              97,
+              "Piasa Ghostbusters",
+              "",
+              "cosplay"
+            ],
+            [
+              98,
+              "St. Louis R2 Builders Group",
+              "",
+              "cosplay"
+            ],
+            [
+              99,
+              "Mando Mercs, 501st Legion and Rebel Legion",
+              "",
+              "cosplay"
+            ]
           ]
         }
       ],
@@ -139,6 +708,6 @@
       "evidence": "Homepage: 'OCTOBER 23-25, 2026' and 'We look forward to seeing you October 23-25, 2026 at America's Center.'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest cards on the guests page show only each person's name and which days they appear ('at GalaxyCon St. Louis All 3 Days' etc.), no specific show credits, so Known for is left blank for every guest rather than guessed; categories are assigned from general knowledge of each name. Skipped 3 non-person vendor/service cards (a tattoo-artist business, an authentication/grading service, and a grading-adjacent exhibitor) and one duplicate low-res repeat of Joe Wos (kept the better-quality one)."
+  "checked": "2026-10-07",
+  "notes": "Guest cards on the guests page show only each person's name and which days they appear ('at GalaxyCon St. Louis All 3 Days' etc.), no specific show credits, so Known for is left blank for every guest rather than guessed; categories are assigned from general knowledge of each name. Skipped 3 non-person vendor/service cards (a tattoo-artist business, an authentication/grading service, and a grading-adjacent exhibitor) and one duplicate low-res repeat of Joe Wos (kept the better-quality one). 2026-10-07 refresh: added three fan-group guest cards (Piasa Ghostbusters, St. Louis R2 Builders Group, Mando Mercs/501st/Rebel Legion) listed under Fan Groups on the October 23-25, 2026 guests page; nobody picked was missing today."
 }

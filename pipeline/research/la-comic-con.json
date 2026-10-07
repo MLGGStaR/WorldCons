@@ -5,9 +5,16 @@
   "url": "https://www.comicconla.com/",
   "organizer": "",
   "status": "active",
-  "types": ["comics", "pop", "cosplay"],
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
   "blurb": "Pop-culture and comic convention at the Los Angeles Convention Center, with film and TV actors, voice actors, comic creators and cosplay guests.",
-  "cover": { "file": "pipeline/cache/extract/la-comic-con.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/la-comic-con.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-30",
@@ -24,133 +31,718 @@
         {
           "file": "pipeline/cache/extract/la-comic-con.guests.json",
           "picks": [
-            [2, "Nicolas Cage", "Spider-Noir, Ghost Rider, National Treasure", "actor"],
-            [3, "Hayden Christensen", "Star Wars", "actor"],
-            [4, "Aaron Paul", "Breaking Bad", "actor"],
-            [5, "Bob Odenkirk", "Breaking Bad, Better Call Saul, Nobody", "actor"],
-            [6, "Giancarlo Esposito", "Breaking Bad, Better Call Saul, The Mandalorian", "actor"],
-            [7, "Dean Norris", "Breaking Bad", "actor"],
-            [8, "Krysten Ritter", "Marvel's Jessica Jones, Breaking Bad", "actor"],
-            [9, "Christopher Lloyd", "Back to the Future, Nobody", "actor"],
-            [10, "Rosario Dawson", "Star Wars: Ahsoka", "actor"],
-            [11, "Natasha Liu Bordizzo", "Star Wars: Ahsoka", "actor"],
-            [12, "Eman Esfandi", "Star Wars: Ahsoka", "actor"],
-            [13, "Arden Cho", "KPop Demon Hunters", "voice"],
-            [14, "Ji-young Yoo", "KPop Demon Hunters", "voice"],
-            [15, "May Hong", "KPop Demon Hunters", "voice"],
-            [16, "samUIL Lee", "KPop Demon Hunters", "voice"],
-            [17, "Temuera Morrison", "Star Wars, The Book of Boba Fett", "actor"],
-            [18, "Daniel Logan", "Star Wars: Episode II - Attack of the Clones", "actor"],
-            [19, "Sam Heughan", "Outlander", "actor"],
-            [20, "Graham McTavish", "Outlander", "actor"],
-            [21, "Duncan Lacroix", "Outlander", "actor"],
-            [22, "Grant O'Rourke", "Outlander", "actor"],
-            [23, "Stephen Walters", "Outlander", "actor"],
-            [24, "Rainn Wilson", "The Office", "actor"],
-            [25, "Angela Kinsey", "The Office", "actor"],
-            [26, "John DiMaggio", "Futurama, Adventure Time", "voice"],
-            [27, "Billy West", "Futurama", "voice"],
-            [28, "Maurice LaMarche", "Futurama", "voice"],
-            [29, "Phil LaMarr", "Futurama", "voice"],
-            [30, "Liam O'Brien", "Critical Role", "voice"],
-            [31, "Sam Riegel", "Critical Role", "voice"],
-            [32, "Taliesin Jaffe", "Critical Role", "voice"],
-            [33, "Whitney Moore", "Critical Role", "voice"],
-            [34, "Luis Carazo", "Critical Role", "voice"],
-            [35, "Alexander Ward", "Critical Role", "voice"],
-            [36, "Jennifer English", "Clair Obscur: Expedition 33", "voice"],
-            [37, "Ben Starr", "Clair Obscur: Expedition 33", "voice"],
-            [38, "Sean Schemmel", "Dragon Ball Z", "voice"],
-            [39, "Christopher Sabat", "Dragon Ball Z, Black Clover", "voice"],
-            [40, "Justin Cook", "Dragon Ball Z", "voice"],
-            [41, "Mallorie Rodak", "Frieren: Beyond Journey's End", "voice"],
-            [42, "Jordan Dash Cruz", "Frieren: Beyond Journey's End", "voice"],
-            [43, "Jill Harris", "Frieren: Beyond Journey's End, Black Clover", "voice"],
-            [44, "Sarah Natochenny", "Pokemon", "voice"],
-            [45, "Erica Lindbeck", "Gameoverse", "voice"],
-            [46, "Dallas Reid", "Black Clover", "voice"],
-            [47, "Johnny Yong Bosch", "Bleach, Trigun, Code Geass", "voice"],
-            [48, "Damien Haas", "Smosh", "creator"],
-            [49, "Howard Wang", "Honkai: Star Rail, Granblue Fantasy", "voice"],
-            [50, "Emily Sun", "Honkai: Star Rail", "voice"],
-            [51, "Xanthe Huynh", "Honkai: Star Rail", "voice"],
-            [52, "Kevin Andrew Rivera", "Genshin Impact", "voice"],
-            [53, "Katiana Sarkissian", "Genshin Impact", "voice"],
-            [54, "Madeline Dorroh", "Fire Emblem: Fortune's Weave", "voice"],
-            [55, "Caleb Yen", "Genshin Impact", "voice"],
-            [56, "Brian Timothy Anderson", "Granblue Fantasy", "voice"],
-            [57, "James Mathis III", "Marvel Rivals", "voice"],
-            [58, "Nika Futterman", "Marvel Rivals", "voice"],
-            [59, "Jon Bailey", "Marvel Rivals", "voice"],
-            [60, "Jennifer Sun Bell", "Marvel Rivals", "voice"],
-            [61, "Bill Millsap", "Marvel Rivals", "voice"]
+            [
+              2,
+              "Nicolas Cage",
+              "Spider-Noir, Ghost Rider, National Treasure",
+              "actor"
+            ],
+            [
+              3,
+              "Hayden Christensen",
+              "Star Wars",
+              "actor"
+            ],
+            [
+              4,
+              "Aaron Paul",
+              "Breaking Bad",
+              "actor"
+            ],
+            [
+              5,
+              "Bob Odenkirk",
+              "Breaking Bad, Better Call Saul, Nobody",
+              "actor"
+            ],
+            [
+              6,
+              "Giancarlo Esposito",
+              "Breaking Bad, Better Call Saul, The Mandalorian",
+              "actor"
+            ],
+            [
+              7,
+              "Dean Norris",
+              "Breaking Bad",
+              "actor"
+            ],
+            [
+              8,
+              "Krysten Ritter",
+              "Marvel's Jessica Jones, Breaking Bad",
+              "actor"
+            ],
+            [
+              9,
+              "Christopher Lloyd",
+              "Back to the Future, Nobody",
+              "actor"
+            ],
+            [
+              10,
+              "Rosario Dawson",
+              "Star Wars: Ahsoka",
+              "actor"
+            ],
+            [
+              11,
+              "Natasha Liu Bordizzo",
+              "Star Wars: Ahsoka",
+              "actor"
+            ],
+            [
+              12,
+              "Eman Esfandi",
+              "Star Wars: Ahsoka",
+              "actor"
+            ],
+            [
+              13,
+              "Arden Cho",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              14,
+              "Ji-young Yoo",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              15,
+              "May Hong",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              16,
+              "samUIL Lee",
+              "KPop Demon Hunters",
+              "voice"
+            ],
+            [
+              17,
+              "Temuera Morrison",
+              "Star Wars, The Book of Boba Fett",
+              "actor"
+            ],
+            [
+              18,
+              "Daniel Logan",
+              "Star Wars: Episode II - Attack of the Clones",
+              "actor"
+            ],
+            [
+              19,
+              "Sam Heughan",
+              "Outlander",
+              "actor"
+            ],
+            [
+              20,
+              "Graham McTavish",
+              "Outlander",
+              "actor"
+            ],
+            [
+              21,
+              "Duncan Lacroix",
+              "Outlander",
+              "actor"
+            ],
+            [
+              22,
+              "Grant O'Rourke",
+              "Outlander",
+              "actor"
+            ],
+            [
+              23,
+              "Stephen Walters",
+              "Outlander",
+              "actor"
+            ],
+            [
+              24,
+              "Rainn Wilson",
+              "The Office",
+              "actor"
+            ],
+            [
+              25,
+              "Angela Kinsey",
+              "The Office",
+              "actor"
+            ],
+            [
+              26,
+              "John DiMaggio",
+              "Futurama, Adventure Time",
+              "voice"
+            ],
+            [
+              27,
+              "Billy West",
+              "Futurama",
+              "voice"
+            ],
+            [
+              28,
+              "Maurice LaMarche",
+              "Futurama",
+              "voice"
+            ],
+            [
+              29,
+              "Phil LaMarr",
+              "Futurama",
+              "voice"
+            ],
+            [
+              30,
+              "Liam O'Brien",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              31,
+              "Sam Riegel",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              32,
+              "Taliesin Jaffe",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              33,
+              "Whitney Moore",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              34,
+              "Luis Carazo",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              35,
+              "Alexander Ward",
+              "Critical Role",
+              "voice"
+            ],
+            [
+              36,
+              "Jennifer English",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              37,
+              "Ben Starr",
+              "Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              38,
+              "Sean Schemmel",
+              "Dragon Ball Z",
+              "voice"
+            ],
+            [
+              39,
+              "Christopher Sabat",
+              "Dragon Ball Z, Black Clover",
+              "voice"
+            ],
+            [
+              40,
+              "Justin Cook",
+              "Dragon Ball Z",
+              "voice"
+            ],
+            [
+              41,
+              "Mallorie Rodak",
+              "Frieren: Beyond Journey's End",
+              "voice"
+            ],
+            [
+              42,
+              "Jordan Dash Cruz",
+              "Frieren: Beyond Journey's End",
+              "voice"
+            ],
+            [
+              43,
+              "Jill Harris",
+              "Frieren: Beyond Journey's End, Black Clover",
+              "voice"
+            ],
+            [
+              44,
+              "Sarah Natochenny",
+              "Pokemon",
+              "voice"
+            ],
+            [
+              45,
+              "Erica Lindbeck",
+              "Gameoverse",
+              "voice"
+            ],
+            [
+              46,
+              "Dallas Reid",
+              "Black Clover",
+              "voice"
+            ],
+            [
+              47,
+              "Johnny Yong Bosch",
+              "Bleach, Trigun, Code Geass",
+              "voice"
+            ],
+            [
+              48,
+              "Damien Haas",
+              "Smosh",
+              "creator"
+            ],
+            [
+              49,
+              "Howard Wang",
+              "Honkai: Star Rail, Granblue Fantasy",
+              "voice"
+            ],
+            [
+              50,
+              "Emily Sun",
+              "Honkai: Star Rail",
+              "voice"
+            ],
+            [
+              51,
+              "Xanthe Huynh",
+              "Honkai: Star Rail",
+              "voice"
+            ],
+            [
+              52,
+              "Kevin Andrew Rivera",
+              "Genshin Impact",
+              "voice"
+            ],
+            [
+              53,
+              "Katiana Sarkissian",
+              "Genshin Impact",
+              "voice"
+            ],
+            [
+              54,
+              "Madeline Dorroh",
+              "Fire Emblem: Fortune's Weave",
+              "voice"
+            ],
+            [
+              55,
+              "Caleb Yen",
+              "Genshin Impact",
+              "voice"
+            ],
+            [
+              56,
+              "Brian Timothy Anderson",
+              "Granblue Fantasy",
+              "voice"
+            ],
+            [
+              57,
+              "James Mathis III",
+              "Marvel Rivals",
+              "voice"
+            ],
+            [
+              58,
+              "Nika Futterman",
+              "Marvel Rivals",
+              "voice"
+            ],
+            [
+              59,
+              "Jon Bailey",
+              "Marvel Rivals",
+              "voice"
+            ],
+            [
+              60,
+              "Jennifer Sun Bell",
+              "Marvel Rivals",
+              "voice"
+            ],
+            [
+              61,
+              "Bill Millsap",
+              "Marvel Rivals",
+              "voice"
+            ]
           ]
         },
         {
           "file": "pipeline/cache/extract/la-comic-con-2.guests.json",
           "picks": [
-            [2, "Scott Snyder", "", "comics"],
-            [3, "Frank Cho", "", "comics"],
-            [4, "Andy Kubert", "", "comics"],
-            [5, "Ryan Stegman", "", "comics"],
-            [6, "Ryan Ottley", "", "comics"],
-            [7, "Amanda Conner", "", "comics"],
-            [8, "Mark Brooks", "", "comics"],
-            [9, "Jock", "", "comics"],
-            [10, "Jimmy Palmiotti", "", "comics"],
-            [11, "Marc Silvestri", "", "comics"],
-            [12, "Dan Panosian", "", "comics"],
-            [13, "Kyle Higgins", "", "comics"],
-            [14, "Greg Weisman", "", "comics"],
-            [15, "Cody Ziglar", "", "comics"],
-            [16, "Creees Lee", "", "comics"],
-            [17, "Tony Fleecs", "", "comics"],
-            [18, "Ryan Parrott", "", "comics"],
-            [19, "David Pepose", "", "comics"],
-            [20, "Stephanie Phillips", "", "comics"],
-            [21, "Marc Guggenheim", "", "comics"],
-            [22, "Melissa Flores", "", "comics"],
-            [23, "Mark Russell", "", "comics"],
-            [24, "Frank Tieri", "", "comics"],
-            [25, "Brian Buccellato", "", "comics"],
-            [26, "Josie Campbell", "", "comics"],
-            [27, "Meghan Fitzmartin", "", "comics"],
-            [28, "Ethan Sacks", "", "comics"],
-            [29, "Dennis Culver", "", "comics"],
-            [30, "Sam Maggs", "", "comics"],
-            [31, "Morgan Hampton", "", "comics"],
-            [32, "Agnes Garbowska", "", "comics"],
-            [33, "Derek Hunter", "", "comics"],
-            [34, "Don Aguillo", "", "comics"],
-            [35, "Travis Mercer", "", "comics"],
-            [36, "Che Grayson", "", "comics"],
-            [37, "Balam", "", "comics"],
-            [38, "Todd Beats", "", "comics"],
-            [39, "Thaddeus Robek", "", "comics"],
-            [40, "Brett Bean", "", "comics"]
+            [
+              2,
+              "Scott Snyder",
+              "",
+              "comics"
+            ],
+            [
+              3,
+              "Frank Cho",
+              "",
+              "comics"
+            ],
+            [
+              4,
+              "Andy Kubert",
+              "",
+              "comics"
+            ],
+            [
+              5,
+              "Ryan Stegman",
+              "",
+              "comics"
+            ],
+            [
+              6,
+              "Ryan Ottley",
+              "",
+              "comics"
+            ],
+            [
+              7,
+              "Amanda Conner",
+              "",
+              "comics"
+            ],
+            [
+              8,
+              "Mark Brooks",
+              "",
+              "comics"
+            ],
+            [
+              9,
+              "Jock",
+              "",
+              "comics"
+            ],
+            [
+              10,
+              "Jimmy Palmiotti",
+              "",
+              "comics"
+            ],
+            [
+              11,
+              "Marc Silvestri",
+              "",
+              "comics"
+            ],
+            [
+              12,
+              "Dan Panosian",
+              "",
+              "comics"
+            ],
+            [
+              13,
+              "Kyle Higgins",
+              "",
+              "comics"
+            ],
+            [
+              14,
+              "Greg Weisman",
+              "",
+              "comics"
+            ],
+            [
+              15,
+              "Cody Ziglar",
+              "",
+              "comics"
+            ],
+            [
+              16,
+              "Creees Lee",
+              "",
+              "comics"
+            ],
+            [
+              17,
+              "Tony Fleecs",
+              "",
+              "comics"
+            ],
+            [
+              18,
+              "Ryan Parrott",
+              "",
+              "comics"
+            ],
+            [
+              19,
+              "David Pepose",
+              "",
+              "comics"
+            ],
+            [
+              20,
+              "Stephanie Phillips",
+              "",
+              "comics"
+            ],
+            [
+              21,
+              "Marc Guggenheim",
+              "",
+              "comics"
+            ],
+            [
+              22,
+              "Melissa Flores",
+              "",
+              "comics"
+            ],
+            [
+              23,
+              "Mark Russell",
+              "",
+              "comics"
+            ],
+            [
+              24,
+              "Frank Tieri",
+              "",
+              "comics"
+            ],
+            [
+              25,
+              "Brian Buccellato",
+              "",
+              "comics"
+            ],
+            [
+              26,
+              "Josie Campbell",
+              "",
+              "comics"
+            ],
+            [
+              27,
+              "Meghan Fitzmartin",
+              "",
+              "comics"
+            ],
+            [
+              28,
+              "Ethan Sacks",
+              "",
+              "comics"
+            ],
+            [
+              29,
+              "Dennis Culver",
+              "",
+              "comics"
+            ],
+            [
+              30,
+              "Sam Maggs",
+              "",
+              "comics"
+            ],
+            [
+              31,
+              "Morgan Hampton",
+              "",
+              "comics"
+            ],
+            [
+              32,
+              "Agnes Garbowska",
+              "",
+              "comics"
+            ],
+            [
+              33,
+              "Derek Hunter",
+              "",
+              "comics"
+            ],
+            [
+              34,
+              "Don Aguillo",
+              "",
+              "comics"
+            ],
+            [
+              35,
+              "Travis Mercer",
+              "",
+              "comics"
+            ],
+            [
+              36,
+              "Che Grayson",
+              "",
+              "comics"
+            ],
+            [
+              37,
+              "Balam",
+              "",
+              "comics"
+            ],
+            [
+              38,
+              "Todd Beats",
+              "",
+              "comics"
+            ],
+            [
+              39,
+              "Thaddeus Robek",
+              "",
+              "comics"
+            ],
+            [
+              40,
+              "Brett Bean",
+              "",
+              "comics"
+            ]
           ]
         },
         {
           "file": "pipeline/cache/extract/la-comic-con-3.guests.json",
           "picks": [
-            [2, "Azura Cosplay", "Cosplayer", "cosplay"],
-            [3, "Dare Taylor", "Cosplayer", "cosplay"],
-            [4, "Dilemmatown", "Cosplayer", "cosplay"],
-            [5, "DJ Croft", "Cosplayer", "cosplay"],
-            [6, "dkarthall", "Cosplayer", "cosplay"],
-            [7, "FacesbyRachie", "Cosplayer", "cosplay"],
-            [8, "Gorgeous Ladies of Wrestling - GLOW", "Cosplay group", "cosplay"],
-            [9, "Jacqueline Goehner", "Cosplayer", "cosplay"],
-            [10, "Joanie Brosas", "Cosplayer", "cosplay"],
-            [11, "Luci Makes", "Cosplayer", "cosplay"],
-            [12, "Megachromatic", "Cosplayer", "cosplay"],
-            [13, "Nerd Mafia", "Cosplay group", "cosplay"],
-            [14, "Puma Does Cosplay", "Cosplayer", "cosplay"],
-            [15, "Saber Guild, Skywalker Temple", "Cosplay group", "cosplay"],
-            [16, "ThaBlackBobRoss", "Cosplayer", "cosplay"],
-            [17, "The Girl With a Great Smile", "Cosplayer", "cosplay"],
-            [18, "Thevhenix", "Cosplayer", "cosplay"],
-            [19, "toptyr_cosplay", "Cosplayer", "cosplay"]
+            [
+              2,
+              "Azura Cosplay",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              3,
+              "Dare Taylor",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              4,
+              "Dilemmatown",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              5,
+              "DJ Croft",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              6,
+              "dkarthall",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              7,
+              "FacesbyRachie",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              8,
+              "Gorgeous Ladies of Wrestling - GLOW",
+              "Cosplay group",
+              "cosplay"
+            ],
+            [
+              9,
+              "Jacqueline Goehner",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              10,
+              "Joanie Brosas",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              11,
+              "Luci Makes",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              12,
+              "Megachromatic",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              13,
+              "Nerd Mafia",
+              "Cosplay group",
+              "cosplay"
+            ],
+            [
+              14,
+              "Puma Does Cosplay",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              15,
+              "Saber Guild, Skywalker Temple",
+              "Cosplay group",
+              "cosplay"
+            ],
+            [
+              16,
+              "ThaBlackBobRoss",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              17,
+              "The Girl With a Great Smile",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              18,
+              "Thevhenix",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              19,
+              "toptyr_cosplay",
+              "Cosplayer",
+              "cosplay"
+            ]
           ]
         }
       ],
@@ -158,6 +750,6 @@
       "evidence": "Homepage title 'L.A. Comic Con | Oct. 30 – Nov. 1, 2026' and text 'Oct. 30 – Nov. 1, 2026 • Los Angeles Convention Center' / 'Celebrating 15 Years of Fans in Los Angeles'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guests span 3 category pages the site itself calls out in its guest nav (Entertainment Guests, Artists and Creators, Cosplay Guests): 2 cancelled 'NO LONGER APPEARING' entertainment guests (Lamorne Morris, Tony Hale) were skipped per the schema rule. The Artists and Creators page (152 photo candidates) mixes two different lists on one page: the first 39 (Scott Snyder through Brett Bean) are sorted newest-announced-first exactly like the other guest categories and are individually-sourced industry names with their own photos, so they're included as 'comics' guests -- their cards show name + appearance days only, no credit text, so Known for is left blank rather than filled from outside knowledge. From entry 41 onward ('1First Comics Presents: Jared Sams' through 'Verbal Ase', then a cancelled 'Tom King') the list switches to strict alphabetical-by-name order, every photo's filename is literally the shared template 'LA Comic Con Artist Alley Guest Headshot', and bios are generic role tags (Artist/Writer/Inker/Penciler/Colorist) with no specific credited work -- this is the con's Artist Alley directory surfaced on the same page/template, which the research rules say to skip, so those ~110 names were not picked. Known-for text for the Entertainment Guests and Critical Role/game-VA block was trimmed from longer on-card credit lists (e.g. Critical Role credits for O'Brien/Riegel/Jaffe/Moore/Carazo/Ward were identical on-card ('Critical Role') so all six are filed as voice for consistency). Cosplay guest cards only say 'Cosplayer' or 'Group' with no other text, used verbatim (as 'Cosplay group' for the three team entries). No organizer name is printed anywhere on the rendered homepage, so organizer is left blank rather than guessed. Refute pass (2026-10-05): a scan flagged some photos as looking older than this edition, but a fresh re-extraction of all three guest pages shows every picked guest's image carries a Squarespace upload timestamp between 2026-07-03 and 2026-10-02 -- months after LACC's actual previous edition (Sept 26-28, 2025, confirmed by search) and squarely in this 2026 edition's own run-up, with no 2025-dated images found -- so the lineup is upheld as current."
+  "checked": "2026-10-07",
+  "notes": "Guests span 3 category pages the site itself calls out in its guest nav (Entertainment Guests, Artists and Creators, Cosplay Guests): 2 cancelled 'NO LONGER APPEARING' entertainment guests (Lamorne Morris, Tony Hale) were skipped per the schema rule. The Artists and Creators page (152 photo candidates) mixes two different lists on one page: the first 39 (Scott Snyder through Brett Bean) are sorted newest-announced-first exactly like the other guest categories and are individually-sourced industry names with their own photos, so they're included as 'comics' guests -- their cards show name + appearance days only, no credit text, so Known for is left blank rather than filled from outside knowledge. From entry 41 onward ('1First Comics Presents: Jared Sams' through 'Verbal Ase', then a cancelled 'Tom King') the list switches to strict alphabetical-by-name order, every photo's filename is literally the shared template 'LA Comic Con Artist Alley Guest Headshot', and bios are generic role tags (Artist/Writer/Inker/Penciler/Colorist) with no specific credited work -- this is the con's Artist Alley directory surfaced on the same page/template, which the research rules say to skip, so those ~110 names were not picked. Known-for text for the Entertainment Guests and Critical Role/game-VA block was trimmed from longer on-card credit lists (e.g. Critical Role credits for O'Brien/Riegel/Jaffe/Moore/Carazo/Ward were identical on-card ('Critical Role') so all six are filed as voice for consistency). Cosplay guest cards only say 'Cosplayer' or 'Group' with no other text, used verbatim (as 'Cosplay group' for the three team entries). No organizer name is printed anywhere on the rendered homepage, so organizer is left blank rather than guessed. Refute pass (2026-10-05): a scan flagged some photos as looking older than this edition, but a fresh re-extraction of all three guest pages shows every picked guest's image carries a Squarespace upload timestamp between 2026-07-03 and 2026-10-02 -- months after LACC's actual previous edition (Sept 26-28, 2025, confirmed by search) and squarely in this 2026 edition's own run-up, with no 2025-dated images found -- so the lineup is upheld as current. 2026-10-07 refresh: unchanged; the only new card on the Artists and Creators page (Deegan Puchkors) sits in the Artist Alley directory block (after the alphabetical list, a generic headshot with no credit), which is skipped per the rule above, and no picked guest was missing."
 }

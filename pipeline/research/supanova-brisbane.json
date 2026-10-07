@@ -488,12 +488,53 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/supanova-brisbane-r20261007.guests.json",
+          "picks": [
+            [
+              48,
+              "Roy V. Marshan",
+              "Deprivation",
+              "author"
+            ],
+            [
+              77,
+              "Morrigan Moore",
+              "Interdisciplinary Maker, Godslayers",
+              "comics"
+            ],
+            [
+              78,
+              "Gerry Huntman",
+              "Guardian of the Sky Realms, Managing Director of IFWG Publishing",
+              "author"
+            ],
+            [
+              79,
+              "H.K. Stubbs",
+              "Staerstone, Killer Creatures Down Under",
+              "author"
+            ],
+            [
+              80,
+              "Ken Best",
+              "Legion of Horrors, Mad Magazine",
+              "comics"
+            ],
+            [
+              83,
+              "The Cosplay Repair Guild",
+              "Cosplay Repair Supa-Heroes",
+              "cosplay"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Event-home page text: 'Supanova 2026 - Brisbane ... 6-8 November 2026 ... Brisbane Convention & Exhibition Centre Merivale St, South Brisbane Queensland 4101'"
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Supanova is one brand across six Australian cities sharing a guest database (most guests here are also tagged for Adelaide 2026). The /events/brisbane-2026/guests/ page lists the full confirmed Brisbane lineup in one grid. Guest cat follows this schema's definitions over the site's own category tags (e.g. 'Gaming'-tagged voice actors like David Bateson are filed as voice). 'The Scoundrolls' and 'Garrison7' are acts/groups rather than individuals, picked once each per the groups-as-one-guest rule. Refute pass (2026-10-05): upheld for all 73 -- a fresh re-check (pipeline/cache/extract/supanova-brisbane-v2.guests.json) shows the page's own heading reads 'Confirmed Guests Brisbane 2026' and every single one of the 73 picked guest cards carries an explicit 'Brisbane 2026' tag in its own text (often alongside other 2026/2027 tour-city tags for guests doing multiple Supanova stops), which is exactly the per-card, this-edition label RESEARCH.md counts as proof. An automated scan flagged 44/73 picked photos as having older upload-folder dates, but that is an artifact of Supanova's shared cross-city photo library (the same guest image is reused for whichever cities book that guest), not evidence the guests themselves are stale -- there is no earlier 'Brisbane 2026' edition this could be left over from. 2026-10-06 refresh: added Sally Martin and Adam Tuominen, new cards tagged Brisbane 2026 on the Confirmed Guests Brisbane 2026 page."
+  "checked": "2026-10-07",
+  "notes": "Supanova is one brand across six Australian cities sharing a guest database (most guests here are also tagged for Adelaide 2026). The /events/brisbane-2026/guests/ page lists the full confirmed Brisbane lineup in one grid. Guest cat follows this schema's definitions over the site's own category tags (e.g. 'Gaming'-tagged voice actors like David Bateson are filed as voice). 'The Scoundrolls' and 'Garrison7' are acts/groups rather than individuals, picked once each per the groups-as-one-guest rule. Refute pass (2026-10-05): upheld for all 73 -- a fresh re-check (pipeline/cache/extract/supanova-brisbane-v2.guests.json) shows the page's own heading reads 'Confirmed Guests Brisbane 2026' and every single one of the 73 picked guest cards carries an explicit 'Brisbane 2026' tag in its own text (often alongside other 2026/2027 tour-city tags for guests doing multiple Supanova stops), which is exactly the per-card, this-edition label RESEARCH.md counts as proof. An automated scan flagged 44/73 picked photos as having older upload-folder dates, but that is an artifact of Supanova's shared cross-city photo library (the same guest image is reused for whichever cities book that guest), not evidence the guests themselves are stale -- there is no earlier 'Brisbane 2026' edition this could be left over from. 2026-10-06 refresh: added Sally Martin and Adam Tuominen, new cards tagged Brisbane 2026 on the Confirmed Guests Brisbane 2026 page. 2026-10-07 refresh: added Roy V. Marshan, Morrigan Moore, Gerry Huntman, H.K. Stubbs, Ken Best and The Cosplay Repair Guild, whose cards (#48, #77–80, #83 of the 2026-10-07 render) all carry the \"Brisbane 2026\" tag; every earlier picked guest remained on the page."
 }

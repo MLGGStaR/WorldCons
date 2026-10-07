@@ -5,9 +5,14 @@
   "url": "https://www.capricon.org/",
   "organizer": "Phandemonium, Inc.",
   "status": "active",
-  "types": ["scifi"],
+  "types": [
+    "scifi"
+  ],
   "blurb": "Chicagoland science fiction and fantasy convention with a literature focus, run by Phandemonium at the Marriott Chicago O'Hare.",
-  "cover": { "file": "pipeline/cache/extract/capricon.home.json", "key": "hero:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/capricon.home.json",
+    "key": "hero:0"
+  },
   "editions": [
     {
       "start": "2027-01-28",
@@ -24,8 +29,29 @@
         {
           "file": "pipeline/cache/extract/capricon.guests.json",
           "picks": [
-            [1, "Anton Petersen", "Fan Guest of Honor; runs Quantum-Con", "other"],
-            [2, "Mary Robinette Kowal", "The Calculating Stars, Lady Astronaut series", "author"]
+            [
+              1,
+              "Anton Petersen",
+              "Fan Guest of Honor; runs Quantum-Con",
+              "other"
+            ],
+            [
+              2,
+              "Mary Robinette Kowal",
+              "The Calculating Stars, Lady Astronaut series",
+              "author"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/capricon-r20261007.guests.json",
+          "picks": [
+            [
+              3,
+              "Shay DeBosco",
+              "",
+              "other"
+            ]
           ]
         }
       ],
@@ -33,6 +59,6 @@
       "evidence": "Homepage text: \"Capricon 47: No Strings Attached! January 28th-31st, 2027 | Marriott Chicago O'Hare\""
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Capricon 47 has two Guests of Honor this year (Anton Petersen, a Fan GoH who organizes his own convention, Quantum-Con; and author Mary Robinette Kowal). Both are pictured on the Guests of Honor page. Refute pass (2026-10-05): confirmed current -- a fresh re-extract of /guests-of-honor/ shows both guest sections sit directly under the page's own heading 'Guests of Honor - Capricon 47: No Strings Attached!', tying both guests to this edition's own number rather than a generic template date."
+  "checked": "2026-10-07",
+  "notes": "Capricon 47 has two Guests of Honor this year (Anton Petersen, a Fan GoH who organizes his own convention, Quantum-Con; and author Mary Robinette Kowal). Both are pictured on the Guests of Honor page. Refute pass (2026-10-05): confirmed current -- a fresh re-extract of /guests-of-honor/ shows both guest sections sit directly under the page's own heading 'Guests of Honor - Capricon 47: No Strings Attached!', tying both guests to this edition's own number rather than a generic template date. Refresh 2026-10-07: added Shay DeBosco, a new guest of honor section on the page headed 'Capricon 47: No Strings Attached!'; known-for and category left generic as the card gives no credit."
 }

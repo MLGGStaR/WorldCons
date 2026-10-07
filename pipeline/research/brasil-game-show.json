@@ -597,18 +597,131 @@
         {
           "file": "pipeline/cache/extract/brasil-game-show-2-r20261006.guests.json",
           "picks": [
-            [2,"Adriaksg","PCD streamer, former Rainbow Six Siege pro","gaming"],
-            [11,"Babs","Streamer and influencer, paiN Gaming","creator"],
-            [16,"Bizerravlr","Valorant pro player, Team Liquid Brazil","gaming"],
-            [17,"Good","Top laner, paiN Gaming League of Legends","gaming"],
-            [20,"Cashew","Influencer; Director of Innovation, paiN Gaming","creator"],
-            [24,"Ceos","Support player, paiN Gaming League of Legends","gaming"],
-            [31,"Dynquedo","Streamer, former paiN Gaming LoL pro","gaming"],
-            [46,"Isaa","Valorant pro player, Team Liquid Brazil","gaming"],
-            [47,"Jellyvlr","Valorant pro player, Team Liquid Brazil","gaming"],
-            [49,"Joojina","Valorant pro player, Team Liquid Brazil","gaming"],
-            [58,"Lu Leone","Content creator and streamer, PCD Cup","creator"],
-            [99,"Younger","Professional Counter-Strike player, MIBR","gaming"]
+            [
+              2,
+              "Adriaksg",
+              "PCD streamer, former Rainbow Six Siege pro",
+              "gaming"
+            ],
+            [
+              11,
+              "Babs",
+              "Streamer and influencer, paiN Gaming",
+              "creator"
+            ],
+            [
+              16,
+              "Bizerravlr",
+              "Valorant pro player, Team Liquid Brazil",
+              "gaming"
+            ],
+            [
+              17,
+              "Good",
+              "Top laner, paiN Gaming League of Legends",
+              "gaming"
+            ],
+            [
+              20,
+              "Cashew",
+              "Influencer; Director of Innovation, paiN Gaming",
+              "creator"
+            ],
+            [
+              24,
+              "Ceos",
+              "Support player, paiN Gaming League of Legends",
+              "gaming"
+            ],
+            [
+              31,
+              "Dynquedo",
+              "Streamer, former paiN Gaming LoL pro",
+              "gaming"
+            ],
+            [
+              46,
+              "Isaa",
+              "Valorant pro player, Team Liquid Brazil",
+              "gaming"
+            ],
+            [
+              47,
+              "Jellyvlr",
+              "Valorant pro player, Team Liquid Brazil",
+              "gaming"
+            ],
+            [
+              49,
+              "Joojina",
+              "Valorant pro player, Team Liquid Brazil",
+              "gaming"
+            ],
+            [
+              58,
+              "Lu Leone",
+              "Content creator and streamer, PCD Cup",
+              "creator"
+            ],
+            [
+              99,
+              "Younger",
+              "Professional Counter-Strike player, MIBR",
+              "gaming"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/brasil-game-show-2-r20261007.guests.json",
+          "picks": [
+            [
+              3,
+              "Ahsatanl",
+              "Influencer of the PCD Cup",
+              "creator"
+            ],
+            [
+              40,
+              "Gabriel Maizena Melo",
+              "Social media for the PCD Cup",
+              "creator"
+            ],
+            [
+              43,
+              "Gih Chuchene and Mattz_ero",
+              "Couple of cosplayers and digital content creators",
+              "cosplay"
+            ],
+            [
+              47,
+              "Hax",
+              "Valorant content creator, PCD Cup",
+              "creator"
+            ],
+            [
+              57,
+              "Killagg",
+              "Streamer focused on the PCD community",
+              "creator"
+            ],
+            [
+              82,
+              "Nivaldo",
+              "Niel Max's companion, PCD Cup",
+              "other"
+            ],
+            [
+              83,
+              "Not Maikeise",
+              "Content creator and streamer, Minecraft and RPGs",
+              "creator"
+            ],
+            [
+              87,
+              "Pietro Danton",
+              "Streamer of Rainbow Six Siege and Counter-Strike 2",
+              "creator"
+            ]
           ]
         }
       ],
@@ -616,6 +729,6 @@
       "evidence": "Homepage schedule text: 'BGS Conference - October 9th: 11:30 AM to 1:00 PM; October 9th: 1:00 PM to 9:00 PM; October 10th: 12:00 PM to 9:00 PM; October 11th: 12:00 PM to 9:00 PM; October 12th: 12:00 PM to 9:00 PM'."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Primarily a publisher/exhibitor trade and consumer gaming expo (PlayStation, Sega, Nintendo, Square Enix, etc. have show-floor presences) rather than a classic autograph con, but it runs a large, officially paged 'International Guests' and 'Influencers and Guests' program (93 people total between the two pages) with individual photos, so the full roster is captured. Many are Brazilian esports-org rosters (MIBR, Team Liquid Brazil) and talent-agency streamers/dubbing actors (Giik Entertainment, Maestri Consulting, Maximus Agencies) whose cards give only an agency name and a one-line role, so 'Known for' is kept to that line; stage names are used as given (real names substituted where the card states one, e.g. Amanda 'AMD' Abreu, Marie Freire, Niel_Max/Daniel). Venue confirmed as Distrito Anhembi via the site's own /local-e-como-chegar/ page. 2026-10-06 refresh: added 12 guests (esports pros, streamers and creators) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing."
+  "checked": "2026-10-07",
+  "notes": "Primarily a publisher/exhibitor trade and consumer gaming expo (PlayStation, Sega, Nintendo, Square Enix, etc. have show-floor presences) rather than a classic autograph con, but it runs a large, officially paged 'International Guests' and 'Influencers and Guests' program (93 people total between the two pages) with individual photos, so the full roster is captured. Many are Brazilian esports-org rosters (MIBR, Team Liquid Brazil) and talent-agency streamers/dubbing actors (Giik Entertainment, Maestri Consulting, Maximus Agencies) whose cards give only an agency name and a one-line role, so 'Known for' is kept to that line; stage names are used as given (real names substituted where the card states one, e.g. Amanda 'AMD' Abreu, Marie Freire, Niel_Max/Daniel). Venue confirmed as Distrito Anhembi via the site's own /local-e-como-chegar/ page. 2026-10-06 refresh: added 12 guests (esports pros, streamers and creators) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing. 2026-10-07 refresh: added 8 guests (PCD Cup streamers/creators and a cosplay couple) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing."
 }

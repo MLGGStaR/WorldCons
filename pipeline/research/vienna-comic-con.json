@@ -45,12 +45,18 @@
             [20, "T.S. Organ", "Artist", "comics"],
             [21, "Thierry Capezzone", "French comic artist", "comics"]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/vienna-comic-con-r20261007.guests.json",
+          "picks": [
+            [22, "DoctorFroid", "Content creator duo", "creator"]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage countdown and date block: '21. - November 22, 2026 MESSE WIEN VIECC® 2026' and 'DATE 21. - November 22, 2026 Opening hours: Saturday: 10:00-20:00 Sunday: 10:00-18:00'; guests-2026 page titled 'Guests 2026 - VIECC® Vienna Comic Con'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Organizer confirmed via the site's own Impressum: 'Austrian Exhibition Experts GmbH ... operates VIECC Vienna Comic Con under license from Wiener Messe und Congress GmbH' (the batch note's guess of ReedPop was wrong and dropped). Cards on /guests-2026/ show only names, no descriptor text, for everyone except the Entertainment Stars & Actors (whose franchise credits appear on the homepage itself). For the Artists And Writers row I filled in 'known for' from independent confirmation only where I was confident (Gruber, Hennen = established novelists; Koch, Aaron, Asrar, Capezzone = established comic creators; Dave Lung confirmed via his own VIECC portfolio page and DeviantArt as a Batman/Silver Surfer/New Avengers inker; Stephanie Gladden as a Disney-side animation visual-development artist). Mathias Kollros is listed as a comic artist on lower confidence, and Sam Feuerbach / T.S. Organ could not be identified beyond appearing in this same 'Artists and Writers' row, so they're categorised as comics on a section-based best guess, flagged here as uncertain rather than left out, since they are a confirmed real booked guest just not one I could research further within budget. Cover uses the official 'VIECC 2025 Entertainment' promo graphic (hero:0) instead of og:image, which is a generic, differently-dated contact-page photo."
+  "checked": "2026-10-07",
+  "notes": "Refresh 2026-10-07: added DoctorFroid, a new card under Content Creators on the guests-2026 page (photo of two people); all earlier picks are still listed. Organizer confirmed via the site's own Impressum: 'Austrian Exhibition Experts GmbH ... operates VIECC Vienna Comic Con under license from Wiener Messe und Congress GmbH' (the batch note's guess of ReedPop was wrong and dropped). Cards on /guests-2026/ show only names, no descriptor text, for everyone except the Entertainment Stars & Actors (whose franchise credits appear on the homepage itself). For the Artists And Writers row I filled in 'known for' from independent confirmation only where I was confident (Gruber, Hennen = established novelists; Koch, Aaron, Asrar, Capezzone = established comic creators; Dave Lung confirmed via his own VIECC portfolio page and DeviantArt as a Batman/Silver Surfer/New Avengers inker; Stephanie Gladden as a Disney-side animation visual-development artist). Mathias Kollros is listed as a comic artist on lower confidence, and Sam Feuerbach / T.S. Organ could not be identified beyond appearing in this same 'Artists and Writers' row, so they're categorised as comics on a section-based best guess, flagged here as uncertain rather than left out, since they are a confirmed real booked guest just not one I could research further within budget. Cover uses the official 'VIECC 2025 Entertainment' promo graphic (hero:0) instead of og:image, which is a generic, differently-dated contact-page photo."
 }

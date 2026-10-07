@@ -5,9 +5,16 @@
   "url": "https://comicconwinnipeg.com/",
   "organizer": "Capeflow Productions Inc.",
   "status": "active",
-  "types": ["comics", "pop", "horror"],
+  "types": [
+    "comics",
+    "pop",
+    "horror"
+  ],
   "blurb": "Winnipeg's Halloween-weekend pop-culture convention, with film and TV guests, wrestlers, horror stars and comic creators at the RBC Convention Centre.",
-  "cover": { "file": "pipeline/cache/extract/winnipeg-comiccon.home.json", "key": "hero:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/winnipeg-comiccon.home.json",
+    "key": "hero:0"
+  },
   "editions": [
     {
       "start": "2026-10-30",
@@ -24,39 +31,215 @@
         {
           "file": "pipeline/cache/extract/winnipeg-comiccon.guests.json",
           "picks": [
-            [4, "Famke Janssen", "X-Men, GoldenEye, Taken", "actor"],
-            [5, "Richard Dean Anderson", "Stargate SG-1, MacGyver", "actor"],
-            [6, "Amanda Tapping", "Stargate SG-1, Sanctuary", "actor"],
-            [7, "Brandon Rogers", "Helluva Boss, Hazbin Hotel", "voice"],
-            [8, "Casper Van Dien", "Starship Troopers, Sleepy Hollow", "actor"],
-            [9, "Catherine Tate", "Doctor Who, The Office", "actor"],
-            [10, "David Finch", "", "comics"],
-            [11, "Dina Meyer", "Starship Troopers, Birds of Prey, Saw", "actor"],
-            [12, "Elizabeth Maxwell", "My Hero Academia, Attack on Titan", "voice"],
-            [13, "Emily Kinney", "The Walking Dead, The Flash", "actor"],
-            [14, "Eric Johnson", "Vikings, Smallville", "actor"],
-            [15, "Erica Durance", "Smallville", "actor"],
-            [16, "Galactic Empire", "Star Wars cine-metal band", "music"],
-            [17, "Jake Busey", "Starship Troopers, Stranger Things", "actor"],
-            [18, "Jason Liebrecht", "Borderlands 3, D.Gray-man", "voice"],
-            [19, "Jodelle Ferland", "Silent Hill, Twilight Saga: Eclipse", "actor"],
-            [20, "Julian Richings", "Supernatural, The Witch", "actor"],
-            [21, "Kurt Angle", "Olympic & WWE wrestler", "sports"],
-            [22, "Laura Vandervoort", "Smallville, Bitten, Supergirl", "actor"],
-            [23, "Lexa Doig", "Andromeda, Arrow, Jason X", "actor"],
-            [24, "Mark Sheppard", "Supernatural, Battlestar Galactica", "actor"],
-            [25, "Michael Ironside", "Starship Troopers, Scanners, Total Recall", "actor"],
-            [26, "Michael Shanks", "Stargate SG-1, Saving Hope", "actor"],
-            [27, "Mick Foley", "WWE Hall of Famer", "sports"],
-            [28, "Pia Guerra", "Y: The Last Man", "comics"],
-            [29, "Ramón Pérez", "Wolverine and the X-Men", "comics"],
-            [30, "Robert Patrick", "Terminator 2, Peacemaker", "actor"],
-            [31, "Steven Ogg", "The Walking Dead, GTA V", "actor"],
-            [32, "Tom Grummett", "Adventures of Superman, Superboy", "comics"],
-            [33, "Eric Vedder", "Aardehn, Sentinel, Darkstalkers", "comics"],
-            [34, "Ian Boothby", "Simpsons Comics, Exorsisters", "comics"],
-            [35, "Marcus To", "Excalibur, Red Robin", "comics"],
-            [36, "S.M. Carter", "Aardehn, To Steal the Sun", "comics"]
+            [
+              4,
+              "Famke Janssen",
+              "X-Men, GoldenEye, Taken",
+              "actor"
+            ],
+            [
+              5,
+              "Richard Dean Anderson",
+              "Stargate SG-1, MacGyver",
+              "actor"
+            ],
+            [
+              6,
+              "Amanda Tapping",
+              "Stargate SG-1, Sanctuary",
+              "actor"
+            ],
+            [
+              7,
+              "Brandon Rogers",
+              "Helluva Boss, Hazbin Hotel",
+              "voice"
+            ],
+            [
+              8,
+              "Casper Van Dien",
+              "Starship Troopers, Sleepy Hollow",
+              "actor"
+            ],
+            [
+              9,
+              "Catherine Tate",
+              "Doctor Who, The Office",
+              "actor"
+            ],
+            [
+              10,
+              "David Finch",
+              "",
+              "comics"
+            ],
+            [
+              11,
+              "Dina Meyer",
+              "Starship Troopers, Birds of Prey, Saw",
+              "actor"
+            ],
+            [
+              12,
+              "Elizabeth Maxwell",
+              "My Hero Academia, Attack on Titan",
+              "voice"
+            ],
+            [
+              13,
+              "Emily Kinney",
+              "The Walking Dead, The Flash",
+              "actor"
+            ],
+            [
+              14,
+              "Eric Johnson",
+              "Vikings, Smallville",
+              "actor"
+            ],
+            [
+              15,
+              "Erica Durance",
+              "Smallville",
+              "actor"
+            ],
+            [
+              16,
+              "Galactic Empire",
+              "Star Wars cine-metal band",
+              "music"
+            ],
+            [
+              17,
+              "Jake Busey",
+              "Starship Troopers, Stranger Things",
+              "actor"
+            ],
+            [
+              18,
+              "Jason Liebrecht",
+              "Borderlands 3, D.Gray-man",
+              "voice"
+            ],
+            [
+              19,
+              "Jodelle Ferland",
+              "Silent Hill, Twilight Saga: Eclipse",
+              "actor"
+            ],
+            [
+              20,
+              "Julian Richings",
+              "Supernatural, The Witch",
+              "actor"
+            ],
+            [
+              21,
+              "Kurt Angle",
+              "Olympic & WWE wrestler",
+              "sports"
+            ],
+            [
+              22,
+              "Laura Vandervoort",
+              "Smallville, Bitten, Supergirl",
+              "actor"
+            ],
+            [
+              23,
+              "Lexa Doig",
+              "Andromeda, Arrow, Jason X",
+              "actor"
+            ],
+            [
+              24,
+              "Mark Sheppard",
+              "Supernatural, Battlestar Galactica",
+              "actor"
+            ],
+            [
+              26,
+              "Michael Shanks",
+              "Stargate SG-1, Saving Hope",
+              "actor"
+            ],
+            [
+              27,
+              "Mick Foley",
+              "WWE Hall of Famer",
+              "sports"
+            ],
+            [
+              28,
+              "Pia Guerra",
+              "Y: The Last Man",
+              "comics"
+            ],
+            [
+              29,
+              "Ramón Pérez",
+              "Wolverine and the X-Men",
+              "comics"
+            ],
+            [
+              30,
+              "Robert Patrick",
+              "Terminator 2, Peacemaker",
+              "actor"
+            ],
+            [
+              31,
+              "Steven Ogg",
+              "The Walking Dead, GTA V",
+              "actor"
+            ],
+            [
+              32,
+              "Tom Grummett",
+              "Adventures of Superman, Superboy",
+              "comics"
+            ],
+            [
+              33,
+              "Eric Vedder",
+              "Aardehn, Sentinel, Darkstalkers",
+              "comics"
+            ],
+            [
+              34,
+              "Ian Boothby",
+              "Simpsons Comics, Exorsisters",
+              "comics"
+            ],
+            [
+              35,
+              "Marcus To",
+              "Excalibur, Red Robin",
+              "comics"
+            ],
+            [
+              36,
+              "S.M. Carter",
+              "Aardehn, To Steal the Sun",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/winnipeg-comiccon-r20261007.guests.json",
+          "picks": [
+            [
+              27,
+              "Nhut Le",
+              "Peacemaker, Kroll Show",
+              "actor"
+            ],
+            [
+              33,
+              "Veronica Taylor",
+              "Pokémon, Slayers, Teenage Mutant Ninja Turtles",
+              "voice"
+            ]
           ]
         }
       ],
@@ -64,6 +247,6 @@
       "evidence": "Homepage: 'OCT. 30 TO NOV. 1, 2026 RBC CONVENTION CENTRE'; hero image labelled 'DON'T MISS WINNIPEG COMICCON 6TH EDITION'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition."
+  "checked": "2026-10-07",
+  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition. 2026-10-07 refresh: added Nhut Le (#27) and Veronica Taylor (#33) from the 2026-10-07 render, where both sit under Featured Guests; removed Michael Ironside, who now appears (#39) under the page's POSTPONED section, like Giancarlo Esposito and Troy Baker."
 }

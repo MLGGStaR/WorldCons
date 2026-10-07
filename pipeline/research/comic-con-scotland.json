@@ -5,9 +5,15 @@
   "url": "https://www.comicconventionscotland.co.uk",
   "organizer": "Monopoly Events",
   "status": "active",
-  "types": ["comics", "pop"],
+  "types": [
+    "comics",
+    "pop"
+  ],
   "blurb": "Monopoly Events' Scottish pop culture convention at the Royal Highland Centre near Edinburgh, with film, TV, wrestling and voice-actor guests.",
-  "cover": { "file": "pipeline/cache/extract/comic-con-scotland.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-scotland.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-24",
@@ -24,49 +30,258 @@
         {
           "file": "pipeline/cache/extract/comic-con-scotland.guests.json",
           "picks": [
-            [3, "Jensen Ackles", "Supernatural, The Boys", "actor"],
-            [4, "Misha Collins", "Supernatural (Castiel)", "actor"],
-            [5, "Mark Sheppard", "Supernatural, Firefly", "actor"],
-            [6, "David Harbour", "Stranger Things, Hellboy", "actor"],
-            [7, "Noah Schnapp", "Stranger Things (Will Byers)", "actor"],
-            [8, "Jamie Campbell Bower", "Stranger Things, Harry Potter", "actor"],
-            [9, "Cara Buono", "Stranger Things, Mad Men", "actor"],
-            [10, "Ralph Macchio", "The Karate Kid, Cobra Kai", "actor"],
-            [11, "William Zabka", "Cobra Kai, The Karate Kid", "actor"],
-            [12, "Martin Kove", "The Karate Kid, Cobra Kai", "actor"],
-            [13, "William Shatner", "Star Trek (Captain Kirk)", "actor"],
-            [14, "John Cleese", "Monty Python, Fawlty Towers", "actor"],
-            [15, "Tamara Taylor", "Bones", "actor"],
-            [16, "T.J. Thyne", "Bones", "actor"],
-            [17, "Charisma Carpenter", "Buffy the Vampire Slayer, Angel", "actor"],
-            [18, "Julie Benz", "Buffy the Vampire Slayer, Dexter", "actor"],
-            [19, "Tyler Hoechlin", "Teen Wolf, Superman & Lois", "actor"],
-            [20, "Tom Welling", "Smallville (Clark Kent)", "actor"],
-            [21, "Erica Durance", "Smallville (Lois Lane)", "actor"],
-            [22, "Saraya Bevis", "WWE wrestler 'Paige'", "sports"],
-            [23, "Trish Stratus", "WWE Hall of Fame wrestler", "sports"],
-            [24, "Mick Foley", "WWE Hall of Fame wrestler", "sports"],
-            [25, "Eliza Taylor", "The 100 (Clarke Griffin)", "actor"],
-            [26, "Bob Morley", "The 100 (Bellamy Blake)", "actor"],
-            [27, "Marie Avgeropoulos", "The 100 (Octavia Blake)", "actor"],
-            [28, "David Hayter", "Metal Gear Solid voice, X-Men screenwriter", "voice"],
-            [29, "Tommy Flanagan", "Sons of Anarchy", "actor"],
-            [30, "Kim Coates", "Sons of Anarchy", "actor"],
-            [31, "Mark Boone Junior", "Sons of Anarchy", "actor"],
-            [32, "David Labrava", "Sons of Anarchy", "actor"],
-            [33, "Cam Clarke", "TMNT, voice of Leonardo", "voice"],
-            [34, "Rob Paulsen", "TMNT, Pinky and the Brain", "voice"],
-            [35, "Townsend Coleman", "TMNT, voice of Michelangelo", "voice"],
-            [36, "Renae Jacobs", "TMNT, voice of April O'Neil", "voice"],
-            [37, "Steve Guttenberg", "Police Academy", "actor"],
-            [38, "Lewis Tan", "Mortal Kombat, Wu Assassins", "actor"],
-            [39, "Manu Bennett", "Arrow, Spartacus", "actor"],
-            [40, "Lori Petty", "A League of Their Own, Tank Girl", "actor"],
-            [41, "Mena Suvari", "American Beauty, American Pie", "actor"],
-            [42, "Billy West", "Futurama, voice of Fry", "voice"],
-            [43, "Phil LaMarr", "Futurama, Samurai Jack", "voice"],
-            [44, "David O'Hara", "Braveheart, The Departed", "actor"],
-            [45, "Tony Robinson", "Blackadder (Baldrick)", "actor"]
+            [
+              3,
+              "Jensen Ackles",
+              "Supernatural, The Boys",
+              "actor"
+            ],
+            [
+              4,
+              "Misha Collins",
+              "Supernatural (Castiel)",
+              "actor"
+            ],
+            [
+              5,
+              "Mark Sheppard",
+              "Supernatural, Firefly",
+              "actor"
+            ],
+            [
+              6,
+              "David Harbour",
+              "Stranger Things, Hellboy",
+              "actor"
+            ],
+            [
+              7,
+              "Noah Schnapp",
+              "Stranger Things (Will Byers)",
+              "actor"
+            ],
+            [
+              8,
+              "Jamie Campbell Bower",
+              "Stranger Things, Harry Potter",
+              "actor"
+            ],
+            [
+              9,
+              "Cara Buono",
+              "Stranger Things, Mad Men",
+              "actor"
+            ],
+            [
+              10,
+              "Ralph Macchio",
+              "The Karate Kid, Cobra Kai",
+              "actor"
+            ],
+            [
+              11,
+              "William Zabka",
+              "Cobra Kai, The Karate Kid",
+              "actor"
+            ],
+            [
+              12,
+              "Martin Kove",
+              "The Karate Kid, Cobra Kai",
+              "actor"
+            ],
+            [
+              13,
+              "William Shatner",
+              "Star Trek (Captain Kirk)",
+              "actor"
+            ],
+            [
+              14,
+              "John Cleese",
+              "Monty Python, Fawlty Towers",
+              "actor"
+            ],
+            [
+              15,
+              "Tamara Taylor",
+              "Bones",
+              "actor"
+            ],
+            [
+              16,
+              "T.J. Thyne",
+              "Bones",
+              "actor"
+            ],
+            [
+              17,
+              "Charisma Carpenter",
+              "Buffy the Vampire Slayer, Angel",
+              "actor"
+            ],
+            [
+              18,
+              "Julie Benz",
+              "Buffy the Vampire Slayer, Dexter",
+              "actor"
+            ],
+            [
+              19,
+              "Tyler Hoechlin",
+              "Teen Wolf, Superman & Lois",
+              "actor"
+            ],
+            [
+              20,
+              "Tom Welling",
+              "Smallville (Clark Kent)",
+              "actor"
+            ],
+            [
+              21,
+              "Erica Durance",
+              "Smallville (Lois Lane)",
+              "actor"
+            ],
+            [
+              22,
+              "Saraya Bevis",
+              "WWE wrestler 'Paige'",
+              "sports"
+            ],
+            [
+              23,
+              "Trish Stratus",
+              "WWE Hall of Fame wrestler",
+              "sports"
+            ],
+            [
+              24,
+              "Mick Foley",
+              "WWE Hall of Fame wrestler",
+              "sports"
+            ],
+            [
+              25,
+              "Eliza Taylor",
+              "The 100 (Clarke Griffin)",
+              "actor"
+            ],
+            [
+              26,
+              "Bob Morley",
+              "The 100 (Bellamy Blake)",
+              "actor"
+            ],
+            [
+              27,
+              "Marie Avgeropoulos",
+              "The 100 (Octavia Blake)",
+              "actor"
+            ],
+            [
+              28,
+              "David Hayter",
+              "Metal Gear Solid voice, X-Men screenwriter",
+              "voice"
+            ],
+            [
+              29,
+              "Tommy Flanagan",
+              "Sons of Anarchy",
+              "actor"
+            ],
+            [
+              30,
+              "Kim Coates",
+              "Sons of Anarchy",
+              "actor"
+            ],
+            [
+              31,
+              "Mark Boone Junior",
+              "Sons of Anarchy",
+              "actor"
+            ],
+            [
+              32,
+              "David Labrava",
+              "Sons of Anarchy",
+              "actor"
+            ],
+            [
+              33,
+              "Cam Clarke",
+              "TMNT, voice of Leonardo",
+              "voice"
+            ],
+            [
+              34,
+              "Rob Paulsen",
+              "TMNT, Pinky and the Brain",
+              "voice"
+            ],
+            [
+              35,
+              "Townsend Coleman",
+              "TMNT, voice of Michelangelo",
+              "voice"
+            ],
+            [
+              36,
+              "Renae Jacobs",
+              "TMNT, voice of April O'Neil",
+              "voice"
+            ],
+            [
+              37,
+              "Steve Guttenberg",
+              "Police Academy",
+              "actor"
+            ],
+            [
+              38,
+              "Lewis Tan",
+              "Mortal Kombat, Wu Assassins",
+              "actor"
+            ],
+            [
+              39,
+              "Manu Bennett",
+              "Arrow, Spartacus",
+              "actor"
+            ],
+            [
+              41,
+              "Mena Suvari",
+              "American Beauty, American Pie",
+              "actor"
+            ],
+            [
+              42,
+              "Billy West",
+              "Futurama, voice of Fry",
+              "voice"
+            ],
+            [
+              43,
+              "Phil LaMarr",
+              "Futurama, Samurai Jack",
+              "voice"
+            ],
+            [
+              44,
+              "David O'Hara",
+              "Braveheart, The Departed",
+              "actor"
+            ],
+            [
+              45,
+              "Tony Robinson",
+              "Blackadder (Baldrick)",
+              "actor"
+            ]
           ]
         }
       ],
@@ -74,6 +289,6 @@
       "evidence": "Homepage: '24-25th Oct, 2026 Royal Highland Centre'; JSON-LD on the page is stale (dated 2020) and was not used."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest photos are named by filename slug (e.g. 'jensen-ackles.png') with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles rather than copied from the card. One correction: the file 'davis-hayter.png' (#28) does not match any known public figure, but David Hayter (voice of Solid Snake, X-Men screenwriter) is a very well-known convention guest and an obvious one-letter site typo, so he was picked as David Hayter. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright."
+  "checked": "2026-10-07",
+  "notes": "Guest photos are named by filename slug (e.g. 'jensen-ackles.png') with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles rather than copied from the card. One correction: the file 'davis-hayter.png' (#28) does not match any known public figure, but David Hayter (voice of Solid Snake, X-Men screenwriter) is a very well-known convention guest and an obvious one-letter site typo, so he was picked as David Hayter. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright. 2026-10-07 refresh: removed Lori Petty, whose card is absent from today's render and from a second fresh render of the guests page (the page is a fixed list, not a rotating selection); no new cards."
 }
