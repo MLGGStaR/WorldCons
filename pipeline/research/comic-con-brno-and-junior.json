@@ -174,12 +174,23 @@
               "author"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/comic-con-brno-and-junior-r20261008.guests.json",
+          "picks": [
+            [
+              17,
+              "Wyatt Russell",
+              "Falcon and the Winter Soldier, Thunderbolts*",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "JSON-LD Event 'Comic-Con Brno & Junior 2026' 2026-11-13T10:00:00+01:00 -> 2026-11-15T18:00:00+01:00 @ Kongresový pavilon E, Výstaviště Brno."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Guest cards rendered in Czech despite the ?lang=en parameter; names and credits were translated/condensed from the Czech card text (e.g. 'Lovci duchů' -> Ghostbusters, 'Hvězdná brána' -> Stargate). John Morris and Reiner Schöne are both labelled with a dabbing/voice credit ('dabér' / 'herec a dabér') on their cards; Morris is filed as 'voice' since Toy Story's Andy is his primary credit, while Schöne is filed as 'actor' since his listed credits (Mortal Kombat: Annihilation, Babylon 5) are on-screen roles. 2026-10-06 refresh: added three authors from the Spisovatelé section of the 2026 guests page."
+  "checked": "2026-10-08",
+  "notes": "Guest cards rendered in Czech despite the ?lang=en parameter; names and credits were translated/condensed from the Czech card text (e.g. 'Lovci duchů' -> Ghostbusters, 'Hvězdná brána' -> Stargate). John Morris and Reiner Schöne are both labelled with a dabbing/voice credit ('dabér' / 'herec a dabér') on their cards; Morris is filed as 'voice' since Toy Story's Andy is his primary credit, while Schöne is filed as 'actor' since his listed credits (Mortal Kombat: Annihilation, Babylon 5) are on-screen roles. 2026-10-06 refresh: added three authors from the Spisovatelé section of the 2026 guests page. 2026-10-08 refresh: added Wyatt Russell, a new card in the Herci a dabéři section of the 2026 guests page; nobody picked was missing."
 }

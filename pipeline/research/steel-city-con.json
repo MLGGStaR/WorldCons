@@ -5,9 +5,16 @@
   "url": "https://www.steelcitycon.com",
   "organizer": "",
   "status": "active",
-  "types": ["comics", "pop", "toys"],
+  "types": [
+    "comics",
+    "pop",
+    "toys"
+  ],
   "blurb": "The exclusive comic con of the Monroeville Convention Center near Pittsburgh, one of the largest comic cons in the US, with film, TV and music guests.",
-  "cover": { "file": "pipeline/cache/extract/steel-city-con.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/steel-city-con.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2026-12-04",
@@ -24,31 +31,167 @@
         {
           "file": "pipeline/cache/extract/steel-city-con.guests.json",
           "picks": [
-            [1, "Roger Jackson", "Ghostface, The Powerpuff Girls", "voice"],
-            [2, "Rainn Wilson", "The Office, Transformers", "actor"],
-            [3, "J.K. Simmons", "Spider-Man, Invincible, Whiplash", "actor"],
-            [4, "Karl Urban", "The Boys, Star Trek, LOTR", "actor"],
-            [5, "Antony Starr", "The Boys, G20", "actor"],
-            [6, "Richie Sambora", "Bon Jovi", "music"],
-            [7, "JC Chasez", "", "music"],
-            [8, "Matt Lillard", "Scream, Scooby Doo", "actor"],
-            [9, "Skeet Ulrich", "Scream, The Craft", "actor"],
-            [10, "David Arquette", "Scream, Buffy the Vampire Slayer", "actor"],
-            [11, "Christina Ricci", "Yellowjackets, The Addams Family", "actor"],
-            [12, "Juliette Lewis", "Cape Fear, Yellowjackets", "actor"],
-            [13, "Angela Kinsey", "The Office", "actor"],
-            [14, "Scott Stapp", "Lead vocalist, Creed", "music"],
-            [15, "Karen Fukuhara", "The Boys, Suicide Squad", "actor"],
-            [16, "Laz Alonso", "The Boys, Avatar: Fire and Ash", "actor"],
-            [17, "Caleb Mclaughlin", "Stranger Things", "actor"],
-            [18, "Lena Headey", "Game of Thrones", "actor"],
-            [19, "Doug Jones", "Hellboy, Pan's Labyrinth, Shape of Water", "actor"],
-            [20, "Orianthi", "Musician, guitarist", "music"],
-            [21, "Brent Spiner", "Star Trek, Independence Day", "actor"],
-            [22, "Gates McFadden", "Star Trek", "actor"],
-            [23, "Sarah Natochenny", "Pokemon (Ash Ketchum)", "voice"],
-            [24, "Trish Stratus", "7-time WWE champion", "sports"],
-            [25, "Shawn Coss", "", "comics"]
+            [
+              1,
+              "Roger Jackson",
+              "Ghostface, The Powerpuff Girls",
+              "voice"
+            ],
+            [
+              2,
+              "Rainn Wilson",
+              "The Office, Transformers",
+              "actor"
+            ],
+            [
+              3,
+              "J.K. Simmons",
+              "Spider-Man, Invincible, Whiplash",
+              "actor"
+            ],
+            [
+              4,
+              "Karl Urban",
+              "The Boys, Star Trek, LOTR",
+              "actor"
+            ],
+            [
+              5,
+              "Antony Starr",
+              "The Boys, G20",
+              "actor"
+            ],
+            [
+              6,
+              "Richie Sambora",
+              "Bon Jovi",
+              "music"
+            ],
+            [
+              7,
+              "JC Chasez",
+              "",
+              "music"
+            ],
+            [
+              8,
+              "Matt Lillard",
+              "Scream, Scooby Doo",
+              "actor"
+            ],
+            [
+              9,
+              "Skeet Ulrich",
+              "Scream, The Craft",
+              "actor"
+            ],
+            [
+              10,
+              "David Arquette",
+              "Scream, Buffy the Vampire Slayer",
+              "actor"
+            ],
+            [
+              11,
+              "Christina Ricci",
+              "Yellowjackets, The Addams Family",
+              "actor"
+            ],
+            [
+              12,
+              "Juliette Lewis",
+              "Cape Fear, Yellowjackets",
+              "actor"
+            ],
+            [
+              13,
+              "Angela Kinsey",
+              "The Office",
+              "actor"
+            ],
+            [
+              14,
+              "Scott Stapp",
+              "Lead vocalist, Creed",
+              "music"
+            ],
+            [
+              15,
+              "Karen Fukuhara",
+              "The Boys, Suicide Squad",
+              "actor"
+            ],
+            [
+              16,
+              "Laz Alonso",
+              "The Boys, Avatar: Fire and Ash",
+              "actor"
+            ],
+            [
+              17,
+              "Caleb Mclaughlin",
+              "Stranger Things",
+              "actor"
+            ],
+            [
+              18,
+              "Lena Headey",
+              "Game of Thrones",
+              "actor"
+            ],
+            [
+              19,
+              "Doug Jones",
+              "Hellboy, Pan's Labyrinth, Shape of Water",
+              "actor"
+            ],
+            [
+              20,
+              "Orianthi",
+              "Musician, guitarist",
+              "music"
+            ],
+            [
+              21,
+              "Brent Spiner",
+              "Star Trek, Independence Day",
+              "actor"
+            ],
+            [
+              22,
+              "Gates McFadden",
+              "Star Trek",
+              "actor"
+            ],
+            [
+              23,
+              "Sarah Natochenny",
+              "Pokemon (Ash Ketchum)",
+              "voice"
+            ],
+            [
+              24,
+              "Trish Stratus",
+              "7-time WWE champion",
+              "sports"
+            ],
+            [
+              25,
+              "Shawn Coss",
+              "",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/steel-city-con-r20261008.guests.json",
+          "picks": [
+            [
+              21,
+              "Chester Rushing",
+              "Stranger Things, Jeepers Creepers 3",
+              "actor"
+            ]
           ]
         }
       ],
@@ -56,6 +199,6 @@
       "evidence": "Homepage text: 'JOIN US FOR THE NEXT SHOW DECEMBER 4 - 6 | 2026'; confirmed again on /schedule/ page ('DECEMBER 4 - 6 | 2026 CELEBRITY PRICING AND SCHEDULE'). Venue from meta description: 'The Steel City Con is the exclusive comic con of the Monroeville Convention Center.'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Runs multiple shows a year but only one future date is announced on the site (Dec 4-6 2026); no 2027 show has been posted yet, so only this edition is listed. Organizer/producer name is not stated anywhere on the site (no footer copyright line found), so left blank rather than guessed; batch note's 'successor to Pittsburgh Comicon/Wizard World Pittsburgh' lineage was not independently re-verified this pass. #25 Shawn Coss has his own portrait but no bio text on the card (categorized as comics on general knowledge of him as an illustrator); a 'Niobe' comic-book promo card naming artist Caanan White was excluded as a product tie-in, not a guest-appearance card (no 'Days Attending' info, unlike every real guest card)."
+  "checked": "2026-10-08",
+  "notes": "Runs multiple shows a year but only one future date is announced on the site (Dec 4-6 2026); no 2027 show has been posted yet, so only this edition is listed. Organizer/producer name is not stated anywhere on the site (no footer copyright line found), so left blank rather than guessed; batch note's 'successor to Pittsburgh Comicon/Wizard World Pittsburgh' lineage was not independently re-verified this pass. #25 Shawn Coss has his own portrait but no bio text on the card (categorized as comics on general knowledge of him as an illustrator); a 'Niobe' comic-book promo card naming artist Caanan White was excluded as a product tie-in, not a guest-appearance card (no 'Days Attending' info, unlike every real guest card). Refresh 2026-10-08: the homepage celebrity list (December 4 - 6, 2026) shows a new card, Chester Rushing (Fri, Sat, Sun), added; all earlier picks are still listed."
 }

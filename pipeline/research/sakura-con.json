@@ -5,9 +5,16 @@
   "url": "https://sakuracon.org/",
   "organizer": "Asia Northwest Cultural Education Association (ANCEA)",
   "status": "active",
-  "types": ["anime", "cosplay", "games"],
+  "types": [
+    "anime",
+    "cosplay",
+    "games"
+  ],
   "blurb": "The oldest and largest anime convention in the Pacific Northwest, held every spring in downtown Seattle with cosplay contests, concerts and voice-actor guests.",
-  "cover": { "file": "pipeline/cache/extract/sakura-con.home.json", "key": "hero:5" },
+  "cover": {
+    "file": "pipeline/cache/extract/sakura-con.home.json",
+    "key": "hero:5"
+  },
   "editions": [
     {
       "start": "2027-03-26",
@@ -24,9 +31,35 @@
         {
           "file": "pipeline/cache/extract/sakura-con-v2.guests.json",
           "picks": [
-            [1, "Griffin Burns", "Tartaglia in Genshin Impact, Doppio in JoJo's Bizarre Adventure", "voice"],
-            [2, "Monica Rial", "Black Butler, Black Clover", "voice"],
-            [3, "Tony Oliver", "IMDB top 20 all-time anime voice actor", "voice"]
+            [
+              1,
+              "Griffin Burns",
+              "Tartaglia in Genshin Impact, Doppio in JoJo's Bizarre Adventure",
+              "voice"
+            ],
+            [
+              2,
+              "Monica Rial",
+              "Black Butler, Black Clover",
+              "voice"
+            ],
+            [
+              3,
+              "Tony Oliver",
+              "IMDB top 20 all-time anime voice actor",
+              "voice"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/sakura-con-v2-r20261008.guests.json",
+          "picks": [
+            [
+              2,
+              "Joe Zieja",
+              "Bumblebee in Transformers, Fire Emblem, Star Fox",
+              "voice"
+            ]
           ]
         }
       ],
@@ -34,6 +67,6 @@
       "evidence": "Homepage news post: 'We'll see you March 26-28, 2027!' (April 14, 2026). The Guests page's three current entries (Griffin Burns, Tony Oliver, Monica Rial) were all announced Sept 16-30, 2026, after that post."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The homepage also shows earlier Guest Announcements (Studio Orange's Masako Sato/Naoya Nakayama/Yoshihiro Watanabe, and Haruki Ishiya) dated Feb-March 2026, before the 'see you in 2027' post; the Studio Orange link points to /past-guests/sakura-con-2026/, so these belong to the already-finished 2026 edition and are excluded here. The Location page text still reads 'Sakura-Con 2026 takes place at the Seattle Convention Center' (not yet updated for 2027 wording) but confirms the convention's long-standing venue across the Arch and Summit buildings; no venue change has been announced for 2027. Verify-03 pass (2026-10-05): confirmed current -- a fresh re-extraction shows the same three guests (Griffin Burns, Monica Rial, Tony Oliver) and a separate 'Past Guests' link confirming the site keeps prior-year lineups apart from this live Guests page. Refute pass (2026-10-05): fresh re-extraction (-v2) is unchanged (same 3 guests); their headshots are uploaded to wp-content/uploads/2026/08/ (months after the March 2026 edition ended) and the page's own top banner image is named 'SakWebsiteBannerWordpress2027-2.jpg'; upheld, not stale."
+  "checked": "2026-10-08",
+  "notes": "The homepage also shows earlier Guest Announcements (Studio Orange's Masako Sato/Naoya Nakayama/Yoshihiro Watanabe, and Haruki Ishiya) dated Feb-March 2026, before the 'see you in 2027' post; the Studio Orange link points to /past-guests/sakura-con-2026/, so these belong to the already-finished 2026 edition and are excluded here. The Location page text still reads 'Sakura-Con 2026 takes place at the Seattle Convention Center' (not yet updated for 2027 wording) but confirms the convention's long-standing venue across the Arch and Summit buildings; no venue change has been announced for 2027. Verify-03 pass (2026-10-05): confirmed current -- a fresh re-extraction shows the same three guests (Griffin Burns, Monica Rial, Tony Oliver) and a separate 'Past Guests' link confirming the site keeps prior-year lineups apart from this live Guests page. Refute pass (2026-10-05): fresh re-extraction (-v2) is unchanged (same 3 guests); their headshots are uploaded to wp-content/uploads/2026/08/ (months after the March 2026 edition ended) and the page's own top banner image is named 'SakWebsiteBannerWordpress2027-2.jpg'; upheld, not stale. Refresh 2026-10-08: added Joe Zieja, a new card on the Guests page (headshot uploaded 2026/08, after the 2026 show); Griffin Burns, Monica Rial and Tony Oliver are still listed."
 }

@@ -705,12 +705,6 @@
               "creator"
             ],
             [
-              82,
-              "Nivaldo",
-              "Niel Max's companion, PCD Cup",
-              "other"
-            ],
-            [
               83,
               "Not Maikeise",
               "Content creator and streamer, Minecraft and RPGs",
@@ -723,12 +717,46 @@
               "creator"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/brasil-game-show-r20261008.guests.json",
+          "picks": [
+            [
+              4,
+              "Oscar Lopez",
+              "Lead Multiplayer Designer, Call of Duty 4",
+              "gaming"
+            ],
+            [
+              5,
+              "Rodrigo Perez",
+              "Director of Publishing, Activision",
+              "gaming"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/brasil-game-show-2-r20261008.guests.json",
+          "picks": [
+            [
+              33,
+              "Eskel",
+              "Member of CopaPCD (PCD Cup)",
+              "creator"
+            ],
+            [
+              67,
+              "Manhanizika",
+              "PCD Cup streamer",
+              "creator"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage schedule text: 'BGS Conference - October 9th: 11:30 AM to 1:00 PM; October 9th: 1:00 PM to 9:00 PM; October 10th: 12:00 PM to 9:00 PM; October 11th: 12:00 PM to 9:00 PM; October 12th: 12:00 PM to 9:00 PM'."
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Primarily a publisher/exhibitor trade and consumer gaming expo (PlayStation, Sega, Nintendo, Square Enix, etc. have show-floor presences) rather than a classic autograph con, but it runs a large, officially paged 'International Guests' and 'Influencers and Guests' program (93 people total between the two pages) with individual photos, so the full roster is captured. Many are Brazilian esports-org rosters (MIBR, Team Liquid Brazil) and talent-agency streamers/dubbing actors (Giik Entertainment, Maestri Consulting, Maximus Agencies) whose cards give only an agency name and a one-line role, so 'Known for' is kept to that line; stage names are used as given (real names substituted where the card states one, e.g. Amanda 'AMD' Abreu, Marie Freire, Niel_Max/Daniel). Venue confirmed as Distrito Anhembi via the site's own /local-e-como-chegar/ page. 2026-10-06 refresh: added 12 guests (esports pros, streamers and creators) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing. 2026-10-07 refresh: added 8 guests (PCD Cup streamers/creators and a cosplay couple) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing."
+  "checked": "2026-10-08",
+  "notes": "Primarily a publisher/exhibitor trade and consumer gaming expo (PlayStation, Sega, Nintendo, Square Enix, etc. have show-floor presences) rather than a classic autograph con, but it runs a large, officially paged 'International Guests' and 'Influencers and Guests' program (93 people total between the two pages) with individual photos, so the full roster is captured. Many are Brazilian esports-org rosters (MIBR, Team Liquid Brazil) and talent-agency streamers/dubbing actors (Giik Entertainment, Maestri Consulting, Maximus Agencies) whose cards give only an agency name and a one-line role, so 'Known for' is kept to that line; stage names are used as given (real names substituted where the card states one, e.g. Amanda 'AMD' Abreu, Marie Freire, Niel_Max/Daniel). Venue confirmed as Distrito Anhembi via the site's own /local-e-como-chegar/ page. 2026-10-06 refresh: added 12 guests (esports pros, streamers and creators) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing. 2026-10-07 refresh: added 8 guests (PCD Cup streamers/creators and a cosplay couple) newly shown as cards on the same Influencers and Guests page in today's render; no picked guest was missing. 2026-10-08 refresh: added 4 guests (Oscar Lopez and Rodrigo Perez on International Guests; Eskel and Manhanizika, PCD Cup streamers, on Influencers and Guests) newly shown as cards in today's renders; Nivaldo (picked from the 10-07 render) was removed because he is absent from both today's render and a fresh re-render of the Influencers and Guests page (a stable alphabetical list, not a rotating one)."
 }

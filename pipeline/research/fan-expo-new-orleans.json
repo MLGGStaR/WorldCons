@@ -5,9 +5,17 @@
   "url": "https://fanexpohq.com/fanexponeworleans/",
   "organizer": "Fan Expo HQ",
   "status": "active",
-  "types": ["comics", "pop", "anime", "games"],
+  "types": [
+    "comics",
+    "pop",
+    "anime",
+    "games"
+  ],
   "blurb": "FAN EXPO HQ's Louisiana show at the Ernest N. Morial Convention Center, with celebrity, anime, gaming and comic-creator guests.",
-  "cover": { "file": "pipeline/cache/extract/fan-expo-new-orleans.home.json", "key": "hero:3" },
+  "cover": {
+    "file": "pipeline/cache/extract/fan-expo-new-orleans.home.json",
+    "key": "hero:3"
+  },
   "editions": [
     {
       "start": "2027-01-08",
@@ -24,12 +32,65 @@
         {
           "file": "pipeline/cache/extract/fan-expo-new-orleans.guests.json",
           "picks": [
-            [2, "Jared Padalecki", "Supernatural, Gilmore Girls", "actor"],
-            [3, "Adam Savage", "MythBusters", "other"],
-            [4, "Jim Beaver", "Supernatural", "actor"],
-            [5, "Mark Sheppard", "Supernatural", "actor"],
-            [6, "Mark Pellegrino", "Supernatural, Dexter", "actor"],
-            [7, "Ruth Connell", "Supernatural", "actor"]
+            [
+              2,
+              "Jared Padalecki",
+              "Supernatural, Gilmore Girls",
+              "actor"
+            ],
+            [
+              3,
+              "Adam Savage",
+              "MythBusters",
+              "other"
+            ],
+            [
+              4,
+              "Jim Beaver",
+              "Supernatural",
+              "actor"
+            ],
+            [
+              5,
+              "Mark Sheppard",
+              "Supernatural",
+              "actor"
+            ],
+            [
+              6,
+              "Mark Pellegrino",
+              "Supernatural, Dexter",
+              "actor"
+            ],
+            [
+              7,
+              "Ruth Connell",
+              "Supernatural",
+              "actor"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/fan-expo-new-orleans-r20261008.guests.json",
+          "picks": [
+            [
+              8,
+              "Jason Marsden",
+              "Hocus Pocus",
+              "actor"
+            ],
+            [
+              9,
+              "Vinessa Shaw",
+              "Hocus Pocus, The Hills Have Eyes",
+              "actor"
+            ],
+            [
+              10,
+              "Omri Katz",
+              "Hocus Pocus",
+              "actor"
+            ]
           ]
         }
       ],
@@ -37,6 +98,6 @@
       "evidence": "Page JSON-LD: Event \"FAN EXPO New Orleans\" 2027-01-08 -> 2027-01-10 @ New Orleans Ernest N. Morial Convention Center; same text on page: 'JANUARY 8 - 10, 2027 NEW ORLEANS ERNEST N. MORIAL CONVENTION CENTER'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Multi-city FAN EXPO HQ brand; this show is close enough (3 months out) that its celebrities page is a real 2027 announcement ('THE STARS OF SUPERNATURAL' -- Jared Padalecki, Mark Sheppard, Mark Pellegrino, Jim Beaver, Ruth Connell -- plus Adam Savage), unlike its sister cities. The other four guest category pages (animation-voices, anime-guests, comic-creators, cosplayers, gaming-stars) still only show 'PAST FAN FAVE GUESTS INCLUDED' placeholders, so only the celebrities page is reflected here. Adam Savage is filed as 'other' (TV host/maker, not an actor, voice actor or creator-platform personality per the schema). Cover uses the 'MEET YOUR HEROES' homepage carousel photo of Jared Padalecki (one of the confirmed guests) signing at a FAN EXPO table, the only edition-relevant photo found; the plain header image is a repeating text pattern and the og/logo are generic. Refute pass (2026-10-05): a fresh re-extraction confirms edition-specific proof for every guest -- the Supernatural five (Padalecki, Sheppard, Pellegrino, Beaver, Connell) are named in an on-page announcement graphic filed as 'FXNO27-Supernatural-Cast-Annou...' linking to store.epic.leapevent.tech/fan-expo-new-orleans/2027, and Adam Savage has his own photo-op purchase link at .../fan-expo-new-orleans/2027/adam-savage -- so all six resolve to this specific 2027 edition, not a template date; lineup upheld."
+  "checked": "2026-10-08",
+  "notes": "Multi-city FAN EXPO HQ brand; this show is close enough (3 months out) that its celebrities page is a real 2027 announcement ('THE STARS OF SUPERNATURAL' -- Jared Padalecki, Mark Sheppard, Mark Pellegrino, Jim Beaver, Ruth Connell -- plus Adam Savage), unlike its sister cities. The other four guest category pages (animation-voices, anime-guests, comic-creators, cosplayers, gaming-stars) still only show 'PAST FAN FAVE GUESTS INCLUDED' placeholders, so only the celebrities page is reflected here. Adam Savage is filed as 'other' (TV host/maker, not an actor, voice actor or creator-platform personality per the schema). Cover uses the 'MEET YOUR HEROES' homepage carousel photo of Jared Padalecki (one of the confirmed guests) signing at a FAN EXPO table, the only edition-relevant photo found; the plain header image is a repeating text pattern and the og/logo are generic. Refute pass (2026-10-05): a fresh re-extraction confirms edition-specific proof for every guest -- the Supernatural five (Padalecki, Sheppard, Pellegrino, Beaver, Connell) are named in an on-page announcement graphic filed as 'FXNO27-Supernatural-Cast-Annou...' linking to store.epic.leapevent.tech/fan-expo-new-orleans/2027, and Adam Savage has his own photo-op purchase link at .../fan-expo-new-orleans/2027/adam-savage -- so all six resolve to this specific 2027 edition, not a template date; lineup upheld. Refresh 2026-10-08: added Jason Marsden, Vinessa Shaw and Omri Katz, new cards on the celebrities page (headed JANUARY 8 - 10, 2027) with a matching 'Meet Hocus Pocus' Omri Katz, Jason Marsden, and Vinessa Shaw at FAN EXPO New Orleans' announcement (#13); the six earlier guests are still listed."
 }

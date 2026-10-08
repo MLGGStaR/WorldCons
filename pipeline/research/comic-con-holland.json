@@ -5,9 +5,16 @@
   "url": "https://comicconholland.nl/en/homepage-en/",
   "organizer": "",
   "status": "active",
-  "types": ["comics", "pop", "cosplay"],
+  "types": [
+    "comics",
+    "pop",
+    "cosplay"
+  ],
   "blurb": "A Netherlands pop-culture convention near Amsterdam with Hollywood actor guests, cosplay contests, artists and a geek market.",
-  "cover": { "file": "pipeline/cache/extract/comic-con-holland.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/comic-con-holland.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-10",
@@ -24,26 +31,131 @@
         {
           "file": "pipeline/cache/extract/comic-con-holland.guests.json",
           "picks": [
-            [1, "Karl Urban", "The Boys, Judge Dredd", "actor"],
-            [2, "Scott Patterson", "Luke in Gilmore Girls", "actor"],
-            [3, "Lana Parrilla", "Regina in Once Upon a Time", "actor"],
-            [4, "Rose McGowan", "Charmed actress", "actor"],
-            [5, "Booboo Stewart", "Seth Clearwater in Twilight", "actor"],
-            [6, "Ashley Greene", "Alice Cullen in Twilight", "actor"],
-            [7, "Jackson Rathbone", "Jasper Hale in Twilight", "actor"],
-            [8, "Sean Gunn", "Kraglin in Guardians of the Galaxy", "actor"],
-            [9, "Oded Fehr", "The Mummy actor", "actor"],
-            [10, "Kellan Lutz", "Emmett Cullen in Twilight", "actor"],
-            [12, "Peter Facinelli", "Carlisle Cullen in Twilight", "actor"],
-            [13, "Karen David", "Once Upon a Time actress", "actor"],
-            [14, "John Hannah", "The Mummy actor", "actor"],
-            [15, "Erica Cerra", "Eureka actress", "actor"],
-            [16, "David Tennant", "Tenth Doctor in Doctor Who", "actor"],
-            [17, "Jennifer Morrison", "Emma Swan in Once Upon a Time", "actor"],
-            [18, "Bryce Dallas Howard", "Jurassic World actress", "actor"],
-            [19, "Heather Matarazzo", "Welcome to the Dollhouse actress", "actor"],
-            [20, "Laura Prepon", "Orange Is the New Black actress", "actor"],
-            [21, "John Cleese", "Monty Python", "actor"]
+            [
+              1,
+              "Karl Urban",
+              "The Boys, Judge Dredd",
+              "actor"
+            ],
+            [
+              2,
+              "Scott Patterson",
+              "Luke in Gilmore Girls",
+              "actor"
+            ],
+            [
+              3,
+              "Lana Parrilla",
+              "Regina in Once Upon a Time",
+              "actor"
+            ],
+            [
+              4,
+              "Rose McGowan",
+              "Charmed actress",
+              "actor"
+            ],
+            [
+              5,
+              "Booboo Stewart",
+              "Seth Clearwater in Twilight",
+              "actor"
+            ],
+            [
+              6,
+              "Ashley Greene",
+              "Alice Cullen in Twilight",
+              "actor"
+            ],
+            [
+              7,
+              "Jackson Rathbone",
+              "Jasper Hale in Twilight",
+              "actor"
+            ],
+            [
+              8,
+              "Sean Gunn",
+              "Kraglin in Guardians of the Galaxy",
+              "actor"
+            ],
+            [
+              9,
+              "Oded Fehr",
+              "The Mummy actor",
+              "actor"
+            ],
+            [
+              10,
+              "Kellan Lutz",
+              "Emmett Cullen in Twilight",
+              "actor"
+            ],
+            [
+              12,
+              "Peter Facinelli",
+              "Carlisle Cullen in Twilight",
+              "actor"
+            ],
+            [
+              13,
+              "Karen David",
+              "Once Upon a Time actress",
+              "actor"
+            ],
+            [
+              14,
+              "John Hannah",
+              "The Mummy actor",
+              "actor"
+            ],
+            [
+              15,
+              "Erica Cerra",
+              "Eureka actress",
+              "actor"
+            ],
+            [
+              16,
+              "David Tennant",
+              "Tenth Doctor in Doctor Who",
+              "actor"
+            ],
+            [
+              17,
+              "Jennifer Morrison",
+              "Emma Swan in Once Upon a Time",
+              "actor"
+            ],
+            [
+              18,
+              "Bryce Dallas Howard",
+              "Jurassic World actress",
+              "actor"
+            ],
+            [
+              19,
+              "Heather Matarazzo",
+              "Welcome to the Dollhouse actress",
+              "actor"
+            ],
+            [
+              20,
+              "Laura Prepon",
+              "Orange Is the New Black actress",
+              "actor"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/comic-con-holland-r20261008.guests.json",
+          "picks": [
+            [
+              14,
+              "Costas Mandylor",
+              "Detective Hoffman in Saw",
+              "actor"
+            ]
           ]
         }
       ],
@@ -51,6 +163,6 @@
       "evidence": "Page title: 'Comic Con Holland - 10-11 October 2026'; page text: 'Saturday 10th Of October 2026 10:00-19:00h Sunday 11th Of October 2026 10:00-17:00h'."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Venue address on the guests page (Stelling 1, 2141 SB Vijfhuizen) matches Expo Haarlemmermeer; corrected city from the seed's 'Amsterdam' to Vijfhuizen, the actual town (consistent with the seed's own note 'Held in Vijfhuizen near Amsterdam'). Skipped candidates #0 and #11 (site/event logos, not guests); #1-10 and #12-21 are all real guest photos confirmed by name text on the same dated (Oct 2026) guest page. 2026-10-06 refresh: unchanged; today's render lost the second guest page to a pagination error, but a fresh render of /en/guests/ walked both pages and shows all 20 picked guests again."
+  "checked": "2026-10-08",
+  "notes": "Venue address on the guests page (Stelling 1, 2141 SB Vijfhuizen) matches Expo Haarlemmermeer; corrected city from the seed's 'Amsterdam' to Vijfhuizen, the actual town (consistent with the seed's own note 'Held in Vijfhuizen near Amsterdam'). Skipped candidates #0 and #11 (site/event logos, not guests); #1-10 and #12-21 are all real guest photos confirmed by name text on the same dated (Oct 2026) guest page. 2026-10-06 refresh: unchanged; today's render lost the second guest page to a pagination error, but a fresh render of /en/guests/ walked both pages and shows all 20 picked guests again. 2026-10-08 refresh: added Costas Mandylor (new card #14 on the /en/guests/ render, also listed on the site's /en/guests2/ page) and removed John Cleese, who is absent from a fresh render of /en/guests/ and from /en/guests2/."
 }

@@ -804,30 +804,6 @@
               "Morgan Le Foy",
               "",
               "cosplay"
-            ],
-            [
-              132,
-              "My Geek Glory",
-              "",
-              "cosplay"
-            ],
-            [
-              133,
-              "The Ohio Star Wars Collectors Club",
-              "",
-              "cosplay"
-            ],
-            [
-              134,
-              "Columbus Ghostbusters",
-              "",
-              "cosplay"
-            ],
-            [
-              135,
-              "Ohio River Valley Cosplayers",
-              "",
-              "cosplay"
             ]
           ]
         },
@@ -841,12 +817,23 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/galaxycon-columbus-r20261008.guests.json",
+          "picks": [
+            [
+              132,
+              "Cincinnati Ghostbusters",
+              "Ghostbusters fan group",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'GALAXYCON COLUMBUS ... DECEMBER 4-6, 2026 ... We look forward to seeing you in December 4-6, 2026 at the Greater Columbus Convention Center'"
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "139 image candidates on the live guests page; excluded here: a 'Gaming Coming Soon' placeholder (#129), a 'Tattoo Artists Coming Soon' placeholder (#131), two Authentication vendor cards (JSA and Agents of Slabs, #136-137), and #121 'FSCW', an acronym with no expansion findable on the card so it's left out rather than guessed or mis-cased. Many cards share near-identical truncated alt text in tool console output (e.g. #75/#76, #100/#101, #114/#115) but each candidate's actual img URL was checked directly and is a distinct, correctly matched file — not a repeat of the richmond/san-jose false alarm. A handful of names (#31 Chris Bartlett, #32 Terry Matalas, #99 Mervyn McKoy, #117-120) aren't confidently identifiable from the card alone (no bio text, just name + day), so they're filed as 'other' rather than guessed into a specific category; #2 Kevin Smith is filed as creator for his podcast/media work rather than as a narrow 'actor'. Known for is left blank throughout since no card carries bio text. Cover uses the Columbus wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative cosplay-cutout props, fan photo-op/after-dark stock photos, and a ticket-sale banner. Refresh 2026-10-07: today's render of the guests page (December 4-6, 2026) shows one card not yet picked, #106 Michael Watkins, added as a guest (card carries only name and days, so cat other, known-for blank); all earlier picks are still on the page."
+  "checked": "2026-10-08",
+  "notes": "139 image candidates on the live guests page; excluded here: a 'Gaming Coming Soon' placeholder (#129), a 'Tattoo Artists Coming Soon' placeholder (#131), two Authentication vendor cards (JSA and Agents of Slabs, #136-137), and #121 'FSCW', an acronym with no expansion findable on the card so it's left out rather than guessed or mis-cased. Many cards share near-identical truncated alt text in tool console output (e.g. #75/#76, #100/#101, #114/#115) but each candidate's actual img URL was checked directly and is a distinct, correctly matched file — not a repeat of the richmond/san-jose false alarm. A handful of names (#31 Chris Bartlett, #32 Terry Matalas, #99 Mervyn McKoy, #117-120) aren't confidently identifiable from the card alone (no bio text, just name + day), so they're filed as 'other' rather than guessed into a specific category; #2 Kevin Smith is filed as creator for his podcast/media work rather than as a narrow 'actor'. Known for is left blank throughout since no card carries bio text. Cover uses the Columbus wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative cosplay-cutout props, fan photo-op/after-dark stock photos, and a ticket-sale banner. Refresh 2026-10-07: today's render of the guests page (December 4-6, 2026) shows one card not yet picked, #106 Michael Watkins, added as a guest (card carries only name and days, so cat other, known-for blank); all earlier picks are still on the page. Refresh 2026-10-08: the Fan Groups section of today's guests page (rendered twice, same result) lists only Cincinnati Ghostbusters (added); removed the earlier fan groups My Geek Glory, The Ohio Star Wars Collectors Club, Columbus Ghostbusters and Ohio River Valley Cosplayers, which appear in neither render (their cards were 2025 artwork)."
 }

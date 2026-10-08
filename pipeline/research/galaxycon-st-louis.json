@@ -702,12 +702,23 @@
               "cosplay"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/galaxycon-st-louis-r20261008.guests.json",
+          "picks": [
+            [
+              18,
+              "Allen Covert",
+              "",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'OCTOBER 23-25, 2026' and 'We look forward to seeing you October 23-25, 2026 at America's Center.'"
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Guest cards on the guests page show only each person's name and which days they appear ('at GalaxyCon St. Louis All 3 Days' etc.), no specific show credits, so Known for is left blank for every guest rather than guessed; categories are assigned from general knowledge of each name. Skipped 3 non-person vendor/service cards (a tattoo-artist business, an authentication/grading service, and a grading-adjacent exhibitor) and one duplicate low-res repeat of Joe Wos (kept the better-quality one). 2026-10-07 refresh: added three fan-group guest cards (Piasa Ghostbusters, St. Louis R2 Builders Group, Mando Mercs/501st/Rebel Legion) listed under Fan Groups on the October 23-25, 2026 guests page; nobody picked was missing today."
+  "checked": "2026-10-08",
+  "notes": "Guest cards on the guests page show only each person's name and which days they appear ('at GalaxyCon St. Louis All 3 Days' etc.), no specific show credits, so Known for is left blank for every guest rather than guessed; categories are assigned from general knowledge of each name. Skipped 3 non-person vendor/service cards (a tattoo-artist business, an authentication/grading service, and a grading-adjacent exhibitor) and one duplicate low-res repeat of Joe Wos (kept the better-quality one). 2026-10-07 refresh: added three fan-group guest cards (Piasa Ghostbusters, St. Louis R2 Builders Group, Mando Mercs/501st/Rebel Legion) listed under Fan Groups on the October 23-25, 2026 guests page; nobody picked was missing today. 2026-10-08 refresh: added Allen Covert, a new card on the October 23-25, 2026 guests page (its artwork was checked by screenshot and shows him); nobody picked was missing."
 }

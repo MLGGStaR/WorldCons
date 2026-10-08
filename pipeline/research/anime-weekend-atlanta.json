@@ -5,9 +5,16 @@
   "url": "https://www.awa-con.com",
   "organizer": "",
   "status": "active",
-  "types": ["anime", "cosplay", "games"],
+  "types": [
+    "anime",
+    "cosplay",
+    "games"
+  ],
   "blurb": "The Southeast's largest anime convention in Atlanta, with Japanese voice actors, music guests, cosplay and gaming each November.",
-  "cover": { "file": "pipeline/cache/extract/anime-weekend-atlanta.home.json", "key": "hero:6" },
+  "cover": {
+    "file": "pipeline/cache/extract/anime-weekend-atlanta.home.json",
+    "key": "hero:6"
+  },
   "editions": [
     {
       "start": "2026-11-19",
@@ -24,22 +31,113 @@
         {
           "file": "pipeline/cache/extract/anime-weekend-atlanta.guests.json",
           "picks": [
-            [0, "Abigail Blythe", "Voice actor", "voice"],
-            [1, "Alejandro Saab", "Demon Slayer (Zenitsu); DJ as CyYu", "voice"],
-            [2, "Allegra Clark", "Bayonetta, One Piece (Nico Robin)", "voice"],
-            [3, "AmaLee", "Anime song cover artist", "music"],
-            [4, "Anjali Kunapaneni", "Genshin Impact, Witch Hat Atelier", "voice"],
-            [5, "Aonyan", "Japanese idol singer", "music"],
-            [6, "Berry", "J-pop idol", "music"],
-            [7, "Brandon McInnis", "My Hero Academia (Deku)", "voice"],
-            [8, "David Vincent", "My Hero Academia (All Might)", "voice"],
-            [9, "from20", "", "music"],
-            [10, "Hello Gloom", "Rap/vocal musical artist", "music"],
-            [11, "J. Michael Tatum", "Black Butler, JoJo's Bizarre Adventure", "voice"],
-            [12, "Joshua Waters", "Witch Hat Atelier (Qifrey)", "voice"],
-            [13, "Tiffany Grant", "Neon Genesis Evangelion (Asuka)", "voice"],
-            [14, "Xanthe Huynh", "My Hero Academia, Demon Slayer", "voice"],
-            [15, "Zaq", "Anime theme song singer", "music"]
+            [
+              0,
+              "Abigail Blythe",
+              "Voice actor",
+              "voice"
+            ],
+            [
+              1,
+              "Alejandro Saab",
+              "Demon Slayer (Zenitsu); DJ as CyYu",
+              "voice"
+            ],
+            [
+              2,
+              "Allegra Clark",
+              "Bayonetta, One Piece (Nico Robin)",
+              "voice"
+            ],
+            [
+              3,
+              "AmaLee",
+              "Anime song cover artist",
+              "music"
+            ],
+            [
+              4,
+              "Anjali Kunapaneni",
+              "Genshin Impact, Witch Hat Atelier",
+              "voice"
+            ],
+            [
+              5,
+              "Aonyan",
+              "Japanese idol singer",
+              "music"
+            ],
+            [
+              6,
+              "Berry",
+              "J-pop idol",
+              "music"
+            ],
+            [
+              7,
+              "Brandon McInnis",
+              "My Hero Academia (Deku)",
+              "voice"
+            ],
+            [
+              8,
+              "David Vincent",
+              "My Hero Academia (All Might)",
+              "voice"
+            ],
+            [
+              9,
+              "from20",
+              "",
+              "music"
+            ],
+            [
+              10,
+              "Hello Gloom",
+              "Rap/vocal musical artist",
+              "music"
+            ],
+            [
+              11,
+              "J. Michael Tatum",
+              "Black Butler, JoJo's Bizarre Adventure",
+              "voice"
+            ],
+            [
+              12,
+              "Joshua Waters",
+              "Witch Hat Atelier (Qifrey)",
+              "voice"
+            ],
+            [
+              13,
+              "Tiffany Grant",
+              "Neon Genesis Evangelion (Asuka)",
+              "voice"
+            ],
+            [
+              14,
+              "Xanthe Huynh",
+              "My Hero Academia, Demon Slayer",
+              "voice"
+            ],
+            [
+              15,
+              "Zaq",
+              "Anime theme song singer",
+              "music"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-weekend-atlanta-r20261008.guests.json",
+          "picks": [
+            [
+              8,
+              "Burnout Syndromes",
+              "Japanese rock band",
+              "music"
+            ]
           ]
         }
       ],
@@ -47,6 +145,6 @@
       "evidence": "Homepage: 'Anime Weekend Atlanta November 19-22, 2026 GWCC Building C'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest cards gave only names (repeated twice, no bio text), so categories/known-for were confirmed via WebSearch against animecons.com/fancons.com guest bios and general knowledge: Abigail Blythe's bio snippet was truncated mid-sentence ('best known for voicing the axe...'), so her known-for is left blank rather than guessed; from20's category is inferred from being grouped with the other music-guest cards (Aonyan, Berry, Hello Gloom) and could not be independently confirmed. Berry, Hello Gloom and Zaq are stylised in all-caps on the card/in their own branding; normalised to title case per the naming rule. No og/twitter image on the homepage; cover uses the current (2026-05) wide homepage banner graphic."
+  "checked": "2026-10-08",
+  "notes": "Guest cards gave only names (repeated twice, no bio text), so categories/known-for were confirmed via WebSearch against animecons.com/fancons.com guest bios and general knowledge: Abigail Blythe's bio snippet was truncated mid-sentence ('best known for voicing the axe...'), so her known-for is left blank rather than guessed; from20's category is inferred from being grouped with the other music-guest cards (Aonyan, Berry, Hello Gloom) and could not be independently confirmed. Berry, Hello Gloom and Zaq are stylised in all-caps on the card/in their own branding; normalised to title case per the naming rule. No og/twitter image on the homepage; cover uses the current (2026-05) wide homepage banner graphic. 2026-10-08 refresh: added Burnout Syndromes, a new card under 2026 Featured Guests (name-only card; band description from general knowledge)."
 }

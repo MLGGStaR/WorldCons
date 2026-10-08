@@ -5,9 +5,16 @@
   "url": "https://www.con-nichiwa.com",
   "organizer": "",
   "status": "active",
-  "types": ["anime", "games", "cosplay"],
+  "types": [
+    "anime",
+    "games",
+    "cosplay"
+  ],
   "blurb": "Tucson's largest and longest-running anime, gaming and cosplay convention, held each Halloween weekend.",
-  "cover": { "file": "pipeline/cache/extract/con-nichiwa.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/con-nichiwa.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-30",
@@ -24,14 +31,65 @@
         {
           "file": "pipeline/cache/extract/con-nichiwa.guests.json",
           "picks": [
-            [0, "Ricco Fajardo", "Voice of Isagi in Blue Lock, Mirio in My Hero Academia", "voice"],
-            [1, "Drew Breedlove", "Voice actor, Blue Lock, Dr. STONE", "voice"],
-            [2, "Vitamin H", "Convention panelist group", "other"],
-            [3, "Cosplaytology", "Arizona cosplay crafter", "cosplay"],
-            [4, "GuiltyRose Cosplay", "Phoenix-based cosplayer and crafter", "cosplay"],
-            [5, "LemarTheConGuy", "Convention host, comedian and panelist", "other"],
-            [6, "Utahime Cosplay", "International cosplay host and content creator", "cosplay"],
-            [7, "Andrew Alandy", "Host, competitive gamer and tabletop storyteller", "other"]
+            [
+              0,
+              "Ricco Fajardo",
+              "Voice of Isagi in Blue Lock, Mirio in My Hero Academia",
+              "voice"
+            ],
+            [
+              1,
+              "Drew Breedlove",
+              "Voice actor, Blue Lock, Dr. STONE",
+              "voice"
+            ],
+            [
+              2,
+              "Vitamin H",
+              "Convention panelist group",
+              "other"
+            ],
+            [
+              3,
+              "Cosplaytology",
+              "Arizona cosplay crafter",
+              "cosplay"
+            ],
+            [
+              4,
+              "GuiltyRose Cosplay",
+              "Phoenix-based cosplayer and crafter",
+              "cosplay"
+            ],
+            [
+              5,
+              "LemarTheConGuy",
+              "Convention host, comedian and panelist",
+              "other"
+            ],
+            [
+              6,
+              "Utahime Cosplay",
+              "International cosplay host and content creator",
+              "cosplay"
+            ],
+            [
+              7,
+              "Andrew Alandy",
+              "Host, competitive gamer and tabletop storyteller",
+              "other"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/con-nichiwa-r20261008.guests.json",
+          "picks": [
+            [
+              2,
+              "Milky Wayz",
+              "Soft Cow Vtuber",
+              "creator"
+            ]
           ]
         }
       ],
@@ -39,6 +97,6 @@
       "evidence": "Homepage text: 'Con Nichiwa October 30 - November 1, 2026 | DoubleTree by Hilton Hotel Tucson - Reid Park'; JSON-LD Event confirms same dates/venue."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": ""
+  "checked": "2026-10-08",
+  "notes": "2026-10-08 refresh: added Milky Wayz, a new VTuber guest card on the official guests page; nobody picked was missing."
 }

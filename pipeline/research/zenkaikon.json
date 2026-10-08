@@ -19,12 +19,19 @@
       "country": "US",
       "tickets": "https://zenkaikon.ticketspice.com/zenkaikon-2027",
       "guestsPage": "https://zenkaikon.com/guests/",
-      "guests": "none-yet",
-      "lineup": [],
+      "guests": "announced",
+      "lineup": [
+        {
+          "file": "pipeline/cache/extract/zenkaikon-r20261008.guests.json",
+          "picks": [
+            [0, "Olivia Olson", "Voice actor", "voice"]
+          ]
+        }
+      ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'March 18-21, 2027 Lancaster County Convention Center, Lancaster, PA ... Zenkaikon 2027 March 18 - 21, 2027 - Lancaster, PA'; location address confirmed: '25 South Queen Street Lancaster, PA 17603'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The /guests/ page's own section heading reads '2026 Guests' (18 names: Caitlin Glass, Dana Terrace, Dante Basco, Phil LaMarr, Khary Payton, Jeremy Shada, etc.) -- that is last year's roster, not yet replaced for the March 2027 edition, so guests is 'none-yet' per the rules rather than picking a stale lineup. The homepage's own 'Hours of Programming / Program Items / Exhibitors / Event Participants' stat block is also explicitly labeled '2026' for the same reason."
+  "checked": "2026-10-08",
+  "notes": "The /guests/ page's own section heading reads '2026 Guests' (18 names: Caitlin Glass, Dana Terrace, Dante Basco, Phil LaMarr, Khary Payton, Jeremy Shada, etc.) -- that is last year's roster, not yet replaced for the March 2027 edition, so guests is 'none-yet' per the rules rather than picking a stale lineup. The homepage's own 'Hours of Programming / Program Items / Exhibitors / Event Participants' stat block is also explicitly labeled '2026' for the same reason. 2026-10-08: the /guests/ page now has a separate '2027 Guests' section with Olivia Olson (card art reads 'Zenkaikon 2027', Voice Actor), so guests is announced with 1 guest; the '2026 Guests' section below it is last year's roster and was not picked."
 }

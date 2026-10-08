@@ -49,12 +49,6 @@
               "Drummatix",
               "Drum show group",
               "music"
-            ],
-            [
-              26,
-              "Studiynaya Banda",
-              "Russian film-dubbing voice collective",
-              "voice"
             ]
           ]
         },
@@ -68,12 +62,23 @@
               "cosplay"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/comic-con-russia-r20261008.guests.json",
+          "picks": [
+            [
+              26,
+              "Fun Mode",
+              "Tver metal band; opens the festival on 5 December",
+              "music"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'Comic Con Игромир — долгожданный фестиваль 03.12 — 06.12.2026 года в Москве!' (title tag also reads 'Comic Con Игромир — фестиваль поп-культуры 2026 в Москве'); venue from homepage text 'Москва, «Тимирязев Центр», станция метро Петровско-Разумовская'."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Site is a single-page Tilda build (comiccon.ru) now titled 'Comic Con Игромир', i.e. Comic Con Russia has rebranded/merged its 2026 event jointly with IgroMir (see igromir.ru, researched separately) rather than running two separate festivals. Homepage JSON-LD was stale (Comic Con Russia 2025, Dec 12-14 2025); used the visible page text instead, which confirms Dec 3-6 2026. No dedicated 'all guests' page exists — guests are announced as standalone homepage promo tiles; picked the real people/acts among them and skipped the Character Alley collab tile and the cosplay-prize-fund tile (not guests). Guest names Евгений Чебатков and Элли на маковом поле are transliterated to Latin; the latter performs under that stage name (real name Victoria Trunova, per vokrug.tv). No organizer name found on the page within budget. Refresh 2026-10-06: added MiSO, announced on the homepage (post dated 2026-10-05) as a cosplay-contest jury member of Comic Con Igromir; the other new tile (#27) is a cosplay-contest deadline promo, not a guest."
+  "checked": "2026-10-08",
+  "notes": "Site is a single-page Tilda build (comiccon.ru) now titled 'Comic Con Игромир', i.e. Comic Con Russia has rebranded/merged its 2026 event jointly with IgroMir (see igromir.ru, researched separately) rather than running two separate festivals. Homepage JSON-LD was stale (Comic Con Russia 2025, Dec 12-14 2025); used the visible page text instead, which confirms Dec 3-6 2026. No dedicated 'all guests' page exists — guests are announced as standalone homepage promo tiles; picked the real people/acts among them and skipped the Character Alley collab tile and the cosplay-prize-fund tile (not guests). Guest names Евгений Чебатков and Элли на маковом поле are transliterated to Latin; the latter performs under that stage name (real name Victoria Trunova, per vokrug.tv). No organizer name found on the page within budget. Refresh 2026-10-06: added MiSO, announced on the homepage (post dated 2026-10-05) as a cosplay-contest jury member of Comic Con Igromir; the other new tile (#27) is a cosplay-contest deadline promo, not a guest. Refresh 2026-10-08: the homepage news tiles now show a new Fun Mode card (band from Tver opening the Saturday, 5 December, of Comic Con Igromir), added; the Studiynaya Banda dubbing-actors tile is gone from two renders today (the tile list is a rolling news feed, no cancellation was announced), so that pick was removed."
 }

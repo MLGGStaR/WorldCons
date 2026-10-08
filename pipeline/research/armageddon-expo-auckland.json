@@ -5,9 +5,17 @@
   "url": "https://www.armageddonexpo.com/",
   "organizer": "Beyond Reality Media Premier Event Management",
   "status": "active",
-  "types": ["pop", "comics", "games", "cosplay"],
+  "types": [
+    "pop",
+    "comics",
+    "games",
+    "cosplay"
+  ],
   "blurb": "New Zealand's long-running pop-culture expo (since 1995) at the Auckland Showgrounds, with film/TV guests, comics, gaming, K-pop and cosplay.",
-  "cover": { "file": "pipeline/cache/extract/armageddon-expo-auckland.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/armageddon-expo-auckland.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2026-10-23",
@@ -24,42 +32,227 @@
         {
           "file": "pipeline/cache/extract/armageddon-guests.guests.json",
           "picks": [
-            [0, "Jared Padalecki", "", "actor"],
-            [1, "Felicia Day", "", "actor"],
-            [2, "Kim Rhodes", "", "actor"],
-            [3, "Briana Buckmaster", "", "actor"],
-            [4, "Matt Cohen", "", "actor"],
-            [5, "Alaina Huffman", "", "actor"],
-            [6, "Osric Chau", "", "actor"],
-            [7, "Samantha Smith", "", "actor"],
-            [8, "Giancarlo Esposito", "", "actor"],
-            [9, "Anson Mount", "", "actor"],
-            [10, "Christopher Judge", "", "actor"],
-            [11, "Charlie Bushnell", "", "actor"],
-            [12, "Kirsten Vangsness", "", "actor"],
-            [13, "Lucas Grabeel", "", "actor"],
-            [14, "Bart Johnson", "", "actor"],
-            [15, "Christopher Lambert", "", "actor"],
-            [16, "Sala Baker", "", "actor"],
-            [17, "Tom Lenk", "", "actor"],
-            [18, "Jenette Goldstein", "", "actor"],
-            [19, "Mark Rolston", "", "actor"],
-            [20, "Cynthia Scott", "", "actor"],
-            [21, "Daniel Kash", "", "actor"],
-            [22, "Carl Toop", "", "actor"],
-            [23, "Erika Ishii", "", "voice"],
-            [24, "Christine Marie Cabanos", "", "voice"],
-            [25, "Faye Mata", "", "voice"],
-            [26, "Kayleigh McKee", "", "voice"],
-            [27, "Kenny James", "", "voice"],
-            [28, "Carolina Ravassa", "", "voice"],
-            [29, "Lucie Pohl", "", "voice"],
-            [30, "Andrew Wincott", "", "voice"],
-            [31, "Jason Spisak", "", "voice"],
-            [32, "David Bateson", "", "voice"],
-            [33, "Martin Copping", "", "actor"],
-            [34, "Hilly Hindi", "", "cosplay"],
-            [35, "Arthur Suydam", "", "comics"]
+            [
+              0,
+              "Jared Padalecki",
+              "",
+              "actor"
+            ],
+            [
+              1,
+              "Felicia Day",
+              "",
+              "actor"
+            ],
+            [
+              2,
+              "Kim Rhodes",
+              "",
+              "actor"
+            ],
+            [
+              3,
+              "Briana Buckmaster",
+              "",
+              "actor"
+            ],
+            [
+              4,
+              "Matt Cohen",
+              "",
+              "actor"
+            ],
+            [
+              5,
+              "Alaina Huffman",
+              "",
+              "actor"
+            ],
+            [
+              6,
+              "Osric Chau",
+              "",
+              "actor"
+            ],
+            [
+              7,
+              "Samantha Smith",
+              "",
+              "actor"
+            ],
+            [
+              9,
+              "Anson Mount",
+              "",
+              "actor"
+            ],
+            [
+              10,
+              "Christopher Judge",
+              "",
+              "actor"
+            ],
+            [
+              11,
+              "Charlie Bushnell",
+              "",
+              "actor"
+            ],
+            [
+              12,
+              "Kirsten Vangsness",
+              "",
+              "actor"
+            ],
+            [
+              13,
+              "Lucas Grabeel",
+              "",
+              "actor"
+            ],
+            [
+              14,
+              "Bart Johnson",
+              "",
+              "actor"
+            ],
+            [
+              15,
+              "Christopher Lambert",
+              "",
+              "actor"
+            ],
+            [
+              16,
+              "Sala Baker",
+              "",
+              "actor"
+            ],
+            [
+              17,
+              "Tom Lenk",
+              "",
+              "actor"
+            ],
+            [
+              18,
+              "Jenette Goldstein",
+              "",
+              "actor"
+            ],
+            [
+              19,
+              "Mark Rolston",
+              "",
+              "actor"
+            ],
+            [
+              20,
+              "Cynthia Scott",
+              "",
+              "actor"
+            ],
+            [
+              21,
+              "Daniel Kash",
+              "",
+              "actor"
+            ],
+            [
+              22,
+              "Carl Toop",
+              "",
+              "actor"
+            ],
+            [
+              23,
+              "Erika Ishii",
+              "",
+              "voice"
+            ],
+            [
+              24,
+              "Christine Marie Cabanos",
+              "",
+              "voice"
+            ],
+            [
+              25,
+              "Faye Mata",
+              "",
+              "voice"
+            ],
+            [
+              26,
+              "Kayleigh McKee",
+              "",
+              "voice"
+            ],
+            [
+              27,
+              "Kenny James",
+              "",
+              "voice"
+            ],
+            [
+              28,
+              "Carolina Ravassa",
+              "",
+              "voice"
+            ],
+            [
+              29,
+              "Lucie Pohl",
+              "",
+              "voice"
+            ],
+            [
+              30,
+              "Andrew Wincott",
+              "",
+              "voice"
+            ],
+            [
+              31,
+              "Jason Spisak",
+              "",
+              "voice"
+            ],
+            [
+              32,
+              "David Bateson",
+              "",
+              "voice"
+            ],
+            [
+              33,
+              "Martin Copping",
+              "",
+              "actor"
+            ],
+            [
+              34,
+              "Hilly Hindi",
+              "",
+              "cosplay"
+            ],
+            [
+              35,
+              "Arthur Suydam",
+              "",
+              "comics"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/armageddon-guests-r20261008.guests.json",
+          "picks": [
+            [
+              8,
+              "Brandon Routh",
+              "",
+              "actor"
+            ]
           ]
         }
       ],
@@ -67,6 +260,6 @@
       "evidence": "Auckland Spring page: 'ARMAGEDDON LABOUR WEEKEND IS BACK again! - FRIDAY 23rd / SATURDAY 24th / SUNDAY 25th / MONDAY 26th OCTOBER 2026 AT THE AUCKLAND SHOWGROUNDS!'; corroborated by the site's 'Supernatural stars come to Armageddon Spring this October!' update naming 7 of the cast picked above."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Auckland also normally hosts a separate Autumn edition (most recently Anzac weekend, Apr 25-27, 2026 — already past); no 2027 Auckland Autumn date is announced on the site yet, so only the confirmed Spring edition is listed here. All 36 guest picks come from the shared /guests/ page; every card there is explicitly tagged 'Appearing in person at Auckland Spring' (none yet for Wellington or Christchurch) but shows no other bio text beyond the name, so known-for is left blank for all of them; cat is assigned from general knowledge of each named guest. No og/twitter image exists on the page and no edition-specific key art was found among the hero images, so the cover uses the Armageddon Expo brand logo. Armageddon also runs a Palmerston North edition (new addition, not in this research batch)."
+  "checked": "2026-10-08",
+  "notes": "Auckland also normally hosts a separate Autumn edition (most recently Anzac weekend, Apr 25-27, 2026 — already past); no 2027 Auckland Autumn date is announced on the site yet, so only the confirmed Spring edition is listed here. All 36 guest picks come from the shared /guests/ page; every card there is explicitly tagged 'Appearing in person at Auckland Spring' (none yet for Wellington or Christchurch) but shows no other bio text beyond the name, so known-for is left blank for all of them; cat is assigned from general knowledge of each named guest. No og/twitter image exists on the page and no edition-specific key art was found among the hero images, so the cover uses the Armageddon Expo brand logo. Armageddon also runs a Palmerston North edition (new addition, not in this research batch). 2026-10-08 refresh: added Brandon Routh (new card tagged 'Appearing in person at Auckland Spring') and removed Giancarlo Esposito, whose card is gone from the guests page in today's render."
 }

@@ -44,10 +44,21 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/galaxycon-des-moines-r20261007-r20261008.guests.json",
+          "picks": [
+            [
+              2,
+              "Brandon Rogers",
+              "",
+              "voice"
+            ]
+          ]
         }
       ]
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner. VERIFY-08 recheck (2026-10-05): stale — GalaxyCon Des Moines 2026 just ran Sept 11-13, 2026 (WebSearch), the live guests page's own 'Cancellations' section names the exact 9 people this file had picked as 'announced' (Brandon Rogers, Lou Diamond Phillips, Marisha Ray, Liam O'Brien, Sam Riegel, Matthew Mercer, Kerry Gammill, Jim Starlin, Kevin Smith), nearly every other photo is filename-tagged 2026-GC- (that show's program guide), and the only 2027-GC- tagged card sits in a 'Coming Soon' placeholder section — no guest has positive evidence of being booked for Sept 2027, so cleared to none-yet. 2026-10-07 refresh: the guests page (headed GalaxyCon Des Moines September 10-12, 2027) now carries a new Ross Marquand card whose image is tagged 2027-GC- alongside Nolan North's 2027-GC- card, so those two are picked as announced for 2027; every other photo is tagged 2026-GC- (last show) and stays excluded, as does the Cancellations section. Cards show only name and days, so known-for is blank."
+  "checked": "2026-10-08",
+  "notes": "Two cards (#0 'Celebrities Travis Willingham' and #1 'Voice Actors Travis Willingham', one per section he's cross-listed under) both point to the same image file, 2027-GC-NolanNorth-...jpg — a genuine photo mix-up on GalaxyCon's own page (confirmed from the raw img URL, not a truncated-alt false alarm), so rather than show Nolan North's photo under Travis Willingham's name he's filed as a textOnlyGuest. #6 'Literary & Industry Coming Soon' and #23 'Tattoo Artists Coming Soon' are category placeholders, and #24-25 (JSA, Agents of Slabs) are Authentication vendor services, not individual guests — all excluded. Known for is left blank throughout (cards show only name + attendance days). Cover uses the Des Moines wordmark logo; the homepage's other images are the shared 11-city promo, a generic galaxy background, decorative props, fan/after-dark stock photos, and a ticket-sale banner. VERIFY-08 recheck (2026-10-05): stale — GalaxyCon Des Moines 2026 just ran Sept 11-13, 2026 (WebSearch), the live guests page's own 'Cancellations' section names the exact 9 people this file had picked as 'announced' (Brandon Rogers, Lou Diamond Phillips, Marisha Ray, Liam O'Brien, Sam Riegel, Matthew Mercer, Kerry Gammill, Jim Starlin, Kevin Smith), nearly every other photo is filename-tagged 2026-GC- (that show's program guide), and the only 2027-GC- tagged card sits in a 'Coming Soon' placeholder section — no guest has positive evidence of being booked for Sept 2027, so cleared to none-yet. 2026-10-07 refresh: the guests page (headed GalaxyCon Des Moines September 10-12, 2027) now carries a new Ross Marquand card whose image is tagged 2027-GC- alongside Nolan North's 2027-GC- card, so those two are picked as announced for 2027; every other photo is tagged 2026-GC- (last show) and stays excluded, as does the Cancellations section. Cards show only name and days, so known-for is blank. 2026-10-08 refresh: added Brandon Rogers, a new Celebrities card whose image is tagged 2027-GC- (the 2026-tagged copy in the Cancellations section stays excluded); Nolan North and Ross Marquand are still on the page."
 }

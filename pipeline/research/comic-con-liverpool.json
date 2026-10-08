@@ -97,12 +97,6 @@
               "actor"
             ],
             [
-              15,
-              "Kit Harington",
-              "Game of Thrones (Jon Snow)",
-              "actor"
-            ],
-            [
               16,
               "John Bradley",
               "Game of Thrones (Samwell Tarly)",
@@ -384,6 +378,6 @@
       "evidence": "Homepage: '10th-11th October, 2026 Liverpool Experience Campus'; JSON-LD on the page is stale (dated 2021) and was not used."
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Guest photos are named by filename slug with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles. The lineup is themed around several reunion blocks (a large Game of Thrones group, Stranger Things, Back to the Future, Dexter, Sons of Anarchy-adjacent names also seen on Comic Con Scotland's lineup) run by the same promoter. Four candidate images used only a bare first name in the filename ('Robin', 'Darren', 'Josh' and one between the Back to the Future guests, 'Peter') with no surrounding context strong enough to identify a specific person, so they were left unpicked rather than guessed. Three other bare-first-name images ('Isaac', 'Ellie', 'Eugene') sit in the middle of the Game of Thrones block immediately between other confirmed GoT cast photos, matching Isaac Hempstead-Wright, Ellie Kendrick and Eugene Simon closely enough (by role and by being the obvious GoT cast member of that first name) to pick with reasonable confidence; likewise 'Pearl' sits directly in a Doctor Who block (Eccleston/Tate/Coleman) and matches Pearl Mackie. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright and the seed note. 2026-10-06 refresh: added Spencer Wilding (new photo card named by its file name on the same guest page in today's render); no picked guest was missing. 2026-10-07 refresh: unchanged; the two flagged cards (#43, #46) are the already-picked Rick Hoffman and Jesse Metcalfe, who are still on the page in today's render."
+  "checked": "2026-10-08",
+  "notes": "Guest photos are named by filename slug with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles. The lineup is themed around several reunion blocks (a large Game of Thrones group, Stranger Things, Back to the Future, Dexter, Sons of Anarchy-adjacent names also seen on Comic Con Scotland's lineup) run by the same promoter. Four candidate images used only a bare first name in the filename ('Robin', 'Darren', 'Josh' and one between the Back to the Future guests, 'Peter') with no surrounding context strong enough to identify a specific person, so they were left unpicked rather than guessed. Three other bare-first-name images ('Isaac', 'Ellie', 'Eugene') sit in the middle of the Game of Thrones block immediately between other confirmed GoT cast photos, matching Isaac Hempstead-Wright, Ellie Kendrick and Eugene Simon closely enough (by role and by being the obvious GoT cast member of that first name) to pick with reasonable confidence; likewise 'Pearl' sits directly in a Doctor Who block (Eccleston/Tate/Coleman) and matches Pearl Mackie. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright and the seed note. 2026-10-06 refresh: added Spencer Wilding (new photo card named by its file name on the same guest page in today's render); no picked guest was missing. 2026-10-07 refresh: unchanged; the two flagged cards (#43, #46) are the already-picked Rick Hoffman and Jesse Metcalfe, who are still on the page in today's render. 2026-10-08 refresh: removed Kit Harington, whose card is no longer on the official guests page in today's render (Jesse Metcalfe is still there as 'jesse-metcalf.png'); no new cards."
 }
