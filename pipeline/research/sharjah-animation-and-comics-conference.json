@@ -151,24 +151,6 @@
               "Alex Rodrigues",
               "Head of Creative AI, Saatchi & Saatchi",
               "other"
-            ],
-            [
-              23,
-              "Mounia Aram",
-              "Founder & CEO, Mounia Aram Company",
-              "animation"
-            ],
-            [
-              24,
-              "Minasie Terefe",
-              "Director, Behagerlij Studio",
-              "animation"
-            ],
-            [
-              25,
-              "Abdulrahman Khedr",
-              "Co-Founder, giraffics studio",
-              "animation"
             ]
           ]
         },
@@ -193,12 +175,35 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261006-r20261011.guests.json",
+          "picks": [
+            [
+              8,
+              "Theodore Salisbury",
+              "Hair, makeup & prosthetics designer / SFX artist",
+              "other"
+            ],
+            [
+              10,
+              "Guy Gilchrist",
+              "Cartoonist / Illustrator / Author",
+              "comics"
+            ],
+            [
+              26,
+              "Kelly Warnell",
+              "Founder & CEO, Screen Masters International",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: '22 – 25 October 2026' at Aljada, Sharjah; JSON-LD Event 2026-10-22 to 2026-10-25"
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page."
+  "checked": "2026-10-11",
+  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page. 2026-10-11 refresh: added Theodore Salisbury, Guy Gilchrist and Kelly Warnell (new speaker cards #8, #10, #26 on the speakers page) and removed Mounia Aram, Minasie Terefe and Abdulrahman Khedr, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them)."
 }

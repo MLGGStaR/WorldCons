@@ -98,12 +98,6 @@
               "other"
             ],
             [
-              13,
-              "April Baker",
-              "Mixed-media artist",
-              "other"
-            ],
-            [
               14,
               "Ariel Burgess",
               "Digital painter",
@@ -372,12 +366,6 @@
               "Lauren Brown",
               "Illustrator at Wizards of the Coast",
               "other"
-            ],
-            [
-              59,
-              "Lily Luchesi",
-              "Paranormal Detectives Series",
-              "author"
             ],
             [
               60,
@@ -662,12 +650,23 @@
               "author"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/multiverse-r20261011.guests.json",
+          "picks": [
+            [
+              97,
+              "Tony Sarrecchia",
+              "Noir thrillers, Southern Gothic horror writer",
+              "author"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'Join us October 16-18, 2026 at the Hilton Peachtree City Conference Center'; guest page section header '2026 GUESTS OF HONOR'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "This is a literary/fan-run SFF convention with a very large panelist roster (103 guests plus 2 Guests of Honor, Martha Wells and Jesse Holland). Guest-card bios had no photo alt text, so names were read from each image's filename (which encodes 'First Last 2026.png') and cross-checked against the start of each bio; a few people are credited under a pen name or handle in the bio (e.g. Carman / 'Carmanda', Rob Gilmore writing as 'Rob Grimoire', Tiffany Faulkner / 'N3rdyTeacher') and the real name from the bio text was used per the naming rule. Most guests are small-press/indie novelists; category is 'author' unless the bio clearly emphasizes visual art, game design, cosplay, comics or media work instead. Several very short bios (e.g. Nate Walton, J.E. Pittman) gave no concrete title to cite, so known-for is left blank rather than guessed. Bios were truncated by the extractor at roughly 250 characters, so facts beyond that point were not used."
+  "checked": "2026-10-11",
+  "notes": "This is a literary/fan-run SFF convention with a very large panelist roster (103 guests plus 2 Guests of Honor, Martha Wells and Jesse Holland). Guest-card bios had no photo alt text, so names were read from each image's filename (which encodes 'First Last 2026.png') and cross-checked against the start of each bio; a few people are credited under a pen name or handle in the bio (e.g. Carman / 'Carmanda', Rob Gilmore writing as 'Rob Grimoire', Tiffany Faulkner / 'N3rdyTeacher') and the real name from the bio text was used per the naming rule. Most guests are small-press/indie novelists; category is 'author' unless the bio clearly emphasizes visual art, game design, cosplay, comics or media work instead. Several very short bios (e.g. Nate Walton, J.E. Pittman) gave no concrete title to cite, so known-for is left blank rather than guessed. Bios were truncated by the extractor at roughly 250 characters, so facts beyond that point were not used. 2026-10-11 refresh: added Tony Sarrecchia (new guest card #97 on the guests page) and removed April Baker and Lily Luchesi, whose bios are absent from today's render; the other flagged card #53 is the already-picked Kelley M. Frank (numbers shifted)."
 }

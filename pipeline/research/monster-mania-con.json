@@ -45,6 +45,13 @@
             [28, "Jonathan Breck", "", "actor"],
             [29, "Brian Pekinas", "", "other"]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/monster-mania-con-r20261011.guests.json",
+          "picks": [
+            [14, "Linda Blair", "", "actor"],
+            [15, "Melissa Barrera", "", "actor"]
+          ]
         }
       ],
       "textOnlyGuests": [],
@@ -76,6 +83,6 @@
       "evidence": "Homepage: 'MONSTER-MANIA 69 NOV. 20 -22, 2026 OAKS, PA'; guest page repeats 'NOVEMBER 20 – 22, 2026' with venue block 'THE GREATER PHILADELPHIA EXPO CENTER 100 Station Avenue Oaks, Pennsylvania 19456'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Monster-Mania is one continuously-numbered convention series (MMC 67, 68, 69…) that tours a small set of Mid-Atlantic venues rather than running separate permanent per-city brands, so both upcoming numbered shows are recorded as editions of this one file; MMC 67 (Cherry Hill, NJ — the batch's suggested place — ran Aug 14-16, 2026, already before the research window). Neither guest page's image carousel exposes any caption text/alt in the rendered DOM (every candidate came back with blank text), so every guest name here was read from its photo's own filename instead (e.g. 'Cassandra-Peterson_2026.jpg', 'Matthew-Lillard_2026.jpg'), which is why Known For is left blank throughout per the name-only-card rule; categories are assigned from general knowledge of these public figures (mostly Halloween/Terrifier/Scream-franchise actors). Two entries are lower-confidence: 'Scott Jackson' (filename 'Scott-Jackson-Buz-2025.jpg' has an unexplained extra '-Buz-' token that was dropped) and 'Brian Pekinas' (role unknown). Venue names are my best resolution of the on-page hotel/venue address blocks (Hilton's Baltimore Inner Harbor property at 401 W. Pratt St.; the Greater Philadelphia Expo Center at 100 Station Avenue, Oaks, PA)."
+  "checked": "2026-10-11",
+  "notes": "Monster-Mania is one continuously-numbered convention series (MMC 67, 68, 69…) that tours a small set of Mid-Atlantic venues rather than running separate permanent per-city brands, so both upcoming numbered shows are recorded as editions of this one file; MMC 67 (Cherry Hill, NJ — the batch's suggested place — ran Aug 14-16, 2026, already before the research window). Neither guest page's image carousel exposes any caption text/alt in the rendered DOM (every candidate came back with blank text), so every guest name here was read from its photo's own filename instead (e.g. 'Cassandra-Peterson_2026.jpg', 'Matthew-Lillard_2026.jpg'), which is why Known For is left blank throughout per the name-only-card rule; categories are assigned from general knowledge of these public figures (mostly Halloween/Terrifier/Scream-franchise actors). Two entries are lower-confidence: 'Scott Jackson' (filename 'Scott-Jackson-Buz-2025.jpg' has an unexplained extra '-Buz-' token that was dropped) and 'Brian Pekinas' (role unknown). Venue names are my best resolution of the on-page hotel/venue address blocks (Hilton's Baltimore Inner Harbor property at 401 W. Pratt St.; the Greater Philadelphia Expo Center at 100 Station Avenue, Oaks, PA). 2026-10-11 refresh: added Linda Blair and Melissa Barrera (new guest banners on the MMC 68 page, names printed on the banners); skipped #3 (photo-ops ad) and #33 (Eugene Clark, a 2021 banner of an actor who died in 2018, not presented as a current guest); no picked guest was missing today."
 }

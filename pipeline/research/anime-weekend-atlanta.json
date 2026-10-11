@@ -139,12 +139,47 @@
               "music"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-weekend-atlanta-r20261011.guests.json",
+          "picks": [
+            [
+              9,
+              "Chris Edgerly",
+              "",
+              "voice"
+            ],
+            [
+              10,
+              "Crystal Lee",
+              "",
+              "voice"
+            ],
+            [
+              14,
+              "Imari Williams",
+              "",
+              "voice"
+            ],
+            [
+              17,
+              "Ricco Fajardo",
+              "",
+              "voice"
+            ],
+            [
+              19,
+              "Tommy Gofton",
+              "",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'Anime Weekend Atlanta November 19-22, 2026 GWCC Building C'"
     }
   ],
-  "checked": "2026-10-08",
-  "notes": "Guest cards gave only names (repeated twice, no bio text), so categories/known-for were confirmed via WebSearch against animecons.com/fancons.com guest bios and general knowledge: Abigail Blythe's bio snippet was truncated mid-sentence ('best known for voicing the axe...'), so her known-for is left blank rather than guessed; from20's category is inferred from being grouped with the other music-guest cards (Aonyan, Berry, Hello Gloom) and could not be independently confirmed. Berry, Hello Gloom and Zaq are stylised in all-caps on the card/in their own branding; normalised to title case per the naming rule. No og/twitter image on the homepage; cover uses the current (2026-05) wide homepage banner graphic. 2026-10-08 refresh: added Burnout Syndromes, a new card under 2026 Featured Guests (name-only card; band description from general knowledge)."
+  "checked": "2026-10-11",
+  "notes": "Guest cards gave only names (repeated twice, no bio text), so categories/known-for were confirmed via WebSearch against animecons.com/fancons.com guest bios and general knowledge: Abigail Blythe's bio snippet was truncated mid-sentence ('best known for voicing the axe...'), so her known-for is left blank rather than guessed; from20's category is inferred from being grouped with the other music-guest cards (Aonyan, Berry, Hello Gloom) and could not be independently confirmed. Berry, Hello Gloom and Zaq are stylised in all-caps on the card/in their own branding; normalised to title case per the naming rule. No og/twitter image on the homepage; cover uses the current (2026-05) wide homepage banner graphic. 2026-10-08 refresh: added Burnout Syndromes, a new card under 2026 Featured Guests (name-only card; band description from general knowledge). 2026-10-11 refresh: added Chris Edgerly, Crystal Lee, Imari Williams, Ricco Fajardo and Tommy Gofton, new name-only cards under 2026 Featured Guests; categories from general knowledge (Tommy Gofton unconfirmed so other), known-for left blank; nobody picked was missing."
 }

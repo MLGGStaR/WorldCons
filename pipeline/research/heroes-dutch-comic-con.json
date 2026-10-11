@@ -67,12 +67,29 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/heroes-dutch-comic-con-r20261011.guests.json",
+          "picks": [
+            [
+              7,
+              "Nola Klop",
+              "Dutch voice of Pomni in The Amazing Digital Circus",
+              "voice"
+            ],
+            [
+              8,
+              "Elsie Lovelock",
+              "Voice of Uzi in Murder Drones",
+              "voice"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Page title: 'Heroes Dutch Comic Con Winter - November 21 & 22, 2026'; page text: 'Mark your calendars for November 21 & 22, 2026'."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md. Refresh 2026-10-06: added Kenneth Choi, newly listed under OUR LINE-UP on the special-guests page (card: best known as Captain and firefighter Howard 'Chimney' Han in the hit series)."
+  "checked": "2026-10-11",
+  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md. Refresh 2026-10-06: added Kenneth Choi, newly listed under OUR LINE-UP on the special-guests page (card: best known as Captain and firefighter Howard 'Chimney' Han in the hit series). Refresh 2026-10-11: added Nola Klop and Elsie Lovelock, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026); Nola Klop's card says she lent her Dutch voice to Pomni, Elsie Lovelock's that she voices Uzi."
 }

@@ -486,12 +486,6 @@
               "gaming"
             ],
             [
-              77,
-              "Craig Van Ness",
-              "",
-              "gaming"
-            ],
-            [
               78,
               "John Watson",
               "",
@@ -534,6 +528,6 @@
       "evidence": "Homepage: 'October 15th - 18th, 2026 Alliant Energy Center, Exhibition Hall Madison, WI'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Special Guests page lists 83 names as plain photo cards with no bio/known-for text and no per-guest link, so known-for is left \"\" for all per the name-only-card rule. cat is set from well-established industry knowledge for guests I could confidently identify (mostly tabletop RPG designers/writers from WotC, Paizo, Chaosium, Green Ronin, Goodman Games, TSR alumni, etc., plus 2 comics creators and 1 musician); every other name defaults to \"other\" rather than guessing. Re-check gameholecon.com/guests directly for bios if richer known-for text is wanted. Organizer entity not found on the site."
+  "checked": "2026-10-11",
+  "notes": "Special Guests page lists 83 names as plain photo cards with no bio/known-for text and no per-guest link, so known-for is left \"\" for all per the name-only-card rule. cat is set from well-established industry knowledge for guests I could confidently identify (mostly tabletop RPG designers/writers from WotC, Paizo, Chaosium, Green Ronin, Goodman Games, TSR alumni, etc., plus 2 comics creators and 1 musician); every other name defaults to \"other\" rather than guessing. Re-check gameholecon.com/guests directly for bios if richer known-for text is wanted. Organizer entity not found on the site. 2026-10-11 refresh: removed Craig Van Ness, who is absent from today's render of the Special Guests page (82 names listed, alphabetical full list); no new cards."
 }
