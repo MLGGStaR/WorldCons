@@ -115,42 +115,6 @@
               "Olfa Sakakibara",
               "Producer, Toei Animation Europe",
               "animation"
-            ],
-            [
-              17,
-              "Abdullah Moatasem",
-              "Chief Creative Officer, Sinai Studios",
-              "animation"
-            ],
-            [
-              18,
-              "Ashish Thapar",
-              "CEO, HiTech Animation Studios",
-              "animation"
-            ],
-            [
-              19,
-              "Ammar Sabban",
-              "Director of Attractions Creation, SEVEN",
-              "other"
-            ],
-            [
-              20,
-              "Saud Boksmati",
-              "Chief Creative Officer, ForgeVision Technologies",
-              "animation"
-            ],
-            [
-              21,
-              "Aya Hammad",
-              "Marketing & PR Manager, Warner Bros. Discovery",
-              "other"
-            ],
-            [
-              22,
-              "Alex Rodrigues",
-              "Head of Creative AI, Saatchi & Saatchi",
-              "other"
             ]
           ]
         },
@@ -198,12 +162,53 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261014.guests.json",
+          "picks": [
+            [
+              7,
+              "Pietro Pinetti",
+              "CEO, Studio Bozzetto",
+              "animation"
+            ],
+            [
+              13,
+              "Chuck Patton",
+              "Comic book artist / animation director",
+              "comics"
+            ],
+            [
+              16,
+              "Keith Fay",
+              "Co-founder, Weirdbunch Entertainment",
+              "animation"
+            ],
+            [
+              17,
+              "Byun Seung-min",
+              "CEO, Climax Studio",
+              "animation"
+            ],
+            [
+              23,
+              "Lee Bradley",
+              "Comic book illustrator",
+              "comics"
+            ],
+            [
+              24,
+              "Hal Laren",
+              "Comic artist / concept designer, Reaper Comics",
+              "comics"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: '22 – 25 October 2026' at Aljada, Sharjah; JSON-LD Event 2026-10-22 to 2026-10-25"
     }
   ],
-  "checked": "2026-10-11",
-  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page. 2026-10-11 refresh: added Theodore Salisbury, Guy Gilchrist and Kelly Warnell (new speaker cards #8, #10, #26 on the speakers page) and removed Mounia Aram, Minasie Terefe and Abdulrahman Khedr, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them)."
+  "checked": "2026-10-14",
+  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page. 2026-10-11 refresh: added Theodore Salisbury, Guy Gilchrist and Kelly Warnell (new speaker cards #8, #10, #26 on the speakers page) and removed Mounia Aram, Minasie Terefe and Abdulrahman Khedr, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-14 refresh: added Pietro Pinetti, Chuck Patton, Keith Fay, Byun Seung-min and Hal Laren (new speaker cards #7, #13, #16, #17, #24) and Lee Bradley (back on the speakers page as #23); removed Abdullah Moatasem, Ashish Thapar, Ammar Sabban, Saud Boksmati, Aya Hammad and Alex Rodrigues, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them)."
 }

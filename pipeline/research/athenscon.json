@@ -74,12 +74,23 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/athenscon-r20261014.guests.json",
+          "picks": [
+            [
+              4,
+              "Elena Casagrande",
+              "Italian comics artist",
+              "comics"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Ticket page (tickets2026) lists day passes for 'Παρασκευή 04 Δεκεμβρίου 2026', 'Σάββατο 05 Δεκεμβρίου 2026' and 'Κυριακή 06 Δεκεμβρίου 2026' (Fri-Sun, 4-6 Dec 2026), entry hours '10:30πμ μέχρι τις 10:00μμ' at 'το στάδιο Tae Kwon Do'."
     }
   ],
-  "checked": "2026-10-11",
-  "notes": "The homepage's own news feed is still full of '@AthensCon2025' posts, which is misleading; the actual next edition's dates only appear on the /tickets2026/ page (quoted in evidence), confirming Fri-Sun 4-6 Dec 2026 at the Taekwondo Arena in the Faliro Olympic Complex (within the greater Athens area). The /category/2026/ guest archive currently lists exactly 4 guests (Carlo Barberi, Tricia Helfer, Kamui Cosplay, Fabian Nicieza) with no 'load more'/pagination; each card's bio text is truncated by the site's own design before naming specific shows/works, so 'known for' uses only the words visible on the card (e.g. Tricia Helfer's card says 'Canadian actress and former international model' without naming Battlestar Galactica, so that was not added). Types were adjusted from the discovery batch (comics/toys/games) to pop/comics/cosplay/games based on what the site actually shows: film/TV actor guests (Tricia Helfer, and 2025's Matt Ryan/Casper Van Dien), a cosplay championship and parade, and Yu-Gi-Oh/Star Wars: Unlimited tournaments; no toy-collectibles content was found, so 'toys' was dropped. Organizer inferred from the ticketing platform domain used site-wide, tickets.comicworld.gr ('Comic World') — not independently confirmed elsewhere. Refresh 2026-10-11: the /category/2026/ guest archive now lists six guests; added Enrico Faccini and Steve Epting (cards #4, #5 of today's render)."
+  "checked": "2026-10-14",
+  "notes": "The homepage's own news feed is still full of '@AthensCon2025' posts, which is misleading; the actual next edition's dates only appear on the /tickets2026/ page (quoted in evidence), confirming Fri-Sun 4-6 Dec 2026 at the Taekwondo Arena in the Faliro Olympic Complex (within the greater Athens area). The /category/2026/ guest archive currently lists exactly 4 guests (Carlo Barberi, Tricia Helfer, Kamui Cosplay, Fabian Nicieza) with no 'load more'/pagination; each card's bio text is truncated by the site's own design before naming specific shows/works, so 'known for' uses only the words visible on the card (e.g. Tricia Helfer's card says 'Canadian actress and former international model' without naming Battlestar Galactica, so that was not added). Types were adjusted from the discovery batch (comics/toys/games) to pop/comics/cosplay/games based on what the site actually shows: film/TV actor guests (Tricia Helfer, and 2025's Matt Ryan/Casper Van Dien), a cosplay championship and parade, and Yu-Gi-Oh/Star Wars: Unlimited tournaments; no toy-collectibles content was found, so 'toys' was dropped. Organizer inferred from the ticketing platform domain used site-wide, tickets.comicworld.gr ('Comic World') — not independently confirmed elsewhere. Refresh 2026-10-11: the /category/2026/ guest archive now lists six guests; added Enrico Faccini and Steve Epting (cards #4, #5 of today's render). Refresh 2026-10-14: the /category/2026/ guest archive now lists seven guests (all earlier picks still present); added Elena Casagrande (card #4 of today's render)."
 }
