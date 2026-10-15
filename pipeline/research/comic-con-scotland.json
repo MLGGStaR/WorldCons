@@ -229,12 +229,6 @@
               "voice"
             ],
             [
-              37,
-              "Steve Guttenberg",
-              "Police Academy",
-              "actor"
-            ],
-            [
               38,
               "Lewis Tan",
               "Mortal Kombat, Wu Assassins",
@@ -283,6 +277,6 @@
       "evidence": "Homepage: '24-25th Oct, 2026 Royal Highland Centre'; JSON-LD on the page is stale (dated 2020) and was not used."
     }
   ],
-  "checked": "2026-10-14",
-  "notes": "Guest photos are named by filename slug (e.g. 'jensen-ackles.png') with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles rather than copied from the card. One correction: the file 'davis-hayter.png' (#28) does not match any known public figure, but David Hayter (voice of Solid Snake, X-Men screenwriter) is a very well-known convention guest and an obvious one-letter site typo, so he was picked as David Hayter. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright. 2026-10-07 refresh: removed Lori Petty, whose card is absent from today's render and from a second fresh render of the guests page (the page is a fixed list, not a rotating selection); no new cards. 2026-10-11 refresh: no change; the only flagged new card (#39, manu-bennett.png) is Manu Bennett, already picked, and nobody picked was missing from today's render. 2026-10-14 refresh: removed David Labrava, whose card is absent from today's render and from a second fresh render of the guests page (a fixed list, not a rotating selection); no new cards."
+  "checked": "2026-10-15",
+  "notes": "Guest photos are named by filename slug (e.g. 'jensen-ackles.png') with no on-page bio text beyond autograph/photo prices, so Known-for was supplied from general knowledge of each person's famous roles rather than copied from the card. One correction: the file 'davis-hayter.png' (#28) does not match any known public figure, but David Hayter (voice of Solid Snake, X-Men screenwriter) is a very well-known convention guest and an obvious one-letter site typo, so he was picked as David Hayter. Organizer Monopoly Events confirmed by the shared Wix template/footer copyright. 2026-10-07 refresh: removed Lori Petty, whose card is absent from today's render and from a second fresh render of the guests page (the page is a fixed list, not a rotating selection); no new cards. 2026-10-11 refresh: no change; the only flagged new card (#39, manu-bennett.png) is Manu Bennett, already picked, and nobody picked was missing from today's render. 2026-10-14 refresh: removed David Labrava, whose card is absent from today's render and from a second fresh render of the guests page (a fixed list, not a rotating selection); no new cards. 2026-10-15 refresh: removed Steve Guttenberg, whose card is absent from today's render and from a second fresh render of the guests page (a fixed list, not a rotating selection); no new cards."
 }

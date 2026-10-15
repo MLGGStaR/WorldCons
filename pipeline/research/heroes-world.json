@@ -5,9 +5,17 @@
   "url": "https://www.heroes-world.be/",
   "organizer": "Easyfairs",
   "status": "active",
-  "types": ["comics", "pop", "anime", "games"],
+  "types": [
+    "comics",
+    "pop",
+    "anime",
+    "games"
+  ],
   "blurb": "Belgium's merged autumn mega-con — Heroes Comic Con, GameForce and Made in Asia combined — with comics, film/TV, anime and gaming guests at Brussels Expo.",
-  "cover": { "file": "pipeline/cache/extract/heroes-world.home.json", "key": "og" },
+  "cover": {
+    "file": "pipeline/cache/extract/heroes-world.home.json",
+    "key": "og"
+  },
   "editions": [
     {
       "start": "2026-10-17",
@@ -24,62 +32,292 @@
         {
           "file": "pipeline/cache/extract/heroes-world.guests.json",
           "picks": [
-            [13, "Garth Ennis", "The Boys, Preacher writer", "comics"],
-            [14, "Danny Khazem", "Marvel editor (Spider-Man)", "comics"],
-            [15, "Jim Cheung", "Infinity, Young Avengers artist", "comics"],
-            [16, "Torunn Gronbekk", "Catwoman, Venom writer", "comics"],
-            [17, "Brittany Holzherr", "DC senior editor", "comics"],
-            [18, "Phil Noto", "Star Wars, Black Widow artist", "comics"],
-            [19, "Ron Marz", "Green Lantern writer", "comics"],
-            [20, "Michael Lark", "Lazarus, Daredevil artist", "comics"],
-            [21, "Dav", "Mickey & Le Roi des Pirates", "comics"],
-            [22, "Jeroen De Coninck", "The Smurfs artist", "comics"],
-            [23, "Laurent Cagniat", "The Smurfs artist", "comics"],
-            [24, "Steven Dupré", "De Pilaren van de Aarde artist", "comics"],
-            [25, "Wim Swerts", "Samson & Gert artist", "comics"],
-            [26, "ZeMiaL", "Shonen Avengers artist", "comics"],
-            [43, "Odoriko", "J-pop/K-pop dance group", "music"],
-            [52, "Gastronogeek", "Geek-culture cookbook author", "author"],
-            [65, "Ralph Fiennes", "Voldemort in Harry Potter", "actor"],
-            [66, "Michael Weatherly", "NCIS (Tony DiNozzo)", "actor"],
-            [67, "James Lafferty", "", "actor"],
-            [68, "Cote de Pablo", "NCIS (Ziva David)", "actor"],
-            [69, "Jennifer Svedberg-Yen", "Lead writer, Clair Obscur: Expedition 33", "gaming"],
-            [70, "Kirsty Rider", "Lune in Clair Obscur: Expedition 33", "voice"],
-            [71, "Rich Keeble", "Monoco in Clair Obscur: Expedition 33", "voice"]
+            [
+              13,
+              "Garth Ennis",
+              "The Boys, Preacher writer",
+              "comics"
+            ],
+            [
+              14,
+              "Danny Khazem",
+              "Marvel editor (Spider-Man)",
+              "comics"
+            ],
+            [
+              15,
+              "Jim Cheung",
+              "Infinity, Young Avengers artist",
+              "comics"
+            ],
+            [
+              16,
+              "Torunn Gronbekk",
+              "Catwoman, Venom writer",
+              "comics"
+            ],
+            [
+              17,
+              "Brittany Holzherr",
+              "DC senior editor",
+              "comics"
+            ],
+            [
+              18,
+              "Phil Noto",
+              "Star Wars, Black Widow artist",
+              "comics"
+            ],
+            [
+              19,
+              "Ron Marz",
+              "Green Lantern writer",
+              "comics"
+            ],
+            [
+              20,
+              "Michael Lark",
+              "Lazarus, Daredevil artist",
+              "comics"
+            ],
+            [
+              21,
+              "Dav",
+              "Mickey & Le Roi des Pirates",
+              "comics"
+            ],
+            [
+              22,
+              "Jeroen De Coninck",
+              "The Smurfs artist",
+              "comics"
+            ],
+            [
+              23,
+              "Laurent Cagniat",
+              "The Smurfs artist",
+              "comics"
+            ],
+            [
+              24,
+              "Steven Dupré",
+              "De Pilaren van de Aarde artist",
+              "comics"
+            ],
+            [
+              25,
+              "Wim Swerts",
+              "Samson & Gert artist",
+              "comics"
+            ],
+            [
+              26,
+              "ZeMiaL",
+              "Shonen Avengers artist",
+              "comics"
+            ],
+            [
+              43,
+              "Odoriko",
+              "J-pop/K-pop dance group",
+              "music"
+            ],
+            [
+              65,
+              "Ralph Fiennes",
+              "Voldemort in Harry Potter",
+              "actor"
+            ],
+            [
+              66,
+              "Michael Weatherly",
+              "NCIS (Tony DiNozzo)",
+              "actor"
+            ],
+            [
+              67,
+              "James Lafferty",
+              "",
+              "actor"
+            ],
+            [
+              68,
+              "Cote de Pablo",
+              "NCIS (Ziva David)",
+              "actor"
+            ],
+            [
+              69,
+              "Jennifer Svedberg-Yen",
+              "Lead writer, Clair Obscur: Expedition 33",
+              "gaming"
+            ],
+            [
+              70,
+              "Kirsty Rider",
+              "Lune in Clair Obscur: Expedition 33",
+              "voice"
+            ],
+            [
+              71,
+              "Rich Keeble",
+              "Monoco in Clair Obscur: Expedition 33",
+              "voice"
+            ]
           ]
         },
         {
           "file": "pipeline/cache/extract/heroes-world-2.guests.json",
           "picks": [
-            [3, "Io Sakisaka", "Shojo mangaka, Guest of Honour", "animation"],
-            [4, "Hiromi Fujiwara", "Kimono culture demonstrator", "other"],
-            [6, "Mydresscode", "", "cosplay"],
-            [7, "Univer23", "", "cosplay"],
-            [8, "Eiren Nishikawa", "", "other"],
-            [9, "Donald Reignoux", "", "other"],
-            [10, "Bastien Bourlé", "", "other"],
-            [11, "Jean-Pierre Michael", "", "other"],
-            [19, "Louis-san", "", "cosplay"],
-            [20, "Niti Blake", "", "other"],
-            [21, "Sonya Lwu", "", "other"],
-            [22, "Kirapika", "", "cosplay"],
-            [23, "Jacob", "", "other"],
-            [24, "Conjureuse", "", "cosplay"],
-            [25, "Tero", "", "cosplay"],
-            [26, "Kyoshi et Elodie", "", "cosplay"],
-            [27, "7 Deadly Cheeses", "", "cosplay"],
-            [28, "Obscuria", "", "cosplay"],
-            [29, "Vercin", "", "cosplay"],
-            [30, "Orochi Jidai", "", "cosplay"],
-            [31, "Otoon", "", "cosplay"],
-            [32, "Hokaie", "", "cosplay"]
+            [
+              3,
+              "Io Sakisaka",
+              "Shojo mangaka, Guest of Honour",
+              "animation"
+            ],
+            [
+              4,
+              "Hiromi Fujiwara",
+              "Kimono culture demonstrator",
+              "other"
+            ],
+            [
+              6,
+              "Mydresscode",
+              "",
+              "cosplay"
+            ],
+            [
+              7,
+              "Univer23",
+              "",
+              "cosplay"
+            ],
+            [
+              8,
+              "Eiren Nishikawa",
+              "",
+              "other"
+            ],
+            [
+              9,
+              "Donald Reignoux",
+              "",
+              "other"
+            ],
+            [
+              10,
+              "Bastien Bourlé",
+              "",
+              "other"
+            ],
+            [
+              11,
+              "Jean-Pierre Michael",
+              "",
+              "other"
+            ],
+            [
+              20,
+              "Niti Blake",
+              "",
+              "other"
+            ],
+            [
+              21,
+              "Sonya Lwu",
+              "",
+              "other"
+            ],
+            [
+              22,
+              "Kirapika",
+              "",
+              "cosplay"
+            ],
+            [
+              23,
+              "Jacob",
+              "",
+              "other"
+            ],
+            [
+              24,
+              "Conjureuse",
+              "",
+              "cosplay"
+            ],
+            [
+              25,
+              "Tero",
+              "",
+              "cosplay"
+            ],
+            [
+              26,
+              "Kyoshi et Elodie",
+              "",
+              "cosplay"
+            ],
+            [
+              27,
+              "7 Deadly Cheeses",
+              "",
+              "cosplay"
+            ],
+            [
+              28,
+              "Obscuria",
+              "",
+              "cosplay"
+            ],
+            [
+              29,
+              "Vercin",
+              "",
+              "cosplay"
+            ],
+            [
+              30,
+              "Orochi Jidai",
+              "",
+              "cosplay"
+            ],
+            [
+              31,
+              "Otoon",
+              "",
+              "cosplay"
+            ],
+            [
+              32,
+              "Hokaie",
+              "",
+              "cosplay"
+            ]
           ]
         },
         {
-          "file": "pipeline/cache/extract/heroes-world-v2c.guests.json",
+          "file": "pipeline/cache/extract/heroes-world-2-r20261015.guests.json",
           "picks": [
-            [3, "Sgauth", "Game-dev video essays: Left 4 Dead, For Honor", "creator"]
+            [
+              4,
+              "Nicolas Jaffré",
+              "Mangaka, Supernova",
+              "animation"
+            ],
+            [
+              19,
+              "Sgauth",
+              "Game-dev video essays: Left 4 Dead, For Honor",
+              "creator"
+            ],
+            [
+              20,
+              "Gastronogeek",
+              "Geek-culture cookbook author",
+              "author"
+            ]
           ]
         }
       ],
@@ -87,6 +325,6 @@
       "evidence": "Homepage: '17-18 OCTOBER AT BRUSSELS EXPO'; 'For the Autumn editions, Made in Asia, Heroes Comic Con and GameForce have merged into one geeky festival ... Heroes World.'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "New-for-2026 merged brand (Easyfairs combined Heroes Comic Con, GameForce and Made in Asia's autumn show into one event called Heroes World); see this batch's separate 'made-in-asia' file for that brand's now-independent Spring edition, not duplicated here. Several guest cards on the actor/Game-Island row (James Lafferty) carry pricing text only and no bio, so known-for is left blank per the name-only-card rule. Ralph Fiennes' card is also bio-less; his known-for ('Voldemort in Harry Potter') instead comes from this site's own homepage image file name (Ralph-Fiennes-Voldemort.png), not from the guest card text. A second combined guest-list page (madeinasia.be) repeats the actor/comics names with no bios but adds ~22 Made-in-Asia-zone names (mangaka, a dance troupe, likely French-dub voice actors and cosplayers) with no bio text and, mostly, no clear role signal — cat is a best-effort guess from the handle style (cosplay-style handles vs. plain real names → 'other') per the never-guess-known-for/do-your-best-on-cat rule; known-for left blank for all of them. One ~38-card 'ALL GUESTS' photo grid on heroes-world.be/guests/ rendered with no name or alt text at all for all but 2 photos (Odoriko, Gastronogeek, both picked) — the rest could not be identified and were left out rather than guessed. Recheck 2026-10-05: the combined madeinasia.be guest-list page dedups/omits a few names present on its own per-category sub-pages; re-rendering those sub-pages (youplay-guests/, guests-made-in-asia/) surfaced one real guest missing from every prior capture, Sgauth (a game-development video essayist, Left 4 Dead/For Honor), now added. Those same two sub-pages confirmed every other name already picked and added no one else; Hokaie's own card there reads 'the YouTube pro when it comes to narrative gameplay' (a creator, not cosplay as guessed), but per this recheck's scope existing cat/known-for values were left as-is for guests that stay."
+  "checked": "2026-10-15",
+  "notes": "New-for-2026 merged brand (Easyfairs combined Heroes Comic Con, GameForce and Made in Asia's autumn show into one event called Heroes World); see this batch's separate 'made-in-asia' file for that brand's now-independent Spring edition, not duplicated here. Several guest cards on the actor/Game-Island row (James Lafferty) carry pricing text only and no bio, so known-for is left blank per the name-only-card rule. Ralph Fiennes' card is also bio-less; his known-for ('Voldemort in Harry Potter') instead comes from this site's own homepage image file name (Ralph-Fiennes-Voldemort.png), not from the guest card text. A second combined guest-list page (madeinasia.be) repeats the actor/comics names with no bios but adds ~22 Made-in-Asia-zone names (mangaka, a dance troupe, likely French-dub voice actors and cosplayers) with no bio text and, mostly, no clear role signal — cat is a best-effort guess from the handle style (cosplay-style handles vs. plain real names → 'other') per the never-guess-known-for/do-your-best-on-cat rule; known-for left blank for all of them. One ~38-card 'ALL GUESTS' photo grid on heroes-world.be/guests/ rendered with no name or alt text at all for all but 2 photos (Odoriko, Gastronogeek, both picked) — the rest could not be identified and were left out rather than guessed. Recheck 2026-10-05: the combined madeinasia.be guest-list page dedups/omits a few names present on its own per-category sub-pages; re-rendering those sub-pages (youplay-guests/, guests-made-in-asia/) surfaced one real guest missing from every prior capture, Sgauth (a game-development video essayist, Left 4 Dead/For Honor), now added. Those same two sub-pages confirmed every other name already picked and added no one else; Hokaie's own card there reads 'the YouTube pro when it comes to narrative gameplay' (a creator, not cosplay as guessed), but per this recheck's scope existing cat/known-for values were left as-is for guests that stay. 2026-10-15 refresh: added Nicolas Jaffré, Sgauth and Gastronogeek from today's render of the madeinasia.be guest-list page (cards #4, #19, #20); these three appear in the new r20261015.guests.json lineup entry; no picked guest is missing from today's render."
 }
