@@ -5,9 +5,15 @@
   "url": "https://www.creepiecon.com/",
   "organizer": "",
   "status": "active",
-  "types": ["horror", "pop"],
+  "types": [
+    "horror",
+    "pop"
+  ],
   "blurb": "Inland Empire horror and pop-culture convention at the Ontario Convention Center, with horror-film actors, exhibits and photo ops.",
-  "cover": { "file": "pipeline/cache/extract/creep-ie-con.home.json", "key": "hero:1" },
+  "cover": {
+    "file": "pipeline/cache/extract/creep-ie-con.home.json",
+    "key": "hero:1"
+  },
   "editions": [
     {
       "start": "2027-02-05",
@@ -24,32 +30,173 @@
         {
           "file": "pipeline/cache/extract/creep-ie-con.guests.json",
           "picks": [
-            [1, "Robert Englund", "A Nightmare on Elm Street, Stranger Things", "actor"],
-            [2, "Heather Langenkamp", "A Nightmare on Elm Street", "actor"],
-            [3, "Christina Ricci", "The Addams Family, Yellowjackets", "actor"],
-            [4, "Christopher Lloyd", "Back to the Future, Wednesday", "actor"],
-            [5, "William Shatner", "Star Trek, Twilight Zone", "actor"],
-            [6, "Rose McGowan", "Scream, Charmed", "actor"],
-            [7, "Corey Feldman", "Lost Boys, Goonies, Gremlins", "actor"],
-            [8, "Jsu Garcia", "A Nightmare on Elm Street", "actor"],
-            [9, "Amanda Wyss", "A Nightmare on Elm Street", "actor"],
-            [10, "Jennifer Rubin", "A Nightmare on Elm Street 3", "actor"],
-            [11, "Ira Heiden", "A Nightmare on Elm Street 3", "actor"],
-            [12, "Ken Sagoes", "A Nightmare on Elm Street 3", "actor"],
-            [13, "Bradley Gregg", "Nightmare on Elm Street 3, Stand by Me", "actor"],
-            [14, "Rodney Eastman", "A Nightmare on Elm Street 3", "actor"],
-            [15, "Penelope Sudrow", "A Nightmare on Elm Street 3", "actor"],
-            [16, "George Lynch", "Guitarist, Dokken & Lynch Mob", "music"],
-            [17, "Monica Keena", "Freddy vs Jason, Dawson's Creek", "actor"],
-            [18, "Holly Marie Combs", "Charmed, Pretty Little Liars", "actor"],
-            [19, "Brian Krause", "Charmed, Sleepwalkers", "actor"],
-            [20, "Drew Fuller", "Charmed, Army Wives", "actor"],
-            [21, "Jamison Newlander", "Lost Boys, The Blob", "actor"],
-            [22, "Zackary Arthur", "Chucky, Transparent", "actor"],
-            [23, "Devon Sawa", "Final Destination, Casper, Chucky", "actor"],
-            [24, "Jimmy Workman", "Addams Family & Addams Family Values", "actor"],
-            [25, "Carel Struycken", "The Addams Family, Men in Black", "actor"],
-            [26, "John Franklin", "Addams Family, Children of the Corn", "actor"]
+            [
+              1,
+              "Robert Englund",
+              "A Nightmare on Elm Street, Stranger Things",
+              "actor"
+            ],
+            [
+              2,
+              "Heather Langenkamp",
+              "A Nightmare on Elm Street",
+              "actor"
+            ],
+            [
+              3,
+              "Christina Ricci",
+              "The Addams Family, Yellowjackets",
+              "actor"
+            ],
+            [
+              4,
+              "Christopher Lloyd",
+              "Back to the Future, Wednesday",
+              "actor"
+            ],
+            [
+              5,
+              "William Shatner",
+              "Star Trek, Twilight Zone",
+              "actor"
+            ],
+            [
+              6,
+              "Rose McGowan",
+              "Scream, Charmed",
+              "actor"
+            ],
+            [
+              7,
+              "Corey Feldman",
+              "Lost Boys, Goonies, Gremlins",
+              "actor"
+            ],
+            [
+              8,
+              "Jsu Garcia",
+              "A Nightmare on Elm Street",
+              "actor"
+            ],
+            [
+              9,
+              "Amanda Wyss",
+              "A Nightmare on Elm Street",
+              "actor"
+            ],
+            [
+              10,
+              "Jennifer Rubin",
+              "A Nightmare on Elm Street 3",
+              "actor"
+            ],
+            [
+              11,
+              "Ira Heiden",
+              "A Nightmare on Elm Street 3",
+              "actor"
+            ],
+            [
+              12,
+              "Ken Sagoes",
+              "A Nightmare on Elm Street 3",
+              "actor"
+            ],
+            [
+              13,
+              "Bradley Gregg",
+              "Nightmare on Elm Street 3, Stand by Me",
+              "actor"
+            ],
+            [
+              14,
+              "Rodney Eastman",
+              "A Nightmare on Elm Street 3",
+              "actor"
+            ],
+            [
+              15,
+              "Penelope Sudrow",
+              "A Nightmare on Elm Street 3",
+              "actor"
+            ],
+            [
+              16,
+              "George Lynch",
+              "Guitarist, Dokken & Lynch Mob",
+              "music"
+            ],
+            [
+              17,
+              "Monica Keena",
+              "Freddy vs Jason, Dawson's Creek",
+              "actor"
+            ],
+            [
+              18,
+              "Holly Marie Combs",
+              "Charmed, Pretty Little Liars",
+              "actor"
+            ],
+            [
+              19,
+              "Brian Krause",
+              "Charmed, Sleepwalkers",
+              "actor"
+            ],
+            [
+              20,
+              "Drew Fuller",
+              "Charmed, Army Wives",
+              "actor"
+            ],
+            [
+              21,
+              "Jamison Newlander",
+              "Lost Boys, The Blob",
+              "actor"
+            ],
+            [
+              22,
+              "Zackary Arthur",
+              "Chucky, Transparent",
+              "actor"
+            ],
+            [
+              23,
+              "Devon Sawa",
+              "Final Destination, Casper, Chucky",
+              "actor"
+            ],
+            [
+              24,
+              "Jimmy Workman",
+              "Addams Family & Addams Family Values",
+              "actor"
+            ],
+            [
+              25,
+              "Carel Struycken",
+              "The Addams Family, Men in Black",
+              "actor"
+            ],
+            [
+              26,
+              "John Franklin",
+              "Addams Family, Children of the Corn",
+              "actor"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/creep-ie-con-r20261016.guests.json",
+          "picks": [
+            [
+              10,
+              "Bryce Dallas Howard",
+              "Jurassic World, Spider-Man 3, The Village",
+              "actor"
+            ]
           ]
         }
       ],
@@ -57,6 +204,6 @@
       "evidence": "Homepage/guests page text: 'Ontario Convention Center | California February 5th - 7th 2027' and 'FRIDAY, FEBRUARY 5th ... SATURDAY, FEBRUARY 6th ... SUNDAY, FEBRUARY 7th'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest page paginated 3 times (extract.mjs merged them); 26 named guests all have full credit lists on their own card (alt text + caption), trimmed here to 2-4 titles. A banner candidate ('MANY MORE CELEBRITY GUESTS TO BE REVEALED') and generic site photos / 'As Seen On' press-logo tiles after it were skipped as not guests. George Lynch's card lists only band names (Dokken & Lynch Mob, both real rock bands he plays guitar in), so he is filed as music rather than actor. Verify pass (2026-10-05): confirmed current -- all 26 guest photo filenames are individually suffixed 'Creep I.E. Con 2027.jpg' (e.g. 'Robert Englund Creep I.E. Con 2027.jpg'), leaving no doubt about the edition. Refute pass (2026-10-05): fresh re-fetch is unchanged -- all 26 guest image filenames still read '<Name> Creep I.E. Con 2027.jpg' (pipeline/cache/extract/creep-ie-con-v2.guests.json, #1-26); upheld."
+  "checked": "2026-10-16",
+  "notes": "Guest page paginated 3 times (extract.mjs merged them); 26 named guests all have full credit lists on their own card (alt text + caption), trimmed here to 2-4 titles. A banner candidate ('MANY MORE CELEBRITY GUESTS TO BE REVEALED') and generic site photos / 'As Seen On' press-logo tiles after it were skipped as not guests. George Lynch's card lists only band names (Dokken & Lynch Mob, both real rock bands he plays guitar in), so he is filed as music rather than actor. Verify pass (2026-10-05): confirmed current -- all 26 guest photo filenames are individually suffixed 'Creep I.E. Con 2027.jpg' (e.g. 'Robert Englund Creep I.E. Con 2027.jpg'), leaving no doubt about the edition. Refute pass (2026-10-05): fresh re-fetch is unchanged -- all 26 guest image filenames still read '<Name> Creep I.E. Con 2027.jpg' (pipeline/cache/extract/creep-ie-con-v2.guests.json, #1-26); upheld. Refresh 2026-10-16: the guests page (photo files suffixed 'Creep I.E. Con 2027') shows one new guest card, Bryce Dallas Howard, added; the image-only cards (#1, #2 mail-in partner logos, #30, #31 'Powered By' logos) are sponsors and were skipped; all earlier picks still listed."
 }

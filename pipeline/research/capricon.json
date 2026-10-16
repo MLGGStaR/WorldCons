@@ -53,12 +53,23 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/capricon-r20261016.guests.json",
+          "picks": [
+            [
+              3,
+              "Metricula",
+              "Guest of Honor",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: \"Capricon 47: No Strings Attached! January 28th-31st, 2027 | Marriott Chicago O'Hare\""
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Capricon 47 has two Guests of Honor this year (Anton Petersen, a Fan GoH who organizes his own convention, Quantum-Con; and author Mary Robinette Kowal). Both are pictured on the Guests of Honor page. Refute pass (2026-10-05): confirmed current -- a fresh re-extract of /guests-of-honor/ shows both guest sections sit directly under the page's own heading 'Guests of Honor - Capricon 47: No Strings Attached!', tying both guests to this edition's own number rather than a generic template date. Refresh 2026-10-07: added Shay DeBosco, a new guest of honor section on the page headed 'Capricon 47: No Strings Attached!'; known-for and category left generic as the card gives no credit."
+  "checked": "2026-10-16",
+  "notes": "Capricon 47 has two Guests of Honor this year (Anton Petersen, a Fan GoH who organizes his own convention, Quantum-Con; and author Mary Robinette Kowal). Both are pictured on the Guests of Honor page. Refute pass (2026-10-05): confirmed current -- a fresh re-extract of /guests-of-honor/ shows both guest sections sit directly under the page's own heading 'Guests of Honor - Capricon 47: No Strings Attached!', tying both guests to this edition's own number rather than a generic template date. Refresh 2026-10-07: added Shay DeBosco, a new guest of honor section on the page headed 'Capricon 47: No Strings Attached!'; known-for and category left generic as the card gives no credit. Refresh 2026-10-16: the Guests of Honor page (headed 'Capricon 47: No Strings Attached!') now shows a fourth guest of honor section, Metricula, with a headshot, added; cat other and no credit from the card; both lineup lines of the daily list refer to this same page and render, so one entry covers them; earlier picks still listed."
 }

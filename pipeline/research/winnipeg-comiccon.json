@@ -306,12 +306,35 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/winnipeg-comiccon-r20261016.guests.json",
+          "picks": [
+            [
+              39,
+              "Alex Stornel",
+              "Masquerade judge",
+              "cosplay"
+            ],
+            [
+              40,
+              "Chloe Sky",
+              "Masquerade judge",
+              "cosplay"
+            ],
+            [
+              41,
+              "Devoe Cosplay",
+              "Masquerade judge",
+              "cosplay"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'OCT. 30 TO NOV. 1, 2026 RBC CONVENTION CENTRE'; hero image labelled 'DON'T MISS WINNIPEG COMICCON 6TH EDITION'"
     }
   ],
-  "checked": "2026-10-14",
-  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition. 2026-10-07 refresh: added Nhut Le (#27) and Veronica Taylor (#33) from the 2026-10-07 render, where both sit under Featured Guests; removed Michael Ironside, who now appears (#39) under the page's POSTPONED section, like Giancarlo Esposito and Troy Baker. 2026-10-14 refresh: added Bart Sears, Bernard Chang, Ghoulish Gary Pullin, Kevin Maguire, Rick Leonardi, Emilia Strilchuk, Jeff Spokes, Kalman Andrasofszky, Richard Comely and Sami Francis from the 2026-10-14 render, where they sit under Featured Guests / Guests; no picked guest was missing."
+  "checked": "2026-10-16",
+  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition. 2026-10-07 refresh: added Nhut Le (#27) and Veronica Taylor (#33) from the 2026-10-07 render, where both sit under Featured Guests; removed Michael Ironside, who now appears (#39) under the page's POSTPONED section, like Giancarlo Esposito and Troy Baker. 2026-10-14 refresh: added Bart Sears, Bernard Chang, Ghoulish Gary Pullin, Kevin Maguire, Rick Leonardi, Emilia Strilchuk, Jeff Spokes, Kalman Andrasofszky, Richard Comely and Sami Francis from the 2026-10-14 render, where they sit under Featured Guests / Guests; no picked guest was missing. 2026-10-16 refresh: added Alex Stornel, Chloe Sky and Devoe Cosplay (#39-41 of the 2026-10-16 render, Masquerade Judges listed under Guests); Ghoulish Gary Pullin and Richard Comely were already picked; every earlier pick is still on the page."
 }

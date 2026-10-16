@@ -5,9 +5,15 @@
   "url": "https://sacanime.com/",
   "organizer": "",
   "status": "active",
-  "types": ["anime", "games"],
+  "types": [
+    "anime",
+    "games"
+  ],
   "blurb": "Sacramento anime convention held three times a year, with voice-actor guests of honor, cosplay, artist alley and gaming.",
-  "cover": { "file": "pipeline/cache/extract/sacanime.home.json", "key": "logo:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/sacanime.home.json",
+    "key": "logo:0"
+  },
   "editions": [
     {
       "start": "2027-01-08",
@@ -24,25 +30,167 @@
         {
           "file": "pipeline/cache/extract/sacanime.guests.json",
           "picks": [
-            [1, "Cristina Vee", "Sailor Mars (Sailor Moon)", "voice"],
-            [2, "Ali Hillis", "", "voice"],
-            [3, "DC Douglas", "", "voice"],
-            [4, "Brandon Keener", "Garrus Vakarian (Mass Effect)", "voice"],
-            [5, "Mark Meer", "", "voice"],
-            [6, "John DiMaggio", "", "voice"],
-            [7, "Chrissie Zullo", "", "comics"],
-            [8, "Christopher Uminga", "", "comics"],
-            [9, "Monica Rial", "", "voice"],
-            [10, "Brandon McInnis", "", "voice"],
-            [11, "J. Michael Tatum", "", "voice"],
-            [12, "Justin Briner", "", "voice"],
-            [13, "Olivia Olson", "", "voice"],
-            [14, "David Errigo Jr.", "", "voice"],
-            [15, "Vincent Martella", "", "voice"],
-            [16, "Alyson Stoner", "", "actor"],
-            [17, "Christine Marie Cabanos", "", "voice"],
-            [18, "Debi Derryberry", "", "voice"],
-            [19, "Courtney Lin", "", "voice"]
+            [
+              1,
+              "Cristina Vee",
+              "Sailor Mars (Sailor Moon)",
+              "voice"
+            ],
+            [
+              2,
+              "Ali Hillis",
+              "",
+              "voice"
+            ],
+            [
+              3,
+              "DC Douglas",
+              "",
+              "voice"
+            ],
+            [
+              4,
+              "Brandon Keener",
+              "Garrus Vakarian (Mass Effect)",
+              "voice"
+            ],
+            [
+              5,
+              "Mark Meer",
+              "",
+              "voice"
+            ],
+            [
+              6,
+              "John DiMaggio",
+              "",
+              "voice"
+            ],
+            [
+              7,
+              "Chrissie Zullo",
+              "",
+              "comics"
+            ],
+            [
+              8,
+              "Christopher Uminga",
+              "",
+              "comics"
+            ],
+            [
+              9,
+              "Monica Rial",
+              "",
+              "voice"
+            ],
+            [
+              10,
+              "Brandon McInnis",
+              "",
+              "voice"
+            ],
+            [
+              11,
+              "J. Michael Tatum",
+              "",
+              "voice"
+            ],
+            [
+              12,
+              "Justin Briner",
+              "",
+              "voice"
+            ],
+            [
+              13,
+              "Olivia Olson",
+              "",
+              "voice"
+            ],
+            [
+              14,
+              "David Errigo Jr.",
+              "",
+              "voice"
+            ],
+            [
+              15,
+              "Vincent Martella",
+              "",
+              "voice"
+            ],
+            [
+              16,
+              "Alyson Stoner",
+              "",
+              "actor"
+            ],
+            [
+              17,
+              "Christine Marie Cabanos",
+              "",
+              "voice"
+            ],
+            [
+              18,
+              "Debi Derryberry",
+              "",
+              "voice"
+            ],
+            [
+              19,
+              "Courtney Lin",
+              "",
+              "voice"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/sacanime-r20261016.guests.json",
+          "picks": [
+            [
+              1,
+              "Anjali Kunapaneni",
+              "",
+              "other"
+            ],
+            [
+              2,
+              "Nerida Bronwen",
+              "",
+              "other"
+            ],
+            [
+              3,
+              "Joshua Waters",
+              "",
+              "other"
+            ],
+            [
+              4,
+              "Madeleine Morris",
+              "",
+              "other"
+            ],
+            [
+              5,
+              "Doug Cockle",
+              "Geralt in The Witcher games",
+              "voice"
+            ],
+            [
+              6,
+              "Jo Wyatt",
+              "",
+              "other"
+            ],
+            [
+              7,
+              "Jaimi Barbakoff",
+              "",
+              "other"
+            ]
           ]
         }
       ],
@@ -80,6 +228,6 @@
       "evidence": "Official Future Shows page (sacanime.com/future-shows/): 'Summer 2027 – Friday, Saturday, and Sunday September 3rd – 5th, 2027 Sacramento (SAFE Credit Union) Convention Center'."
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "SacAnime runs 3 shows a year (one file, one edition per show per the multi-show special case); Spring 2027 moves to Cal Expo while Winter and Summer use the SAFE Credit Union Convention Center, both in Sacramento. Only Winter 2027 has guests announced; its guest_list grid (19 photos) only captions each person as 'SacAnime Winter 2027 Welcomes <Name>' with no credit text, so Known for is blank for most. A WebFetch of the con's own Guests of Honor announcement posts (sacanime.com/category/guests-of-honor/) surfaced clean, specific credits for only 2 of the 19 (Cristina Vee / Sailor Mars, Brandon Keener / Garrus Vakarian) that matched well enough to use; the other posts either weren't returned by that fetch or gave vague/unclear specifics (e.g. Ali Hillis, DC Douglas, Mark Meer), so those are left blank rather than guessed. No organizer name appears anywhere on the site (copyright line is blank: 'Copyright © 2026 . All rights reserved.'), so organizer is left blank. A separate, differently-branded 'Sac-Con/Sac Comic-Con' show (April 10-11, 2027, same venue) is also listed on the Future Shows page but is a different event from SacAnime and out of scope for this id. Refute-pass (2026-10-05): re-extracted fresh (pipeline/cache/extract/sacanime-v2.guests.json) -- all 19 picks are individually captioned 'SacAnime Winter 2027 Welcomes <Name>' and filed under image names prefixed 'saw27_web_banners_...' (saw27 = SacAnime Winter '27), uploaded 2026/09; Winter 2027 lineup upheld in full."
+  "checked": "2026-10-16",
+  "notes": "SacAnime runs 3 shows a year (one file, one edition per show per the multi-show special case); Spring 2027 moves to Cal Expo while Winter and Summer use the SAFE Credit Union Convention Center, both in Sacramento. Only Winter 2027 has guests announced; its guest_list grid (19 photos) only captions each person as 'SacAnime Winter 2027 Welcomes <Name>' with no credit text, so Known for is blank for most. A WebFetch of the con's own Guests of Honor announcement posts (sacanime.com/category/guests-of-honor/) surfaced clean, specific credits for only 2 of the 19 (Cristina Vee / Sailor Mars, Brandon Keener / Garrus Vakarian) that matched well enough to use; the other posts either weren't returned by that fetch or gave vague/unclear specifics (e.g. Ali Hillis, DC Douglas, Mark Meer), so those are left blank rather than guessed. No organizer name appears anywhere on the site (copyright line is blank: 'Copyright © 2026 . All rights reserved.'), so organizer is left blank. A separate, differently-branded 'Sac-Con/Sac Comic-Con' show (April 10-11, 2027, same venue) is also listed on the Future Shows page but is a different event from SacAnime and out of scope for this id. Refute-pass (2026-10-05): re-extracted fresh (pipeline/cache/extract/sacanime-v2.guests.json) -- all 19 picks are individually captioned 'SacAnime Winter 2027 Welcomes <Name>' and filed under image names prefixed 'saw27_web_banners_...' (saw27 = SacAnime Winter '27), uploaded 2026/09; Winter 2027 lineup upheld in full. Refresh 2026-10-16: seven new guest cards on the guest_list page, each captioned 'SacAnime Winter 2027 Welcomes <Name>' (Anjali Kunapaneni, Nerida Bronwen, Joshua Waters, Madeleine Morris, Doug Cockle, Jo Wyatt, Jaimi Barbakoff), added; cards carry no credit text so known-for is blank and cat is other except Doug Cockle; Brandon McInnis and J. Michael Tatum were already picked from the earlier render; all earlier picks still listed."
 }
