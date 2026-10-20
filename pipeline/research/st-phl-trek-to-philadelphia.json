@@ -127,12 +127,6 @@
               "actor"
             ],
             [
-              18,
-              "Michelle Hurd",
-              "Raffi, Picard",
-              "actor"
-            ],
-            [
               19,
               "Bella Shepard",
               "Genesis Lythe, Starfleet Academy",
@@ -252,12 +246,29 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/st-phl-trek-to-philadelphia-r20261020.guests.json",
+          "picks": [
+            [
+              18,
+              "Anthony Rapp",
+              "Paul Stamets, Discovery",
+              "actor"
+            ],
+            [
+              23,
+              "Dominic Keating",
+              "Lt. Reed, Enterprise",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Event page: 'ST-PHL: TREK TO PHILADELPHIA 60th CELEBRATION November 14-15, 2026 Sheraton Philadelphia Downtown Hotel 201 N 17th Street Philadelphia, PA 19103'."
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "Kate Mulgrew (candidate #38) is skipped: the page's own Sept. 25 update says she is unable to attend and refunds are being issued. Every pick's name/character text came directly from this page's own guest cards (no WebFetch needed), including a few non-actor panelists (virologist/astrophysicists, a script coordinator, a comics artist) filed under 'other'/'comics' rather than 'actor'. 2026-10-06 refresh: added Dr. Kim Arcand (new card, Appearing Saturday) and removed Dr. Jess Stasik and Dr. Liv Greene, who are no longer on the guest page (static page, not rotating)."
+  "checked": "2026-10-20",
+  "notes": "Kate Mulgrew (candidate #38) is skipped: the page's own Sept. 25 update says she is unable to attend and refunds are being issued. Every pick's name/character text came directly from this page's own guest cards (no WebFetch needed), including a few non-actor panelists (virologist/astrophysicists, a script coordinator, a comics artist) filed under 'other'/'comics' rather than 'actor'. 2026-10-06 refresh: added Dr. Kim Arcand (new card, Appearing Saturday) and removed Dr. Jess Stasik and Dr. Liv Greene, who are no longer on the guest page (static page, not rotating). 2026-10-20 refresh: added Anthony Rapp and Dominic Keating (new cards in today's render, 'Appearing Saturday & Sunday') and removed Michelle Hurd, whose card now says 'Oct. 19: Unfortunately, Michelle Hurd is unable to attend the convention'."
 }

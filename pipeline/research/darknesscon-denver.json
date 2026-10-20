@@ -36,12 +36,41 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/darknesscon-denver-r20261020.guests.json",
+          "picks": [
+            [
+              5,
+              "Bill Lewis",
+              "Paranormal researcher, author, podcast host",
+              "creator"
+            ],
+            [
+              6,
+              "Bryan Bonner",
+              "Paranormal researcher, author, podcast host",
+              "creator"
+            ],
+            [
+              7,
+              "Killian",
+              "Cosplayer",
+              "cosplay"
+            ],
+            [
+              9,
+              "The Rocky Mountain Paranormal Research Society",
+              "Paranormal investigators",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Denver page text/title: 'DarknessCon Denver — October 31, 2026' / 'OCTOBER 31, 2026 DENVER THE CASTLE EVENT CENTER'"
     }
   ],
-  "checked": "2026-10-06",
-  "notes": "DarknessCon is a touring horror-convention brand (one shared darknesscon.com site with a per-city page for Snake River, Denver, Reno, Boise, Salt Lake City, plus Albuquerque/Jacksonville/New Orleans/Omaha/Portland 'coming 2027'). Only Denver, Snake River and Salt Lake City were in this research batch; Reno and Boise are separate editions of the same brand not assigned here. Denver's special-guests section lists only one named guest (Mythica Blessyng) plus a 'To Be Announced' placeholder tile, which was skipped. 2026-10-06 refresh: unchanged; the one new card (#4) is a floor-plan placeholder, not a guest."
+  "checked": "2026-10-20",
+  "notes": "DarknessCon is a touring horror-convention brand (one shared darknesscon.com site with a per-city page for Snake River, Denver, Reno, Boise, Salt Lake City, plus Albuquerque/Jacksonville/New Orleans/Omaha/Portland 'coming 2027'). Only Denver, Snake River and Salt Lake City were in this research batch; Reno and Boise are separate editions of the same brand not assigned here. Denver's special-guests section lists only one named guest (Mythica Blessyng) plus a 'To Be Announced' placeholder tile, which was skipped. 2026-10-06 refresh: unchanged; the one new card (#4) is a floor-plan placeholder, not a guest. 2026-10-20 refresh: added Bill Lewis, Bryan Bonner, Killian and The Rocky Mountain Paranormal Research Society, new SPECIAL GUEST cards (#5-7, #9) in the Special Guests section of the 2026-10-20 render of the Denver page; Mythica Blessyng is still listed."
 }
