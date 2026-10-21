@@ -5,9 +5,14 @@
   "url": "https://www.chicagotardis.com/",
   "organizer": "",
   "status": "active",
-  "types": ["scifi"],
+  "types": [
+    "scifi"
+  ],
   "blurb": "The Midwest's largest Doctor Who convention, held every November in the Chicago suburbs with series actors and Big Finish audio-drama guests.",
-  "cover": { "file": "pipeline/cache/extract/chicago-tardis.home.json", "key": "hero:5" },
+  "cover": {
+    "file": "pipeline/cache/extract/chicago-tardis.home.json",
+    "key": "hero:5"
+  },
   "editions": [
     {
       "start": "2026-11-27",
@@ -24,21 +29,107 @@
         {
           "file": "pipeline/cache/extract/chicago-tardis.guests.json",
           "picks": [
-            [3, "Daisy Ashford", "Liz Shaw, Big Finish Productions", "actor"],
-            [4, "Michelle Greenidge", "Carla Sunday, Big Finish Productions", "actor"],
-            [5, "Geoffrey Beevers", "The Master, Doctor Who", "actor"],
-            [6, "Lisa Greenwood", "Flip Jackson, Big Finish Productions", "actor"],
-            [7, "Alexander Devrient", "UNIT Colonel Christofer Ibrahim", "actor"],
-            [8, "Jason Haigh-Ellery", "Producer, Big Finish Productions", "other"],
-            [9, "Jane Goddard", "Alpha Centauri, Big Finish Productions", "actor"],
-            [10, "Frazer Hines", "Jamie McCrimmon, Doctor Who", "actor"],
-            [11, "Charlotte McBurney", "Wilder Lawless, Big Finish Productions", "actor"],
-            [12, "Wendy Padbury", "Zoe Heriot, Doctor Who", "actor"],
-            [13, "Miranda Raison", "Tallulah/Constance Clarke, Big Finish", "actor"],
-            [14, "Isaac Rouse", "Young James Bond, Big Finish Productions", "actor"],
-            [15, "Rob Shearman", "Writer, Doctor Who & Big Finish", "other"],
-            [16, "Jodie Whittaker", "13th Doctor, Doctor Who", "actor"],
-            [17, "Lizzie Worsdell", "Supervising Producer, Big Finish Productions", "other"]
+            [
+              3,
+              "Daisy Ashford",
+              "Liz Shaw, Big Finish Productions",
+              "actor"
+            ],
+            [
+              4,
+              "Michelle Greenidge",
+              "Carla Sunday, Big Finish Productions",
+              "actor"
+            ],
+            [
+              5,
+              "Geoffrey Beevers",
+              "The Master, Doctor Who",
+              "actor"
+            ],
+            [
+              6,
+              "Lisa Greenwood",
+              "Flip Jackson, Big Finish Productions",
+              "actor"
+            ],
+            [
+              7,
+              "Alexander Devrient",
+              "UNIT Colonel Christofer Ibrahim",
+              "actor"
+            ],
+            [
+              8,
+              "Jason Haigh-Ellery",
+              "Producer, Big Finish Productions",
+              "other"
+            ],
+            [
+              9,
+              "Jane Goddard",
+              "Alpha Centauri, Big Finish Productions",
+              "actor"
+            ],
+            [
+              10,
+              "Frazer Hines",
+              "Jamie McCrimmon, Doctor Who",
+              "actor"
+            ],
+            [
+              11,
+              "Charlotte McBurney",
+              "Wilder Lawless, Big Finish Productions",
+              "actor"
+            ],
+            [
+              12,
+              "Wendy Padbury",
+              "Zoe Heriot, Doctor Who",
+              "actor"
+            ],
+            [
+              13,
+              "Miranda Raison",
+              "Tallulah/Constance Clarke, Big Finish",
+              "actor"
+            ],
+            [
+              14,
+              "Isaac Rouse",
+              "Young James Bond, Big Finish Productions",
+              "actor"
+            ],
+            [
+              15,
+              "Rob Shearman",
+              "Writer, Doctor Who & Big Finish",
+              "other"
+            ],
+            [
+              16,
+              "Jodie Whittaker",
+              "13th Doctor, Doctor Who",
+              "actor"
+            ],
+            [
+              17,
+              "Lizzie Worsdell",
+              "Supervising Producer, Big Finish Productions",
+              "other"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/chicago-tardis-r20261021.guests.json",
+          "picks": [
+            [
+              11,
+              "Christopher Jones",
+              "Comic artist",
+              "comics"
+            ]
           ]
         }
       ],
@@ -46,6 +137,6 @@
       "evidence": "Homepage text: \"NOVEMBER 27-29, 2026 WESTIN CHICAGO LOMBARD\" with a live countdown to \"Chicago TARDIS 2026\""
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guests page lists Doctor Who actors alongside Big Finish Productions audio-drama cast and crew; producers/writers (Jason Haigh-Ellery, Rob Shearman, Lizzie Worsdell) are filed as 'other' since they are not on-screen performers. Jodie Whittaker and Alexander Devrient are noted as appearing only Friday/Saturday but are still part of the announced lineup."
+  "checked": "2026-10-21",
+  "notes": "Guests page lists Doctor Who actors alongside Big Finish Productions audio-drama cast and crew; producers/writers (Jason Haigh-Ellery, Rob Shearman, Lizzie Worsdell) are filed as 'other' since they are not on-screen performers. Jodie Whittaker and Alexander Devrient are noted as appearing only Friday/Saturday but are still part of the announced lineup. Refresh 2026-10-21: the guests page now also lists Christopher Jones (Comic Artist, appearing all three days); added him, all earlier picks are still on the page."
 }

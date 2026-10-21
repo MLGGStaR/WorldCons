@@ -48,12 +48,23 @@
               "music"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/japan-weekend-valencia-r20261007-r20261021.guests.json",
+          "picks": [
+            [
+              4,
+              "Danilo Vaz",
+              "Illustrator",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Valencia page: 'JAPAN WEEKEND VALENCIA 21-22 NOVIEMBRE 2026' and 'su próxima edición valenciana se celebrará los días 21 y 22 de noviembre de 2026'."
     }
   ],
-  "checked": "2026-10-14",
-  "notes": "Dates and venue are confirmed, but the page's own guests section currently says only 'don't miss the announcements on our social media' with no names yet, and ticket sales and the poster ('CARTEL') are both still marked 'coming soon', so guests is 'none-yet' and tickets is left blank rather than guessed. 2026-10-07 refresh: the guests section on the page titled for the 21-22 Nov 2026 edition now shows its first guest card, Arisa Komiya (seiyu and DJ), so guests is announced with that one pick; the card carries no show credit, so known-for is generic. 2026-10-14 refresh: the 21-22 Nov 2026 guests section now also shows a second card, UPIKO (cantante/singer), added as a music pick; Arisa Komiya is still listed."
+  "checked": "2026-10-21",
+  "notes": "Dates and venue are confirmed, but the page's own guests section currently says only 'don't miss the announcements on our social media' with no names yet, and ticket sales and the poster ('CARTEL') are both still marked 'coming soon', so guests is 'none-yet' and tickets is left blank rather than guessed. 2026-10-07 refresh: the guests section on the page titled for the 21-22 Nov 2026 edition now shows its first guest card, Arisa Komiya (seiyu and DJ), so guests is announced with that one pick; the card carries no show credit, so known-for is generic. 2026-10-14 refresh: the 21-22 Nov 2026 guests section now also shows a second card, UPIKO (cantante/singer), added as a music pick; Arisa Komiya is still listed. 2026-10-21 refresh: the guests section of the 21-22 Nov 2026 page now also shows a card for Danilo Vaz (ILUSTRADOR, poster artist), added as an other pick; card #1 is the event poster artwork and was skipped; Arisa Komiya and Upiko are still listed."
 }
