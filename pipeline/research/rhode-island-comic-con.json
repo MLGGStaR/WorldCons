@@ -211,12 +211,6 @@
               "actor"
             ],
             [
-              34,
-              "Cote de Pablo",
-              "NCIS",
-              "actor"
-            ],
-            [
               35,
               "Dallas Liu",
               "Avatar: The Last Airbender",
@@ -367,12 +361,6 @@
               "actor"
             ],
             [
-              62,
-              "Jaimie Alexander",
-              "Thor, Blindspot",
-              "actor"
-            ],
-            [
               63,
               "Jake Connelly",
               "Stranger Things",
@@ -466,12 +454,6 @@
               78,
               "Kathleen Turner",
               "Romancing the Stone",
-              "actor"
-            ],
-            [
-              79,
-              "Katrina Law",
-              "NCIS",
               "actor"
             ],
             [
@@ -1029,12 +1011,29 @@
               "creator"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/rhode-island-comic-con-r20261023.guests.json",
+          "picks": [
+            [
+              112,
+              "Rachael Harris",
+              "The Hangover, Lucifer, Suits",
+              "actor"
+            ],
+            [
+              127,
+              "Sean Murray",
+              "NCIS, Hocus Pocus",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'NOVEMBER 6 - 8, 2026' and 'RHODE ISLAND CONVENTION CENTER & AMICA MUTUAL PAVILION 1 SABIN STREET PROVIDENCE, RI 02903'"
     }
   ],
-  "checked": "2026-10-21",
-  "notes": "Celebrities page and Artists (comics creators) page are two separate lineup files; R.L. Stine appears on both and is picked once (as author, from the celebrities page). Artist Alley tables (plain photo grid, no names) and an 'Unable to Attend' section (incl. Bob McLeod) were skipped per the skip rules. One card's 'known for' field reads 'Mick Foley ... KNOWN FOR: AVATAR: THE LAST AIRBENDER', which is clearly a copy/paste templating error on the site (he is a WWE Hall of Fame wrestler with no connection to that franchise); corrected here rather than repeated. 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who are no longer in the celebrity grid and now appear as image-only cards (#148 Resident Evil: Requiem, #151 An American Tail artwork) in the page's UNABLE TO ATTEND section; no guests added (the two new cards are those unable-to-attend tiles). 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who now appear in the \"Unable to Attend\" section of the 2026-10-07 render (#148–155), indicating cancellation; no new guests were added. 2026-10-11 refresh: added John Cena (#67 of the 2026-10-11 celebrities render, \"Appearing: Sun only\"); removed Braxton Quinney and Hamish Linklater, who no longer appear in the celebrity grid and are now image-only cards (#148, #153) in the page's UNABLE TO ATTEND section (checked by card screenshot); the other new cards are unable-to-attend tiles or the Panda Gallery sponsor logo and were skipped; artists page unchanged apart from the sponsor logo. 2026-10-15 refresh: removed R.L. Stine (celebrity grid; his card #156 of the 2026-10-15 render, checked by screenshot, now sits in the UNABLE TO ATTEND section) and John Giang (artists page, now listed as #19 under UNABLE TO ATTEND); no guests added. 2026-10-20 refresh: added Duncan Watson, new celebrity card #42 (Known for: Peanuts, You're a Good Sport, Charlie Brown) in the 2026-10-20 render of the celebrities page; the other new cards on the celebrities and artists pages (#191-192, #113-114: Leaf Trading Cards, PF Chang's) are sponsor logos and were skipped; every earlier pick is still on the page. 2026-10-21 refresh: added Johnnie Guilbert (new celebrity card #71, appearing Sat/Sun, in the 2026-10-21 render of the celebrities page); no picked guest was missing."
+  "checked": "2026-10-23",
+  "notes": "Celebrities page and Artists (comics creators) page are two separate lineup files; R.L. Stine appears on both and is picked once (as author, from the celebrities page). Artist Alley tables (plain photo grid, no names) and an 'Unable to Attend' section (incl. Bob McLeod) were skipped per the skip rules. One card's 'known for' field reads 'Mick Foley ... KNOWN FOR: AVATAR: THE LAST AIRBENDER', which is clearly a copy/paste templating error on the site (he is a WWE Hall of Fame wrestler with no connection to that franchise); corrected here rather than repeated. 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who are no longer in the celebrity grid and now appear as image-only cards (#148 Resident Evil: Requiem, #151 An American Tail artwork) in the page's UNABLE TO ATTEND section; no guests added (the two new cards are those unable-to-attend tiles). 2026-10-07 refresh: removed Angela Sant'Albano and Don Bluth, who now appear in the \"Unable to Attend\" section of the 2026-10-07 render (#148–155), indicating cancellation; no new guests were added. 2026-10-11 refresh: added John Cena (#67 of the 2026-10-11 celebrities render, \"Appearing: Sun only\"); removed Braxton Quinney and Hamish Linklater, who no longer appear in the celebrity grid and are now image-only cards (#148, #153) in the page's UNABLE TO ATTEND section (checked by card screenshot); the other new cards are unable-to-attend tiles or the Panda Gallery sponsor logo and were skipped; artists page unchanged apart from the sponsor logo. 2026-10-15 refresh: removed R.L. Stine (celebrity grid; his card #156 of the 2026-10-15 render, checked by screenshot, now sits in the UNABLE TO ATTEND section) and John Giang (artists page, now listed as #19 under UNABLE TO ATTEND); no guests added. 2026-10-20 refresh: added Duncan Watson, new celebrity card #42 (Known for: Peanuts, You're a Good Sport, Charlie Brown) in the 2026-10-20 render of the celebrities page; the other new cards on the celebrities and artists pages (#191-192, #113-114: Leaf Trading Cards, PF Chang's) are sponsor logos and were skipped; every earlier pick is still on the page. 2026-10-21 refresh: added Johnnie Guilbert (new celebrity card #71, appearing Sat/Sun, in the 2026-10-21 render of the celebrities page); no picked guest was missing. 2026-10-23 refresh: added Rachael Harris and Sean Murray (new celebrity cards #112 and #127 of the 2026-10-23 render); removed Cote de Pablo, Jaimie Alexander and Katrina Law, whose cards (#149, #155, #157, checked by screenshot) now sit in the UNABLE TO ATTEND section; the other image-only unable-to-attend tiles were skipped."
 }

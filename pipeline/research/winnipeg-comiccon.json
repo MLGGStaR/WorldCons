@@ -352,12 +352,83 @@
               "cosplay"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/winnipeg-comiccon-r20261023.guests.json",
+          "picks": [
+            [
+              21,
+              "Jaz Sinclair",
+              "Gen V, The Boys, The Chilling Adventures of Sabrina",
+              "actor"
+            ],
+            [
+              40,
+              "Anthony Ruttgaizer",
+              "Heroes of Homeroom C, The First Hero, The Last Mammal On Earth",
+              "comics"
+            ],
+            [
+              42,
+              "Chris Chuckry",
+              "Spectrum - The Best in Contemporary Fantastic Art",
+              "comics"
+            ],
+            [
+              43,
+              "Connor MacGregor",
+              "Bronze Knight, Night Raider, Monster High: Bermuda Triangle",
+              "comics"
+            ],
+            [
+              45,
+              "Donovan Yaciuk",
+              "Captain Canuck",
+              "comics"
+            ],
+            [
+              49,
+              "Hope Nicholson",
+              "Brok Windsor, Pros and Comic Cons, Angel Catbird",
+              "comics"
+            ],
+            [
+              50,
+              "Hugh Rookwood",
+              "Howdy, I’m John Ware, Apocalypse 4, Teenage Mutant Ninja Turtles",
+              "comics"
+            ],
+            [
+              52,
+              "James Dickson",
+              "Frankenstein: Visions",
+              "comics"
+            ],
+            [
+              53,
+              "Jeff Burton",
+              "The Adventures of Auroraman",
+              "comics"
+            ],
+            [
+              58,
+              "Mike Rooth",
+              "Batman, The Swamp Thing, TMNT: The Last Ronin",
+              "comics"
+            ],
+            [
+              59,
+              "Mostafa Moussa",
+              "Godzilla: Rulers of Earth, Red Sonja: Age of Chaos, Teenage Mutant Ninja Turtles",
+              "comics"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'OCT. 30 TO NOV. 1, 2026 RBC CONVENTION CENTRE'; hero image labelled 'DON'T MISS WINNIPEG COMICCON 6TH EDITION'"
     }
   ],
-  "checked": "2026-10-20",
-  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition. 2026-10-07 refresh: added Nhut Le (#27) and Veronica Taylor (#33) from the 2026-10-07 render, where both sit under Featured Guests; removed Michael Ironside, who now appears (#39) under the page's POSTPONED section, like Giancarlo Esposito and Troy Baker. 2026-10-14 refresh: added Bart Sears, Bernard Chang, Ghoulish Gary Pullin, Kevin Maguire, Rick Leonardi, Emilia Strilchuk, Jeff Spokes, Kalman Andrasofszky, Richard Comely and Sami Francis from the 2026-10-14 render, where they sit under Featured Guests / Guests; no picked guest was missing. 2026-10-16 refresh: added Alex Stornel, Chloe Sky and Devoe Cosplay (#39-41 of the 2026-10-16 render, Masquerade Judges listed under Guests); Ghoulish Gary Pullin and Richard Comely were already picked; every earlier pick is still on the page. 2026-10-20 refresh: added Gee the Ghost, Kiri Cosplay and Randy (#44, #48, #50 of the 2026-10-20 render, Cosplay-Eh! judges listed under Guests with autograph slots); every earlier pick is still on the page."
+  "checked": "2026-10-23",
+  "notes": "The given URL winnipegcomiccon.com times out; the live site is comicconwinnipeg.com (updated url field). Skipped #37 Giancarlo Esposito and #38 Troy Baker: both listed under a 'POSTPONED' section, not attending this edition. 2026-10-07 refresh: added Nhut Le (#27) and Veronica Taylor (#33) from the 2026-10-07 render, where both sit under Featured Guests; removed Michael Ironside, who now appears (#39) under the page's POSTPONED section, like Giancarlo Esposito and Troy Baker. 2026-10-14 refresh: added Bart Sears, Bernard Chang, Ghoulish Gary Pullin, Kevin Maguire, Rick Leonardi, Emilia Strilchuk, Jeff Spokes, Kalman Andrasofszky, Richard Comely and Sami Francis from the 2026-10-14 render, where they sit under Featured Guests / Guests; no picked guest was missing. 2026-10-16 refresh: added Alex Stornel, Chloe Sky and Devoe Cosplay (#39-41 of the 2026-10-16 render, Masquerade Judges listed under Guests); Ghoulish Gary Pullin and Richard Comely were already picked; every earlier pick is still on the page. 2026-10-20 refresh: added Gee the Ghost, Kiri Cosplay and Randy (#44, #48, #50 of the 2026-10-20 render, Cosplay-Eh! judges listed under Guests with autograph slots); every earlier pick is still on the page. 2026-10-23 refresh: added Jaz Sinclair and ten creators (#21, #40, #42, #43, #45, #49, #50, #52, #53, #58, #59 of the 2026-10-23 render, listed under Featured Guests / Guests); David Finch (#64) sits under the POSTPONED section and was skipped, and every earlier pick is still on the page."
 }

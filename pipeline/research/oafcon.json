@@ -91,16 +91,10 @@
           ]
         }
       ],
-      "textOnlyGuests": [
-        [
-          "Daniel Scott Jr.",
-          "Pop-culture portraits made from candy wrappers",
-          "other"
-        ]
-      ],
+      "textOnlyGuests": [],
       "evidence": "Homepage: 'OAFCON 2026 October 23rd - 25th, 2026 Embassy Suites Norman Hotel & Conference Center Norman, OK'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The real official site is oafcomiccon.com - the seed URL oafcon.com is an unrelated pre-launch placeholder page and was not used. Larry Hama was announced as a guest but his section on the guests page is explicitly marked 'CANCELED' next to his comic covers, so he is skipped per the cancelled-guest rule. Known-for text for the artist guests (Golden, Hall, de la Rosa, Cabarga, Tollin, Saunders) is drawn from the comic-cover image filenames shown on their guest cards, since the page has no separate bio paragraph for most of them. Refresh 2026-10-05: added Jason Heil and Daniel Scott Jr., two new guest sections on the guests page (rendered 2026-10-05, same page headed '2026 GUESTS'); Daniel Scott Jr.'s section has only unlabelled photos (card text is a file name), so he is listed as text-only rather than picked."
+  "checked": "2026-10-23",
+  "notes": "The real official site is oafcomiccon.com - the seed URL oafcon.com is an unrelated pre-launch placeholder page and was not used. Larry Hama was announced as a guest but his section on the guests page is explicitly marked 'CANCELED' next to his comic covers, so he is skipped per the cancelled-guest rule. Known-for text for the artist guests (Golden, Hall, de la Rosa, Cabarga, Tollin, Saunders) is drawn from the comic-cover image filenames shown on their guest cards, since the page has no separate bio paragraph for most of them. Refresh 2026-10-05: added Jason Heil and Daniel Scott Jr., two new guest sections on the guests page (rendered 2026-10-05, same page headed '2026 GUESTS'); Daniel Scott Jr.'s section has only unlabelled photos (card text is a file name), so he is listed as text-only rather than picked. 2026-10-23 refresh: no changes; the page still shows the 2026 GUESTS lineup (23-25 October 2026); new card positions #38, #39, #40 are additional images for the Daniel Scott Jr. text-only section (pop-culture portraits made from candy wrappers), already counted. Correction 2026-10-23: the new cards #38-#40 are Daniel Scott Jr.'s section, which today's render shows stamped 'Unable to Attend' (card screenshots), so he was removed from textOnlyGuests; no new guests."
 }

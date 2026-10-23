@@ -91,12 +91,35 @@
               "creator"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/con-nichiwa-r20261023.guests.json",
+          "picks": [
+            [
+              2,
+              "LoloMendozaArt",
+              "Digital artist, animator and comic artist",
+              "creator"
+            ],
+            [
+              3,
+              "The Keyframes",
+              "Arizona musical-comedy trio",
+              "music"
+            ],
+            [
+              4,
+              "Skully Sinful",
+              "Independent VTuber",
+              "creator"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'Con Nichiwa October 30 - November 1, 2026 | DoubleTree by Hilton Hotel Tucson - Reid Park'; JSON-LD Event confirms same dates/venue."
     }
   ],
-  "checked": "2026-10-08",
-  "notes": "2026-10-08 refresh: added Milky Wayz, a new VTuber guest card on the official guests page; nobody picked was missing."
+  "checked": "2026-10-23",
+  "notes": "2026-10-08 refresh: added Milky Wayz, a new VTuber guest card on the official guests page; nobody picked was missing. 2026-10-23 refresh: added LoloMendozaArt, The Keyframes and Skully Sinful (new guest cards on the official guests page, whose header shows Con Nichiwa October 30 - November 1, 2026); nobody picked was missing."
 }
