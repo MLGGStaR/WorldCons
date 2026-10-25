@@ -69,12 +69,6 @@
               "comics"
             ],
             [
-              9,
-              "Ken Lashley",
-              "Comic Book Artist / Illustrator",
-              "comics"
-            ],
-            [
               10,
               "Robb Pratt",
               "Animator",
@@ -185,12 +179,41 @@
               "animation"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/sharjah-animation-and-comics-conference-r20261025.guests.json",
+          "picks": [
+            [
+              10,
+              "Craig Fairbrass",
+              "Actor / Voice-Actor",
+              "actor"
+            ],
+            [
+              11,
+              "Spencer Wilding",
+              "Actor / Stunt Performer",
+              "actor"
+            ],
+            [
+              25,
+              "Harvey Tolibao",
+              "Comic Book Artist / Illustrator",
+              "comics"
+            ],
+            [
+              26,
+              "Freely Abrigo",
+              "Comic Book Artist / Illustrator",
+              "comics"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: '22 – 25 October 2026' at Aljada, Sharjah; JSON-LD Event 2026-10-22 to 2026-10-25"
     }
   ],
-  "checked": "2026-10-23",
-  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page. 2026-10-11 refresh: added Theodore Salisbury, Guy Gilchrist and Kelly Warnell (new speaker cards #8, #10, #26 on the speakers page) and removed Mounia Aram, Minasie Terefe and Abdulrahman Khedr, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-14 refresh: added Pietro Pinetti, Chuck Patton, Keith Fay, Byun Seung-min and Hal Laren (new speaker cards #7, #13, #16, #17, #24) and Lee Bradley (back on the speakers page as #23); removed Abdullah Moatasem, Ashish Thapar, Ammar Sabban, Saud Boksmati, Aya Hammad and Alex Rodrigues, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-15 refresh: Joseph Montange and Marko Matijašević (new cards #19, #26) were already picked from the r20261015 render; removed Mehdi Aouichaoui and Jehan Al Nasser, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-15 refresh: added Joseph Montange and Marko Matijašević (new speaker cards #19, #26 on the speakers page) and removed Mehdi Aouichaoui and Jehan Al Nasser, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-20 refresh: added Peipei Yuan (new speaker card #10) and Mehdi Aouichaoui (back on the speakers page as #27); removed Gus Vazquez and Chuck Patton, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-21 refresh: removed Byun Seung-min, who is absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-23 refresh: removed Zumrut Pakoy and Keith Fay, who are absent from todays render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them); the page still shows the SACC 2026 lineup (22-25 October 2026), no new cards. 2026-10-23 refresh: removed Zumrut Pakoy and Keith Fay, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them); the page still shows the SACC 2026 lineup (22 - 25 October 2026), no new cards."
+  "checked": "2026-10-25",
+  "notes": "Fixup note guessed Expo Centre Sharjah; official site confirms the venue is Aljada, Sharjah. 2026-10-06 refresh: added Jehan Al Nasser and Essam Al Sayed (new speaker cards on the speakers page) and removed Lee Bradley and Nathalie Habib, who are absent from today's render and from a second fresh render of the speakers page (no other speaker page lists them). 2026-10-07 refresh: added Zumrut Pakoy (new speaker card #18 on the speakers page) and removed Essam Al Sayed, who is absent from today's render and from a second fresh render of the speakers page. 2026-10-11 refresh: added Theodore Salisbury, Guy Gilchrist and Kelly Warnell (new speaker cards #8, #10, #26 on the speakers page) and removed Mounia Aram, Minasie Terefe and Abdulrahman Khedr, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-14 refresh: added Pietro Pinetti, Chuck Patton, Keith Fay, Byun Seung-min and Hal Laren (new speaker cards #7, #13, #16, #17, #24) and Lee Bradley (back on the speakers page as #23); removed Abdullah Moatasem, Ashish Thapar, Ammar Sabban, Saud Boksmati, Aya Hammad and Alex Rodrigues, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-15 refresh: Joseph Montange and Marko Matijašević (new cards #19, #26) were already picked from the r20261015 render; removed Mehdi Aouichaoui and Jehan Al Nasser, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-15 refresh: added Joseph Montange and Marko Matijašević (new speaker cards #19, #26 on the speakers page) and removed Mehdi Aouichaoui and Jehan Al Nasser, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-20 refresh: added Peipei Yuan (new speaker card #10) and Mehdi Aouichaoui (back on the speakers page as #27); removed Gus Vazquez and Chuck Patton, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-21 refresh: removed Byun Seung-min, who is absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them). 2026-10-23 refresh: removed Zumrut Pakoy and Keith Fay, who are absent from todays render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them); the page still shows the SACC 2026 lineup (22-25 October 2026), no new cards. 2026-10-23 refresh: removed Zumrut Pakoy and Keith Fay, who are absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list them); the page still shows the SACC 2026 lineup (22 - 25 October 2026), no new cards. 2026-10-25 refresh: added Craig Fairbrass, Spencer Wilding, Harvey Tolibao and Freely Abrigo (new speaker cards #10, #11, #25, #26 on the speakers page, which still shows SACC 2026, 22 - 25 October 2026) and removed Ken Lashley, who is absent from today's render and from a second fresh render of the speakers page (the cosplay and meet-the-artist pages do not list him)."
 }

@@ -569,12 +569,29 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/grand-rapids-comic-con-r20261015-r20261025.guests.json",
+          "picks": [
+            [
+              3,
+              "Linda Larkin",
+              "Jasmine, Aladdin",
+              "voice"
+            ],
+            [
+              29,
+              "Luke Holt",
+              "",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: \"Save the Date! November 13-15, 2026 The DeVos Place 303 Monroe Ave NW, Grand Rapids, MI 49503\" and video caption \"Grand Rapids Comic-Con | November 13-15, 2026!\" (the page's own meta description says Nov 14-16, but the visible on-page text agrees twice on Nov 13-15, so that was used)."
     }
   ],
-  "checked": "2026-10-23",
-  "notes": "Guests are split across 5 category pages (media/comic/literary/streaming/cosplay guests); each is cited as its own lineup entry. Company/exhibitor booths shown among the comic guests (Kapow School, Caliber Comics, Drawing Blood Comics, CGC, MAS Authentication) and streaming guests (Channel Awesome) were excluded as not individual people. All-caps names were converted to normal capitalisation; most cards show only a name and photo with no bio, so known-for is left blank for guests not confidently identifiable from public knowledge. 2026-10-06 refresh: added Mark Bloodworth and Jose Marzan Jr (comic guests page) and Evan Heuker (literary guests page, Friday only); names only on cards, known-for left blank. 2026-10-11 refresh: added Sarah Rees Brennan (Friday only), a new card on the literary guests page; Brigid Kemmerer was already picked; name only on card, known-for left blank; nobody picked was missing. 2026-10-14 refresh: added Andrew J Ferchland and David Morrissey (media guests page) and Jay Fosgitt (comic guests page), new name-only cards in today's render; nobody picked was missing. 2026-10-15 refresh: added Jimmy \"Mouth of the South\" Hart and Jessie T Usher, new name-only cards on the media guests page in today's render; nobody picked was missing. 2026-10-15 second pass: added Steve Orlando (comic guests page) and Roger Christian (literary guests page, Friday only), new name-only cards in today's renders; nobody picked was missing. 2026-10-23 refresh: added Rhyno and William Forsythe, new name-only cards on the media guests page in today's render; nobody picked was missing. 2026-10-23 second pass: added Thom Zahler and Seth Damoose, new name-only cards on the comic guests page in today's render; no picked guest has disappeared from either page."
+  "checked": "2026-10-25",
+  "notes": "Guests are split across 5 category pages (media/comic/literary/streaming/cosplay guests); each is cited as its own lineup entry. Company/exhibitor booths shown among the comic guests (Kapow School, Caliber Comics, Drawing Blood Comics, CGC, MAS Authentication) and streaming guests (Channel Awesome) were excluded as not individual people. All-caps names were converted to normal capitalisation; most cards show only a name and photo with no bio, so known-for is left blank for guests not confidently identifiable from public knowledge. 2026-10-06 refresh: added Mark Bloodworth and Jose Marzan Jr (comic guests page) and Evan Heuker (literary guests page, Friday only); names only on cards, known-for left blank. 2026-10-11 refresh: added Sarah Rees Brennan (Friday only), a new card on the literary guests page; Brigid Kemmerer was already picked; name only on card, known-for left blank; nobody picked was missing. 2026-10-14 refresh: added Andrew J Ferchland and David Morrissey (media guests page) and Jay Fosgitt (comic guests page), new name-only cards in today's render; nobody picked was missing. 2026-10-15 refresh: added Jimmy \"Mouth of the South\" Hart and Jessie T Usher, new name-only cards on the media guests page in today's render; nobody picked was missing. 2026-10-15 second pass: added Steve Orlando (comic guests page) and Roger Christian (literary guests page, Friday only), new name-only cards in today's renders; nobody picked was missing. 2026-10-23 refresh: added Rhyno and William Forsythe, new name-only cards on the media guests page in today's render; nobody picked was missing. 2026-10-23 second pass: added Thom Zahler and Seth Damoose, new name-only cards on the comic guests page in today's render; no picked guest has disappeared from either page. 2026-10-25 refresh: added Linda Larkin (known-for from general knowledge) and Luke Holt (category and known-for could not be confirmed, so other/blank), new name-only cards on the media guests page in today's render; nobody picked was missing. 2026-10-25: re-rendered media-guests page; its new cards Linda Larkin and Luke Holt were already picked; no picked guest missing."
 }

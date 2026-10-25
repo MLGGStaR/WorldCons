@@ -73,12 +73,6 @@
               "comics"
             ],
             [
-              7,
-              "Matt Fraction",
-              "",
-              "comics"
-            ],
-            [
               8,
               "Lee Garbett",
               "",
@@ -475,6 +469,6 @@
       "evidence": "Homepage/guests page text: 'Comic Convention | 14 & 15 November 2026 | Harrogate Convention Centre, England' and 'Guests will be at Thought Bubble Comic Convention Saturday 14 & Sunday 15 November 2026 at Harrogate Convention Centre.'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "The wider 'festival' runs 9-15 Nov 2026 across Yorkshire venues, but the ticketed comic convention itself (the entry recorded here) is the 14-15 Nov weekend at Harrogate Convention Centre. The guests page shows 73 named creators as plain photo cards with no known-for text (only two carry a day restriction, 'Saturday Only' / 'Sunday Only'); all are comics creators per the festival's own focus, so cat is 'comics' for all and Known-for is left blank except those two day notes. Candidates #73-85 on that page are sponsor/exhibitor banner ads, not guests, and were skipped."
+  "checked": "2026-10-25",
+  "notes": "The wider 'festival' runs 9-15 Nov 2026 across Yorkshire venues, but the ticketed comic convention itself (the entry recorded here) is the 14-15 Nov weekend at Harrogate Convention Centre. The guests page shows 73 named creators as plain photo cards with no known-for text (only two carry a day restriction, 'Saturday Only' / 'Sunday Only'); all are comics creators per the festival's own focus, so cat is 'comics' for all and Known-for is left blank except those two day notes. Candidates #73-85 on that page are sponsor/exhibitor banner ads, not guests, and were skipped. 2026-10-25 refresh: removed Matt Fraction, whose card is gone from the guests page in today's render (the list is alphabetical and not a rotating selection); no new cards."
 }
