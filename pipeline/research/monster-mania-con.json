@@ -305,12 +305,35 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/monster-mania-con-2-r20261026.guests.json",
+          "picks": [
+            [
+              20,
+              "Celeste O'Connor",
+              "Scream 7, Ghostbusters: Afterlife, Freaky",
+              "actor"
+            ],
+            [
+              23,
+              "Jeremy Conner",
+              "Ghostface in Scream 7, Tusk, The Walking Dead",
+              "actor"
+            ],
+            [
+              28,
+              "Cooper Tomlinson",
+              "Obsession, Milk & Serial, Dutton Ranch",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'MONSTER-MANIA 69 NOV. 20 -22, 2026 OAKS, PA'; guest page repeats 'NOVEMBER 20 – 22, 2026' with venue block 'THE GREATER PHILADELPHIA EXPO CENTER 100 Station Avenue Oaks, Pennsylvania 19456'"
     }
   ],
-  "checked": "2026-10-25",
-  "notes": "Monster-Mania is one continuously-numbered convention series (MMC 67, 68, 69…) that tours a small set of Mid-Atlantic venues rather than running separate permanent per-city brands, so both upcoming numbered shows are recorded as editions of this one file; MMC 67 (Cherry Hill, NJ — the batch's suggested place — ran Aug 14-16, 2026, already before the research window). Neither guest page's image carousel exposes any caption text/alt in the rendered DOM (every candidate came back with blank text), so every guest name here was read from its photo's own filename instead (e.g. 'Cassandra-Peterson_2026.jpg', 'Matthew-Lillard_2026.jpg'), which is why Known For is left blank throughout per the name-only-card rule; categories are assigned from general knowledge of these public figures (mostly Halloween/Terrifier/Scream-franchise actors). Two entries are lower-confidence: 'Scott Jackson' (filename 'Scott-Jackson-Buz-2025.jpg' has an unexplained extra '-Buz-' token that was dropped) and 'Brian Pekinas' (role unknown). Venue names are my best resolution of the on-page hotel/venue address blocks (Hilton's Baltimore Inner Harbor property at 401 W. Pratt St.; the Greater Philadelphia Expo Center at 100 Station Avenue, Oaks, PA). 2026-10-11 refresh: added Linda Blair and Melissa Barrera (new guest banners on the MMC 68 page, names printed on the banners); skipped #3 (photo-ops ad) and #33 (Eugene Clark, a 2021 banner of an actor who died in 2018, not presented as a current guest); no picked guest was missing today. 2026-10-16 refresh: added Devon Sawa, Jamie Kennedy, Ola Ray and the duo Scott Jackson & Buz Hasson from new banner cards on the MMC 69 page in today's render (names and credits printed on the banners, read from card screenshots); Jamie Kennedy was already on an earlier render but unpicked; nobody picked was missing. 2026-10-20 refresh: removed Elliott Fulham, whose banner (#8 of the 2026-10-20 render, read from a card screenshot) is now stamped CANCELED; added Jonathan Tison (#18, \"1st MMC appearance\" banner, name and credits printed on it); every other pick was still on the page. 2026-10-21 refresh: added Zachary Arthur, Darin Toonder and Jerry Wallace, new guest banners on the MMC 69 page in today's render (names and credits printed on the banners, read from card screenshots); skipped #3 (photo-ops ad); nobody picked was missing. 2026-10-25 refresh: added Patricia Arquette, Lin Shaye, David Arquette, Nico Tortorella and Erik Knudsen to MMC 69, new banner cards in today's render whose names and credits are printed on the banners (read from card screenshots); nobody picked was missing."
+  "checked": "2026-10-26",
+  "notes": "Monster-Mania is one continuously-numbered convention series (MMC 67, 68, 69…) that tours a small set of Mid-Atlantic venues rather than running separate permanent per-city brands, so both upcoming numbered shows are recorded as editions of this one file; MMC 67 (Cherry Hill, NJ — the batch's suggested place — ran Aug 14-16, 2026, already before the research window). Neither guest page's image carousel exposes any caption text/alt in the rendered DOM (every candidate came back with blank text), so every guest name here was read from its photo's own filename instead (e.g. 'Cassandra-Peterson_2026.jpg', 'Matthew-Lillard_2026.jpg'), which is why Known For is left blank throughout per the name-only-card rule; categories are assigned from general knowledge of these public figures (mostly Halloween/Terrifier/Scream-franchise actors). Two entries are lower-confidence: 'Scott Jackson' (filename 'Scott-Jackson-Buz-2025.jpg' has an unexplained extra '-Buz-' token that was dropped) and 'Brian Pekinas' (role unknown). Venue names are my best resolution of the on-page hotel/venue address blocks (Hilton's Baltimore Inner Harbor property at 401 W. Pratt St.; the Greater Philadelphia Expo Center at 100 Station Avenue, Oaks, PA). 2026-10-11 refresh: added Linda Blair and Melissa Barrera (new guest banners on the MMC 68 page, names printed on the banners); skipped #3 (photo-ops ad) and #33 (Eugene Clark, a 2021 banner of an actor who died in 2018, not presented as a current guest); no picked guest was missing today. 2026-10-16 refresh: added Devon Sawa, Jamie Kennedy, Ola Ray and the duo Scott Jackson & Buz Hasson from new banner cards on the MMC 69 page in today's render (names and credits printed on the banners, read from card screenshots); Jamie Kennedy was already on an earlier render but unpicked; nobody picked was missing. 2026-10-20 refresh: removed Elliott Fulham, whose banner (#8 of the 2026-10-20 render, read from a card screenshot) is now stamped CANCELED; added Jonathan Tison (#18, \"1st MMC appearance\" banner, name and credits printed on it); every other pick was still on the page. 2026-10-21 refresh: added Zachary Arthur, Darin Toonder and Jerry Wallace, new guest banners on the MMC 69 page in today's render (names and credits printed on the banners, read from card screenshots); skipped #3 (photo-ops ad); nobody picked was missing. 2026-10-25 refresh: added Patricia Arquette, Lin Shaye, David Arquette, Nico Tortorella and Erik Knudsen to MMC 69, new banner cards in today's render whose names and credits are printed on the banners (read from card screenshots); nobody picked was missing. 2026-10-26 refresh: added Celeste O'Connor, Jeremy Conner and Cooper Tomlinson to MMC 69, new banner cards (#20, #23, #28 of today's render) whose names and credits are printed on the banners (read from card screenshots); nobody picked was missing."
 }

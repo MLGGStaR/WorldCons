@@ -131,12 +131,23 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/chicago-tardis-r20261026.guests.json",
+          "picks": [
+            [
+              7,
+              "Nicola Bryant",
+              "Peri Brown in Doctor Who",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: \"NOVEMBER 27-29, 2026 WESTIN CHICAGO LOMBARD\" with a live countdown to \"Chicago TARDIS 2026\""
     }
   ],
-  "checked": "2026-10-21",
-  "notes": "Guests page lists Doctor Who actors alongside Big Finish Productions audio-drama cast and crew; producers/writers (Jason Haigh-Ellery, Rob Shearman, Lizzie Worsdell) are filed as 'other' since they are not on-screen performers. Jodie Whittaker and Alexander Devrient are noted as appearing only Friday/Saturday but are still part of the announced lineup. Refresh 2026-10-21: the guests page now also lists Christopher Jones (Comic Artist, appearing all three days); added him, all earlier picks are still on the page."
+  "checked": "2026-10-26",
+  "notes": "Guests page lists Doctor Who actors alongside Big Finish Productions audio-drama cast and crew; producers/writers (Jason Haigh-Ellery, Rob Shearman, Lizzie Worsdell) are filed as 'other' since they are not on-screen performers. Jodie Whittaker and Alexander Devrient are noted as appearing only Friday/Saturday but are still part of the announced lineup. Refresh 2026-10-21: the guests page now also lists Christopher Jones (Comic Artist, appearing all three days); added him, all earlier picks are still on the page. Refresh 2026-10-26: the guests page now also lists Nicola Bryant (Peri Brown, appearing all three days); added her, all earlier picks are still on the page."
 }

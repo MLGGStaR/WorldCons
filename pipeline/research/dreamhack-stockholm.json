@@ -630,50 +630,9 @@
           "file": "pipeline/cache/extract/dreamhack-stockholm-v2c-r20261006-r20261016.guests.json",
           "picks": [
             [
-              19,
-              "Louerin",
-              "",
-              "creator"
-            ],
-            [
-              22,
-              "pessinen",
-              "",
-              "creator"
-            ],
-            [
-              30,
-              "oMods",
-              "",
-              "creator"
-            ],
-            [
-              31,
-              "N0carter",
-              "",
-              "creator"
-            ],
-            [
               44,
               "Zenithjamie",
               "",
-              "creator"
-            ],
-            [
-              45,
-              "PlopparnTV",
-              "",
-              "creator"
-            ]
-          ]
-        },
-        {
-          "file": "pipeline/cache/extract/dreamhack-stockholm-v2c-r20261005-r20261008-r20261014-r20261016.guests.json",
-          "picks": [
-            [
-              42,
-              "KekuCake",
-              "Creator Hub creator",
               "creator"
             ]
           ]
@@ -699,50 +658,8 @@
           "file": "pipeline/cache/extract/dreamhack-stockholm-v2c-r20261006-r20261021.guests.json",
           "picks": [
             [
-              8,
-              "Stargirl",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              9,
-              "Alex Tidström",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              12,
-              "KrazeyHazey",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              18,
-              "Emion",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
               19,
               "MollyJosefin",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              22,
-              "LiamBlakeOfficial",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              25,
-              "Blondiinen",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              27,
-              "kleinert_",
               "Creator Hub creator",
               "creator"
             ],
@@ -753,56 +670,8 @@
               "creator"
             ],
             [
-              29,
-              "OnlyJoshinTV",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              31,
-              "Elr00p",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
               32,
               "The_Tom",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              34,
-              "JarJar",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              35,
-              "amatusan3",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              36,
-              "Appoh",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              38,
-              "littl3bean",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              39,
-              "ThatGuyFisk",
-              "Creator Hub creator",
-              "creator"
-            ],
-            [
-              40,
-              "Magnavolt",
               "Creator Hub creator",
               "creator"
             ],
@@ -811,16 +680,92 @@
               "AimBotxo",
               "Creator Hub creator",
               "creator"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/dreamhack-stockholm-r20261026.guests.json",
+          "picks": [
+            [
+              23,
+              "Andrew Wincott",
+              "Voice actor",
+              "voice"
             ],
             [
-              47,
-              "Averageshad",
+              29,
+              "Lilla Al-Fadji",
+              "",
+              "other"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/dreamhack-stockholm-v2c-r20261006-r20261026.guests.json",
+          "picks": [
+            [
+              3,
+              "Hellbenny",
               "Creator Hub creator",
               "creator"
             ],
             [
-              48,
-              "BobinsSWE",
+              6,
+              "dennismyshop",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              7,
+              "memimsy",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              18,
+              "Krokryggen",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              19,
+              "TeaLivez",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              20,
+              "Alfhilde",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              22,
+              "whizzski",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              26,
+              "itsmeSMG",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              28,
+              "EnglishBen",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              29,
+              "LaSwedish",
+              "Creator Hub creator",
+              "creator"
+            ],
+            [
+              41,
+              "Eric Viking",
               "Creator Hub creator",
               "creator"
             ]
@@ -831,6 +776,6 @@
       "evidence": "Stockholm page text: 'November 27 - 29, 2026 ... STOCKHOLMSMASSAN'. The page's own JSON-LD 'Festival' entry carries a stale 2025-11-28 date, which was disregarded in favor of the consistent visible header/body text."
     }
   ],
-  "checked": "2026-10-21",
-  "notes": "DreamHack Stockholm is a gaming/esports festival rather than a classic guest-signing convention; the homepage itself only calls out two headline acts (bbno$ performing live; hololive hosting livestreams/meet-and-greets). Recheck pass (2026-10-05): the site's own 'Creators' nav tab leads to a dedicated Creator Hub page (dreamhack.com/stockholm/creator-hub/) naming 42 individual streamers/influencers accepted into the 2026 Creator Program (each card tagged '_2026', with Twitch/TikTok/YouTube/Instagram/X handles) -- these were missing from the original pass entirely. The Cosplay page (.../cosplay/) separately names 3 Cosplay Judges (Nukleara, Keksballs, Kuroru) and a 'Presented By' roster of 79 more creator-program streamers skewed toward cosplay content, 7 of whom also appear on the Creator Hub page (picked once, from the Creator Hub file, per the one-guest-one-pick rule) -- the other 72 plus the 3 judges are picked from the cosplay file. All ~117 added guests are cat 'creator' (or 'cosplay' for the judges); none have a fuller bio on these cards beyond their handle and platform icons, so known-for records the platforms shown. The separate Artist Alley page (.../artist-alley/) was also checked and correctly excluded: its ~83 tiles are vendor booths with Booth-ID tags (independent merch/craft sellers), which RESEARCH.md's rule explicitly skips as 'vendors'/'artist-alley tables', not announced guests -- confirmed by zero name overlap with the Creator Hub / Cosplay rosters. The Creator Program application page itself (.../creator-program/) is a generic 'apply here' page (applications closed Sept 30) with no additional names. Refresh 2026-10-16: removed 46 creators from v2c-r20261005-r20261008-r20261014 file (luuminizer, Lillibells, Nordicustoms, EkaZo, PixelGamingMama, sl3minem, Xdaysweden, Yung, ingakonstigheter.se, Daytone, JessydeLua, itsGlorbie, Eldritzh, maaooow, ASecretToEverybody, Hermanoerkano, KingBushCamp, MichelleR, TheWakingHat, Erik Rosenstrale, Virre, Basiliisk, Divvity, Kaiitania, Mimmz, marcustechnology, ItsMadsern, Steven, hekimae, flyr, DivineCarly, NeonGutz, BoldViking, sofibear, ElinaJasmin, Yagopoison, tsvilla, Stealthygolem, al3xxxandra, perringx, snowmarite, Berone, LieHehe, ilyaRAIDEN, FrippeGG, Pernille_HH) and 19 from v2c-r20261006-r20261015 file who do not appear on fresh renders of creator-hub, guests or cosplay pages today. Refresh 2026-10-21: added Carolina Ravassa and Jonny Cruz (voice actors) from the main page 2026 GUESTS row, and 21 more Creator Hub creators (cards tagged _2026 on the Creator Hub page) not yet picked; Maidcafe and cosplay schedule tiles skipped as activities, not guests. PogiePaw, proxyfox and allykitti no longer appear on Creator Hub but are still listed on the Cosplay page today, so they were kept. Refresh 2026-10-21 (second pass): additions had already been made by an earlier pass today; removed 33 creators (Fishyyftw, TheHotCross, maxadrums, nellyyqwq, MissMikkaa, Beatricellen, kyaniites, Human_Siri, LillemanTTV, TheRealKenzo, Centane, Anjisdagbok, Mario Dada, SmoothestMango, Cartmens, McFeastX, mary_tcg, Lusselive, Mishurba, ChilledLuck, Baskeh, x_dura, ibraofc, TicanUK, c0mparn, Ville Hedberg, Budalica, ArdyIRL, StubbenGaming, IndiianaB, Moamos, LikeAShelly, Unforgotten) who appear on none of the fresh creator-hub, guests or cosplay renders; the lineup is still this edition (2026 tags, Nov 27-29 2026 header) so it stays announced. Octavio kept (listed on the guests page); the guests page also lists more hololive guests and ChessParty contributors not yet picked."
+  "checked": "2026-10-26",
+  "notes": "DreamHack Stockholm is a gaming/esports festival rather than a classic guest-signing convention; the homepage itself only calls out two headline acts (bbno$ performing live; hololive hosting livestreams/meet-and-greets). Recheck pass (2026-10-05): the site's own 'Creators' nav tab leads to a dedicated Creator Hub page (dreamhack.com/stockholm/creator-hub/) naming 42 individual streamers/influencers accepted into the 2026 Creator Program (each card tagged '_2026', with Twitch/TikTok/YouTube/Instagram/X handles) -- these were missing from the original pass entirely. The Cosplay page (.../cosplay/) separately names 3 Cosplay Judges (Nukleara, Keksballs, Kuroru) and a 'Presented By' roster of 79 more creator-program streamers skewed toward cosplay content, 7 of whom also appear on the Creator Hub page (picked once, from the Creator Hub file, per the one-guest-one-pick rule) -- the other 72 plus the 3 judges are picked from the cosplay file. All ~117 added guests are cat 'creator' (or 'cosplay' for the judges); none have a fuller bio on these cards beyond their handle and platform icons, so known-for records the platforms shown. The separate Artist Alley page (.../artist-alley/) was also checked and correctly excluded: its ~83 tiles are vendor booths with Booth-ID tags (independent merch/craft sellers), which RESEARCH.md's rule explicitly skips as 'vendors'/'artist-alley tables', not announced guests -- confirmed by zero name overlap with the Creator Hub / Cosplay rosters. The Creator Program application page itself (.../creator-program/) is a generic 'apply here' page (applications closed Sept 30) with no additional names. Refresh 2026-10-16: removed 46 creators from v2c-r20261005-r20261008-r20261014 file (luuminizer, Lillibells, Nordicustoms, EkaZo, PixelGamingMama, sl3minem, Xdaysweden, Yung, ingakonstigheter.se, Daytone, JessydeLua, itsGlorbie, Eldritzh, maaooow, ASecretToEverybody, Hermanoerkano, KingBushCamp, MichelleR, TheWakingHat, Erik Rosenstrale, Virre, Basiliisk, Divvity, Kaiitania, Mimmz, marcustechnology, ItsMadsern, Steven, hekimae, flyr, DivineCarly, NeonGutz, BoldViking, sofibear, ElinaJasmin, Yagopoison, tsvilla, Stealthygolem, al3xxxandra, perringx, snowmarite, Berone, LieHehe, ilyaRAIDEN, FrippeGG, Pernille_HH) and 19 from v2c-r20261006-r20261015 file who do not appear on fresh renders of creator-hub, guests or cosplay pages today. Refresh 2026-10-21: added Carolina Ravassa and Jonny Cruz (voice actors) from the main page 2026 GUESTS row, and 21 more Creator Hub creators (cards tagged _2026 on the Creator Hub page) not yet picked; Maidcafe and cosplay schedule tiles skipped as activities, not guests. PogiePaw, proxyfox and allykitti no longer appear on Creator Hub but are still listed on the Cosplay page today, so they were kept. Refresh 2026-10-21 (second pass): additions had already been made by an earlier pass today; removed 33 creators (Fishyyftw, TheHotCross, maxadrums, nellyyqwq, MissMikkaa, Beatricellen, kyaniites, Human_Siri, LillemanTTV, TheRealKenzo, Centane, Anjisdagbok, Mario Dada, SmoothestMango, Cartmens, McFeastX, mary_tcg, Lusselive, Mishurba, ChilledLuck, Baskeh, x_dura, ibraofc, TicanUK, c0mparn, Ville Hedberg, Budalica, ArdyIRL, StubbenGaming, IndiianaB, Moamos, LikeAShelly, Unforgotten) who appear on none of the fresh creator-hub, guests or cosplay renders; the lineup is still this edition (2026 tags, Nov 27-29 2026 header) so it stays announced. Octavio kept (listed on the guests page); the guests page also lists more hololive guests and ChessParty contributors not yet picked. Refresh 2026-10-26: the homepage \"2026 Guests\" section now lists Andrew Wincott (Voice Actor) and Lilla Al-Fadji (Special Guest, card gives no further credit); added them. The 2026-10-23 \"Welcome to the Community Hall\" update tile was skipped as news, not a guest. Refresh 2026-10-26 (update-06): added 11 Creator Hub creators (Hellbenny, dennismyshop, memimsy, Krokryggen, TeaLivez, Alfhilde, whizzski, itsmeSMG, EnglishBen, LaSwedish, Eric Viking) from cards tagged _2026 on today's Creator Hub render; EllenViking, Andrew Wincott and Lilla Al-Fadji were already picked. Nothing removed: PogiePaw, proxyfox and allykitti are still on the Cosplay page today, and Octavio is on a fresh render of the All Guests page. Refresh 2026-10-26 (second pass): the Creator Hub page (still headed 2026, Nov 27-29) now lists 41 cards; a repeat fresh render was identical and the guests and cosplay pages were re-rendered too. Added 11 new Creator Hub creators (Hellbenny, dennismyshop, memimsy, Krokryggen, TeaLivez, Alfhilde, whizzski, itsmeSMG, EnglishBen, LaSwedish, Eric Viking); Rox, Shagarita, hotcrossbuntv and kazemaru were already picked from the cosplay file. Removed 23 creators (Louerin, pessinen, oMods, N0carter, PlopparnTV, KekuCake, Stargirl, Alex Tidstrom, KrazeyHazey, Emion, LiamBlakeOfficial, Blondiinen, kleinert_, OnlyJoshinTV, Elr00p, JarJar, amatusan3, Appoh, littl3bean, ThatGuyFisk, Magnavolt, Averageshad, BobinsSWE) who appear on none of the Creator Hub, All Guests (two fresh renders), Cosplay or homepage renders; Gaz0o, MollyJosefin and The_Tom stay because the All Guests page lists them, and the lineup remains announced."
 }
