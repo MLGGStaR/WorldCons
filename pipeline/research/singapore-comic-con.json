@@ -284,12 +284,107 @@
               "other"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/singapore-comic-con-r20261027.guests.json",
+          "picks": [
+            [
+              11,
+              "Danny Kim",
+              "",
+              "other"
+            ],
+            [
+              13,
+              "Daxiong",
+              "",
+              "other"
+            ],
+            [
+              17,
+              "Ellery",
+              "",
+              "other"
+            ],
+            [
+              18,
+              "Elvin Ching",
+              "",
+              "other"
+            ],
+            [
+              24,
+              "Ivan Tao",
+              "",
+              "other"
+            ],
+            [
+              29,
+              "Kwong Sai Kit",
+              "",
+              "other"
+            ],
+            [
+              30,
+              "Kwong Tung Yuen",
+              "",
+              "other"
+            ],
+            [
+              36,
+              "Mico Suayan",
+              "",
+              "comics"
+            ],
+            [
+              38,
+              "Neil Fanning",
+              "",
+              "other"
+            ],
+            [
+              42,
+              "Rin Tateishi",
+              "",
+              "other"
+            ],
+            [
+              43,
+              "Rockhe Lim",
+              "",
+              "other"
+            ],
+            [
+              46,
+              "Saowee",
+              "",
+              "other"
+            ],
+            [
+              50,
+              "Sukbin",
+              "",
+              "other"
+            ],
+            [
+              52,
+              "Terry Dodson",
+              "",
+              "comics"
+            ],
+            [
+              55,
+              "Tracy Lynn Cruz",
+              "",
+              "other"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: '4 December - The Ultimate Preview Night! 5pm - 9pm 5 - 6 December - 10.30am - 8pm' and 'Event Details Dates - 4 December 2026: Ultimate Preview Night 5pm - 9pm 5 - 6 December 2026 Venue: Mari[na Bay Sands Expo & Convention Centre]'."
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "Guest grid shows only a portrait and name per card, no credit text, so Known for is left blank except for 'Aka', confirmed by WebSearch as a Marvel cover artist (real name undisclosed, 'Aka' is her professional name — kept in title case rather than the card's all-caps 'AKA'). Card #16 reads 'KENDRINK LIM' but its image filename is 'Kendrick Kunkka Lim.png'; used 'Kendrick Lim' as the likely-correct spelling (own-site inconsistency, not a guess from outside the page) and left 'Kunkka' out since it reads as a separate handle/nickname, not confirmed. All 33 guests are comic artists/writers/industry figures (comic-artist convention), so all are categorised 'comics'. Refresh 2026-10-07: today's render of the guests page (5-6 December 2026, preview night 4 December) shows 8 more guest cards, added: Alex Sinclair, Harvey Tolibao (comics, known artists) and Amos the Fanboy, Dong Ho Kim, Formalynn, Hailey Gong, Jae Kwang Park, Maiimou (cards carry only a name, so cat other rather than guessed); all earlier picks are still on the page."
+  "checked": "2026-10-27",
+  "notes": "Guest grid shows only a portrait and name per card, no credit text, so Known for is left blank except for 'Aka', confirmed by WebSearch as a Marvel cover artist (real name undisclosed, 'Aka' is her professional name — kept in title case rather than the card's all-caps 'AKA'). Card #16 reads 'KENDRINK LIM' but its image filename is 'Kendrick Kunkka Lim.png'; used 'Kendrick Lim' as the likely-correct spelling (own-site inconsistency, not a guess from outside the page) and left 'Kunkka' out since it reads as a separate handle/nickname, not confirmed. All 33 guests are comic artists/writers/industry figures (comic-artist convention), so all are categorised 'comics'. Refresh 2026-10-07: today's render of the guests page (5-6 December 2026, preview night 4 December) shows 8 more guest cards, added: Alex Sinclair, Harvey Tolibao (comics, known artists) and Amos the Fanboy, Dong Ho Kim, Formalynn, Hailey Gong, Jae Kwang Park, Maiimou (cards carry only a name, so cat other rather than guessed); all earlier picks are still on the page. Refresh 2026-10-27: today's render of the guests page (5-6 December 2026, preview night 4 December; also compared with the 2026-10-07 render) shows 15 more guest cards, all added (cards carry only a name, so cat other except Mico Suayan and Terry Dodson, comics artists; known-for blank); all earlier picks are still on the page, nothing removed."
 }
