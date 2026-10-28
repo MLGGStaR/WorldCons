@@ -150,12 +150,41 @@
               "animation"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/manga-barcelona-r20261028.guests.json",
+          "picks": [
+            [
+              20,
+              "AR★Lu and Ronnie Kui",
+              "",
+              "cosplay"
+            ],
+            [
+              21,
+              "Míster Jägger",
+              "",
+              "creator"
+            ],
+            [
+              22,
+              "Aiobahn +81",
+              "",
+              "music"
+            ],
+            [
+              23,
+              "Koré Yamazaki",
+              "",
+              "animation"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: '32 MANGA BARCELONA 5 - 8 DESEMBRE 2026 FIRA BARCELONA GRAN VIA'"
     }
   ],
-  "checked": "2026-10-07",
-  "notes": "'32' is the edition number (32nd Manga Barcelona), not a year. Guest cards on the CONVIDATS page show only a name and a one-word category badge (MANGA/ANIME/MÚSICA/Cosplay/Arte) with no further bio text, so 'Known for' is left blank for all 18; mangaka and anime-industry guests (MANGA/ANIME badges) are filed under cat 'animation' per the field rules, Yaya Han under 'cosplay', and Oswaldo Kato (badge 'Arte') under 'other' since his specific craft wasn't stated on the card. Two all-caps stage names on the card ('ALI', 'NIGHTMARE') were written in normal capitalisation per the naming rule. Refresh 2026-10-07: added the manga duo Uririn & Hyuganatsu, a new card (MANGA badge) on the official Manga Barcelona 32 guest page."
+  "checked": "2026-10-28",
+  "notes": "'32' is the edition number (32nd Manga Barcelona), not a year. Guest cards on the CONVIDATS page show only a name and a one-word category badge (MANGA/ANIME/MÚSICA/Cosplay/Arte) with no further bio text, so 'Known for' is left blank for all 18; mangaka and anime-industry guests (MANGA/ANIME badges) are filed under cat 'animation' per the field rules, Yaya Han under 'cosplay', and Oswaldo Kato (badge 'Arte') under 'other' since his specific craft wasn't stated on the card. Two all-caps stage names on the card ('ALI', 'NIGHTMARE') were written in normal capitalisation per the naming rule. Refresh 2026-10-07: added the manga duo Uririn & Hyuganatsu, a new card (MANGA badge) on the official Manga Barcelona 32 guest page. Refresh 2026-10-28: added AR★Lu and Ronnie Kui, Míster Jägger, Aiobahn +81 and Koré Yamazaki, new cards (badges Cosplay/Videojuegos/MÚSICA/MANGA) on the official Manga Barcelona 32 guest page; all earlier picks still present."
 }

@@ -323,12 +323,23 @@
               "voice"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/anime-pasadena-r20261028.guests.json",
+          "picks": [
+            [
+              9,
+              "Maile Flanagan",
+              "Voice of Naruto",
+              "voice"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'ANIME PASADENA 2026 NOVEMBER 6th,7th and 8th, 2026'; guest cards each read 'is coming to Anime Pasadena 2026, November 6-8 at the Pasadena Convention Center'"
     }
   ],
-  "checked": "2026-10-27",
-  "notes": "Guests page (/guests) lists the full 2026 lineup with no section split, all 42 real guests picked (candidates #3-#44; #0-#2 are nav/logo/ticket-button and #45 is a closing logo+quote, both skipped). Mackenyu and Steven John Ward are categorised 'actor' (live-action One Piece cast); everyone else is 'voice' including a few with crossover live-action credits (David Gallagher, Alessandro Juliani) since their draw here is voice work. No guests were marked cancelled on the page. 2026-10-27 refresh: added Johnny Yong Bosch, Dave Wittenberg, Michelle Ruff, Christian Borle, Brianna Knickerbocker and Kristen McGuire (cards #6, #9, #36, #48, #49, #50 of the 2026-10-27 render, each \"coming to Anime Pasadena 2026\" / official guest); card #51 is a single banner for five Friday-only guests (Lauren Landa, Brian Donovan, Doug Erholtz, Michael Yurchak, Peter Kelamis) with no individual photos, so it was not picked; no picked guest was missing."
+  "checked": "2026-10-28",
+  "notes": "Guests page (/guests) lists the full 2026 lineup with no section split, all 42 real guests picked (candidates #3-#44; #0-#2 are nav/logo/ticket-button and #45 is a closing logo+quote, both skipped). Mackenyu and Steven John Ward are categorised 'actor' (live-action One Piece cast); everyone else is 'voice' including a few with crossover live-action credits (David Gallagher, Alessandro Juliani) since their draw here is voice work. No guests were marked cancelled on the page. 2026-10-27 refresh: added Johnny Yong Bosch, Dave Wittenberg, Michelle Ruff, Christian Borle, Brianna Knickerbocker and Kristen McGuire (cards #6, #9, #36, #48, #49, #50 of the 2026-10-27 render, each \"coming to Anime Pasadena 2026\" / official guest); card #51 is a single banner for five Friday-only guests (Lauren Landa, Brian Donovan, Doug Erholtz, Michael Yurchak, Peter Kelamis) with no individual photos, so it was not picked; no picked guest was missing. 2026-10-28 refresh: added Maile Flanagan (card #9 of the 2026-10-28 render, \"coming to Anime Pasadena 2026\", voice of Naruto Uzumaki); no picked guest was missing."
 }

@@ -44,18 +44,6 @@
               "actor"
             ],
             [
-              5,
-              "Charlie Cox",
-              "Daredevil, Stardust",
-              "actor"
-            ],
-            [
-              6,
-              "Vincent D'Onofrio",
-              "Full Metal Jacket, Men in Black, Jurassic World",
-              "actor"
-            ],
-            [
               7,
               "James Phelps and Oliver Phelps",
               "Harry Potter (the Weasley twins)",
@@ -80,12 +68,29 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/tokyo-comic-con-r20261028.guests.json",
+          "picks": [
+            [
+              9,
+              "John Cena",
+              "Wrestler and actor",
+              "sports"
+            ],
+            [
+              10,
+              "Melissa Benoist",
+              "Supergirl",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Japanese homepage description meta tag: '2026年12月11日（金）～12月13日（日）までの3日間、幕張メッセ...にて開催' (held over 3 days, Fri Dec 11 - Sun Dec 13, 2026, at Makuhari Messe)"
     }
   ],
-  "checked": "2026-10-08",
-  "notes": "Used the English-language mirror (tokyocomiccon.jp/en/) for romanized guest names instead of transliterating the Japanese katakana myself; each guest card gives the name in both scripts ('ニコラス・ケイジ / Nicolas Cage'). The Guest Celebrity page lists only Hollywood actors (8 cards/9 people); it does not include BEYOOOOONDS (a J-pop group announced as 2026 PR Ambassadors doing a closing-day live performance) or Yuichi Nakamaru/IMALU (announced as main MCs), since neither has a profile card on this page -- left out per the rule to only pick from the guest page's own cards, not news mentions. Refresh 2026-10-08: unchanged; the only new card in today's render (#1 AMEX) is a sponsor logo and all eight picked guests are still on the page."
+  "checked": "2026-10-28",
+  "notes": "Used the English-language mirror (tokyocomiccon.jp/en/) for romanized guest names instead of transliterating the Japanese katakana myself; each guest card gives the name in both scripts ('ニコラス・ケイジ / Nicolas Cage'). The Guest Celebrity page lists only Hollywood actors (8 cards/9 people); it does not include BEYOOOOONDS (a J-pop group announced as 2026 PR Ambassadors doing a closing-day live performance) or Yuichi Nakamaru/IMALU (announced as main MCs), since neither has a profile card on this page -- left out per the rule to only pick from the guest page's own cards, not news mentions. Refresh 2026-10-08: unchanged; the only new card in today's render (#1 AMEX) is a sponsor logo and all eight picked guests are still on the page. Refresh 2026-10-28: added John Cena and Melissa Benoist (new profile cards on the official Guest Celebrity page); removed Charlie Cox and Vincent D'Onofrio, who are on neither today's render nor a fresh re-render of the page (both show the same eight cards)."
 }

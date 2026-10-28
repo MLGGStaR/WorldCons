@@ -74,12 +74,65 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/comic-con-india-hyderabad-r20261028.guests.json",
+          "picks": [
+            [
+              8,
+              "Graphicurry",
+              "Vector caricature artist",
+              "comics"
+            ],
+            [
+              9,
+              "Rajesh Nagulakonda",
+              "Artist",
+              "comics"
+            ],
+            [
+              12,
+              "Indian Scribbles",
+              "Mumbai 2D animator and illustrator",
+              "comics"
+            ],
+            [
+              14,
+              "Comix Canal",
+              "Independent comics and graphic novels",
+              "comics"
+            ],
+            [
+              15,
+              "Dizon Draws",
+              "Anime and manga-influenced digital artist",
+              "comics"
+            ],
+            [
+              16,
+              "Black Valiant",
+              "Manga-inspired visual artist",
+              "comics"
+            ],
+            [
+              17,
+              "Aparna Chaurasia",
+              "Mangaka, Soul Contract",
+              "comics"
+            ],
+            [
+              18,
+              "Rage Sage",
+              "Indian manga universe",
+              "comics"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Page text: '11th - 13th Dec 2026 Bharat Future City, Hyderabad'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Single-page site; guests (Indian indie-comics studios and artists) and dates are on the same page, not a separate guest URL. Card images did not report a rendered size (0x0) during this headless render but each resolved to a real photo URL, so they are kept as valid picks. No edition-specific key art is published, so the cover uses the shared Comic Con India logo (see comic-con-india-delhi.json notes)."
+  "checked": "2026-10-28",
+  "notes": "Single-page site; guests (Indian indie-comics studios and artists) and dates are on the same page, not a separate guest URL. Card images did not report a rendered size (0x0) during this headless render but each resolved to a real photo URL, so they are kept as valid picks. No edition-specific key art is published, so the cover uses the shared Comic Con India logo (see comic-con-india-delhi.json notes). Refresh 2026-10-28: added eight new cards (Graphicurry, Rajesh Nagulakonda, Indian Scribbles, Comix Canal, Dizon Draws, Black Valiant, Aparna Chaurasia, Rage Sage) under INDIAN GUESTS on the official Hyderabad page; the other new-card numbers are existing picks renumbered, all earlier picks still present."
 }

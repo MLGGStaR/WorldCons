@@ -38,12 +38,41 @@
               "comics"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/comic-con-india-delhi-r20261028.guests.json",
+          "picks": [
+            [
+              11,
+              "Rajesh Nagulakonda",
+              "Krishna: Defender of Dharma artist",
+              "comics"
+            ],
+            [
+              15,
+              "Dhruv (Ubharta Kalakar)",
+              "Doodle artist from Jaipur",
+              "comics"
+            ],
+            [
+              16,
+              "Dizon",
+              "Anime and manga-inspired digital artist",
+              "comics"
+            ],
+            [
+              18,
+              "Aparna Chaurasia",
+              "Mangaka, Soul Contract",
+              "animation"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Page text: '5th - 6th Dec 2026 NSIC Exhibition Grounds, Delhi'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Single-page site (comicconindia.com/all-cities-pages-2026/delhi-comic-con); guests and dates are on the same page, not a separate guest URL. Only one guest (Ant Williams) is revealed so far; the page itself says 'More Updates Coming Soon' for the rest of the lineup. No edition-specific key art is published yet (no og/twitter image, no banner), so the cover uses the Comic Con India logo from the main homepage (pipeline/cache/extract/comic-con-india-hub.home.json), shared across all Comic Con India city files in this batch. No distinct ticket URL could be captured (the BOOK PASSES button is JS-driven, not a plain link)."
+  "checked": "2026-10-28",
+  "notes": "Single-page site (comicconindia.com/all-cities-pages-2026/delhi-comic-con); guests and dates are on the same page, not a separate guest URL. Only one guest (Ant Williams) is revealed so far; the page itself says 'More Updates Coming Soon' for the rest of the lineup. No edition-specific key art is published yet (no og/twitter image, no banner), so the cover uses the Comic Con India logo from the main homepage (pipeline/cache/extract/comic-con-india-hub.home.json), shared across all Comic Con India city files in this batch. No distinct ticket URL could be captured (the BOOK PASSES button is JS-driven, not a plain link). Refresh 2026-10-28: the Delhi page (5th - 6th Dec 2026) now has an INDIAN GUESTS section; four individual artists were added (Rajesh Nagulakonda, Dhruv, Dizon, Aparna Chaurasia). Publisher, studio and brand cards (Holy Cow, Bullseye Press, Yali Dream Creations, Indusverse, Studio Kapi, Abhijeet Kini Studios, Urban Tales, Rage Sage, Qissa Comics) were not added as they are companies rather than guests, and the venue card #4 is not a guest. Card #6 is headed ANT WILLIAMS but its image file and bio (Peacemaker: Tries Hard!, Rick and Morty) belong to Kyle Starks, so it was left out as unconfirmed; Ant Williams (#5) is unchanged."
 }

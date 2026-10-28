@@ -288,12 +288,47 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/german-film-and-comic-con-r20261028.guests.json",
+          "picks": [
+            [
+              16,
+              "Rayna Vallandingham",
+              "Cobra Kai, Street Fighter",
+              "actor"
+            ],
+            [
+              17,
+              "Jason Priestley",
+              "Beverly Hills 90210",
+              "actor"
+            ],
+            [
+              25,
+              "Nikko Angelo Hinayo",
+              "Sterling Point",
+              "actor"
+            ],
+            [
+              44,
+              "Tim Schwarzmaier",
+              "Voice of Koby in One Piece",
+              "voice"
+            ],
+            [
+              45,
+              "Daniel Schlauch",
+              "Voice of Luffy in One Piece",
+              "voice"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage: 'Saturday, 5 December 2026, 10:00 am–6:00 pm Sunday, 6 December 2026, 10:00 am–5:00 pm' at 'Messe Dortmund Rheinlanddamm 200 44139 Dortmund'."
     }
   ],
-  "checked": "2026-10-16",
-  "notes": "Single long homepage with anchor sections (#guests, #voice-actors, #salvatore); the 'Salvatore Con' section is a Vampire Diaries-franchise guest line-up marketed as part of this same Dortmund weekend, so its guests are included here rather than as a separate convention. Three wrestling guests (Jim Duggan, Merced Solis, Jake Roberts) are cards pairing a legal name with a ring name; 'known for' records both. Two more guest tiles ('Coming soon') were skipped per the rules. Known-for text for the Italian-film guests (Sal Borgese, Ottaviano Dell'Acqua, Giovanni Vettorazzo, Enzo Santaniello) is the German film title shown on their own cards, left untranslated. Refresh 2026-10-07: unchanged; the two new cards on the guest page (#41 live wrestling attraction, #51 news post about it) are attractions/news, not guests. Refresh 2026-10-16: six new guest cards on the homepage guest list (John Cena, and One Piece cast Iñaki Godoy, Aidan Scott, Callum Kerr, Jazzara Jaslyn, Tyron Koegh) added, backed by the site's Oct 13-14 news posts; the two news-post cards themselves were skipped; all earlier picks still listed."
+  "checked": "2026-10-28",
+  "notes": "Single long homepage with anchor sections (#guests, #voice-actors, #salvatore); the 'Salvatore Con' section is a Vampire Diaries-franchise guest line-up marketed as part of this same Dortmund weekend, so its guests are included here rather than as a separate convention. Three wrestling guests (Jim Duggan, Merced Solis, Jake Roberts) are cards pairing a legal name with a ring name; 'known for' records both. Two more guest tiles ('Coming soon') were skipped per the rules. Known-for text for the Italian-film guests (Sal Borgese, Ottaviano Dell'Acqua, Giovanni Vettorazzo, Enzo Santaniello) is the German film title shown on their own cards, left untranslated. Refresh 2026-10-07: unchanged; the two new cards on the guest page (#41 live wrestling attraction, #51 news post about it) are attractions/news, not guests. Refresh 2026-10-16: six new guest cards on the homepage guest list (John Cena, and One Piece cast Iñaki Godoy, Aidan Scott, Callum Kerr, Jazzara Jaslyn, Tyron Koegh) added, backed by the site's Oct 13-14 news posts; the two news-post cards themselves were skipped; all earlier picks still listed. Refresh 2026-10-28: the homepage guest list (5-6 December 2026, Messe Dortmund) shows five new guest cards (Rayna Vallandingham, Jason Priestley, Nikko Angelo Hinayo, and One Piece German voice actors Tim Schwarzmaier and Daniel Schlauch), all added; the Ian Somerhalder bourbon tasting card (#51) and the upcoming-events images (#74, #81) are not guests and were skipped; John Cena and the second Dolph Lundgren card were already picked; all earlier picks are still listed."
 }

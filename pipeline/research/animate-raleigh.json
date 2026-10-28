@@ -5,9 +5,15 @@
   "url": "https://galaxycon.com/pages/animate-raleigh",
   "organizer": "GalaxyCon",
   "status": "active",
-  "types": ["anime", "cosplay"],
+  "types": [
+    "anime",
+    "cosplay"
+  ],
   "blurb": "GalaxyCon's anime and animation convention in Raleigh, with voice actors, comic creators, wrestlers and cosplay guests.",
-  "cover": { "file": "pipeline/cache/extract/animate-raleigh.home.json", "key": "hero:3" },
+  "cover": {
+    "file": "pipeline/cache/extract/animate-raleigh.home.json",
+    "key": "hero:3"
+  },
   "editions": [
     {
       "start": "2027-01-08",
@@ -19,27 +25,10 @@
       "country": "US",
       "tickets": "https://www.eventeny.com/events/ticket/?id=28915",
       "guestsPage": "https://galaxycon.com/pages/animate-raleigh-guests",
-      "guests": "announced",
-      "lineup": [
-        {
-          "file": "pipeline/cache/extract/refute2-animate-raleigh.guests.json",
-          "picks": [
-            [1, "Erica Schroeder", "", "voice"],
-            [2, "Brandon Rogers", "", "creator"],
-            [3, "Colleen Clinkenbeard", "", "voice"],
-            [4, "Luci Christian", "", "voice"],
-            [5, "Sonny Strait", "", "voice"],
-            [6, "Justin Cook", "", "voice"],
-            [7, "Ian Sinclair", "", "voice"],
-            [8, "Erica Lindbeck", "", "voice"],
-            [9, "Christopher Sabat", "", "voice"]
-          ]
-        }
-      ],
-      "textOnlyGuests": [],
+      "guests": "none-yet",
       "evidence": "Homepage: 'JANUARY 8-10, 2027' and 'We look forward to seeing you JANUARY 8-10, 2027 at the Atlantic Union Bank Convention Center'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name (mostly touring tattoo artists and fan-club/show-car entries) could not be confidently placed in a specific category. Skipped a 'Gaming Guests Coming Soon' placeholder, a tattoo-business vendor card (Galaxie Ink) and an authentication-partner card (JSA). Refute2 pass (2026-10-05): trimmed 34 -> 9 -- only the 9 Voice Actors carry per-guest proof for this edition (filenames prefixed '2027-A!-...', uploaded to Shopify Aug-Oct 2026, weeks before today); the other 25 candidates (#10-29,32-34,36-37) use generic 'Animate!-Website-500x500-x' or '26-Animate!-...' filenames with no 2027 marker, uploaded 2024-02/2026, and a WebSearch confirms three of them by name (AstraVoid, Spyderstang, Leva Bates) already appeared at Animate! Raleigh's prior edition (originally Jan 2026, postponed to March 2026 after a venue fire), so the rest of the grid reads as that edition's carried-over lineup, not a new 2027 booking; dropped per 'no proof' and kept only the 9 with positive evidence."
+  "checked": "2026-10-28",
+  "notes": "Guest cards show only name + which days, no show credits, so Known for is left blank throughout; categories are from general knowledge, with 'other' used where a name (mostly touring tattoo artists and fan-club/show-car entries) could not be confidently placed in a specific category. Skipped a 'Gaming Guests Coming Soon' placeholder, a tattoo-business vendor card (Galaxie Ink) and an authentication-partner card (JSA). Refute2 pass (2026-10-05): trimmed 34 -> 9 -- only the 9 Voice Actors carry per-guest proof for this edition (filenames prefixed '2027-A!-...', uploaded to Shopify Aug-Oct 2026, weeks before today); the other 25 candidates (#10-29,32-34,36-37) use generic 'Animate!-Website-500x500-x' or '26-Animate!-...' filenames with no 2027 marker, uploaded 2024-02/2026, and a WebSearch confirms three of them by name (AstraVoid, Spyderstang, Leva Bates) already appeared at Animate! Raleigh's prior edition (originally Jan 2026, postponed to March 2026 after a venue fire), so the rest of the grid reads as that edition's carried-over lineup, not a new 2027 booking; dropped per 'no proof' and kept only the 9 with positive evidence. Refresh 2026-10-28: removed the lineup and set guests to none-yet; the homepage and guest page (fresh render) now head the page 'Animate! Raleigh October 22-24, 2027' and no longer mention January 8-10, 2027, five of the nine picks (Sonny Strait, Justin Cook, Ian Sinclair, Erica Lindbeck, Christopher Sabat) are gone and the page says 'Voice Actors Coming Soon', so no lineup can be tied to the January 2027 edition. The January 2027 dates themselves can no longer be confirmed from the official site and need a manual check (the site now shows an October 22-24, 2027 edition with a new ticket link)."
 }

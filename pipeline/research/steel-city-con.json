@@ -216,12 +216,20 @@
               "sports"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/steel-city-con-r20261016-r20261028.guests.json",
+          "picks": [
+            [11, "Jamie Kennedy", "Scream, Son of the Mask", "actor"],
+            [14, "Valorie Curry", "The Boys, The Following", "actor"],
+            [15, "Harland Williams", "Dumb and Dumber, Robots", "actor"]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Homepage text: 'JOIN US FOR THE NEXT SHOW DECEMBER 4 - 6 | 2026'; confirmed again on /schedule/ page ('DECEMBER 4 - 6 | 2026 CELEBRITY PRICING AND SCHEDULE'). Venue from meta description: 'The Steel City Con is the exclusive comic con of the Monroeville Convention Center.'"
     }
   ],
-  "checked": "2026-10-16",
-  "notes": "Runs multiple shows a year but only one future date is announced on the site (Dec 4-6 2026); no 2027 show has been posted yet, so only this edition is listed. Organizer/producer name is not stated anywhere on the site (no footer copyright line found), so left blank rather than guessed; batch note's 'successor to Pittsburgh Comicon/Wizard World Pittsburgh' lineage was not independently re-verified this pass. #25 Shawn Coss has his own portrait but no bio text on the card (categorized as comics on general knowledge of him as an illustrator); a 'Niobe' comic-book promo card naming artist Caanan White was excluded as a product tie-in, not a guest-appearance card (no 'Days Attending' info, unlike every real guest card). Refresh 2026-10-08: the homepage celebrity list (December 4 - 6, 2026) shows a new card, Chester Rushing (Fri, Sat, Sun), added; all earlier picks are still listed. Refresh 2026-10-16: the homepage celebrity list (December 4 - 6, 2026) shows three new cards with Days Attending, Jonathan Frakes, Malakai Black and Thea Trinidad, all added; all earlier picks are still listed."
+  "checked": "2026-10-28",
+  "notes": "Runs multiple shows a year but only one future date is announced on the site (Dec 4-6 2026); no 2027 show has been posted yet, so only this edition is listed. Organizer/producer name is not stated anywhere on the site (no footer copyright line found), so left blank rather than guessed; batch note's 'successor to Pittsburgh Comicon/Wizard World Pittsburgh' lineage was not independently re-verified this pass. #25 Shawn Coss has his own portrait but no bio text on the card (categorized as comics on general knowledge of him as an illustrator); a 'Niobe' comic-book promo card naming artist Caanan White was excluded as a product tie-in, not a guest-appearance card (no 'Days Attending' info, unlike every real guest card). Refresh 2026-10-08: the homepage celebrity list (December 4 - 6, 2026) shows a new card, Chester Rushing (Fri, Sat, Sun), added; all earlier picks are still listed. Refresh 2026-10-16: the homepage celebrity list (December 4 - 6, 2026) shows three new cards with Days Attending, Jonathan Frakes, Malakai Black and Thea Trinidad, all added; all earlier picks are still listed. Refresh 2026-10-28: the homepage celebrity list (December 4 - 6, 2026) shows three new cards with Days Attending, Jamie Kennedy, Valorie Curry and Harland Williams, all added; all earlier picks are still listed."
 }
