@@ -38,12 +38,6 @@
               "actor"
             ],
             [
-              3,
-              "Ryan Eggold",
-              "Tom Keen in The Blacklist",
-              "actor"
-            ],
-            [
               4,
               "Shawn Ashmore",
               "Iceman in the X-Men films",
@@ -112,12 +106,23 @@
               "author"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/heroes-dutch-comic-con-r20261109.guests.json",
+          "picks": [
+            [
+              10,
+              "Katherine McNamara",
+              "Clary Fray in Shadowhunters",
+              "actor"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Page title: 'Heroes Dutch Comic Con Winter - November 21 & 22, 2026'; page text: 'Mark your calendars for November 21 & 22, 2026'."
     }
   ],
-  "checked": "2026-10-21",
-  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md. Refresh 2026-10-06: added Kenneth Choi, newly listed under OUR LINE-UP on the special-guests page (card: best known as Captain and firefighter Howard 'Chimney' Han in the hit series). Refresh 2026-10-11: added Nola Klop and Elsie Lovelock, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026); Nola Klop's card says she lent her Dutch voice to Pomni, Elsie Lovelock's that she voices Uzi. 2026-10-14 refresh: added Emily Bett Rickards, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026; card: best known as Felicity Smoak in Arrow); nobody picked was missing. 2026-10-21 refresh: added Bridget Regan and Paul van Loon, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026; cards: Bridget Regan as Kahlan Amnell, Paul van Loon a beloved Dutch author); nobody picked was missing."
+  "checked": "2026-11-09",
+  "notes": "HDCC also runs a Summer edition each year under the same brand/venue (per the seed note), but no Summer 2027 dates are announced on the site yet, so only this confirmed Winter edition is listed. Skipped candidate #6 ('SPECIAL GUEST COMING SOON'), a placeholder tile, not a real guest. The page's JSON-LD end date (2026-06-21) is stale/wrong; the title and visible page text both confirm Nov 21-22, 2026, which was trusted instead per RESEARCH.md. Refresh 2026-10-06: added Kenneth Choi, newly listed under OUR LINE-UP on the special-guests page (card: best known as Captain and firefighter Howard 'Chimney' Han in the hit series). Refresh 2026-10-11: added Nola Klop and Elsie Lovelock, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026); Nola Klop's card says she lent her Dutch voice to Pomni, Elsie Lovelock's that she voices Uzi. 2026-10-14 refresh: added Emily Bett Rickards, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026; card: best known as Felicity Smoak in Arrow); nobody picked was missing. 2026-10-21 refresh: added Bridget Regan and Paul van Loon, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026; cards: Bridget Regan as Kahlan Amnell, Paul van Loon a beloved Dutch author); nobody picked was missing. Refresh 2026-11-09: added Katherine McNamara, newly listed under OUR LINE-UP on the special-guests page (page dated November 21 & 22, 2026); removed Ryan Eggold, who is no longer on the page (today's render lists ten cards without him; no cancellation notice seen)."
 }

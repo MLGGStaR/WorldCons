@@ -5,9 +5,17 @@
   "url": "https://coloradocosmiccon.com",
   "organizer": "",
   "status": "active",
-  "types": ["toys", "comics", "horror", "pop"],
+  "types": [
+    "toys",
+    "comics",
+    "horror",
+    "pop"
+  ],
   "blurb": "Fall-themed, horror-tinged mini-con in Colorado Springs with trading cards, comic books, toys and celebrity guests.",
-  "cover": { "file": "pipeline/cache/extract/colorado-cosmic-con.home.json", "key": "hero:0" },
+  "cover": {
+    "file": "pipeline/cache/extract/colorado-cosmic-con.home.json",
+    "key": "hero:0"
+  },
   "editions": [
     {
       "start": "2026-11-14",
@@ -24,11 +32,47 @@
         {
           "file": "pipeline/cache/extract/colorado-cosmic-con.guests.json",
           "picks": [
-            [1, "Katie Cassidy", "", "actor"],
-            [2, "Amanda Detmer", "", "actor"],
-            [3, "Marti Matulis", "", "other"],
-            [4, "Christopher Serrone", "", "actor"],
-            [5, "Jason Montoya", "", "other"]
+            [
+              1,
+              "Katie Cassidy",
+              "",
+              "actor"
+            ],
+            [
+              2,
+              "Amanda Detmer",
+              "",
+              "actor"
+            ],
+            [
+              3,
+              "Marti Matulis",
+              "",
+              "other"
+            ],
+            [
+              4,
+              "Christopher Serrone",
+              "",
+              "actor"
+            ],
+            [
+              5,
+              "Jason Montoya",
+              "",
+              "other"
+            ]
+          ]
+        },
+        {
+          "file": "pipeline/cache/extract/colorado-cosmic-con-r20261109.guests.json",
+          "picks": [
+            [
+              2,
+              "Sam J. Jones",
+              "",
+              "actor"
+            ]
           ]
         }
       ],
@@ -36,6 +80,6 @@
       "evidence": "Homepage: 'November 14-15, 2026'; guests page: 'EVENT DETAILS November 14-15, 2026 Norris Penrose Event Center 1045 Lower Gold Camp Rd, Colorado Springs, CO'"
     }
   ],
-  "checked": "2026-10-05",
-  "notes": "Guest cards under 'CELEBRITY GUESTS' and 'CREATOR GUESTS' carried only photo + name, no bio text, so known-for is left blank for all five per the photo-only-card rule. cat is a best-effort guess only where reasonably confident (Katie Cassidy, Amanda Detmer, Christopher Serrone are working screen actors); Marti Matulis and creator-guest Jason Montoya could not be confidently identified, so cat is 'other' for both rather than guessed. Types expanded from the seed's 'toys, horror, pop' to include 'comics', since the con's own name/tagline is 'Cosmic Con Cards, Comics, & Toy Show' and its about text centers on comic books. Organizer name not stated anywhere on the site."
+  "checked": "2026-11-09",
+  "notes": "Guest cards under 'CELEBRITY GUESTS' and 'CREATOR GUESTS' carried only photo + name, no bio text, so known-for is left blank for all five per the photo-only-card rule. cat is a best-effort guess only where reasonably confident (Katie Cassidy, Amanda Detmer, Christopher Serrone are working screen actors); Marti Matulis and creator-guest Jason Montoya could not be confidently identified, so cat is 'other' for both rather than guessed. Types expanded from the seed's 'toys, horror, pop' to include 'comics', since the con's own name/tagline is 'Cosmic Con Cards, Comics, & Toy Show' and its about text centers on comic books. Organizer name not stated anywhere on the site. 2026-11-09 refresh: added Sam J. Jones, a new card (alt \"Sam J Jones Guest Image\", no bio text so known-for left blank) on the Guests page that gives November 14-15, 2026; nobody picked was missing."
 }

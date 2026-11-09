@@ -133,12 +133,6 @@
               "actor"
             ],
             [
-              20,
-              "Romeo Carere",
-              "Ocam Sadal, Starfleet Academy",
-              "actor"
-            ],
-            [
               21,
               "Karim Diané",
               "Jay-Den Kraag, Starfleet Academy",
@@ -263,12 +257,41 @@
               "actor"
             ]
           ]
+        },
+        {
+          "file": "pipeline/cache/extract/st-phl-trek-to-philadelphia-r20261109.guests.json",
+          "picks": [
+            [
+              36,
+              "David Gerrold",
+              "Writer on The Original Series, TAS & TNG",
+              "author"
+            ],
+            [
+              39,
+              "Ian Spelling",
+              "Author, Beyond The Final Frontier podcast host",
+              "author"
+            ],
+            [
+              40,
+              "Tamia Harper",
+              "Host, The Syfy Sistas",
+              "creator"
+            ],
+            [
+              41,
+              "Laurie Ulster",
+              "TrekMovie writer and podcaster",
+              "creator"
+            ]
+          ]
         }
       ],
       "textOnlyGuests": [],
       "evidence": "Event page: 'ST-PHL: TREK TO PHILADELPHIA 60th CELEBRATION November 14-15, 2026 Sheraton Philadelphia Downtown Hotel 201 N 17th Street Philadelphia, PA 19103'."
     }
   ],
-  "checked": "2026-10-20",
-  "notes": "Kate Mulgrew (candidate #38) is skipped: the page's own Sept. 25 update says she is unable to attend and refunds are being issued. Every pick's name/character text came directly from this page's own guest cards (no WebFetch needed), including a few non-actor panelists (virologist/astrophysicists, a script coordinator, a comics artist) filed under 'other'/'comics' rather than 'actor'. 2026-10-06 refresh: added Dr. Kim Arcand (new card, Appearing Saturday) and removed Dr. Jess Stasik and Dr. Liv Greene, who are no longer on the guest page (static page, not rotating). 2026-10-20 refresh: added Anthony Rapp and Dominic Keating (new cards in today's render, 'Appearing Saturday & Sunday') and removed Michelle Hurd, whose card now says 'Oct. 19: Unfortunately, Michelle Hurd is unable to attend the convention'."
+  "checked": "2026-11-06",
+  "notes": "Kate Mulgrew (candidate #38) is skipped: the page's own Sept. 25 update says she is unable to attend and refunds are being issued. Every pick's name/character text came directly from this page's own guest cards (no WebFetch needed), including a few non-actor panelists (virologist/astrophysicists, a script coordinator, a comics artist) filed under 'other'/'comics' rather than 'actor'. 2026-10-06 refresh: added Dr. Kim Arcand (new card, Appearing Saturday) and removed Dr. Jess Stasik and Dr. Liv Greene, who are no longer on the guest page (static page, not rotating). 2026-10-20 refresh: added Anthony Rapp and Dominic Keating (new cards in today's render, 'Appearing Saturday & Sunday') and removed Michelle Hurd, whose card now says 'Oct. 19: Unfortunately, Michelle Hurd is unable to attend the convention'. 2026-11-09 refresh: added David Gerrold, Ian Spelling, Tamia Harper and Laurie Ulster (new cards in today's render, moderators/writers) and removed Romeo Carere, whose card now says 'Oct. 30: Unfortunately, Romeo Carere is unable to attend the convention'. 2026-11-06 refresh: verified David Gerrold (#36), Ian Spelling (#39), Tamia Harper (#40), Laurie Ulster (#41) present in today's render; no new picks or removals."
 }
